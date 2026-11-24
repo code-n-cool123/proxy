@@ -1,0 +1,1697 @@
+{
+ "slug": "thaotpnguyen",
+ "inputUrl": "https://www.linkedin.com/in/thaotpnguyen",
+ "fetchedAt": "2026-11-08T23:00:08.987Z",
+ "id": "6af0fef8af440f0df0ab7265",
+ "url": "https://www.linkedin.com/in/thaotpnguyen",
+ "profile": {
+  "created": 1347905495891,
+  "trackingId": "8k7vWh9kQ2ibq+AafKfPpA==",
+  "firstName": "Thao",
+  "lastName": "Nguyen",
+  "pronoun": null,
+  "versionTag": "1770445227",
+  "headline": "Backend Software Engineer",
+  "publicIdentifier": "thaotpnguyen",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "204691859",
+  "profileId": "ACoAAAwzWZMBmYiQA3-9y6GdYeQTInXhF-pK0So",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+   "424x424": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+   "424x424": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Santa Clara, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Backend engineer on the Java calculation engine behind Adaptive Planning: multi-currency consolidation, intercompany elimination, and archived versions for enterprise FP&A customers. Contracted to the same team Dec 2023 – Jun 2025 (see Magnit Global entry).\n\n- Multi-currency consolidation (Cumulative Translation Adjustment): took over a 40%-complete rewrite, redesigned it, and finished it solo. Replaced per-cell scalar conversion with a single-pass grid that computes assigned-rate and period-end conversions side by side and takes their delta. Routed the legacy path through the new engine behind feature flags, with parity tests proving identical output before cutover. Shipping in the upcoming release.\n\n- Intercompany elimination: designed and implemented solo, from design doc to code, a replacement for the recursive \"pull\" elimination engine. Trading partners are resolved once at build time into a pre-indexed pipeline, and the engine stores source coordinates rather than computed values, so intercompany amounts cancel in a vectorized pass with incremental updates and no circular-reference tracking.\n\n- Reliability: fixed high-severity customer escalations on release branches, including numerical-correctness and metadata-caching defects that were blocking archives.",
+    "insights": "Skills: Claude Code Subagents · Cursors · Java · Prompt Engineering · Adaptive Insights · Financial Consolidation · Multithreading",
+    "company": {
+     "url": "https://www.linkedin.com/company/29762/",
+     "name": "Workday Adaptive Planning",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "Contract software engineer on Workday's Adaptive Planning Computing Engine team, the Java calculation engine behind the product; converted to full-time at Workday in June 2025.\n\nArchived Versions (freezing a planning version so it stays byte-stable and loads fast)\n- Owned the \"view error location\" capability: new API endpoint, location recording in the archive path, and protobuf responses so customers can jump directly to any error in a frozen version.\n- Built the tool that diffs live vs. archived model state using vectorized comparison; it caught release-blocking defects before customers hit them and eliminated false positives in data-integrity checks.\n- Wrote the unit-test framework for the feature and 600+ tests, taking the subsystem to 100% coverage.\n\nCube columnar view, team of 3 (shows a cube sheet as one flat, sortable list of rows for bulk data entry)\n- Owned the hardest part, the multi-key sort. Users sort by many keys at once; chosen keys sort by display name and every remaining key falls back to tree order, so every request returns the same total ordering. Keys are hierarchy objects rather than strings, so they are resolved once per distinct entity into fixed integer pairs and shared across rows with the same account, level, and dimension combination. The comparator works on those pairs directly instead of repeating lookups, type branching, and boxing on every one of the O(n log n) comparisons.\n- Resolved linked accounts into flat rows through a multi-threaded evaluator with weighted-average rollups; enforced row-level access control with result truncation inside the evaluator.",
+    "insights": "Skills: Python (Programming Language) · Java · Adaptive Insights",
+    "company": {
+     "url": "https://www.linkedin.com/company/88289095/",
+     "name": "Magnit Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw"
+     }
+    }
+   },
+   {
+    "title": "Revenue Analyst",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Executed GAAP-compliant revenue recognition across multi-product SKUs and collaborated with IT on system logic validation and edge-case testing.\nStandardized analytical reporting tools in SAP and Excel, which reduced monthly-close turnaround and improved forecasting accuracy for management.\n",
+    "insights": "Skills: SAP ERP",
+    "company": {
+     "url": "https://www.linkedin.com/company/165303/",
+     "name": "Omnicell",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Koltek Energy Service dba Terrapin Energy Services",
+     "url": "https://www.linkedin.com/company/2482363/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU"
+     }
+    },
+    "locationName": "Mountain View, CA",
+    "employmentType": null,
+    "totalDuration": "11 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Financial Accounting Manager",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "9 yrs 7 mos",
+      "description": "Created operating metrics for each company that led to improved accountability for operation, reduced and prevented fraudulent.\nCreated and directed the implementation of new compensation plan to comply with FLSA new regulation, and to minimize downtime cost.\nManage all aspects of accounting include AR, AP, Cash flow, assets & capital management, payroll & inventory control.\nProvide timely explanation of variances between actual and forecast/ budget; provide corrective action recommendation where necessary to the CEO.\nReview the pricing proposal of service to customers and prospective customers.\nPrepare tax planning, schedule, and coordinate tax related documents to external tax group.\nWork with internal and external auditors during review to ensure full cooperation and compliance. \nReview and authorize monthly JE account analysis, forecast budgets and financial statements.\nAnalyze costs that exceed budget and make recommendation to reduce cost or make adjustment/ resource reallocation to budget plan if the cause of the increase in cost is justified and unavoidable.\n",
+      "insights": ""
+     },
+     {
+      "title": "Staff Accountant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2014
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "Supported top management by providing accounting insights when choosing potential projects, including assessing operational & material costs, projecting profit based on scope of the proposal.\nTrained junior accounting staff to maintain high level of accuracy and performance.\nAudited inventory report, implemented changes to the procedure that improved accuracy and timeliness. \nReviewed operating cost, monitored pricing proposal and tracked revenue.\nReviewed and approved sales tax reports to multiple states.\nOptimized spending by negotiating with suppliers for more competitive pricing, supporting local start up/ contractors.\nOverlooked AP, AR, Payroll, Bank and credit cards reconciliations. Implemented internal procedure to ensure proper workflow and provided \nPrepared sales compensation plan and monthly commission payout.\nReviewed financial statements to assess data integrity before submitting to top management.\nAssisted with quarterly and year-end closings as well as audit preparation.\n",
+      "insights": ""
+     },
+     {
+      "title": "Internship",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Hands-on experience in AR, AP and payroll. \nInvoiced, posted customers' payments, posted revenue, updated receivables.\nEntered bills, paid bills, updated payable. \nVerified time sheet and processed payroll.\nReconciled bank statements. ",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Math Tutor",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2009
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Tutored students in math individually and in small groups\nCustomized tutoring to meet the needs of individual student learning styles\nExplained difficult concepts\nTaught students valuable study skills",
+    "company": {
+     "url": "",
+     "name": "Math & Science Tutorial Center, De Anza College",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Accounting Assistant",
+    "locationName": "Ho Chi Minh City, Viet Nam",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Worked in a team to process daily financial statements\nRecorded employees’ weekly time card \nAnalyzed shipment inventory and reconciled discrepancies\nResponsible for inventory\nUsed Excel to organize, analyze and present data\nResponsible for cash account to reconciling bills payable",
+    "company": {
+     "url": "",
+     "name": "Cholon Garment Manufactured Exported - Imported Co. Ltd",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_200_200/company-logo_200_200/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=w7UzjIo_LHrI45ecR6wazYnGPbWRfGMwTvpcAXvQGQU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_100_100/company-logo_100_100/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=wg0h7zPd4Og9x6cskpgP5EJsBgTbMqeYwB7Sr2qA1bc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3032535/",
+    "schoolName": "Hack Reactor",
+    "degreeName": "Advanced Software Engineering Immersive",
+    "fieldOfStudy": "Advanced Software Engineering Immersive",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Santa Clara University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Accounting",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2012
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Volunteer",
+    "companyName": "Habitat for Humanity International",
+    "description": "Worked on a team to organize fundraising and open house\nGot trained and worked under supervision to build house for low-income families\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7680/",
+     "name": "Habitat for Humanity International",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_400_400/B4EZw41xNaIkAY-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=oq3DL5sxBPeO1q3X7gI0UAd9XmM066RX2GRjKhoaDZE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_200_200/B4EZw41xNaIkAI-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=qbmw-fan4yMuub_kz2WOilbfMMKaBjNhES6mrEhiP60",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_100_100/B4EZw41xNaIkAQ-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=taiLgZXBeO914vWhJ2r7XzbDlVugdSv-0nIIKwtlyzs"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Belli Hunter | Autonomous AI-Assisted Trading Platform ",
+    "description": "Python 3.11, FastAPI, Pydantic v2, Supabase, Alpaca API, Modal, Claude API\n\n- Serverless FastAPI service that takes TradingView webhooks through risk, research, sizing, and execution stages. A Claude agent using forced tool-use returns a structured verdict with a recorded rationale; any ambiguous or contradictory output fails closed, so no trade executes without a clean verdict.\n\n- Position sizing, slippage tolerance, and agent strictness adapt to a market-cap and volatility tier assigned per signal.\n\n- Safety controls: daily-loss circuit breaker, stale-signal rejection, idempotent execution, and a two-key environment interlock that blocks live trading unless both keys are set. Every signal and fill is journaled append-only and reconciled asynchronously.\n\n- Built and tested against a paper account. Designed by me; implemented with Claude Code.",
+    "dateRange": {},
+    "associatedWith": ""
+   },
+   {
+    "title": "Funnel | nightly candidate-selection and strategy-mapping pipeline",
+    "description": "Python 3.11, DuckDB, Parquet, Pydantic, PyYAML, pytest, EODHD and Alpaca APIs, Claude Code\n\n- Runs nightly on cron over the full US equity list: symbol census, bulk end-of-day ingest, universe filters, feature computation, market-regime classification, fuzzy matching of each symbol to one of four versioned strategy archetypes, within-archetype grading, and cross-sectional A/B/C tiering into a daily report with concrete trade cards.\n\n- Designed as a selection machine, not a permission machine: continuous scores replace binary vetoes (hard vetoes capped at three), tiers are assigned by percentile so the report cannot degenerate to all-C, and the report is never empty. The nightly run makes no LLM calls, so identical inputs produce byte-identical output, verified by golden-file tests.\n\n- Data layer audits itself: a provider adapter boundary with Pydantic-validated responses, a trailing-window revision audit that records silent provider restatements as events instead of overwriting them, a second-provider watchdog cross-check, a shadow log tracking forward return and excursion for every emitted candidate whether traded or not, and grade-distribution alarms.\n\n- Replaced an earlier gate-based swing digest after its audits showed the code matched the spec while output stayed degenerate; that failure analysis is the design basis for the Funnel.\n\n- Specified and designed by me; implemented with Claude Code against the spec, with every module reviewed and tested before merge.",
+    "dateRange": {},
+    "associatedWith": ""
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Adaptive from Workday",
+  "companyPublicId": "adaptive-insights",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/adaptive-insights/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:29762",
+   "name": "Adaptive from Workday",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQE-012D9cWA5w",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+       "expiresAt": 1795651200000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+       "expiresAt": 1795651200000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_"
+    }
+   },
+   "universalName": "adaptive-insights",
+   "url": "https://www.linkedin.com/company/adaptive-insights/",
+   "slug": "adaptive-insights",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+   "specialties": []
+  },
+  "followerCount": 82,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 78,
+  "skills": [
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Financial Consolidation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code Subagents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cursors",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ADP Payroll",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Adaptive Insights",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "SAP ERP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Superior Computer Skills",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Advanced skills in QuickBooks, Peachtree, Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Organization & prioritization skills",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Passion for Quality",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Positive Can-do Attitude",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Work Well Independently",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Financial Consolidation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cursors",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Superior Computer Skills",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Tax Preparation",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Journal Entries",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Accounts Receivable",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Accounting",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "ADP Payroll",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Adaptive Insights",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "SAP ERP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Peachtree",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "QuickBooks",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code Subagents",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/thaotpnguyen",
+  "linkedinUrl": "https://www.linkedin.com/in/thaotpnguyen",
+  "profileUrl": "https://www.linkedin.com/in/thaotpnguyen",
+  "verified": false,
+  "registeredAt": "2012-09-17T18:11:35.891Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Revenue Analyst",
+   "Math Tutor",
+   "Accounting Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Santa Clara, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Backend engineer on the Java calculation engine behind Adaptive Planning: multi-currency consolidation, intercompany elimination, and archived versions for enterprise FP&A customers. Contracted to the same team Dec 2023 – Jun 2025 (see Magnit Global entry).\n\n- Multi-currency consolidation (Cumulative Translation Adjustment): took over a 40%-complete rewrite, redesigned it, and finished it solo. Replaced per-cell scalar conversion with a single-pass grid that computes assigned-rate and period-end conversions side by side and takes their delta. Routed the legacy path through the new engine behind feature flags, with parity tests proving identical output before cutover. Shipping in the upcoming release.\n\n- Intercompany elimination: designed and implemented solo, from design doc to code, a replacement for the recursive \"pull\" elimination engine. Trading partners are resolved once at build time into a pre-indexed pipeline, and the engine stores source coordinates rather than computed values, so intercompany amounts cancel in a vectorized pass with incremental updates and no circular-reference tracking.\n\n- Reliability: fixed high-severity customer escalations on release branches, including numerical-correctness and metadata-caching defects that were blocking archives.",
+    "insights": "Skills: Claude Code Subagents · Cursors · Java · Prompt Engineering · Adaptive Insights · Financial Consolidation · Multithreading",
+    "company": {
+     "url": "https://www.linkedin.com/company/29762/",
+     "name": "Workday Adaptive Planning",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Workday Adaptive Planning",
+    "location": "Santa Clara, CA · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/29762/",
+    "companyId": "29762",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Koltek Energy Service dba Terrapin Energy Services",
+     "url": "https://www.linkedin.com/company/2482363/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU"
+     }
+    },
+    "locationName": "Mountain View, CA",
+    "totalDuration": "11 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Financial Accounting Manager",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "9 yrs 7 mos",
+      "description": "Created operating metrics for each company that led to improved accountability for operation, reduced and prevented fraudulent.\nCreated and directed the implementation of new compensation plan to comply with FLSA new regulation, and to minimize downtime cost.\nManage all aspects of accounting include AR, AP, Cash flow, assets & capital management, payroll & inventory control.\nProvide timely explanation of variances between actual and forecast/ budget; provide corrective action recommendation where necessary to the CEO.\nReview the pricing proposal of service to customers and prospective customers.\nPrepare tax planning, schedule, and coordinate tax related documents to external tax group.\nWork with internal and external auditors during review to ensure full cooperation and compliance. \nReview and authorize monthly JE account analysis, forecast budgets and financial statements.\nAnalyze costs that exceed budget and make recommendation to reduce cost or make adjustment/ resource reallocation to budget plan if the cause of the increase in cost is justified and unavoidable.\n",
+      "insights": ""
+     },
+     {
+      "title": "Staff Accountant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2014
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "Supported top management by providing accounting insights when choosing potential projects, including assessing operational & material costs, projecting profit based on scope of the proposal.\nTrained junior accounting staff to maintain high level of accuracy and performance.\nAudited inventory report, implemented changes to the procedure that improved accuracy and timeliness. \nReviewed operating cost, monitored pricing proposal and tracked revenue.\nReviewed and approved sales tax reports to multiple states.\nOptimized spending by negotiating with suppliers for more competitive pricing, supporting local start up/ contractors.\nOverlooked AP, AR, Payroll, Bank and credit cards reconciliations. Implemented internal procedure to ensure proper workflow and provided \nPrepared sales compensation plan and monthly commission payout.\nReviewed financial statements to assess data integrity before submitting to top management.\nAssisted with quarterly and year-end closings as well as audit preparation.\n",
+      "insights": ""
+     },
+     {
+      "title": "Internship",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Hands-on experience in AR, AP and payroll. \nInvoiced, posted customers' payments, posted revenue, updated receivables.\nEntered bills, paid bills, updated payable. \nVerified time sheet and processed payroll.\nReconciled bank statements. ",
+      "insights": ""
+     }
+    ],
+    "companyName": "Koltek Energy Service dba Terrapin Energy Services",
+    "location": "Mountain View, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2482363/",
+    "companyId": "2482363",
+    "duration": "11 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "Contract software engineer on Workday's Adaptive Planning Computing Engine team, the Java calculation engine behind the product; converted to full-time at Workday in June 2025.\n\nArchived Versions (freezing a planning version so it stays byte-stable and loads fast)\n- Owned the \"view error location\" capability: new API endpoint, location recording in the archive path, and protobuf responses so customers can jump directly to any error in a frozen version.\n- Built the tool that diffs live vs. archived model state using vectorized comparison; it caught release-blocking defects before customers hit them and eliminated false positives in data-integrity checks.\n- Wrote the unit-test framework for the feature and 600+ tests, taking the subsystem to 100% coverage.\n\nCube columnar view, team of 3 (shows a cube sheet as one flat, sortable list of rows for bulk data entry)\n- Owned the hardest part, the multi-key sort. Users sort by many keys at once; chosen keys sort by display name and every remaining key falls back to tree order, so every request returns the same total ordering. Keys are hierarchy objects rather than strings, so they are resolved once per distinct entity into fixed integer pairs and shared across rows with the same account, level, and dimension combination. The comparator works on those pairs directly instead of repeating lookups, type branching, and boxing on every one of the O(n log n) comparisons.\n- Resolved linked accounts into flat rows through a multi-threaded evaluator with weighted-average rollups; enforced row-level access control with result truncation inside the evaluator.",
+    "insights": "Skills: Python (Programming Language) · Java · Adaptive Insights",
+    "company": {
+     "url": "https://www.linkedin.com/company/88289095/",
+     "name": "Magnit Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Magnit Global",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/88289095/",
+    "companyId": "88289095",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Revenue Analyst",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Executed GAAP-compliant revenue recognition across multi-product SKUs and collaborated with IT on system logic validation and edge-case testing.\nStandardized analytical reporting tools in SAP and Excel, which reduced monthly-close turnaround and improved forecasting accuracy for management.\n",
+    "insights": "Skills: SAP ERP",
+    "company": {
+     "url": "https://www.linkedin.com/company/165303/",
+     "name": "Omnicell",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM"
+     }
+    },
+    "position": "Revenue Analyst",
+    "companyName": "Omnicell",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165303/",
+    "companyId": "165303",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Math Tutor",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2009
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Tutored students in math individually and in small groups\nCustomized tutoring to meet the needs of individual student learning styles\nExplained difficult concepts\nTaught students valuable study skills",
+    "company": {
+     "url": "",
+     "name": "Math & Science Tutorial Center, De Anza College",
+     "logo": {}
+    },
+    "position": "Math Tutor",
+    "companyName": "Math & Science Tutorial Center, De Anza College",
+    "location": "Cupertino, CA",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Accounting Assistant",
+    "locationName": "Ho Chi Minh City, Viet Nam",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Worked in a team to process daily financial statements\nRecorded employees’ weekly time card \nAnalyzed shipment inventory and reconciled discrepancies\nResponsible for inventory\nUsed Excel to organize, analyze and present data\nResponsible for cash account to reconciling bills payable",
+    "company": {
+     "url": "",
+     "name": "Cholon Garment Manufactured Exported - Imported Co. Ltd",
+     "logo": {}
+    },
+    "position": "Accounting Assistant",
+    "companyName": "Cholon Garment Manufactured Exported - Imported Co. Ltd",
+    "location": "Ho Chi Minh City, Viet Nam",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "29762",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/adaptive-insights/",
+    "companyName": "Adaptive from Workday",
+    "companyLogo": {
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "vectorImage": {
+      "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQE-012D9cWA5w",
+      "attribution": null,
+      "c2paManifestData": null,
+      "artifacts": [
+       {
+        "width": 400,
+        "fileIdentifyingUrlPathSegment": "400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+        "expiresAt": 1795651200000,
+        "height": 400
+       },
+       {
+        "width": 200,
+        "fileIdentifyingUrlPathSegment": "200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+        "expiresAt": 1795651200000,
+        "height": 200
+       },
+       {
+        "width": 100,
+        "fileIdentifyingUrlPathSegment": "100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+        "expiresAt": 1795651200000,
+        "height": 100
+       }
+      ],
+      "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_"
+     },
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+       "width": 400,
+       "height": 400,
+       "expiresAt": 1795651200000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+       "width": 200,
+       "height": 200,
+       "expiresAt": 1795651200000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+       "width": 100,
+       "height": 100,
+       "expiresAt": 1795651200000
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "29762",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/29762/",
+    "companyName": "Workday Adaptive Planning",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "2482363",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2482363/",
+    "companyName": "Koltek Energy Service dba Terrapin Energy Services",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Santa Clara, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Backend engineer on the Java calculation engine behind Adaptive Planning: multi-currency consolidation, intercompany elimination, and archived versions for enterprise FP&A customers. Contracted to the same team Dec 2023 – Jun 2025 (see Magnit Global entry).\n\n- Multi-currency consolidation (Cumulative Translation Adjustment): took over a 40%-complete rewrite, redesigned it, and finished it solo. Replaced per-cell scalar conversion with a single-pass grid that computes assigned-rate and period-end conversions side by side and takes their delta. Routed the legacy path through the new engine behind feature flags, with parity tests proving identical output before cutover. Shipping in the upcoming release.\n\n- Intercompany elimination: designed and implemented solo, from design doc to code, a replacement for the recursive \"pull\" elimination engine. Trading partners are resolved once at build time into a pre-indexed pipeline, and the engine stores source coordinates rather than computed values, so intercompany amounts cancel in a vectorized pass with incremental updates and no circular-reference tracking.\n\n- Reliability: fixed high-severity customer escalations on release branches, including numerical-correctness and metadata-caching defects that were blocking archives.",
+    "insights": "Skills: Claude Code Subagents · Cursors · Java · Prompt Engineering · Adaptive Insights · Financial Consolidation · Multithreading",
+    "company": {
+     "url": "https://www.linkedin.com/company/29762/",
+     "name": "Workday Adaptive Planning",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Workday Adaptive Planning",
+    "location": "Santa Clara, CA · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/29762/",
+    "companyId": "29762",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_400_400/B4EaCiYNk3G8AU-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=g6t5K8EYlqKKKIUeNmOHgUaxBsEdkLW1k5s4Y3weS7k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_200_200/B4EaCiYNk3G8AE-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=rqi1KZHMGO01qJ8QEMcwyWj8lciWBRXhW7zXfajXUus",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE-012D9cWA5w/company-logo_100_100/B4EaCiYNk3G8AI-/0/1789430651446/adaptive_insights_logo?e=1795651200&v=beta&t=cmJRJjL-c7ZAVj_liG_vfDlQKB0PGyQDOBkotoeEpPw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "Contract software engineer on Workday's Adaptive Planning Computing Engine team, the Java calculation engine behind the product; converted to full-time at Workday in June 2025.\n\nArchived Versions (freezing a planning version so it stays byte-stable and loads fast)\n- Owned the \"view error location\" capability: new API endpoint, location recording in the archive path, and protobuf responses so customers can jump directly to any error in a frozen version.\n- Built the tool that diffs live vs. archived model state using vectorized comparison; it caught release-blocking defects before customers hit them and eliminated false positives in data-integrity checks.\n- Wrote the unit-test framework for the feature and 600+ tests, taking the subsystem to 100% coverage.\n\nCube columnar view, team of 3 (shows a cube sheet as one flat, sortable list of rows for bulk data entry)\n- Owned the hardest part, the multi-key sort. Users sort by many keys at once; chosen keys sort by display name and every remaining key falls back to tree order, so every request returns the same total ordering. Keys are hierarchy objects rather than strings, so they are resolved once per distinct entity into fixed integer pairs and shared across rows with the same account, level, and dimension combination. The comparator works on those pairs directly instead of repeating lookups, type branching, and boxing on every one of the O(n log n) comparisons.\n- Resolved linked accounts into flat rows through a multi-threaded evaluator with weighted-average rollups; enforced row-level access control with result truncation inside the evaluator.",
+    "insights": "Skills: Python (Programming Language) · Java · Adaptive Insights",
+    "company": {
+     "url": "https://www.linkedin.com/company/88289095/",
+     "name": "Magnit Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Magnit Global",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/88289095/",
+    "companyId": "88289095",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_400_400/company-logo_400_400/0/1663692842055?e=1795651200&v=beta&t=V4486UFBtLTH_FlcPubMKy1eh_w5oWZA2WhOYvyPIaw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_200_200/company-logo_200_200/0/1663692842055?e=1795651200&v=beta&t=FkHMS0jk8e7OwmVTblMf1qQxgo0p6CyN-_-H-r1ROoM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEHLnfmQqHMFA/company-logo_100_100/company-logo_100_100/0/1663692842055?e=1795651200&v=beta&t=MqESKQIfzL1sAQBf225-UuFgtH6EiGnSPFXiSGRqmMo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Revenue Analyst",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Executed GAAP-compliant revenue recognition across multi-product SKUs and collaborated with IT on system logic validation and edge-case testing.\nStandardized analytical reporting tools in SAP and Excel, which reduced monthly-close turnaround and improved forecasting accuracy for management.\n",
+    "insights": "Skills: SAP ERP",
+    "company": {
+     "url": "https://www.linkedin.com/company/165303/",
+     "name": "Omnicell",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM"
+     }
+    },
+    "position": "Revenue Analyst",
+    "companyName": "Omnicell",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165303/",
+    "companyId": "165303",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_400_400/company-logo_400_400/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=iz-C0mSOXiS70VA1r6zi5_4vSG559WJvtCNJ4gbm0OM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_200_200/company-logo_200_200/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=omlCkRloC-oS0mFipm4AyPK_Dzk-T6J_7yxd_BYXMtY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHP5i8xnMHH3A/company-logo_100_100/company-logo_100_100/0/1630671488452/omnicell_logo?e=1795651200&v=beta&t=IlW1m5x96mnOWjbiDEKyfrZ3Lgk2BxsWjWe-UYLUAYo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Koltek Energy Service dba Terrapin Energy Services",
+     "url": "https://www.linkedin.com/company/2482363/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU"
+     }
+    },
+    "locationName": "Mountain View, CA",
+    "totalDuration": "11 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Financial Accounting Manager",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "9 yrs 7 mos",
+      "description": "Created operating metrics for each company that led to improved accountability for operation, reduced and prevented fraudulent.\nCreated and directed the implementation of new compensation plan to comply with FLSA new regulation, and to minimize downtime cost.\nManage all aspects of accounting include AR, AP, Cash flow, assets & capital management, payroll & inventory control.\nProvide timely explanation of variances between actual and forecast/ budget; provide corrective action recommendation where necessary to the CEO.\nReview the pricing proposal of service to customers and prospective customers.\nPrepare tax planning, schedule, and coordinate tax related documents to external tax group.\nWork with internal and external auditors during review to ensure full cooperation and compliance. \nReview and authorize monthly JE account analysis, forecast budgets and financial statements.\nAnalyze costs that exceed budget and make recommendation to reduce cost or make adjustment/ resource reallocation to budget plan if the cause of the increase in cost is justified and unavoidable.\n",
+      "insights": ""
+     },
+     {
+      "title": "Staff Accountant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2014
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "Supported top management by providing accounting insights when choosing potential projects, including assessing operational & material costs, projecting profit based on scope of the proposal.\nTrained junior accounting staff to maintain high level of accuracy and performance.\nAudited inventory report, implemented changes to the procedure that improved accuracy and timeliness. \nReviewed operating cost, monitored pricing proposal and tracked revenue.\nReviewed and approved sales tax reports to multiple states.\nOptimized spending by negotiating with suppliers for more competitive pricing, supporting local start up/ contractors.\nOverlooked AP, AR, Payroll, Bank and credit cards reconciliations. Implemented internal procedure to ensure proper workflow and provided \nPrepared sales compensation plan and monthly commission payout.\nReviewed financial statements to assess data integrity before submitting to top management.\nAssisted with quarterly and year-end closings as well as audit preparation.\n",
+      "insights": ""
+     },
+     {
+      "title": "Internship",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Hands-on experience in AR, AP and payroll. \nInvoiced, posted customers' payments, posted revenue, updated receivables.\nEntered bills, paid bills, updated payable. \nVerified time sheet and processed payroll.\nReconciled bank statements. ",
+      "insights": ""
+     }
+    ],
+    "companyName": "Koltek Energy Service dba Terrapin Energy Services",
+    "location": "Mountain View, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2482363/",
+    "companyId": "2482363",
+    "duration": "11 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_400_400/company-logo_400_400/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=S2ySEn-62Dx_WiGFkZVFUrtrSKcXCbozlr-eVkH68vU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_200_200/company-logo_200_200/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=q7LimjxhL6rK1IJ_Ax_gnfmx_p5eIoHAaaigEsSilGk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHzfSDLT2sdZg/company-logo_100_100/company-logo_100_100/0/1630582605313/terrapin_energy_services_logo?e=1795651200&v=beta&t=X-FE16gz35K-M4VrIbgBZKAwX56LQWRu5scGuqkyIlM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Math Tutor",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2009
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Tutored students in math individually and in small groups\nCustomized tutoring to meet the needs of individual student learning styles\nExplained difficult concepts\nTaught students valuable study skills",
+    "company": {
+     "url": "",
+     "name": "Math & Science Tutorial Center, De Anza College",
+     "logo": {}
+    },
+    "position": "Math Tutor",
+    "companyName": "Math & Science Tutorial Center, De Anza College",
+    "location": "Cupertino, CA",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Accounting Assistant",
+    "locationName": "Ho Chi Minh City, Viet Nam",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Worked in a team to process daily financial statements\nRecorded employees’ weekly time card \nAnalyzed shipment inventory and reconciled discrepancies\nResponsible for inventory\nUsed Excel to organize, analyze and present data\nResponsible for cash account to reconciling bills payable",
+    "company": {
+     "url": "",
+     "name": "Cholon Garment Manufactured Exported - Imported Co. Ltd",
+     "logo": {}
+    },
+    "position": "Accounting Assistant",
+    "companyName": "Cholon Garment Manufactured Exported - Imported Co. Ltd",
+    "location": "Ho Chi Minh City, Viet Nam",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_200_200/company-logo_200_200/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=w7UzjIo_LHrI45ecR6wazYnGPbWRfGMwTvpcAXvQGQU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_100_100/company-logo_100_100/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=wg0h7zPd4Og9x6cskpgP5EJsBgTbMqeYwB7Sr2qA1bc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_200_200/company-logo_200_200/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=w7UzjIo_LHrI45ecR6wazYnGPbWRfGMwTvpcAXvQGQU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_100_100/company-logo_100_100/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=wg0h7zPd4Og9x6cskpgP5EJsBgTbMqeYwB7Sr2qA1bc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3032535/",
+    "schoolName": "Hack Reactor",
+    "degreeName": "Advanced Software Engineering Immersive",
+    "fieldOfStudy": "Advanced Software Engineering Immersive",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3032535/",
+    "schoolId": "3032535",
+    "degree": "Advanced Software Engineering Immersive",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Santa Clara University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Accounting",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2012
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_200_200/company-logo_200_200/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=w7UzjIo_LHrI45ecR6wazYnGPbWRfGMwTvpcAXvQGQU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_100_100/company-logo_100_100/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=wg0h7zPd4Og9x6cskpgP5EJsBgTbMqeYwB7Sr2qA1bc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_400_400/company-logo_400_400/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=SdV7NaSzKV_SFmI0klCJQrc_hjlxXoitS0vIBoLXvII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_200_200/company-logo_200_200/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=w7UzjIo_LHrI45ecR6wazYnGPbWRfGMwTvpcAXvQGQU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHrP1umKnHBrg/company-logo_100_100/company-logo_100_100/0/1671479991043/hack_reactor_logo?e=1795651200&v=beta&t=wg0h7zPd4Og9x6cskpgP5EJsBgTbMqeYwB7Sr2qA1bc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3032535/",
+    "schoolName": "Hack Reactor",
+    "degreeName": "Advanced Software Engineering Immersive",
+    "fieldOfStudy": "Advanced Software Engineering Immersive",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3032535/",
+    "schoolId": "3032535",
+    "degree": "Advanced Software Engineering Immersive",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Volunteer",
+    "companyName": "Habitat for Humanity International",
+    "description": "Worked on a team to organize fundraising and open house\nGot trained and worked under supervision to build house for low-income families\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7680/",
+     "name": "Habitat for Humanity International",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_400_400/B4EZw41xNaIkAY-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=oq3DL5sxBPeO1q3X7gI0UAd9XmM066RX2GRjKhoaDZE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_200_200/B4EZw41xNaIkAI-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=qbmw-fan4yMuub_kz2WOilbfMMKaBjNhES6mrEhiP60",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_100_100/B4EZw41xNaIkAQ-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=taiLgZXBeO914vWhJ2r7XzbDlVugdSv-0nIIKwtlyzs"
+     }
+    },
+    "organization": "Habitat for Humanity International"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Volunteer",
+    "companyName": "Habitat for Humanity International",
+    "description": "Worked on a team to organize fundraising and open house\nGot trained and worked under supervision to build house for low-income families\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7680/",
+     "name": "Habitat for Humanity International",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_400_400/B4EZw41xNaIkAY-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=oq3DL5sxBPeO1q3X7gI0UAd9XmM066RX2GRjKhoaDZE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_200_200/B4EZw41xNaIkAI-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=qbmw-fan4yMuub_kz2WOilbfMMKaBjNhES6mrEhiP60",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG1_VCbNOj3kA/company-logo_100_100/B4EZw41xNaIkAQ-/0/1770480145675/habitat_for_humanity_international_logo?e=1795651200&v=beta&t=taiLgZXBeO914vWhJ2r7XzbDlVugdSv-0nIIKwtlyzs"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+   "424x424": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+     "width": 424,
+     "height": 424
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+   "424x424": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+     "width": 424,
+     "height": 424
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+   "424x424": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517054995298?e=1795651200&v=beta&t=0aiuA-iQtJ_Itay8UuB4kUigDJzT-jLD1hQ-ab1uYVo",
+     "width": 424,
+     "height": 424
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517054995455?e=1795651200&v=beta&t=ZZF5Jp2aR_IjUHXhmhDBb6YSzEAKPavrOuLaq7ngUuE",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517054995306?e=1795651200&v=beta&t=M0BpB0yjT8wgNcOu7Kg-X4nhDLoDkFbxph3P27OSglI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQEp6rJTRObu6w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517054995344?e=1795651200&v=beta&t=Yw0S2IOHpE0pGpco6PUuqRouT4SpfxP91G1GLZgnWoE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/thaotpnguyen"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-08T22:59:58.779Z",
+ "foundBy": null
+}

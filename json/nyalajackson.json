@@ -1,0 +1,3327 @@
+{
+ "slug": "nyalajackson",
+ "inputUrl": "https://www.linkedin.com/in/nyalajackson",
+ "fetchedAt": "2026-10-30T19:02:58.434Z",
+ "id": "6ae4e9e24f8d6cb6ddd59efd",
+ "url": "https://www.linkedin.com/in/nyalajackson",
+ "profile": {
+  "created": 1439253239434,
+  "trackingId": "p5sfz24bRVufXOq+hrZlbQ==",
+  "firstName": "Nyala",
+  "lastName": "Jackson",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "SHE_HER"
+  },
+  "versionTag": "1868893021",
+  "headline": "Software Engineer · Cloud & Full-Stack · TypeScript, React, Node.js, PostgreSQL, AWS · Healthcare systems",
+  "publicIdentifier": "nyalajackson",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "440046063",
+  "profileId": "ACoAABo6ke8B9xdjz-EltQrL4d9uL3SQ1ecpdF8",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643932211202?e=1795046400&v=beta&t=mfbmrcuASLr4orEuSRtYlQfiS32KeZD8ApI1R00BJ44",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1643932211202?e=1795046400&v=beta&t=eQNTkKbySg55Nbqkp3AmpNXXKldGRnE3Kxb6avl_mnI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643932211202?e=1795046400&v=beta&t=pi06pgC4XzvJsXyBoS5elnfC3ZiezLn1RTLkrvDKWkk",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw"
+  },
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_350_1400/B4EaFzWyaDKIAg-/0/1792936716593?e=1795046400&v=beta&t=xSCrZ9qkF9pbtP1r5EJ-V6gsTibFdkKPR7LSBFCbmAY",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_200_800/B4EaFzWyaDKIAc-/0/1792936716594?e=1795046400&v=beta&t=u-4jFTnf5wjR2Nb88VXHFgSCFedoeGPjqa6U8sH-hI8"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Hi, I'm Nyala. Thanks for visiting my profile! I'm a software engineer building cloud and full-stack systems in healthcare, where the data is sensitive and mistakes are expensive. Since February 2026, I've helped a regulated company move to AWS: migration tooling with verified integrity, an identity-reconciliation engine that turned ~31k fragmented records into 16k verified profiles, and a React document portal that keeps sensitive files entirely off application servers.\n\nBefore that, I was a backend engineer at Koddi (C#, MSSQL, AWS), and in college, I built educational VR applications through research internships (Unity, React 360). BA in Computer Science from Vassar · AWS Certified Solutions Architect – Associate and Cloud Practitioner · CompTIA ITF+ · Per Scholas full-stack program, 2025.\n\nI care about understanding a system completely before touching it in production, and about leaving data more trustworthy than I found it. Interested in health tech, ed tech, and games.\n\nI'd love to connect about opportunities or collaborations!",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "- Cloud Infrastructure Modernization: Co-led the technical modernization of a HIPAA-regulated infrastructure to a cloud-native AWS architecture (EC2, S3, RDS), focusing on RBAC security and PHI data decoupling.\n\n- High-Integrity Data Migration: Engineered a hybrid Bash and Node.js migration engine that moved ~10k sensitive documents into AWS S3, streaming between storage APIs to avoid filesystem bottlenecks, with every migrated record verified for integrity.\n\n- Identity Resolution & Consolidation: Built a PII-safe reconciliation engine in TypeScript using multi-factor fingerprinting on stable identifiers; consolidated ~31k fragmented records into 16k verified profiles (−47% redundancy) while preserving every document link.\n\n- Secure Document Architecture: Architected a React 19 portal featuring a secure \"triple-handshake\" upload flow via S3 Presigned URLs. Ensured sensitive PHI bypasses application servers entirely, minimizing the security attack surface and reducing server overhead.\n\n- Advanced Search & Contract Management: Developed a live, debounced search for Patient and Caregiver entities using SQL window functions and PostgreSQL. Built a specialized module for Insurance Contract management, enabling organized tracking of master agreements and rate schedules.\n\n- Data Integration & HIPAA Compliance: Developed ETL utilities to bulk import and \"hydrate\" profile data from third-party reporting exports. Integrated immutable HIPAA Audit Logs to track all file interactions, PII disclosures, and metadata edits for strict regulatory compliance.\n\n- Reliability & DevOps: Developed a suite of idempotent recovery scripts for production database operations, including automated asset re-parenting and metadata healing, ensuring a seamless cutover with zero data loss.",
+    "insights": "Skills: Software Infrastructure · Engineering · React · Amazon Web Services (AWS) · PostgreSQL · Full-Stack Development · Cloud Migration · Cloud Infrastructure",
+    "company": {
+     "url": "https://www.linkedin.com/company/60224315/",
+     "name": "S&A UNIFIED HOME CARE, INC.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE"
+     }
+    }
+   },
+   {
+    "title": "Client Service Professional",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Skills: Customer Service Representatives",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    }
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Completed Per Scholas' Full Stack Engineering MERN Immersive Educational Training Program:\n- Professional Career Development Instruction and Evaluation on Resume Writing, Interview Practice, and LinkedIn Optimization\n- Modules on HTML, CSS, JavaScript (Vanilla/AJAX), Node.js, Express.js, React, Redux, TypeScript and MongoDB. \n- Project and skill-based assessments on each Module, uploaded to GitHub and/or included on my portfolio site.\n- Completion of a fully functional capstone project at the end of the program. \n\nCompleted OBT's ITF and Cloud Practitioner/Solutions Architect program. Gained the following certificates:\n- NRF Customer Sales\n- COMPTIA ITF+\n- AWS Cloud Practitioner \n- AWS Solutions Architect Associate",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "H&R Block",
+     "url": "https://www.linkedin.com/company/3671/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "locationName": "Queens, New York, United States · On-site",
+    "employmentType": "Seasonal",
+    "totalDuration": "6 mos",
+    "positions": [
+     {
+      "title": "Client Service Professional",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2025
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Provided exceptional client service by answering phones and greeting clients warmly.  \n• Matched clients with suitable tax professionals to meet their specific needs.  \n• Scheduled appointments based on client preferences, ensuring convenience and satisfaction.  \n• Maintained a clean and organized office environment, collaborating with team members effectively.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Team Leader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Managed daily operations during tax season to ensure client satisfaction.  \n• Led a team of tax professionals, driving them to exceed revenue targets.  \n• Maintained adherence to company standards, fostering a culture of excellence.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Special Initiatives Intern",
+    "locationName": "New York, NY  · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Conducted visits to Bronx shelters to gather insights from families participating in the Every Child and Family is Known program.  \n• Engaged with families to understand their experiences and needs within the DHS/HRA framework.  \n• Collaborated with the NYC Department of Homeless Services to enhance program effectiveness and outreach.",
+    "insights": "Skills: Troubleshooting · Team Collaboration · Computer Competency · Microsoft Excel · Data Entry · Interpersonal Communication · Google Sheets",
+    "company": {
+     "url": "https://www.linkedin.com/company/1501905/",
+     "name": "NYC Department of Homeless Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs"
+     }
+    }
+   },
+   {
+    "title": "Associate Team Leader",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Managed daily operations during tax season, ensuring client satisfaction and adherence to company standards.\n• Implemented strategies to increase digital tax preparation service utilization by 30%, driving revenue growth.\n• Led a team of tax professionals to exceed revenue targets and achieve a 95% Client Satisfaction score.",
+    "insights": "Skills: Computer Competency · Managing Associates · Time Management · Small Team Management · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    }
+   },
+   {
+    "title": "Content and Ghost Writer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Developed engaging SEO articles and blog posts for diverse clients, enhancing their online presence.  \n• Specialized in content creation for video game guides and digital advertising websites.",
+    "insights": "Skills: Team Collaboration · Computer Competency · Writing · Research · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/4827017/",
+     "name": "Upwork",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0"
+     }
+    }
+   },
+   {
+    "title": "Creative Intern",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Outlined, researched, and authored five engaging blogs for Yo Re Mi, enhancing content strategy.  \n• Developed Standard Operating Procedure documentation to streamline operations and improve team efficiency.  \n• Conducted a comprehensive audit of website and video content, boosting visibility and accessibility for users.",
+    "insights": "Skills: Squarespace · Team Collaboration · Computer Competency · Writing · Research Skills · Blogging · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/15227163/",
+     "name": "Yo Re Mi",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Koddi",
+     "url": "https://www.linkedin.com/company/3163836/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po"
+     }
+    },
+    "locationName": "Ann Arbor, Michigan, United States",
+    "employmentType": "Full-time",
+    "totalDuration": "8 mos",
+    "positions": [
+     {
+      "title": "Junior Backend Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "- Implemented new features and infrastructure within the Koddi Demand platform, utilizing MSSQL, C#, and AWS to integrate new services and improve budget recommendations for existing clients. \n- Collaborated with senior backend engineers, QA, frontend, client services, data science, and product to investigate and solve issues found on the Demand platform, and data discrepancies on Koddi Enterprise. \n- Wrote new documentation and contributed to existing tech documents via Confluence.",
+      "insights": ""
+     },
+     {
+      "title": "Engineering Cohort 2022 ",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Participated in a comprehensive rotation through various engineering teams at Koddi.  \n• Explored diverse programming languages and frameworks including Go, PHP, and PostgreSQL.  \n• Resolved front and backend bug tickets, enhancing system reliability and performance.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Completed Code Nation's Alumni Career Launch Intensive 2022",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Remote IT Professional",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Engaged in remote-based coaching to acquire income-earning career skills in various technology fields.  \n• Completed numerous online IT tasks, including quizzes and assignments, enhancing my technical proficiency.  \n• Participated in the Summer Youth Employment Program of NYC, connecting with Techie Youth to gain valuable experience.",
+    "insights": "Skills: Computer Competency · Time Management",
+    "company": {
+     "url": "https://www.linkedin.com/company/7574486/",
+     "name": "Techie Youth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Vassar College",
+     "url": "https://www.linkedin.com/company/12298/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Student Supervisor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "- Supervised technicians during work hours.\n- Answered calls and completed service requests when employee supervisors were unavailable.\n- Provided onsite/offsite support and equipment delivery on campus.\n\n*In addition to Technician duties at Media Resources.",
+      "insights": ""
+     },
+     {
+      "title": "Technician",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "- Worked in Media Resources\n- Assisted with setting up, and maintaining media equipment utilized by the college faculty and students.",
+      "insights": ""
+     },
+     {
+      "title": "Ford Scholar",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Improved upon a virtual reality Bio-Anthropology lab aimed to help students learn more about bones, fossils, and their features\n- Added more fossils into the lab for use and examination\n- Utilized Unity and C# to develop a timeline activity and information boxes for each fossil/bone\n",
+      "insights": ""
+     },
+     {
+      "title": "Facilitator at Athletic Fitness Center",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2018
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Greeted customers and answered any questions\n- Oversaw the use of the facilities\n- Directed incoming calls at the front desk\n- Provided tours of the facilities\n- Maintained the lobby, weight room and laundry room\n- Checked the overall safety of the facility regularly",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "DREU Remote Student Researcher",
+    "locationName": "Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Collaborated with Professor Anderson on a VR prototype project.  \n• Developed an educational VR application for computer science using React, React 360, and JavaScript.  \n• Authored a comprehensive research report in Overleaf utilizing LaTeX to document the prototype's findings.",
+    "insights": "Skills: Error Handling · Mendeley · Computer Competency · React 360 · Software Development · Slack · React · LaTeX",
+    "company": {
+     "url": "",
+     "name": "CRA-WP ",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Volunteer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Assisted Summer Camp Counselors in engaging and supervising participants, ensuring a positive camp experience.  \n• Maintained safety procedures during travel with summer camp participants, prioritizing their well-being.  \n• Connected with youth through the NYC Summer Youth Employment Program (SYEP), fostering community involvement.",
+    "insights": "Skills: Working With Children · Teaching · Looked After Children · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/27319/",
+     "name": "YMCA of Greater New York",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=IFf18cESQcAiIREEePeGS7kV8DXd6ETbu6q_jI7EYgE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=t1SkG6hXXj4fmTf9JKAxQImR5hrkpOWv4CXaza1ryTA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "Computer Software Engineering",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2025
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/12298/",
+    "schoolName": "Vassar College",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2021
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Certificate of completion: Claude 101",
+    "authority": "Anthropic",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Anthropic",
+    "title": "Certificate of completion: Claude 101",
+    "issuedBy": "Anthropic",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Career Insights for Tech Professionals",
+    "authority": "LinkedIn",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "LinkedIn",
+    "title": "Career Insights for Tech Professionals",
+    "issuedBy": "LinkedIn",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Analysis of Algorithms"
+   },
+   {
+    "name": "Artifical Intelligence"
+   }
+  ],
+  "honors": [
+   {
+    "title": "GHC Student Scholar ",
+    "description": "Awarded a GHC Student Scholarship to attend the 2020 Virtual Grace Hopper Celebration from Monday, Sep 28 to Friday, Oct. 2. \nWill receive full registration for the virtual conference, professional development workshops, career training, premium Slack workspace access, and facilitated networking opportunities.\n",
+    "issueDate": {},
+    "issuer": "Issued by AnitaB.org · Jun 2020"
+   },
+   {
+    "title": "QuestBridge Scholar",
+    "description": "",
+    "issueDate": {},
+    "issuer": "Issued by QuestBridge"
+   }
+  ],
+  "languages": [
+   {
+    "name": "French",
+    "proficiency": ""
+   },
+   {
+    "name": "Sign Languages",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Volunteer",
+    "companyName": "Blissful Bedrooms",
+    "description": "Helped plan, coordinate, supervise, and organize a Blissful Bedrooms event as a part of high school Service Club.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2016
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "https://www.linkedin.com/company/6597977/",
+     "name": "Blissful Bedrooms",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_200_200/company-logo_200_200/0/1631302283496?e=1795046400&v=beta&t=cLsXRrhWnyOK3oIA8-4jIZmbdoDVAHBb5WK23e4DxtU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_100_100/company-logo_100_100/0/1631302283496?e=1795046400&v=beta&t=12nDSJcafAYXJGbVqE-_bb_15ZAaB3sF_7ZWkBtbZ8U",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_400_400/company-logo_400_400/0/1631302283496?e=1795046400&v=beta&t=WYpizbVKYqKRfxAuI5FXBFLKQE1Jg6VijiU3akg3cNM"
+     }
+    }
+   },
+   {
+    "role": "Kitchen Staff",
+    "companyName": "Taste Buds Kitchen",
+    "description": "",
+    "timePeriod": {},
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/5147886/",
+     "name": "Taste Buds Kitchen",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_200_200/company-logo_200_200/0/1692636394640/taste_buds_kitchen_logo?e=1795046400&v=beta&t=-KOn1CyLPL8jBfiZB5qncbgQs7nGErE9X9kWy_b5F2E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_100_100/company-logo_100_100/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=lOTmQQW0uZ8Mc35dhYUl4g-mJcw_CnBLzGiySkIejw0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_400_400/company-logo_400_400/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=1TgT0-zg-LvVuEE8zf3_SuH3ba74UqBuczZhQ_dmlVY"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Adventure Mart",
+    "description": "An idle management sim created with a group of my friends for a week-long game jam.",
+    "dateRange": {},
+    "associatedWith": "May 2024 - May 2024"
+   }
+  ],
+  "publications": [
+   {
+    "title": "Virtual (Reality) Anthropology",
+    "publisher": "Vassar College Ford Scholars · Jul 24, 2019",
+    "date": {}
+   },
+   {
+    "title": "Stardew Game Guides",
+    "publisher": "",
+    "date": {}
+   }
+  ],
+  "patents": [],
+  "testScores": [],
+  "organizations": [
+   {
+    "name": "Quest Bridge",
+    "position": "Alumni · Feb 2016 - Present",
+    "dateRange": {}
+   },
+   {
+    "name": "Code Nation",
+    "position": "Member/Alumni · Sep 2013 - Jun 2024",
+    "dateRange": {}
+   }
+  ],
+  "volunteerCauses": [],
+  "companyName": "S&A UNIFIED HOME CARE, INC.",
+  "companyPublicId": "saunified",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/saunified/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:60224315",
+   "name": "S&A UNIFIED HOME CARE, INC.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQEncASJf-9Q4g",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_"
+    }
+   },
+   "universalName": "saunified",
+   "url": "https://www.linkedin.com/company/saunified/",
+   "slug": "saunified",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+   "specialties": []
+  },
+  "followerCount": 579,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "https://dms.licdn.com/playlist/vid/v2/C4E04AQES-WMOmtMzIw/audio/audio/0/1645495307993?e=1795046400&v=beta&t=aKfxMjinxXhKzl-Cq5R8ixDIer6kZgt8ggLsPyYCeKg",
+  "connectionsCount": 561,
+  "skills": [
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Migration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Game Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Collaboration",
+    "endorsements": 0,
+    "experiences": 9
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 2,
+    "experiences": 4
+   },
+   {
+    "name": "Error Handling",
+    "endorsements": 2,
+    "experiences": 4
+   },
+   {
+    "name": "Responsive Web Design",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Version Control",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful WebServices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Customer Service Representatives",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Migration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Game Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Responsive Web Design",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Version Control",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Customer Service Representatives",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Technology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Security",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Sheets",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Competency",
+    "endorsements": 0,
+    "experiences": 12
+   },
+   {
+    "name": "Windows 10",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Entry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful WebServices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Squarespace",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jira",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React ",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Mendeley",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LaTeX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Slack",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Unity",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "R (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Postman API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Collaboration",
+    "endorsements": 0,
+    "experiences": 9
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 2,
+    "experiences": 4
+   },
+   {
+    "name": "Small Team Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Writing",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Interpersonal Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Self-confidence",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/nyalajackson",
+  "linkedinUrl": "https://www.linkedin.com/in/nyalajackson",
+  "profileUrl": "https://www.linkedin.com/in/nyalajackson",
+  "verified": true,
+  "registeredAt": "2015-08-11T00:33:59.434Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Hi, I'm Nyala. Thanks for visiting my profile! I'm a software engineer building cloud and full-stack systems in healthcare, where the data is sensitive and mistakes are expensive. Since February 2026, I've helped a regulated company move to AWS: migration tooling with verified integrity, an identity-reconciliation engine that turned ~31k fragmented records into 16k verified profiles, and a React document portal that keeps sensitive files entirely off application servers.\n\nBefore that, I was a backend engineer at Koddi (C#, MSSQL, AWS), and in college, I built educational VR applications through research internships (Unity, React 360). BA in Computer Science from Vassar · AWS Certified Solutions Architect – Associate and Cloud Practitioner · CompTIA ITF+ · Per Scholas full-stack program, 2025.\n\nI care about understanding a system completely before touching it in production, and about leaving data more trustworthy than I found it. Interested in health tech, ed tech, and games.\n\nI'd love to connect about opportunities or collaborations!",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Client Service Professional",
+   "Professional development",
+   "Special Initiatives Intern",
+   "Associate Team Leader",
+   "Content and Ghost Writer",
+   "Creative Intern",
+   "Professional development",
+   "Remote IT Professional",
+   "DREU Remote Student Researcher",
+   "Volunteer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "- Cloud Infrastructure Modernization: Co-led the technical modernization of a HIPAA-regulated infrastructure to a cloud-native AWS architecture (EC2, S3, RDS), focusing on RBAC security and PHI data decoupling.\n\n- High-Integrity Data Migration: Engineered a hybrid Bash and Node.js migration engine that moved ~10k sensitive documents into AWS S3, streaming between storage APIs to avoid filesystem bottlenecks, with every migrated record verified for integrity.\n\n- Identity Resolution & Consolidation: Built a PII-safe reconciliation engine in TypeScript using multi-factor fingerprinting on stable identifiers; consolidated ~31k fragmented records into 16k verified profiles (−47% redundancy) while preserving every document link.\n\n- Secure Document Architecture: Architected a React 19 portal featuring a secure \"triple-handshake\" upload flow via S3 Presigned URLs. Ensured sensitive PHI bypasses application servers entirely, minimizing the security attack surface and reducing server overhead.\n\n- Advanced Search & Contract Management: Developed a live, debounced search for Patient and Caregiver entities using SQL window functions and PostgreSQL. Built a specialized module for Insurance Contract management, enabling organized tracking of master agreements and rate schedules.\n\n- Data Integration & HIPAA Compliance: Developed ETL utilities to bulk import and \"hydrate\" profile data from third-party reporting exports. Integrated immutable HIPAA Audit Logs to track all file interactions, PII disclosures, and metadata edits for strict regulatory compliance.\n\n- Reliability & DevOps: Developed a suite of idempotent recovery scripts for production database operations, including automated asset re-parenting and metadata healing, ensuring a seamless cutover with zero data loss.",
+    "insights": "Skills: Software Infrastructure · Engineering · React · Amazon Web Services (AWS) · PostgreSQL · Full-Stack Development · Cloud Migration · Cloud Infrastructure",
+    "company": {
+     "url": "https://www.linkedin.com/company/60224315/",
+     "name": "S&A UNIFIED HOME CARE, INC.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "S&A UNIFIED HOME CARE, INC.",
+    "location": "New York, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/60224315/",
+    "companyId": "60224315",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "H&R Block",
+     "url": "https://www.linkedin.com/company/3671/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "locationName": "Queens, New York, United States · On-site",
+    "employmentType": "Seasonal",
+    "totalDuration": "6 mos",
+    "positions": [
+     {
+      "title": "Client Service Professional",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2025
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Provided exceptional client service by answering phones and greeting clients warmly.  \n• Matched clients with suitable tax professionals to meet their specific needs.  \n• Scheduled appointments based on client preferences, ensuring convenience and satisfaction.  \n• Maintained a clean and organized office environment, collaborating with team members effectively.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Team Leader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Managed daily operations during tax season to ensure client satisfaction.  \n• Led a team of tax professionals, driving them to exceed revenue targets.  \n• Maintained adherence to company standards, fostering a culture of excellence.",
+      "insights": ""
+     }
+    ],
+    "companyName": "H&R Block",
+    "location": "Queens, New York, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Koddi",
+     "url": "https://www.linkedin.com/company/3163836/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po"
+     }
+    },
+    "locationName": "Ann Arbor, Michigan, United States",
+    "employmentType": "Full-time",
+    "totalDuration": "8 mos",
+    "positions": [
+     {
+      "title": "Junior Backend Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "- Implemented new features and infrastructure within the Koddi Demand platform, utilizing MSSQL, C#, and AWS to integrate new services and improve budget recommendations for existing clients. \n- Collaborated with senior backend engineers, QA, frontend, client services, data science, and product to investigate and solve issues found on the Demand platform, and data discrepancies on Koddi Enterprise. \n- Wrote new documentation and contributed to existing tech documents via Confluence.",
+      "insights": ""
+     },
+     {
+      "title": "Engineering Cohort 2022 ",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Participated in a comprehensive rotation through various engineering teams at Koddi.  \n• Explored diverse programming languages and frameworks including Go, PHP, and PostgreSQL.  \n• Resolved front and backend bug tickets, enhancing system reliability and performance.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Koddi",
+    "location": "Ann Arbor, Michigan, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3163836/",
+    "companyId": "3163836",
+    "duration": "8 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Vassar College",
+     "url": "https://www.linkedin.com/company/12298/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc"
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Student Supervisor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "- Supervised technicians during work hours.\n- Answered calls and completed service requests when employee supervisors were unavailable.\n- Provided onsite/offsite support and equipment delivery on campus.\n\n*In addition to Technician duties at Media Resources.",
+      "insights": ""
+     },
+     {
+      "title": "Technician",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "- Worked in Media Resources\n- Assisted with setting up, and maintaining media equipment utilized by the college faculty and students.",
+      "insights": ""
+     },
+     {
+      "title": "Ford Scholar",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Improved upon a virtual reality Bio-Anthropology lab aimed to help students learn more about bones, fossils, and their features\n- Added more fossils into the lab for use and examination\n- Utilized Unity and C# to develop a timeline activity and information boxes for each fossil/bone\n",
+      "insights": ""
+     },
+     {
+      "title": "Facilitator at Athletic Fitness Center",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2018
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Greeted customers and answered any questions\n- Oversaw the use of the facilities\n- Directed incoming calls at the front desk\n- Provided tours of the facilities\n- Maintained the lobby, weight room and laundry room\n- Checked the overall safety of the facility regularly",
+      "insights": ""
+     }
+    ],
+    "companyName": "Vassar College",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12298/",
+    "companyId": "12298",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Client Service Professional",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Skills: Customer Service Representatives",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "position": "Client Service Professional",
+    "companyName": "H&R Block",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Completed Per Scholas' Full Stack Engineering MERN Immersive Educational Training Program:\n- Professional Career Development Instruction and Evaluation on Resume Writing, Interview Practice, and LinkedIn Optimization\n- Modules on HTML, CSS, JavaScript (Vanilla/AJAX), Node.js, Express.js, React, Redux, TypeScript and MongoDB. \n- Project and skill-based assessments on each Module, uploaded to GitHub and/or included on my portfolio site.\n- Completion of a fully functional capstone project at the end of the program. \n\nCompleted OBT's ITF and Cloud Practitioner/Solutions Architect program. Gained the following certificates:\n- NRF Customer Sales\n- COMPTIA ITF+\n- AWS Cloud Practitioner \n- AWS Solutions Architect Associate",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Professional development",
+    "companyName": "Career Break",
+    "location": "New York, New York, United States",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Special Initiatives Intern",
+    "locationName": "New York, NY  · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Conducted visits to Bronx shelters to gather insights from families participating in the Every Child and Family is Known program.  \n• Engaged with families to understand their experiences and needs within the DHS/HRA framework.  \n• Collaborated with the NYC Department of Homeless Services to enhance program effectiveness and outreach.",
+    "insights": "Skills: Troubleshooting · Team Collaboration · Computer Competency · Microsoft Excel · Data Entry · Interpersonal Communication · Google Sheets",
+    "company": {
+     "url": "https://www.linkedin.com/company/1501905/",
+     "name": "NYC Department of Homeless Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs"
+     }
+    },
+    "position": "Special Initiatives Intern",
+    "companyName": "NYC Department of Homeless Services",
+    "location": "New York, NY  · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1501905/",
+    "companyId": "1501905",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate Team Leader",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Managed daily operations during tax season, ensuring client satisfaction and adherence to company standards.\n• Implemented strategies to increase digital tax preparation service utilization by 30%, driving revenue growth.\n• Led a team of tax professionals to exceed revenue targets and achieve a 95% Client Satisfaction score.",
+    "insights": "Skills: Computer Competency · Managing Associates · Time Management · Small Team Management · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "position": "Associate Team Leader",
+    "companyName": "H&R Block",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Content and Ghost Writer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Developed engaging SEO articles and blog posts for diverse clients, enhancing their online presence.  \n• Specialized in content creation for video game guides and digital advertising websites.",
+    "insights": "Skills: Team Collaboration · Computer Competency · Writing · Research · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/4827017/",
+     "name": "Upwork",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0"
+     }
+    },
+    "position": "Content and Ghost Writer",
+    "companyName": "Upwork",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4827017/",
+    "companyId": "4827017",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Creative Intern",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Outlined, researched, and authored five engaging blogs for Yo Re Mi, enhancing content strategy.  \n• Developed Standard Operating Procedure documentation to streamline operations and improve team efficiency.  \n• Conducted a comprehensive audit of website and video content, boosting visibility and accessibility for users.",
+    "insights": "Skills: Squarespace · Team Collaboration · Computer Competency · Writing · Research Skills · Blogging · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/15227163/",
+     "name": "Yo Re Mi",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8"
+     }
+    },
+    "position": "Creative Intern",
+    "companyName": "Yo Re Mi",
+    "location": "New York, New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15227163/",
+    "companyId": "15227163",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Completed Code Nation's Alumni Career Launch Intensive 2022",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Professional development",
+    "companyName": "Career Break",
+    "location": "New York, New York",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Remote IT Professional",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Engaged in remote-based coaching to acquire income-earning career skills in various technology fields.  \n• Completed numerous online IT tasks, including quizzes and assignments, enhancing my technical proficiency.  \n• Participated in the Summer Youth Employment Program of NYC, connecting with Techie Youth to gain valuable experience.",
+    "insights": "Skills: Computer Competency · Time Management",
+    "company": {
+     "url": "https://www.linkedin.com/company/7574486/",
+     "name": "Techie Youth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss"
+     }
+    },
+    "position": "Remote IT Professional",
+    "companyName": "Techie Youth",
+    "location": "New York, New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7574486/",
+    "companyId": "7574486",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "DREU Remote Student Researcher",
+    "locationName": "Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Collaborated with Professor Anderson on a VR prototype project.  \n• Developed an educational VR application for computer science using React, React 360, and JavaScript.  \n• Authored a comprehensive research report in Overleaf utilizing LaTeX to document the prototype's findings.",
+    "insights": "Skills: Error Handling · Mendeley · Computer Competency · React 360 · Software Development · Slack · React · LaTeX",
+    "company": {
+     "url": "",
+     "name": "CRA-WP ",
+     "logo": {}
+    },
+    "position": "DREU Remote Student Researcher",
+    "companyName": "CRA-WP ",
+    "location": "Alabama, United States",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Volunteer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Assisted Summer Camp Counselors in engaging and supervising participants, ensuring a positive camp experience.  \n• Maintained safety procedures during travel with summer camp participants, prioritizing their well-being.  \n• Connected with youth through the NYC Summer Youth Employment Program (SYEP), fostering community involvement.",
+    "insights": "Skills: Working With Children · Teaching · Looked After Children · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/27319/",
+     "name": "YMCA of Greater New York",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc"
+     }
+    },
+    "position": "Volunteer",
+    "companyName": "YMCA of Greater New York",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/27319/",
+    "companyId": "27319",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "60224315",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/60224315/",
+    "companyName": "S&A UNIFIED HOME CARE, INC.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "3671",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyName": "H&R Block",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "3163836",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3163836/",
+    "companyName": "Koddi",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "12298",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12298/",
+    "companyName": "Vassar College",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "- Cloud Infrastructure Modernization: Co-led the technical modernization of a HIPAA-regulated infrastructure to a cloud-native AWS architecture (EC2, S3, RDS), focusing on RBAC security and PHI data decoupling.\n\n- High-Integrity Data Migration: Engineered a hybrid Bash and Node.js migration engine that moved ~10k sensitive documents into AWS S3, streaming between storage APIs to avoid filesystem bottlenecks, with every migrated record verified for integrity.\n\n- Identity Resolution & Consolidation: Built a PII-safe reconciliation engine in TypeScript using multi-factor fingerprinting on stable identifiers; consolidated ~31k fragmented records into 16k verified profiles (−47% redundancy) while preserving every document link.\n\n- Secure Document Architecture: Architected a React 19 portal featuring a secure \"triple-handshake\" upload flow via S3 Presigned URLs. Ensured sensitive PHI bypasses application servers entirely, minimizing the security attack surface and reducing server overhead.\n\n- Advanced Search & Contract Management: Developed a live, debounced search for Patient and Caregiver entities using SQL window functions and PostgreSQL. Built a specialized module for Insurance Contract management, enabling organized tracking of master agreements and rate schedules.\n\n- Data Integration & HIPAA Compliance: Developed ETL utilities to bulk import and \"hydrate\" profile data from third-party reporting exports. Integrated immutable HIPAA Audit Logs to track all file interactions, PII disclosures, and metadata edits for strict regulatory compliance.\n\n- Reliability & DevOps: Developed a suite of idempotent recovery scripts for production database operations, including automated asset re-parenting and metadata healing, ensuring a seamless cutover with zero data loss.",
+    "insights": "Skills: Software Infrastructure · Engineering · React · Amazon Web Services (AWS) · PostgreSQL · Full-Stack Development · Cloud Migration · Cloud Infrastructure",
+    "company": {
+     "url": "https://www.linkedin.com/company/60224315/",
+     "name": "S&A UNIFIED HOME CARE, INC.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "S&A UNIFIED HOME CARE, INC.",
+    "location": "New York, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/60224315/",
+    "companyId": "60224315",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_400_400/company-logo_400_400/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=MKKA0HC9mvyVrPZNp5NFAM5Yn5c5lY4fRhbfQLStJLE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_200_200/company-logo_200_200/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=xFqfpDIoHBXo-rCbNAPRo5BF7L73pgOHyZzL1RlPTro",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEncASJf-9Q4g/company-logo_100_100/company-logo_100_100/0/1720203049528/saunified_logo?e=1795046400&v=beta&t=4eljQYP-aADV6z-6y5AP-smIhVrL0zzSXFrNWAnziHM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Client Service Professional",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Skills: Customer Service Representatives",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "position": "Client Service Professional",
+    "companyName": "H&R Block",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Completed Per Scholas' Full Stack Engineering MERN Immersive Educational Training Program:\n- Professional Career Development Instruction and Evaluation on Resume Writing, Interview Practice, and LinkedIn Optimization\n- Modules on HTML, CSS, JavaScript (Vanilla/AJAX), Node.js, Express.js, React, Redux, TypeScript and MongoDB. \n- Project and skill-based assessments on each Module, uploaded to GitHub and/or included on my portfolio site.\n- Completion of a fully functional capstone project at the end of the program. \n\nCompleted OBT's ITF and Cloud Practitioner/Solutions Architect program. Gained the following certificates:\n- NRF Customer Sales\n- COMPTIA ITF+\n- AWS Cloud Practitioner \n- AWS Solutions Architect Associate",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Professional development",
+    "companyName": "Career Break",
+    "location": "New York, New York, United States",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "H&R Block",
+     "url": "https://www.linkedin.com/company/3671/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "locationName": "Queens, New York, United States · On-site",
+    "employmentType": "Seasonal",
+    "totalDuration": "6 mos",
+    "positions": [
+     {
+      "title": "Client Service Professional",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2025
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Provided exceptional client service by answering phones and greeting clients warmly.  \n• Matched clients with suitable tax professionals to meet their specific needs.  \n• Scheduled appointments based on client preferences, ensuring convenience and satisfaction.  \n• Maintained a clean and organized office environment, collaborating with team members effectively.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Team Leader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Managed daily operations during tax season to ensure client satisfaction.  \n• Led a team of tax professionals, driving them to exceed revenue targets.  \n• Maintained adherence to company standards, fostering a culture of excellence.",
+      "insights": ""
+     }
+    ],
+    "companyName": "H&R Block",
+    "location": "Queens, New York, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Special Initiatives Intern",
+    "locationName": "New York, NY  · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Conducted visits to Bronx shelters to gather insights from families participating in the Every Child and Family is Known program.  \n• Engaged with families to understand their experiences and needs within the DHS/HRA framework.  \n• Collaborated with the NYC Department of Homeless Services to enhance program effectiveness and outreach.",
+    "insights": "Skills: Troubleshooting · Team Collaboration · Computer Competency · Microsoft Excel · Data Entry · Interpersonal Communication · Google Sheets",
+    "company": {
+     "url": "https://www.linkedin.com/company/1501905/",
+     "name": "NYC Department of Homeless Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs"
+     }
+    },
+    "position": "Special Initiatives Intern",
+    "companyName": "NYC Department of Homeless Services",
+    "location": "New York, NY  · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1501905/",
+    "companyId": "1501905",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_400_400/company-logo_400_400/0/1645056638267?e=1795046400&v=beta&t=b1NyJ9nsPuOX7rnWIfonth9tq-6WZdQAMb7pqkcLKJs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_200_200/company-logo_200_200/0/1645056638267?e=1795046400&v=beta&t=PwAwHmfZbjKjIohbYgNcP2tUb7xRSrjfbc6pIylFbR8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH94IUhRiYtkA/company-logo_100_100/company-logo_100_100/0/1645056638267?e=1795046400&v=beta&t=QGqWq7-x4WfjE6ZebOEYjIROfgQo1dwrxaB6WQwuNus",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate Team Leader",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Managed daily operations during tax season, ensuring client satisfaction and adherence to company standards.\n• Implemented strategies to increase digital tax preparation service utilization by 30%, driving revenue growth.\n• Led a team of tax professionals to exceed revenue targets and achieve a 95% Client Satisfaction score.",
+    "insights": "Skills: Computer Competency · Managing Associates · Time Management · Small Team Management · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/3671/",
+     "name": "H&R Block",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ"
+     }
+    },
+    "position": "Associate Team Leader",
+    "companyName": "H&R Block",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3671/",
+    "companyId": "3671",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_400_400/company-logo_400_400/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=-idLPUrNnCnbcYFIRvsjEoCV3TNBfHKIMrGrT6bhXDQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_200_200/company-logo_200_200/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=XIYIPotbVY5trV_am9VAFkijbQPDkrKzDeNJglWmENc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE5prZkZY0C6A/company-logo_100_100/company-logo_100_100/0/1630561773270/hr_block_logo?e=1795046400&v=beta&t=RM7RQgvl4pxZQJHZUPySKZ6N1xAOTzvRuOK_8ASRbQw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Content and Ghost Writer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Developed engaging SEO articles and blog posts for diverse clients, enhancing their online presence.  \n• Specialized in content creation for video game guides and digital advertising websites.",
+    "insights": "Skills: Team Collaboration · Computer Competency · Writing · Research · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/4827017/",
+     "name": "Upwork",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0"
+     }
+    },
+    "position": "Content and Ghost Writer",
+    "companyName": "Upwork",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4827017/",
+    "companyId": "4827017",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_400_400/company-logo_400_400/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=MVFX5x5qlEHtOd2JhABQuuzlxtRPJBRdJVnVueITfl0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_200_200/company-logo_200_200/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=KyQQP7hZTxXgwEnru_OPqoybkirlpIp08FcdirGHJDA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFHVb6ZSCipCw/company-logo_100_100/company-logo_100_100/0/1727104517379/upwork_logo?e=1795046400&v=beta&t=9lRNH5iaWb9Z1alUcCpHukQNzsFYfHulOm5l1Y46pY8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Creative Intern",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Outlined, researched, and authored five engaging blogs for Yo Re Mi, enhancing content strategy.  \n• Developed Standard Operating Procedure documentation to streamline operations and improve team efficiency.  \n• Conducted a comprehensive audit of website and video content, boosting visibility and accessibility for users.",
+    "insights": "Skills: Squarespace · Team Collaboration · Computer Competency · Writing · Research Skills · Blogging · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/15227163/",
+     "name": "Yo Re Mi",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8"
+     }
+    },
+    "position": "Creative Intern",
+    "companyName": "Yo Re Mi",
+    "location": "New York, New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15227163/",
+    "companyId": "15227163",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_400_400/company-logo_400_400/0/1631338627396?e=1795046400&v=beta&t=Pf-WCYPFkvm6H80wQUQB_Y0yi1lLkJVAl3wGyYPYdg8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_200_200/company-logo_200_200/0/1631338627396?e=1795046400&v=beta&t=L5-qVPLc9tsNElMp_RwkCPE1-a-KSFeL_8VI_bx9EKs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHC-LcYAC9Olg/company-logo_100_100/company-logo_100_100/0/1631338627396?e=1795046400&v=beta&t=qbANbScxJ1f41AsbPS7jP967Ts6rNgr98VdccTejtKU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Koddi",
+     "url": "https://www.linkedin.com/company/3163836/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po"
+     }
+    },
+    "locationName": "Ann Arbor, Michigan, United States",
+    "employmentType": "Full-time",
+    "totalDuration": "8 mos",
+    "positions": [
+     {
+      "title": "Junior Backend Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "- Implemented new features and infrastructure within the Koddi Demand platform, utilizing MSSQL, C#, and AWS to integrate new services and improve budget recommendations for existing clients. \n- Collaborated with senior backend engineers, QA, frontend, client services, data science, and product to investigate and solve issues found on the Demand platform, and data discrepancies on Koddi Enterprise. \n- Wrote new documentation and contributed to existing tech documents via Confluence.",
+      "insights": ""
+     },
+     {
+      "title": "Engineering Cohort 2022 ",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Participated in a comprehensive rotation through various engineering teams at Koddi.  \n• Explored diverse programming languages and frameworks including Go, PHP, and PostgreSQL.  \n• Resolved front and backend bug tickets, enhancing system reliability and performance.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Koddi",
+    "location": "Ann Arbor, Michigan, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3163836/",
+    "companyId": "3163836",
+    "duration": "8 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_400_400/company-logo_400_400/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=cqne8Zod9Fx9ubJGUd4cXIACbSt0sFwdgO9NnppZ5Po",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_200_200/company-logo_200_200/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=IHRTzFXGxvNOfsiE63P9uQvXs0UboF2qNODqmsxgDZk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG3C1wX2OgcZQ/company-logo_100_100/company-logo_100_100/0/1738699651678/koddi_logo?e=1795046400&v=beta&t=Mcgpehqe7sEQcAtT9MS8PBXNEBxKw9OUKadtri9X8bo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Professional development",
+    "locationName": "New York, New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Completed Code Nation's Alumni Career Launch Intensive 2022",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Professional development",
+    "companyName": "Career Break",
+    "location": "New York, New York",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Remote IT Professional",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Engaged in remote-based coaching to acquire income-earning career skills in various technology fields.  \n• Completed numerous online IT tasks, including quizzes and assignments, enhancing my technical proficiency.  \n• Participated in the Summer Youth Employment Program of NYC, connecting with Techie Youth to gain valuable experience.",
+    "insights": "Skills: Computer Competency · Time Management",
+    "company": {
+     "url": "https://www.linkedin.com/company/7574486/",
+     "name": "Techie Youth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss"
+     }
+    },
+    "position": "Remote IT Professional",
+    "companyName": "Techie Youth",
+    "location": "New York, New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7574486/",
+    "companyId": "7574486",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_400_400/company-logo_400_400/0/1631339171648?e=1795046400&v=beta&t=G-TcFlXVSzz_ZkEUGWAclTAPfEklXdfqrAdKuepC8ss",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_200_200/company-logo_200_200/0/1631339171648?e=1795046400&v=beta&t=xT1iN0hsmWAa5vs4pUy88jpbe626_DjvnYxdLX2zUhc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFZFCKXqqLm8A/company-logo_100_100/company-logo_100_100/0/1631339171648?e=1795046400&v=beta&t=VBu7z32ecXIKxJpnmH5dHHG1pEnkoIYFiqld9H4wpJU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Vassar College",
+     "url": "https://www.linkedin.com/company/12298/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc"
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Student Supervisor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "- Supervised technicians during work hours.\n- Answered calls and completed service requests when employee supervisors were unavailable.\n- Provided onsite/offsite support and equipment delivery on campus.\n\n*In addition to Technician duties at Media Resources.",
+      "insights": ""
+     },
+     {
+      "title": "Technician",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "- Worked in Media Resources\n- Assisted with setting up, and maintaining media equipment utilized by the college faculty and students.",
+      "insights": ""
+     },
+     {
+      "title": "Ford Scholar",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Improved upon a virtual reality Bio-Anthropology lab aimed to help students learn more about bones, fossils, and their features\n- Added more fossils into the lab for use and examination\n- Utilized Unity and C# to develop a timeline activity and information boxes for each fossil/bone\n",
+      "insights": ""
+     },
+     {
+      "title": "Facilitator at Athletic Fitness Center",
+      "locationName": "Poughkeepsie, New York",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2018
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Greeted customers and answered any questions\n- Oversaw the use of the facilities\n- Directed incoming calls at the front desk\n- Provided tours of the facilities\n- Maintained the lobby, weight room and laundry room\n- Checked the overall safety of the facility regularly",
+      "insights": ""
+     }
+    ],
+    "companyName": "Vassar College",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12298/",
+    "companyId": "12298",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "DREU Remote Student Researcher",
+    "locationName": "Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Collaborated with Professor Anderson on a VR prototype project.  \n• Developed an educational VR application for computer science using React, React 360, and JavaScript.  \n• Authored a comprehensive research report in Overleaf utilizing LaTeX to document the prototype's findings.",
+    "insights": "Skills: Error Handling · Mendeley · Computer Competency · React 360 · Software Development · Slack · React · LaTeX",
+    "company": {
+     "url": "",
+     "name": "CRA-WP ",
+     "logo": {}
+    },
+    "position": "DREU Remote Student Researcher",
+    "companyName": "CRA-WP ",
+    "location": "Alabama, United States",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Volunteer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Assisted Summer Camp Counselors in engaging and supervising participants, ensuring a positive camp experience.  \n• Maintained safety procedures during travel with summer camp participants, prioritizing their well-being.  \n• Connected with youth through the NYC Summer Youth Employment Program (SYEP), fostering community involvement.",
+    "insights": "Skills: Working With Children · Teaching · Looked After Children · Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/27319/",
+     "name": "YMCA of Greater New York",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc"
+     }
+    },
+    "position": "Volunteer",
+    "companyName": "YMCA of Greater New York",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/27319/",
+    "companyId": "27319",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_400_400/company-logo_400_400/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=XGE1HeWWDNiEILhoZUh1irSlT937BFG8yaPKKyGanBc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_200_200/company-logo_200_200/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=yFzrzfHtF4ssOCeyHaVksFwdfPLmndUCFFwbo1AfF34",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGEVI4ntxEHlQ/company-logo_100_100/company-logo_100_100/0/1647465207027/ymca_of_greater_new_york_logo?e=1795046400&v=beta&t=g10rARMERVuIaXFLKZoTjeVLdMb5TJhUzQ9BSBoFyVM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=IFf18cESQcAiIREEePeGS7kV8DXd6ETbu6q_jI7EYgE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=t1SkG6hXXj4fmTf9JKAxQImR5hrkpOWv4CXaza1ryTA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=IFf18cESQcAiIREEePeGS7kV8DXd6ETbu6q_jI7EYgE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=t1SkG6hXXj4fmTf9JKAxQImR5hrkpOWv4CXaza1ryTA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "Computer Software Engineering",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2025
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "schoolId": "64638",
+    "degree": "Computer Software Engineering",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2025
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_400_400/company-logo_400_400/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=la89A45g78SCwsnx5N51ShFbp3k6sYaLB50EsBsKjvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_200_200/company-logo_200_200/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=kz8-QTBcKomQnNu4056SRxN5DcXY1UBwwxgn2TDVoFA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFtkeIK3Xokhw/company-logo_100_100/company-logo_100_100/0/1694807160188/vassar_college_logo?e=1795046400&v=beta&t=0ILUZkH0WShur1SOhx4FTNDbEwiueq13rpBC3aWkfPs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/12298/",
+    "schoolName": "Vassar College",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/12298/",
+    "schoolId": "12298",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2021
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=IFf18cESQcAiIREEePeGS7kV8DXd6ETbu6q_jI7EYgE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=t1SkG6hXXj4fmTf9JKAxQImR5hrkpOWv4CXaza1ryTA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=1qqq-aVoTfRUbnX9PkUbocYzT3VDtc59wQ5rn9SLDCM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=IFf18cESQcAiIREEePeGS7kV8DXd6ETbu6q_jI7EYgE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795046400&v=beta&t=t1SkG6hXXj4fmTf9JKAxQImR5hrkpOWv4CXaza1ryTA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "Computer Software Engineering",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2025
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "schoolId": "64638",
+    "degree": "Computer Software Engineering",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2025
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "GHC Student Scholar ",
+    "description": "Awarded a GHC Student Scholarship to attend the 2020 Virtual Grace Hopper Celebration from Monday, Sep 28 to Friday, Oct. 2. \nWill receive full registration for the virtual conference, professional development workshops, career training, premium Slack workspace access, and facilitated networking opportunities.\n",
+    "issueDate": {},
+    "issuer": "Issued by AnitaB.org · Jun 2020"
+   },
+   {
+    "title": "QuestBridge Scholar",
+    "issueDate": {},
+    "issuer": "Issued by QuestBridge"
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Volunteer",
+    "companyName": "Blissful Bedrooms",
+    "description": "Helped plan, coordinate, supervise, and organize a Blissful Bedrooms event as a part of high school Service Club.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2016
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "https://www.linkedin.com/company/6597977/",
+     "name": "Blissful Bedrooms",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_200_200/company-logo_200_200/0/1631302283496?e=1795046400&v=beta&t=cLsXRrhWnyOK3oIA8-4jIZmbdoDVAHBb5WK23e4DxtU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_100_100/company-logo_100_100/0/1631302283496?e=1795046400&v=beta&t=12nDSJcafAYXJGbVqE-_bb_15ZAaB3sF_7ZWkBtbZ8U",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_400_400/company-logo_400_400/0/1631302283496?e=1795046400&v=beta&t=WYpizbVKYqKRfxAuI5FXBFLKQE1Jg6VijiU3akg3cNM"
+     }
+    },
+    "organization": "Blissful Bedrooms"
+   },
+   {
+    "role": "Kitchen Staff",
+    "companyName": "Taste Buds Kitchen",
+    "timePeriod": {},
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/5147886/",
+     "name": "Taste Buds Kitchen",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_200_200/company-logo_200_200/0/1692636394640/taste_buds_kitchen_logo?e=1795046400&v=beta&t=-KOn1CyLPL8jBfiZB5qncbgQs7nGErE9X9kWy_b5F2E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_100_100/company-logo_100_100/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=lOTmQQW0uZ8Mc35dhYUl4g-mJcw_CnBLzGiySkIejw0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_400_400/company-logo_400_400/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=1TgT0-zg-LvVuEE8zf3_SuH3ba74UqBuczZhQ_dmlVY"
+     }
+    },
+    "organization": "Taste Buds Kitchen"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Volunteer",
+    "companyName": "Blissful Bedrooms",
+    "description": "Helped plan, coordinate, supervise, and organize a Blissful Bedrooms event as a part of high school Service Club.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2016
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "https://www.linkedin.com/company/6597977/",
+     "name": "Blissful Bedrooms",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_200_200/company-logo_200_200/0/1631302283496?e=1795046400&v=beta&t=cLsXRrhWnyOK3oIA8-4jIZmbdoDVAHBb5WK23e4DxtU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_100_100/company-logo_100_100/0/1631302283496?e=1795046400&v=beta&t=12nDSJcafAYXJGbVqE-_bb_15ZAaB3sF_7ZWkBtbZ8U",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyi5t4nV_O3g/company-logo_400_400/company-logo_400_400/0/1631302283496?e=1795046400&v=beta&t=WYpizbVKYqKRfxAuI5FXBFLKQE1Jg6VijiU3akg3cNM"
+     }
+    }
+   },
+   {
+    "role": "Kitchen Staff",
+    "companyName": "Taste Buds Kitchen",
+    "description": "",
+    "timePeriod": {},
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/5147886/",
+     "name": "Taste Buds Kitchen",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_200_200/company-logo_200_200/0/1692636394640/taste_buds_kitchen_logo?e=1795046400&v=beta&t=-KOn1CyLPL8jBfiZB5qncbgQs7nGErE9X9kWy_b5F2E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_100_100/company-logo_100_100/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=lOTmQQW0uZ8Mc35dhYUl4g-mJcw_CnBLzGiySkIejw0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHwc41CnCyRrg/company-logo_400_400/company-logo_400_400/0/1692636394641/taste_buds_kitchen_logo?e=1795046400&v=beta&t=1TgT0-zg-LvVuEE8zf3_SuH3ba74UqBuczZhQ_dmlVY"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643932211202?e=1795046400&v=beta&t=mfbmrcuASLr4orEuSRtYlQfiS32KeZD8ApI1R00BJ44",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1643932211202?e=1795046400&v=beta&t=eQNTkKbySg55Nbqkp3AmpNXXKldGRnE3Kxb6avl_mnI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643932211202?e=1795046400&v=beta&t=pi06pgC4XzvJsXyBoS5elnfC3ZiezLn1RTLkrvDKWkk",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643932211202?e=1795046400&v=beta&t=pi06pgC4XzvJsXyBoS5elnfC3ZiezLn1RTLkrvDKWkk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1643932211202?e=1795046400&v=beta&t=eQNTkKbySg55Nbqkp3AmpNXXKldGRnE3Kxb6avl_mnI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643932211202?e=1795046400&v=beta&t=mfbmrcuASLr4orEuSRtYlQfiS32KeZD8ApI1R00BJ44",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643932211202?e=1795046400&v=beta&t=mfbmrcuASLr4orEuSRtYlQfiS32KeZD8ApI1R00BJ44",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1643932211202?e=1795046400&v=beta&t=eQNTkKbySg55Nbqkp3AmpNXXKldGRnE3Kxb6avl_mnI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643932211202?e=1795046400&v=beta&t=pi06pgC4XzvJsXyBoS5elnfC3ZiezLn1RTLkrvDKWkk",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1643932211202?e=1795046400&v=beta&t=3WXMd9lY9ufX9NL8-lGs1XxwmQdYjAYFFq3ZYX_tbcw",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1643932211202?e=1795046400&v=beta&t=pi06pgC4XzvJsXyBoS5elnfC3ZiezLn1RTLkrvDKWkk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1643932211202?e=1795046400&v=beta&t=eQNTkKbySg55Nbqkp3AmpNXXKldGRnE3Kxb6avl_mnI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQExVnABfe7r9g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1643932211202?e=1795046400&v=beta&t=mfbmrcuASLr4orEuSRtYlQfiS32KeZD8ApI1R00BJ44",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_350_1400/B4EaFzWyaDKIAg-/0/1792936716593?e=1795046400&v=beta&t=xSCrZ9qkF9pbtP1r5EJ-V6gsTibFdkKPR7LSBFCbmAY",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_200_800/B4EaFzWyaDKIAc-/0/1792936716594?e=1795046400&v=beta&t=u-4jFTnf5wjR2Nb88VXHFgSCFedoeGPjqa6U8sH-hI8",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_350_1400/B4EaFzWyaDKIAg-/0/1792936716593?e=1795046400&v=beta&t=xSCrZ9qkF9pbtP1r5EJ-V6gsTibFdkKPR7LSBFCbmAY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_350_1400/B4EaFzWyaDKIAg-/0/1792936716593?e=1795046400&v=beta&t=xSCrZ9qkF9pbtP1r5EJ-V6gsTibFdkKPR7LSBFCbmAY",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHmXyrZBBK6bw/profile-displaybackgroundimage-shrink_200_800/B4EaFzWyaDKIAc-/0/1792936716594?e=1795046400&v=beta&t=u-4jFTnf5wjR2Nb88VXHFgSCFedoeGPjqa6U8sH-hI8",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/nyalajackson"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T19:02:44.574Z",
+ "foundBy": null
+}

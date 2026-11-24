@@ -1,0 +1,1276 @@
+{
+ "slug": "chrisleekahei",
+ "inputUrl": "https://www.linkedin.com/in/chrisleekahei",
+ "fetchedAt": "2026-10-30T21:45:36.162Z",
+ "id": "6ae510004f8d6cb6ddd5a44f",
+ "url": "https://www.linkedin.com/in/chrisleekahei",
+ "profile": {
+  "created": 1525463986077,
+  "trackingId": "LSZhETnlRAuQJSx4EBF4VA==",
+  "firstName": "Ka Hei",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "4176376651",
+  "headline": "Enterprise Applications Architect | Application Modernization, ERP Decoupling & Integration Architecture | C#/.NET · Python · SQL Server · EDI/API · AI in Business Applications",
+  "publicIdentifier": "chrisleekahei",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "652614440",
+  "profileId": "ACoAACbmGygBP4MzzObrCRdmF9epNZkq45k_hB4",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103846327",
+  "geoLocationName": "Covina, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Lead Software Engineer",
+  "summary": "I build and modernize the systems that run distribution and fulfillment operations.\n \nFor the past six years I've owned the enterprise application portfolio at a furniture importer and distributor — architecture, hands-on development, integration, data, and infrastructure. When I started, each department ran its own spreadsheets and legacy desktop tools. Today there's one platform covering order management, CRM, PIM, inventory, ticketing, and reporting, built incrementally so operations never stopped while the old systems came apart underneath.\n \nMost of my work sits at the seams between systems. I've spent years pulling business capability out of a legacy ERP and into modular services with clear API boundaries, so order, inventory, and fulfillment workflows can change without waiting on the legacy ERP. The fulfillment layer I own runs three integration patterns across a dozen retail and carrier partners — REST APIs, EDI, and flat-file exchange — plus 3PL providers and internal warehouses.\n \nMore recently I've been putting AI into production business applications rather than alongside them: document automation that handles most of our bill-of-lading processing end to end, invoice reconciliation that checks every line against ERP records, and AI services inside our PIM that extract attributes from product images and review retail listings.\n \nI write production code daily and expect to keep doing it. The architecture decisions I trust most are the ones made by people who still have to live with them.\n \nOpen to conversations about enterprise architecture and application modernization roles.",
+  "positions": [
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "City of Industry, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "• Architected and delivered a unified enterprise platform covering order management, CRM, PIM, inventory, ticketing, and operational reporting, replacing the spreadsheets and legacy applications each department had run separately.\n \n• Led incremental modernization of legacy C# WinForms and VB applications and aging relational schemas, reducing technical debt through modular web services and REST API boundaries while keeping production uninterrupted. Systems built on this architecture have run continuously for 6+ years.\n \n• Decoupled EDI, order, inventory, and fulfillment capabilities from the legacy Sage 100 ERP through modernized SQL and ETL pipelines, REST APIs, and integration middleware.\n \n• Own the fulfillment integration layer across three patterns: APIs (Amazon, Walmart, Wayfair), EDI (Overstock, Target, Macy's), and flat-file via CommerceHub (Home Depot, Lowe's), plus FedEx and UPS APIs for rating, address validation, and label generation.\n \n• Built a real-time inventory availability engine that normalizes stock data from WMS, ERP, SQL, and spreadsheet sources into unified SQL views, resolving kit and component-level availability across 10+ stocking locations.\n \n• Built AI document automation handling roughly 90% of bill-of-lading processing, and a reconciliation service that checks supplier invoices against ERP records line by line.\n \n• Added AI services to the PIM module for attribute extraction from product images, product image generation, and retail listing review.\n \n• Set architecture standards and technical direction; mentor engineers on the platform codebase and manage vendor relationships across EDI/VAN, software, and network providers.\n\n• Administered enterprise IT operations across multi-site offices and warehouses: production servers, network and VPN infrastructure, software deployments, user support, and database administration.",
+    "insights": "C#, Python (Programming Language) and +15 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1838751/",
+     "name": "Furniture of America Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw"
+     }
+    }
+   },
+   {
+    "title": "Full Stack Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "• Built middleware integrating client ERP, WMS, and third-party storefronts through EDI and REST APIs, and delivered responsive business web applications across frontend, backend, and database layers.\n \n• Applied generative AI in production workflows to produce brand identity, marketing content, and cinematic multimedia web experiences for client sites.",
+    "insights": "EDI ANSI X12",
+    "company": {
+     "url": "https://www.linkedin.com/company/1256222/",
+     "name": "Freelance | Self-Employed",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA"
+     }
+    }
+   },
+   {
+    "title": "Warehouse Associate",
+    "locationName": "Commerce, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    }
+   },
+   {
+    "title": "Import Export Assistant",
+    "locationName": "Bell Gardens, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1872567/",
+     "name": "Wei Chuan USA Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_200_200/company-logo_200_200/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=neA-cNiUg0k7LtLCM6h-BubgtVPS14OVY3xX466jYq4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_100_100/company-logo_100_100/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=gi2gs3nrbbE2iy6XI8KR-qwdAX_1dsGAdMg8u49WSwM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19702/",
+    "schoolName": "University of La Verne",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Data Analytics",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_200_200/company-logo_200_200/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=J5E56eEhtW0GnWBXRaOnXyKT4JOBnYVmGtA5i1pd8gI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_100_100/company-logo_100_100/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=MZZts38l3VXi6LPjP5Wi6ztczBVaW-wkb2TBmzUejIc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_400_400/company-logo_400_400/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=pNj8svTF9__1c2CpBoS0Da3B0kEPohlYgpmvFys3NtE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10265/",
+    "schoolName": "California State Polytechnic University-Pomona",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "IAB Fundamentals of Digital Marketing Certification",
+    "authority": "Google",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Google",
+    "title": "IAB Fundamentals of Digital Marketing Certification",
+    "issuedBy": "Google",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Furniture of America Inc.",
+  "companyPublicId": "foagroup",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/foagroup/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1838751",
+   "name": "Furniture of America Inc.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEpfcoQSwEW4A",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_"
+    }
+   },
+   "universalName": "foagroup",
+   "url": "https://www.linkedin.com/company/foagroup/",
+   "slug": "foagroup",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+   "specialties": []
+  },
+  "followerCount": 36,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 35,
+  "skills": [
+   {
+    "name": "EDI ANSI X12",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Sage 100",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Warehouse Management Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "EAI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Solution Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Electronic Data Interchange (EDI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Modernization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Information Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "EDI mapping",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Refactoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Legacy Modernization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Deployment",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "EDI ANSI X12",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Sage 100",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "EAI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Solution Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Electronic Data Interchange (EDI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Information Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "EDI mapping",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Refactoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Legacy Modernization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Deployment",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise IT Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Warehouse Management Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android SDK",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "jQuery",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "WordPress",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "R",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "REST API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Assembly Language",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/chrisleekahei",
+  "linkedinUrl": "https://www.linkedin.com/in/chrisleekahei",
+  "profileUrl": "https://www.linkedin.com/in/chrisleekahei",
+  "verified": false,
+  "registeredAt": "2018-05-04T19:59:46.077Z",
+  "location": {
+   "linkedinText": "Covina, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Covina, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build and modernize the systems that run distribution and fulfillment operations.\n \nFor the past six years I've owned the enterprise application portfolio at a furniture importer and distributor — architecture, hands-on development, integration, data, and infrastructure. When I started, each department ran its own spreadsheets and legacy desktop tools. Today there's one platform covering order management, CRM, PIM, inventory, ticketing, and reporting, built incrementally so operations never stopped while the old systems came apart underneath.\n \nMost of my work sits at the seams between systems. I've spent years pulling business capability out of a legacy ERP and into modular services with clear API boundaries, so order, inventory, and fulfillment workflows can change without waiting on the legacy ERP. The fulfillment layer I own runs three integration patterns across a dozen retail and carrier partners — REST APIs, EDI, and flat-file exchange — plus 3PL providers and internal warehouses.\n \nMore recently I've been putting AI into production business applications rather than alongside them: document automation that handles most of our bill-of-lading processing end to end, invoice reconciliation that checks every line against ERP records, and AI services inside our PIM that extract attributes from product images and review retail listings.\n \nI write production code daily and expect to keep doing it. The architecture decisions I trust most are the ones made by people who still have to live with them.\n \nOpen to conversations about enterprise architecture and application modernization roles.",
+  "currentTitle": "Lead Software Engineer",
+  "allTitles": [
+   "Lead Software Engineer",
+   "Full Stack Engineer",
+   "Warehouse Associate",
+   "Import Export Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "City of Industry, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "• Architected and delivered a unified enterprise platform covering order management, CRM, PIM, inventory, ticketing, and operational reporting, replacing the spreadsheets and legacy applications each department had run separately.\n \n• Led incremental modernization of legacy C# WinForms and VB applications and aging relational schemas, reducing technical debt through modular web services and REST API boundaries while keeping production uninterrupted. Systems built on this architecture have run continuously for 6+ years.\n \n• Decoupled EDI, order, inventory, and fulfillment capabilities from the legacy Sage 100 ERP through modernized SQL and ETL pipelines, REST APIs, and integration middleware.\n \n• Own the fulfillment integration layer across three patterns: APIs (Amazon, Walmart, Wayfair), EDI (Overstock, Target, Macy's), and flat-file via CommerceHub (Home Depot, Lowe's), plus FedEx and UPS APIs for rating, address validation, and label generation.\n \n• Built a real-time inventory availability engine that normalizes stock data from WMS, ERP, SQL, and spreadsheet sources into unified SQL views, resolving kit and component-level availability across 10+ stocking locations.\n \n• Built AI document automation handling roughly 90% of bill-of-lading processing, and a reconciliation service that checks supplier invoices against ERP records line by line.\n \n• Added AI services to the PIM module for attribute extraction from product images, product image generation, and retail listing review.\n \n• Set architecture standards and technical direction; mentor engineers on the platform codebase and manage vendor relationships across EDI/VAN, software, and network providers.\n\n• Administered enterprise IT operations across multi-site offices and warehouses: production servers, network and VPN infrastructure, software deployments, user support, and database administration.",
+    "insights": "C#, Python (Programming Language) and +15 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1838751/",
+     "name": "Furniture of America Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw"
+     }
+    },
+    "position": "Lead Software Engineer",
+    "companyName": "Furniture of America Inc.",
+    "location": "City of Industry, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1838751/",
+    "companyId": "1838751",
+    "duration": "8 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2018
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Full Stack Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "• Built middleware integrating client ERP, WMS, and third-party storefronts through EDI and REST APIs, and delivered responsive business web applications across frontend, backend, and database layers.\n \n• Applied generative AI in production workflows to produce brand identity, marketing content, and cinematic multimedia web experiences for client sites.",
+    "insights": "EDI ANSI X12",
+    "company": {
+     "url": "https://www.linkedin.com/company/1256222/",
+     "name": "Freelance | Self-Employed",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA"
+     }
+    },
+    "position": "Full Stack Engineer",
+    "companyName": "Freelance | Self-Employed",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1256222/",
+    "companyId": "1256222",
+    "duration": "5 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Warehouse Associate",
+    "locationName": "Commerce, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "9 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    },
+    "position": "Warehouse Associate",
+    "companyName": "Amazon",
+    "location": "Commerce, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Import Export Assistant",
+    "locationName": "Bell Gardens, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1872567/",
+     "name": "Wei Chuan USA Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII"
+     }
+    },
+    "position": "Import Export Assistant",
+    "companyName": "Wei Chuan USA Inc.",
+    "location": "Bell Gardens, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1872567/",
+    "companyId": "1872567",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2013
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1838751",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1838751/",
+    "companyName": "Furniture of America Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1256222",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1256222/",
+    "companyName": "Freelance | Self-Employed",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "City of Industry, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "• Architected and delivered a unified enterprise platform covering order management, CRM, PIM, inventory, ticketing, and operational reporting, replacing the spreadsheets and legacy applications each department had run separately.\n \n• Led incremental modernization of legacy C# WinForms and VB applications and aging relational schemas, reducing technical debt through modular web services and REST API boundaries while keeping production uninterrupted. Systems built on this architecture have run continuously for 6+ years.\n \n• Decoupled EDI, order, inventory, and fulfillment capabilities from the legacy Sage 100 ERP through modernized SQL and ETL pipelines, REST APIs, and integration middleware.\n \n• Own the fulfillment integration layer across three patterns: APIs (Amazon, Walmart, Wayfair), EDI (Overstock, Target, Macy's), and flat-file via CommerceHub (Home Depot, Lowe's), plus FedEx and UPS APIs for rating, address validation, and label generation.\n \n• Built a real-time inventory availability engine that normalizes stock data from WMS, ERP, SQL, and spreadsheet sources into unified SQL views, resolving kit and component-level availability across 10+ stocking locations.\n \n• Built AI document automation handling roughly 90% of bill-of-lading processing, and a reconciliation service that checks supplier invoices against ERP records line by line.\n \n• Added AI services to the PIM module for attribute extraction from product images, product image generation, and retail listing review.\n \n• Set architecture standards and technical direction; mentor engineers on the platform codebase and manage vendor relationships across EDI/VAN, software, and network providers.\n\n• Administered enterprise IT operations across multi-site offices and warehouses: production servers, network and VPN infrastructure, software deployments, user support, and database administration.",
+    "insights": "C#, Python (Programming Language) and +15 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1838751/",
+     "name": "Furniture of America Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw"
+     }
+    },
+    "position": "Lead Software Engineer",
+    "companyName": "Furniture of America Inc.",
+    "location": "City of Industry, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1838751/",
+    "companyId": "1838751",
+    "duration": "8 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2018
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_400_400/company-logo_400_400/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=coaAs1-UuzLbN2dujUsdsknZgC7B47YYC2qsWGflClw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_200_200/company-logo_200_200/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=ZGx_FVziHh7VSwya70znE6JOgI8YGZ1DSxvKwss8LT0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEpfcoQSwEW4A/company-logo_100_100/company-logo_100_100/0/1728425191920/foagroup_logo?e=1795046400&v=beta&t=IMGMC3s2V7G7LDNqs1dZge4qPmitbVye9NiKYSdoCQE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Full Stack Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "• Built middleware integrating client ERP, WMS, and third-party storefronts through EDI and REST APIs, and delivered responsive business web applications across frontend, backend, and database layers.\n \n• Applied generative AI in production workflows to produce brand identity, marketing content, and cinematic multimedia web experiences for client sites.",
+    "insights": "EDI ANSI X12",
+    "company": {
+     "url": "https://www.linkedin.com/company/1256222/",
+     "name": "Freelance | Self-Employed",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA"
+     }
+    },
+    "position": "Full Stack Engineer",
+    "companyName": "Freelance | Self-Employed",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1256222/",
+    "companyId": "1256222",
+    "duration": "5 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_400_400/B4EaCOu5uTJcAU-/0/1789101055152?e=1795046400&v=beta&t=bDo66a5gWyYbOFIhiqvcPtQwP5Xf2_Ev4ZlFVZuEUDM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_200_200/B4EaCOu5uTJcAE-/0/1789101055152?e=1795046400&v=beta&t=VPuU43wiy11pOnNaGYIdTuDjOGWkiM94Q96HwCEbbJA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEKU730qdwTJA/company-logo_100_100/B4EaCOu5uTJcAI-/0/1789101055152?e=1795046400&v=beta&t=vxBNNnqaxkWcQFRH-MClUyqc70o_BnvNtLGJufgMakY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Warehouse Associate",
+    "locationName": "Commerce, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "9 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    },
+    "position": "Warehouse Associate",
+    "companyName": "Amazon",
+    "location": "Commerce, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Import Export Assistant",
+    "locationName": "Bell Gardens, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1872567/",
+     "name": "Wei Chuan USA Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII"
+     }
+    },
+    "position": "Import Export Assistant",
+    "companyName": "Wei Chuan USA Inc.",
+    "location": "Bell Gardens, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1872567/",
+    "companyId": "1872567",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2013
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_400_400/B56ZwS_rJ4JMAY-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=OFYzzFWSjHapc4iht0mwcDW8L6kpznXoy3ahTXJFVeY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_200_200/B56ZwS_rJ4JMAI-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=THaLU0DgAm2o_TnhaMRZLdyGH9rr7ZqawrxYSEfWwII",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHXdJH1LTnJCg/company-logo_100_100/B56ZwS_rJ4JMAQ-/0/1769845207998/wei_chuan_usa_inc_logo?e=1795046400&v=beta&t=mjcPokJozsgWExg-qHUqll6jI4yccozpw6-A6uzkKU8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_200_200/company-logo_200_200/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=neA-cNiUg0k7LtLCM6h-BubgtVPS14OVY3xX466jYq4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_100_100/company-logo_100_100/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=gi2gs3nrbbE2iy6XI8KR-qwdAX_1dsGAdMg8u49WSwM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_200_200/company-logo_200_200/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=neA-cNiUg0k7LtLCM6h-BubgtVPS14OVY3xX466jYq4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_100_100/company-logo_100_100/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=gi2gs3nrbbE2iy6XI8KR-qwdAX_1dsGAdMg8u49WSwM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19702/",
+    "schoolName": "University of La Verne",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Data Analytics",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19702/",
+    "schoolId": "19702",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_200_200/company-logo_200_200/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=J5E56eEhtW0GnWBXRaOnXyKT4JOBnYVmGtA5i1pd8gI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_100_100/company-logo_100_100/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=MZZts38l3VXi6LPjP5Wi6ztczBVaW-wkb2TBmzUejIc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_400_400/company-logo_400_400/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=pNj8svTF9__1c2CpBoS0Da3B0kEPohlYgpmvFys3NtE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_400_400/company-logo_400_400/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=pNj8svTF9__1c2CpBoS0Da3B0kEPohlYgpmvFys3NtE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_400_400/company-logo_400_400/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=pNj8svTF9__1c2CpBoS0Da3B0kEPohlYgpmvFys3NtE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_200_200/company-logo_200_200/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=J5E56eEhtW0GnWBXRaOnXyKT4JOBnYVmGtA5i1pd8gI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFFO12NE2lOVw/company-logo_100_100/company-logo_100_100/0/1737999459363/cal_poly_pomona_logo?e=1795046400&v=beta&t=MZZts38l3VXi6LPjP5Wi6ztczBVaW-wkb2TBmzUejIc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10265/",
+    "schoolName": "California State Polytechnic University-Pomona",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10265/",
+    "schoolId": "10265",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2016
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_200_200/company-logo_200_200/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=neA-cNiUg0k7LtLCM6h-BubgtVPS14OVY3xX466jYq4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_100_100/company-logo_100_100/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=gi2gs3nrbbE2iy6XI8KR-qwdAX_1dsGAdMg8u49WSwM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_400_400/company-logo_400_400/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=GUfq1J-ORYISpkYMpXfY6y7CyB1DJBhkWLRGUssKyro",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_200_200/company-logo_200_200/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=neA-cNiUg0k7LtLCM6h-BubgtVPS14OVY3xX466jYq4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFdG3iZko_S_g/company-logo_100_100/company-logo_100_100/0/1706253864010/ulaverne_logo?e=1795046400&v=beta&t=gi2gs3nrbbE2iy6XI8KR-qwdAX_1dsGAdMg8u49WSwM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19702/",
+    "schoolName": "University of La Verne",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Data Analytics",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19702/",
+    "schoolId": "19702",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/chrisleekahei"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T21:45:19.781Z",
+ "foundBy": null
+}

@@ -1,0 +1,1836 @@
+{
+ "slug": "stephen-kyoungwon-kim",
+ "inputUrl": "https://www.linkedin.com/in/stephen-kyoungwon-kim",
+ "fetchedAt": "2026-11-13T18:03:58.409Z",
+ "id": "6af7510e326d0b70b7e24b98",
+ "url": "https://www.linkedin.com/in/stephen-kyoungwon-kim",
+ "profile": {
+  "created": 1317062668864,
+  "trackingId": "tXcts9mdR/S30RgGLyZBPw==",
+  "firstName": "Kyoungwon",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "2907496855",
+  "headline": "Software Engineer at Broadcom",
+  "publicIdentifier": "stephen-kyoungwon-kim",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "143370198",
+  "profileId": "ACoAAAiLp9YBXnDk4B4b7f7nEO1hoQYFoQoirIs",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+   "437x437": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+   "437x437": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106233382",
+  "geoLocationName": "San Jose, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "A software Engineer with extensive development experiences with solid background on system software and hardware. \n\nSpecialties: C/C++, virtualization, docker, Linux, JAVA, Python, Bash, Compiler, Embedded System, HW/SW Codesign, Virtual Prototypes, GNU tools, Go",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "vSphere control plane (vpxd) — orchestration of group hot migration\n•   Developed and hardened vpxd coordination for group disk-only migration of VMs sharing multiwriter disks, extending legacy per-VM workflows to execute concurrently.\n•   Designed synchronization and group lifecycle handling for concurrent migration workflows, including gather/broadcast exchange, barrier coordination, cancellation, exception propagation, and cleanup paths to prevent workflows from hanging when individual participants fail or exit early.\n•   Diagnosed and fixed concurrency and lifecycle failures across vpxd and VMX migration paths, including deadlocks from abandoned barriers, unsafe recursive cancellation, and semaphore use-before-initialization/use-after-destruction caused by concurrent migration cleanup and signaling.\n•   Identified fundamental limitations in the team’s C++ unit-test infrastructure that impeded modern C++ development; drove the team away from new source-transformation-based UUT tests and introduced dependency-injection patterns with working examples to improve native testability.\n•    Mentored engineers on synchronization design and regularly led C++ code reviews for concurrency-sensitive changes and performance",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Android device virtualization on macOS and Linux hosts\n•   Designed and prototyped Vulkan graphics API remoting to forward guest Vulkan calls to the host GPU; produced the design and proof of concept and improved launcher-app rendering performance by approximately 10 FPS by internal measurement\n•   Sole developer and maintainer of the CoreAudio backend for the virtual Android device, spanning the guest audio HAL, QEMU, CoreAudio, AudioToolbox, and custom synchronization layers; implemented headset hot-plug support and owned debugging and maintenance of the subsystem.\n•   Diagnosed and fixed difficult multithreaded and timing-sensitive audio failures, including synchronization and object-lifetime races that reproduced only intermittently across hundreds of runs.\n•   Improved the team’s code-review and verification practices by introducing automated validation tooling and performing deep reviews of large systems changes.\n•   Mentored junior engineers on linking/loading semantics (RenderDoc + virtual device), spinlock vs. blocking I/O tradeoffs, and Vulkan debug extensions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6575553/",
+     "name": "ByteDance",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Android Virtualization for Google Cloud\n * Open sources \n  - https://cs.android.com/android/platform/superproject/+/master:device/google/cuttlefish/\n  - https://github.com/google/android-cuttlefish\n * Cuttlefish Confirmation UI\n   - Confirmation UI virtualization\n      + Virtualization of the guest HAL service that cooperates with (virtual) Trusted Execution Environment\n      + Technical challenges\n           * E.g. Differences in context switch between virtual and physical devices\n               The HAL in physical devices effectively calls a device driver, and the kernel does not preempt it.\n               The HAL in virtual devices waits for virtio-console read/write, and the kernel can preempt it\n               Cuttlefish has a guest inside hypervisor and a set of cooperating host services  \nCvd Server/Client\n  - A custom server that selects, starts, monitors, and controls different sets of Cuttlefish builds, each has a different set of host services and the guest\n  - Took over from the initial author, serves as the second primary developer for the cvd server and client\n  - Refactored and extended features (e.g. Reset, etc)\n  - Technical challenges\n      * E.g. Complicated process controls by a multi-threaded application\n      * E.g. Self-updating server driven by the client\n  - Impacts\n     + Used by the current and next generations acloud for every \"creation\" of devices\n         Acloud is used by virtually every Android developer within the organization\nCvd Device Selector\n   - Served as the sole developer\n   - Technical challenges\n      + E.g. Supporting a broad range of builds minimizing the backport\nDockerization for Cuttlefish\n  * Implemented docker containers for the partners who use non-gLinux OS\n      +  contributions outside cuttlefish is found here:\n           https://github.com/google/android-cuttlefish\n      + implemented cuttlefish features to allow or extend the support of dockerization",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Oracle",
+     "url": "https://www.linkedin.com/company/1028/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Member of Techincal Staff",
+      "locationName": "Work From Home",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "Linux Toolchain Development\n * The team delivers toolchains for Oracle Linux in forms of RPMs, VMs such as cloud image, etc\n * Oracle Cloud Infrastructure (OCI) Developer image\n   - Maintaining java and go OCI SDK RPMs\n   - Optimized image build process \n       + build time: 1/3\n       + automated\n       + input data made concise:  63 lines vs. 163 lines per image\n   - Implemented and/or improved spec files of multiple RPMs\n   - Provided system-wide configurations for the image\n * Golang maintainer for x86 and arm64\n    - Identifying/fixing Oracle Specific bugs\n * Docker build with gccgo\n    - Patched docker source to build with gccgo\n * Occasional debugging GNU tools\n * Auto FDO",
+      "insights": ""
+     },
+     {
+      "title": "Member of Technical Staff",
+      "locationName": "Santa Clara, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "IR-level optimization (IROPT)\n   * Auto vectorization for x86 \n   * Auto vectorization for sparc\n   * Memory optimization \n      - E.g. array remapping\n   * Scalar optimization \n      - E.g. conditional expression elimination\n   * IR simulator generator\n      - Debuggable and executable IR-level simulation model from the given IRs\n      - Sole implementator for this on-going project",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Graduate Research Assistance",
+    "locationName": "Irvine, CA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "• Embedded System Environment (ESE, www.cecs.uci.edu/~ese)\n  - Research focus: system specification and architecture exploration to optimize performance and power consumption\n  - Developed a CAD toolset, ESE (over 150K LOC in C++), to model and validate multi-processor embedded systems\n  - ESE attracted considerable interest from corporate giants including Toyota, Lockheed-Martin, and Bosch\n\n• Modeling Multimedia Applications\n - Modeling MP3 and JPEG decoders in Program State Machines, which is executable\n\n• Lab Servers Administration\n  Gentoo and Redhat Linux Server Configuration and Administration. Services include NIS, NFS, SMB, Subversion, HTTP, HTTPS, Mail, etc",
+    "company": {
+     "url": "",
+     "name": "Center for Embedded Computer Systems",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "Seoul National University",
+     "url": "https://www.linkedin.com/company/15096106/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "7 yrs 6 mos",
+    "positions": [
+     {
+      "title": "Graduate Research Assistance",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2009
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• ASIP for H.264 On-chip Encoder\n    - Architected and implemented an Application-Specific Instruction-set Processor (ASIP) for H.264 on-chip encoder\n    - The ASIP was delivered to a start-up company and successfully commercialized.",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2002
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2007
+       }
+      },
+      "totalDuration": "5 yrs 10 mos",
+      "description": "• Java Compiler Optimization\n    - Implemented back-end optimization modules for an ahead-of-time Java compiler for ARM7\n• RF-sensor Based Health Care System\n    - Designed and developed sensor control server and its GUI using Java\n• NES Emulator on WIPI\n    - Ported a PC-based NES emulator to WIPI, a standard platform for mobile handheld appliances in Korea\n• Linux Server Administration\n    - Administrated Linux servers (Gentoo, Debian, Redhat) for SAMBA, NFS, NIS, Mail, SFTP, Web services, and so on",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Student",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2007
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• 16 bit RISC Processor and Simulator\n- Developed 16 bit RISC Processor in both SystemC and VHDL\n- Developed a simulator for the same processor in JAVA\n\n• Cracking x86 Binary Files\n- cracked binary files w/ GNU tools\n\n• RTOS/Device Driver\n- Implemented RTOS context switch, Linux device driver for RTC clock",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Co-Op",
+    "locationName": "Yongin, Gyeonggi, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "• Re-targetable Source Level Debugger for Reconfigurable Processors\n    - Served as a technical leader for debugger engine development team throughout the project\n    - Developed a full-featured re-targetable debugger for Samsung’s reconfigurable processor\n    - Collaborated with several teams in SAIT and successfully lead the project",
+    "company": {
+     "url": "",
+     "name": "Samsung Advanced Institute of Technology",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_100_100/B56ZoNqMfXJYAQ-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=dl-9EVbslEA63UeRTcZ68ZwyeeIJalAldlU40E11_mA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_200_200/B56ZoNqMfXJYAI-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=UApKWfDOkyqia8IZ64S1WWVeNl8VtTqMMaBQFyEa0vY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4418/",
+    "schoolName": "UC Irvine",
+    "degreeName": "Doctor of Philosophy (Ph.D.)",
+    "fieldOfStudy": "Electrical Engineering and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2013
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Electrical Engineering and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2009
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Engeering Fellowship",
+    "description": "Fellowship",
+    "issueDate": {},
+    "issuer": "Issued by EECS Department, UC Irvine · Sep 2010"
+   },
+   {
+    "title": "Best MS. Thesis Candidate",
+    "description": "",
+    "issueDate": {},
+    "issuer": "Issued by EECS, Seoul National University · Aug 2009"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Japanese",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Broadcom",
+  "companyPublicId": "broadcom",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/broadcom/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:3072",
+   "name": "Broadcom",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQGDwy-AGAu-Hg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+       "expiresAt": 1796256000000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_"
+    }
+   },
+   "universalName": "broadcom",
+   "url": "https://www.linkedin.com/company/broadcom/",
+   "slug": "broadcom",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+   "specialties": []
+  },
+  "followerCount": 536,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 536,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Eclipse",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Emacs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GNU Make",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Configuration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Simulations",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Emacs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GNU Make",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Configuration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Simulations",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Eclipse",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/stephen-kyoungwon-kim",
+  "linkedinUrl": "https://www.linkedin.com/in/stephen-kyoungwon-kim",
+  "profileUrl": "https://www.linkedin.com/in/stephen-kyoungwon-kim",
+  "verified": true,
+  "registeredAt": "2011-09-26T18:44:28.864Z",
+  "location": {
+   "linkedinText": "San Jose, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Jose, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "A software Engineer with extensive development experiences with solid background on system software and hardware. \n\nSpecialties: C/C++, virtualization, docker, Linux, JAVA, Python, Bash, Compiler, Embedded System, HW/SW Codesign, Virtual Prototypes, GNU tools, Go",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Graduate Research Assistance",
+   "Co-Op"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "vSphere control plane (vpxd) — orchestration of group hot migration\n•   Developed and hardened vpxd coordination for group disk-only migration of VMs sharing multiwriter disks, extending legacy per-VM workflows to execute concurrently.\n•   Designed synchronization and group lifecycle handling for concurrent migration workflows, including gather/broadcast exchange, barrier coordination, cancellation, exception propagation, and cleanup paths to prevent workflows from hanging when individual participants fail or exit early.\n•   Diagnosed and fixed concurrency and lifecycle failures across vpxd and VMX migration paths, including deadlocks from abandoned barriers, unsafe recursive cancellation, and semaphore use-before-initialization/use-after-destruction caused by concurrent migration cleanup and signaling.\n•   Identified fundamental limitations in the team’s C++ unit-test infrastructure that impeded modern C++ development; drove the team away from new source-transformation-based UUT tests and introduced dependency-injection patterns with working examples to improve native testability.\n•    Mentored engineers on synchronization design and regularly led C++ code reviews for concurrency-sensitive changes and performance",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Broadcom",
+    "location": "Palo Alto, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3072/",
+    "companyId": "3072",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Oracle",
+     "url": "https://www.linkedin.com/company/1028/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Member of Techincal Staff",
+      "locationName": "Work From Home",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "Linux Toolchain Development\n * The team delivers toolchains for Oracle Linux in forms of RPMs, VMs such as cloud image, etc\n * Oracle Cloud Infrastructure (OCI) Developer image\n   - Maintaining java and go OCI SDK RPMs\n   - Optimized image build process \n       + build time: 1/3\n       + automated\n       + input data made concise:  63 lines vs. 163 lines per image\n   - Implemented and/or improved spec files of multiple RPMs\n   - Provided system-wide configurations for the image\n * Golang maintainer for x86 and arm64\n    - Identifying/fixing Oracle Specific bugs\n * Docker build with gccgo\n    - Patched docker source to build with gccgo\n * Occasional debugging GNU tools\n * Auto FDO",
+      "insights": ""
+     },
+     {
+      "title": "Member of Technical Staff",
+      "locationName": "Santa Clara, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "IR-level optimization (IROPT)\n   * Auto vectorization for x86 \n   * Auto vectorization for sparc\n   * Memory optimization \n      - E.g. array remapping\n   * Scalar optimization \n      - E.g. conditional expression elimination\n   * IR simulator generator\n      - Debuggable and executable IR-level simulation model from the given IRs\n      - Sole implementator for this on-going project",
+      "insights": ""
+     }
+    ],
+    "companyName": "Oracle",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1028/",
+    "companyId": "1028",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Seoul National University",
+     "url": "https://www.linkedin.com/company/15096106/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    },
+    "totalDuration": "7 yrs 6 mos",
+    "positions": [
+     {
+      "title": "Graduate Research Assistance",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2009
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• ASIP for H.264 On-chip Encoder\n    - Architected and implemented an Application-Specific Instruction-set Processor (ASIP) for H.264 on-chip encoder\n    - The ASIP was delivered to a start-up company and successfully commercialized.",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2002
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2007
+       }
+      },
+      "totalDuration": "5 yrs 10 mos",
+      "description": "• Java Compiler Optimization\n    - Implemented back-end optimization modules for an ahead-of-time Java compiler for ARM7\n• RF-sensor Based Health Care System\n    - Designed and developed sensor control server and its GUI using Java\n• NES Emulator on WIPI\n    - Ported a PC-based NES emulator to WIPI, a standard platform for mobile handheld appliances in Korea\n• Linux Server Administration\n    - Administrated Linux servers (Gentoo, Debian, Redhat) for SAMBA, NFS, NIS, Mail, SFTP, Web services, and so on",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Student",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2007
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• 16 bit RISC Processor and Simulator\n- Developed 16 bit RISC Processor in both SystemC and VHDL\n- Developed a simulator for the same processor in JAVA\n\n• Cracking x86 Binary Files\n- cracked binary files w/ GNU tools\n\n• RTOS/Device Driver\n- Implemented RTOS context switch, Linux device driver for RTC clock",
+      "insights": ""
+     }
+    ],
+    "companyName": "Seoul National University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "companyId": "15096106",
+    "duration": "7 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Android device virtualization on macOS and Linux hosts\n•   Designed and prototyped Vulkan graphics API remoting to forward guest Vulkan calls to the host GPU; produced the design and proof of concept and improved launcher-app rendering performance by approximately 10 FPS by internal measurement\n•   Sole developer and maintainer of the CoreAudio backend for the virtual Android device, spanning the guest audio HAL, QEMU, CoreAudio, AudioToolbox, and custom synchronization layers; implemented headset hot-plug support and owned debugging and maintenance of the subsystem.\n•   Diagnosed and fixed difficult multithreaded and timing-sensitive audio failures, including synchronization and object-lifetime races that reproduced only intermittently across hundreds of runs.\n•   Improved the team’s code-review and verification practices by introducing automated validation tooling and performing deep reviews of large systems changes.\n•   Mentored junior engineers on linking/loading semantics (RenderDoc + virtual device), spinlock vs. blocking I/O tradeoffs, and Vulkan debug extensions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6575553/",
+     "name": "ByteDance",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ByteDance",
+    "location": "San Jose, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6575553/",
+    "companyId": "6575553",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Android Virtualization for Google Cloud\n * Open sources \n  - https://cs.android.com/android/platform/superproject/+/master:device/google/cuttlefish/\n  - https://github.com/google/android-cuttlefish\n * Cuttlefish Confirmation UI\n   - Confirmation UI virtualization\n      + Virtualization of the guest HAL service that cooperates with (virtual) Trusted Execution Environment\n      + Technical challenges\n           * E.g. Differences in context switch between virtual and physical devices\n               The HAL in physical devices effectively calls a device driver, and the kernel does not preempt it.\n               The HAL in virtual devices waits for virtio-console read/write, and the kernel can preempt it\n               Cuttlefish has a guest inside hypervisor and a set of cooperating host services  \nCvd Server/Client\n  - A custom server that selects, starts, monitors, and controls different sets of Cuttlefish builds, each has a different set of host services and the guest\n  - Took over from the initial author, serves as the second primary developer for the cvd server and client\n  - Refactored and extended features (e.g. Reset, etc)\n  - Technical challenges\n      * E.g. Complicated process controls by a multi-threaded application\n      * E.g. Self-updating server driven by the client\n  - Impacts\n     + Used by the current and next generations acloud for every \"creation\" of devices\n         Acloud is used by virtually every Android developer within the organization\nCvd Device Selector\n   - Served as the sole developer\n   - Technical challenges\n      + E.g. Supporting a broad range of builds minimizing the backport\nDockerization for Cuttlefish\n  * Implemented docker containers for the partners who use non-gLinux OS\n      +  contributions outside cuttlefish is found here:\n           https://github.com/google/android-cuttlefish\n      + implemented cuttlefish features to allow or extend the support of dockerization",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Mountain View, California, US",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Graduate Research Assistance",
+    "locationName": "Irvine, CA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "• Embedded System Environment (ESE, www.cecs.uci.edu/~ese)\n  - Research focus: system specification and architecture exploration to optimize performance and power consumption\n  - Developed a CAD toolset, ESE (over 150K LOC in C++), to model and validate multi-processor embedded systems\n  - ESE attracted considerable interest from corporate giants including Toyota, Lockheed-Martin, and Bosch\n\n• Modeling Multimedia Applications\n - Modeling MP3 and JPEG decoders in Program State Machines, which is executable\n\n• Lab Servers Administration\n  Gentoo and Redhat Linux Server Configuration and Administration. Services include NIS, NFS, SMB, Subversion, HTTP, HTTPS, Mail, etc",
+    "company": {
+     "url": "",
+     "name": "Center for Embedded Computer Systems",
+     "logo": {}
+    },
+    "position": "Graduate Research Assistance",
+    "companyName": "Center for Embedded Computer Systems",
+    "location": "Irvine, CA, US",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Co-Op",
+    "locationName": "Yongin, Gyeonggi, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "• Re-targetable Source Level Debugger for Reconfigurable Processors\n    - Served as a technical leader for debugger engine development team throughout the project\n    - Developed a full-featured re-targetable debugger for Samsung’s reconfigurable processor\n    - Collaborated with several teams in SAIT and successfully lead the project",
+    "company": {
+     "url": "",
+     "name": "Samsung Advanced Institute of Technology",
+     "logo": {}
+    },
+    "position": "Co-Op",
+    "companyName": "Samsung Advanced Institute of Technology",
+    "location": "Yongin, Gyeonggi, South Korea",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "3072",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3072/",
+    "companyName": "Broadcom",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1028",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1028/",
+    "companyName": "Oracle",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "15096106",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "companyName": "Seoul National University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "vSphere control plane (vpxd) — orchestration of group hot migration\n•   Developed and hardened vpxd coordination for group disk-only migration of VMs sharing multiwriter disks, extending legacy per-VM workflows to execute concurrently.\n•   Designed synchronization and group lifecycle handling for concurrent migration workflows, including gather/broadcast exchange, barrier coordination, cancellation, exception propagation, and cleanup paths to prevent workflows from hanging when individual participants fail or exit early.\n•   Diagnosed and fixed concurrency and lifecycle failures across vpxd and VMX migration paths, including deadlocks from abandoned barriers, unsafe recursive cancellation, and semaphore use-before-initialization/use-after-destruction caused by concurrent migration cleanup and signaling.\n•   Identified fundamental limitations in the team’s C++ unit-test infrastructure that impeded modern C++ development; drove the team away from new source-transformation-based UUT tests and introduced dependency-injection patterns with working examples to improve native testability.\n•    Mentored engineers on synchronization design and regularly led C++ code reviews for concurrency-sensitive changes and performance",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Broadcom",
+    "location": "Palo Alto, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3072/",
+    "companyId": "3072",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796256000&v=beta&t=X2wWIQCnineeYR6h4UtDOlmZxe-fZ3vZitLwwreCmGI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796256000&v=beta&t=sSvak7-tPLa5eOuiRyVVt8YqDDOYC-5oK_VkrkHriDg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796256000&v=beta&t=80sFZ7NujtFn2GcOBWyF7oCbD6273xQH_DoNPohaOQM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Android device virtualization on macOS and Linux hosts\n•   Designed and prototyped Vulkan graphics API remoting to forward guest Vulkan calls to the host GPU; produced the design and proof of concept and improved launcher-app rendering performance by approximately 10 FPS by internal measurement\n•   Sole developer and maintainer of the CoreAudio backend for the virtual Android device, spanning the guest audio HAL, QEMU, CoreAudio, AudioToolbox, and custom synchronization layers; implemented headset hot-plug support and owned debugging and maintenance of the subsystem.\n•   Diagnosed and fixed difficult multithreaded and timing-sensitive audio failures, including synchronization and object-lifetime races that reproduced only intermittently across hundreds of runs.\n•   Improved the team’s code-review and verification practices by introducing automated validation tooling and performing deep reviews of large systems changes.\n•   Mentored junior engineers on linking/loading semantics (RenderDoc + virtual device), spinlock vs. blocking I/O tradeoffs, and Vulkan debug extensions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6575553/",
+     "name": "ByteDance",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ByteDance",
+    "location": "San Jose, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6575553/",
+    "companyId": "6575553",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_400_400/company-logo_400_400/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=WHRpQZXg8cIZ3oo5tctVYy0_eDWRyxHqbjroz6ctjmg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_200_200/company-logo_200_200/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=8-LD9L54FbHfgrXhX-cWTnmdOOcSuiqW3v3kMDY9JSU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGA-1ynUGnhlA/company-logo_100_100/company-logo_100_100/0/1630658803864/bytedance_logo?e=1796256000&v=beta&t=PvytgEMSIO6Yloafp4Cj_76JhYcKaduVlOQ2MHZBK6k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Android Virtualization for Google Cloud\n * Open sources \n  - https://cs.android.com/android/platform/superproject/+/master:device/google/cuttlefish/\n  - https://github.com/google/android-cuttlefish\n * Cuttlefish Confirmation UI\n   - Confirmation UI virtualization\n      + Virtualization of the guest HAL service that cooperates with (virtual) Trusted Execution Environment\n      + Technical challenges\n           * E.g. Differences in context switch between virtual and physical devices\n               The HAL in physical devices effectively calls a device driver, and the kernel does not preempt it.\n               The HAL in virtual devices waits for virtio-console read/write, and the kernel can preempt it\n               Cuttlefish has a guest inside hypervisor and a set of cooperating host services  \nCvd Server/Client\n  - A custom server that selects, starts, monitors, and controls different sets of Cuttlefish builds, each has a different set of host services and the guest\n  - Took over from the initial author, serves as the second primary developer for the cvd server and client\n  - Refactored and extended features (e.g. Reset, etc)\n  - Technical challenges\n      * E.g. Complicated process controls by a multi-threaded application\n      * E.g. Self-updating server driven by the client\n  - Impacts\n     + Used by the current and next generations acloud for every \"creation\" of devices\n         Acloud is used by virtually every Android developer within the organization\nCvd Device Selector\n   - Served as the sole developer\n   - Technical challenges\n      + E.g. Supporting a broad range of builds minimizing the backport\nDockerization for Cuttlefish\n  * Implemented docker containers for the partners who use non-gLinux OS\n      +  contributions outside cuttlefish is found here:\n           https://github.com/google/android-cuttlefish\n      + implemented cuttlefish features to allow or extend the support of dockerization",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Mountain View, California, US",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Oracle",
+     "url": "https://www.linkedin.com/company/1028/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Member of Techincal Staff",
+      "locationName": "Work From Home",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2017
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "Linux Toolchain Development\n * The team delivers toolchains for Oracle Linux in forms of RPMs, VMs such as cloud image, etc\n * Oracle Cloud Infrastructure (OCI) Developer image\n   - Maintaining java and go OCI SDK RPMs\n   - Optimized image build process \n       + build time: 1/3\n       + automated\n       + input data made concise:  63 lines vs. 163 lines per image\n   - Implemented and/or improved spec files of multiple RPMs\n   - Provided system-wide configurations for the image\n * Golang maintainer for x86 and arm64\n    - Identifying/fixing Oracle Specific bugs\n * Docker build with gccgo\n    - Patched docker source to build with gccgo\n * Occasional debugging GNU tools\n * Auto FDO",
+      "insights": ""
+     },
+     {
+      "title": "Member of Technical Staff",
+      "locationName": "Santa Clara, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "IR-level optimization (IROPT)\n   * Auto vectorization for x86 \n   * Auto vectorization for sparc\n   * Memory optimization \n      - E.g. array remapping\n   * Scalar optimization \n      - E.g. conditional expression elimination\n   * IR simulator generator\n      - Debuggable and executable IR-level simulation model from the given IRs\n      - Sole implementator for this on-going project",
+      "insights": ""
+     }
+    ],
+    "companyName": "Oracle",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1028/",
+    "companyId": "1028",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_400_400/company-logo_400_400/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=YjDxGxOjj5LIOb3k-dYK-35oTJ9tkvt7Ni6ty8N4kq4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_200_200/company-logo_200_200/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=JuLFa5DuVvDnvBWWsrQhQPypFFTOKwP1ATVtDPi-3p0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHYCgYovUuPtQ/company-logo_100_100/company-logo_100_100/0/1665755678957/oracle_logo?e=1796256000&v=beta&t=A9wYlAp4o1k7Zkf2kfiU0y1e-0S2E7kBhiwlY5uwvTE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Graduate Research Assistance",
+    "locationName": "Irvine, CA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "• Embedded System Environment (ESE, www.cecs.uci.edu/~ese)\n  - Research focus: system specification and architecture exploration to optimize performance and power consumption\n  - Developed a CAD toolset, ESE (over 150K LOC in C++), to model and validate multi-processor embedded systems\n  - ESE attracted considerable interest from corporate giants including Toyota, Lockheed-Martin, and Bosch\n\n• Modeling Multimedia Applications\n - Modeling MP3 and JPEG decoders in Program State Machines, which is executable\n\n• Lab Servers Administration\n  Gentoo and Redhat Linux Server Configuration and Administration. Services include NIS, NFS, SMB, Subversion, HTTP, HTTPS, Mail, etc",
+    "company": {
+     "url": "",
+     "name": "Center for Embedded Computer Systems",
+     "logo": {}
+    },
+    "position": "Graduate Research Assistance",
+    "companyName": "Center for Embedded Computer Systems",
+    "location": "Irvine, CA, US",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Seoul National University",
+     "url": "https://www.linkedin.com/company/15096106/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    },
+    "totalDuration": "7 yrs 6 mos",
+    "positions": [
+     {
+      "title": "Graduate Research Assistance",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2009
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• ASIP for H.264 On-chip Encoder\n    - Architected and implemented an Application-Specific Instruction-set Processor (ASIP) for H.264 on-chip encoder\n    - The ASIP was delivered to a start-up company and successfully commercialized.",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher",
+      "locationName": "Seoul, South Korea",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2002
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2007
+       }
+      },
+      "totalDuration": "5 yrs 10 mos",
+      "description": "• Java Compiler Optimization\n    - Implemented back-end optimization modules for an ahead-of-time Java compiler for ARM7\n• RF-sensor Based Health Care System\n    - Designed and developed sensor control server and its GUI using Java\n• NES Emulator on WIPI\n    - Ported a PC-based NES emulator to WIPI, a standard platform for mobile handheld appliances in Korea\n• Linux Server Administration\n    - Administrated Linux servers (Gentoo, Debian, Redhat) for SAMBA, NFS, NIS, Mail, SFTP, Web services, and so on",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Student",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2007
+       }
+      },
+      "totalDuration": "2 yrs",
+      "description": "• 16 bit RISC Processor and Simulator\n- Developed 16 bit RISC Processor in both SystemC and VHDL\n- Developed a simulator for the same processor in JAVA\n\n• Cracking x86 Binary Files\n- cracked binary files w/ GNU tools\n\n• RTOS/Device Driver\n- Implemented RTOS context switch, Linux device driver for RTC clock",
+      "insights": ""
+     }
+    ],
+    "companyName": "Seoul National University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "companyId": "15096106",
+    "duration": "7 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Co-Op",
+    "locationName": "Yongin, Gyeonggi, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "• Re-targetable Source Level Debugger for Reconfigurable Processors\n    - Served as a technical leader for debugger engine development team throughout the project\n    - Developed a full-featured re-targetable debugger for Samsung’s reconfigurable processor\n    - Collaborated with several teams in SAIT and successfully lead the project",
+    "company": {
+     "url": "",
+     "name": "Samsung Advanced Institute of Technology",
+     "logo": {}
+    },
+    "position": "Co-Op",
+    "companyName": "Samsung Advanced Institute of Technology",
+    "location": "Yongin, Gyeonggi, South Korea",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_100_100/B56ZoNqMfXJYAQ-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=dl-9EVbslEA63UeRTcZ68ZwyeeIJalAldlU40E11_mA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_200_200/B56ZoNqMfXJYAI-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=UApKWfDOkyqia8IZ64S1WWVeNl8VtTqMMaBQFyEa0vY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_200_200/B56ZoNqMfXJYAI-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=UApKWfDOkyqia8IZ64S1WWVeNl8VtTqMMaBQFyEa0vY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_100_100/B56ZoNqMfXJYAQ-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=dl-9EVbslEA63UeRTcZ68ZwyeeIJalAldlU40E11_mA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4418/",
+    "schoolName": "UC Irvine",
+    "degreeName": "Doctor of Philosophy (Ph.D.)",
+    "fieldOfStudy": "Electrical Engineering and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4418/",
+    "schoolId": "4418",
+    "degree": "Doctor of Philosophy (Ph.D.)",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2013
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Electrical Engineering and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2009
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_100_100/B56ZoNqMfXJYAQ-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=dl-9EVbslEA63UeRTcZ68ZwyeeIJalAldlU40E11_mA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_200_200/B56ZoNqMfXJYAI-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=UApKWfDOkyqia8IZ64S1WWVeNl8VtTqMMaBQFyEa0vY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_400_400/B56ZoNqMfXJYAY-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=pbp2BpkboRWReRddZKRz2PD4DuDQlbWmgZUcxfSfEJs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_200_200/B56ZoNqMfXJYAI-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=UApKWfDOkyqia8IZ64S1WWVeNl8VtTqMMaBQFyEa0vY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxOSkIiHW9Ag/company-logo_100_100/B56ZoNqMfXJYAQ-/0/1761165756689/university_of_california_irvine_logo?e=1796256000&v=beta&t=dl-9EVbslEA63UeRTcZ68ZwyeeIJalAldlU40E11_mA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4418/",
+    "schoolName": "UC Irvine",
+    "degreeName": "Doctor of Philosophy (Ph.D.)",
+    "fieldOfStudy": "Electrical Engineering and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4418/",
+    "schoolId": "4418",
+    "degree": "Doctor of Philosophy (Ph.D.)",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2013
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Engeering Fellowship",
+    "description": "Fellowship",
+    "issueDate": {},
+    "issuer": "Issued by EECS Department, UC Irvine · Sep 2010"
+   },
+   {
+    "title": "Best MS. Thesis Candidate",
+    "issueDate": {},
+    "issuer": "Issued by EECS, Seoul National University · Aug 2009"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+   "437x437": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+     "width": 437,
+     "height": 437
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+   "437x437": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+     "width": 437,
+     "height": 437
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+   "437x437": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516890393924?e=1796256000&v=beta&t=2Q62Nd_OEbzF3q5XC-v4ChFuE_CASyelKeE_OCRR0aw",
+     "width": 437,
+     "height": 437
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516890394006?e=1796256000&v=beta&t=rtRqxRRy6T87i2RiP0sI8Z6s9i_Je92kecUIxLHqbWM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516890394152?e=1796256000&v=beta&t=mVz9orXfn-rB1rSWtpKQNdl7s3WeI0wLKS-WgjIp4B0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQH6IgCRrBj_2Q/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516890393992?e=1796256000&v=beta&t=B17ktiwugq7LdQjmFjICTSre7O2YxZbjhhvxUjv_2nA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/stephen-kyoungwon-kim"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T18:03:40.097Z",
+ "foundBy": null
+}

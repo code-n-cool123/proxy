@@ -1,0 +1,1122 @@
+{
+ "slug": "javierat98",
+ "inputUrl": "https://www.linkedin.com/in/javierat98",
+ "fetchedAt": "2026-11-09T01:21:09.976Z",
+ "id": "6af12005af440f0df0ab76fe",
+ "url": "https://www.linkedin.com/in/javierat98",
+ "profile": {
+  "created": 1622873155255,
+  "trackingId": "nrJK7nC5RPark9dZVHPzsg==",
+  "firstName": "Javier A.",
+  "lastName": "Torres Ramos",
+  "pronoun": null,
+  "versionTag": "2257630392",
+  "headline": "Senior AI Software Engineer @ Intel | LLM Training, Inference & Agentic Systems at Scale for Multi-GPU Clusters | NCCL, OneCCL, RCCL | vLLM, Tensor-RT and Megatron-LM | Kubernetes | CNCF Speaker\n ",
+  "publicIdentifier": "javierat98",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "908078614",
+  "profileId": "ACoAADYgLhYB3prpZ-wBo30TkJJqTJFJIJWzcp0",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_100_100/B56aAOWU.rG0AY-/0/1786947130054?e=1795651200&v=beta&t=uOt_3xz6A05dYZZjaKDsE8lLv7A23KpK7cPBf3UXs0g",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_200_200/B56aAOWU.rG0Ac-/0/1786947130054?e=1795651200&v=beta&t=FceL5A4QYcuS8ZbJ-Bqd5OhZtQfx2hGiUzdEdJk8tfw",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_400_400/B56aAOWU.rG0Ag-/0/1786947130054?e=1795651200&v=beta&t=xP9cL7DjU2hqoRfmvPXagkhfATfkS-W2Pw6dk0d1HbM"
+  },
+  "coverImageUrl": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_350_1400/B56aAOVtRUHUAY-/0/1786946967458?e=1795651200&v=beta&t=KtYNHY9_9D8JYf-BysHGDeHmvZe_y52s8qNRXGC_6sM",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_200_800/B56aAOVtRUHUAU-/0/1786946967459?e=1795651200&v=beta&t=z_XClg7SQDWM3KjmFb8xcHHdz-fBtEQQKcsDlhoS9AI"
+  },
+  "countryCode": "MX",
+  "geoUrn": "urn:li:fsd_geo:102936081",
+  "geoLocationName": "Zapopan, Jalisco, Mexico",
+  "geoCountryName": "Mexico",
+  "jobTitle": "",
+  "summary": "I work across the full stack of large-scale AI systems, training, inference, and the agentic tooling around them.\n \nOn the training side, I enable, build and orchestrate distributed LLM runs across 256 accelerators (32 nodes) with Multiple models using DDP techniques on Megatron-LM and DeepSpeed, focused on the layer where most jobs actually fail: collective communication, fabric health, checkpoint recovery, and catching degraded accelerators before they corrupt a multi-day run.\n \nOn the serving side, I enable, deploy and benchmark vLLM, SGLang, and PyTorch-native stacks in BF16, FP8, and INT8, tuning FlashAttention kernels and KV-cache scheduling to push throughput and latency under real cluster constraints, with comercial LLMs and VLMs in production paths.\n \nI also build agentic systems on top of that foundation MCP servers, spec-driven development, spec contracts, and closed-loop automation that took AI workload enablement from two days to one hour using context engineering and environment engineering. My earlier research work was on RAG pipelines integrating Llama 2/3, Mistral, and GPT-3.5.\n \nUnderneath all of it: NCCL/HCCL/OneCCL collectives, RDMA and PCIe fabric tuning, Kubernetes and Kubeflow MPIJobs. I've worked across NVIDIA H100, AMD MI300, Intel Gaudi 2/3, and Battlemage B580, the vendor changes, the failure modes rhyme. I operate in an agnostic vendor environment where i can use any chip to enable training and inference.\n \nI'm active in the CNCF community. I hold KCNA and KCSA, I'm working toward Kubestronaut, and I speak at Kubernetes Community Days Mexico and Peru about what actually goes wrong when you run AI on Kubernetes — checkpointing tradeoffs, pod-to-GPU failure modes, and where GPU hours quietly disappear.\n \nMexican citizen, TN-eligible under USMCA (Engineer / Computer Systems Analyst).",
+  "positions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "Senior AI Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "I run AI workloads at rack scale and build the agentic systems that operate them — training, inference, and the closed loops in between.\n \n• Built an agentic automation layer for cluster operations using Claude Opus/Sonnet, custom MCP servers, Agent Skills, and GitHub Copilot under spec-driven development. Agents hold closed loops across Jenkins, Kubernetes, Docker, HSDes, Harbor, Trivy, Elasticsearch, and Prometheus, planning, executing, reading telemetry back, and correcting. Cut distributed training preflight errors by 85%+, and took AI workload enablement from 2 days to 1 hour.\n• Orchestrated fault-tolerant distributed LLM training across 256 accelerators (32 nodes × 8) running LLaMA-3.1-405B and Mistral 4×7B DMoE on Megatron-LM, DeepSpeed, and Optimum-Habana, with distributed checkpointing and mid-run recovery for multi-day jobs.\n• Deployed and benchmarked production inference stacks such as vLLM, SGLang, PyTorch-native in BF16, FP8, and INT8, tuning FlashAttention kernels and KV-cache scheduling to maximize throughput and control tail latency under real cluster constraints across Gaudi 2/3, and PCIe accelerators.\n• Optimized collective communication across HCCL and OneCCL tuning RDMA interconnects and PCIe fabrics, analyzing HBM behavior, power, and thermals — cutting multi-node synchronization overhead and raising accelerator utilization for both training and multi-GPU serving.\n• Built a cluster health validation gate that screens node and fabric sanity before workload dispatch, detecting degraded accelerators before they corrupt distributed runs. Deployed as init and sidecar containers with sandboxed agents capturing in-band and out-of-band telemetry, attached to results for faster root-cause analysis across multi-rack Dell and Supermicro fleets.\n• Architected Kubernetes rack-scale orchestration with Kubeflow MPIJobs and Jenkins CI/CD, automating 30+ training, inference, and stress/bandwidth jobs and pipelines consumed by 3 teams and 30+ engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Cloud Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "Operated large-scale Kubernetes platforms that emulated real cloud production environments for pre-silicon and platform validation.\n \n• Administered large-scale Kubernetes clusters end to end. YAML and manifest management, persistent storage via PVCs backed by Ceph, resource quotas, and container footprint optimization for high-throughput workloads.\n• Designed and operated containerized validation environments on Docker and Kubernetes across Intel Xeon platforms, reproducing cloud-native production topologies so platform behavior was measured under realistic conditions rather than synthetic ones.\n• Built hardware and virtualization validation suites covering CPU, memory, storage, and confidential computing features — ISA extensions, SGX, TDX, RAID — using QEMU-KVM, Cloud Hypervisor, Packer, FIO, stress-ng, stressapptest, MLC, iperf, AMX, VMX.\n• Instrumented platform observability with the ELK Stack, building dashboards that cut issue detection and root-cause analysis time during validation cycles.\n• Automated cluster provisioning, execution, and lifecycle management, expanding test coverage through scripting and similarity-based analysis to correlate results across runs and surface regressions earlier.",
+      "insights": ""
+     },
+     {
+      "title": "FPGA Hardware Engineer Intern",
+      "locationName": "Guadalajara, Jalisco, Mexico · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "9 mos",
+      "description": "• Contributed to design, verification, and synthesis of FPGA systems in SystemVerilog across multiple design stages.\n• Developed and maintained verification testbenches alongside senior engineers to validate functional correctness and timing performance of FPGA designs.\n• Automated design and reporting workflows in Python, integrating Cadence Allegro data to improve validation throughput and report accuracy.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "System Software Validation Engineer",
+    "locationName": "Zapopan, Jalisco, Mexico · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Full-time",
+    "description": "(Intel Corporation Contigent Worker)\n• Executed end-to-end silicon bring-up and system validation of Intel Atom P5900 \"Snow Ridge\" platforms (Jacobsville silicon, 10nm Tremont), a 5G base station and network edge SoC integrating up to 24 cores, Intel Ethernet 800 Series with 100GbE, QuickAssist acceleration, and an on-die switch fabric.\n• Validated platform behavior across CPU, memory, and I/O subsystems (network) in direct collaboration with firmware and hardware teams, covering pre-production silicon before customer availability.\n• Automated test content in Python, Bash and Docker, expanding coverage and cutting execution time across Atom architecture validation plans.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/21936/",
+     "name": "Dextra Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_200_200/company-logo_200_200/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=Lgavqw76fWBFB0u30yczlEQPiTjldfR_6SIirJZq87k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_100_100/company-logo_100_100/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=zYJzdReTBpBrbbtcT2df2LjRffO6yUejTnIhKGPTbwk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_400_400/company-logo_400_400/0/1630588277719/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=uHkUR-BCsVStCkNHGph3qGQELqsclhI_f7juO83N4DQ"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096986/",
+    "schoolName": "Centro de Enseñanza Técnica Industrial",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Mechatronics, Robotics, and Automation Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Agents & Agentic AI Fundamentals",
+    "authority": "Intel",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Intel",
+    "title": "Agents & Agentic AI Fundamentals",
+    "issuedBy": "Intel",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Speaker: KCD Lima Perú 2026",
+    "authority": "The Linux Foundation",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "The Linux Foundation",
+    "title": "Speaker: KCD Lima Perú 2026",
+    "issuedBy": "The Linux Foundation",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [
+   {
+    "title": "Software Test Suite to Stress Non-Uniform Memory Access on Cluster Environments Using Cloud Technologies",
+    "publisher": "Springer, CIIS, Peru 2024",
+    "date": {}
+   }
+  ],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Intel",
+  "companyPublicId": "intel-corporation",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/intel-corporation/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1053",
+   "name": "Intel",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGpvWtEtj9oTQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_"
+    }
+   },
+   "universalName": "intel-corporation",
+   "url": "https://www.linkedin.com/company/intel-corporation/",
+   "slug": "intel-corporation",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+   "specialties": []
+  },
+  "followerCount": 580,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 574,
+  "skills": [
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jira",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Field-Programmable Gate Arrays (FPGA)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Field-Programmable Gate Arrays (FPGA)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "YAML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SystemVerilog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jira",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JSON",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Verilog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/javierat98",
+  "linkedinUrl": "https://www.linkedin.com/in/javierat98",
+  "profileUrl": "https://www.linkedin.com/in/javierat98",
+  "verified": true,
+  "registeredAt": "2021-06-05T06:05:55.255Z",
+  "location": {
+   "linkedinText": "Zapopan, Jalisco, Mexico",
+   "countryCode": "MX",
+   "parsed": {
+    "text": "Zapopan, Jalisco, Mexico",
+    "countryCode": "MX",
+    "country": "Mexico",
+    "countryFull": "Mexico"
+   }
+  },
+  "about": "I work across the full stack of large-scale AI systems, training, inference, and the agentic tooling around them.\n \nOn the training side, I enable, build and orchestrate distributed LLM runs across 256 accelerators (32 nodes) with Multiple models using DDP techniques on Megatron-LM and DeepSpeed, focused on the layer where most jobs actually fail: collective communication, fabric health, checkpoint recovery, and catching degraded accelerators before they corrupt a multi-day run.\n \nOn the serving side, I enable, deploy and benchmark vLLM, SGLang, and PyTorch-native stacks in BF16, FP8, and INT8, tuning FlashAttention kernels and KV-cache scheduling to push throughput and latency under real cluster constraints, with comercial LLMs and VLMs in production paths.\n \nI also build agentic systems on top of that foundation MCP servers, spec-driven development, spec contracts, and closed-loop automation that took AI workload enablement from two days to one hour using context engineering and environment engineering. My earlier research work was on RAG pipelines integrating Llama 2/3, Mistral, and GPT-3.5.\n \nUnderneath all of it: NCCL/HCCL/OneCCL collectives, RDMA and PCIe fabric tuning, Kubernetes and Kubeflow MPIJobs. I've worked across NVIDIA H100, AMD MI300, Intel Gaudi 2/3, and Battlemage B580, the vendor changes, the failure modes rhyme. I operate in an agnostic vendor environment where i can use any chip to enable training and inference.\n \nI'm active in the CNCF community. I hold KCNA and KCSA, I'm working toward Kubestronaut, and I speak at Kubernetes Community Days Mexico and Peru about what actually goes wrong when you run AI on Kubernetes — checkpointing tradeoffs, pod-to-GPU failure modes, and where GPU hours quietly disappear.\n \nMexican citizen, TN-eligible under USMCA (Engineer / Computer Systems Analyst).",
+  "allTitles": [
+   "System Software Validation Engineer"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Senior AI Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "I run AI workloads at rack scale and build the agentic systems that operate them — training, inference, and the closed loops in between.\n \n• Built an agentic automation layer for cluster operations using Claude Opus/Sonnet, custom MCP servers, Agent Skills, and GitHub Copilot under spec-driven development. Agents hold closed loops across Jenkins, Kubernetes, Docker, HSDes, Harbor, Trivy, Elasticsearch, and Prometheus, planning, executing, reading telemetry back, and correcting. Cut distributed training preflight errors by 85%+, and took AI workload enablement from 2 days to 1 hour.\n• Orchestrated fault-tolerant distributed LLM training across 256 accelerators (32 nodes × 8) running LLaMA-3.1-405B and Mistral 4×7B DMoE on Megatron-LM, DeepSpeed, and Optimum-Habana, with distributed checkpointing and mid-run recovery for multi-day jobs.\n• Deployed and benchmarked production inference stacks such as vLLM, SGLang, PyTorch-native in BF16, FP8, and INT8, tuning FlashAttention kernels and KV-cache scheduling to maximize throughput and control tail latency under real cluster constraints across Gaudi 2/3, and PCIe accelerators.\n• Optimized collective communication across HCCL and OneCCL tuning RDMA interconnects and PCIe fabrics, analyzing HBM behavior, power, and thermals — cutting multi-node synchronization overhead and raising accelerator utilization for both training and multi-GPU serving.\n• Built a cluster health validation gate that screens node and fabric sanity before workload dispatch, detecting degraded accelerators before they corrupt distributed runs. Deployed as init and sidecar containers with sandboxed agents capturing in-band and out-of-band telemetry, attached to results for faster root-cause analysis across multi-rack Dell and Supermicro fleets.\n• Architected Kubernetes rack-scale orchestration with Kubeflow MPIJobs and Jenkins CI/CD, automating 30+ training, inference, and stress/bandwidth jobs and pipelines consumed by 3 teams and 30+ engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Cloud Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "Operated large-scale Kubernetes platforms that emulated real cloud production environments for pre-silicon and platform validation.\n \n• Administered large-scale Kubernetes clusters end to end. YAML and manifest management, persistent storage via PVCs backed by Ceph, resource quotas, and container footprint optimization for high-throughput workloads.\n• Designed and operated containerized validation environments on Docker and Kubernetes across Intel Xeon platforms, reproducing cloud-native production topologies so platform behavior was measured under realistic conditions rather than synthetic ones.\n• Built hardware and virtualization validation suites covering CPU, memory, storage, and confidential computing features — ISA extensions, SGX, TDX, RAID — using QEMU-KVM, Cloud Hypervisor, Packer, FIO, stress-ng, stressapptest, MLC, iperf, AMX, VMX.\n• Instrumented platform observability with the ELK Stack, building dashboards that cut issue detection and root-cause analysis time during validation cycles.\n• Automated cluster provisioning, execution, and lifecycle management, expanding test coverage through scripting and similarity-based analysis to correlate results across runs and surface regressions earlier.",
+      "insights": ""
+     },
+     {
+      "title": "FPGA Hardware Engineer Intern",
+      "locationName": "Guadalajara, Jalisco, Mexico · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "9 mos",
+      "description": "• Contributed to design, verification, and synthesis of FPGA systems in SystemVerilog across multiple design stages.\n• Developed and maintained verification testbenches alongside senior engineers to validate functional correctness and timing performance of FPGA designs.\n• Automated design and reporting workflows in Python, integrating Cadence Allegro data to improve validation throughput and report accuracy.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Intel",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "System Software Validation Engineer",
+    "locationName": "Zapopan, Jalisco, Mexico · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Full-time",
+    "description": "(Intel Corporation Contigent Worker)\n• Executed end-to-end silicon bring-up and system validation of Intel Atom P5900 \"Snow Ridge\" platforms (Jacobsville silicon, 10nm Tremont), a 5G base station and network edge SoC integrating up to 24 cores, Intel Ethernet 800 Series with 100GbE, QuickAssist acceleration, and an on-die switch fabric.\n• Validated platform behavior across CPU, memory, and I/O subsystems (network) in direct collaboration with firmware and hardware teams, covering pre-production silicon before customer availability.\n• Automated test content in Python, Bash and Docker, expanding coverage and cutting execution time across Atom architecture validation plans.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/21936/",
+     "name": "Dextra Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0"
+     }
+    },
+    "position": "System Software Validation Engineer",
+    "companyName": "Dextra Technologies",
+    "location": "Zapopan, Jalisco, Mexico · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/21936/",
+    "companyId": "21936",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1053",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyName": "Intel",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Senior AI Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 6 mos",
+      "description": "I run AI workloads at rack scale and build the agentic systems that operate them — training, inference, and the closed loops in between.\n \n• Built an agentic automation layer for cluster operations using Claude Opus/Sonnet, custom MCP servers, Agent Skills, and GitHub Copilot under spec-driven development. Agents hold closed loops across Jenkins, Kubernetes, Docker, HSDes, Harbor, Trivy, Elasticsearch, and Prometheus, planning, executing, reading telemetry back, and correcting. Cut distributed training preflight errors by 85%+, and took AI workload enablement from 2 days to 1 hour.\n• Orchestrated fault-tolerant distributed LLM training across 256 accelerators (32 nodes × 8) running LLaMA-3.1-405B and Mistral 4×7B DMoE on Megatron-LM, DeepSpeed, and Optimum-Habana, with distributed checkpointing and mid-run recovery for multi-day jobs.\n• Deployed and benchmarked production inference stacks such as vLLM, SGLang, PyTorch-native in BF16, FP8, and INT8, tuning FlashAttention kernels and KV-cache scheduling to maximize throughput and control tail latency under real cluster constraints across Gaudi 2/3, and PCIe accelerators.\n• Optimized collective communication across HCCL and OneCCL tuning RDMA interconnects and PCIe fabrics, analyzing HBM behavior, power, and thermals — cutting multi-node synchronization overhead and raising accelerator utilization for both training and multi-GPU serving.\n• Built a cluster health validation gate that screens node and fabric sanity before workload dispatch, detecting degraded accelerators before they corrupt distributed runs. Deployed as init and sidecar containers with sandboxed agents capturing in-band and out-of-band telemetry, attached to results for faster root-cause analysis across multi-rack Dell and Supermicro fleets.\n• Architected Kubernetes rack-scale orchestration with Kubeflow MPIJobs and Jenkins CI/CD, automating 30+ training, inference, and stress/bandwidth jobs and pipelines consumed by 3 teams and 30+ engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Cloud Software Engineer",
+      "locationName": "Guadalajara, Mexico Metropolitan Area · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "Operated large-scale Kubernetes platforms that emulated real cloud production environments for pre-silicon and platform validation.\n \n• Administered large-scale Kubernetes clusters end to end. YAML and manifest management, persistent storage via PVCs backed by Ceph, resource quotas, and container footprint optimization for high-throughput workloads.\n• Designed and operated containerized validation environments on Docker and Kubernetes across Intel Xeon platforms, reproducing cloud-native production topologies so platform behavior was measured under realistic conditions rather than synthetic ones.\n• Built hardware and virtualization validation suites covering CPU, memory, storage, and confidential computing features — ISA extensions, SGX, TDX, RAID — using QEMU-KVM, Cloud Hypervisor, Packer, FIO, stress-ng, stressapptest, MLC, iperf, AMX, VMX.\n• Instrumented platform observability with the ELK Stack, building dashboards that cut issue detection and root-cause analysis time during validation cycles.\n• Automated cluster provisioning, execution, and lifecycle management, expanding test coverage through scripting and similarity-based analysis to correlate results across runs and surface regressions earlier.",
+      "insights": ""
+     },
+     {
+      "title": "FPGA Hardware Engineer Intern",
+      "locationName": "Guadalajara, Jalisco, Mexico · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "9 mos",
+      "description": "• Contributed to design, verification, and synthesis of FPGA systems in SystemVerilog across multiple design stages.\n• Developed and maintained verification testbenches alongside senior engineers to validate functional correctness and timing performance of FPGA designs.\n• Automated design and reporting workflows in Python, integrating Cadence Allegro data to improve validation throughput and report accuracy.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Intel",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "System Software Validation Engineer",
+    "locationName": "Zapopan, Jalisco, Mexico · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Full-time",
+    "description": "(Intel Corporation Contigent Worker)\n• Executed end-to-end silicon bring-up and system validation of Intel Atom P5900 \"Snow Ridge\" platforms (Jacobsville silicon, 10nm Tremont), a 5G base station and network edge SoC integrating up to 24 cores, Intel Ethernet 800 Series with 100GbE, QuickAssist acceleration, and an on-die switch fabric.\n• Validated platform behavior across CPU, memory, and I/O subsystems (network) in direct collaboration with firmware and hardware teams, covering pre-production silicon before customer availability.\n• Automated test content in Python, Bash and Docker, expanding coverage and cutting execution time across Atom architecture validation plans.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/21936/",
+     "name": "Dextra Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0"
+     }
+    },
+    "position": "System Software Validation Engineer",
+    "companyName": "Dextra Technologies",
+    "location": "Zapopan, Jalisco, Mexico · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/21936/",
+    "companyId": "21936",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_400_400/company-logo_400_400/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=LP8Vp351lag04AKcRuEdaDa15UvmAmTyrkRDGjDt6K0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_200_200/company-logo_200_200/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=VcJt8SEJCD_289Gts68iY6tqsB4lwgpNOSVVLY_cTao",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHQG38T-tyYvA/company-logo_100_100/company-logo_100_100/0/1667604064355/dextra_technologies_logo?e=1795651200&v=beta&t=ZHIhLDlel0HswoiKKQ6wPOhoyGaQF3OUs529uFryBXI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5669/",
+    "schoolId": "5669",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_200_200/company-logo_200_200/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=Lgavqw76fWBFB0u30yczlEQPiTjldfR_6SIirJZq87k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_100_100/company-logo_100_100/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=zYJzdReTBpBrbbtcT2df2LjRffO6yUejTnIhKGPTbwk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_400_400/company-logo_400_400/0/1630588277719/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=uHkUR-BCsVStCkNHGph3qGQELqsclhI_f7juO83N4DQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_400_400/company-logo_400_400/0/1630588277719/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=uHkUR-BCsVStCkNHGph3qGQELqsclhI_f7juO83N4DQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_400_400/company-logo_400_400/0/1630588277719/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=uHkUR-BCsVStCkNHGph3qGQELqsclhI_f7juO83N4DQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_200_200/company-logo_200_200/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=Lgavqw76fWBFB0u30yczlEQPiTjldfR_6SIirJZq87k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEUHhax7RCj0A/company-logo_100_100/company-logo_100_100/0/1630588277718/centro_de_enseanza_tcnica_industrial_logo?e=1795651200&v=beta&t=zYJzdReTBpBrbbtcT2df2LjRffO6yUejTnIhKGPTbwk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096986/",
+    "schoolName": "Centro de Enseñanza Técnica Industrial",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Mechatronics, Robotics, and Automation Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096986/",
+    "schoolId": "15096986",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5669/",
+    "schoolId": "5669",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_100_100/B56aAOWU.rG0AY-/0/1786947130054?e=1795651200&v=beta&t=uOt_3xz6A05dYZZjaKDsE8lLv7A23KpK7cPBf3UXs0g",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_200_200/B56aAOWU.rG0Ac-/0/1786947130054?e=1795651200&v=beta&t=FceL5A4QYcuS8ZbJ-Bqd5OhZtQfx2hGiUzdEdJk8tfw",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_400_400/B56aAOWU.rG0Ag-/0/1786947130054?e=1795651200&v=beta&t=xP9cL7DjU2hqoRfmvPXagkhfATfkS-W2Pw6dk0d1HbM",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_400_400/B56aAOWU.rG0Ag-/0/1786947130054?e=1795651200&v=beta&t=xP9cL7DjU2hqoRfmvPXagkhfATfkS-W2Pw6dk0d1HbM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_200_200/B56aAOWU.rG0Ac-/0/1786947130054?e=1795651200&v=beta&t=FceL5A4QYcuS8ZbJ-Bqd5OhZtQfx2hGiUzdEdJk8tfw",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_100_100/B56aAOWU.rG0AY-/0/1786947130054?e=1795651200&v=beta&t=uOt_3xz6A05dYZZjaKDsE8lLv7A23KpK7cPBf3UXs0g",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_100_100/B56aAOWU.rG0AY-/0/1786947130054?e=1795651200&v=beta&t=uOt_3xz6A05dYZZjaKDsE8lLv7A23KpK7cPBf3UXs0g",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_200_200/B56aAOWU.rG0Ac-/0/1786947130054?e=1795651200&v=beta&t=FceL5A4QYcuS8ZbJ-Bqd5OhZtQfx2hGiUzdEdJk8tfw",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_400_400/B56aAOWU.rG0Ag-/0/1786947130054?e=1795651200&v=beta&t=xP9cL7DjU2hqoRfmvPXagkhfATfkS-W2Pw6dk0d1HbM",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-crop_800_800/B56aAOWU.rG0AI-/0/1786947130054?e=1795651200&v=beta&t=RnR-T_vw4jdURWx8KNYQs1VldjI51kkCR8c4xagG-LE",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_400_400/B56aAOWU.rG0Ag-/0/1786947130054?e=1795651200&v=beta&t=xP9cL7DjU2hqoRfmvPXagkhfATfkS-W2Pw6dk0d1HbM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_200_200/B56aAOWU.rG0Ac-/0/1786947130054?e=1795651200&v=beta&t=FceL5A4QYcuS8ZbJ-Bqd5OhZtQfx2hGiUzdEdJk8tfw",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEIPdWMTQS_aQ/profile-displayphoto-scale_100_100/B56aAOWU.rG0AY-/0/1786947130054?e=1795651200&v=beta&t=uOt_3xz6A05dYZZjaKDsE8lLv7A23KpK7cPBf3UXs0g",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_350_1400/B56aAOVtRUHUAY-/0/1786946967458?e=1795651200&v=beta&t=KtYNHY9_9D8JYf-BysHGDeHmvZe_y52s8qNRXGC_6sM",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_200_800/B56aAOVtRUHUAU-/0/1786946967459?e=1795651200&v=beta&t=z_XClg7SQDWM3KjmFb8xcHHdz-fBtEQQKcsDlhoS9AI",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_350_1400/B56aAOVtRUHUAY-/0/1786946967458?e=1795651200&v=beta&t=KtYNHY9_9D8JYf-BysHGDeHmvZe_y52s8qNRXGC_6sM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_350_1400/B56aAOVtRUHUAY-/0/1786946967458?e=1795651200&v=beta&t=KtYNHY9_9D8JYf-BysHGDeHmvZe_y52s8qNRXGC_6sM",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQHegE2T0SgRoA/profile-displaybackgroundimage-shrink_200_800/B56aAOVtRUHUAU-/0/1786946967459?e=1795651200&v=beta&t=z_XClg7SQDWM3KjmFb8xcHHdz-fBtEQQKcsDlhoS9AI",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/javierat98"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T01:21:00.839Z",
+ "foundBy": null
+}

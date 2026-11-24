@@ -1,0 +1,1107 @@
+{
+ "slug": "brian-l-463360105",
+ "inputUrl": "https://www.linkedin.com/in/brian-l-463360105",
+ "fetchedAt": "2026-10-30T21:01:06.146Z",
+ "id": "6ae505924f8d6cb6ddd5a2ff",
+ "url": "https://www.linkedin.com/in/brian-l-463360105",
+ "profile": {
+  "created": 1442009385320,
+  "trackingId": "epw8omsGT92k40CCrLx/7Q==",
+  "firstName": "Brian",
+  "lastName": "L.",
+  "pronoun": null,
+  "versionTag": "778107370",
+  "headline": "Software Engineer at Uber  | Real-Time Auctions & Low- Latency Systems | Berkeley Math + CS | USAMO Qualifier",
+  "publicIdentifier": "brian-l-463360105",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "445783179",
+  "profileId": "ACoAABqSHIsBxUftE1zfcO8pDMgcVqOJlASI4RQ",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102571732",
+  "geoLocationName": "New York, New York, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I build low-latency distributed systems that evaluate, rank, and execute under strict time constraints.\n\nAt Uber, I work on the end-to-end real-time ad serving pipeline—orchestrating candidate retrieval, ML scoring passes, auction execution, and budget pacing inside a sub-50ms SLA. The engineering profile mirrors high-frequency execution: high-throughput fan-out, strict tail-latency budgets, and high-concurrency state management under hard operational deadlines.\n\nPreviously, I worked on processing order data streams at DoorDash, computing rolling volatility, volume, and latency metrics across sliding windows. At AWS, I worked on the serverless storage layer for Keyspaces, scaling to serve 5M+ requests per second in production.\n\nOn my own time I built a cross-sectional statistical arbitrage engine on high-cap crypto — an Elastic Net alpha model over microstructure features, OLS orthogonalization to strip out market beta, and a regime-switching overlay that held realized beta to 0.18. Out-of-sample Sharpe of 1.30 net of transaction costs.\n\nUC Berkeley, Mathematics and Computer Science. USAMO qualifier. First place, Berkeley Data Fest (sponsored by Google).",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "Real-time auctions · latency-constrained serving · ML ranking\n• Built core components of the end-to-end advertising pipeline, handling millions of daily auction events from\ncampaign ingestion and candidate retrieval through delivery and attribution.\n• Integrated production ML ranking models into the serving engine with expected-value scoring and thresholding logic to maximize conversion inside a fixed latency budget.\n• Owned implementation of statistical hypothesis tests across multi-terabyte experiment logs, quantifying CTR / ROAS trade- offs",
+    "company": {
+     "url": "https://www.linkedin.com/company/1815218/",
+     "name": "Uber",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Engineered low-latency distributed processing pipelines for high-volume time-series order data\n• Built an automated time-series anomaly detection service in Python identifying abnormal order-volume shifts and outlier spikes in real time.\n• Implemented stateful streaming aggregations over tumbling and sliding windows, computing real-time rolling volatility, volume, and latency statistics.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3205573/",
+     "name": "DoorDash",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, WA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Engineered a serverless, high-availability distributed storage system (Cassandra / AWS Keyspaces) tuned for ultra-low-latency access, serving 5M requests per second in production.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "Wishket",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Academic Student Employee",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Course Staff for data structures class. Helping with labs, exams, tutoring, office hours, etc.",
+    "company": {
+     "url": "",
+     "name": "UC Berkeley",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Mathematics and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2021
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Uber",
+  "companyPublicId": "uber-com",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/uber-com/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1815218",
+   "name": "Uber",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQFiYnR1Mbtxdg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_"
+    }
+   },
+   "universalName": "uber-com",
+   "url": "https://www.linkedin.com/company/uber-com/",
+   "slug": "uber-com",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+   "specialties": []
+  },
+  "followerCount": 357,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 355,
+  "skills": [
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithm Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Quantitative Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Backtesting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cassandra",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Low-Latency Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hypothesis Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistical Modeling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Regression Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Econometrics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scikit-Learn",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithm Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Quantitative Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Backtesting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cassandra",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hypothesis Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistical Modeling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Regression Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Econometrics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scikit-Learn",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/brian-l-463360105",
+  "linkedinUrl": "https://www.linkedin.com/in/brian-l-463360105",
+  "profileUrl": "https://www.linkedin.com/in/brian-l-463360105",
+  "verified": true,
+  "registeredAt": "2015-09-11T22:09:45.320Z",
+  "location": {
+   "linkedinText": "New York, New York, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York, New York, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build low-latency distributed systems that evaluate, rank, and execute under strict time constraints.\n\nAt Uber, I work on the end-to-end real-time ad serving pipeline—orchestrating candidate retrieval, ML scoring passes, auction execution, and budget pacing inside a sub-50ms SLA. The engineering profile mirrors high-frequency execution: high-throughput fan-out, strict tail-latency budgets, and high-concurrency state management under hard operational deadlines.\n\nPreviously, I worked on processing order data streams at DoorDash, computing rolling volatility, volume, and latency metrics across sliding windows. At AWS, I worked on the serverless storage layer for Keyspaces, scaling to serve 5M+ requests per second in production.\n\nOn my own time I built a cross-sectional statistical arbitrage engine on high-cap crypto — an Elastic Net alpha model over microstructure features, OLS orthogonalization to strip out market beta, and a regime-switching overlay that held realized beta to 0.18. Out-of-sample Sharpe of 1.30 net of transaction costs.\n\nUC Berkeley, Mathematics and Computer Science. USAMO qualifier. First place, Berkeley Data Fest (sponsored by Google).",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Academic Student Employee"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "Real-time auctions · latency-constrained serving · ML ranking\n• Built core components of the end-to-end advertising pipeline, handling millions of daily auction events from\ncampaign ingestion and candidate retrieval through delivery and attribution.\n• Integrated production ML ranking models into the serving engine with expected-value scoring and thresholding logic to maximize conversion inside a fixed latency budget.\n• Owned implementation of statistical hypothesis tests across multi-terabyte experiment logs, quantifying CTR / ROAS trade- offs",
+    "company": {
+     "url": "https://www.linkedin.com/company/1815218/",
+     "name": "Uber",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Uber",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1815218/",
+    "companyId": "1815218",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Engineered low-latency distributed processing pipelines for high-volume time-series order data\n• Built an automated time-series anomaly detection service in Python identifying abnormal order-volume shifts and outlier spikes in real time.\n• Implemented stateful streaming aggregations over tumbling and sliding windows, computing real-time rolling volatility, volume, and latency statistics.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3205573/",
+     "name": "DoorDash",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "DoorDash",
+    "location": "United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3205573/",
+    "companyId": "3205573",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, WA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Engineered a serverless, high-availability distributed storage system (Cassandra / AWS Keyspaces) tuned for ultra-low-latency access, serving 5M requests per second in production.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "Seattle, WA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "company": {
+     "url": "",
+     "name": "Wishket",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Wishket",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Academic Student Employee",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Course Staff for data structures class. Helping with labs, exams, tutoring, office hours, etc.",
+    "company": {
+     "url": "",
+     "name": "UC Berkeley",
+     "logo": {}
+    },
+    "position": "Academic Student Employee",
+    "companyName": "UC Berkeley",
+    "location": "Berkeley, CA",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1815218",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1815218/",
+    "companyName": "Uber",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "Real-time auctions · latency-constrained serving · ML ranking\n• Built core components of the end-to-end advertising pipeline, handling millions of daily auction events from\ncampaign ingestion and candidate retrieval through delivery and attribution.\n• Integrated production ML ranking models into the serving engine with expected-value scoring and thresholding logic to maximize conversion inside a fixed latency budget.\n• Owned implementation of statistical hypothesis tests across multi-terabyte experiment logs, quantifying CTR / ROAS trade- offs",
+    "company": {
+     "url": "https://www.linkedin.com/company/1815218/",
+     "name": "Uber",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Uber",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1815218/",
+    "companyId": "1815218",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_400_400/company-logo_400_400/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=KK1OA7wa1TRFepUnBjLfsuEpkrXChdWGWSyAJ8x3Cjw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_200_200/company-logo_200_200/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=hPDKE67VQ4qofvJmCwDVdF80MIXh46nREGGNUqV2xng",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFiYnR1Mbtxdg/company-logo_100_100/company-logo_100_100/0/1630552741617/uber_com_logo?e=1795046400&v=beta&t=-SPp8WknVkwQhpk1Ef9G6mkHEimsGv3Z3F6gQu5LwDU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Engineered low-latency distributed processing pipelines for high-volume time-series order data\n• Built an automated time-series anomaly detection service in Python identifying abnormal order-volume shifts and outlier spikes in real time.\n• Implemented stateful streaming aggregations over tumbling and sliding windows, computing real-time rolling volatility, volume, and latency statistics.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3205573/",
+     "name": "DoorDash",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "DoorDash",
+    "location": "United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3205573/",
+    "companyId": "3205573",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_400_400/B4EaCRrt8LKgAU-/0/1789150552100?e=1795046400&v=beta&t=9uJN8fRuGW6UcCRa81923GGgritBvG6coTpva9N50pA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_200_200/B4EaCRrt8LKgAE-/0/1789150552100?e=1795046400&v=beta&t=nHF4Hq94m_lbeEyEgftgQqLpCZIbyNIGOmgZuXAHYpE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmucd42O03SQ/company-logo_100_100/B4EaCRrt8LKgAI-/0/1789150552100?e=1795046400&v=beta&t=miB1B_0tpypgr4lBwn8DqyU7_ETm54pH79-qO2Z-q30",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, WA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Engineered a serverless, high-availability distributed storage system (Cassandra / AWS Keyspaces) tuned for ultra-low-latency access, serving 5M requests per second in production.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "Seattle, WA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "company": {
+     "url": "",
+     "name": "Wishket",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Wishket",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Academic Student Employee",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Course Staff for data structures class. Helping with labs, exams, tutoring, office hours, etc.",
+    "company": {
+     "url": "",
+     "name": "UC Berkeley",
+     "logo": {}
+    },
+    "position": "Academic Student Employee",
+    "companyName": "UC Berkeley",
+    "location": "Berkeley, CA",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Mathematics and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "schoolId": "2517",
+    "degree": "Bachelor’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2021
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Mathematics and Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "schoolId": "2517",
+    "degree": "Bachelor’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2021
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/brian-l-463360105"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T21:00:45.565Z",
+ "foundBy": null
+}

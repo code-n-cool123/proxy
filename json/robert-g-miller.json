@@ -1,0 +1,2091 @@
+{
+ "slug": "robert-g-miller",
+ "inputUrl": "https://www.linkedin.com/in/robert-g-miller",
+ "fetchedAt": "2026-10-22T01:12:19.379Z",
+ "id": "6ad962f3d820dfb707d0ad14",
+ "url": "https://www.linkedin.com/in/robert-g-miller",
+ "profile": {
+  "created": 1319533172000,
+  "trackingId": "LhLzY4W0TCinNxiq+FZAiA==",
+  "firstName": "Bob",
+  "lastName": "Miller",
+  "pronoun": null,
+  "versionTag": "1367249327",
+  "headline": "Staff Embedded Software Engineer at Carrier Energy",
+  "publicIdentifier": "robert-g-miller",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "148671129",
+  "profileId": "ACoAAAjcipkBxuIgDfJiuNAqOv1wPEDvsh0S8N4",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:100751619",
+  "geoLocationName": "Akron, Ohio, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Staff Embedded Software Engineer",
+  "summary": "Senior Device Software Engineer with 15+ years of experience architecting and delivering high-performance embedded, distributed, and real-time systems across aerospace, defense, automotive, industrial, and medical device industries. Expert in C++ (modern standards), Rust, and Python with deep knowledge of RTOS, embedded Linux, containerization (Kubernetes, Podman, Docker), and cloud-based development (AWS, CI/CD, GitLab/GitHub, Bazel). Proven leader in system messaging architectures, hardware virtualization, signal processing, and safety-critical software design with hands-on contributions to satellite communications, avionics, autonomous vehicles, and medical imaging systems. Skilled at driving complex, cross-functional projects from requirements to deployment, with strong emphasis on performance optimization, regulatory compliance (DO-178C, ISO 13485, IEC 62304, ASPICE), cybersecurity, and test automation. Recognized for technical leadership, cross-domain expertise, and ability to bridge architecture with implementation in time-critical environments.",
+  "positions": [
+   {
+    "title": "Staff Embedded Software Engineer",
+    "locationName": "Indianapolis, IN · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "Carrier Energy",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Architect",
+    "locationName": "Phoenix, Arizona, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Lead team in design of protobuf schemas used for inter-service control and alert messaging. This effort transitioned exclusive use of JSON messages to adoption of more performant protobuf messaging.\n\nLead Collaborative design activities for Message and Signal flow using digital whiteboard diagramming & docs in Confluence .\n\nLead team in implementing inter-container messages as protobuf strongly typed C++ interfaces; and as python service msgs.\n\nImplemented protobuf control interfaces into C++ Services for real-time RF Waveform vector construction and Digital Signal Processing (DSP) into metadata wrapped Radio Frequency (RF) Encrypted Message Packets.\n\nDesigned and implemented Application-level message acknowledgments between subscriber & publisher. This effort made use of pre-allocating C++ std:: data structures to allow deterministic behavior in a time-constrained environment.\n\nDoxygen comments in all code for comprehensive function & API documentation.\nCode development performed within AWS EC2 instance Enclave\n\nLeveraged LLM-generated test case code using segregated in-house LLM.\n\nEmployed Neural Autonomic Transport System (NATS) JetStream as Message Bus for deterministic real-time inter-container communication.\n\nQueuing & Load Balancing are provided by NATS for time-constrained comms within Kubernetes (K8s) cluster.\n\nInstrumented throughput latency mitigation via Wireshark PCAP & Prometheus metrics.\n\nAnalysis of metrics led to adjusting TCP windowing & MTU parameters toward maintaining message throughput within bounds.\n\nContainer pods mainly deployed with Podman in unit development, deployed via Helm in an integrated system. NATS and K8s Used for providing Scalability, & performance for time-constrained communication Satellite communications.\n\nDesigned & implemented an overall messaging orchestrator.\n\nAutomated GTest pass/fail verification of end to end message traffic through Helm continuously deployed services and connected RF HW, & emulators in CI.",
+    "company": {
+     "url": "",
+     "name": "General Dynamics Mission Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Mountain View, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "•\tC++ MMIO access abstraction and isolation, Allowing TI, NXP IC substitution in Autonomous Automobile Control System, all code designed for testing, namespaces used for Linker name resolution.\n•\tGitHub Copilot code composition assistance\n•\tImplemented C++ and C Logic in PMIC Power Management, Watchdog feed, Temperature Sensor, Voltage Sensor Control, device monitor application Tasks development.\n•\tI2C SoC peripheral communication\n•\tOS resource utilization such as Mutex Thread via API\n•\tInterrupt and Exception Vector coding.\n•\tEHIL test to Requirement Mapping with JAMA\n•\tC and C++ 100% code coverage testing using Mocks and Fakes via gMock\n•\tCode Development via SSH tunnel with AWS hosted Linux VM\nCI build Flow using Bazel build rules in Starlark, for Clang & GCC compilers. Buids and tests execute in a Jira & buildkite managed embedded Linux build environment. GitHub Pull requests managed with Bonsai.\n•\t Remote GDB C++ debugging over ssh tunnel. \n•\tdecoupling of tasks from FreeRTOS\n•\tAll embedded Application code covered by automated CI tests for multiple targeted HW platforms\n•\tEach EHIL test built for running FreeRTOS, and WITTENSTEIN certified high integrity systems SafeRTOS \n•\tAutomated tests execute on emulated embedded targets within CI on buildkite",
+    "company": {
+     "url": "https://www.linkedin.com/company/105156561/",
+     "name": "Aurora Innovations",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Greater St. Louis · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Bare-metal memory-mapped register, MMIO access abstraction and isolation, employed during OFP execution.\nDeveloped virtualized C++ satcom connection control.\nVirtualization of FPGA broadcast ethernet communication between redundant Vehicle Management System Computers, and Mission Management System Computer\nFPGA communication between Vehicle Management and Mission Management System Computers. FPGA Discrete Logic virtualized in C Lang. WireShark packet analysis of FPGA channel traffic. OFP flight Binary Reverse Engineering Analysis of binary’s interaction with RTOS via Ghidra.\nIncorporated Xilinx SYSMON as custom QEMU virtual device. Voltage monitoring, and Xilinx Sysmon Temperature monitoring\nQEMU Virtualization of NXP LS1088A SoC, TI EVMK2EX processor and peripheral hardware level Execution fault processing, and reporting.\nDeveloped Real-time C Application deployed within bootable image of Deos Safety Critical RTOS, and Boeing Linux Environment. hosted execution of VxWorks images.\nLinux KVM acceleration, for deterministic highly performant hardware virtualization for Execution of Flight Plan Binaries in Virtualized High Fidelity Digital Twin.\nAWS Cloud based Docker Containerized High Fidelity hardware virtualization, and locally hosted virtualized hardware staging of Iron Bird Simulation for QEMU Execution of Boeing AvionX Avionics Autonomous System Computer, and Boeing µACE Avionics System Computer, on Wisk eVTOL.\nCode development conducted within Amazon Workspaces Linux Environment. GitLab CI/CD bash and yaml Scripting. Authored Python automated coverage and unit tests.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1384/",
+     "name": "Boeing",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer IV",
+    "locationName": "Goleta, CA ",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Developed SOA based medical image processing & analysis device Application on x86 Ryzen main embedded processor\nControl Software for Endoscopy camera and light-source control device\nImage capture and video stream presentation\nRuntime adoption for streaming video codec \nSemantically Rich Pub/Sub Interface creation\nSwaggerHub API development for medical device onboard Service Oriented Architecture\nThrift IDL YAML\nService implementations in Rust\nComponent testing via Mocking, and Dependency Injection\nRestful service implementation\nPostman API testing\nDocker Compose\nKubernetes K3s lightweight orchestration in embedded system\nKeycloak Identity and Access Management\nMongoDB transactions\nLucidchart System Architecture Design Presentation\nMiro Board Workflow Mapping & Design\nDesign Control applying: CFR Part 820, ISO 13485, ISO 14971 and IEC 62366\nSAP + Docusign Document Management\nC++ Adapter Pattern implementations of abstractions for Application API connectors to services and business logic\nC++ Linux Device Driver development\nGTest Automation & code coverage analysis\nService Oriented Signal/Message Processing\nML Inference Engine employing and Trigger/Event Processing\nTechnical Debt Assessment & Mitigation, refactoring & redesign\nVideo Stream capture HW control\nVideo recording & presentation\nD-bus low latency connectivity for locally deployed services\nC++ Bitwise Accessors via I2C for Control Registers on Ethernet Switch chassis mezzanine card\n Congatec ARM based Embedded Hardware Module\nQT/QML implementation of multi-pane rendering for DICOM images, and video streams, along with Rendering of text and icons & widgets.\nCMake driven Linux component builds\nContainerized cross platform build & runtime\nRPM creation, and OSTree payload generation\nsystemd unit file creation\nbash startup & build scripts\nFedora CoreOS Ignition File Configuration",
+    "company": {
+     "url": "https://www.linkedin.com/company/14376/",
+     "name": "Karl Storz Imaging",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w"
+     }
+    }
+   },
+   {
+    "title": "Smart Edge Software Architect",
+    "locationName": "Akron, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "•Designer for NPI & POCs/Experimental Prototypes\n•Cloud to Edge Transition of control intelligence to mitigate latency\n•Migration of BAS Service to Edge\n•Deployed components implemented in C++20 , Rust, & Java\n•Sparkplug connectivity protobuf Payload exchange via MQTT\n•Consultant on:\nFast Response Time decarburization Net Zero attainment Action Planning Azure Service \nSustainable Energy Mgt as a Service\n•Designer on Platform team we delivered a Generalized Yocto Embedded Linux Platform BSP targeting NXP i.MX8 SoMs\n•Performed Testable Requirement Discovery\n•Specified Layer Stack\n•The Yocto Platform built upon Wind River Linux, Delivered:\nLTS Open Source Updates\nOS components & HW Testing Suite\nEnterprise wide CVE Mgt\n•Platform Provided Networking & Security Subsystems implemented in C,C++,Rust\nAll locally sourced code covered by Gtest, or Rust test Modules\n•Platform provided User Mode Dbus Interfaces: \nPeripheral HAL APIs \nSW-defined Networking API\nRoot FS isolation from Native Linux App\nAbstracted security/execution model App Interface\nDeveloped DRAM HW test Decoupled from u-boot\nDevice Tree Overlays\n•Spearheaded adoption Open Source OSTree/Aktualizr flash mgt for optimal utilization Efficiency,Fault Tolerance\n•Backed Edge Application migration to containerization, & utilizing containerd/Kubernetes Interface as App Update mechanism\n•Bitbake Integrated containerd runtime\n•Backed Platform to leverage App container isolation+Edge Svc partitioning\n•Ensured Platform infrastructure for: \nIntelligent Edge compute elements to Perform ML Analysis at Edge as Control System Input\nSegregated execution environment facilitating transitioning managed code Apps to Linux native\nEmbedded OS provided containerd resources execute migrated cloud Microservices;Supporting Edge Orchestration\n•Engineered PKI provisioning procedure for Edge Nodes\nEmbedding X.509 certs in Trusted Storage via HSM for CSR\n•Ensure NIST Security Std met\n•Served as Software coE Embedded SW Development SME",
+    "company": {
+     "url": "https://www.linkedin.com/company/2247/",
+     "name": "Johnson Controls",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols"
+     }
+    }
+   },
+   {
+    "title": "Senior Electronic-Electrical Engineer",
+    "locationName": "Broadview Heights, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "•\tLed proof of concept to integrate Endoscopic optical system’s analog signal output as input into Win64 medical management system.\n•\tImplemented Micrium OS multi-MCU BSP customizations for utilizing the on-chip facilities of  peripheral I2C power monitoring IC.\n•\tConstructed code to maximize battery Life. Implemented using Modern C++ facilities, and idioms RAII, pImpl, CRTP etc.\n•\tDesigned and Developed Application & Control Architectural Layer modern C++ code as class C SW on ambulatory medical device. Engaged in team with C++20 mindset.\n•\tProvided Battery monitoring: characterization, and capacity predicting facilities\n•\tCode coverage and Unit Testing via Parasoft and Fakeit Mocking framework\n•\tPrior to HW availability vetted designs in Qt based simulation.\n•\tProductized Cloud based Service Oriented Architecture, for delivery as a Surgical Operating Room Management Medical Device Application.\n•\tDelivered 3rd party Edge based ML Software with cloud based digital twin deep learning models;\n•\tConstructed and Deployed Machine Learning AI Models via Docker Edge Container to NVDIA Intelligent Edge Computing GPU.\n•\tUtilized, .NET Azure, python, SQL Server and Ubuntu for recognition and Event generation.\nDeployed Human and situational model driven recognition, event initiation.\n•\tDelivered Product Software Cross Multi Domain Application Involving Electrical, Mechanical and Software Engineering.\n•\tCreated L2 and L3 product network designs\n•\tPerformed and coordinated Deep Learning model Construction; training, annotation, and classification for Medical perception Recognition models.\n•\tEngineered and compiled Product SRS requirements and design inputs and DHF, QMS documentation for adherence to IEC 62304 & ISO 13485.\n•\tVideo switching of MPEG-TS and DVB protocols \n•\tDeveloped Requirements, and Application SW Maintenance plan together with Risk-Management team.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/58271422/",
+     "name": "ZIMMER BIOMET SURGICAL",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo"
+     }
+    }
+   },
+   {
+    "title": "Advanced Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Designed detailed specifications for C++ Engineers to implement on memory constrained device\nAnalog and digital actuation control; RTD calibration & Sampling, within State Machine and Event Driven cyber-physical system designs. Specified Mixed-Criticality Scheduling of Sporadic Tasks\nFluid temperature, pressure, flow control and metrology. Developed Technique for determining relative non-RMA priorities of the system’s a-periodic threads: For specifying ThreadX concurrency in Renesas RTOS Configurator Cortex M microcontroller. IAR C++ build.\nEliminated dependencies in BSP agnostic abstraction library/HAL implementations in AUTOSAR C++; Boost Serialization & Multiprecision\nDesigned control workflows for endoscope disinfection electromechanical equipment; implemented on focused modern C++ team\nComposed SW Architecture specification for embedded system. Delivered all designs, implementations, and documentation within a regulatory compliant process adhering to IEC 62304 & ISO 13485.\nGathered Software requirements for medical device component based embedded systems and authored testable requirement specifications. Contributed to FDA 510(k) Clearance submissions.\nMentor Graphics Embedded Linux (MEL) HMI Yocto Build UDev:\nUnit Testing, and design validation via QEMU emulator.\nAuthored IIoT MQTT M2M JSON communication interface specification\nEdge pre-aggregation for enhanced telemetry bandwidth utilization\nDesigned architecture for daemon to publish CAN Bus Real-time Data to MQTT via ZMQ IPC & mosquittopp.\nDesigned Application level self-signed Cert X.509 M2M mutual authentication mechanism, C++ implementation",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ"
+     }
+    }
+   },
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Designed validation heuristics for simulation and fault detection in distributed large-scale automation architecture.\nImplemented improvements in IIoT publish/subscribe Real-time subsystems. Delivered Detailed Designs for Functional Safety SIL Certification of ARM and x86 Multi-Core industrial controllers. Performed IEC 61508 regulatory compliance SW Risk Impact Analysis, Risk Mitigation Planning.\nApplied S.O.L.I.D. principles in refactoring and design pattern implementations.\nDeveloped in VxWorks for providing deterministic communications and I/O capability\nImplemented industrial Ethernet comms; SCADA, DNP3 Modbus CIP, IIoT protocol designs in C++\nEnhanced controller fault tolerant redundancy designs, and multithreaded concurrent asynchronous event handling. Execution Performance Tuning.\nEnsured Compliance with MISRA C++ Coding Standards; violation triage; recommended course of resolving, Code Quality Statistical Analysis \nDelivered Board Support Packages (BSP) images for hybrid Windows 10 IoT OS, integrating to Azure gateway alongside real-time cores, parallel algorithm execution providing redundant fallback.\nParticipated in DevSecOps process delivering bi-directional traceability of SW development workflow for affirming adherence to safety and cybersecurity regulatory standards.\nComposed Multi-OS Industrial Computer firmware binaries for atomic OS image updates.\nDesigned and manipulated injection packets to assess vulnerability exposure in safety critical IIoT connectivity, Performed C++ and PEP8 Python Code reviews (existing code + peer review).\nUtilizing C++11 & C++14 incorporated Modern C++ style, and constructs to enhance maintainability and clarity.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2498/",
+     "name": "Rockwell Automation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "•\tDeveloped Management, and Control Agents for Enterprise and industrial Rugged Mobile Devices on Windows Embedded/CE, Android, Embedded Linux, Windows Mobile/Phone, PC/Win32; along with their Human Machine Interfaces (HMI).  Served as Agile Scrum Master.\n•\tLed development of Data Collection Engines that acquire via heterogeneous metric sampling plugins deployed on demand, and that aggregate sample data for transmission to data analysis gateways. Provided configurable environmental metric sampling plugins. Delivered telemetry, and performed location aware device actions.\n•\tLed design and C++ development of autonomous environment sensing actionable event agents that use a plugin architecture to employ heuristic algorithm plugins for forming a device’s perception of its local environmental conditions, informing action behavior.\n•\tDelivered Secured facility for performing over-the-air (OTA) Operating System image/loader updates.\n•\tPerformed event timing analysis, and Security vulnerability analysis, and Static code analysis yielding semantically consistent designs, and Windows embedded/QNX implementations.\n•\tParticipated in rigorous Secure SDLC processes, enabling team to incorporate support for security intrinsically in the Software Architecture; contributed to Agile sprints, yielding a continuous production quality delivery pipeline to validation team.\n•\tExecuted resilient connectivity over Cellular, WLAN, Bluetooth; employed both RESTful APIs for cloud endpoint communication, and traditional socket based communication.\n•\tImplemented HMAC Layer 7 message token authentication subsystem for C++ mobile remote agents.\n•\tDeveloped C++ PBE encryption mechanism to integrate a user secret during component deployment.\n•\tUtilized embedded Open Source components such as Curl, OpenSSL; and OSS management.\n•\tSpearheaded optimizations and consolidation resulting in a 30% code footprint reduction; optimized C++ code sections to reduce overall energy consumption.\n",
+    "company": {
+     "url": "",
+     "name": "VMware",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "•\tLed development of Windows Embedded Device Management Agent; achieved Agent functionality customization, and extensibility through deploying stock plugins, and user developed plugins.\n•\tProvided Device Power Management and Monitoring along with managing Smart Batteries.\n•\tImplemented and furnished configuration/management facilities for 802.11, GSM/GPRS, LTE Mobile Device Communication stacks; provided encryption, authentication, and certification of management facilities.\n•\tDeveloped Mobile Device Management (MDM) Agents for Windows embedded, Android, Linux; incorporated remote control capability into MDM Agents.\n•\tEmployed JNI on Android to achieve C++ code base multi-platform availability and independence; utilized invariant contracts in C++ interfaces.\n•\tAbstracted binary components for hardware independence in varied platform Board Support Packages. Ensured all components adhered to klocwork analysis.\n•\tApplied Schematics and CPLD mapping in debugging and BSP engineering. Accomplished Test Point verification on preliminary and production PCBs using WinDbg and gdb.\n•\tEngineered medical (HIPAA), and FIPS privacy regulatory compliance, and hardening requirement Solutions by applying mechanisms such as encryption and TLS.\n•\tAuthored Python, bat, and shell, tool chain scripts for build and testing automation scripting. Complied with Microsoft hopper stress testing tool suite for mobile embedded devices.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg"
+     }
+    }
+   },
+   {
+    "title": "System Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2000
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "•\tDeveloped and distributed board support packages (BSPs) for Windows CE/Embedded ARM application-ready Single Board Computers; utilized C, ARM Assembler, and Windows Embedded Platform Builder, and JTAG Debugging in BSP development.\n•\tDesigned and developed Interrupt, GPIO, timer handlers and on-chip peripheral access encapsulations. Hardware interrupt runtime registration facilities. Provided 3rd party driver integration/customization utilities.\n•\tCustomized and applied Device Drivers for Touch Screen, Power Management, USB host, and client drivers; along with I/O verification via oscilloscope.\n•\tFulfilled Win32 functionality requirements in Windows CE kernel and HAL/OAL APIs.\n•\tImplemented Java Knowledge Based Weka Machine Learning Classifiers.\n•\tDeveloped Application Layer Gateway Proxy, malicious TCP traffic barrier, using .NET Remoting VB RS232; C# extensions of .NET communication channel classes.\n•\tDeveloped x86 Windows kernel communication device drivers.\n\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/22237/",
+     "name": "Applied Data Systems Windows CE Technical Group",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "Diebold Self Service Products",
+     "url": "https://www.linkedin.com/company/4458/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "7 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Senior Electromechanical Research Engineer",
+      "locationName": "Cleveland/Akron, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1996
+       },
+       "endDate": {
+        "year": 1999
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "•\tLed embedded software team in developing the UML Model-Based architecture, and embedded Bare Metal C++ implementation of Safety Critical Real-Time control software for mechatronic currency transporting ATM devices.\n•\tOur interdisciplinary team delivered mechatronic modules from concept to production ahead of schedule.\n•\tProvided software requirements for MCU and PCB components to hardware engineering.\n•\tEnsured the resolution of all software technical issues with electrical, and mechanical hardware engineering teams.\n•\tDesigned and implemented robust Communication Drivers and encryption subsystem, on Motorola 68K /CPU32, in C and Motorola 68K Assembler.\n•\tDesigned and developed portable preemptive Multitasking microcontroller Kernel for executing multithreaded designs on embedded modules deployed in Bare Metal applications without available sourced RTOS.\n•\tUtilized VxWorks in multi-module control.\n•\tImplemented over the network module firmware update facility.\n•\tUtilized heuristics for thermal state and available stored energy to manage motors and solenoids for fault tolerance and recovery, and for performance.\n•\tUtilized: NV memory, DAC, ADC, motors, sensors, and drivers for SPI and PWM.\n•\tImplemented Command protocol encryption, and key synchronization.\n•\tDesigned Frameworks for Transactions/Commands, and for acquiring sensors, and actuating motors and solenoids.\n•\tDeveloped control software for electromechanical devices to handle and transport currency notes of value.\n•\tDeveloped Serial Communication with onboard and peripheral components, and CPU exception /interrupt handling. Utilized BDM interface for Debugging.\n•\tDeveloped module software Test Plan with QA verification engineering team.\n",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Canton, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1992
+       },
+       "endDate": {
+        "year": 1996
+       }
+      },
+      "totalDuration": "4 yrs",
+      "description": "•\tLed development of communication and translation software interfaces to 3rd party physical security monitoring systems.\n•\tLed architecture and development of real-time UI for 7x24 security monitoring system, for critical event annunciation and hot device status UI updates, and operator actions synchronized on client/server multiple workstations.\n•\tProvided Safety Critical remote sensor monitoring, and Emergency response control systems, as well as highly responsive Premise Monitoring /Control servers and GUI’s.\n•\tDeveloped and maintained multi-platform libraries for synchronization, tasking, IPC, I/O, and Memory management and leak detection.\n•\tLed design and implementation of Secure Distributed SQL database RAM caching service with prioritized propagation, providing a memory mapped RDBMS adapter for disparate node entities.\n•\tPorted premise security and access control transaction processing applications to Win32.\n•\tImplemented Multi-Protocol Message Routing service.\n•\tImplemented Exception/error capture and reporting; Stack unwinding for exception examination, diagnostics, and code instrumentation.\n•\tDesigned and implemented Multi-platform libraries for tasking and synchronization, I/O, and IPC.\n•\tDesigned and implemented Physical Security simulators.\n•\tDeveloped Windows kernel communication device driver deployed to nodes with coprocessor. Utilized X86 Assembler and WinDbg for development.\n•\tRendered graphical representation of remote alarms in floor plan context.\n•\tAssembled and Established team C++ Coding standards, and Defect Detection Guidelines.\n•\tDeveloped event annunciation pipelines using Java RMI, and resilient UDP streaming, and Exception reporting via SMTP, and Telephony.\n•\tPerformed Ethernet frame and IP packet, analysis/sniffing; raw C socket and WinSock Development.\n•\tExtensively used Win32 API, as well as Services and service control management.\n•\tAuthored Documentation for user applications, programming interfaces, and communication protocols.\n",
+      "insights": ""
+     }
+    ]
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Detroit",
+    "degreeName": "Bachelor of Engineering - BE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {}
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Detroit",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "First Place Team  Mobile Autonomous Robotics Competition",
+    "description": "Our team developed custom software and hardware for the CS school Mobile Autonomous robotics competition. The firefighting robot received the first place award in the competition.",
+    "issueDate": {},
+    "issuer": "Issued by University of Akron School of Computer Science · May 2005"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [
+   {
+    "title": "Banking transaction machine that operates responsive to data bearing records",
+    "issuer": "US 8,356748 · Issued Sep 1, 2011",
+    "issueDate": {},
+    "description": ""
+   },
+   {
+    "title": "Automated transaction machine with sheet accumulator and presenter mechanism",
+    "issuer": "US 7,789,296 · Issued Sep 7, 2010",
+    "issueDate": {},
+    "description": ""
+   }
+  ],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 2923,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 2926,
+  "skills": [
+   {
+    "name": "Software Engineering",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "VxWorks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "VxWorks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/robert-g-miller",
+  "linkedinUrl": "https://www.linkedin.com/in/robert-g-miller",
+  "profileUrl": "https://www.linkedin.com/in/robert-g-miller",
+  "verified": false,
+  "registeredAt": "2011-10-25T08:59:32.000Z",
+  "location": {
+   "linkedinText": "Akron, Ohio, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Akron, Ohio, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Senior Device Software Engineer with 15+ years of experience architecting and delivering high-performance embedded, distributed, and real-time systems across aerospace, defense, automotive, industrial, and medical device industries. Expert in C++ (modern standards), Rust, and Python with deep knowledge of RTOS, embedded Linux, containerization (Kubernetes, Podman, Docker), and cloud-based development (AWS, CI/CD, GitLab/GitHub, Bazel). Proven leader in system messaging architectures, hardware virtualization, signal processing, and safety-critical software design with hands-on contributions to satellite communications, avionics, autonomous vehicles, and medical imaging systems. Skilled at driving complex, cross-functional projects from requirements to deployment, with strong emphasis on performance optimization, regulatory compliance (DO-178C, ISO 13485, IEC 62304, ASPICE), cybersecurity, and test automation. Recognized for technical leadership, cross-domain expertise, and ability to bridge architecture with implementation in time-critical environments.",
+  "currentTitle": "Staff Embedded Software Engineer",
+  "allTitles": [
+   "Staff Embedded Software Engineer",
+   "Software Architect",
+   "Embedded Software Engineer",
+   "Embedded Software Engineer",
+   "Software Engineer IV",
+   "Smart Edge Software Architect",
+   "Senior Electronic-Electrical Engineer",
+   "Advanced Software Engineer",
+   "Senior Embedded Software Engineer",
+   "Senior Software Engineer",
+   "Senior Engineer",
+   "System Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Staff Embedded Software Engineer",
+    "locationName": "Indianapolis, IN · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 2 mos",
+    "company": {
+     "url": "",
+     "name": "Carrier Energy",
+     "logo": {}
+    },
+    "position": "Staff Embedded Software Engineer",
+    "companyName": "Carrier Energy",
+    "location": "Indianapolis, IN · Remote",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Diebold Self Service Products",
+     "url": "https://www.linkedin.com/company/4458/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg"
+     }
+    },
+    "totalDuration": "7 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Senior Electromechanical Research Engineer",
+      "locationName": "Cleveland/Akron, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1996
+       },
+       "endDate": {
+        "year": 1999
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "•\tLed embedded software team in developing the UML Model-Based architecture, and embedded Bare Metal C++ implementation of Safety Critical Real-Time control software for mechatronic currency transporting ATM devices.\n•\tOur interdisciplinary team delivered mechatronic modules from concept to production ahead of schedule.\n•\tProvided software requirements for MCU and PCB components to hardware engineering.\n•\tEnsured the resolution of all software technical issues with electrical, and mechanical hardware engineering teams.\n•\tDesigned and implemented robust Communication Drivers and encryption subsystem, on Motorola 68K /CPU32, in C and Motorola 68K Assembler.\n•\tDesigned and developed portable preemptive Multitasking microcontroller Kernel for executing multithreaded designs on embedded modules deployed in Bare Metal applications without available sourced RTOS.\n•\tUtilized VxWorks in multi-module control.\n•\tImplemented over the network module firmware update facility.\n•\tUtilized heuristics for thermal state and available stored energy to manage motors and solenoids for fault tolerance and recovery, and for performance.\n•\tUtilized: NV memory, DAC, ADC, motors, sensors, and drivers for SPI and PWM.\n•\tImplemented Command protocol encryption, and key synchronization.\n•\tDesigned Frameworks for Transactions/Commands, and for acquiring sensors, and actuating motors and solenoids.\n•\tDeveloped control software for electromechanical devices to handle and transport currency notes of value.\n•\tDeveloped Serial Communication with onboard and peripheral components, and CPU exception /interrupt handling. Utilized BDM interface for Debugging.\n•\tDeveloped module software Test Plan with QA verification engineering team.\n",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Canton, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1992
+       },
+       "endDate": {
+        "year": 1996
+       }
+      },
+      "totalDuration": "4 yrs",
+      "description": "•\tLed development of communication and translation software interfaces to 3rd party physical security monitoring systems.\n•\tLed architecture and development of real-time UI for 7x24 security monitoring system, for critical event annunciation and hot device status UI updates, and operator actions synchronized on client/server multiple workstations.\n•\tProvided Safety Critical remote sensor monitoring, and Emergency response control systems, as well as highly responsive Premise Monitoring /Control servers and GUI’s.\n•\tDeveloped and maintained multi-platform libraries for synchronization, tasking, IPC, I/O, and Memory management and leak detection.\n•\tLed design and implementation of Secure Distributed SQL database RAM caching service with prioritized propagation, providing a memory mapped RDBMS adapter for disparate node entities.\n•\tPorted premise security and access control transaction processing applications to Win32.\n•\tImplemented Multi-Protocol Message Routing service.\n•\tImplemented Exception/error capture and reporting; Stack unwinding for exception examination, diagnostics, and code instrumentation.\n•\tDesigned and implemented Multi-platform libraries for tasking and synchronization, I/O, and IPC.\n•\tDesigned and implemented Physical Security simulators.\n•\tDeveloped Windows kernel communication device driver deployed to nodes with coprocessor. Utilized X86 Assembler and WinDbg for development.\n•\tRendered graphical representation of remote alarms in floor plan context.\n•\tAssembled and Established team C++ Coding standards, and Defect Detection Guidelines.\n•\tDeveloped event annunciation pipelines using Java RMI, and resilient UDP streaming, and Exception reporting via SMTP, and Telephony.\n•\tPerformed Ethernet frame and IP packet, analysis/sniffing; raw C socket and WinSock Development.\n•\tExtensively used Win32 API, as well as Services and service control management.\n•\tAuthored Documentation for user applications, programming interfaces, and communication protocols.\n",
+      "insights": ""
+     }
+    ],
+    "companyName": "Diebold Self Service Products",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4458/",
+    "companyId": "4458",
+    "duration": "7 yrs 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Architect",
+    "locationName": "Phoenix, Arizona, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Lead team in design of protobuf schemas used for inter-service control and alert messaging. This effort transitioned exclusive use of JSON messages to adoption of more performant protobuf messaging.\n\nLead Collaborative design activities for Message and Signal flow using digital whiteboard diagramming & docs in Confluence .\n\nLead team in implementing inter-container messages as protobuf strongly typed C++ interfaces; and as python service msgs.\n\nImplemented protobuf control interfaces into C++ Services for real-time RF Waveform vector construction and Digital Signal Processing (DSP) into metadata wrapped Radio Frequency (RF) Encrypted Message Packets.\n\nDesigned and implemented Application-level message acknowledgments between subscriber & publisher. This effort made use of pre-allocating C++ std:: data structures to allow deterministic behavior in a time-constrained environment.\n\nDoxygen comments in all code for comprehensive function & API documentation.\nCode development performed within AWS EC2 instance Enclave\n\nLeveraged LLM-generated test case code using segregated in-house LLM.\n\nEmployed Neural Autonomic Transport System (NATS) JetStream as Message Bus for deterministic real-time inter-container communication.\n\nQueuing & Load Balancing are provided by NATS for time-constrained comms within Kubernetes (K8s) cluster.\n\nInstrumented throughput latency mitigation via Wireshark PCAP & Prometheus metrics.\n\nAnalysis of metrics led to adjusting TCP windowing & MTU parameters toward maintaining message throughput within bounds.\n\nContainer pods mainly deployed with Podman in unit development, deployed via Helm in an integrated system. NATS and K8s Used for providing Scalability, & performance for time-constrained communication Satellite communications.\n\nDesigned & implemented an overall messaging orchestrator.\n\nAutomated GTest pass/fail verification of end to end message traffic through Helm continuously deployed services and connected RF HW, & emulators in CI.",
+    "company": {
+     "url": "",
+     "name": "General Dynamics Mission Systems",
+     "logo": {}
+    },
+    "position": "Software Architect",
+    "companyName": "General Dynamics Mission Systems",
+    "location": "Phoenix, Arizona, United States · Remote",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Mountain View, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "•\tC++ MMIO access abstraction and isolation, Allowing TI, NXP IC substitution in Autonomous Automobile Control System, all code designed for testing, namespaces used for Linker name resolution.\n•\tGitHub Copilot code composition assistance\n•\tImplemented C++ and C Logic in PMIC Power Management, Watchdog feed, Temperature Sensor, Voltage Sensor Control, device monitor application Tasks development.\n•\tI2C SoC peripheral communication\n•\tOS resource utilization such as Mutex Thread via API\n•\tInterrupt and Exception Vector coding.\n•\tEHIL test to Requirement Mapping with JAMA\n•\tC and C++ 100% code coverage testing using Mocks and Fakes via gMock\n•\tCode Development via SSH tunnel with AWS hosted Linux VM\nCI build Flow using Bazel build rules in Starlark, for Clang & GCC compilers. Buids and tests execute in a Jira & buildkite managed embedded Linux build environment. GitHub Pull requests managed with Bonsai.\n•\t Remote GDB C++ debugging over ssh tunnel. \n•\tdecoupling of tasks from FreeRTOS\n•\tAll embedded Application code covered by automated CI tests for multiple targeted HW platforms\n•\tEach EHIL test built for running FreeRTOS, and WITTENSTEIN certified high integrity systems SafeRTOS \n•\tAutomated tests execute on emulated embedded targets within CI on buildkite",
+    "company": {
+     "url": "https://www.linkedin.com/company/105156561/",
+     "name": "Aurora Innovations",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Aurora Innovations",
+    "location": "Mountain View, California, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/105156561/",
+    "companyId": "105156561",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Greater St. Louis · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Bare-metal memory-mapped register, MMIO access abstraction and isolation, employed during OFP execution.\nDeveloped virtualized C++ satcom connection control.\nVirtualization of FPGA broadcast ethernet communication between redundant Vehicle Management System Computers, and Mission Management System Computer\nFPGA communication between Vehicle Management and Mission Management System Computers. FPGA Discrete Logic virtualized in C Lang. WireShark packet analysis of FPGA channel traffic. OFP flight Binary Reverse Engineering Analysis of binary’s interaction with RTOS via Ghidra.\nIncorporated Xilinx SYSMON as custom QEMU virtual device. Voltage monitoring, and Xilinx Sysmon Temperature monitoring\nQEMU Virtualization of NXP LS1088A SoC, TI EVMK2EX processor and peripheral hardware level Execution fault processing, and reporting.\nDeveloped Real-time C Application deployed within bootable image of Deos Safety Critical RTOS, and Boeing Linux Environment. hosted execution of VxWorks images.\nLinux KVM acceleration, for deterministic highly performant hardware virtualization for Execution of Flight Plan Binaries in Virtualized High Fidelity Digital Twin.\nAWS Cloud based Docker Containerized High Fidelity hardware virtualization, and locally hosted virtualized hardware staging of Iron Bird Simulation for QEMU Execution of Boeing AvionX Avionics Autonomous System Computer, and Boeing µACE Avionics System Computer, on Wisk eVTOL.\nCode development conducted within Amazon Workspaces Linux Environment. GitLab CI/CD bash and yaml Scripting. Authored Python automated coverage and unit tests.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1384/",
+     "name": "Boeing",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Boeing",
+    "location": "Greater St. Louis · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1384/",
+    "companyId": "1384",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer IV",
+    "locationName": "Goleta, CA ",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Developed SOA based medical image processing & analysis device Application on x86 Ryzen main embedded processor\nControl Software for Endoscopy camera and light-source control device\nImage capture and video stream presentation\nRuntime adoption for streaming video codec \nSemantically Rich Pub/Sub Interface creation\nSwaggerHub API development for medical device onboard Service Oriented Architecture\nThrift IDL YAML\nService implementations in Rust\nComponent testing via Mocking, and Dependency Injection\nRestful service implementation\nPostman API testing\nDocker Compose\nKubernetes K3s lightweight orchestration in embedded system\nKeycloak Identity and Access Management\nMongoDB transactions\nLucidchart System Architecture Design Presentation\nMiro Board Workflow Mapping & Design\nDesign Control applying: CFR Part 820, ISO 13485, ISO 14971 and IEC 62366\nSAP + Docusign Document Management\nC++ Adapter Pattern implementations of abstractions for Application API connectors to services and business logic\nC++ Linux Device Driver development\nGTest Automation & code coverage analysis\nService Oriented Signal/Message Processing\nML Inference Engine employing and Trigger/Event Processing\nTechnical Debt Assessment & Mitigation, refactoring & redesign\nVideo Stream capture HW control\nVideo recording & presentation\nD-bus low latency connectivity for locally deployed services\nC++ Bitwise Accessors via I2C for Control Registers on Ethernet Switch chassis mezzanine card\n Congatec ARM based Embedded Hardware Module\nQT/QML implementation of multi-pane rendering for DICOM images, and video streams, along with Rendering of text and icons & widgets.\nCMake driven Linux component builds\nContainerized cross platform build & runtime\nRPM creation, and OSTree payload generation\nsystemd unit file creation\nbash startup & build scripts\nFedora CoreOS Ignition File Configuration",
+    "company": {
+     "url": "https://www.linkedin.com/company/14376/",
+     "name": "Karl Storz Imaging",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w"
+     }
+    },
+    "position": "Software Engineer IV",
+    "companyName": "Karl Storz Imaging",
+    "location": "Goleta, CA ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14376/",
+    "companyId": "14376",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Smart Edge Software Architect",
+    "locationName": "Akron, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "•Designer for NPI & POCs/Experimental Prototypes\n•Cloud to Edge Transition of control intelligence to mitigate latency\n•Migration of BAS Service to Edge\n•Deployed components implemented in C++20 , Rust, & Java\n•Sparkplug connectivity protobuf Payload exchange via MQTT\n•Consultant on:\nFast Response Time decarburization Net Zero attainment Action Planning Azure Service \nSustainable Energy Mgt as a Service\n•Designer on Platform team we delivered a Generalized Yocto Embedded Linux Platform BSP targeting NXP i.MX8 SoMs\n•Performed Testable Requirement Discovery\n•Specified Layer Stack\n•The Yocto Platform built upon Wind River Linux, Delivered:\nLTS Open Source Updates\nOS components & HW Testing Suite\nEnterprise wide CVE Mgt\n•Platform Provided Networking & Security Subsystems implemented in C,C++,Rust\nAll locally sourced code covered by Gtest, or Rust test Modules\n•Platform provided User Mode Dbus Interfaces: \nPeripheral HAL APIs \nSW-defined Networking API\nRoot FS isolation from Native Linux App\nAbstracted security/execution model App Interface\nDeveloped DRAM HW test Decoupled from u-boot\nDevice Tree Overlays\n•Spearheaded adoption Open Source OSTree/Aktualizr flash mgt for optimal utilization Efficiency,Fault Tolerance\n•Backed Edge Application migration to containerization, & utilizing containerd/Kubernetes Interface as App Update mechanism\n•Bitbake Integrated containerd runtime\n•Backed Platform to leverage App container isolation+Edge Svc partitioning\n•Ensured Platform infrastructure for: \nIntelligent Edge compute elements to Perform ML Analysis at Edge as Control System Input\nSegregated execution environment facilitating transitioning managed code Apps to Linux native\nEmbedded OS provided containerd resources execute migrated cloud Microservices;Supporting Edge Orchestration\n•Engineered PKI provisioning procedure for Edge Nodes\nEmbedding X.509 certs in Trusted Storage via HSM for CSR\n•Ensure NIST Security Std met\n•Served as Software coE Embedded SW Development SME",
+    "company": {
+     "url": "https://www.linkedin.com/company/2247/",
+     "name": "Johnson Controls",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols"
+     }
+    },
+    "position": "Smart Edge Software Architect",
+    "companyName": "Johnson Controls",
+    "location": "Akron, Ohio, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2247/",
+    "companyId": "2247",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Electronic-Electrical Engineer",
+    "locationName": "Broadview Heights, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "•\tLed proof of concept to integrate Endoscopic optical system’s analog signal output as input into Win64 medical management system.\n•\tImplemented Micrium OS multi-MCU BSP customizations for utilizing the on-chip facilities of  peripheral I2C power monitoring IC.\n•\tConstructed code to maximize battery Life. Implemented using Modern C++ facilities, and idioms RAII, pImpl, CRTP etc.\n•\tDesigned and Developed Application & Control Architectural Layer modern C++ code as class C SW on ambulatory medical device. Engaged in team with C++20 mindset.\n•\tProvided Battery monitoring: characterization, and capacity predicting facilities\n•\tCode coverage and Unit Testing via Parasoft and Fakeit Mocking framework\n•\tPrior to HW availability vetted designs in Qt based simulation.\n•\tProductized Cloud based Service Oriented Architecture, for delivery as a Surgical Operating Room Management Medical Device Application.\n•\tDelivered 3rd party Edge based ML Software with cloud based digital twin deep learning models;\n•\tConstructed and Deployed Machine Learning AI Models via Docker Edge Container to NVDIA Intelligent Edge Computing GPU.\n•\tUtilized, .NET Azure, python, SQL Server and Ubuntu for recognition and Event generation.\nDeployed Human and situational model driven recognition, event initiation.\n•\tDelivered Product Software Cross Multi Domain Application Involving Electrical, Mechanical and Software Engineering.\n•\tCreated L2 and L3 product network designs\n•\tPerformed and coordinated Deep Learning model Construction; training, annotation, and classification for Medical perception Recognition models.\n•\tEngineered and compiled Product SRS requirements and design inputs and DHF, QMS documentation for adherence to IEC 62304 & ISO 13485.\n•\tVideo switching of MPEG-TS and DVB protocols \n•\tDeveloped Requirements, and Application SW Maintenance plan together with Risk-Management team.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/58271422/",
+     "name": "ZIMMER BIOMET SURGICAL",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo"
+     }
+    },
+    "position": "Senior Electronic-Electrical Engineer",
+    "companyName": "ZIMMER BIOMET SURGICAL",
+    "location": "Broadview Heights, Ohio, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/58271422/",
+    "companyId": "58271422",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Advanced Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Designed detailed specifications for C++ Engineers to implement on memory constrained device\nAnalog and digital actuation control; RTD calibration & Sampling, within State Machine and Event Driven cyber-physical system designs. Specified Mixed-Criticality Scheduling of Sporadic Tasks\nFluid temperature, pressure, flow control and metrology. Developed Technique for determining relative non-RMA priorities of the system’s a-periodic threads: For specifying ThreadX concurrency in Renesas RTOS Configurator Cortex M microcontroller. IAR C++ build.\nEliminated dependencies in BSP agnostic abstraction library/HAL implementations in AUTOSAR C++; Boost Serialization & Multiprecision\nDesigned control workflows for endoscope disinfection electromechanical equipment; implemented on focused modern C++ team\nComposed SW Architecture specification for embedded system. Delivered all designs, implementations, and documentation within a regulatory compliant process adhering to IEC 62304 & ISO 13485.\nGathered Software requirements for medical device component based embedded systems and authored testable requirement specifications. Contributed to FDA 510(k) Clearance submissions.\nMentor Graphics Embedded Linux (MEL) HMI Yocto Build UDev:\nUnit Testing, and design validation via QEMU emulator.\nAuthored IIoT MQTT M2M JSON communication interface specification\nEdge pre-aggregation for enhanced telemetry bandwidth utilization\nDesigned architecture for daemon to publish CAN Bus Real-time Data to MQTT via ZMQ IPC & mosquittopp.\nDesigned Application level self-signed Cert X.509 M2M mutual authentication mechanism, C++ implementation",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ"
+     }
+    },
+    "position": "Advanced Software Engineer",
+    "companyName": "STERIS",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7851/",
+    "companyId": "7851",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Designed validation heuristics for simulation and fault detection in distributed large-scale automation architecture.\nImplemented improvements in IIoT publish/subscribe Real-time subsystems. Delivered Detailed Designs for Functional Safety SIL Certification of ARM and x86 Multi-Core industrial controllers. Performed IEC 61508 regulatory compliance SW Risk Impact Analysis, Risk Mitigation Planning.\nApplied S.O.L.I.D. principles in refactoring and design pattern implementations.\nDeveloped in VxWorks for providing deterministic communications and I/O capability\nImplemented industrial Ethernet comms; SCADA, DNP3 Modbus CIP, IIoT protocol designs in C++\nEnhanced controller fault tolerant redundancy designs, and multithreaded concurrent asynchronous event handling. Execution Performance Tuning.\nEnsured Compliance with MISRA C++ Coding Standards; violation triage; recommended course of resolving, Code Quality Statistical Analysis \nDelivered Board Support Packages (BSP) images for hybrid Windows 10 IoT OS, integrating to Azure gateway alongside real-time cores, parallel algorithm execution providing redundant fallback.\nParticipated in DevSecOps process delivering bi-directional traceability of SW development workflow for affirming adherence to safety and cybersecurity regulatory standards.\nComposed Multi-OS Industrial Computer firmware binaries for atomic OS image updates.\nDesigned and manipulated injection packets to assess vulnerability exposure in safety critical IIoT connectivity, Performed C++ and PEP8 Python Code reviews (existing code + peer review).\nUtilizing C++11 & C++14 incorporated Modern C++ style, and constructs to enhance maintainability and clarity.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2498/",
+     "name": "Rockwell Automation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw"
+     }
+    },
+    "position": "Senior Embedded Software Engineer",
+    "companyName": "Rockwell Automation",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2498/",
+    "companyId": "2498",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "•\tDeveloped Management, and Control Agents for Enterprise and industrial Rugged Mobile Devices on Windows Embedded/CE, Android, Embedded Linux, Windows Mobile/Phone, PC/Win32; along with their Human Machine Interfaces (HMI).  Served as Agile Scrum Master.\n•\tLed development of Data Collection Engines that acquire via heterogeneous metric sampling plugins deployed on demand, and that aggregate sample data for transmission to data analysis gateways. Provided configurable environmental metric sampling plugins. Delivered telemetry, and performed location aware device actions.\n•\tLed design and C++ development of autonomous environment sensing actionable event agents that use a plugin architecture to employ heuristic algorithm plugins for forming a device’s perception of its local environmental conditions, informing action behavior.\n•\tDelivered Secured facility for performing over-the-air (OTA) Operating System image/loader updates.\n•\tPerformed event timing analysis, and Security vulnerability analysis, and Static code analysis yielding semantically consistent designs, and Windows embedded/QNX implementations.\n•\tParticipated in rigorous Secure SDLC processes, enabling team to incorporate support for security intrinsically in the Software Architecture; contributed to Agile sprints, yielding a continuous production quality delivery pipeline to validation team.\n•\tExecuted resilient connectivity over Cellular, WLAN, Bluetooth; employed both RESTful APIs for cloud endpoint communication, and traditional socket based communication.\n•\tImplemented HMAC Layer 7 message token authentication subsystem for C++ mobile remote agents.\n•\tDeveloped C++ PBE encryption mechanism to integrate a user secret during component deployment.\n•\tUtilized embedded Open Source components such as Curl, OpenSSL; and OSS management.\n•\tSpearheaded optimizations and consolidation resulting in a 30% code footprint reduction; optimized C++ code sections to reduce overall energy consumption.\n",
+    "company": {
+     "url": "",
+     "name": "VMware",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "VMware",
+    "location": "Cleveland/Akron, Ohio Area",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2013
+    },
+    "endDate": {
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "•\tLed development of Windows Embedded Device Management Agent; achieved Agent functionality customization, and extensibility through deploying stock plugins, and user developed plugins.\n•\tProvided Device Power Management and Monitoring along with managing Smart Batteries.\n•\tImplemented and furnished configuration/management facilities for 802.11, GSM/GPRS, LTE Mobile Device Communication stacks; provided encryption, authentication, and certification of management facilities.\n•\tDeveloped Mobile Device Management (MDM) Agents for Windows embedded, Android, Linux; incorporated remote control capability into MDM Agents.\n•\tEmployed JNI on Android to achieve C++ code base multi-platform availability and independence; utilized invariant contracts in C++ interfaces.\n•\tAbstracted binary components for hardware independence in varied platform Board Support Packages. Ensured all components adhered to klocwork analysis.\n•\tApplied Schematics and CPLD mapping in debugging and BSP engineering. Accomplished Test Point verification on preliminary and production PCBs using WinDbg and gdb.\n•\tEngineered medical (HIPAA), and FIPS privacy regulatory compliance, and hardening requirement Solutions by applying mechanisms such as encryption and TLS.\n•\tAuthored Python, bat, and shell, tool chain scripts for build and testing automation scripting. Complied with Microsoft hopper stress testing tool suite for mobile embedded devices.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg"
+     }
+    },
+    "position": "Senior Engineer",
+    "companyName": "Motorola",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "6 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2000
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "•\tDeveloped and distributed board support packages (BSPs) for Windows CE/Embedded ARM application-ready Single Board Computers; utilized C, ARM Assembler, and Windows Embedded Platform Builder, and JTAG Debugging in BSP development.\n•\tDesigned and developed Interrupt, GPIO, timer handlers and on-chip peripheral access encapsulations. Hardware interrupt runtime registration facilities. Provided 3rd party driver integration/customization utilities.\n•\tCustomized and applied Device Drivers for Touch Screen, Power Management, USB host, and client drivers; along with I/O verification via oscilloscope.\n•\tFulfilled Win32 functionality requirements in Windows CE kernel and HAL/OAL APIs.\n•\tImplemented Java Knowledge Based Weka Machine Learning Classifiers.\n•\tDeveloped Application Layer Gateway Proxy, malicious TCP traffic barrier, using .NET Remoting VB RS232; C# extensions of .NET communication channel classes.\n•\tDeveloped x86 Windows kernel communication device drivers.\n\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/22237/",
+     "name": "Applied Data Systems Windows CE Technical Group",
+     "logo": {}
+    },
+    "position": "System Software Engineer",
+    "companyName": "Applied Data Systems Windows CE Technical Group",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/22237/",
+    "companyId": "22237",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2000
+    },
+    "endDate": {
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Carrier Energy",
+    "companyLogo": {}
+   },
+   {
+    "companyId": "4458",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4458/",
+    "companyName": "Diebold Self Service Products",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Staff Embedded Software Engineer",
+    "locationName": "Indianapolis, IN · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 2 mos",
+    "company": {
+     "url": "",
+     "name": "Carrier Energy",
+     "logo": {}
+    },
+    "position": "Staff Embedded Software Engineer",
+    "companyName": "Carrier Energy",
+    "location": "Indianapolis, IN · Remote",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Software Architect",
+    "locationName": "Phoenix, Arizona, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Lead team in design of protobuf schemas used for inter-service control and alert messaging. This effort transitioned exclusive use of JSON messages to adoption of more performant protobuf messaging.\n\nLead Collaborative design activities for Message and Signal flow using digital whiteboard diagramming & docs in Confluence .\n\nLead team in implementing inter-container messages as protobuf strongly typed C++ interfaces; and as python service msgs.\n\nImplemented protobuf control interfaces into C++ Services for real-time RF Waveform vector construction and Digital Signal Processing (DSP) into metadata wrapped Radio Frequency (RF) Encrypted Message Packets.\n\nDesigned and implemented Application-level message acknowledgments between subscriber & publisher. This effort made use of pre-allocating C++ std:: data structures to allow deterministic behavior in a time-constrained environment.\n\nDoxygen comments in all code for comprehensive function & API documentation.\nCode development performed within AWS EC2 instance Enclave\n\nLeveraged LLM-generated test case code using segregated in-house LLM.\n\nEmployed Neural Autonomic Transport System (NATS) JetStream as Message Bus for deterministic real-time inter-container communication.\n\nQueuing & Load Balancing are provided by NATS for time-constrained comms within Kubernetes (K8s) cluster.\n\nInstrumented throughput latency mitigation via Wireshark PCAP & Prometheus metrics.\n\nAnalysis of metrics led to adjusting TCP windowing & MTU parameters toward maintaining message throughput within bounds.\n\nContainer pods mainly deployed with Podman in unit development, deployed via Helm in an integrated system. NATS and K8s Used for providing Scalability, & performance for time-constrained communication Satellite communications.\n\nDesigned & implemented an overall messaging orchestrator.\n\nAutomated GTest pass/fail verification of end to end message traffic through Helm continuously deployed services and connected RF HW, & emulators in CI.",
+    "company": {
+     "url": "",
+     "name": "General Dynamics Mission Systems",
+     "logo": {}
+    },
+    "position": "Software Architect",
+    "companyName": "General Dynamics Mission Systems",
+    "location": "Phoenix, Arizona, United States · Remote",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Mountain View, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "•\tC++ MMIO access abstraction and isolation, Allowing TI, NXP IC substitution in Autonomous Automobile Control System, all code designed for testing, namespaces used for Linker name resolution.\n•\tGitHub Copilot code composition assistance\n•\tImplemented C++ and C Logic in PMIC Power Management, Watchdog feed, Temperature Sensor, Voltage Sensor Control, device monitor application Tasks development.\n•\tI2C SoC peripheral communication\n•\tOS resource utilization such as Mutex Thread via API\n•\tInterrupt and Exception Vector coding.\n•\tEHIL test to Requirement Mapping with JAMA\n•\tC and C++ 100% code coverage testing using Mocks and Fakes via gMock\n•\tCode Development via SSH tunnel with AWS hosted Linux VM\nCI build Flow using Bazel build rules in Starlark, for Clang & GCC compilers. Buids and tests execute in a Jira & buildkite managed embedded Linux build environment. GitHub Pull requests managed with Bonsai.\n•\t Remote GDB C++ debugging over ssh tunnel. \n•\tdecoupling of tasks from FreeRTOS\n•\tAll embedded Application code covered by automated CI tests for multiple targeted HW platforms\n•\tEach EHIL test built for running FreeRTOS, and WITTENSTEIN certified high integrity systems SafeRTOS \n•\tAutomated tests execute on emulated embedded targets within CI on buildkite",
+    "company": {
+     "url": "https://www.linkedin.com/company/105156561/",
+     "name": "Aurora Innovations",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Aurora Innovations",
+    "location": "Mountain View, California, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/105156561/",
+    "companyId": "105156561",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Greater St. Louis · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Bare-metal memory-mapped register, MMIO access abstraction and isolation, employed during OFP execution.\nDeveloped virtualized C++ satcom connection control.\nVirtualization of FPGA broadcast ethernet communication between redundant Vehicle Management System Computers, and Mission Management System Computer\nFPGA communication between Vehicle Management and Mission Management System Computers. FPGA Discrete Logic virtualized in C Lang. WireShark packet analysis of FPGA channel traffic. OFP flight Binary Reverse Engineering Analysis of binary’s interaction with RTOS via Ghidra.\nIncorporated Xilinx SYSMON as custom QEMU virtual device. Voltage monitoring, and Xilinx Sysmon Temperature monitoring\nQEMU Virtualization of NXP LS1088A SoC, TI EVMK2EX processor and peripheral hardware level Execution fault processing, and reporting.\nDeveloped Real-time C Application deployed within bootable image of Deos Safety Critical RTOS, and Boeing Linux Environment. hosted execution of VxWorks images.\nLinux KVM acceleration, for deterministic highly performant hardware virtualization for Execution of Flight Plan Binaries in Virtualized High Fidelity Digital Twin.\nAWS Cloud based Docker Containerized High Fidelity hardware virtualization, and locally hosted virtualized hardware staging of Iron Bird Simulation for QEMU Execution of Boeing AvionX Avionics Autonomous System Computer, and Boeing µACE Avionics System Computer, on Wisk eVTOL.\nCode development conducted within Amazon Workspaces Linux Environment. GitLab CI/CD bash and yaml Scripting. Authored Python automated coverage and unit tests.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1384/",
+     "name": "Boeing",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Boeing",
+    "location": "Greater St. Louis · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1384/",
+    "companyId": "1384",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_400_400/company-logo_400_400/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=k8JQRZ7njsUWCcnOD2k9_ifvKgpFaKpgNkFjoZykdHs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_200_200/company-logo_200_200/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=yQjz6riIczhzD8LJVIvYEu0cqRNtZckD66RaGbM6m6k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8NhuAoYdTgw/company-logo_100_100/company-logo_100_100/0/1708109812925/boeing_logo?e=1794441600&v=beta&t=ITmd9iNzm79yH0hgbKgjhjeyN5VOBMAhjW6jDVHjVDk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer IV",
+    "locationName": "Goleta, CA ",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Developed SOA based medical image processing & analysis device Application on x86 Ryzen main embedded processor\nControl Software for Endoscopy camera and light-source control device\nImage capture and video stream presentation\nRuntime adoption for streaming video codec \nSemantically Rich Pub/Sub Interface creation\nSwaggerHub API development for medical device onboard Service Oriented Architecture\nThrift IDL YAML\nService implementations in Rust\nComponent testing via Mocking, and Dependency Injection\nRestful service implementation\nPostman API testing\nDocker Compose\nKubernetes K3s lightweight orchestration in embedded system\nKeycloak Identity and Access Management\nMongoDB transactions\nLucidchart System Architecture Design Presentation\nMiro Board Workflow Mapping & Design\nDesign Control applying: CFR Part 820, ISO 13485, ISO 14971 and IEC 62366\nSAP + Docusign Document Management\nC++ Adapter Pattern implementations of abstractions for Application API connectors to services and business logic\nC++ Linux Device Driver development\nGTest Automation & code coverage analysis\nService Oriented Signal/Message Processing\nML Inference Engine employing and Trigger/Event Processing\nTechnical Debt Assessment & Mitigation, refactoring & redesign\nVideo Stream capture HW control\nVideo recording & presentation\nD-bus low latency connectivity for locally deployed services\nC++ Bitwise Accessors via I2C for Control Registers on Ethernet Switch chassis mezzanine card\n Congatec ARM based Embedded Hardware Module\nQT/QML implementation of multi-pane rendering for DICOM images, and video streams, along with Rendering of text and icons & widgets.\nCMake driven Linux component builds\nContainerized cross platform build & runtime\nRPM creation, and OSTree payload generation\nsystemd unit file creation\nbash startup & build scripts\nFedora CoreOS Ignition File Configuration",
+    "company": {
+     "url": "https://www.linkedin.com/company/14376/",
+     "name": "Karl Storz Imaging",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w"
+     }
+    },
+    "position": "Software Engineer IV",
+    "companyName": "Karl Storz Imaging",
+    "location": "Goleta, CA ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14376/",
+    "companyId": "14376",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_400_400/company-logo_400_400/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=KYmSCP-Qt_KsPZlG_FHakvdlGQyUAa2REgLBuhRVU3w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_200_200/company-logo_200_200/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=zGHknCZw7pINKSFs-LOIC5FMu7aq4yn5vzRDdJb4Yko",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHiVcf5owJ9iA/company-logo_100_100/company-logo_100_100/0/1729515908758/karl_storz_united_states_logo?e=1794441600&v=beta&t=lHVFnRHKc5VKVu5YUud1b4vncOHksGXIpL5wDRQyEUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Smart Edge Software Architect",
+    "locationName": "Akron, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "•Designer for NPI & POCs/Experimental Prototypes\n•Cloud to Edge Transition of control intelligence to mitigate latency\n•Migration of BAS Service to Edge\n•Deployed components implemented in C++20 , Rust, & Java\n•Sparkplug connectivity protobuf Payload exchange via MQTT\n•Consultant on:\nFast Response Time decarburization Net Zero attainment Action Planning Azure Service \nSustainable Energy Mgt as a Service\n•Designer on Platform team we delivered a Generalized Yocto Embedded Linux Platform BSP targeting NXP i.MX8 SoMs\n•Performed Testable Requirement Discovery\n•Specified Layer Stack\n•The Yocto Platform built upon Wind River Linux, Delivered:\nLTS Open Source Updates\nOS components & HW Testing Suite\nEnterprise wide CVE Mgt\n•Platform Provided Networking & Security Subsystems implemented in C,C++,Rust\nAll locally sourced code covered by Gtest, or Rust test Modules\n•Platform provided User Mode Dbus Interfaces: \nPeripheral HAL APIs \nSW-defined Networking API\nRoot FS isolation from Native Linux App\nAbstracted security/execution model App Interface\nDeveloped DRAM HW test Decoupled from u-boot\nDevice Tree Overlays\n•Spearheaded adoption Open Source OSTree/Aktualizr flash mgt for optimal utilization Efficiency,Fault Tolerance\n•Backed Edge Application migration to containerization, & utilizing containerd/Kubernetes Interface as App Update mechanism\n•Bitbake Integrated containerd runtime\n•Backed Platform to leverage App container isolation+Edge Svc partitioning\n•Ensured Platform infrastructure for: \nIntelligent Edge compute elements to Perform ML Analysis at Edge as Control System Input\nSegregated execution environment facilitating transitioning managed code Apps to Linux native\nEmbedded OS provided containerd resources execute migrated cloud Microservices;Supporting Edge Orchestration\n•Engineered PKI provisioning procedure for Edge Nodes\nEmbedding X.509 certs in Trusted Storage via HSM for CSR\n•Ensure NIST Security Std met\n•Served as Software coE Embedded SW Development SME",
+    "company": {
+     "url": "https://www.linkedin.com/company/2247/",
+     "name": "Johnson Controls",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols"
+     }
+    },
+    "position": "Smart Edge Software Architect",
+    "companyName": "Johnson Controls",
+    "location": "Akron, Ohio, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2247/",
+    "companyId": "2247",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_400_400/company-logo_400_400/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=HYqVGVyG1w17wkzpUaEBA4pxH07ft7YIZeioqnWwols",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_200_200/company-logo_200_200/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=-9p6d5nUmDlP1C0B6awUqgiMNhdQqTIQwJJ65PhhBqY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFLnizgdgpDFA/company-logo_100_100/company-logo_100_100/0/1728672007366/johnson_controls_logo?e=1794441600&v=beta&t=F05OpynGkSuAi7jWWsIQVEAsr0Ph1eNRlEzb7pDeJc4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Electronic-Electrical Engineer",
+    "locationName": "Broadview Heights, Ohio, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "•\tLed proof of concept to integrate Endoscopic optical system’s analog signal output as input into Win64 medical management system.\n•\tImplemented Micrium OS multi-MCU BSP customizations for utilizing the on-chip facilities of  peripheral I2C power monitoring IC.\n•\tConstructed code to maximize battery Life. Implemented using Modern C++ facilities, and idioms RAII, pImpl, CRTP etc.\n•\tDesigned and Developed Application & Control Architectural Layer modern C++ code as class C SW on ambulatory medical device. Engaged in team with C++20 mindset.\n•\tProvided Battery monitoring: characterization, and capacity predicting facilities\n•\tCode coverage and Unit Testing via Parasoft and Fakeit Mocking framework\n•\tPrior to HW availability vetted designs in Qt based simulation.\n•\tProductized Cloud based Service Oriented Architecture, for delivery as a Surgical Operating Room Management Medical Device Application.\n•\tDelivered 3rd party Edge based ML Software with cloud based digital twin deep learning models;\n•\tConstructed and Deployed Machine Learning AI Models via Docker Edge Container to NVDIA Intelligent Edge Computing GPU.\n•\tUtilized, .NET Azure, python, SQL Server and Ubuntu for recognition and Event generation.\nDeployed Human and situational model driven recognition, event initiation.\n•\tDelivered Product Software Cross Multi Domain Application Involving Electrical, Mechanical and Software Engineering.\n•\tCreated L2 and L3 product network designs\n•\tPerformed and coordinated Deep Learning model Construction; training, annotation, and classification for Medical perception Recognition models.\n•\tEngineered and compiled Product SRS requirements and design inputs and DHF, QMS documentation for adherence to IEC 62304 & ISO 13485.\n•\tVideo switching of MPEG-TS and DVB protocols \n•\tDeveloped Requirements, and Application SW Maintenance plan together with Risk-Management team.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/58271422/",
+     "name": "ZIMMER BIOMET SURGICAL",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo"
+     }
+    },
+    "position": "Senior Electronic-Electrical Engineer",
+    "companyName": "ZIMMER BIOMET SURGICAL",
+    "location": "Broadview Heights, Ohio, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/58271422/",
+    "companyId": "58271422",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_400_400/company-logo_400_400/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=F8Mjkq2TOogGlr9nGh1yXf_esddIEkanIpVfCcYa5Vo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_200_200/company-logo_200_200/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=23ku6Dmbkp6gkYskfnQ_LrG8atMQe3qWjlF7qaz3RYs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdSKzzsiQexA/company-logo_100_100/company-logo_100_100/0/1651079978626/zimmer_biomet_apex_surgical_llc_logo?e=1794441600&v=beta&t=6DfZV_11mhlngxGjOK_2K-YHJ8Xrn_S1uhY66uzTxDc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Advanced Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Designed detailed specifications for C++ Engineers to implement on memory constrained device\nAnalog and digital actuation control; RTD calibration & Sampling, within State Machine and Event Driven cyber-physical system designs. Specified Mixed-Criticality Scheduling of Sporadic Tasks\nFluid temperature, pressure, flow control and metrology. Developed Technique for determining relative non-RMA priorities of the system’s a-periodic threads: For specifying ThreadX concurrency in Renesas RTOS Configurator Cortex M microcontroller. IAR C++ build.\nEliminated dependencies in BSP agnostic abstraction library/HAL implementations in AUTOSAR C++; Boost Serialization & Multiprecision\nDesigned control workflows for endoscope disinfection electromechanical equipment; implemented on focused modern C++ team\nComposed SW Architecture specification for embedded system. Delivered all designs, implementations, and documentation within a regulatory compliant process adhering to IEC 62304 & ISO 13485.\nGathered Software requirements for medical device component based embedded systems and authored testable requirement specifications. Contributed to FDA 510(k) Clearance submissions.\nMentor Graphics Embedded Linux (MEL) HMI Yocto Build UDev:\nUnit Testing, and design validation via QEMU emulator.\nAuthored IIoT MQTT M2M JSON communication interface specification\nEdge pre-aggregation for enhanced telemetry bandwidth utilization\nDesigned architecture for daemon to publish CAN Bus Real-time Data to MQTT via ZMQ IPC & mosquittopp.\nDesigned Application level self-signed Cert X.509 M2M mutual authentication mechanism, C++ implementation",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ"
+     }
+    },
+    "position": "Advanced Software Engineer",
+    "companyName": "STERIS",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7851/",
+    "companyId": "7851",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=0aF4--X4HvMiLbZKzxF1HwJ4ksrfSebPv_e8PS0ZHVQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=FWu30I9GQuE_swQ6oACHmUppp_RcGDSDkek5iKoazJw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1794441600&v=beta&t=jP44n2YgfCNHkOSxgs_GcqVL6rQIR_6WmaAfhUnENY8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Designed validation heuristics for simulation and fault detection in distributed large-scale automation architecture.\nImplemented improvements in IIoT publish/subscribe Real-time subsystems. Delivered Detailed Designs for Functional Safety SIL Certification of ARM and x86 Multi-Core industrial controllers. Performed IEC 61508 regulatory compliance SW Risk Impact Analysis, Risk Mitigation Planning.\nApplied S.O.L.I.D. principles in refactoring and design pattern implementations.\nDeveloped in VxWorks for providing deterministic communications and I/O capability\nImplemented industrial Ethernet comms; SCADA, DNP3 Modbus CIP, IIoT protocol designs in C++\nEnhanced controller fault tolerant redundancy designs, and multithreaded concurrent asynchronous event handling. Execution Performance Tuning.\nEnsured Compliance with MISRA C++ Coding Standards; violation triage; recommended course of resolving, Code Quality Statistical Analysis \nDelivered Board Support Packages (BSP) images for hybrid Windows 10 IoT OS, integrating to Azure gateway alongside real-time cores, parallel algorithm execution providing redundant fallback.\nParticipated in DevSecOps process delivering bi-directional traceability of SW development workflow for affirming adherence to safety and cybersecurity regulatory standards.\nComposed Multi-OS Industrial Computer firmware binaries for atomic OS image updates.\nDesigned and manipulated injection packets to assess vulnerability exposure in safety critical IIoT connectivity, Performed C++ and PEP8 Python Code reviews (existing code + peer review).\nUtilizing C++11 & C++14 incorporated Modern C++ style, and constructs to enhance maintainability and clarity.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2498/",
+     "name": "Rockwell Automation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw"
+     }
+    },
+    "position": "Senior Embedded Software Engineer",
+    "companyName": "Rockwell Automation",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2498/",
+    "companyId": "2498",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_400_400/company-logo_400_400/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=DWlRqz5y9FP7MG_v2CsZRggOr9qNZaBGXEO6WglfkSw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_200_200/company-logo_200_200/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=Fpxjt8nEKZ1a6VI1JGfJ7e_f1qJTgdiUmo5oSBo9J2s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRXUKwML_TTQ/company-logo_100_100/company-logo_100_100/0/1655148418582/rockwell_automation_logo?e=1794441600&v=beta&t=jMay6M27goo2ViDLeaJLw5Nuz08tp6zExQnJ0p7Nmsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "•\tDeveloped Management, and Control Agents for Enterprise and industrial Rugged Mobile Devices on Windows Embedded/CE, Android, Embedded Linux, Windows Mobile/Phone, PC/Win32; along with their Human Machine Interfaces (HMI).  Served as Agile Scrum Master.\n•\tLed development of Data Collection Engines that acquire via heterogeneous metric sampling plugins deployed on demand, and that aggregate sample data for transmission to data analysis gateways. Provided configurable environmental metric sampling plugins. Delivered telemetry, and performed location aware device actions.\n•\tLed design and C++ development of autonomous environment sensing actionable event agents that use a plugin architecture to employ heuristic algorithm plugins for forming a device’s perception of its local environmental conditions, informing action behavior.\n•\tDelivered Secured facility for performing over-the-air (OTA) Operating System image/loader updates.\n•\tPerformed event timing analysis, and Security vulnerability analysis, and Static code analysis yielding semantically consistent designs, and Windows embedded/QNX implementations.\n•\tParticipated in rigorous Secure SDLC processes, enabling team to incorporate support for security intrinsically in the Software Architecture; contributed to Agile sprints, yielding a continuous production quality delivery pipeline to validation team.\n•\tExecuted resilient connectivity over Cellular, WLAN, Bluetooth; employed both RESTful APIs for cloud endpoint communication, and traditional socket based communication.\n•\tImplemented HMAC Layer 7 message token authentication subsystem for C++ mobile remote agents.\n•\tDeveloped C++ PBE encryption mechanism to integrate a user secret during component deployment.\n•\tUtilized embedded Open Source components such as Curl, OpenSSL; and OSS management.\n•\tSpearheaded optimizations and consolidation resulting in a 30% code footprint reduction; optimized C++ code sections to reduce overall energy consumption.\n",
+    "company": {
+     "url": "",
+     "name": "VMware",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "VMware",
+    "location": "Cleveland/Akron, Ohio Area",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2013
+    },
+    "endDate": {
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "•\tLed development of Windows Embedded Device Management Agent; achieved Agent functionality customization, and extensibility through deploying stock plugins, and user developed plugins.\n•\tProvided Device Power Management and Monitoring along with managing Smart Batteries.\n•\tImplemented and furnished configuration/management facilities for 802.11, GSM/GPRS, LTE Mobile Device Communication stacks; provided encryption, authentication, and certification of management facilities.\n•\tDeveloped Mobile Device Management (MDM) Agents for Windows embedded, Android, Linux; incorporated remote control capability into MDM Agents.\n•\tEmployed JNI on Android to achieve C++ code base multi-platform availability and independence; utilized invariant contracts in C++ interfaces.\n•\tAbstracted binary components for hardware independence in varied platform Board Support Packages. Ensured all components adhered to klocwork analysis.\n•\tApplied Schematics and CPLD mapping in debugging and BSP engineering. Accomplished Test Point verification on preliminary and production PCBs using WinDbg and gdb.\n•\tEngineered medical (HIPAA), and FIPS privacy regulatory compliance, and hardening requirement Solutions by applying mechanisms such as encryption and TLS.\n•\tAuthored Python, bat, and shell, tool chain scripts for build and testing automation scripting. Complied with Microsoft hopper stress testing tool suite for mobile embedded devices.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg"
+     }
+    },
+    "position": "Senior Engineer",
+    "companyName": "Motorola",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "6 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=7em1nIU1iYkvshbmDeiycxUkD394hjkcW1jUUFqI8j8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1794441600&v=beta&t=5DXvRjisvE5gnGFE_KnZKEMHDFeejZxwKuz_00XxhlY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1794441600&v=beta&t=zcTUkdpevljnJ-Sh8DwBVGp0oNdcnzPWjpTj6HBBiMg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Software Engineer",
+    "locationName": "Cleveland/Akron, Ohio Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2000
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "•\tDeveloped and distributed board support packages (BSPs) for Windows CE/Embedded ARM application-ready Single Board Computers; utilized C, ARM Assembler, and Windows Embedded Platform Builder, and JTAG Debugging in BSP development.\n•\tDesigned and developed Interrupt, GPIO, timer handlers and on-chip peripheral access encapsulations. Hardware interrupt runtime registration facilities. Provided 3rd party driver integration/customization utilities.\n•\tCustomized and applied Device Drivers for Touch Screen, Power Management, USB host, and client drivers; along with I/O verification via oscilloscope.\n•\tFulfilled Win32 functionality requirements in Windows CE kernel and HAL/OAL APIs.\n•\tImplemented Java Knowledge Based Weka Machine Learning Classifiers.\n•\tDeveloped Application Layer Gateway Proxy, malicious TCP traffic barrier, using .NET Remoting VB RS232; C# extensions of .NET communication channel classes.\n•\tDeveloped x86 Windows kernel communication device drivers.\n\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/22237/",
+     "name": "Applied Data Systems Windows CE Technical Group",
+     "logo": {}
+    },
+    "position": "System Software Engineer",
+    "companyName": "Applied Data Systems Windows CE Technical Group",
+    "location": "Cleveland/Akron, Ohio Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/22237/",
+    "companyId": "22237",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2000
+    },
+    "endDate": {
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Diebold Self Service Products",
+     "url": "https://www.linkedin.com/company/4458/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg"
+     }
+    },
+    "totalDuration": "7 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Senior Electromechanical Research Engineer",
+      "locationName": "Cleveland/Akron, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1996
+       },
+       "endDate": {
+        "year": 1999
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "•\tLed embedded software team in developing the UML Model-Based architecture, and embedded Bare Metal C++ implementation of Safety Critical Real-Time control software for mechatronic currency transporting ATM devices.\n•\tOur interdisciplinary team delivered mechatronic modules from concept to production ahead of schedule.\n•\tProvided software requirements for MCU and PCB components to hardware engineering.\n•\tEnsured the resolution of all software technical issues with electrical, and mechanical hardware engineering teams.\n•\tDesigned and implemented robust Communication Drivers and encryption subsystem, on Motorola 68K /CPU32, in C and Motorola 68K Assembler.\n•\tDesigned and developed portable preemptive Multitasking microcontroller Kernel for executing multithreaded designs on embedded modules deployed in Bare Metal applications without available sourced RTOS.\n•\tUtilized VxWorks in multi-module control.\n•\tImplemented over the network module firmware update facility.\n•\tUtilized heuristics for thermal state and available stored energy to manage motors and solenoids for fault tolerance and recovery, and for performance.\n•\tUtilized: NV memory, DAC, ADC, motors, sensors, and drivers for SPI and PWM.\n•\tImplemented Command protocol encryption, and key synchronization.\n•\tDesigned Frameworks for Transactions/Commands, and for acquiring sensors, and actuating motors and solenoids.\n•\tDeveloped control software for electromechanical devices to handle and transport currency notes of value.\n•\tDeveloped Serial Communication with onboard and peripheral components, and CPU exception /interrupt handling. Utilized BDM interface for Debugging.\n•\tDeveloped module software Test Plan with QA verification engineering team.\n",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Canton, Ohio Area",
+      "timePeriod": {
+       "startDate": {
+        "year": 1992
+       },
+       "endDate": {
+        "year": 1996
+       }
+      },
+      "totalDuration": "4 yrs",
+      "description": "•\tLed development of communication and translation software interfaces to 3rd party physical security monitoring systems.\n•\tLed architecture and development of real-time UI for 7x24 security monitoring system, for critical event annunciation and hot device status UI updates, and operator actions synchronized on client/server multiple workstations.\n•\tProvided Safety Critical remote sensor monitoring, and Emergency response control systems, as well as highly responsive Premise Monitoring /Control servers and GUI’s.\n•\tDeveloped and maintained multi-platform libraries for synchronization, tasking, IPC, I/O, and Memory management and leak detection.\n•\tLed design and implementation of Secure Distributed SQL database RAM caching service with prioritized propagation, providing a memory mapped RDBMS adapter for disparate node entities.\n•\tPorted premise security and access control transaction processing applications to Win32.\n•\tImplemented Multi-Protocol Message Routing service.\n•\tImplemented Exception/error capture and reporting; Stack unwinding for exception examination, diagnostics, and code instrumentation.\n•\tDesigned and implemented Multi-platform libraries for tasking and synchronization, I/O, and IPC.\n•\tDesigned and implemented Physical Security simulators.\n•\tDeveloped Windows kernel communication device driver deployed to nodes with coprocessor. Utilized X86 Assembler and WinDbg for development.\n•\tRendered graphical representation of remote alarms in floor plan context.\n•\tAssembled and Established team C++ Coding standards, and Defect Detection Guidelines.\n•\tDeveloped event annunciation pipelines using Java RMI, and resilient UDP streaming, and Exception reporting via SMTP, and Telephony.\n•\tPerformed Ethernet frame and IP packet, analysis/sniffing; raw C socket and WinSock Development.\n•\tExtensively used Win32 API, as well as Services and service control management.\n•\tAuthored Documentation for user applications, programming interfaces, and communication protocols.\n",
+      "insights": ""
+     }
+    ],
+    "companyName": "Diebold Self Service Products",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4458/",
+    "companyId": "4458",
+    "duration": "7 yrs 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_400_400/company-logo_400_400/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=wo7maj6s74JEy-5QlXqbHoPAiB0x4kLhARF4btPJjhg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_200_200/company-logo_200_200/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=R4sFBwqp9gPjh1zySUVaPJQYSDrFxIIusfgACc11c3A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEusIoAmZqYhg/company-logo_100_100/company-logo_100_100/0/1630557068049/diebold_logo?e=1794441600&v=beta&t=LU2C_xx9Ga_SuABsINCUxRRK3eLqlbVCVeqLXwX25q0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Detroit",
+    "degreeName": "Bachelor of Engineering - BE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {},
+    "degree": "Bachelor of Engineering - BE",
+    "skills": []
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Detroit",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "degree": "Bachelor of Science - BS",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Detroit",
+    "degreeName": "Bachelor of Engineering - BE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {},
+    "degree": "Bachelor of Engineering - BE",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "First Place Team  Mobile Autonomous Robotics Competition",
+    "description": "Our team developed custom software and hardware for the CS school Mobile Autonomous robotics competition. The firefighting robot received the first place award in the competition.",
+    "issueDate": {},
+    "issuer": "Issued by University of Akron School of Computer Science · May 2005"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/robert-g-miller"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T01:11:48.515Z",
+ "foundBy": null
+}

@@ -1,0 +1,1363 @@
+{
+ "slug": "hy-nguyen",
+ "inputUrl": "https://www.linkedin.com/in/hy-nguyen",
+ "fetchedAt": "2026-11-09T20:37:45.367Z",
+ "id": "6af22f19af440f0df0ab815d",
+ "url": "https://www.linkedin.com/in/hy-nguyen",
+ "profile": {
+  "created": 1509821418847,
+  "trackingId": "QkM/C3XzTAKu+Bht7cp8VQ==",
+  "firstName": "Hy",
+  "lastName": "Nguyen",
+  "pronoun": null,
+  "versionTag": "3646968770",
+  "headline": "Software Engineer @ Rubrik",
+  "publicIdentifier": "hy-nguyen",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "616020174",
+  "profileId": "ACoAACS3uM4BOjMcT64POYl5u3oHs2W2q29r14Y",
+  "pictureUrl": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_200_200/B56aGAQ6QUJYAc-/0/1793153279698?e=1795651200&v=beta&t=fw1FKHtDfavxxTMB548pun2MlogGf3NLYaQKKiuMYFQ",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_100_100/B56aGAQ6QUJYAY-/0/1793153279698?e=1795651200&v=beta&t=JxX0SH75H0zE64YMwgGfBc9jfDuF7gLm_smcSA06yno",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_400_400/B56aGAQ6QUJYAg-/0/1793153279698?e=1795651200&v=beta&t=GIzUv3E6JHXUw5v6LVxA2VHGctejcVRFPIP7Vg3WAlk"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1664847144071?e=1795651200&v=beta&t=y0iMFvPeoTS-94dsl9vWE8FeirjrT2BHLTzWSYP2Vck",
+   "1292x323": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664847144072?e=1795651200&v=beta&t=m7TdjZ2RGZRMlwzgiGzJ0wuZGPQHj1Yoi2sGvMeZDQc"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102277331",
+  "geoLocationName": "San Francisco, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I am a software engineer on the Events team at Rubrik, working on event pipelines, job monitoring and notifications. I enjoy distributed systems and obsess over the customer experience.\n\nEmail: hynguyenrebels@gmail.com",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "• Hotfixed a database cleanup job issuing about 4 billion queries per hour across production by batching its probes and adding a per-cluster setting to slow or disable it, halving total query volume on the busiest deployments\n• Designed and built a notification suppression engine end to end. In security design review, weighed six access control options and chose explicit object scope checked at rule creation. Customers see exactly which objects a rule filters on, and its behavior no longer changes when the creator's permissions do. This reduces confusion, product education and support escalations\n• Built a generic Go star-schema DAO framework for event data (type-safe columns, filtering, sorting, cursor pagination) and moved event series onto it; after its code-generated successor went live, root-caused and fixed the deadlocks and duplicate-key failures it hit in production\n• Fixed the root cause of a recurring time sink: stale ``In Progress'' replication events had to be root-caused and cancelled one at a time by an engineer with a manual script. Traced it to a one-shot, no-retry push between clusters (7 linked duplicate customer tickets in 6 weeks) and landed fixes in both the CDM (Scala) and RSC (Go) codebases, so the source cluster now pulls the outcome from the target and RSC's cleanup job no longer gets stuck behind old entries\n• Challenged a cross-team proposal to split the event-service proto to speed up Bazel builds by measuring what actually changes: enum additions were the most common change, and about 92 of 96 consuming packages would still rebuild after the split. The proposing team re-measured, agreed, and changed their first step",
+    "insights": "MySQL, gRPC and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Created the first user-facing report to utilize a new reporting framework that streamlined the creation of additional reports using a shared data access layer. In addition, this framework added an additional table layer to reports allowing customization of columns and group bys.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Improved Quizlet’s web UI to drive subscriptions revenue and reduce payment disputes using React, TypeScript, and PHP",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/807920/",
+     "name": "Quizlet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg"
+     }
+    }
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Minneapolis, Minnesota, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Mitigated credit/debit card cybersecurity risk by reviewing and implementing the appropriate controls and requirements",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1235/",
+     "name": "Wells Fargo",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc"
+     }
+    }
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Developed a JavaScript web application to aggregate data for bond traders reducing transaction time by 40% leading to an increase in number of transactions and revenue\n• Leveraged PyAutoGUI to screen scrape Bloomberg Terminal eliminating six hours of weekly work",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/165477/",
+     "name": "Piper Jaffray",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_100_100/B4EaDp_GoxG0AI-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=3Xvo2lJSnj-2mded4b9Dqy1BEBh6GsT4BnK_uL5x7L8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_200_200/B4EaDp_GoxG0AE-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=_Yl7c97UNtRx_pWGdLaG2OHGz3iJ_ymaYfVE7a-v-3M"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3181/",
+    "schoolName": "University of Minnesota",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [
+   {
+    "name": "Advanced Programming Principles"
+   },
+   {
+    "name": "Algorithms and Data Structures"
+   }
+  ],
+  "honors": [
+   {
+    "title": "SIG February Coding Challenge Winner",
+    "description": "1st place out of 230 participants in algorithms coding challenge\nhttps://careers.sig.com/job/5315/February-Coding-Challenge-Campus-Programs",
+    "issueDate": {},
+    "issuer": "Issued by Susquehanna International Group (SIG) · Mar 2021"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Python IDE Web Application",
+    "description": "Created a Python Integrated Development Environment capable of editing and running code on a web browser. Utilized Express.js framework and CodeMirror API for syntax highlighting and intelligent code completion. Deployed application using AWS EC2 and NGINX for load balancing.",
+    "dateRange": {},
+    "associatedWith": "Dec 2020 - May 2021"
+   },
+   {
+    "title": "Algorithms Tracer Web Application",
+    "description": "Allows users to trace the execution of popular/interesting algorithms (e.g. Two Pointer approach for the Two Sum problem) on entered input. Provides a step-by-step visual representation of the execution of an algorithm.",
+    "dateRange": {},
+    "associatedWith": "Feb 2021 - Apr 2021"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Rubrik",
+  "companyPublicId": "rubrik-inc",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/rubrik-inc/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:4840301",
+   "name": "Rubrik",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHRX1_hJMDh_Q",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "expiresAt": 1795651200000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "expiresAt": 1795651200000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_"
+    }
+   },
+   "universalName": "rubrik-inc",
+   "url": "https://www.linkedin.com/company/rubrik-inc/",
+   "slug": "rubrik-inc",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+   "specialties": []
+  },
+  "followerCount": 1438,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1442,
+  "skills": [
+   {
+    "name": "Bazel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Writing",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bazel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Writing",
+    "endorsements": 4,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/hy-nguyen",
+  "linkedinUrl": "https://www.linkedin.com/in/hy-nguyen",
+  "profileUrl": "https://www.linkedin.com/in/hy-nguyen",
+  "verified": true,
+  "registeredAt": "2017-11-04T18:50:18.847Z",
+  "location": {
+   "linkedinText": "San Francisco, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I am a software engineer on the Events team at Rubrik, working on event pipelines, job monitoring and notifications. I enjoy distributed systems and obsess over the customer experience.\n\nEmail: hynguyenrebels@gmail.com",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer Intern",
+   "Software Engineer Intern",
+   "Technology Intern",
+   "Technology Intern"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "• Hotfixed a database cleanup job issuing about 4 billion queries per hour across production by batching its probes and adding a per-cluster setting to slow or disable it, halving total query volume on the busiest deployments\n• Designed and built a notification suppression engine end to end. In security design review, weighed six access control options and chose explicit object scope checked at rule creation. Customers see exactly which objects a rule filters on, and its behavior no longer changes when the creator's permissions do. This reduces confusion, product education and support escalations\n• Built a generic Go star-schema DAO framework for event data (type-safe columns, filtering, sorting, cursor pagination) and moved event series onto it; after its code-generated successor went live, root-caused and fixed the deadlocks and duplicate-key failures it hit in production\n• Fixed the root cause of a recurring time sink: stale ``In Progress'' replication events had to be root-caused and cancelled one at a time by an engineer with a manual script. Traced it to a one-shot, no-retry push between clusters (7 linked duplicate customer tickets in 6 weeks) and landed fixes in both the CDM (Scala) and RSC (Go) codebases, so the source cluster now pulls the outcome from the target and RSC's cleanup job no longer gets stuck behind old entries\n• Challenged a cross-team proposal to split the event-service proto to speed up Bazel builds by measuring what actually changes: enum additions were the most common change, and about 92 of 96 consuming packages would still rebuild after the split. The proposing team re-measured, agreed, and changed their first step",
+    "insights": "MySQL, gRPC and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Rubrik, Inc.",
+    "location": "Palo Alto, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4840301/",
+    "companyId": "4840301",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Created the first user-facing report to utilize a new reporting framework that streamlined the creation of additional reports using a shared data access layer. In addition, this framework added an additional table layer to reports allowing customization of columns and group bys.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Rubrik, Inc.",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4840301/",
+    "companyId": "4840301",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Improved Quizlet’s web UI to drive subscriptions revenue and reduce payment disputes using React, TypeScript, and PHP",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/807920/",
+     "name": "Quizlet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Quizlet",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/807920/",
+    "companyId": "807920",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Minneapolis, Minnesota, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Mitigated credit/debit card cybersecurity risk by reviewing and implementing the appropriate controls and requirements",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1235/",
+     "name": "Wells Fargo",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc"
+     }
+    },
+    "position": "Technology Intern",
+    "companyName": "Wells Fargo",
+    "location": "Minneapolis, Minnesota, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1235/",
+    "companyId": "1235",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Developed a JavaScript web application to aggregate data for bond traders reducing transaction time by 40% leading to an increase in number of transactions and revenue\n• Leveraged PyAutoGUI to screen scrape Bloomberg Terminal eliminating six hours of weekly work",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/165477/",
+     "name": "Piper Jaffray",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc"
+     }
+    },
+    "position": "Technology Intern",
+    "companyName": "Piper Jaffray",
+    "location": "Greater Minneapolis-St. Paul Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165477/",
+    "companyId": "165477",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "4840301",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/rubrik-inc/",
+    "companyName": "Rubrik",
+    "companyLogo": {
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "vectorImage": {
+      "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHRX1_hJMDh_Q",
+      "attribution": null,
+      "c2paManifestData": null,
+      "artifacts": [
+       {
+        "width": 400,
+        "fileIdentifyingUrlPathSegment": "400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+        "expiresAt": 1795651200000,
+        "height": 400
+       },
+       {
+        "width": 200,
+        "fileIdentifyingUrlPathSegment": "200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+        "expiresAt": 1795651200000,
+        "height": 200
+       },
+       {
+        "width": 100,
+        "fileIdentifyingUrlPathSegment": "100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+        "expiresAt": 1795651200000,
+        "height": 100
+       }
+      ],
+      "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_"
+     },
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400,
+       "expiresAt": 1795651200000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200,
+       "expiresAt": 1795651200000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100,
+       "expiresAt": 1795651200000
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "4840301",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4840301/",
+    "companyName": "Rubrik, Inc.",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Palo Alto, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "• Hotfixed a database cleanup job issuing about 4 billion queries per hour across production by batching its probes and adding a per-cluster setting to slow or disable it, halving total query volume on the busiest deployments\n• Designed and built a notification suppression engine end to end. In security design review, weighed six access control options and chose explicit object scope checked at rule creation. Customers see exactly which objects a rule filters on, and its behavior no longer changes when the creator's permissions do. This reduces confusion, product education and support escalations\n• Built a generic Go star-schema DAO framework for event data (type-safe columns, filtering, sorting, cursor pagination) and moved event series onto it; after its code-generated successor went live, root-caused and fixed the deadlocks and duplicate-key failures it hit in production\n• Fixed the root cause of a recurring time sink: stale ``In Progress'' replication events had to be root-caused and cancelled one at a time by an engineer with a manual script. Traced it to a one-shot, no-retry push between clusters (7 linked duplicate customer tickets in 6 weeks) and landed fixes in both the CDM (Scala) and RSC (Go) codebases, so the source cluster now pulls the outcome from the target and RSC's cleanup job no longer gets stuck behind old entries\n• Challenged a cross-team proposal to split the event-service proto to speed up Bazel builds by measuring what actually changes: enum additions were the most common change, and about 92 of 96 consuming packages would still rebuild after the split. The proposing team re-measured, agreed, and changed their first step",
+    "insights": "MySQL, gRPC and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Rubrik, Inc.",
+    "location": "Palo Alto, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4840301/",
+    "companyId": "4840301",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Created the first user-facing report to utilize a new reporting framework that streamlined the creation of additional reports using a shared data access layer. In addition, this framework added an additional table layer to reports allowing customization of columns and group bys.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4840301/",
+     "name": "Rubrik, Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Rubrik, Inc.",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4840301/",
+    "companyId": "4840301",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_400_400/B56aAnG3nhG4AY-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=a5TuXl3Ibhb7HSpzo1iJxUNjyV1LA4SL0R_92YQYBik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_200_200/B56aAnG3nhG4AI-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=8ADUduXC-3-iaOL8ei9sxPSJY-bXaygtUDdfiZj7wP0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHRX1_hJMDh_Q/company-logo_100_100/B56aAnG3nhG4AM-/0/1787362507477/rubrik_inc_logo?e=1795651200&v=beta&t=zVoE2VTNSzThTYQMKbxjF9r0lmuWT827t-oH4z4-IFk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Improved Quizlet’s web UI to drive subscriptions revenue and reduce payment disputes using React, TypeScript, and PHP",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/807920/",
+     "name": "Quizlet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Quizlet",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/807920/",
+    "companyId": "807920",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_400_400/company-logo_400_400/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=3cqOpaeng5kuKGl03mKi8jL_EdK8bljdPqh43OyK7Lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_200_200/company-logo_200_200/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=ML7-bapYzHIytj_MGxqZgJpnxRD1zwI4cz2IxQUwN-I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFhQT2B6ox7UA/company-logo_100_100/company-logo_100_100/0/1719849542110/quizlet_logo?e=1795651200&v=beta&t=p4k3N7uOxeqzOuseHL-m_VOHWHmZ380m-0ynqzW-YQc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Minneapolis, Minnesota, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Mitigated credit/debit card cybersecurity risk by reviewing and implementing the appropriate controls and requirements",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1235/",
+     "name": "Wells Fargo",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc"
+     }
+    },
+    "position": "Technology Intern",
+    "companyName": "Wells Fargo",
+    "location": "Minneapolis, Minnesota, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1235/",
+    "companyId": "1235",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_400_400/company-logo_400_400/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=mo66NbLS9BYJ04LywroED2g059v4Kp5PuwnigcsWvYc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_200_200/company-logo_200_200/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=0-dPN_miWH8ctOVKvGMIppVy_fzavTj3c1YAcyzFTcU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGLxWPpGqaVmw/company-logo_100_100/company-logo_100_100/0/1630471638964/wellsfargo_logo?e=1795651200&v=beta&t=1bPXurpM0GQPf2jxWY7HuPpqMKzWIf_mpOdW_0BGYZo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Intern",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Developed a JavaScript web application to aggregate data for bond traders reducing transaction time by 40% leading to an increase in number of transactions and revenue\n• Leveraged PyAutoGUI to screen scrape Bloomberg Terminal eliminating six hours of weekly work",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/165477/",
+     "name": "Piper Jaffray",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc"
+     }
+    },
+    "position": "Technology Intern",
+    "companyName": "Piper Jaffray",
+    "location": "Greater Minneapolis-St. Paul Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165477/",
+    "companyId": "165477",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_400_400/company-logo_400_400/0/1631327084467?e=1795651200&v=beta&t=b3gRiOeMK82CsMbwhLBh6aVWospeJNJhyM2Syjwycvc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_200_200/company-logo_200_200/0/1631327084467?e=1795651200&v=beta&t=AKosUAnuGf5tjHZ8SQMBUbmZKy9ZRpVw1HDm3RcZyCg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE5trGu3aZezg/company-logo_100_100/company-logo_100_100/0/1631327084467?e=1795651200&v=beta&t=rI2FsRuJ-ci3sQAGjEGqa1PyRXh_9B_gGvsHUIYzFJU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_100_100/B4EaDp_GoxG0AI-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=3Xvo2lJSnj-2mded4b9Dqy1BEBh6GsT4BnK_uL5x7L8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_200_200/B4EaDp_GoxG0AE-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=_Yl7c97UNtRx_pWGdLaG2OHGz3iJ_ymaYfVE7a-v-3M",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_200_200/B4EaDp_GoxG0AE-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=_Yl7c97UNtRx_pWGdLaG2OHGz3iJ_ymaYfVE7a-v-3M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_100_100/B4EaDp_GoxG0AI-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=3Xvo2lJSnj-2mded4b9Dqy1BEBh6GsT4BnK_uL5x7L8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3181/",
+    "schoolName": "University of Minnesota",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3181/",
+    "schoolId": "3181",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_100_100/B4EaDp_GoxG0AI-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=3Xvo2lJSnj-2mded4b9Dqy1BEBh6GsT4BnK_uL5x7L8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_200_200/B4EaDp_GoxG0AE-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=_Yl7c97UNtRx_pWGdLaG2OHGz3iJ_ymaYfVE7a-v-3M",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_400_400/B4EaDp_GoxG0AU-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=nHOlSZ462tcdLOaaoeVcb38LUoqSux0dn54FGbMZxRM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_200_200/B4EaDp_GoxG0AE-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=_Yl7c97UNtRx_pWGdLaG2OHGz3iJ_ymaYfVE7a-v-3M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF094U-zoSyGw/company-logo_100_100/B4EaDp_GoxG0AI-/0/1790632028971/university_of_minnesota_logo?e=1795651200&v=beta&t=3Xvo2lJSnj-2mded4b9Dqy1BEBh6GsT4BnK_uL5x7L8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3181/",
+    "schoolName": "University of Minnesota",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3181/",
+    "schoolId": "3181",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "SIG February Coding Challenge Winner",
+    "description": "1st place out of 230 participants in algorithms coding challenge\nhttps://careers.sig.com/job/5315/February-Coding-Challenge-Campus-Programs",
+    "issueDate": {},
+    "issuer": "Issued by Susquehanna International Group (SIG) · Mar 2021"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_200_200/B56aGAQ6QUJYAc-/0/1793153279698?e=1795651200&v=beta&t=fw1FKHtDfavxxTMB548pun2MlogGf3NLYaQKKiuMYFQ",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_100_100/B56aGAQ6QUJYAY-/0/1793153279698?e=1795651200&v=beta&t=JxX0SH75H0zE64YMwgGfBc9jfDuF7gLm_smcSA06yno",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_400_400/B56aGAQ6QUJYAg-/0/1793153279698?e=1795651200&v=beta&t=GIzUv3E6JHXUw5v6LVxA2VHGctejcVRFPIP7Vg3WAlk",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_400_400/B56aGAQ6QUJYAg-/0/1793153279698?e=1795651200&v=beta&t=GIzUv3E6JHXUw5v6LVxA2VHGctejcVRFPIP7Vg3WAlk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_200_200/B56aGAQ6QUJYAc-/0/1793153279698?e=1795651200&v=beta&t=fw1FKHtDfavxxTMB548pun2MlogGf3NLYaQKKiuMYFQ",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_100_100/B56aGAQ6QUJYAY-/0/1793153279698?e=1795651200&v=beta&t=JxX0SH75H0zE64YMwgGfBc9jfDuF7gLm_smcSA06yno",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_200_200/B56aGAQ6QUJYAc-/0/1793153279698?e=1795651200&v=beta&t=fw1FKHtDfavxxTMB548pun2MlogGf3NLYaQKKiuMYFQ",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_100_100/B56aGAQ6QUJYAY-/0/1793153279698?e=1795651200&v=beta&t=JxX0SH75H0zE64YMwgGfBc9jfDuF7gLm_smcSA06yno",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_400_400/B56aGAQ6QUJYAg-/0/1793153279698?e=1795651200&v=beta&t=GIzUv3E6JHXUw5v6LVxA2VHGctejcVRFPIP7Vg3WAlk",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-crop_800_800/B56aGAQ6QUJYAI-/0/1793153279698?e=1795651200&v=beta&t=amp979TK6XajS6D600ARZTeExkXL2bYojHdnhJWacEg",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_400_400/B56aGAQ6QUJYAg-/0/1793153279698?e=1795651200&v=beta&t=GIzUv3E6JHXUw5v6LVxA2VHGctejcVRFPIP7Vg3WAlk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_200_200/B56aGAQ6QUJYAc-/0/1793153279698?e=1795651200&v=beta&t=fw1FKHtDfavxxTMB548pun2MlogGf3NLYaQKKiuMYFQ",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFf7kHR-amb3w/profile-displayphoto-scale_100_100/B56aGAQ6QUJYAY-/0/1793153279698?e=1795651200&v=beta&t=JxX0SH75H0zE64YMwgGfBc9jfDuF7gLm_smcSA06yno",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1664847144071?e=1795651200&v=beta&t=y0iMFvPeoTS-94dsl9vWE8FeirjrT2BHLTzWSYP2Vck",
+   "1292x323": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664847144072?e=1795651200&v=beta&t=m7TdjZ2RGZRMlwzgiGzJ0wuZGPQHj1Yoi2sGvMeZDQc",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664847144072?e=1795651200&v=beta&t=m7TdjZ2RGZRMlwzgiGzJ0wuZGPQHj1Yoi2sGvMeZDQc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1664847144072?e=1795651200&v=beta&t=m7TdjZ2RGZRMlwzgiGzJ0wuZGPQHj1Yoi2sGvMeZDQc",
+     "width": 1292,
+     "height": 323
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQGBzgL5nUaAKw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1664847144071?e=1795651200&v=beta&t=y0iMFvPeoTS-94dsl9vWE8FeirjrT2BHLTzWSYP2Vck",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/hy-nguyen"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T20:37:35.197Z",
+ "foundBy": null
+}

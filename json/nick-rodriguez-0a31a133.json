@@ -1,0 +1,1432 @@
+{
+ "slug": "nick-rodriguez-0a31a133",
+ "inputUrl": "https://www.linkedin.com/in/nick-rodriguez-0a31a133",
+ "fetchedAt": "2026-10-22T03:33:19.839Z",
+ "id": "6ad983ffd820dfb707d0affc",
+ "url": "https://www.linkedin.com/in/nick-rodriguez-0a31a133",
+ "profile": {
+  "created": 1304599591850,
+  "trackingId": "TzL0VoaHSdC5k2sOcam72w==",
+  "firstName": "Nick",
+  "lastName": "Rodriguez",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "1454419762",
+  "headline": "Founding Engineer | Full-Stack TypeScript & Python | React, React Native, Next.js, Node, Postgres | AI Integration | 5+ yrs solo-shipping production systems",
+  "publicIdentifier": "nick-rodriguez-0a31a133",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "116911419",
+  "profileId": "ACoAAAb37TsBXHTNmdVt_RXI01TILoNCVn9Sho0",
+  "pictureUrl": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_400_400/B56Z5xB.ohGgAg-/0/1780012806304?e=1794441600&v=beta&t=4V2tO5myGIEeRqAFnc0kWw0ngFO51v_X1sh-RQ4wEhM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_200_200/B56Z5xB.ohGgAc-/0/1780012806305?e=1794441600&v=beta&t=pvBKoiJj2blskqiSPoxHws_tXWR3Cy9or-kfEgAbHTo",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_100_100/B56Z5xB.ohGgAY-/0/1780012806305?e=1794441600&v=beta&t=ZuoQGF6qAjbagL1Otbxfj29u9tVH0w7RzOfLQ6NBeLE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_200_800/B56Z9Cdl.XG4AU-/0/1783526483037?e=1794441600&v=beta&t=RwnTzyAC_5fMI_OUEjvGNrKd2V09fmb-9kJkncjTA4Q",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_350_1400/B56Z9Cdl.XG4AY-/0/1783526483038?e=1794441600&v=beta&t=hnZZF9pCCGgBE33q4JBm-3DfStmAFjQZOx-IXZMEoMQ"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102277331",
+  "geoLocationName": "San Francisco, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I'm a problem solver who builds software end-to-end.\nFor the last 5 years I've shipped production systems independently, most recently News Nexus, a 5-service platform delivering weekly news-clip reports under a US federal contract (Consumer Product Safety Commission via Kinetic Metrics), and the Kyber Vision volleyball-analytics mobile app for a European sports-tech product.\nBefore engineering, 15 years as an economist in Washington, DC. In April 2019, I ran my first Python script one Saturday morning — it took all my patience just to set up the environment. Today my skills (and my patience) have grown.\nMy experience includes:\n✓ Full-stack TypeScript + Python in one platform\n✓ React, React Native (Expo), Next.js, Redux Toolkit, Tailwind\n✓ Node.js (Express 5), Python (FastAPI), REST API design, JWT auth\n✓ Postgres + Sequelize at production scale, schema migration\n✓ BullMQ + Redis queues, custom FIFO with cooperative cancellation\n✓ AI integration (OpenAI, HuggingFace, semantic + dedupe scoring)\n✓ Media pipelines (ffmpeg, YouTube API, Playwright scraping)\n✓ DevOps on Ubuntu (reverse proxy, GitHub Actions CI)\n✓ Solo ownership: architecture → build → ops → stakeholders\nAllergic to scope creep and to engineering that doesn't ship. Open to founding-engineer and early-stage roles where breadth, ownership, and shipping matter more than specialization.\nWhen I'm not coding: guitar, reading, French.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2020
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 yrs",
+    "description": "Building production software end-to-end and independently as Dashboards and Databases. Over 5 years I've shipped systems for paying clients, equity-stake partners, and personal products across full-stack web (TypeScript, Python, Node, Next.js), mobile (React Native), AI, and DevOps (Ubuntu, Redis/BullMQ).\n\nSelected projects:\n\n- Encipher Systems (https://enciphersystems.com/). Built and deployed the company website from a client Figma design: added custom animations, coded it from scratch, and shipped to the client's custom domain. Next.js 16 / React 19 with a hardened Nodemailer contact form.\n\n- News Nexus (https://news-nexus-lite.dashanddata.com/). Sole builder and operator of a 5-service production platform for a US federal contract with the Consumer Product Safety Commission (via Kinetic Metrics). Ingests news from many sources into Postgres 16 via a Sequelize package, runs deduplication, semantic and location scoring, OpenAI state classification, and scraping through Node and Python workers, then serves a Next.js review portal for human clip approval and weekly PDF/Excel delivery.\n\n- Tastermonial (https://tastermonial.com/). Personalized-nutrition app with many partners and over 10,000 users. Added Oura Ring support so users pair sleep, readiness, and recovery data with CGM glucose data. Built it in the Python/FastAPI backend: users connect Oura via Junction's hosted OAuth, which streams events to a webhook the service normalizes into Postgres sleep records.\n\n- Go Lightly (https://go-lightly.love/). Guided-meditation platform where users compose meditations from ElevenLabs text-to-speech, sounds, and timed pauses. TypeScript monorepo: Next.js 16 web app, Express 5 API, and an ffmpeg job-queue worker over PostgreSQL.\n\n- Kyber Vision (https://kybervision.eu/, equity stake). Built the Expo/React Native mobile app for a volleyball analysis platform: live match-event scripting via a custom court tap and swipe-wheel gesture system, plus video review and montages.",
+    "insights": "Skills: JavaScript · Mobile Applications · Python (Programming Language) · DevOps · Linux Server · Video Editing · Software Infrastructure · Software Design · Software Industry · Engineering · Web Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/80055789/",
+     "name": "Dashboards and Databases",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0"
+     }
+    }
+   },
+   {
+    "title": "Economist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2012
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 yrs",
+    "description": "Eight years as a federal economist focused on supply-chain analytics, price-growth analysis, and vendor proposal evaluation. Built quantitative analyses on large datasets to answer questions about industry pricing, supply-chain vulnerabilities, and proposal cost realism. Methods and tools: regression analysis, uncertainty analysis, forecasting, Bureau of Labor Statistics price-index methodology, VBA (Excel automation), and SAS JMP scripting. Team lead on multiple engagements, with regular technical writing for non-technical decision-makers.\n\nSelected projects:\n\n- Ship construction price-growth negotiation (lead analyst). Built the Government's analytical position for a major proposal negotiation. For each part in the proposal, ran regressions against historical purchase records, mapped each part to an appropriate Bureau of Labor Statistics (BLS) price index using qualitative-similarity and growth-range checks, combined third-party BLS index forecasts into a Government-position forecast, and produced uncertainty bounds based on observed historical growth. Implemented in VBA and SAS JMP.\n\n- NATO inflation history. Authored a 40-year history of US inflation, presented at a NATO conference. Covered drivers and policy context across the period.\n\n- VBA tooling for external data ingest. Built Excel/VBA tools that automated extraction of data from external sources to feed the team's recurring analyses, replacing manual workflows.",
+    "insights": "Skills: Economic Indicators · Economic Statistics · Economic Analysis · Mathematical Economics",
+    "company": {
+     "url": "https://www.linkedin.com/company/1487869/",
+     "name": "US Federal Government",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4"
+     }
+    }
+   },
+   {
+    "title": "Associate",
+    "locationName": "Fairfax, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2012
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Three years in ICF International's energy practice, delivering forecasting and analytics work for US electricity market clients including utilities, regional transmission organizations, and federal agencies. Methods and tools: linear programming models, econometric and regression modeling, large database management (model inputs sourced from ISOs/RTOs, electric companies, and data providers including Platt's and SNL), and client-facing analytical delivery.\n\nSelected projects:\n\n- US electricity market forecasting. Used ICF's proprietary linear-program model of US electricity markets to deliver power-plant valuations, energy-price forecasts, market-share forecasts, and other indicators for utility and RTO clients.\n\n- NREL cross-model comparison study. Lead on database development and major contributor to the published analytical report comparing technology costs and performance parameters across seven energy market models: MARKAL, NEMS, GPRA, ReEDS, MERGE, MiniCAM, and EPA IPM.\n\n- ARRA federal grants advisory. Advised regional governments on applying for American Recovery and Reinvestment Act funding for energy-efficiency infrastructure, including public-transit vehicles and building upgrades.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5742/",
+     "name": "ICF International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38"
+     }
+    }
+   },
+   {
+    "title": "Economist",
+    "locationName": "Silver Spring, MD",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Fourteen months at HDR | HLB Decision Economics doing economic and risk modeling for infrastructure clients across the US, spanning both public-sector evaluation work and private-sector market assessment. Methods and tools: cost-benefit analysis, cost and schedule risk modeling (Monte Carlo cost-risk methods), statistical and regression modeling for market sizing, and infrastructure-sector analysis across water, power, ports, rail, and aviation.\n\nSelected projects:\n\n- Southeastern US construction market assessment. For a large US contractor, assessed market potential across water/wastewater, power, seaports, rail, and airports sectors. Led areas of analysis involving risk and statistical modeling. Output shaped the client's resource-allocation strategy for project pursuit across the region.\n\n- Transportation infrastructure project evaluations. Cost-benefit modeling for public-entity clients. Reports informed how these clients prioritized public funding awards across competing infrastructure projects.\n\n- Cost and schedule risk modeling for infrastructure projects. Built Monte Carlo cost-risk analyses to estimate total cost and approximate schedule for projects under uncertainty, used by clients to size contingency and set baseline expectations.",
+    "insights": "Skills: Economic Indicators · Economic Analysis · Mathematical Economics · Economic Statistics",
+    "company": {
+     "url": "https://www.linkedin.com/company/164152/",
+     "name": "HDR|HLB Decision Economics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo"
+     }
+    }
+   },
+   {
+    "title": "Industry Economist",
+    "locationName": "Washington DC-Baltimore Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Two and a half years as an industry economist at the US Energy Information Administration (EIA), focused on the retail electricity industry. Methods and tools: survey-data methodology and edit-check design, energy-model interpretation, web data-product development, and analytical writing for industry and policy audiences. Served as a point of contact for external data and general industry inquiries.\n\nSelected projects:\n\n- Electricity sales and revenue survey. Developed and analyzed edit checks for the survey, improving data-collection efficiency and surfacing industry trends for analysis in EIA reports and publications.\n\n- Office of Analysis and Integrated Forecasting (OAIF) detail. Summarized results of an energy model during a detail assignment focused on the economic effects of a potential new policy.\n\n- EIA web data products. Developed, improved, and maintained EIA's web data products on retail electricity, working with IT staff to take products to production. Led projects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5556/",
+     "name": "Department of Energy/EIA",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_200_200/company-logo_200_200/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=eRzBym_TASfsf11i3CN2IW2ltJqJmpBTK0EXCeIi4j0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_100_100/company-logo_100_100/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=n6dAiz-Us5EzOh3tYVE4g1SoOiNZGJLTkd_lXD0Ae2c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/11074321/",
+    "schoolName": "La Capsule",
+    "degreeName": "Certified Full-Stack Web & Mobile Developer (Bachelor’s Equivalent)",
+    "fieldOfStudy": "Full Stack Developer JavaScript",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_100_100/B4EZ84dCPKJEAM-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=l-RJuf2Z7TsBUMN-xk1XfRWJu5-TRVbI3vhwQ8CLbB4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_400_400/B4EZ84dCPKJEAY-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=4FehxWWVXPmDWtb_US7xzKnPLrq-ir4j7I5ac_Y8hJk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_200_200/B4EZ84dCPKJEAI-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=8AE91Fr8O3V0HvBhj9VJFVCxBs8yNGpOS3Je1CXwc1g"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5489/",
+    "schoolName": "George Mason University",
+    "degreeName": "Master's",
+    "fieldOfStudy": "Economics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2005
+     },
+     "endDate": {
+      "year": 2007
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Dashboards and Databases",
+  "companyPublicId": "dashboards-and-databases",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/dashboards-and-databases/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:80055789",
+   "name": "Dashboards and Databases",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQGoDN15Nn8NvQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_"
+    }
+   },
+   "universalName": "dashboards-and-databases",
+   "url": "https://www.linkedin.com/company/dashboards-and-databases/",
+   "slug": "dashboards-and-databases",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+   "specialties": []
+  },
+  "followerCount": 513,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 507,
+  "skills": [
+   {
+    "name": "Economic Indicators",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Economic Analysis",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Economic Statistics",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Mathematical Economics",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Industry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Video Editing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React Native",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ExpressJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mongoose",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analysis",
+    "endorsements": 24,
+    "experiences": ""
+   },
+   {
+    "name": "Economic Indicators",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Economic Analysis",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Economic Statistics",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Mathematical Economics",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Industry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Video Editing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ExpressJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Economics",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Energy Policy",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Valuation",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Energy",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Financial Modeling",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Policy",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Government",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "React Native",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Analysis",
+    "endorsements": 24,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 6,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/nick-rodriguez-0a31a133",
+  "linkedinUrl": "https://www.linkedin.com/in/nick-rodriguez-0a31a133",
+  "profileUrl": "https://www.linkedin.com/in/nick-rodriguez-0a31a133",
+  "verified": true,
+  "registeredAt": "2011-05-05T12:46:31.850Z",
+  "location": {
+   "linkedinText": "San Francisco, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a problem solver who builds software end-to-end.\nFor the last 5 years I've shipped production systems independently, most recently News Nexus, a 5-service platform delivering weekly news-clip reports under a US federal contract (Consumer Product Safety Commission via Kinetic Metrics), and the Kyber Vision volleyball-analytics mobile app for a European sports-tech product.\nBefore engineering, 15 years as an economist in Washington, DC. In April 2019, I ran my first Python script one Saturday morning — it took all my patience just to set up the environment. Today my skills (and my patience) have grown.\nMy experience includes:\n✓ Full-stack TypeScript + Python in one platform\n✓ React, React Native (Expo), Next.js, Redux Toolkit, Tailwind\n✓ Node.js (Express 5), Python (FastAPI), REST API design, JWT auth\n✓ Postgres + Sequelize at production scale, schema migration\n✓ BullMQ + Redis queues, custom FIFO with cooperative cancellation\n✓ AI integration (OpenAI, HuggingFace, semantic + dedupe scoring)\n✓ Media pipelines (ffmpeg, YouTube API, Playwright scraping)\n✓ DevOps on Ubuntu (reverse proxy, GitHub Actions CI)\n✓ Solo ownership: architecture → build → ops → stakeholders\nAllergic to scope creep and to engineering that doesn't ship. Open to founding-engineer and early-stage roles where breadth, ownership, and shipping matter more than specialization.\nWhen I'm not coding: guitar, reading, French.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Economist",
+   "Associate",
+   "Economist",
+   "Industry Economist"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2020
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 yrs",
+    "description": "Building production software end-to-end and independently as Dashboards and Databases. Over 5 years I've shipped systems for paying clients, equity-stake partners, and personal products across full-stack web (TypeScript, Python, Node, Next.js), mobile (React Native), AI, and DevOps (Ubuntu, Redis/BullMQ).\n\nSelected projects:\n\n- Encipher Systems (https://enciphersystems.com/). Built and deployed the company website from a client Figma design: added custom animations, coded it from scratch, and shipped to the client's custom domain. Next.js 16 / React 19 with a hardened Nodemailer contact form.\n\n- News Nexus (https://news-nexus-lite.dashanddata.com/). Sole builder and operator of a 5-service production platform for a US federal contract with the Consumer Product Safety Commission (via Kinetic Metrics). Ingests news from many sources into Postgres 16 via a Sequelize package, runs deduplication, semantic and location scoring, OpenAI state classification, and scraping through Node and Python workers, then serves a Next.js review portal for human clip approval and weekly PDF/Excel delivery.\n\n- Tastermonial (https://tastermonial.com/). Personalized-nutrition app with many partners and over 10,000 users. Added Oura Ring support so users pair sleep, readiness, and recovery data with CGM glucose data. Built it in the Python/FastAPI backend: users connect Oura via Junction's hosted OAuth, which streams events to a webhook the service normalizes into Postgres sleep records.\n\n- Go Lightly (https://go-lightly.love/). Guided-meditation platform where users compose meditations from ElevenLabs text-to-speech, sounds, and timed pauses. TypeScript monorepo: Next.js 16 web app, Express 5 API, and an ffmpeg job-queue worker over PostgreSQL.\n\n- Kyber Vision (https://kybervision.eu/, equity stake). Built the Expo/React Native mobile app for a volleyball analysis platform: live match-event scripting via a custom court tap and swipe-wheel gesture system, plus video review and montages.",
+    "insights": "Skills: JavaScript · Mobile Applications · Python (Programming Language) · DevOps · Linux Server · Video Editing · Software Infrastructure · Software Design · Software Industry · Engineering · Web Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/80055789/",
+     "name": "Dashboards and Databases",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Dashboards and Databases",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/80055789/",
+    "companyId": "80055789",
+    "duration": "6 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2020
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Economist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2012
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 yrs",
+    "description": "Eight years as a federal economist focused on supply-chain analytics, price-growth analysis, and vendor proposal evaluation. Built quantitative analyses on large datasets to answer questions about industry pricing, supply-chain vulnerabilities, and proposal cost realism. Methods and tools: regression analysis, uncertainty analysis, forecasting, Bureau of Labor Statistics price-index methodology, VBA (Excel automation), and SAS JMP scripting. Team lead on multiple engagements, with regular technical writing for non-technical decision-makers.\n\nSelected projects:\n\n- Ship construction price-growth negotiation (lead analyst). Built the Government's analytical position for a major proposal negotiation. For each part in the proposal, ran regressions against historical purchase records, mapped each part to an appropriate Bureau of Labor Statistics (BLS) price index using qualitative-similarity and growth-range checks, combined third-party BLS index forecasts into a Government-position forecast, and produced uncertainty bounds based on observed historical growth. Implemented in VBA and SAS JMP.\n\n- NATO inflation history. Authored a 40-year history of US inflation, presented at a NATO conference. Covered drivers and policy context across the period.\n\n- VBA tooling for external data ingest. Built Excel/VBA tools that automated extraction of data from external sources to feed the team's recurring analyses, replacing manual workflows.",
+    "insights": "Skills: Economic Indicators · Economic Statistics · Economic Analysis · Mathematical Economics",
+    "company": {
+     "url": "https://www.linkedin.com/company/1487869/",
+     "name": "US Federal Government",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4"
+     }
+    },
+    "position": "Economist",
+    "companyName": "US Federal Government",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1487869/",
+    "companyId": "1487869",
+    "duration": "8 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2012
+    },
+    "endDate": {
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate",
+    "locationName": "Fairfax, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2012
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Three years in ICF International's energy practice, delivering forecasting and analytics work for US electricity market clients including utilities, regional transmission organizations, and federal agencies. Methods and tools: linear programming models, econometric and regression modeling, large database management (model inputs sourced from ISOs/RTOs, electric companies, and data providers including Platt's and SNL), and client-facing analytical delivery.\n\nSelected projects:\n\n- US electricity market forecasting. Used ICF's proprietary linear-program model of US electricity markets to deliver power-plant valuations, energy-price forecasts, market-share forecasts, and other indicators for utility and RTO clients.\n\n- NREL cross-model comparison study. Lead on database development and major contributor to the published analytical report comparing technology costs and performance parameters across seven energy market models: MARKAL, NEMS, GPRA, ReEDS, MERGE, MiniCAM, and EPA IPM.\n\n- ARRA federal grants advisory. Advised regional governments on applying for American Recovery and Reinvestment Act funding for energy-efficiency infrastructure, including public-transit vehicles and building upgrades.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5742/",
+     "name": "ICF International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38"
+     }
+    },
+    "position": "Associate",
+    "companyName": "ICF International",
+    "location": "Fairfax, VA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5742/",
+    "companyId": "5742",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2012
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Economist",
+    "locationName": "Silver Spring, MD",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Fourteen months at HDR | HLB Decision Economics doing economic and risk modeling for infrastructure clients across the US, spanning both public-sector evaluation work and private-sector market assessment. Methods and tools: cost-benefit analysis, cost and schedule risk modeling (Monte Carlo cost-risk methods), statistical and regression modeling for market sizing, and infrastructure-sector analysis across water, power, ports, rail, and aviation.\n\nSelected projects:\n\n- Southeastern US construction market assessment. For a large US contractor, assessed market potential across water/wastewater, power, seaports, rail, and airports sectors. Led areas of analysis involving risk and statistical modeling. Output shaped the client's resource-allocation strategy for project pursuit across the region.\n\n- Transportation infrastructure project evaluations. Cost-benefit modeling for public-entity clients. Reports informed how these clients prioritized public funding awards across competing infrastructure projects.\n\n- Cost and schedule risk modeling for infrastructure projects. Built Monte Carlo cost-risk analyses to estimate total cost and approximate schedule for projects under uncertainty, used by clients to size contingency and set baseline expectations.",
+    "insights": "Skills: Economic Indicators · Economic Analysis · Mathematical Economics · Economic Statistics",
+    "company": {
+     "url": "https://www.linkedin.com/company/164152/",
+     "name": "HDR|HLB Decision Economics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo"
+     }
+    },
+    "position": "Economist",
+    "companyName": "HDR|HLB Decision Economics",
+    "location": "Silver Spring, MD",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164152/",
+    "companyId": "164152",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2008
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Industry Economist",
+    "locationName": "Washington DC-Baltimore Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Two and a half years as an industry economist at the US Energy Information Administration (EIA), focused on the retail electricity industry. Methods and tools: survey-data methodology and edit-check design, energy-model interpretation, web data-product development, and analytical writing for industry and policy audiences. Served as a point of contact for external data and general industry inquiries.\n\nSelected projects:\n\n- Electricity sales and revenue survey. Developed and analyzed edit checks for the survey, improving data-collection efficiency and surfacing industry trends for analysis in EIA reports and publications.\n\n- Office of Analysis and Integrated Forecasting (OAIF) detail. Summarized results of an energy model during a detail assignment focused on the economic effects of a potential new policy.\n\n- EIA web data products. Developed, improved, and maintained EIA's web data products on retail electricity, working with IT staff to take products to production. Led projects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5556/",
+     "name": "Department of Energy/EIA",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE"
+     }
+    },
+    "position": "Industry Economist",
+    "companyName": "Department of Energy/EIA",
+    "location": "Washington DC-Baltimore Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5556/",
+    "companyId": "5556",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "80055789",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/80055789/",
+    "companyName": "Dashboards and Databases",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2020
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 yrs",
+    "description": "Building production software end-to-end and independently as Dashboards and Databases. Over 5 years I've shipped systems for paying clients, equity-stake partners, and personal products across full-stack web (TypeScript, Python, Node, Next.js), mobile (React Native), AI, and DevOps (Ubuntu, Redis/BullMQ).\n\nSelected projects:\n\n- Encipher Systems (https://enciphersystems.com/). Built and deployed the company website from a client Figma design: added custom animations, coded it from scratch, and shipped to the client's custom domain. Next.js 16 / React 19 with a hardened Nodemailer contact form.\n\n- News Nexus (https://news-nexus-lite.dashanddata.com/). Sole builder and operator of a 5-service production platform for a US federal contract with the Consumer Product Safety Commission (via Kinetic Metrics). Ingests news from many sources into Postgres 16 via a Sequelize package, runs deduplication, semantic and location scoring, OpenAI state classification, and scraping through Node and Python workers, then serves a Next.js review portal for human clip approval and weekly PDF/Excel delivery.\n\n- Tastermonial (https://tastermonial.com/). Personalized-nutrition app with many partners and over 10,000 users. Added Oura Ring support so users pair sleep, readiness, and recovery data with CGM glucose data. Built it in the Python/FastAPI backend: users connect Oura via Junction's hosted OAuth, which streams events to a webhook the service normalizes into Postgres sleep records.\n\n- Go Lightly (https://go-lightly.love/). Guided-meditation platform where users compose meditations from ElevenLabs text-to-speech, sounds, and timed pauses. TypeScript monorepo: Next.js 16 web app, Express 5 API, and an ffmpeg job-queue worker over PostgreSQL.\n\n- Kyber Vision (https://kybervision.eu/, equity stake). Built the Expo/React Native mobile app for a volleyball analysis platform: live match-event scripting via a custom court tap and swipe-wheel gesture system, plus video review and montages.",
+    "insights": "Skills: JavaScript · Mobile Applications · Python (Programming Language) · DevOps · Linux Server · Video Editing · Software Infrastructure · Software Design · Software Industry · Engineering · Web Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/80055789/",
+     "name": "Dashboards and Databases",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Dashboards and Databases",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/80055789/",
+    "companyId": "80055789",
+    "duration": "6 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2020
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_400_400/company-logo_400_400/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KFJ5Fvh2DEgzbJQLye3cCVbtnpxh__pbJinPUVkgKn0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_200_200/company-logo_200_200/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=PTt3sQUaSHuizHn2iJVO0WO-wk3rK-9CDoQKaxnYtms",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGoDN15Nn8NvQ/company-logo_100_100/company-logo_100_100/0/1653677311897/dashboards_and_databases_logo?e=1794441600&v=beta&t=KBOcdauxbr6wuVGudndbf7aCirzPGXvmrgo3rkfy0m8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Economist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2012
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 yrs",
+    "description": "Eight years as a federal economist focused on supply-chain analytics, price-growth analysis, and vendor proposal evaluation. Built quantitative analyses on large datasets to answer questions about industry pricing, supply-chain vulnerabilities, and proposal cost realism. Methods and tools: regression analysis, uncertainty analysis, forecasting, Bureau of Labor Statistics price-index methodology, VBA (Excel automation), and SAS JMP scripting. Team lead on multiple engagements, with regular technical writing for non-technical decision-makers.\n\nSelected projects:\n\n- Ship construction price-growth negotiation (lead analyst). Built the Government's analytical position for a major proposal negotiation. For each part in the proposal, ran regressions against historical purchase records, mapped each part to an appropriate Bureau of Labor Statistics (BLS) price index using qualitative-similarity and growth-range checks, combined third-party BLS index forecasts into a Government-position forecast, and produced uncertainty bounds based on observed historical growth. Implemented in VBA and SAS JMP.\n\n- NATO inflation history. Authored a 40-year history of US inflation, presented at a NATO conference. Covered drivers and policy context across the period.\n\n- VBA tooling for external data ingest. Built Excel/VBA tools that automated extraction of data from external sources to feed the team's recurring analyses, replacing manual workflows.",
+    "insights": "Skills: Economic Indicators · Economic Statistics · Economic Analysis · Mathematical Economics",
+    "company": {
+     "url": "https://www.linkedin.com/company/1487869/",
+     "name": "US Federal Government",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4"
+     }
+    },
+    "position": "Economist",
+    "companyName": "US Federal Government",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1487869/",
+    "companyId": "1487869",
+    "duration": "8 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2012
+    },
+    "endDate": {
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=Ml1iPesyzJiGWkMYWntgDCNQa4wyh9znfQmM1g1Num4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630655286572/us_federal_government_logo?e=1794441600&v=beta&t=l75mA4JXdXT0nOMZqI2P6CHRJpj_xZTU6OVOKnMzFaI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLBPEn7IjNnA/company-logo_100_100/company-logo_100_100/0/1630655286570/us_federal_government_logo?e=1794441600&v=beta&t=0rmupbx4_AJ0a7PwJd0Fn_Pw_eJ0p0z2q9YdSpB0P_o",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate",
+    "locationName": "Fairfax, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2012
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Three years in ICF International's energy practice, delivering forecasting and analytics work for US electricity market clients including utilities, regional transmission organizations, and federal agencies. Methods and tools: linear programming models, econometric and regression modeling, large database management (model inputs sourced from ISOs/RTOs, electric companies, and data providers including Platt's and SNL), and client-facing analytical delivery.\n\nSelected projects:\n\n- US electricity market forecasting. Used ICF's proprietary linear-program model of US electricity markets to deliver power-plant valuations, energy-price forecasts, market-share forecasts, and other indicators for utility and RTO clients.\n\n- NREL cross-model comparison study. Lead on database development and major contributor to the published analytical report comparing technology costs and performance parameters across seven energy market models: MARKAL, NEMS, GPRA, ReEDS, MERGE, MiniCAM, and EPA IPM.\n\n- ARRA federal grants advisory. Advised regional governments on applying for American Recovery and Reinvestment Act funding for energy-efficiency infrastructure, including public-transit vehicles and building upgrades.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5742/",
+     "name": "ICF International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38"
+     }
+    },
+    "position": "Associate",
+    "companyName": "ICF International",
+    "location": "Fairfax, VA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5742/",
+    "companyId": "5742",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2012
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_400_400/B4EZhb9llRHgAc-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=0JKGVi671rgbccoqwMAPBW4N0KNPRQFNt59z0dPF-38",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_200_200/B4EZhb9llRHgAM-/0/1753889528612/icf_international_logo?e=1794441600&v=beta&t=7V--ZQP6Ytnc_obdJv-5dcAXFkI8xZtrMgkl0eq_7O0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH2RAazN8LIPA/company-logo_100_100/B4EZhb9llRHgAU-/0/1753889528613/icf_international_logo?e=1794441600&v=beta&t=XDfwPzkwkYYEeWrJboyIfgA-S--iYaFBTdV85yzHar8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Economist",
+    "locationName": "Silver Spring, MD",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Fourteen months at HDR | HLB Decision Economics doing economic and risk modeling for infrastructure clients across the US, spanning both public-sector evaluation work and private-sector market assessment. Methods and tools: cost-benefit analysis, cost and schedule risk modeling (Monte Carlo cost-risk methods), statistical and regression modeling for market sizing, and infrastructure-sector analysis across water, power, ports, rail, and aviation.\n\nSelected projects:\n\n- Southeastern US construction market assessment. For a large US contractor, assessed market potential across water/wastewater, power, seaports, rail, and airports sectors. Led areas of analysis involving risk and statistical modeling. Output shaped the client's resource-allocation strategy for project pursuit across the region.\n\n- Transportation infrastructure project evaluations. Cost-benefit modeling for public-entity clients. Reports informed how these clients prioritized public funding awards across competing infrastructure projects.\n\n- Cost and schedule risk modeling for infrastructure projects. Built Monte Carlo cost-risk analyses to estimate total cost and approximate schedule for projects under uncertainty, used by clients to size contingency and set baseline expectations.",
+    "insights": "Skills: Economic Indicators · Economic Analysis · Mathematical Economics · Economic Statistics",
+    "company": {
+     "url": "https://www.linkedin.com/company/164152/",
+     "name": "HDR|HLB Decision Economics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo"
+     }
+    },
+    "position": "Economist",
+    "companyName": "HDR|HLB Decision Economics",
+    "location": "Silver Spring, MD",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164152/",
+    "companyId": "164152",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2008
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_400_400/company-logo_400_400/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=hW_7EsG_3U_wq4r_0cczngEyfEXD3tPUlM6zfDB6Ubo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_200_200/company-logo_200_200/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=8o1qBL5y5rAOJrYszl1fjatRclQNqOkL9arN68orMdA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGfpTq19zKb0g/company-logo_100_100/company-logo_100_100/0/1630580862598/hdr_logo?e=1794441600&v=beta&t=CDg42eE5uZuFCizxe4Vn2OM-cjbm9qfM9jSdOZI8Gxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Industry Economist",
+    "locationName": "Washington DC-Baltimore Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Two and a half years as an industry economist at the US Energy Information Administration (EIA), focused on the retail electricity industry. Methods and tools: survey-data methodology and edit-check design, energy-model interpretation, web data-product development, and analytical writing for industry and policy audiences. Served as a point of contact for external data and general industry inquiries.\n\nSelected projects:\n\n- Electricity sales and revenue survey. Developed and analyzed edit checks for the survey, improving data-collection efficiency and surfacing industry trends for analysis in EIA reports and publications.\n\n- Office of Analysis and Integrated Forecasting (OAIF) detail. Summarized results of an energy model during a detail assignment focused on the economic effects of a potential new policy.\n\n- EIA web data products. Developed, improved, and maintained EIA's web data products on retail electricity, working with IT staff to take products to production. Led projects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5556/",
+     "name": "Department of Energy/EIA",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE"
+     }
+    },
+    "position": "Industry Economist",
+    "companyName": "Department of Energy/EIA",
+    "location": "Washington DC-Baltimore Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5556/",
+    "companyId": "5556",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_400_400/company-logo_400_400/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vY8STqRXALKCU4s01sJysRdP6aRxSf5Zl7pDFMJzmmE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_200_200/company-logo_200_200/0/1738274279109/energy_logo?e=1794441600&v=beta&t=vImnRjCVcxr0wQ_t11yjlX6xNIGbyrLzm51LlCyoRC8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHGk-ud9KoIkA/company-logo_100_100/company-logo_100_100/0/1738274279109/energy_logo?e=1794441600&v=beta&t=FCFNDWCrg3ejqnLO5dg2SKwmdWDlJqBX_CToLS_iLxI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_200_200/company-logo_200_200/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=eRzBym_TASfsf11i3CN2IW2ltJqJmpBTK0EXCeIi4j0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_100_100/company-logo_100_100/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=n6dAiz-Us5EzOh3tYVE4g1SoOiNZGJLTkd_lXD0Ae2c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_200_200/company-logo_200_200/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=eRzBym_TASfsf11i3CN2IW2ltJqJmpBTK0EXCeIi4j0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_100_100/company-logo_100_100/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=n6dAiz-Us5EzOh3tYVE4g1SoOiNZGJLTkd_lXD0Ae2c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/11074321/",
+    "schoolName": "La Capsule",
+    "degreeName": "Certified Full-Stack Web & Mobile Developer (Bachelor’s Equivalent)",
+    "fieldOfStudy": "Full Stack Developer JavaScript",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/11074321/",
+    "schoolId": "11074321",
+    "degree": "Certified Full-Stack Web & Mobile Developer (Bachelor’s Equivalent)",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2024
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_100_100/B4EZ84dCPKJEAM-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=l-RJuf2Z7TsBUMN-xk1XfRWJu5-TRVbI3vhwQ8CLbB4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_400_400/B4EZ84dCPKJEAY-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=4FehxWWVXPmDWtb_US7xzKnPLrq-ir4j7I5ac_Y8hJk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_200_200/B4EZ84dCPKJEAI-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=8AE91Fr8O3V0HvBhj9VJFVCxBs8yNGpOS3Je1CXwc1g",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_400_400/B4EZ84dCPKJEAY-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=4FehxWWVXPmDWtb_US7xzKnPLrq-ir4j7I5ac_Y8hJk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_400_400/B4EZ84dCPKJEAY-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=4FehxWWVXPmDWtb_US7xzKnPLrq-ir4j7I5ac_Y8hJk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_200_200/B4EZ84dCPKJEAI-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=8AE91Fr8O3V0HvBhj9VJFVCxBs8yNGpOS3Je1CXwc1g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHCFipKMd_jpQ/company-logo_100_100/B4EZ84dCPKJEAM-/0/1783358563476/george_mason_university_logo?e=1794441600&v=beta&t=l-RJuf2Z7TsBUMN-xk1XfRWJu5-TRVbI3vhwQ8CLbB4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5489/",
+    "schoolName": "George Mason University",
+    "degreeName": "Master's",
+    "fieldOfStudy": "Economics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2005
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5489/",
+    "schoolId": "5489",
+    "degree": "Master's",
+    "skills": [],
+    "startDate": {
+     "year": 2005
+    },
+    "endDate": {
+     "year": 2007
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_200_200/company-logo_200_200/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=eRzBym_TASfsf11i3CN2IW2ltJqJmpBTK0EXCeIi4j0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_100_100/company-logo_100_100/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=n6dAiz-Us5EzOh3tYVE4g1SoOiNZGJLTkd_lXD0Ae2c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_400_400/company-logo_400_400/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=AtzgmGZ5o3oNNwk79qgVu-tPvBekkmPaOFBFve0pj_8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_200_200/company-logo_200_200/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=eRzBym_TASfsf11i3CN2IW2ltJqJmpBTK0EXCeIi4j0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEKtZRA8You7g/company-logo_100_100/company-logo_100_100/0/1630461223090/la_capsule__logo?e=1794441600&v=beta&t=n6dAiz-Us5EzOh3tYVE4g1SoOiNZGJLTkd_lXD0Ae2c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/11074321/",
+    "schoolName": "La Capsule",
+    "degreeName": "Certified Full-Stack Web & Mobile Developer (Bachelor’s Equivalent)",
+    "fieldOfStudy": "Full Stack Developer JavaScript",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/11074321/",
+    "schoolId": "11074321",
+    "degree": "Certified Full-Stack Web & Mobile Developer (Bachelor’s Equivalent)",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2024
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_400_400/B56Z5xB.ohGgAg-/0/1780012806304?e=1794441600&v=beta&t=4V2tO5myGIEeRqAFnc0kWw0ngFO51v_X1sh-RQ4wEhM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_200_200/B56Z5xB.ohGgAc-/0/1780012806305?e=1794441600&v=beta&t=pvBKoiJj2blskqiSPoxHws_tXWR3Cy9or-kfEgAbHTo",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_100_100/B56Z5xB.ohGgAY-/0/1780012806305?e=1794441600&v=beta&t=ZuoQGF6qAjbagL1Otbxfj29u9tVH0w7RzOfLQ6NBeLE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_400_400/B56Z5xB.ohGgAg-/0/1780012806304?e=1794441600&v=beta&t=4V2tO5myGIEeRqAFnc0kWw0ngFO51v_X1sh-RQ4wEhM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_200_200/B56Z5xB.ohGgAc-/0/1780012806305?e=1794441600&v=beta&t=pvBKoiJj2blskqiSPoxHws_tXWR3Cy9or-kfEgAbHTo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_100_100/B56Z5xB.ohGgAY-/0/1780012806305?e=1794441600&v=beta&t=ZuoQGF6qAjbagL1Otbxfj29u9tVH0w7RzOfLQ6NBeLE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_400_400/B56Z5xB.ohGgAg-/0/1780012806304?e=1794441600&v=beta&t=4V2tO5myGIEeRqAFnc0kWw0ngFO51v_X1sh-RQ4wEhM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_200_200/B56Z5xB.ohGgAc-/0/1780012806305?e=1794441600&v=beta&t=pvBKoiJj2blskqiSPoxHws_tXWR3Cy9or-kfEgAbHTo",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_100_100/B56Z5xB.ohGgAY-/0/1780012806305?e=1794441600&v=beta&t=ZuoQGF6qAjbagL1Otbxfj29u9tVH0w7RzOfLQ6NBeLE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-crop_800_800/B56Z5xB.ohGgAI-/0/1780012806305?e=1794441600&v=beta&t=tTTPv1wHNycHbNiCvb688FyfB14lQwwJWg_XPtxWb_4",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_400_400/B56Z5xB.ohGgAg-/0/1780012806304?e=1794441600&v=beta&t=4V2tO5myGIEeRqAFnc0kWw0ngFO51v_X1sh-RQ4wEhM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_200_200/B56Z5xB.ohGgAc-/0/1780012806305?e=1794441600&v=beta&t=pvBKoiJj2blskqiSPoxHws_tXWR3Cy9or-kfEgAbHTo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEk75hdmAneyA/profile-displayphoto-scale_100_100/B56Z5xB.ohGgAY-/0/1780012806305?e=1794441600&v=beta&t=ZuoQGF6qAjbagL1Otbxfj29u9tVH0w7RzOfLQ6NBeLE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_200_800/B56Z9Cdl.XG4AU-/0/1783526483037?e=1794441600&v=beta&t=RwnTzyAC_5fMI_OUEjvGNrKd2V09fmb-9kJkncjTA4Q",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_350_1400/B56Z9Cdl.XG4AY-/0/1783526483038?e=1794441600&v=beta&t=hnZZF9pCCGgBE33q4JBm-3DfStmAFjQZOx-IXZMEoMQ",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_350_1400/B56Z9Cdl.XG4AY-/0/1783526483038?e=1794441600&v=beta&t=hnZZF9pCCGgBE33q4JBm-3DfStmAFjQZOx-IXZMEoMQ",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_350_1400/B56Z9Cdl.XG4AY-/0/1783526483038?e=1794441600&v=beta&t=hnZZF9pCCGgBE33q4JBm-3DfStmAFjQZOx-IXZMEoMQ",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFg76pIMkI31A/profile-displaybackgroundimage-shrink_200_800/B56Z9Cdl.XG4AU-/0/1783526483037?e=1794441600&v=beta&t=RwnTzyAC_5fMI_OUEjvGNrKd2V09fmb-9kJkncjTA4Q",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/nick-rodriguez-0a31a133"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T03:33:11.146Z",
+ "foundBy": null
+}

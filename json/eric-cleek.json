@@ -1,0 +1,1045 @@
+{
+ "slug": "eric-cleek",
+ "inputUrl": "https://www.linkedin.com/in/eric-cleek",
+ "fetchedAt": "2026-10-19T21:42:11.450Z",
+ "id": "6ad68eb3d820dfb707d08709",
+ "url": "https://www.linkedin.com/in/eric-cleek",
+ "profile": {
+  "created": 1282145895211,
+  "trackingId": "0Bu1zD7PTCSrEqCeDb0ZkA==",
+  "firstName": "Eric",
+  "lastName": "Cleek",
+  "pronoun": null,
+  "versionTag": "3195358604",
+  "headline": "Software & Platform Engineer",
+  "publicIdentifier": "eric-cleek",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "84059811",
+  "profileId": "ACoAAAUCpqMBHUWi9qB_FuXyn9ogJ93pa6xd0qA",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517064959360?e=1793836800&v=beta&t=_6-hevP019p1hLA9zgiv-3gSNoGW1E5kM2LVxgMllzI",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517064959316?e=1793836800&v=beta&t=OfohCiBB1vJV049JIeRA-BpC7JpDFSftLWrZ7TfhFLk"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "",
+  "positions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/586502/",
+     "name": "Ellumen, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s"
+     }
+    },
+    "locationName": "Remote",
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer / Technical Lead",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "- Built AWS GovCloud infrastructure for several internal and customer-facing environments, including EKS, ECS, RDS, ALB, Route 53, EFS, and Bedrock.\n \n- Designed and built an EKS environment for Jira Service Management and Confluence, fully managed with Terraform, Terragrunt, and Helm, sized to scale beyond its initial use supporting service desk operations during a government fielding event.\n \n- Built a pull-based integration that fed Jira and Confluence data into Splunk during the event. It was the sole source of event reporting for leadership, covering about 100 service desk tickets with dashboards for MTTR and related metrics.\n \n- Built an ECS environment for a retrieval-augmented generation (RAG) application using Bedrock, RDS, EFS, ALB, and Route 53, which was demoed several times to government leadership, including the program CTO.\n \n- Reverse-engineered the AWS architecture and data flows of five applications in a regulated environment with limited access and no existing documentation, then built a Terraform sandbox replica to prototype cross-service designs. The resulting docs became the working reference for other internal teams.\n \n- Built GitLab CI/CD and GitHub Actions pipelines to deploy Terraform-managed infrastructure and to build and deploy internal applications, with Python linting and static security scanning built in.",
+      "insights": "Python, Amazon Web Services (AWS) and +4 skills"
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "- Helped design and build a serverless EHR message routing system on AWS using API Gateway, Lambda, and SQS that identifies, decrypts, processes, and routes eight message types. It is now in production handling several hundred messages a day.\n \n- Wrote TypeScript Lambda functions for EHR ingestion and outbound integrations.\n \n- Set up initial deployment infrastructure using Terraform, CloudFormation, and AWS CDK.\n \n- Proposed replacing Django with FastAPI after finding the existing application was working against its own data models and schemas, then built a working prototype. The approach was adopted and is still in use.\n \n- Built data-processing services with Python, FastAPI, Pydantic, and PostgreSQL.",
+      "insights": "Software Design, Engineering and +3 skills"
+     }
+    ]
+   },
+   {
+    "title": "Software Engineer in Test",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "employmentType": "Full-time",
+    "description": "- Worked on an internal platform team whose customers were the company's software engineers, focused on making testing and root cause analysis faster, more repeatable, and less manual.\n \n- Built Hydra, a Python test automation framework for medical devices that cut regression testing time by more than 70%. Used by five test engineers and seven software engineers, and still in use.\n \n- Built reusable Hydra modules to simulate multi-line LCD displays across several medical-device platforms, and a hardware I/O module for testing mainboards on current and next-generation products.\n \n- Built Python tooling with Pandas, NumPy, and SciPy to analyze fluorescence detection data and investigate false-positive and false-negative behavior.",
+    "insights": "Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_100_100/B56ZstboHbGsAQ-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=YWqFScx1By5JDZdqTrByfipAdnRGypveW3SixN-IIYg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_200_200/B56ZstboHbGsAI-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=sBnFw_8jS1To_OzY6oHZLbqcpTa046ytO6y5k99Sm_g"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/14084/",
+    "schoolName": "Western Governors University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_200_200/company-logo_200_200/0/1675435203025?e=1793836800&v=beta&t=mLuwJy1ozXtTZbk_sWIWxIVXW8v0QnsVKlTxZjNXqeY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_100_100/company-logo_100_100/0/1675435203025?e=1793836800&v=beta&t=iMJvHtnpPpEBhsNWBhnmIipF4wpHLykfiunm5lFuKtU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_400_400/company-logo_400_400/0/1675435203025?e=1793836800&v=beta&t=2mgvUsLdCTMC1VvxULZxHyVSsjz7yZ6l4X56cl-r-M0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/28814/",
+    "schoolName": "Lakeland Community College",
+    "degreeName": "Associate's Degree",
+    "fieldOfStudy": "Biotechnology",
+    "timePeriod": {
+     "startDate": {
+      "year": 2012
+     },
+     "endDate": {
+      "year": 2014
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "CompTIA Security+",
+    "authority": "CompTIA",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "CompTIA",
+    "title": "CompTIA Security+",
+    "issuedBy": "CompTIA",
+    "issuedByLogo": null
+   },
+   {
+    "name": "IT Information Library Foundations Certification (ITIL)",
+    "authority": "AXELOS Global Best Practice",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "AXELOS Global Best Practice",
+    "title": "IT Information Library Foundations Certification (ITIL)",
+    "issuedBy": "AXELOS Global Best Practice",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Ellumen, Inc.",
+  "companyPublicId": "ellumen",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/ellumen/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:586502",
+   "name": "Ellumen, Inc.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQHFj9wk_xnwKw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+       "expiresAt": 1793836800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_"
+    }
+   },
+   "universalName": "ellumen",
+   "url": "https://www.linkedin.com/company/ellumen/",
+   "slug": "ellumen",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+   "specialties": []
+  },
+  "followerCount": 91,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 87,
+  "skills": [
+   {
+    "name": "ECS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unit Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dynamic Host Configuration Protocol (DHCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unit Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dynamic Host Configuration Protocol (DHCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Help Desk Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vim",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OSI Model",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Subnetting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SASS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "webpack",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AngularJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WordPress",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Adobe Photoshop",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SharePoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Active Directory",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CSS3",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaFX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ECS",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/eric-cleek",
+  "linkedinUrl": "https://www.linkedin.com/in/eric-cleek",
+  "profileUrl": "https://www.linkedin.com/in/eric-cleek",
+  "verified": true,
+  "registeredAt": "2010-08-18T15:38:15.211Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "allTitles": [
+   "Software Engineer in Test"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/586502/",
+     "name": "Ellumen, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s"
+     }
+    },
+    "locationName": "Remote",
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer / Technical Lead",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "- Built AWS GovCloud infrastructure for several internal and customer-facing environments, including EKS, ECS, RDS, ALB, Route 53, EFS, and Bedrock.\n \n- Designed and built an EKS environment for Jira Service Management and Confluence, fully managed with Terraform, Terragrunt, and Helm, sized to scale beyond its initial use supporting service desk operations during a government fielding event.\n \n- Built a pull-based integration that fed Jira and Confluence data into Splunk during the event. It was the sole source of event reporting for leadership, covering about 100 service desk tickets with dashboards for MTTR and related metrics.\n \n- Built an ECS environment for a retrieval-augmented generation (RAG) application using Bedrock, RDS, EFS, ALB, and Route 53, which was demoed several times to government leadership, including the program CTO.\n \n- Reverse-engineered the AWS architecture and data flows of five applications in a regulated environment with limited access and no existing documentation, then built a Terraform sandbox replica to prototype cross-service designs. The resulting docs became the working reference for other internal teams.\n \n- Built GitLab CI/CD and GitHub Actions pipelines to deploy Terraform-managed infrastructure and to build and deploy internal applications, with Python linting and static security scanning built in.",
+      "insights": "Python, Amazon Web Services (AWS) and +4 skills"
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "- Helped design and build a serverless EHR message routing system on AWS using API Gateway, Lambda, and SQS that identifies, decrypts, processes, and routes eight message types. It is now in production handling several hundred messages a day.\n \n- Wrote TypeScript Lambda functions for EHR ingestion and outbound integrations.\n \n- Set up initial deployment infrastructure using Terraform, CloudFormation, and AWS CDK.\n \n- Proposed replacing Django with FastAPI after finding the existing application was working against its own data models and schemas, then built a working prototype. The approach was adopted and is still in use.\n \n- Built data-processing services with Python, FastAPI, Pydantic, and PostgreSQL.",
+      "insights": "Software Design, Engineering and +3 skills"
+     }
+    ],
+    "companyName": "Ellumen, Inc.",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/586502/",
+    "companyId": "586502",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer in Test",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "employmentType": "Full-time",
+    "description": "- Worked on an internal platform team whose customers were the company's software engineers, focused on making testing and root cause analysis faster, more repeatable, and less manual.\n \n- Built Hydra, a Python test automation framework for medical devices that cut regression testing time by more than 70%. Used by five test engineers and seven software engineers, and still in use.\n \n- Built reusable Hydra modules to simulate multi-line LCD displays across several medical-device platforms, and a hardware I/O module for testing mainboards on current and next-generation products.\n \n- Built Python tooling with Pandas, NumPy, and SciPy to analyze fluorescence detection data and investigate false-positive and false-negative behavior.",
+    "insights": "Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU"
+     }
+    },
+    "position": "Software Engineer in Test",
+    "companyName": "STERIS",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7851/",
+    "companyId": "7851",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "586502",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/586502/",
+    "companyName": "Ellumen, Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/586502/",
+     "name": "Ellumen, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s"
+     }
+    },
+    "locationName": "Remote",
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer / Technical Lead",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "- Built AWS GovCloud infrastructure for several internal and customer-facing environments, including EKS, ECS, RDS, ALB, Route 53, EFS, and Bedrock.\n \n- Designed and built an EKS environment for Jira Service Management and Confluence, fully managed with Terraform, Terragrunt, and Helm, sized to scale beyond its initial use supporting service desk operations during a government fielding event.\n \n- Built a pull-based integration that fed Jira and Confluence data into Splunk during the event. It was the sole source of event reporting for leadership, covering about 100 service desk tickets with dashboards for MTTR and related metrics.\n \n- Built an ECS environment for a retrieval-augmented generation (RAG) application using Bedrock, RDS, EFS, ALB, and Route 53, which was demoed several times to government leadership, including the program CTO.\n \n- Reverse-engineered the AWS architecture and data flows of five applications in a regulated environment with limited access and no existing documentation, then built a Terraform sandbox replica to prototype cross-service designs. The resulting docs became the working reference for other internal teams.\n \n- Built GitLab CI/CD and GitHub Actions pipelines to deploy Terraform-managed infrastructure and to build and deploy internal applications, with Python linting and static security scanning built in.",
+      "insights": "Python, Amazon Web Services (AWS) and +4 skills"
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "- Helped design and build a serverless EHR message routing system on AWS using API Gateway, Lambda, and SQS that identifies, decrypts, processes, and routes eight message types. It is now in production handling several hundred messages a day.\n \n- Wrote TypeScript Lambda functions for EHR ingestion and outbound integrations.\n \n- Set up initial deployment infrastructure using Terraform, CloudFormation, and AWS CDK.\n \n- Proposed replacing Django with FastAPI after finding the existing application was working against its own data models and schemas, then built a working prototype. The approach was adopted and is still in use.\n \n- Built data-processing services with Python, FastAPI, Pydantic, and PostgreSQL.",
+      "insights": "Software Design, Engineering and +3 skills"
+     }
+    ],
+    "companyName": "Ellumen, Inc.",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/586502/",
+    "companyId": "586502",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_400_400/B4EZasXswDGQAc-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=JBDRBDySxs_DYL9KX4zX2_50sA_7Ziz_bxRGJSmd-7s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_200_200/B4EZasXswDGQAM-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=U4BxQevjhJyGZla0aMLFzeKcGRp8DYsqCehOkWWhWHw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHFj9wk_xnwKw/company-logo_100_100/B4EZasXswDGQAU-/0/1746648616214/ellumen_logo?e=1793836800&v=beta&t=y2hwA2ilaTosNsnDFpS0DgjYbNaSPGqawVlnM6sj7nw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Engineer in Test",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "employmentType": "Full-time",
+    "description": "- Worked on an internal platform team whose customers were the company's software engineers, focused on making testing and root cause analysis faster, more repeatable, and less manual.\n \n- Built Hydra, a Python test automation framework for medical devices that cut regression testing time by more than 70%. Used by five test engineers and seven software engineers, and still in use.\n \n- Built reusable Hydra modules to simulate multi-line LCD displays across several medical-device platforms, and a hardware I/O module for testing mainboards on current and next-generation products.\n \n- Built Python tooling with Pandas, NumPy, and SciPy to analyze fluorescence detection data and investigate false-positive and false-negative behavior.",
+    "insights": "Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/7851/",
+     "name": "STERIS",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU"
+     }
+    },
+    "position": "Software Engineer in Test",
+    "companyName": "STERIS",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7851/",
+    "companyId": "7851",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_400_400/company-logo_400_400/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=32U0gGCGbx6BT2X_NiBUFNXOhLB0sZtXsBHrbgr4iZU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_200_200/company-logo_200_200/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=8woHsqHl79bZMNI4-xsjpiHO6U3Iv5cRnsdwRPRKAXI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHS6Z-pWR7LzA/company-logo_100_100/company-logo_100_100/0/1630576062513/steris_corporation_logo?e=1793836800&v=beta&t=OOLJApmW2sMbzSR5Qohifo28gykgVq-gGqg5s5F4HYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_100_100/B56ZstboHbGsAQ-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=YWqFScx1By5JDZdqTrByfipAdnRGypveW3SixN-IIYg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_200_200/B56ZstboHbGsAI-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=sBnFw_8jS1To_OzY6oHZLbqcpTa046ytO6y5k99Sm_g",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_200_200/B56ZstboHbGsAI-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=sBnFw_8jS1To_OzY6oHZLbqcpTa046ytO6y5k99Sm_g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_100_100/B56ZstboHbGsAQ-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=YWqFScx1By5JDZdqTrByfipAdnRGypveW3SixN-IIYg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/14084/",
+    "schoolName": "Western Governors University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/14084/",
+    "schoolId": "14084",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2019
+    },
+    "endDate": {
+     "year": 2020
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_200_200/company-logo_200_200/0/1675435203025?e=1793836800&v=beta&t=mLuwJy1ozXtTZbk_sWIWxIVXW8v0QnsVKlTxZjNXqeY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_100_100/company-logo_100_100/0/1675435203025?e=1793836800&v=beta&t=iMJvHtnpPpEBhsNWBhnmIipF4wpHLykfiunm5lFuKtU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_400_400/company-logo_400_400/0/1675435203025?e=1793836800&v=beta&t=2mgvUsLdCTMC1VvxULZxHyVSsjz7yZ6l4X56cl-r-M0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_400_400/company-logo_400_400/0/1675435203025?e=1793836800&v=beta&t=2mgvUsLdCTMC1VvxULZxHyVSsjz7yZ6l4X56cl-r-M0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_400_400/company-logo_400_400/0/1675435203025?e=1793836800&v=beta&t=2mgvUsLdCTMC1VvxULZxHyVSsjz7yZ6l4X56cl-r-M0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_200_200/company-logo_200_200/0/1675435203025?e=1793836800&v=beta&t=mLuwJy1ozXtTZbk_sWIWxIVXW8v0QnsVKlTxZjNXqeY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEBTBhI96-4kA/company-logo_100_100/company-logo_100_100/0/1675435203025?e=1793836800&v=beta&t=iMJvHtnpPpEBhsNWBhnmIipF4wpHLykfiunm5lFuKtU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/28814/",
+    "schoolName": "Lakeland Community College",
+    "degreeName": "Associate's Degree",
+    "fieldOfStudy": "Biotechnology",
+    "timePeriod": {
+     "startDate": {
+      "year": 2012
+     },
+     "endDate": {
+      "year": 2014
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/28814/",
+    "schoolId": "28814",
+    "degree": "Associate's Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2012
+    },
+    "endDate": {
+     "year": 2014
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_100_100/B56ZstboHbGsAQ-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=YWqFScx1By5JDZdqTrByfipAdnRGypveW3SixN-IIYg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_200_200/B56ZstboHbGsAI-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=sBnFw_8jS1To_OzY6oHZLbqcpTa046ytO6y5k99Sm_g",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_400_400/B56ZstboHbGsAY-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=8qcUVjLlFbyUOxkPnwktPyXPneoA5CQDuUta_H99hdo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_200_200/B56ZstboHbGsAI-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=sBnFw_8jS1To_OzY6oHZLbqcpTa046ytO6y5k99Sm_g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFa_Rmvn-l75w/company-logo_100_100/B56ZstboHbGsAQ-/0/1765993775885/western_governors_university_logo?e=1793836800&v=beta&t=YWqFScx1By5JDZdqTrByfipAdnRGypveW3SixN-IIYg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/14084/",
+    "schoolName": "Western Governors University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/14084/",
+    "schoolId": "14084",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2019
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517064959360?e=1793836800&v=beta&t=_6-hevP019p1hLA9zgiv-3gSNoGW1E5kM2LVxgMllzI",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517064959316?e=1793836800&v=beta&t=OfohCiBB1vJV049JIeRA-BpC7JpDFSftLWrZ7TfhFLk",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517064959316?e=1793836800&v=beta&t=OfohCiBB1vJV049JIeRA-BpC7JpDFSftLWrZ7TfhFLk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517064959316?e=1793836800&v=beta&t=OfohCiBB1vJV049JIeRA-BpC7JpDFSftLWrZ7TfhFLk",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQFXmy38ogMjfA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517064959360?e=1793836800&v=beta&t=_6-hevP019p1hLA9zgiv-3gSNoGW1E5kM2LVxgMllzI",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/eric-cleek"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T21:42:02.743Z",
+ "foundBy": null
+}

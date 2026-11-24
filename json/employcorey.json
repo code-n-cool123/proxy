@@ -1,0 +1,1688 @@
+{
+ "slug": "employcorey",
+ "inputUrl": "https://www.linkedin.com/in/employcorey",
+ "fetchedAt": "2026-10-22T17:55:36.352Z",
+ "id": "6ada4e1843db4c7cf61432e0",
+ "url": "https://www.linkedin.com/in/employcorey",
+ "profile": {
+  "created": 1335893825000,
+  "trackingId": "S21FmwVIRmOXwar4C5riug==",
+  "firstName": "Corey",
+  "lastName": "Smith",
+  "pronoun": null,
+  "versionTag": "1645581306",
+  "headline": "Senior Embedded Software Engineer",
+  "publicIdentifier": "employcorey",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "182075423",
+  "profileId": "ACoAAAraQB8BC_yQHySKmnv4ObxXs1plDvE9rnU",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104472865",
+  "geoLocationName": "Austin, Texas, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Senior embedded software engineer with a pragmatic, risk-aware approach to building and maintaining hardware-integrated systems. Comfortable working across RTOS and embedded Linux environments, from rapid prototyping to production deployment, developing long-running software under uptime, fault-tolerance, and compatibility constraints. Applies disciplined triage and tradeoff-driven engineering in systems where reliability, fault tolerance, and correctness materially matter.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Austin, Texas, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "Skills: C++11 · Embedded C · Embedded C++",
+    "company": {
+     "url": "https://www.linkedin.com/company/497963/",
+     "name": "Neosem Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A"
+     }
+    }
+   },
+   {
+    "title": "Contract Embedded Systems Engineer",
+    "locationName": "Remote (Austin, TX) · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- FIDO2 Authentication System: Designed and implemented sample FIDO2/CTAP2 authentication flow over Bluetooth LE for Nordic nRF52/nRF54 development kits using Zephyr RTOS. Developed GATT service models with mocked presence detection, authentication, and secure enclave interfaces to support production implementation.\n- Biometric Sensor Pipeline: Adapted external reference driver and algorithm into embedded heart-rate monitoring pipeline. Processed optical I2C PPG sensor data into heartbeat and SpO2 observations, transmitted via BLE GATT Heart Rate Profile.\n- Development Process: Utilized AI-assisted development workflows (Augment) to accelerate prototyping, debugging, and automated test generation with focus on behavioral validation.\n- Engineering Coordination: Established engineering documentation frameworks for requirements gathering, feasibility assessment, and design. Supported project planning and timeline estimation using Asana. Surfaced technical risks and dependencies.",
+    "insights": "Skills: C · Bluetooth Low Energy · Zephyr · Embedded C · Real-Time Operating Systems (RTOS) · Requirements Gathering · Microcontrollers",
+    "company": {
+     "url": "",
+     "name": "Remote Early-stage biometric wearables startup",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Personal goal pursuit",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "I took a sabbatical to explore many interests, of which the most salient are agentic AI tools and workflows for personal experiments and hobbyist embedded projects primarily within the ESP32 family.",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 yrs 10 mos",
+    "description": "- Developed Modern C++ (C++11/17) daemons and applications for ARM (i.MX 6) hardware platform running Linux (Yocto Poky).\n- Implemented and debugged features supporting ingress of MPEG-2 MPTS streams from a variety of tuner types, separating into user configurable selection of SPTS streams, processing multiple pipeline stages including CAS / encryption stages, and egress via a variety of output modulation types.\n- De facto owner of the software update and synchronization system for heterogeneous blade platforms on an Ethernet backplane. Extended an existing update framework to support a new base platform (Core i7) while preserving secure boot and backward compatibility. Designed an elected-master synchronization mechanism in which any blade could assume the master role and enforce firmware version consistency across non-master blades, maintaining compatible RPC interfaces across mixed hardware and software generations.\n- Implemented back end support for web client user interface (cgicc).\n- Worked within large, multi-repository embedded Linux codebases composed of nearly 100 cooperating daemons, using Git with shared submodules and supported by CI/CD pipelines (Jenkins, Bamboo) and Atlassian tooling (Jira, Bitbucket, Confluence).\n- Configured and modified BitBake recipes for Yocto Poky Linux build and environment for multiple platforms.\n- DVB / MPEG-2 and general CAS understanding required to debug video streams throughout VLAN segregated Ethernet pipeline.\n- Fuzzed with AFL. Linted with clang-tidy. Followed CppCoreGuidelines. Wrote design and architecture documentation in Confluence and project Markdown, including UML diagrams and Doxygen-style code comments. Provided guidance for junior team members and wrote/updated unit tests with Google Test.",
+    "insights": "Skills: C++ · Embedded Software",
+    "company": {
+     "url": "https://www.linkedin.com/company/866959/",
+     "name": "ATX Networks Corp.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So"
+     }
+    }
+   },
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Developed real-time embedded firmware using RTOS (Keil RTX) in C and C++ for STM32 ARM based industrial weight and process products.\n- Provided software requirements input for hardware design. Performed software hardware validation. Made purchasing decisions for software tools, middleware, and hardware tools, considering cost, schedule, and risks.\n- Developed firmware for LCD display connecting to up to 4 weight processors as master over RS-485 network. Collaborated on requirements for, designed, and implemented multilingual 5 button input interface in C with OOMVC design.\n- Designed unique 64 bit product code specification and library including custom algorithm for discovering unknown devices on RS-485 network. Designed proprietary network protocol (HardyNet API) and wrote ANSI C abstraction layer for distributed modular weight controller system with real-time requirements.\n- Captured signal timings on DSO and signal stream data sets for bus timing and analyzing sensor signal conditioning validation. Discovered graphic driver IC scrolling feature exploit for implementing back buffering for smooth animation.\n- Meeting leadership oriented goals led to promotion from Senior Software Engineer to Staff Software Engineer and software Team Lead. Improved intradepartmental and interdepartmental processes, procedures, and communication: team reduced incidence of software field issues and regressions by ~85%, reduced production labor costs with automated software tools, and reduced software QA overhead and load by implementing internal test procedures that minimize the number of required test iterations for release.\n- Worked on initial CAN-based DeviceNet communication interface development, gaining exposure to CAN bus protocol fundamentals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/55508/",
+     "name": "Hardy Process Solutions",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Debugged and enhanced Python data acquisition and display application for EEG and ECG biometric data. Enhanced efficiency of data pipeline and signal processing.\n- Translated real time artifact and noise reduction in EEG algorithm from MATLAB prototype to Python using NumPy library. Adapted algorithm from accepting entirety of signal data as input to accepting data in real time and integrated into Python data acquisition application.\n- Conducted experiments and analyzed data using MATLAB and Igor Pro to validate and quantify efficacy of artifact reduction algorithm and its impact on cognitive state classification on noisy data. Frequently produced formatted data sets and visualizations of experimental data in Igor Pro and Matlab to assist in validation and analysis.",
+    "company": {
+     "url": "https://www.linkedin.com/company/17774727/",
+     "name": "QUASAR Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q"
+     }
+    }
+   },
+   {
+    "title": "Project Manager / Scripter",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "- Improved Visual Basic mailing application that interacts with Postgres and Oracle databases.\n- Programmed CATI and on-line surveys using custom scripting languages and Perl.\n- Awarded certificate of recognition for improving processes and procedures.",
+    "company": {
+     "url": "",
+     "name": "Luth Research",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Video Game Tester",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and tracked bugs for Twisted Metal Black Online",
+    "company": {
+     "url": "",
+     "name": "Sony Computer Entertainment America, Inc.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Contractor",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2001
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Refactored and compiled Quick Basic utility for technical support reps to use on site diagnosing high potential flash device. \n- Translated utility functionality and interface into large C++ software system. Created interface for touch screen display in MFC, responding to events detected polling the device bus.\n- Collected data and produced visualization for calibrating ideal pass fail conditions for high potential flash test on capacitors.",
+    "company": {
+     "url": "",
+     "name": "Electo Scientific Industries, Inc.",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=MXCAoPc6iBs8kcU-OvN-gl2-taozTeJKVQvGy0_IoPQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_100_100/company-logo_100_100/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=YdGSGiaXvcN5uJnhwK9HEIP06JBO7vCAzNg5lpTtYvc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3382/",
+    "schoolName": "UC San Diego",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_400_400/B4EZ_J29PQH4AY-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=viDa4gLmx7YOfMyYjb0sZ-9L5RWzX0e1V60VJthOKOU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_200_200/B4EZ_J29PQH4AI-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=j864h8WPf-Pw6UBpy3Qxggqf-afbxx5dOAz-NROJd4U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_100_100/B4EZ_J29PQH4AM-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=XQUJ7nRN_zDLO6WASRjzFbNfZCjwykgBLvWe-6b73jU"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/320033/",
+    "schoolName": "MiraCosta College",
+    "degreeName": "Associate of Science (A.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2008
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Global Game Jam 2017 - Frequency Fighter",
+    "description": "• Teamed up with 6 fellow game development enthusiasts to create a game based Using Unity3D.\n• This years theme was waves; I contributed programming for the wave generation and collision detection in our side scrolling space shooter: Frequency Fighter\n• Team members met each other and produced our game in 48 hours.\n• Filled in other incidental programming tasks and assisted in resolving bugs with pair programming.",
+    "dateRange": {},
+    "associatedWith": "Jan 2017 - Present"
+   },
+   {
+    "title": "Beast Mode Game",
+    "description": "• Our 10 week project had restrictions on the use of libraries and we needed to develop our own solution for the terrain of our game’s world. I designed and implemented an algorithm to generate geometry for the terrain of our game from a bitmap. We wanted something a bit more interesting than a height map, capable of creating vertical faces and ramps, simple to edit, efficient enough for our purposes, and simple enough to program within the allotted time frame.\n• Each pixel of the height map was used to generate a 3x3 patch of vertices, interpolating between the height of the center vertices of each patch. If the delta of the interpolated heights exceeded a threshold, the center height was used and a vertical face was created. A conditioning pass removed sliver like faces.\n• I wrote corresponding rendering and collision detection code for the terrain and implemented sliding.",
+    "dateRange": {},
+    "associatedWith": "Apr 2011 - Jun 2011"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Neosem Inc.",
+  "companyPublicId": "neosem-inc.",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/neosem-inc./",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:497963",
+   "name": "Neosem Inc.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQFyj315vjhygA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_"
+    }
+   },
+   "universalName": "neosem-inc.",
+   "url": "https://www.linkedin.com/company/neosem-inc./",
+   "slug": "neosem-inc.",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+   "specialties": []
+  },
+  "followerCount": 164,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 152,
+  "skills": [
+   {
+    "name": "Bluetooth Low Energy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Zephyr",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Requirements Gathering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microcontrollers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Yocto Project",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CMake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Zephyr",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Requirements Gathering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microcontrollers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CMake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++11",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Boost C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LLVM",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GNU Compiler Collection (GCC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Atlassian Suite",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Confluence",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unit Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bluetooth Low Energy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Yocto Project",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded C",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JIRA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bitbucket",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/employcorey",
+  "linkedinUrl": "https://www.linkedin.com/in/employcorey",
+  "profileUrl": "https://www.linkedin.com/in/employcorey",
+  "verified": true,
+  "registeredAt": "2012-05-01T17:37:05.000Z",
+  "location": {
+   "linkedinText": "Austin, Texas, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Austin, Texas, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Senior embedded software engineer with a pragmatic, risk-aware approach to building and maintaining hardware-integrated systems. Comfortable working across RTOS and embedded Linux environments, from rapid prototyping to production deployment, developing long-running software under uptime, fault-tolerance, and compatibility constraints. Applies disciplined triage and tradeoff-driven engineering in systems where reliability, fault tolerance, and correctness materially matter.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Contract Embedded Systems Engineer",
+   "Personal goal pursuit",
+   "Embedded Software Engineer",
+   "Staff Software Engineer",
+   "Software Engineer",
+   "Project Manager / Scripter",
+   "Video Game Tester",
+   "Software Contractor"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Austin, Texas, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "Skills: C++11 · Embedded C · Embedded C++",
+    "company": {
+     "url": "https://www.linkedin.com/company/497963/",
+     "name": "Neosem Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Neosem Inc.",
+    "location": "Austin, Texas, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/497963/",
+    "companyId": "497963",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Contract Embedded Systems Engineer",
+    "locationName": "Remote (Austin, TX) · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- FIDO2 Authentication System: Designed and implemented sample FIDO2/CTAP2 authentication flow over Bluetooth LE for Nordic nRF52/nRF54 development kits using Zephyr RTOS. Developed GATT service models with mocked presence detection, authentication, and secure enclave interfaces to support production implementation.\n- Biometric Sensor Pipeline: Adapted external reference driver and algorithm into embedded heart-rate monitoring pipeline. Processed optical I2C PPG sensor data into heartbeat and SpO2 observations, transmitted via BLE GATT Heart Rate Profile.\n- Development Process: Utilized AI-assisted development workflows (Augment) to accelerate prototyping, debugging, and automated test generation with focus on behavioral validation.\n- Engineering Coordination: Established engineering documentation frameworks for requirements gathering, feasibility assessment, and design. Supported project planning and timeline estimation using Asana. Surfaced technical risks and dependencies.",
+    "insights": "Skills: C · Bluetooth Low Energy · Zephyr · Embedded C · Real-Time Operating Systems (RTOS) · Requirements Gathering · Microcontrollers",
+    "company": {
+     "url": "",
+     "name": "Remote Early-stage biometric wearables startup",
+     "logo": {}
+    },
+    "position": "Contract Embedded Systems Engineer",
+    "companyName": "Remote Early-stage biometric wearables startup",
+    "location": "Remote (Austin, TX) · Remote",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Personal goal pursuit",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "I took a sabbatical to explore many interests, of which the most salient are agentic AI tools and workflows for personal experiments and hobbyist embedded projects primarily within the ESP32 family.",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Personal goal pursuit",
+    "companyName": "Career Break",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 yrs 10 mos",
+    "description": "- Developed Modern C++ (C++11/17) daemons and applications for ARM (i.MX 6) hardware platform running Linux (Yocto Poky).\n- Implemented and debugged features supporting ingress of MPEG-2 MPTS streams from a variety of tuner types, separating into user configurable selection of SPTS streams, processing multiple pipeline stages including CAS / encryption stages, and egress via a variety of output modulation types.\n- De facto owner of the software update and synchronization system for heterogeneous blade platforms on an Ethernet backplane. Extended an existing update framework to support a new base platform (Core i7) while preserving secure boot and backward compatibility. Designed an elected-master synchronization mechanism in which any blade could assume the master role and enforce firmware version consistency across non-master blades, maintaining compatible RPC interfaces across mixed hardware and software generations.\n- Implemented back end support for web client user interface (cgicc).\n- Worked within large, multi-repository embedded Linux codebases composed of nearly 100 cooperating daemons, using Git with shared submodules and supported by CI/CD pipelines (Jenkins, Bamboo) and Atlassian tooling (Jira, Bitbucket, Confluence).\n- Configured and modified BitBake recipes for Yocto Poky Linux build and environment for multiple platforms.\n- DVB / MPEG-2 and general CAS understanding required to debug video streams throughout VLAN segregated Ethernet pipeline.\n- Fuzzed with AFL. Linted with clang-tidy. Followed CppCoreGuidelines. Wrote design and architecture documentation in Confluence and project Markdown, including UML diagrams and Doxygen-style code comments. Provided guidance for junior team members and wrote/updated unit tests with Google Test.",
+    "insights": "Skills: C++ · Embedded Software",
+    "company": {
+     "url": "https://www.linkedin.com/company/866959/",
+     "name": "ATX Networks Corp.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "ATX Networks Corp.",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/866959/",
+    "companyId": "866959",
+    "duration": "7 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Developed real-time embedded firmware using RTOS (Keil RTX) in C and C++ for STM32 ARM based industrial weight and process products.\n- Provided software requirements input for hardware design. Performed software hardware validation. Made purchasing decisions for software tools, middleware, and hardware tools, considering cost, schedule, and risks.\n- Developed firmware for LCD display connecting to up to 4 weight processors as master over RS-485 network. Collaborated on requirements for, designed, and implemented multilingual 5 button input interface in C with OOMVC design.\n- Designed unique 64 bit product code specification and library including custom algorithm for discovering unknown devices on RS-485 network. Designed proprietary network protocol (HardyNet API) and wrote ANSI C abstraction layer for distributed modular weight controller system with real-time requirements.\n- Captured signal timings on DSO and signal stream data sets for bus timing and analyzing sensor signal conditioning validation. Discovered graphic driver IC scrolling feature exploit for implementing back buffering for smooth animation.\n- Meeting leadership oriented goals led to promotion from Senior Software Engineer to Staff Software Engineer and software Team Lead. Improved intradepartmental and interdepartmental processes, procedures, and communication: team reduced incidence of software field issues and regressions by ~85%, reduced production labor costs with automated software tools, and reduced software QA overhead and load by implementing internal test procedures that minimize the number of required test iterations for release.\n- Worked on initial CAN-based DeviceNet communication interface development, gaining exposure to CAN bus protocol fundamentals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/55508/",
+     "name": "Hardy Process Solutions",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4"
+     }
+    },
+    "position": "Staff Software Engineer",
+    "companyName": "Hardy Process Solutions",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/55508/",
+    "companyId": "55508",
+    "duration": "3 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Debugged and enhanced Python data acquisition and display application for EEG and ECG biometric data. Enhanced efficiency of data pipeline and signal processing.\n- Translated real time artifact and noise reduction in EEG algorithm from MATLAB prototype to Python using NumPy library. Adapted algorithm from accepting entirety of signal data as input to accepting data in real time and integrated into Python data acquisition application.\n- Conducted experiments and analyzed data using MATLAB and Igor Pro to validate and quantify efficacy of artifact reduction algorithm and its impact on cognitive state classification on noisy data. Frequently produced formatted data sets and visualizations of experimental data in Igor Pro and Matlab to assist in validation and analysis.",
+    "company": {
+     "url": "https://www.linkedin.com/company/17774727/",
+     "name": "QUASAR Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "QUASAR Inc.",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17774727/",
+    "companyId": "17774727",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2012
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Project Manager / Scripter",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "- Improved Visual Basic mailing application that interacts with Postgres and Oracle databases.\n- Programmed CATI and on-line surveys using custom scripting languages and Perl.\n- Awarded certificate of recognition for improving processes and procedures.",
+    "company": {
+     "url": "",
+     "name": "Luth Research",
+     "logo": {}
+    },
+    "position": "Project Manager / Scripter",
+    "companyName": "Luth Research",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2002
+    },
+    "endDate": {
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Video Game Tester",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and tracked bugs for Twisted Metal Black Online",
+    "company": {
+     "url": "",
+     "name": "Sony Computer Entertainment America, Inc.",
+     "logo": {}
+    },
+    "position": "Video Game Tester",
+    "companyName": "Sony Computer Entertainment America, Inc.",
+    "location": "San Diego County, California, United States",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2002
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2002
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Contractor",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2001
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Refactored and compiled Quick Basic utility for technical support reps to use on site diagnosing high potential flash device. \n- Translated utility functionality and interface into large C++ software system. Created interface for touch screen display in MFC, responding to events detected polling the device bus.\n- Collected data and produced visualization for calibrating ideal pass fail conditions for high potential flash test on capacitors.",
+    "company": {
+     "url": "",
+     "name": "Electo Scientific Industries, Inc.",
+     "logo": {}
+    },
+    "position": "Software Contractor",
+    "companyName": "Electo Scientific Industries, Inc.",
+    "location": "San Diego County, California, United States",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2001
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "497963",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/497963/",
+    "companyName": "Neosem Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Austin, Texas, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 mos",
+    "description": "Skills: C++11 · Embedded C · Embedded C++",
+    "company": {
+     "url": "https://www.linkedin.com/company/497963/",
+     "name": "Neosem Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Neosem Inc.",
+    "location": "Austin, Texas, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/497963/",
+    "companyId": "497963",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_400_400/company-logo_400_400/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=bpmqJQs5k61FZ-XeGxGMmT3k-lEwEgBM4_rI01fs29A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_200_200/company-logo_200_200/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=ALZ_ev_twnFcC1ROTv2frO0vIj5T1w6f1JI2DU_X9Tc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFyj315vjhygA/company-logo_100_100/company-logo_100_100/0/1702337551488/neosem_inc_logo?e=1794441600&v=beta&t=0hLj9-8O6nrKZ8YdSEECM4EhGN-TquKkb6_OyXzblSY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Contract Embedded Systems Engineer",
+    "locationName": "Remote (Austin, TX) · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- FIDO2 Authentication System: Designed and implemented sample FIDO2/CTAP2 authentication flow over Bluetooth LE for Nordic nRF52/nRF54 development kits using Zephyr RTOS. Developed GATT service models with mocked presence detection, authentication, and secure enclave interfaces to support production implementation.\n- Biometric Sensor Pipeline: Adapted external reference driver and algorithm into embedded heart-rate monitoring pipeline. Processed optical I2C PPG sensor data into heartbeat and SpO2 observations, transmitted via BLE GATT Heart Rate Profile.\n- Development Process: Utilized AI-assisted development workflows (Augment) to accelerate prototyping, debugging, and automated test generation with focus on behavioral validation.\n- Engineering Coordination: Established engineering documentation frameworks for requirements gathering, feasibility assessment, and design. Supported project planning and timeline estimation using Asana. Surfaced technical risks and dependencies.",
+    "insights": "Skills: C · Bluetooth Low Energy · Zephyr · Embedded C · Real-Time Operating Systems (RTOS) · Requirements Gathering · Microcontrollers",
+    "company": {
+     "url": "",
+     "name": "Remote Early-stage biometric wearables startup",
+     "logo": {}
+    },
+    "position": "Contract Embedded Systems Engineer",
+    "companyName": "Remote Early-stage biometric wearables startup",
+    "location": "Remote (Austin, TX) · Remote",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Personal goal pursuit",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "I took a sabbatical to explore many interests, of which the most salient are agentic AI tools and workflows for personal experiments and hobbyist embedded projects primarily within the ESP32 family.",
+    "company": {
+     "url": "",
+     "name": "Career Break",
+     "logo": {}
+    },
+    "position": "Personal goal pursuit",
+    "companyName": "Career Break",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 yrs 10 mos",
+    "description": "- Developed Modern C++ (C++11/17) daemons and applications for ARM (i.MX 6) hardware platform running Linux (Yocto Poky).\n- Implemented and debugged features supporting ingress of MPEG-2 MPTS streams from a variety of tuner types, separating into user configurable selection of SPTS streams, processing multiple pipeline stages including CAS / encryption stages, and egress via a variety of output modulation types.\n- De facto owner of the software update and synchronization system for heterogeneous blade platforms on an Ethernet backplane. Extended an existing update framework to support a new base platform (Core i7) while preserving secure boot and backward compatibility. Designed an elected-master synchronization mechanism in which any blade could assume the master role and enforce firmware version consistency across non-master blades, maintaining compatible RPC interfaces across mixed hardware and software generations.\n- Implemented back end support for web client user interface (cgicc).\n- Worked within large, multi-repository embedded Linux codebases composed of nearly 100 cooperating daemons, using Git with shared submodules and supported by CI/CD pipelines (Jenkins, Bamboo) and Atlassian tooling (Jira, Bitbucket, Confluence).\n- Configured and modified BitBake recipes for Yocto Poky Linux build and environment for multiple platforms.\n- DVB / MPEG-2 and general CAS understanding required to debug video streams throughout VLAN segregated Ethernet pipeline.\n- Fuzzed with AFL. Linted with clang-tidy. Followed CppCoreGuidelines. Wrote design and architecture documentation in Confluence and project Markdown, including UML diagrams and Doxygen-style code comments. Provided guidance for junior team members and wrote/updated unit tests with Google Test.",
+    "insights": "Skills: C++ · Embedded Software",
+    "company": {
+     "url": "https://www.linkedin.com/company/866959/",
+     "name": "ATX Networks Corp.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "ATX Networks Corp.",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/866959/",
+    "companyId": "866959",
+    "duration": "7 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_400_400/company-logo_400_400/0/1698176851537/atx_logo?e=1794441600&v=beta&t=s2MXu8gLpEiVREugnR-FWlrFnz6JvMTzIiosH_Vg-So",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_200_200/company-logo_200_200/0/1698176851537/atx_logo?e=1794441600&v=beta&t=RlgK7yfG0pM8GVgXGicxhTp2K0C9bW7T2TRwhftpUoQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGNoy6a5nBsSw/company-logo_100_100/company-logo_100_100/0/1698176851537/atx_logo?e=1794441600&v=beta&t=x_zg4wXUPK5e0Mv5NxWvY_y6pM2fb3jyNJB6cyF4g8g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Developed real-time embedded firmware using RTOS (Keil RTX) in C and C++ for STM32 ARM based industrial weight and process products.\n- Provided software requirements input for hardware design. Performed software hardware validation. Made purchasing decisions for software tools, middleware, and hardware tools, considering cost, schedule, and risks.\n- Developed firmware for LCD display connecting to up to 4 weight processors as master over RS-485 network. Collaborated on requirements for, designed, and implemented multilingual 5 button input interface in C with OOMVC design.\n- Designed unique 64 bit product code specification and library including custom algorithm for discovering unknown devices on RS-485 network. Designed proprietary network protocol (HardyNet API) and wrote ANSI C abstraction layer for distributed modular weight controller system with real-time requirements.\n- Captured signal timings on DSO and signal stream data sets for bus timing and analyzing sensor signal conditioning validation. Discovered graphic driver IC scrolling feature exploit for implementing back buffering for smooth animation.\n- Meeting leadership oriented goals led to promotion from Senior Software Engineer to Staff Software Engineer and software Team Lead. Improved intradepartmental and interdepartmental processes, procedures, and communication: team reduced incidence of software field issues and regressions by ~85%, reduced production labor costs with automated software tools, and reduced software QA overhead and load by implementing internal test procedures that minimize the number of required test iterations for release.\n- Worked on initial CAN-based DeviceNet communication interface development, gaining exposure to CAN bus protocol fundamentals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/55508/",
+     "name": "Hardy Process Solutions",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4"
+     }
+    },
+    "position": "Staff Software Engineer",
+    "companyName": "Hardy Process Solutions",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/55508/",
+    "companyId": "55508",
+    "duration": "3 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_400_400/B56aClb.HAHUAY-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=dbxGfjyRn8_Q9Gwm_C2G3hBX2Z2v6nR_LgS9Z-OsMe8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_200_200/B56aClb.HAHUAI-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=S4AzTSrU3QIWp4vTjr5U8BdyN-AW_rB2fJI3jQR96r4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEQRW_i3sfytA/company-logo_100_100/B56aClb.HAHUAM-/0/1789481968434/hardy_process_solutions_logo?e=1794441600&v=beta&t=QPw0OkH_hMk01E7gjlwrmri_fackatJVanDiHCuvd_w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Debugged and enhanced Python data acquisition and display application for EEG and ECG biometric data. Enhanced efficiency of data pipeline and signal processing.\n- Translated real time artifact and noise reduction in EEG algorithm from MATLAB prototype to Python using NumPy library. Adapted algorithm from accepting entirety of signal data as input to accepting data in real time and integrated into Python data acquisition application.\n- Conducted experiments and analyzed data using MATLAB and Igor Pro to validate and quantify efficacy of artifact reduction algorithm and its impact on cognitive state classification on noisy data. Frequently produced formatted data sets and visualizations of experimental data in Igor Pro and Matlab to assist in validation and analysis.",
+    "company": {
+     "url": "https://www.linkedin.com/company/17774727/",
+     "name": "QUASAR Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "QUASAR Inc.",
+    "location": "San Diego County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17774727/",
+    "companyId": "17774727",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2012
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_400_400/B56Zb5tChTHwAY-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=gwZPSj9TvdDDKJeZ-N8-TQQKEO8USorBRCpAJMGjPl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_200_200/B56Zb5tChTHwAI-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=x3VIN4qYtEvAxdoqzoh2QEQ0tGNsLXKWInL26QfFQzM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG-r1SQwqTr4g/company-logo_100_100/B56Zb5tChTHwAQ-/0/1747946056047/quantum_applied_science__research_quasar_inc_logo?e=1794441600&v=beta&t=tihQxmKLGrFDPlXfwxHTfcJOQ15Ds9Om7ckmpWXgy8Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Project Manager / Scripter",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "- Improved Visual Basic mailing application that interacts with Postgres and Oracle databases.\n- Programmed CATI and on-line surveys using custom scripting languages and Perl.\n- Awarded certificate of recognition for improving processes and procedures.",
+    "company": {
+     "url": "",
+     "name": "Luth Research",
+     "logo": {}
+    },
+    "position": "Project Manager / Scripter",
+    "companyName": "Luth Research",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2002
+    },
+    "endDate": {
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Video Game Tester",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and tracked bugs for Twisted Metal Black Online",
+    "company": {
+     "url": "",
+     "name": "Sony Computer Entertainment America, Inc.",
+     "logo": {}
+    },
+    "position": "Video Game Tester",
+    "companyName": "Sony Computer Entertainment America, Inc.",
+    "location": "San Diego County, California, United States",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2002
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2002
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Contractor",
+    "locationName": "San Diego County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2001
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Refactored and compiled Quick Basic utility for technical support reps to use on site diagnosing high potential flash device. \n- Translated utility functionality and interface into large C++ software system. Created interface for touch screen display in MFC, responding to events detected polling the device bus.\n- Collected data and produced visualization for calibrating ideal pass fail conditions for high potential flash test on capacitors.",
+    "company": {
+     "url": "",
+     "name": "Electo Scientific Industries, Inc.",
+     "logo": {}
+    },
+    "position": "Software Contractor",
+    "companyName": "Electo Scientific Industries, Inc.",
+    "location": "San Diego County, California, United States",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2001
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=MXCAoPc6iBs8kcU-OvN-gl2-taozTeJKVQvGy0_IoPQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_100_100/company-logo_100_100/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=YdGSGiaXvcN5uJnhwK9HEIP06JBO7vCAzNg5lpTtYvc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=MXCAoPc6iBs8kcU-OvN-gl2-taozTeJKVQvGy0_IoPQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_100_100/company-logo_100_100/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=YdGSGiaXvcN5uJnhwK9HEIP06JBO7vCAzNg5lpTtYvc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3382/",
+    "schoolName": "UC San Diego",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3382/",
+    "schoolId": "3382",
+    "degree": "Bachelor’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2011
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_400_400/B4EZ_J29PQH4AY-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=viDa4gLmx7YOfMyYjb0sZ-9L5RWzX0e1V60VJthOKOU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_200_200/B4EZ_J29PQH4AI-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=j864h8WPf-Pw6UBpy3Qxggqf-afbxx5dOAz-NROJd4U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_100_100/B4EZ_J29PQH4AM-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=XQUJ7nRN_zDLO6WASRjzFbNfZCjwykgBLvWe-6b73jU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_400_400/B4EZ_J29PQH4AY-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=viDa4gLmx7YOfMyYjb0sZ-9L5RWzX0e1V60VJthOKOU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_400_400/B4EZ_J29PQH4AY-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=viDa4gLmx7YOfMyYjb0sZ-9L5RWzX0e1V60VJthOKOU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_200_200/B4EZ_J29PQH4AI-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=j864h8WPf-Pw6UBpy3Qxggqf-afbxx5dOAz-NROJd4U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH5HYEvN-ed2w/company-logo_100_100/B4EZ_J29PQH4AM-/0/1785798055113/miracosta_college_logo?e=1794441600&v=beta&t=XQUJ7nRN_zDLO6WASRjzFbNfZCjwykgBLvWe-6b73jU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/320033/",
+    "schoolName": "MiraCosta College",
+    "degreeName": "Associate of Science (A.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/320033/",
+    "schoolId": "320033",
+    "degree": "Associate of Science (A.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2008
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=MXCAoPc6iBs8kcU-OvN-gl2-taozTeJKVQvGy0_IoPQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_100_100/company-logo_100_100/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=YdGSGiaXvcN5uJnhwK9HEIP06JBO7vCAzNg5lpTtYvc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_400_400/company-logo_400_400/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=oug9YtzC2dM_1OqOulnf_mSReD3b_2S-U4kGfj29cyQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_200_200/company-logo_200_200/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=MXCAoPc6iBs8kcU-OvN-gl2-taozTeJKVQvGy0_IoPQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQYa-3EY_aaQ/company-logo_100_100/company-logo_100_100/0/1630633790917/university_of_california_at_san_diego_logo?e=1794441600&v=beta&t=YdGSGiaXvcN5uJnhwK9HEIP06JBO7vCAzNg5lpTtYvc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3382/",
+    "schoolName": "UC San Diego",
+    "degreeName": "Bachelor’s Degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3382/",
+    "schoolId": "3382",
+    "degree": "Bachelor’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/employcorey"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T17:55:21.480Z",
+ "foundBy": null
+}

@@ -1,0 +1,2260 @@
+{
+ "slug": "manedurphy",
+ "inputUrl": "https://www.linkedin.com/in/manedurphy",
+ "fetchedAt": "2026-11-10T21:55:19.664Z",
+ "id": "6af392c7af440f0df0ab9632",
+ "url": "https://www.linkedin.com/in/manedurphy",
+ "profile": {
+  "created": 1505934959037,
+  "trackingId": "AMjNzJEGQAKz7oXGT9HufQ==",
+  "firstName": "Dane",
+  "lastName": "Murphy",
+  "pronoun": null,
+  "versionTag": "1747201826",
+  "headline": "Embedded Software Engineer | RDK-B | C/C++ | Golang",
+  "publicIdentifier": "manedurphy",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "600641391",
+  "profileId": "ACoAACPND28BeVmq5xE4vSzX-fN_oqEIJHkXO3M",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_350_1400/B56Z5dElotHwAU-/0/1779677944597?e=1795651200&v=beta&t=wD25jiTls_Nqy7HdWKLizSOLaczbgz8I9Z2Xw4UDfKc",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_200_800/B56Z5dElotHwAQ-/0/1779677944597?e=1795651200&v=beta&t=3Dhf3KHTiFY45JQ1fSW8AHY-gJ7_spuos8fQh3Ezi7M"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104119503",
+  "geoLocationName": "Sunnyvale, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "Passion-driven Software Engineer with 5+ years of industry experience at Comcast and pursuing a Master's degree in Computer Science at Georgia Institute of Technology. My engineering journey began at the Hack Reactor web development bootcamp where I built a foundation in high-level applications, eventually expanding into cloud infrastructure and distributed systems.\n\nHowever, my true interests lie closer to the metal. Transitioning to embedded Linux sparked a deep fascination for low-level systems, alongside a stronger appreciation for the software abstractions we take advantage of daily and the math and science that power them. Having built complex architectures, I have come to appreciate how valuable the simplest solutions are. Choosing simplicity is what empowers us to solve more problems, and I believe that technology is a tool meant to solve genuine human problems, not create more of them.\n\nMy professional roles only tell part of the story. Outside of work, I run my own offsite home lab, self-hosting services for myself, friends, and family. This environment serves as my engineering sandbox, giving me relentless hands-on experience to test new architectures and technologies, as well as solidify my skills in networking, infrastructure automation, and system maintainability.\n\nWebsite: https://manedurphy.dev\nBlog: https://blog.manedurphy.dev\nGitHub: https://github.com/manedurphy",
+  "positions": [
+   {
+    "company": {
+     "name": "Comcast",
+     "url": "https://www.linkedin.com/company/1703/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Embedded Software Engineer",
+      "locationName": "Sunnyvale, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2026
+       },
+       "endDate": null
+      },
+      "totalDuration": "11 mos",
+      "description": "• RDK-B core gateway development\n\n• Refactored the RDK-B native Docker and Coverity  scanning pipelines, implementing Git submodules to centralize CI scripts  and reduce maintenance overhead across multiple repositories       \n                            \n• Proposed and implemented ZRAM  swap partitions on XB8 gateway devices to mitigate kernel panic reboots  caused by memory exhaustion prior to scheduled reboots, including  writing a stress-testing Python script to validate device behavior under  varying levels of memory pressure",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer 3",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2026
+       }
+      },
+      "totalDuration": "3 yrs 5 mos",
+      "description": "• Led the onboarding of new multi-gig DOCSIS and PON devices to the platform, involving exploratory analysis to understand device hardware functionalities, and implementing necessary changes in both the cloud-based Control Plane and embedded device data plane applications on Customer Premises Equipment to support higher bandwidth deployments.\n\n• Orchestrated application lifecycle management for heterogeneous CPE hardware using Yocto layers and BitBake recipes. This effort included configuring hardware-specific settings, managing and patching dependencies, and ensuring seamless integration with the overall platform.\n\n• Regularly engage with cross-functional teams to drive projects forward, enhance my understanding of their initiatives, and contribute to continuous learning and knowledge sharing within the company.\n\n• Designed, documented, and executed the creation of a new Golang service within IMP’s Control Plane for orchestrating and scheduling measurements according to the user’s customizable options. Accomplished this crucial initiative as part of onboarding efforts for a prominent syndication partner based in the United Kingdom.\n\n• Led discussions and offered strategic guidance for architectural enhancements in the distributed Control Plane, aimed at reducing complexity and improving the readability and maintainability of the system, written in Golang.\n\n• Established and enforced rigorous coding standards and practices within the Control Plane components, fostering consistency and ensuring comprehensive unit testing for all eligible code segments.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 3 mos",
+      "description": "• Migrated several Golang HTTP client libraries from one GitHub repository that was used interally by the IMP team to one repository per client library. These libraries were then properly versioned via Git tags and GitHub releases, and made available for other teams to use.\n\n• Implemented a new Golang service within the Control Plane’s result management system which receives measurement result data from Customer Premises Equipment (CPE) devices, enriches the data, and ships the data to customer-specified destinations, including Kafka, Amazon Kinesis, and Amazon SNS. This service was implemented with caching and retry logic in order to ensure that result data is never lost. This system is a direct replacement for a legacy service that was written in NodeJS outside of IMP’s Control Plane.\n\n• Developed a RESTful service to simulate the HTTP external systems that IMP depends on for operation. The Client libraries mentioned above inteface with the external systems that these mocked services simulate. This effort decoupled the development of IMP’s Control Plane components from the availability of the external systems, and additionally allowed for us to load test the platform in a controlled environment.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "company": {
+     "name": "Open Source Developer",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+     "logo": {}
+    },
+    "employmentType": null,
+    "totalDuration": "5 yrs 8 mos",
+    "positions": [
+     {
+      "title": "esnet/iperf",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2023
+       },
+       "endDate": null
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "• Bug fix where the use of the --zerocopy flag did not send the expected data to the iperf3 server due to the MAP_PRIVATE option specified in mmap. Changing the option to MAP_SHARED was required to write the expected data to disk before using the sendfile system call.\n\n• Extended the functionality of the --json-stream feature with an additional --json-stream-full flag. The original design of --json-stream, iperf/#1098, specifies that the flag is meant to prevent long-running iperf3 tests from building an ever-growing JSON result object in memory. With the new --json-stream-full flag, users can opt in to still get the final JSON result in addition to the JSON intervals via the --json-stream flag. This is good for applications that want to add hooks to act on those JSON interval events and get a final result object with all test data.\n\n• Added two functions to the libiperf API which allows applications to specify the location of public and private RSA keys via a file path. This is a quality-of-life improvement for developers as the only other option was to base64 encode the values of these keys in memory.\n\n• Added a server-side flag, --server-max-duration, which allows the iperf3 server to limit the duration that clients can run their tests for. Clients that request to run tests for longer than the server’s configured max duration receive a rejection from the server.\n\n• Addressed a bug where duplicate keys were observed in the JSON results output when tests were run with multiple connection streams. This bug would result in a failure when parsing the JSON result with other programming languages and command line tools (e.g. Golang, jq).",
+      "insights": ""
+     },
+     {
+      "title": "kubernetes-sigs/secrets-store-csi-driver",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 8 mos",
+      "description": "• Configuration change which prevents the CSI driver from being scheduled on virtual-kubelet nodes",
+      "insights": ""
+     },
+     {
+      "title": "timothymiller/cloudflare-ddns",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Added a feature which allows the user to configure a CNAME record type for subdomains",
+      "insights": ""
+     },
+     {
+      "title": "openwrt/packages",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "• Update iperf3 package to version 3.19",
+      "insights": ""
+     },
+     {
+      "title": "linode/terraform-provider-linode",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Fixed a bug where the Terraform provider would panic when allocating an additional public IPv4 address to a Linode instance",
+      "insights": ""
+     },
+     {
+      "title": "hashicorp/vault-csi-provider",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Added a feature flag --write_secrets which sends secrets to the Secrets Store driver when set to false",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Private Tutor",
+    "locationName": "Santa Clara County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Provided one-on-one tutoring in math and science for high school students\n\n• Adapted lessons to each student’s learning style and knowledge gaps\n\n• Supported homework, exam prep, and long-term skill development\n\n• Students consistently saw measurable improvements in test scores and overall grades",
+    "insights": "Skills: Individualized Instruction · Tutoring · Mathematics",
+    "company": {
+     "url": "https://www.linkedin.com/company/3791916/",
+     "name": "Study Wizards",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Software Engineering Applications",
+     "url": "https://www.linkedin.com/company/30772164/",
+     "logo": {}
+    },
+    "employmentType": null,
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Rootless Container",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 mo",
+      "description": "• A rootless container built with a series of Linux commands, and a small program in Go that utilizes these native Linux features",
+      "insights": ""
+     },
+     {
+      "title": "Distributed Transaction",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "• The application consists of a frontend user interface that communicates with a distributed backend system\n\n• A customer can create and account, and order items\n\n• The customer must have enough funds in their wallet to place an order\n\n• When a request to place an order is made, the customer receives a response when the record is added the the Orders database, but whether the order is successful depends on the amount of funds available in customer's wallet\n\n• To track the status of the order, another connection is opened between the client and the API Gateway where Server-Sent Events (SSE) are streamed to the client for updates on the order\n\n• When the order fails due to insufficient funds in the customer's wallet, a message is published to the Redis broker from the Customers service that an error occurred, and the Orders service removes the record from its database\n\n• When the order is successful, the Customers service publishes a successful message to the same channel, and the Orders service updates the record's status value from pending to paid\n\n• The outcome of this distributed transaction determines which event is sent to the client\n\n• A customer can add funds to their wallet via the Payments service, where they can add a credit card (a fake one) and use it to add to the value of wallet in the Customers databases for that customer\n\n• Communication between the Payments service and Customers service is also handled asynchronously via the Redis broker",
+      "insights": ""
+     },
+     {
+      "title": "Crypto Charts - A Kubernetes Web Application",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Full-stack web application that gathers information on cryptocurrencies (Bitcoin, Ethereum, Doge) from the crypto compare API, and delivers that data to a frontend which displays the data on charts\n\n• Developed for a Kubernetes environment\n\n• Uses a gRPC gateway to translate between browser and backend",
+      "insights": ""
+     },
+     {
+      "title": "Kubernetes Full-Stack Microservice",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• This is a full-stack micro-service application that I inherited and optimized on a team of other engineers who also received micro-services. My work covered the \"reviews\" sections of the website my team recreated.\n\n• The primary optimizations included database indexing for fast queries, server-side rendering, and caching with data replication for high availability.\n\n• Deployed on a 3-node Kubernetes cluster on AWS",
+      "insights": ""
+     },
+     {
+      "title": "Airbnb Clone - Two services",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Frontend project for re-creating an Airbnb item-listing page\n\n• Project done as part of the Hack Reactor frontend capstone",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Supplemental Instruction Leader",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Assigned to high-failure-rate courses to support student understanding and improve success rates\n\n• Attended all class sessions and provided in-class academic support and clarification of key concepts\n\n• Led three weekly out-of-class study sessions for additional practice and guided problem-solving\n\n• Developed structured lesson plans to reinforce course material and address common learning gaps\n\n• Supported students in Statistics and Chemistry",
+    "insights": "Skills: Tutoring · Statistics · Chemistry · Lesson Planning",
+    "company": {
+     "url": "https://www.linkedin.com/company/28414982/",
+     "name": "SJSU Peer Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI"
+     }
+    }
+   },
+   {
+    "title": "Hospitality Team Member",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Delivered food to tables, maintained dining area cleanliness, and ensured a welcoming customer experience\n\n• Supported back-of-house operations including dishwashing, food prep, and station setup\n\n• Hated every moment",
+    "company": {
+     "url": "https://www.linkedin.com/company/3545153/",
+     "name": "Mendocino Farms Sandwich Market",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s"
+     }
+    }
+   },
+   {
+    "title": "Camp Counselor",
+    "locationName": "Concord Centre",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Served as a camp counselor for multiple youth summer programs with the City of Concord\n\n• Ensured a safe, engaging, and positive environment for campers throughout daily programs",
+    "company": {
+     "url": "https://www.linkedin.com/company/882934/",
+     "name": "City of Concord",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=SR4HyH6Aji3F0st8ulK1mEdAFSK_HMLgQ6ucFzDkKUA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=cNoXgrQZUmNPghEEK48uJnjKWC1AUEhclWXkZav9_sM"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2029
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Kinesiology",
+    "fieldOfStudy": "Rehabilitation Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Certified Kubernetes Administrator",
+    "authority": "The Linux Foundation",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "The Linux Foundation",
+    "title": "Certified Kubernetes Administrator",
+    "issuedBy": "The Linux Foundation",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Various Projects",
+    "companyName": "Do Something",
+    "description": "This summer camp consisted of various projects that young teenagers, 12-14 years old, are capable of. Projects ranging form park clean ups, to assistance on a ranch, to helping senior citizens with modern technology. This summer camp found a really effective way to combine the urge of a kid to spend the summer with friends and have fun, and to also effectively volunteer and make a difference in the community. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2009
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "Do Something",
+     "logo": {}
+    }
+   },
+   {
+    "role": "Food Service Worker",
+    "companyName": "St. Anthony's",
+    "description": "Two days, a year apart in high school, us students were sent to St. Anthony's in the tenderloin of San Francisco to serve food for homeless and low income residents. Along with serving them, we also got to sit and speak with many of them and hear their stories. The experience itself was actually quite touching and eye-opening. It is hard to realize how lucky I am sometimes, and events like these put it into perspective. ",
+    "timePeriod": {},
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "St. Anthony's",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Comcast",
+  "companyPublicId": "comcast",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/comcast/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1703",
+   "name": "Comcast",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQHl_zqVDWevZg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_"
+    }
+   },
+   "universalName": "comcast",
+   "url": "https://www.linkedin.com/company/comcast/",
+   "slug": "comcast",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+   "specialties": []
+  },
+  "followerCount": 529,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 518,
+  "skills": [
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Elastic Stack (ELK)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chemistry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Lesson Planning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Individualized Instruction",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tutoring",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Protocol Buffers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Consul",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "POSIX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Datagram Protocol (UDP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JSON",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chemistry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Lesson Planning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Individualized Instruction",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tutoring",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Protocol Buffers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "POSIX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Datagram Protocol (UDP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenWRT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Makefile",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GNU Make",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Networking",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "CMake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 3,
+    "experiences": 8
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 2,
+    "experiences": 6
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "YAML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teaching",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Elastic Stack (ELK)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JSON",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Yocto",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": 5
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 2,
+    "experiences": 3
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HashiCorp Vault",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Concourse CI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Organization Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/manedurphy",
+  "linkedinUrl": "https://www.linkedin.com/in/manedurphy",
+  "profileUrl": "https://www.linkedin.com/in/manedurphy",
+  "verified": true,
+  "registeredAt": "2017-09-20T19:15:59.037Z",
+  "location": {
+   "linkedinText": "Sunnyvale, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Sunnyvale, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Passion-driven Software Engineer with 5+ years of industry experience at Comcast and pursuing a Master's degree in Computer Science at Georgia Institute of Technology. My engineering journey began at the Hack Reactor web development bootcamp where I built a foundation in high-level applications, eventually expanding into cloud infrastructure and distributed systems.\n\nHowever, my true interests lie closer to the metal. Transitioning to embedded Linux sparked a deep fascination for low-level systems, alongside a stronger appreciation for the software abstractions we take advantage of daily and the math and science that power them. Having built complex architectures, I have come to appreciate how valuable the simplest solutions are. Choosing simplicity is what empowers us to solve more problems, and I believe that technology is a tool meant to solve genuine human problems, not create more of them.\n\nMy professional roles only tell part of the story. Outside of work, I run my own offsite home lab, self-hosting services for myself, friends, and family. This environment serves as my engineering sandbox, giving me relentless hands-on experience to test new architectures and technologies, as well as solidify my skills in networking, infrastructure automation, and system maintainability.\n\nWebsite: https://manedurphy.dev\nBlog: https://blog.manedurphy.dev\nGitHub: https://github.com/manedurphy",
+  "allTitles": [
+   "Private Tutor",
+   "Supplemental Instruction Leader",
+   "Hospitality Team Member",
+   "Camp Counselor"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "name": "Comcast",
+     "url": "https://www.linkedin.com/company/1703/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU"
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Embedded Software Engineer",
+      "locationName": "Sunnyvale, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2026
+       },
+       "endDate": null
+      },
+      "totalDuration": "11 mos",
+      "description": "• RDK-B core gateway development\n\n• Refactored the RDK-B native Docker and Coverity  scanning pipelines, implementing Git submodules to centralize CI scripts  and reduce maintenance overhead across multiple repositories       \n                            \n• Proposed and implemented ZRAM  swap partitions on XB8 gateway devices to mitigate kernel panic reboots  caused by memory exhaustion prior to scheduled reboots, including  writing a stress-testing Python script to validate device behavior under  varying levels of memory pressure",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer 3",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2026
+       }
+      },
+      "totalDuration": "3 yrs 5 mos",
+      "description": "• Led the onboarding of new multi-gig DOCSIS and PON devices to the platform, involving exploratory analysis to understand device hardware functionalities, and implementing necessary changes in both the cloud-based Control Plane and embedded device data plane applications on Customer Premises Equipment to support higher bandwidth deployments.\n\n• Orchestrated application lifecycle management for heterogeneous CPE hardware using Yocto layers and BitBake recipes. This effort included configuring hardware-specific settings, managing and patching dependencies, and ensuring seamless integration with the overall platform.\n\n• Regularly engage with cross-functional teams to drive projects forward, enhance my understanding of their initiatives, and contribute to continuous learning and knowledge sharing within the company.\n\n• Designed, documented, and executed the creation of a new Golang service within IMP’s Control Plane for orchestrating and scheduling measurements according to the user’s customizable options. Accomplished this crucial initiative as part of onboarding efforts for a prominent syndication partner based in the United Kingdom.\n\n• Led discussions and offered strategic guidance for architectural enhancements in the distributed Control Plane, aimed at reducing complexity and improving the readability and maintainability of the system, written in Golang.\n\n• Established and enforced rigorous coding standards and practices within the Control Plane components, fostering consistency and ensuring comprehensive unit testing for all eligible code segments.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 3 mos",
+      "description": "• Migrated several Golang HTTP client libraries from one GitHub repository that was used interally by the IMP team to one repository per client library. These libraries were then properly versioned via Git tags and GitHub releases, and made available for other teams to use.\n\n• Implemented a new Golang service within the Control Plane’s result management system which receives measurement result data from Customer Premises Equipment (CPE) devices, enriches the data, and ships the data to customer-specified destinations, including Kafka, Amazon Kinesis, and Amazon SNS. This service was implemented with caching and retry logic in order to ensure that result data is never lost. This system is a direct replacement for a legacy service that was written in NodeJS outside of IMP’s Control Plane.\n\n• Developed a RESTful service to simulate the HTTP external systems that IMP depends on for operation. The Client libraries mentioned above inteface with the external systems that these mocked services simulate. This effort decoupled the development of IMP’s Control Plane components from the availability of the external systems, and additionally allowed for us to load test the platform in a controlled environment.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     }
+    ],
+    "companyName": "Comcast",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1703/",
+    "companyId": "1703",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Open Source Developer",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+     "logo": {}
+    },
+    "totalDuration": "5 yrs 8 mos",
+    "positions": [
+     {
+      "title": "esnet/iperf",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2023
+       },
+       "endDate": null
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "• Bug fix where the use of the --zerocopy flag did not send the expected data to the iperf3 server due to the MAP_PRIVATE option specified in mmap. Changing the option to MAP_SHARED was required to write the expected data to disk before using the sendfile system call.\n\n• Extended the functionality of the --json-stream feature with an additional --json-stream-full flag. The original design of --json-stream, iperf/#1098, specifies that the flag is meant to prevent long-running iperf3 tests from building an ever-growing JSON result object in memory. With the new --json-stream-full flag, users can opt in to still get the final JSON result in addition to the JSON intervals via the --json-stream flag. This is good for applications that want to add hooks to act on those JSON interval events and get a final result object with all test data.\n\n• Added two functions to the libiperf API which allows applications to specify the location of public and private RSA keys via a file path. This is a quality-of-life improvement for developers as the only other option was to base64 encode the values of these keys in memory.\n\n• Added a server-side flag, --server-max-duration, which allows the iperf3 server to limit the duration that clients can run their tests for. Clients that request to run tests for longer than the server’s configured max duration receive a rejection from the server.\n\n• Addressed a bug where duplicate keys were observed in the JSON results output when tests were run with multiple connection streams. This bug would result in a failure when parsing the JSON result with other programming languages and command line tools (e.g. Golang, jq).",
+      "insights": ""
+     },
+     {
+      "title": "kubernetes-sigs/secrets-store-csi-driver",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 8 mos",
+      "description": "• Configuration change which prevents the CSI driver from being scheduled on virtual-kubelet nodes",
+      "insights": ""
+     },
+     {
+      "title": "timothymiller/cloudflare-ddns",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Added a feature which allows the user to configure a CNAME record type for subdomains",
+      "insights": ""
+     },
+     {
+      "title": "openwrt/packages",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "• Update iperf3 package to version 3.19",
+      "insights": ""
+     },
+     {
+      "title": "linode/terraform-provider-linode",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Fixed a bug where the Terraform provider would panic when allocating an additional public IPv4 address to a Linode instance",
+      "insights": ""
+     },
+     {
+      "title": "hashicorp/vault-csi-provider",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Added a feature flag --write_secrets which sends secrets to the Secrets Store driver when set to false",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source Developer",
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+    "duration": "5 yrs 8 mos",
+    "skills": [],
+    "companyLogo": {}
+   },
+   {
+    "company": {
+     "name": "Software Engineering Applications",
+     "url": "https://www.linkedin.com/company/30772164/",
+     "logo": {}
+    },
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Rootless Container",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 mo",
+      "description": "• A rootless container built with a series of Linux commands, and a small program in Go that utilizes these native Linux features",
+      "insights": ""
+     },
+     {
+      "title": "Distributed Transaction",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "• The application consists of a frontend user interface that communicates with a distributed backend system\n\n• A customer can create and account, and order items\n\n• The customer must have enough funds in their wallet to place an order\n\n• When a request to place an order is made, the customer receives a response when the record is added the the Orders database, but whether the order is successful depends on the amount of funds available in customer's wallet\n\n• To track the status of the order, another connection is opened between the client and the API Gateway where Server-Sent Events (SSE) are streamed to the client for updates on the order\n\n• When the order fails due to insufficient funds in the customer's wallet, a message is published to the Redis broker from the Customers service that an error occurred, and the Orders service removes the record from its database\n\n• When the order is successful, the Customers service publishes a successful message to the same channel, and the Orders service updates the record's status value from pending to paid\n\n• The outcome of this distributed transaction determines which event is sent to the client\n\n• A customer can add funds to their wallet via the Payments service, where they can add a credit card (a fake one) and use it to add to the value of wallet in the Customers databases for that customer\n\n• Communication between the Payments service and Customers service is also handled asynchronously via the Redis broker",
+      "insights": ""
+     },
+     {
+      "title": "Crypto Charts - A Kubernetes Web Application",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Full-stack web application that gathers information on cryptocurrencies (Bitcoin, Ethereum, Doge) from the crypto compare API, and delivers that data to a frontend which displays the data on charts\n\n• Developed for a Kubernetes environment\n\n• Uses a gRPC gateway to translate between browser and backend",
+      "insights": ""
+     },
+     {
+      "title": "Kubernetes Full-Stack Microservice",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• This is a full-stack micro-service application that I inherited and optimized on a team of other engineers who also received micro-services. My work covered the \"reviews\" sections of the website my team recreated.\n\n• The primary optimizations included database indexing for fast queries, server-side rendering, and caching with data replication for high availability.\n\n• Deployed on a 3-node Kubernetes cluster on AWS",
+      "insights": ""
+     },
+     {
+      "title": "Airbnb Clone - Two services",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Frontend project for re-creating an Airbnb item-listing page\n\n• Project done as part of the Hack Reactor frontend capstone",
+      "insights": ""
+     }
+    ],
+    "companyName": "Software Engineering Applications",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30772164/",
+    "companyId": "30772164",
+    "duration": "1 yr",
+    "skills": [],
+    "companyLogo": {}
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Private Tutor",
+    "locationName": "Santa Clara County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Provided one-on-one tutoring in math and science for high school students\n\n• Adapted lessons to each student’s learning style and knowledge gaps\n\n• Supported homework, exam prep, and long-term skill development\n\n• Students consistently saw measurable improvements in test scores and overall grades",
+    "insights": "Skills: Individualized Instruction · Tutoring · Mathematics",
+    "company": {
+     "url": "https://www.linkedin.com/company/3791916/",
+     "name": "Study Wizards",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM"
+     }
+    },
+    "position": "Private Tutor",
+    "companyName": "Study Wizards",
+    "location": "Santa Clara County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3791916/",
+    "companyId": "3791916",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Supplemental Instruction Leader",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Assigned to high-failure-rate courses to support student understanding and improve success rates\n\n• Attended all class sessions and provided in-class academic support and clarification of key concepts\n\n• Led three weekly out-of-class study sessions for additional practice and guided problem-solving\n\n• Developed structured lesson plans to reinforce course material and address common learning gaps\n\n• Supported students in Statistics and Chemistry",
+    "insights": "Skills: Tutoring · Statistics · Chemistry · Lesson Planning",
+    "company": {
+     "url": "https://www.linkedin.com/company/28414982/",
+     "name": "SJSU Peer Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI"
+     }
+    },
+    "position": "Supplemental Instruction Leader",
+    "companyName": "SJSU Peer Connections",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28414982/",
+    "companyId": "28414982",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Hospitality Team Member",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Delivered food to tables, maintained dining area cleanliness, and ensured a welcoming customer experience\n\n• Supported back-of-house operations including dishwashing, food prep, and station setup\n\n• Hated every moment",
+    "company": {
+     "url": "https://www.linkedin.com/company/3545153/",
+     "name": "Mendocino Farms Sandwich Market",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s"
+     }
+    },
+    "position": "Hospitality Team Member",
+    "companyName": "Mendocino Farms Sandwich Market",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3545153/",
+    "companyId": "3545153",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Camp Counselor",
+    "locationName": "Concord Centre",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Served as a camp counselor for multiple youth summer programs with the City of Concord\n\n• Ensured a safe, engaging, and positive environment for campers throughout daily programs",
+    "company": {
+     "url": "https://www.linkedin.com/company/882934/",
+     "name": "City of Concord",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM"
+     }
+    },
+    "position": "Camp Counselor",
+    "companyName": "City of Concord",
+    "location": "Concord Centre",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/882934/",
+    "companyId": "882934",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1703",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1703/",
+    "companyName": "Comcast",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+    "companyName": "Open Source Developer",
+    "companyLogo": {}
+   },
+   {
+    "companyId": "30772164",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30772164/",
+    "companyName": "Software Engineering Applications",
+    "companyLogo": {}
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "name": "Comcast",
+     "url": "https://www.linkedin.com/company/1703/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU"
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Embedded Software Engineer",
+      "locationName": "Sunnyvale, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2026
+       },
+       "endDate": null
+      },
+      "totalDuration": "11 mos",
+      "description": "• RDK-B core gateway development\n\n• Refactored the RDK-B native Docker and Coverity  scanning pipelines, implementing Git submodules to centralize CI scripts  and reduce maintenance overhead across multiple repositories       \n                            \n• Proposed and implemented ZRAM  swap partitions on XB8 gateway devices to mitigate kernel panic reboots  caused by memory exhaustion prior to scheduled reboots, including  writing a stress-testing Python script to validate device behavior under  varying levels of memory pressure",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer 3",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2026
+       }
+      },
+      "totalDuration": "3 yrs 5 mos",
+      "description": "• Led the onboarding of new multi-gig DOCSIS and PON devices to the platform, involving exploratory analysis to understand device hardware functionalities, and implementing necessary changes in both the cloud-based Control Plane and embedded device data plane applications on Customer Premises Equipment to support higher bandwidth deployments.\n\n• Orchestrated application lifecycle management for heterogeneous CPE hardware using Yocto layers and BitBake recipes. This effort included configuring hardware-specific settings, managing and patching dependencies, and ensuring seamless integration with the overall platform.\n\n• Regularly engage with cross-functional teams to drive projects forward, enhance my understanding of their initiatives, and contribute to continuous learning and knowledge sharing within the company.\n\n• Designed, documented, and executed the creation of a new Golang service within IMP’s Control Plane for orchestrating and scheduling measurements according to the user’s customizable options. Accomplished this crucial initiative as part of onboarding efforts for a prominent syndication partner based in the United Kingdom.\n\n• Led discussions and offered strategic guidance for architectural enhancements in the distributed Control Plane, aimed at reducing complexity and improving the readability and maintainability of the system, written in Golang.\n\n• Established and enforced rigorous coding standards and practices within the Control Plane components, fostering consistency and ensuring comprehensive unit testing for all eligible code segments.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 3 mos",
+      "description": "• Migrated several Golang HTTP client libraries from one GitHub repository that was used interally by the IMP team to one repository per client library. These libraries were then properly versioned via Git tags and GitHub releases, and made available for other teams to use.\n\n• Implemented a new Golang service within the Control Plane’s result management system which receives measurement result data from Customer Premises Equipment (CPE) devices, enriches the data, and ships the data to customer-specified destinations, including Kafka, Amazon Kinesis, and Amazon SNS. This service was implemented with caching and retry logic in order to ensure that result data is never lost. This system is a direct replacement for a legacy service that was written in NodeJS outside of IMP’s Control Plane.\n\n• Developed a RESTful service to simulate the HTTP external systems that IMP depends on for operation. The Client libraries mentioned above inteface with the external systems that these mocked services simulate. This effort decoupled the development of IMP’s Control Plane components from the availability of the external systems, and additionally allowed for us to load test the platform in a controlled environment.\n\nSee more at https://manedurphy.dev",
+      "insights": ""
+     }
+    ],
+    "companyName": "Comcast",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1703/",
+    "companyId": "1703",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_400_400/B4EZr_4t9tHgAc-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=6POT8uNgYQpoNamAiL6qH42V_ewgdmG-IuZeXpbNNNU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_200_200/B4EZr_4t9tHgAM-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=ca3dX67xUDsgz1lEEJ_QG8m-Z53Z0qhsTTFEP5ebx88",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHl_zqVDWevZg/company-logo_100_100/B4EZr_4t9tHgAU-/0/1765229650514/comcast_logo?e=1795651200&v=beta&t=-gnjzuwXbn-QLxSCcy_om5NN6HkLDLtkVQ_C5rCvPAA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Open Source Developer",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+     "logo": {}
+    },
+    "totalDuration": "5 yrs 8 mos",
+    "positions": [
+     {
+      "title": "esnet/iperf",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2023
+       },
+       "endDate": null
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "• Bug fix where the use of the --zerocopy flag did not send the expected data to the iperf3 server due to the MAP_PRIVATE option specified in mmap. Changing the option to MAP_SHARED was required to write the expected data to disk before using the sendfile system call.\n\n• Extended the functionality of the --json-stream feature with an additional --json-stream-full flag. The original design of --json-stream, iperf/#1098, specifies that the flag is meant to prevent long-running iperf3 tests from building an ever-growing JSON result object in memory. With the new --json-stream-full flag, users can opt in to still get the final JSON result in addition to the JSON intervals via the --json-stream flag. This is good for applications that want to add hooks to act on those JSON interval events and get a final result object with all test data.\n\n• Added two functions to the libiperf API which allows applications to specify the location of public and private RSA keys via a file path. This is a quality-of-life improvement for developers as the only other option was to base64 encode the values of these keys in memory.\n\n• Added a server-side flag, --server-max-duration, which allows the iperf3 server to limit the duration that clients can run their tests for. Clients that request to run tests for longer than the server’s configured max duration receive a rejection from the server.\n\n• Addressed a bug where duplicate keys were observed in the JSON results output when tests were run with multiple connection streams. This bug would result in a failure when parsing the JSON result with other programming languages and command line tools (e.g. Golang, jq).",
+      "insights": ""
+     },
+     {
+      "title": "kubernetes-sigs/secrets-store-csi-driver",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 8 mos",
+      "description": "• Configuration change which prevents the CSI driver from being scheduled on virtual-kubelet nodes",
+      "insights": ""
+     },
+     {
+      "title": "timothymiller/cloudflare-ddns",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Added a feature which allows the user to configure a CNAME record type for subdomains",
+      "insights": ""
+     },
+     {
+      "title": "openwrt/packages",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "• Update iperf3 package to version 3.19",
+      "insights": ""
+     },
+     {
+      "title": "linode/terraform-provider-linode",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Fixed a bug where the Terraform provider would panic when allocating an additional public IPv4 address to a Linode instance",
+      "insights": ""
+     },
+     {
+      "title": "hashicorp/vault-csi-provider",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": null
+      },
+      "totalDuration": "5 yrs 6 mos",
+      "description": "• Added a feature flag --write_secrets which sends secrets to the Secrets Store driver when set to false",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source Developer",
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=Open+Source+Developer",
+    "duration": "5 yrs 8 mos",
+    "skills": [],
+    "companyLogo": {}
+   },
+   {
+    "title": "Private Tutor",
+    "locationName": "Santa Clara County, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Provided one-on-one tutoring in math and science for high school students\n\n• Adapted lessons to each student’s learning style and knowledge gaps\n\n• Supported homework, exam prep, and long-term skill development\n\n• Students consistently saw measurable improvements in test scores and overall grades",
+    "insights": "Skills: Individualized Instruction · Tutoring · Mathematics",
+    "company": {
+     "url": "https://www.linkedin.com/company/3791916/",
+     "name": "Study Wizards",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM"
+     }
+    },
+    "position": "Private Tutor",
+    "companyName": "Study Wizards",
+    "location": "Santa Clara County, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3791916/",
+    "companyId": "3791916",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_400_400/company-logo_400_400/0/1631337387325?e=1795651200&v=beta&t=37lr2ICOexUo6Lvsvv746TxQg9rg3fTT7QAdGctI_ZM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_200_200/company-logo_200_200/0/1631337387325?e=1795651200&v=beta&t=DstdUeTPaM8ahTNainHFE-DeU6hjAXtwTzbKRK8Dqlo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFz5motDhGJVw/company-logo_100_100/company-logo_100_100/0/1631337387325?e=1795651200&v=beta&t=dp9Cm0MDjHaVY5AZPNYOL9_KDOcbrZTGb35bgOkC4WU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Software Engineering Applications",
+     "url": "https://www.linkedin.com/company/30772164/",
+     "logo": {}
+    },
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Rootless Container",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 mo",
+      "description": "• A rootless container built with a series of Linux commands, and a small program in Go that utilizes these native Linux features",
+      "insights": ""
+     },
+     {
+      "title": "Distributed Transaction",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "• The application consists of a frontend user interface that communicates with a distributed backend system\n\n• A customer can create and account, and order items\n\n• The customer must have enough funds in their wallet to place an order\n\n• When a request to place an order is made, the customer receives a response when the record is added the the Orders database, but whether the order is successful depends on the amount of funds available in customer's wallet\n\n• To track the status of the order, another connection is opened between the client and the API Gateway where Server-Sent Events (SSE) are streamed to the client for updates on the order\n\n• When the order fails due to insufficient funds in the customer's wallet, a message is published to the Redis broker from the Customers service that an error occurred, and the Orders service removes the record from its database\n\n• When the order is successful, the Customers service publishes a successful message to the same channel, and the Orders service updates the record's status value from pending to paid\n\n• The outcome of this distributed transaction determines which event is sent to the client\n\n• A customer can add funds to their wallet via the Payments service, where they can add a credit card (a fake one) and use it to add to the value of wallet in the Customers databases for that customer\n\n• Communication between the Payments service and Customers service is also handled asynchronously via the Redis broker",
+      "insights": ""
+     },
+     {
+      "title": "Crypto Charts - A Kubernetes Web Application",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Full-stack web application that gathers information on cryptocurrencies (Bitcoin, Ethereum, Doge) from the crypto compare API, and delivers that data to a frontend which displays the data on charts\n\n• Developed for a Kubernetes environment\n\n• Uses a gRPC gateway to translate between browser and backend",
+      "insights": ""
+     },
+     {
+      "title": "Kubernetes Full-Stack Microservice",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• This is a full-stack micro-service application that I inherited and optimized on a team of other engineers who also received micro-services. My work covered the \"reviews\" sections of the website my team recreated.\n\n• The primary optimizations included database indexing for fast queries, server-side rendering, and caching with data replication for high availability.\n\n• Deployed on a 3-node Kubernetes cluster on AWS",
+      "insights": ""
+     },
+     {
+      "title": "Airbnb Clone - Two services",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 mos",
+      "description": "• Frontend project for re-creating an Airbnb item-listing page\n\n• Project done as part of the Hack Reactor frontend capstone",
+      "insights": ""
+     }
+    ],
+    "companyName": "Software Engineering Applications",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30772164/",
+    "companyId": "30772164",
+    "duration": "1 yr",
+    "skills": [],
+    "companyLogo": {}
+   },
+   {
+    "title": "Supplemental Instruction Leader",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Assigned to high-failure-rate courses to support student understanding and improve success rates\n\n• Attended all class sessions and provided in-class academic support and clarification of key concepts\n\n• Led three weekly out-of-class study sessions for additional practice and guided problem-solving\n\n• Developed structured lesson plans to reinforce course material and address common learning gaps\n\n• Supported students in Statistics and Chemistry",
+    "insights": "Skills: Tutoring · Statistics · Chemistry · Lesson Planning",
+    "company": {
+     "url": "https://www.linkedin.com/company/28414982/",
+     "name": "SJSU Peer Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI"
+     }
+    },
+    "position": "Supplemental Instruction Leader",
+    "companyName": "SJSU Peer Connections",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28414982/",
+    "companyId": "28414982",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_400_400/company-logo_400_400/0/1630603555038?e=1795651200&v=beta&t=FyVXkmKNhMAiUxYEeFN_fdtH9annbLFEQLtyX9oosSI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_200_200/company-logo_200_200/0/1630603555038?e=1795651200&v=beta&t=Ty5EfIzw1UxUlkzfUccx8EvSQv5DY5B9Vb_lPshTDr0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFbRv8gOGP0ug/company-logo_100_100/company-logo_100_100/0/1630603555038?e=1795651200&v=beta&t=kCHKxjyguYakOzFJ4CSP4RJIoOO_BkhSPdonsdX1kxQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Hospitality Team Member",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Delivered food to tables, maintained dining area cleanliness, and ensured a welcoming customer experience\n\n• Supported back-of-house operations including dishwashing, food prep, and station setup\n\n• Hated every moment",
+    "company": {
+     "url": "https://www.linkedin.com/company/3545153/",
+     "name": "Mendocino Farms Sandwich Market",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s"
+     }
+    },
+    "position": "Hospitality Team Member",
+    "companyName": "Mendocino Farms Sandwich Market",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3545153/",
+    "companyId": "3545153",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_400_400/B56Zue0YBqKwAg-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=luXRz2tW9Cp8JPsFKqs4ZvUjTjl_KvJv_n-Zlkeqn1s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_200_200/B56Zue0YBqKwAQ-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=_LXQuFy8c-WIdkpf8YW_LEt_4PlKsjwAqy1-TsdYjIg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHUhmdCndJwaA/company-logo_100_100/B56Zue0YBqKwAY-/0/1767896088959/mendocino_farms_logo?e=1795651200&v=beta&t=xcVp3o6I1vABfUDTuTJ1lJQ_sZOdbnYFB69yDw1sZbA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Camp Counselor",
+    "locationName": "Concord Centre",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Served as a camp counselor for multiple youth summer programs with the City of Concord\n\n• Ensured a safe, engaging, and positive environment for campers throughout daily programs",
+    "company": {
+     "url": "https://www.linkedin.com/company/882934/",
+     "name": "City of Concord",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM"
+     }
+    },
+    "position": "Camp Counselor",
+    "companyName": "City of Concord",
+    "location": "Concord Centre",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/882934/",
+    "companyId": "882934",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_400_400/company-logo_400_400/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=4gb-Y_TwNr8P8rLTOqV8CrMIC5g7T4pP7Xoohkz6CwM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_200_200/company-logo_200_200/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=si_N_zFB5IprkbpQX2sAu3I3trNzXmZjmmkh-O23iws",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHPYcbu7dLn9Q/company-logo_100_100/company-logo_100_100/0/1630571085107/city_of_concord_logo?e=1795651200&v=beta&t=1nXzZudZ7oovzxAHfDjQtm5QeOha04x_vHH0WjQZdT0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=SR4HyH6Aji3F0st8ulK1mEdAFSK_HMLgQ6ucFzDkKUA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=cNoXgrQZUmNPghEEK48uJnjKWC1AUEhclWXkZav9_sM",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=cNoXgrQZUmNPghEEK48uJnjKWC1AUEhclWXkZav9_sM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=SR4HyH6Aji3F0st8ulK1mEdAFSK_HMLgQ6ucFzDkKUA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2029
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2029
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Kinesiology",
+    "fieldOfStudy": "Rehabilitation Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "schoolId": "157344",
+    "degree": "Kinesiology",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=SR4HyH6Aji3F0st8ulK1mEdAFSK_HMLgQ6ucFzDkKUA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=cNoXgrQZUmNPghEEK48uJnjKWC1AUEhclWXkZav9_sM",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=05VMTGRNSE8geda72Q9u26js5-1hRyr1t7oS0pjkrXw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=cNoXgrQZUmNPghEEK48uJnjKWC1AUEhclWXkZav9_sM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795651200&v=beta&t=SR4HyH6Aji3F0st8ulK1mEdAFSK_HMLgQ6ucFzDkKUA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2029
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2029
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Various Projects",
+    "companyName": "Do Something",
+    "description": "This summer camp consisted of various projects that young teenagers, 12-14 years old, are capable of. Projects ranging form park clean ups, to assistance on a ranch, to helping senior citizens with modern technology. This summer camp found a really effective way to combine the urge of a kid to spend the summer with friends and have fun, and to also effectively volunteer and make a difference in the community. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2009
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "Do Something",
+     "logo": {}
+    },
+    "organization": "Do Something"
+   },
+   {
+    "role": "Food Service Worker",
+    "companyName": "St. Anthony's",
+    "description": "Two days, a year apart in high school, us students were sent to St. Anthony's in the tenderloin of San Francisco to serve food for homeless and low income residents. Along with serving them, we also got to sit and speak with many of them and hear their stories. The experience itself was actually quite touching and eye-opening. It is hard to realize how lucky I am sometimes, and events like these put it into perspective. ",
+    "timePeriod": {},
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "St. Anthony's",
+     "logo": {}
+    },
+    "organization": "St. Anthony's"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Various Projects",
+    "companyName": "Do Something",
+    "description": "This summer camp consisted of various projects that young teenagers, 12-14 years old, are capable of. Projects ranging form park clean ups, to assistance on a ranch, to helping senior citizens with modern technology. This summer camp found a really effective way to combine the urge of a kid to spend the summer with friends and have fun, and to also effectively volunteer and make a difference in the community. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2009
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "Do Something",
+     "logo": {}
+    }
+   },
+   {
+    "role": "Food Service Worker",
+    "companyName": "St. Anthony's",
+    "description": "Two days, a year apart in high school, us students were sent to St. Anthony's in the tenderloin of San Francisco to serve food for homeless and low income residents. Along with serving them, we also got to sit and speak with many of them and hear their stories. The experience itself was actually quite touching and eye-opening. It is hard to realize how lucky I am sometimes, and events like these put it into perspective. ",
+    "timePeriod": {},
+    "cause": "Social Services",
+    "company": {
+     "url": "",
+     "name": "St. Anthony's",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_350_1400/B56Z5dElotHwAU-/0/1779677944597?e=1795651200&v=beta&t=wD25jiTls_Nqy7HdWKLizSOLaczbgz8I9Z2Xw4UDfKc",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_200_800/B56Z5dElotHwAQ-/0/1779677944597?e=1795651200&v=beta&t=3Dhf3KHTiFY45JQ1fSW8AHY-gJ7_spuos8fQh3Ezi7M",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_350_1400/B56Z5dElotHwAU-/0/1779677944597?e=1795651200&v=beta&t=wD25jiTls_Nqy7HdWKLizSOLaczbgz8I9Z2Xw4UDfKc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_350_1400/B56Z5dElotHwAU-/0/1779677944597?e=1795651200&v=beta&t=wD25jiTls_Nqy7HdWKLizSOLaczbgz8I9Z2Xw4UDfKc",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFgdaS283xmAw/profile-displaybackgroundimage-shrink_200_800/B56Z5dElotHwAQ-/0/1779677944597?e=1795651200&v=beta&t=3Dhf3KHTiFY45JQ1fSW8AHY-gJ7_spuos8fQh3Ezi7M",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/manedurphy"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-10T21:55:06.220Z",
+ "foundBy": null
+}

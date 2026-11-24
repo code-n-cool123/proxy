@@ -1,0 +1,1724 @@
+{
+ "slug": "anthonyloeppert",
+ "inputUrl": "https://www.linkedin.com/in/anthonyloeppert",
+ "fetchedAt": "2026-10-19T17:01:27.239Z",
+ "id": "6ad64ce7d820dfb707d07fd7",
+ "url": "https://www.linkedin.com/in/anthonyloeppert",
+ "profile": {
+  "created": 1188454832000,
+  "trackingId": "FOJ9XlgwSAKPYf2CLwlHxQ==",
+  "firstName": "Anthony",
+  "lastName": "Loeppert",
+  "pronoun": null,
+  "versionTag": "1127626147",
+  "headline": "System Software Engineer at Intel",
+  "publicIdentifier": "anthonyloeppert",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "15377553",
+  "profileId": "ACoAAADqpJEBCyPVh3Qd71ypLJjX4Yu1KofLwBQ",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+   "448x448": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+   "448x448": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104727230",
+  "geoLocationName": "Portland, Oregon, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "System Software Engineer",
+  "summary": "Senior Software Engineering professional with extensive experience in embedded system bring up and integrating new peripherals.  Proven ability to comprehend and debug large code bases and synthesize software solutions from schematics and datasheets.\n\nSpecialties: •\tTroubleshooting & Problem Solving \n•\tDevice Drivers\n•\tRequirements & Feasibility Analysis\n•\tIntegrating 3rd Party Code\n•\tOptimization\n•\tAdapting to new technologies",
+  "positions": [
+   {
+    "title": "System Software Engineer",
+    "locationName": "San Diego, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 4 mos",
+    "description": "I've observed first hand some of the premier silicon vendors on the planet rollout new chips and reference platforms.  My current interest is filing off the rough edges of software bring up and making power-on exercises as agile as possible.\n\nVisualized, implemented and proved (via an actual bring-up) a common syntax across burned-in ROM (primary bootloader), jtag scripts, secondary bootloader, and linux device drivers.  This allows easy reuse of code across all levels of the software stack.  The key benefit of the syntax facilitates using the register name and fields from the RTL.  This allows software to speak the same dialect as hardware engineers and allows simple conversion of code from one level of the SW stack to another.\n\nKey contributions to the latest project in addition to the above software infrastructure:\n* Choosing an appropriate software stack to begin the project.\n* LPDDR4 software driver implemented during the first few days of the silicon landing in my hand. This was (the only subsystem) without any emulation platform support prior to silicon docking.\n* Implementation of an odd (due to even odder customer requirements) back-up bootstrapping mechanism in case the first path of the primary bootloader (ROM) failed.  The oddity was the result of flipping the normal SPI master/slave relationship on its head, with the SOC being the slave.\n* Implementation of a device tree modification mechanism from the secondary bootloader to make the kernel blissfully unaware of whether it is running on an emulation platform or true silicon.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Qualcomm",
+     "url": "https://www.linkedin.com/company/2017/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc"
+     }
+    },
+    "locationName": "Greater San Diego Area",
+    "employmentType": null,
+    "totalDuration": "2 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2015
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "I write device drivers for a bare metal (c,c++, arm assembly) connectivity test suite for in-house reference designs.  When a new chip is released, reference designs are built to test all aspects of the new silicon and are internal software development platforms.  Our software helps the reference hardware designers by allowing them to begin characterizing their system without waiting for an OS port to the new architecture.  It also is packaged up and utilized in a factory environment to test units are properly assembled.\n\nAuthor and debug software under extreme time constraints with variables such as:\n* Development silicon - before the bugs have been found.\n* Incomplete documentation for IC’s under simultaneous development.\n* Shifting schedules due to slips and pull-ins of silicon schedules.\n* Instability of bleeding edge hardware designs and tool sets.\n\nTo enable the above duties, I regularly utilize lex and yacc within the racket programming environment to create parsers for any number of file formats (xml, cmm, asic address files, custom csv, etc.) on-demand and with ease and then interpret into either a static form (ex: compilable *.[ch] files) or dynamically as input to a larger system.  Said another way: writing programs that output either programs or input to programs.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "See above description.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Carlsbad, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Participated in evaluating several hardware vendors for a network camera project.\nRolled out and documented the linux build environment for the chosen hardware platform for other developers to use and extend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/147282/",
+     "name": "Linear Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Motorola Mobile Devices",
+     "url": "https://www.linkedin.com/company/1066/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "7 yrs",
+    "positions": [
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "Greater San Diego Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 yrs 3 mos",
+      "description": "Jan. 2011 - Present:\nPlatform team. Responsibilities include:\nPart of a small team serving product teams, delivering a stable hardware platform for internal customers to build on.\n\nHW bring up: traveling as necessary to do on-site support in factory.\n\nOwned touch and keypad for the Motorola Droid Pro+, debugging everything from factory test command issues to kernel driver stability, performance, and subjective tuning of the end-to-end touch experience.  Interfaced with a third-party and internal hardware teams to resolve firmware/IC issues.\nhttp://preview.tinyurl.com/3mh7ooz\n\nFeb 2009 - Dec. 2010\nProduct Integration team.  Responsibilities include:\nBoard bring up for Android on Qualcomm and TI OMAP chipsets.\n\nDebugging device drivers (as well as new driver implementation as necessary) in both kernel and arm9 & arm11 boot loaders - keypad controller, notification LEDs, LCD backlight driver, proximity and ambient light sensor (ALS).\n\nGPIO configuration.\n\nAdded support for a second source LCD display.\n\nFrom scratch implementation for a previously unsupported mipi display HW config. on an omap 34xx bootloader.\n\nJune 2008 - Feb 2009\nDeveloper on the firmware over the air feature (FOTA) integrating third party libraries implementing the OMA-DM standards into Motorola products.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2008
+       }
+      },
+      "totalDuration": "2 yrs 10 mos",
+      "description": "Technical lead responsible for maintaining software loads in the field.  Including:\n\nProvide support to a variety of consumers:\n* factory\n* carrier field issues \n* system test\n* technical and account reps.\n\nCreate and release to the field software loads to correct known defects, as business cases dictate.\n\nDebug any and all aspects of handset behavior - including source level debugging via the jtag port.  \n\nReverse engineer libraries for which the source is unavailable and/or support is unattainable within the given time constraints.\n\nModify device drivers for HW changes due to supply chain needs.\n\nCreate and modify PC side tools to parse or otherwise assist in extracting files from raw binary images dumped from units for offline problem analysis.\n\nExperience with Qualcomm chipsets and tools.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Entry level software development position in cellular network infrastructure.\n\nImplemented various operations and maintenance (e.g. bringing up and configuring DSPs on a board, responding to statistic measurement messages, etc.) features across a number of boards present in a BTS.\n\nMost challenging and personally rewarding projects:\nImplemented threading (context switching) within a single threaded embedded OS.\nRewrote a buggy flash driver to prevent board corruption.\nWrote a LISP program that queried the user and based on those answers outputted compilable C code to implement man-machine-interface commands.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_200_200/company-logo_200_200/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=1Fjd8UuI-daO_hGSsYt4XApYJZ03iBqKw37PDO9QJEU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_100_100/company-logo_100_100/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=gS5VDUlNPe-q3xkk8kmLeNCpOt-vAomR5EEpOwg2KZ8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3162/",
+    "schoolName": "The University of Texas at Austin",
+    "degreeName": "B.S.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_200_200/company-logo_200_200/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=7V4DuGhkIxyynIiQHhFWjXyPfZvyVTd7Qsd7-wZfW_s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_100_100/company-logo_100_100/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=xR3OTa_7aiEWD3GE7lQW1AuVcE2zhN5h_fUKM9HpzI8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_400_400/company-logo_400_400/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=K8JEWPj-bOexOrNHGAnRfEUq7V_pwknWG_jvwlPF4eE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166680/",
+    "schoolName": "The University of Texas at Arlington",
+    "degreeName": "M.S.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2005
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Coach",
+    "companyName": "First Lego League",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "First Lego League",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Intel",
+  "companyPublicId": "intel-corporation",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/intel-corporation/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1053",
+   "name": "Intel",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGpvWtEtj9oTQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "expiresAt": 1793836800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_"
+    }
+   },
+   "universalName": "intel-corporation",
+   "url": "https://www.linkedin.com/company/intel-corporation/",
+   "slug": "intel-corporation",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+   "specialties": []
+  },
+  "followerCount": 311,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 308,
+  "skills": [
+   {
+    "name": "Device Drivers",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 32,
+    "experiences": ""
+   },
+   {
+    "name": "Firmware",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "JTAG",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Bootloader",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "ARM",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Software Deployment",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel Debugging",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel Drivers",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Kernel",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "JTAG",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Bootloader",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "ARM",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Software Deployment",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel Debugging",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Kernel Drivers",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Kernel",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Wireless",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Shell Scripting",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Board Bring-up",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Operating Systems",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 32,
+    "experiences": ""
+   },
+   {
+    "name": "Firmware",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 3,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/anthonyloeppert",
+  "linkedinUrl": "https://www.linkedin.com/in/anthonyloeppert",
+  "profileUrl": "https://www.linkedin.com/in/anthonyloeppert",
+  "verified": true,
+  "registeredAt": "2007-08-30T06:20:32.000Z",
+  "location": {
+   "linkedinText": "Portland, Oregon, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Portland, Oregon, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Senior Software Engineering professional with extensive experience in embedded system bring up and integrating new peripherals.  Proven ability to comprehend and debug large code bases and synthesize software solutions from schematics and datasheets.\n\nSpecialties: •\tTroubleshooting & Problem Solving \n•\tDevice Drivers\n•\tRequirements & Feasibility Analysis\n•\tIntegrating 3rd Party Code\n•\tOptimization\n•\tAdapting to new technologies",
+  "currentTitle": "System Software Engineer",
+  "allTitles": [
+   "System Software Engineer",
+   "Senior Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "System Software Engineer",
+    "locationName": "San Diego, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 4 mos",
+    "description": "I've observed first hand some of the premier silicon vendors on the planet rollout new chips and reference platforms.  My current interest is filing off the rough edges of software bring up and making power-on exercises as agile as possible.\n\nVisualized, implemented and proved (via an actual bring-up) a common syntax across burned-in ROM (primary bootloader), jtag scripts, secondary bootloader, and linux device drivers.  This allows easy reuse of code across all levels of the software stack.  The key benefit of the syntax facilitates using the register name and fields from the RTL.  This allows software to speak the same dialect as hardware engineers and allows simple conversion of code from one level of the SW stack to another.\n\nKey contributions to the latest project in addition to the above software infrastructure:\n* Choosing an appropriate software stack to begin the project.\n* LPDDR4 software driver implemented during the first few days of the silicon landing in my hand. This was (the only subsystem) without any emulation platform support prior to silicon docking.\n* Implementation of an odd (due to even odder customer requirements) back-up bootstrapping mechanism in case the first path of the primary bootloader (ROM) failed.  The oddity was the result of flipping the normal SPI master/slave relationship on its head, with the SOC being the slave.\n* Implementation of a device tree modification mechanism from the secondary bootloader to make the kernel blissfully unaware of whether it is running on an emulation platform or true silicon.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "System Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "San Diego, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "11 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2015
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Qualcomm",
+     "url": "https://www.linkedin.com/company/2017/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc"
+     }
+    },
+    "locationName": "Greater San Diego Area",
+    "totalDuration": "2 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2015
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "I write device drivers for a bare metal (c,c++, arm assembly) connectivity test suite for in-house reference designs.  When a new chip is released, reference designs are built to test all aspects of the new silicon and are internal software development platforms.  Our software helps the reference hardware designers by allowing them to begin characterizing their system without waiting for an OS port to the new architecture.  It also is packaged up and utilized in a factory environment to test units are properly assembled.\n\nAuthor and debug software under extreme time constraints with variables such as:\n* Development silicon - before the bugs have been found.\n* Incomplete documentation for IC’s under simultaneous development.\n* Shifting schedules due to slips and pull-ins of silicon schedules.\n* Instability of bleeding edge hardware designs and tool sets.\n\nTo enable the above duties, I regularly utilize lex and yacc within the racket programming environment to create parsers for any number of file formats (xml, cmm, asic address files, custom csv, etc.) on-demand and with ease and then interpret into either a static form (ex: compilable *.[ch] files) or dynamically as input to a larger system.  Said another way: writing programs that output either programs or input to programs.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "See above description.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Qualcomm",
+    "location": "Greater San Diego Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2017/",
+    "companyId": "2017",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Motorola Mobile Devices",
+     "url": "https://www.linkedin.com/company/1066/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    },
+    "totalDuration": "7 yrs",
+    "positions": [
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "Greater San Diego Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 yrs 3 mos",
+      "description": "Jan. 2011 - Present:\nPlatform team. Responsibilities include:\nPart of a small team serving product teams, delivering a stable hardware platform for internal customers to build on.\n\nHW bring up: traveling as necessary to do on-site support in factory.\n\nOwned touch and keypad for the Motorola Droid Pro+, debugging everything from factory test command issues to kernel driver stability, performance, and subjective tuning of the end-to-end touch experience.  Interfaced with a third-party and internal hardware teams to resolve firmware/IC issues.\nhttp://preview.tinyurl.com/3mh7ooz\n\nFeb 2009 - Dec. 2010\nProduct Integration team.  Responsibilities include:\nBoard bring up for Android on Qualcomm and TI OMAP chipsets.\n\nDebugging device drivers (as well as new driver implementation as necessary) in both kernel and arm9 & arm11 boot loaders - keypad controller, notification LEDs, LCD backlight driver, proximity and ambient light sensor (ALS).\n\nGPIO configuration.\n\nAdded support for a second source LCD display.\n\nFrom scratch implementation for a previously unsupported mipi display HW config. on an omap 34xx bootloader.\n\nJune 2008 - Feb 2009\nDeveloper on the firmware over the air feature (FOTA) integrating third party libraries implementing the OMA-DM standards into Motorola products.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2008
+       }
+      },
+      "totalDuration": "2 yrs 10 mos",
+      "description": "Technical lead responsible for maintaining software loads in the field.  Including:\n\nProvide support to a variety of consumers:\n* factory\n* carrier field issues \n* system test\n* technical and account reps.\n\nCreate and release to the field software loads to correct known defects, as business cases dictate.\n\nDebug any and all aspects of handset behavior - including source level debugging via the jtag port.  \n\nReverse engineer libraries for which the source is unavailable and/or support is unattainable within the given time constraints.\n\nModify device drivers for HW changes due to supply chain needs.\n\nCreate and modify PC side tools to parse or otherwise assist in extracting files from raw binary images dumped from units for offline problem analysis.\n\nExperience with Qualcomm chipsets and tools.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Motorola Mobile Devices",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "7 yrs",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Carlsbad, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Participated in evaluating several hardware vendors for a network camera project.\nRolled out and documented the linux build environment for the chosen hardware platform for other developers to use and extend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/147282/",
+     "name": "Linear Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Linear Corporation",
+    "location": "Carlsbad, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/147282/",
+    "companyId": "147282",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Entry level software development position in cellular network infrastructure.\n\nImplemented various operations and maintenance (e.g. bringing up and configuring DSPs on a board, responding to statistic measurement messages, etc.) features across a number of boards present in a BTS.\n\nMost challenging and personally rewarding projects:\nImplemented threading (context switching) within a single threaded embedded OS.\nRewrote a buggy flash driver to prevent board corruption.\nWrote a LISP program that queried the user and based on those answers outputted compilable C code to implement man-machine-interface commands.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Motorola",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2002
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1053",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/intel-corporation/",
+    "companyName": "Intel",
+    "companyLogo": {
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "vectorImage": {
+      "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGpvWtEtj9oTQ",
+      "attribution": null,
+      "c2paManifestData": null,
+      "artifacts": [
+       {
+        "width": 200,
+        "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+        "expiresAt": 1793836800000,
+        "height": 200
+       },
+       {
+        "width": 100,
+        "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+        "expiresAt": 1793836800000,
+        "height": 100
+       },
+       {
+        "width": 400,
+        "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+        "expiresAt": 1793836800000,
+        "height": 400
+       }
+      ],
+      "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_"
+     },
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100,
+       "expiresAt": 1793836800000
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1053",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyName": "Intel Corporation",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "2017",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2017/",
+    "companyName": "Qualcomm",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1066",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyName": "Motorola Mobile Devices",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "System Software Engineer",
+    "locationName": "San Diego, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 4 mos",
+    "description": "I've observed first hand some of the premier silicon vendors on the planet rollout new chips and reference platforms.  My current interest is filing off the rough edges of software bring up and making power-on exercises as agile as possible.\n\nVisualized, implemented and proved (via an actual bring-up) a common syntax across burned-in ROM (primary bootloader), jtag scripts, secondary bootloader, and linux device drivers.  This allows easy reuse of code across all levels of the software stack.  The key benefit of the syntax facilitates using the register name and fields from the RTL.  This allows software to speak the same dialect as hardware engineers and allows simple conversion of code from one level of the SW stack to another.\n\nKey contributions to the latest project in addition to the above software infrastructure:\n* Choosing an appropriate software stack to begin the project.\n* LPDDR4 software driver implemented during the first few days of the silicon landing in my hand. This was (the only subsystem) without any emulation platform support prior to silicon docking.\n* Implementation of an odd (due to even odder customer requirements) back-up bootstrapping mechanism in case the first path of the primary bootloader (ROM) failed.  The oddity was the result of flipping the normal SPI master/slave relationship on its head, with the SOC being the slave.\n* Implementation of a device tree modification mechanism from the secondary bootloader to make the kernel blissfully unaware of whether it is running on an emulation platform or true silicon.\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "System Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "San Diego, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "11 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2015
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Qualcomm",
+     "url": "https://www.linkedin.com/company/2017/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc"
+     }
+    },
+    "locationName": "Greater San Diego Area",
+    "totalDuration": "2 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2015
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "I write device drivers for a bare metal (c,c++, arm assembly) connectivity test suite for in-house reference designs.  When a new chip is released, reference designs are built to test all aspects of the new silicon and are internal software development platforms.  Our software helps the reference hardware designers by allowing them to begin characterizing their system without waiting for an OS port to the new architecture.  It also is packaged up and utilized in a factory environment to test units are properly assembled.\n\nAuthor and debug software under extreme time constraints with variables such as:\n* Development silicon - before the bugs have been found.\n* Incomplete documentation for IC’s under simultaneous development.\n* Shifting schedules due to slips and pull-ins of silicon schedules.\n* Instability of bleeding edge hardware designs and tool sets.\n\nTo enable the above duties, I regularly utilize lex and yacc within the racket programming environment to create parsers for any number of file formats (xml, cmm, asic address files, custom csv, etc.) on-demand and with ease and then interpret into either a static form (ex: compilable *.[ch] files) or dynamically as input to a larger system.  Said another way: writing programs that output either programs or input to programs.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "See above description.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Qualcomm",
+    "location": "Greater San Diego Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2017/",
+    "companyId": "2017",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_400_400/company-logo_400_400/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=UWHXREjEDXQX2WFVkTyFenkLaYhjz2pCk0UhqKpbWpc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_200_200/company-logo_200_200/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=-YwKPCyyWYF0WROpq49qPcxHAwmihAKratQ7PMqGTQ8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFOe36gT9mXIQ/company-logo_100_100/company-logo_100_100/0/1709233599959/qualcomm_logo?e=1793836800&v=beta&t=LurML6YtaZprPKyI4_6x4Vd7l6kXIaZV-CuNHuNpu1M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Carlsbad, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Participated in evaluating several hardware vendors for a network camera project.\nRolled out and documented the linux build environment for the chosen hardware platform for other developers to use and extend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/147282/",
+     "name": "Linear Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Linear Corporation",
+    "location": "Carlsbad, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/147282/",
+    "companyId": "147282",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_400_400/company-logo_400_400/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=FTSSDhr5gXEA7UdABZiAT6LPrwq4GfOyI3REeYq3OUc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_200_200/company-logo_200_200/0/1630624303363/nice_spa_logo?e=1793836800&v=beta&t=jA6zWsx7OfgwL465K8gQ5twDaU-SsRQDXIzrTnkjE9w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFvCabBtLpmdA/company-logo_100_100/company-logo_100_100/0/1630624303364/nice_spa_logo?e=1793836800&v=beta&t=8GB5WF1gSkiWmOaAOQzOuqu-9cVSbqVSliCbFRRP1dk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Motorola Mobile Devices",
+     "url": "https://www.linkedin.com/company/1066/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    },
+    "totalDuration": "7 yrs",
+    "positions": [
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "Greater San Diego Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2012
+       }
+      },
+      "totalDuration": "4 yrs 3 mos",
+      "description": "Jan. 2011 - Present:\nPlatform team. Responsibilities include:\nPart of a small team serving product teams, delivering a stable hardware platform for internal customers to build on.\n\nHW bring up: traveling as necessary to do on-site support in factory.\n\nOwned touch and keypad for the Motorola Droid Pro+, debugging everything from factory test command issues to kernel driver stability, performance, and subjective tuning of the end-to-end touch experience.  Interfaced with a third-party and internal hardware teams to resolve firmware/IC issues.\nhttp://preview.tinyurl.com/3mh7ooz\n\nFeb 2009 - Dec. 2010\nProduct Integration team.  Responsibilities include:\nBoard bring up for Android on Qualcomm and TI OMAP chipsets.\n\nDebugging device drivers (as well as new driver implementation as necessary) in both kernel and arm9 & arm11 boot loaders - keypad controller, notification LEDs, LCD backlight driver, proximity and ambient light sensor (ALS).\n\nGPIO configuration.\n\nAdded support for a second source LCD display.\n\nFrom scratch implementation for a previously unsupported mipi display HW config. on an omap 34xx bootloader.\n\nJune 2008 - Feb 2009\nDeveloper on the firmware over the air feature (FOTA) integrating third party libraries implementing the OMA-DM standards into Motorola products.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Staff Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2008
+       }
+      },
+      "totalDuration": "2 yrs 10 mos",
+      "description": "Technical lead responsible for maintaining software loads in the field.  Including:\n\nProvide support to a variety of consumers:\n* factory\n* carrier field issues \n* system test\n* technical and account reps.\n\nCreate and release to the field software loads to correct known defects, as business cases dictate.\n\nDebug any and all aspects of handset behavior - including source level debugging via the jtag port.  \n\nReverse engineer libraries for which the source is unavailable and/or support is unattainable within the given time constraints.\n\nModify device drivers for HW changes due to supply chain needs.\n\nCreate and modify PC side tools to parse or otherwise assist in extracting files from raw binary images dumped from units for offline problem analysis.\n\nExperience with Qualcomm chipsets and tools.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Motorola Mobile Devices",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "7 yrs",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Entry level software development position in cellular network infrastructure.\n\nImplemented various operations and maintenance (e.g. bringing up and configuring DSPs on a board, responding to statistic measurement messages, etc.) features across a number of boards present in a BTS.\n\nMost challenging and personally rewarding projects:\nImplemented threading (context switching) within a single threaded embedded OS.\nRewrote a buggy flash driver to prevent board corruption.\nWrote a LISP program that queried the user and based on those answers outputted compilable C code to implement man-machine-interface commands.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1066/",
+     "name": "Motorola",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Motorola",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1066/",
+    "companyId": "1066",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2002
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_400_400/B56Z.NmfLVG4AU-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=IqPMvloEOYPiDiBko8GVZDWGchwm_VkzzqWvqFq2oqc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_200_200/B56Z.NmfLVG4AE-/0/1784787104661/motorola_mobility_logo?e=1793836800&v=beta&t=nsmXVeYU2qsK6g3Rj5XKuAln5IHJMu4e1c3ViYtNmJg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEL_9RBKMdc3A/company-logo_100_100/B56Z.NmfLVG4AI-/0/1784787104662/motorola_mobility_logo?e=1793836800&v=beta&t=7Uo9dVXkRqLETpYIxIpRVZrAfoWL61hHSeera6pJWsg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_200_200/company-logo_200_200/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=1Fjd8UuI-daO_hGSsYt4XApYJZ03iBqKw37PDO9QJEU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_100_100/company-logo_100_100/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=gS5VDUlNPe-q3xkk8kmLeNCpOt-vAomR5EEpOwg2KZ8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_200_200/company-logo_200_200/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=1Fjd8UuI-daO_hGSsYt4XApYJZ03iBqKw37PDO9QJEU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_100_100/company-logo_100_100/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=gS5VDUlNPe-q3xkk8kmLeNCpOt-vAomR5EEpOwg2KZ8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3162/",
+    "schoolName": "The University of Texas at Austin",
+    "degreeName": "B.S.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3162/",
+    "schoolId": "3162",
+    "degree": "B.S.",
+    "skills": [],
+    "startDate": {
+     "year": 1994
+    },
+    "endDate": {
+     "year": 1999
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_200_200/company-logo_200_200/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=7V4DuGhkIxyynIiQHhFWjXyPfZvyVTd7Qsd7-wZfW_s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_100_100/company-logo_100_100/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=xR3OTa_7aiEWD3GE7lQW1AuVcE2zhN5h_fUKM9HpzI8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_400_400/company-logo_400_400/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=K8JEWPj-bOexOrNHGAnRfEUq7V_pwknWG_jvwlPF4eE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_400_400/company-logo_400_400/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=K8JEWPj-bOexOrNHGAnRfEUq7V_pwknWG_jvwlPF4eE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_400_400/company-logo_400_400/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=K8JEWPj-bOexOrNHGAnRfEUq7V_pwknWG_jvwlPF4eE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_200_200/company-logo_200_200/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=7V4DuGhkIxyynIiQHhFWjXyPfZvyVTd7Qsd7-wZfW_s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFO7SP7778h3Q/company-logo_100_100/company-logo_100_100/0/1650633615764/university_of_texas_at_arlington_logo?e=1793836800&v=beta&t=xR3OTa_7aiEWD3GE7lQW1AuVcE2zhN5h_fUKM9HpzI8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166680/",
+    "schoolName": "The University of Texas at Arlington",
+    "degreeName": "M.S.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2005
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/166680/",
+    "schoolId": "166680",
+    "degree": "M.S.",
+    "skills": [],
+    "startDate": {
+     "year": 2002
+    },
+    "endDate": {
+     "year": 2005
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_200_200/company-logo_200_200/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=1Fjd8UuI-daO_hGSsYt4XApYJZ03iBqKw37PDO9QJEU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_100_100/company-logo_100_100/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=gS5VDUlNPe-q3xkk8kmLeNCpOt-vAomR5EEpOwg2KZ8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_400_400/company-logo_400_400/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=FMBJ_GOfqLCRbHYTPrl38G6wVvk1QENYAtl70Uf7nzM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_200_200/company-logo_200_200/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=1Fjd8UuI-daO_hGSsYt4XApYJZ03iBqKw37PDO9QJEU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEREeDg1PACXA/company-logo_100_100/company-logo_100_100/0/1630670868977/theuniversityoftexasataustin__logo?e=1793836800&v=beta&t=gS5VDUlNPe-q3xkk8kmLeNCpOt-vAomR5EEpOwg2KZ8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3162/",
+    "schoolName": "The University of Texas at Austin",
+    "degreeName": "B.S.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3162/",
+    "schoolId": "3162",
+    "degree": "B.S.",
+    "skills": [],
+    "startDate": {
+     "year": 1994
+    },
+    "endDate": {
+     "year": 1999
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Coach",
+    "companyName": "First Lego League",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "First Lego League",
+     "logo": {}
+    },
+    "organization": "First Lego League"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Coach",
+    "companyName": "First Lego League",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "First Lego League",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+   "448x448": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+     "width": 448,
+     "height": 448
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+   "448x448": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+     "width": 448,
+     "height": 448
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+   "448x448": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517730941572?e=1793836800&v=beta&t=py9AHhyExmyhfSgEbcLH2uIg-epFFZT2Pq7cFtA41pg",
+     "width": 448,
+     "height": 448
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517730941691?e=1793836800&v=beta&t=PXyH_AooRFSENt66F6vyFz2kgQUbP8msh1JFQj731Fc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517730941578?e=1793836800&v=beta&t=delK9QX0VoSbJ5CgYWCGg45YmPlpfuKCKjREQhN18uY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGRrsvN6v37Iw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517730941753?e=1793836800&v=beta&t=KK5qSina2Y-S6VHXPJSiZ1ZULpiEvU8cRxeNUzK8B9o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/anthonyloeppert"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T17:01:12.450Z",
+ "foundBy": null
+}

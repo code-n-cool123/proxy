@@ -1,0 +1,2533 @@
+{
+ "slug": "christian-martinez-contreras",
+ "inputUrl": "https://www.linkedin.com/in/christian-martinez-contreras",
+ "fetchedAt": "2026-10-21T23:55:14.976Z",
+ "id": "6ad950e2d820dfb707d0ab30",
+ "url": "https://www.linkedin.com/in/christian-martinez-contreras",
+ "profile": {
+  "created": 1581116923199,
+  "trackingId": "JHQNlAl/SEa6PkYInmhrGQ==",
+  "firstName": "Christian",
+  "lastName": "Martinez",
+  "pronoun": null,
+  "versionTag": "885365156",
+  "headline": "Software Engineer | LLM systems & RAG in production | ex-BlackRock | Yale CS",
+  "publicIdentifier": "christian-martinez-contreras",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "795056767",
+  "profileId": "ACoAAC9jmn8BBFWLQ2Sek1gT__UYXz-BhXZ-9wg",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619887965923?e=1794441600&v=beta&t=EYVxObli4wvoj0RjXJpLMLnbpjv9o3Xf2s66wvrePJc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619887965923?e=1794441600&v=beta&t=EIRylIVxK4I8fZRQ3K-bE2UFq08K3JpAAFkD8TahcRA",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619887965923?e=1794441600&v=beta&t=nUkCabWLp0f_Go1TItXp5ZQrFBZrQQXxnLqhw1xQcBg",
+   "447x447": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1586306954036?e=1794441600&v=beta&t=Y7p0EZkpw-fVSMtCOwRzNKCYi0EOFINKbpUldCOHwB0",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1586306954070?e=1794441600&v=beta&t=Ujq_RNJc-6mTq56zWlF19-GkATGqa6b3uZDGTpxxeZo"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "AI Engineer",
+  "summary": "I work on making LLM systems accurate enough to trust in domains where a wrong answer has a legal consequence.\n\nAt CompliantRx I own accuracy evaluation end to end for the platform that reviews Medicare documentation for durable medical equipment claims. I built the evaluation pipeline from scratch in a day (ground-truth extraction from the legacy Azure system, batch execution against the new AWS Bedrock RAG pipeline, automated comparison), produced the first measured accuracy baseline the company had, and traced every failure to a specific stage: OCR, chunking, embedding, retrieval, generation, or the compliance logic sitting after all of it.\n\nMost of what looked like \"the model got it wrong\" was not the model. The worst-performing criterion scored 21.9% at baseline, and the root cause turned out to be a date-comparison branch in post-processing. Correct retrieval, correct LLM output, overridden downstream.\n\nThat distinction is most of the job. Knowing whether an LLM system is failing at the model, the retrieval, or the code wrapped around it is what separates an evaluation that changes something from a dashboard nobody acts on.\n\nBefore this I spent two and a half years at BlackRock, in the COO org supporting Latin American institutional business. I built an end-to-end RAG assistant that answered client questions from internal documentation with grounded answers and source citations, LLM-assisted parsing to pull structured fields out of unstructured materials, and a reporting pipeline (ingest, compute, render, publish) that replaced manual and contractor steps and saved roughly $500K a year.\n\nOutside work I build and maintain crisisvenezuela.org, an open damage-mapping platform for the 24 June 2026 Venezuela earthquakes. It aggregates testimony, official assessments, and media into a source-traceable register, published as an open dataset on Zenodo. The New Zealand Society for Earthquake Engineering routed its field triage data into it, and cites it in their reconnaissance report on the event.\n\nYale, BS in Computer Science and Economics. English and Spanish, both native.",
+  "positions": [
+   {
+    "title": "AI Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 mos",
+    "description": "Applied AI / accuracy engineering on the CRx Intelligence platform — LLM compliance review systems for durable medical equipment Medicare audits.\n\n• Own end-to-end accuracy evaluation for a new AWS Bedrock RAG pipeline replacing a legacy OpenAI Assistants system; quantified baseline accuracy and traced failures across OCR, chunking, embeddings, retrieval, and generation stages\n• Diagnose LLM failure patterns at both the prompt and architectural level; translate findings into measurable accuracy improvements\n• Partner with clinical SMEs to convert domain-specific failure modes into systematic engineering fixes\n\nStack: Python, AWS Bedrock, RAG, embeddings, prompt engineering, LLM evaluation, FastAPI, PostgreSQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/98477670/",
+     "name": "CompliantRx",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Software engineering across data pipelines, reporting automation, and LLM-based document workflows.\n\n• Built a production RAG assistant over a large unstructured corpus: retrieval, grounded generation, and inline source citations on every answer\n• Shipped LLM extraction pipelines that pulled structured fields out of messy, unstructured documents at scale\n• Designed reporting pipelines (ingest, compute, render, publish) with validation, fallbacks, and routing logic\n• Developed reusable portfolio analytics modules",
+    "insights": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    }
+   },
+   {
+    "title": "Summer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    }
+   },
+   {
+    "title": "Publisher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/255147/",
+     "name": "Yale Daily News",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0"
+     }
+    }
+   },
+   {
+    "title": "Senator",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Student Representative for Benjamin Franklin Residential College in the Yale Student Senate",
+    "company": {
+     "url": "https://www.linkedin.com/company/11121226/",
+     "name": "Yale College Council",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI"
+     }
+    }
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Teaching Assistant for “Competitors” class (MGT 410E) of the Yale MBA For Executives Program",
+    "company": {
+     "url": "https://www.linkedin.com/company/4073/",
+     "name": "Yale School of Management",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo"
+     }
+    }
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1302341/",
+     "name": "Harvard's Center for International Development",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0"
+     }
+    }
+   },
+   {
+    "title": "Data Analyst",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/72423858/",
+     "name": "Abitü",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Yale University",
+     "url": "https://www.linkedin.com/company/15248569/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "11 mos",
+    "positions": [
+     {
+      "title": "Research Assistant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Research Assistant at Elimelech Lab",
+      "insights": ""
+     },
+     {
+      "title": "Multivariable Calculus Course Grader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2020
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•Graded weekly problem sets for MATH 120 (Calculus of Functions of Several Variables).",
+      "insights": ""
+     },
+     {
+      "title": "Coach of the Online Experiences for Yale Scholars Program",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "•Served as a mentor to pre-first-year students in the Online Experiences for Yale Scholars (ONEXYS) Program.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Marketing Team Member of Internships Branch",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "•Manages social media accounts and designs posts for the Yale Entrepreneurial Society.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5342806/",
+     "name": "Yale Entrepreneurial Society",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es"
+     }
+    }
+   },
+   {
+    "title": "Publicist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "The Yale Political Union",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Organizational Assessment Analyst Intern",
+    "locationName": "Minneapolis, Minnesota, United States | Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "•Designed and wrote MicroGrants’ 2019 Evaluation Report.\n•Collected, sorted, and analyzed data on the grants given to businesses in Minneapolis, MN and Naples, FL.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2085398/",
+     "name": "MicroGrants",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U"
+     }
+    }
+   },
+   {
+    "title": "Vice Chair at Yale Model United Nations",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•Vice Chair at the Economic and Financial Committee at Yale Model United Nations XLVI.\n•Assisted with security and dismissal procedures, debate flow, and software.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11371669/",
+     "name": "Yale International Relations Association",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Economics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2023
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_200_200/company-logo_200_200/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=UOOmnPatqyoDNhttAbEv2ACuP4Y1THC_-V4uzik-xgI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_100_100/company-logo_100_100/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=zXFk20djgcET0o-kTeY1pn4y1_9ntI9SdHPO9xn2vwI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_400_400/company-logo_400_400/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=hNWcwLwSEjh91NzCZQG9VIuiSo_q-8bLALhcPDv5NmQ"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6544/",
+    "schoolName": "The London School of Economics and Political Science (LSE)",
+    "degreeName": "Machine Learning and Data Science",
+    "fieldOfStudy": "Machine Learning and Data Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "crisisvenezuela.org",
+    "description": "Built and maintain an open damage-mapping platform for the 24 June 2026 Venezuela earthquakes (M7.2 + M7.5). Aggregates testimony, official assessments, and media into a source-traceable register used by reconnaissance teams, with a fail-closed trust model: every public record carries its evidence and confidence. The published NZSEE reconnaissance report names the platform (p.3), and the StEER Preliminary Virtual Reconnaissance Report includes a named acknowledgment (p.6) and formal reference (p.84): doi.org/10.17603/ds2-yd90-gt80. Dataset: doi.org/10.5281/zenodo.21154222",
+    "dateRange": {},
+    "associatedWith": "Jun 2026 - Present"
+   }
+  ],
+  "publications": [
+   {
+    "title": "crisisvenezuela.org building-damage dataset, Venezuela earthquakes of 24 June 2026",
+    "publisher": "Zenodo · Aug 5, 2026",
+    "date": {}
+   }
+  ],
+  "patents": [],
+  "testScores": [
+   {
+    "name": "International Baccalaureate (IB) Diploma",
+    "score": "Score: 45 / 45 · May 2019",
+    "description": "Top 0.41% in the World."
+   },
+   {
+    "name": "Cambridge IGCSE and GCSE",
+    "score": "Score: 9/9 A*’s",
+    "description": "Cambridge International General Certificate of Secondary Education and AQA General Certificate of Secondary Education. On scale: A* - F."
+   }
+  ],
+  "organizations": [
+   {
+    "name": "Club Venezuela at Yale University",
+    "position": "Vice-President · Aug 2020 - Present",
+    "dateRange": {}
+   },
+   {
+    "name": "Yale AIChE Chapter (American Institute of Chemical Engineers)",
+    "position": "Treasurer · Aug 2020 - May 2021",
+    "dateRange": {}
+   }
+  ],
+  "volunteerCauses": [],
+  "companyName": "CompliantRx",
+  "companyPublicId": "compliant-rx",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/compliant-rx/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:98477670",
+   "name": "CompliantRx",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQGziDOpXIIpmg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_"
+    }
+   },
+   "universalName": "compliant-rx",
+   "url": "https://www.linkedin.com/company/compliant-rx/",
+   "slug": "compliant-rx",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+   "specialties": []
+  },
+  "followerCount": 1448,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1437,
+  "skills": [
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 5
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 5
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/christian-martinez-contreras",
+  "linkedinUrl": "https://www.linkedin.com/in/christian-martinez-contreras",
+  "profileUrl": "https://www.linkedin.com/in/christian-martinez-contreras",
+  "verified": true,
+  "registeredAt": "2020-02-07T23:08:43.199Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I work on making LLM systems accurate enough to trust in domains where a wrong answer has a legal consequence.\n\nAt CompliantRx I own accuracy evaluation end to end for the platform that reviews Medicare documentation for durable medical equipment claims. I built the evaluation pipeline from scratch in a day (ground-truth extraction from the legacy Azure system, batch execution against the new AWS Bedrock RAG pipeline, automated comparison), produced the first measured accuracy baseline the company had, and traced every failure to a specific stage: OCR, chunking, embedding, retrieval, generation, or the compliance logic sitting after all of it.\n\nMost of what looked like \"the model got it wrong\" was not the model. The worst-performing criterion scored 21.9% at baseline, and the root cause turned out to be a date-comparison branch in post-processing. Correct retrieval, correct LLM output, overridden downstream.\n\nThat distinction is most of the job. Knowing whether an LLM system is failing at the model, the retrieval, or the code wrapped around it is what separates an evaluation that changes something from a dashboard nobody acts on.\n\nBefore this I spent two and a half years at BlackRock, in the COO org supporting Latin American institutional business. I built an end-to-end RAG assistant that answered client questions from internal documentation with grounded answers and source citations, LLM-assisted parsing to pull structured fields out of unstructured materials, and a reporting pipeline (ingest, compute, render, publish) that replaced manual and contractor steps and saved roughly $500K a year.\n\nOutside work I build and maintain crisisvenezuela.org, an open damage-mapping platform for the 24 June 2026 Venezuela earthquakes. It aggregates testimony, official assessments, and media into a source-traceable register, published as an open dataset on Zenodo. The New Zealand Society for Earthquake Engineering routed its field triage data into it, and cites it in their reconnaissance report on the event.\n\nYale, BS in Computer Science and Economics. English and Spanish, both native.",
+  "currentTitle": "AI Engineer",
+  "allTitles": [
+   "AI Engineer",
+   "Software Engineer",
+   "Summer Intern",
+   "Publisher",
+   "Senator",
+   "Teaching Assistant",
+   "Research Assistant",
+   "Data Analyst",
+   "Marketing Team Member of Internships Branch",
+   "Publicist",
+   "Organizational Assessment Analyst Intern",
+   "Vice Chair at Yale Model United Nations"
+  ],
+  "currentPositions": [
+   {
+    "title": "AI Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 mos",
+    "description": "Applied AI / accuracy engineering on the CRx Intelligence platform — LLM compliance review systems for durable medical equipment Medicare audits.\n\n• Own end-to-end accuracy evaluation for a new AWS Bedrock RAG pipeline replacing a legacy OpenAI Assistants system; quantified baseline accuracy and traced failures across OCR, chunking, embeddings, retrieval, and generation stages\n• Diagnose LLM failure patterns at both the prompt and architectural level; translate findings into measurable accuracy improvements\n• Partner with clinical SMEs to convert domain-specific failure modes into systematic engineering fixes\n\nStack: Python, AWS Bedrock, RAG, embeddings, prompt engineering, LLM evaluation, FastAPI, PostgreSQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/98477670/",
+     "name": "CompliantRx",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU"
+     }
+    },
+    "position": "AI Engineer",
+    "companyName": "CompliantRx",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98477670/",
+    "companyId": "98477670",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Yale University",
+     "url": "https://www.linkedin.com/company/15248569/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA"
+     }
+    },
+    "totalDuration": "11 mos",
+    "positions": [
+     {
+      "title": "Research Assistant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Research Assistant at Elimelech Lab",
+      "insights": ""
+     },
+     {
+      "title": "Multivariable Calculus Course Grader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2020
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•Graded weekly problem sets for MATH 120 (Calculus of Functions of Several Variables).",
+      "insights": ""
+     },
+     {
+      "title": "Coach of the Online Experiences for Yale Scholars Program",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "•Served as a mentor to pre-first-year students in the Online Experiences for Yale Scholars (ONEXYS) Program.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Yale University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "companyId": "15248569",
+    "duration": "11 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Software engineering across data pipelines, reporting automation, and LLM-based document workflows.\n\n• Built a production RAG assistant over a large unstructured corpus: retrieval, grounded generation, and inline source citations on every answer\n• Shipped LLM extraction pipelines that pulled structured fields out of messy, unstructured documents at scale\n• Designed reporting pipelines (ingest, compute, render, publish) with validation, fallbacks, and routing logic\n• Developed reusable portfolio analytics modules",
+    "insights": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "BlackRock",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4764/",
+    "companyId": "4764",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Summer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    },
+    "position": "Summer Intern",
+    "companyName": "BlackRock",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4764/",
+    "companyId": "4764",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Publisher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/255147/",
+     "name": "Yale Daily News",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0"
+     }
+    },
+    "position": "Publisher",
+    "companyName": "Yale Daily News",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/255147/",
+    "companyId": "255147",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senator",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Student Representative for Benjamin Franklin Residential College in the Yale Student Senate",
+    "company": {
+     "url": "https://www.linkedin.com/company/11121226/",
+     "name": "Yale College Council",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI"
+     }
+    },
+    "position": "Senator",
+    "companyName": "Yale College Council",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11121226/",
+    "companyId": "11121226",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Teaching Assistant for “Competitors” class (MGT 410E) of the Yale MBA For Executives Program",
+    "company": {
+     "url": "https://www.linkedin.com/company/4073/",
+     "name": "Yale School of Management",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo"
+     }
+    },
+    "position": "Teaching Assistant",
+    "companyName": "Yale School of Management",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4073/",
+    "companyId": "4073",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1302341/",
+     "name": "Harvard's Center for International Development",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0"
+     }
+    },
+    "position": "Research Assistant",
+    "companyName": "Harvard's Center for International Development",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1302341/",
+    "companyId": "1302341",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Analyst",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/72423858/",
+     "name": "Abitü",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs"
+     }
+    },
+    "position": "Data Analyst",
+    "companyName": "Abitü",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/72423858/",
+    "companyId": "72423858",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Marketing Team Member of Internships Branch",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "•Manages social media accounts and designs posts for the Yale Entrepreneurial Society.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5342806/",
+     "name": "Yale Entrepreneurial Society",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es"
+     }
+    },
+    "position": "Marketing Team Member of Internships Branch",
+    "companyName": "Yale Entrepreneurial Society",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5342806/",
+    "companyId": "5342806",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Publicist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "",
+     "name": "The Yale Political Union",
+     "logo": {}
+    },
+    "position": "Publicist",
+    "companyName": "The Yale Political Union",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Organizational Assessment Analyst Intern",
+    "locationName": "Minneapolis, Minnesota, United States | Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "•Designed and wrote MicroGrants’ 2019 Evaluation Report.\n•Collected, sorted, and analyzed data on the grants given to businesses in Minneapolis, MN and Naples, FL.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2085398/",
+     "name": "MicroGrants",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U"
+     }
+    },
+    "position": "Organizational Assessment Analyst Intern",
+    "companyName": "MicroGrants",
+    "location": "Minneapolis, Minnesota, United States | Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2085398/",
+    "companyId": "2085398",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Vice Chair at Yale Model United Nations",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•Vice Chair at the Economic and Financial Committee at Yale Model United Nations XLVI.\n•Assisted with security and dismissal procedures, debate flow, and software.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11371669/",
+     "name": "Yale International Relations Association",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU"
+     }
+    },
+    "position": "Vice Chair at Yale Model United Nations",
+    "companyName": "Yale International Relations Association",
+    "location": "New Haven, Connecticut, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11371669/",
+    "companyId": "11371669",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "98477670",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98477670/",
+    "companyName": "CompliantRx",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "15248569",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "companyName": "Yale University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "AI Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 mos",
+    "description": "Applied AI / accuracy engineering on the CRx Intelligence platform — LLM compliance review systems for durable medical equipment Medicare audits.\n\n• Own end-to-end accuracy evaluation for a new AWS Bedrock RAG pipeline replacing a legacy OpenAI Assistants system; quantified baseline accuracy and traced failures across OCR, chunking, embeddings, retrieval, and generation stages\n• Diagnose LLM failure patterns at both the prompt and architectural level; translate findings into measurable accuracy improvements\n• Partner with clinical SMEs to convert domain-specific failure modes into systematic engineering fixes\n\nStack: Python, AWS Bedrock, RAG, embeddings, prompt engineering, LLM evaluation, FastAPI, PostgreSQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/98477670/",
+     "name": "CompliantRx",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU"
+     }
+    },
+    "position": "AI Engineer",
+    "companyName": "CompliantRx",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98477670/",
+    "companyId": "98477670",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_400_400/company-logo_400_400/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=B2XI4iir1bbmic3GUp2RapbaDQaYR6CPwL5Suv2SEuU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_200_200/company-logo_200_200/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=CGQwOfWfCit6eV6k5lya8A9gZNXklUj_hdtRd6e9WkI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGziDOpXIIpmg/company-logo_100_100/company-logo_100_100/0/1729867237342/compliant_rx_logo?e=1794441600&v=beta&t=xalDM2pYtyrv-tuM2GgVMlWDHMIhQYVhp6M-WOjkugo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Software engineering across data pipelines, reporting automation, and LLM-based document workflows.\n\n• Built a production RAG assistant over a large unstructured corpus: retrieval, grounded generation, and inline source citations on every answer\n• Shipped LLM extraction pipelines that pulled structured fields out of messy, unstructured documents at scale\n• Designed reporting pipelines (ingest, compute, render, publish) with validation, fallbacks, and routing logic\n• Developed reusable portfolio analytics modules",
+    "insights": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "BlackRock",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4764/",
+    "companyId": "4764",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Summer Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4764/",
+     "name": "BlackRock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0"
+     }
+    },
+    "position": "Summer Intern",
+    "companyName": "BlackRock",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4764/",
+    "companyId": "4764",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_400_400/company-logo_400_400/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=6v2ywZC7KYKI7nAJASUxfPoUOPV91644cnr8N62iDg0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_200_200/company-logo_200_200/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=X9izClT2_ENpQiZE7qV-IRHDtzV9IeSCy8FgapyY3jA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFFLPdR-R9FWA/company-logo_100_100/company-logo_100_100/0/1688389221906/blackrock_logo?e=1794441600&v=beta&t=kip9dbx9pg7y8LuFeECIDhg-1rdlzMk5cJmhbiLrdxc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Publisher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/255147/",
+     "name": "Yale Daily News",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0"
+     }
+    },
+    "position": "Publisher",
+    "companyName": "Yale Daily News",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/255147/",
+    "companyId": "255147",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_400_400/company-logo_400_400/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=RiBOWfmC6JjVEAqpsemEKZONjO_Lpf031wYOnFF2Xn0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_200_200/company-logo_200_200/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=-6pGofh0X31tE-Mrd-JtgmBsRcMjX8_8q6C4LCwGnOI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGgIcxh6Q4EfA/company-logo_100_100/company-logo_100_100/0/1630511556310/yale_daily_news_logo?e=1794441600&v=beta&t=54cf8rLyf4ztGae0cKjKuP3AE5rZEXh49Nwzfafnr08",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senator",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Student Representative for Benjamin Franklin Residential College in the Yale Student Senate",
+    "company": {
+     "url": "https://www.linkedin.com/company/11121226/",
+     "name": "Yale College Council",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI"
+     }
+    },
+    "position": "Senator",
+    "companyName": "Yale College Council",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11121226/",
+    "companyId": "11121226",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_400_400/company-logo_400_400/0/1631365627269?e=1794441600&v=beta&t=fJeKKfj0QCd1p2Ikb8Inb-hTlKm5hwq8C_SyNn5WCXI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_200_200/company-logo_200_200/0/1631365627269?e=1794441600&v=beta&t=zBeqpgE94x0v4Baqqh7txTa9fxVmHSpmywaI8x6iPbg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEp7nSTYf-OKQ/company-logo_100_100/company-logo_100_100/0/1631365627269?e=1794441600&v=beta&t=X8y6F9yUfFrRifg4gbMFnT3zwpqOsECFLw_Cb5Z-njo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Teaching Assistant for “Competitors” class (MGT 410E) of the Yale MBA For Executives Program",
+    "company": {
+     "url": "https://www.linkedin.com/company/4073/",
+     "name": "Yale School of Management",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo"
+     }
+    },
+    "position": "Teaching Assistant",
+    "companyName": "Yale School of Management",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4073/",
+    "companyId": "4073",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_400_400/company-logo_400_400/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=-hK2crzSLT8M-mhN-ANfaHTAJT3zWw2_HuQo_d_D0Vo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_200_200/company-logo_200_200/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=jFCkNK9u4dz7UUxUHIjCLzJupIxzoavPTGvOV3aR9C4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUHrm7gZ6AQA/company-logo_100_100/company-logo_100_100/0/1687533758176/yale_school_of_management_logo?e=1794441600&v=beta&t=vsZ-k7FKSmLfSUJhDDqJzsfnAmiBuqFRzCKX9lhoBIk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1302341/",
+     "name": "Harvard's Center for International Development",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0"
+     }
+    },
+    "position": "Research Assistant",
+    "companyName": "Harvard's Center for International Development",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1302341/",
+    "companyId": "1302341",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_400_400/company-logo_400_400/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=B81nv9yKh_9UzJuc_e5J1lt6YS4JAf9TWObyslRDjG0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_200_200/company-logo_200_200/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=f7I6Gq4GpkQhXwS_uFzqI5pPIRLiF6tN7p-XCgIgCAc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEHt31sSskdww/company-logo_100_100/company-logo_100_100/0/1721751242587/harvardcid_logo?e=1794441600&v=beta&t=Ascq9ldAS7hwM7wC_Yq7K3kk0azyxUFZ5jJudYjXKAs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Analyst",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Skills: Python (Programming Language)",
+    "company": {
+     "url": "https://www.linkedin.com/company/72423858/",
+     "name": "Abitü",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs"
+     }
+    },
+    "position": "Data Analyst",
+    "companyName": "Abitü",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/72423858/",
+    "companyId": "72423858",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_400_400/company-logo_400_400/0/1630514876713?e=1794441600&v=beta&t=GQ98hVGM-3XdEwQGW40Vd2fbNZUTrhlnsYe8AoyETAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_200_200/company-logo_200_200/0/1630514876713?e=1794441600&v=beta&t=CkkvWD6HH_5PSeQUDI-4pIFc3PuZUL6yGahEZlV9aNs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF8GllLk8VLjA/company-logo_100_100/company-logo_100_100/0/1630514876713?e=1794441600&v=beta&t=aG21TvUU_ETiK1M_2yZ84mzrpK611ZEa9x2MX7nc4Tk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Yale University",
+     "url": "https://www.linkedin.com/company/15248569/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA"
+     }
+    },
+    "totalDuration": "11 mos",
+    "positions": [
+     {
+      "title": "Research Assistant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Research Assistant at Elimelech Lab",
+      "insights": ""
+     },
+     {
+      "title": "Multivariable Calculus Course Grader",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2020
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•Graded weekly problem sets for MATH 120 (Calculus of Functions of Several Variables).",
+      "insights": ""
+     },
+     {
+      "title": "Coach of the Online Experiences for Yale Scholars Program",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "•Served as a mentor to pre-first-year students in the Online Experiences for Yale Scholars (ONEXYS) Program.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Yale University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "companyId": "15248569",
+    "duration": "11 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Marketing Team Member of Internships Branch",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "•Manages social media accounts and designs posts for the Yale Entrepreneurial Society.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5342806/",
+     "name": "Yale Entrepreneurial Society",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es"
+     }
+    },
+    "position": "Marketing Team Member of Internships Branch",
+    "companyName": "Yale Entrepreneurial Society",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5342806/",
+    "companyId": "5342806",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_400_400/company-logo_400_400/0/1631322436896?e=1794441600&v=beta&t=QXL5IxFJEYOLF55Aav4shl1CU8GN-k3Q0Mbcc3RQ6es",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_200_200/company-logo_200_200/0/1631322436896?e=1794441600&v=beta&t=0jQLu9107ooaK8mfrgaOoUEBVtjx2sw_j9nBwzREo7Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHaUvWZU_bmzg/company-logo_100_100/company-logo_100_100/0/1631322436896?e=1794441600&v=beta&t=XXy3wSqN86ujQflqZuTCtS0T1N6563h0q3Q0Pi7CXvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Publicist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "",
+     "name": "The Yale Political Union",
+     "logo": {}
+    },
+    "position": "Publicist",
+    "companyName": "The Yale Political Union",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Organizational Assessment Analyst Intern",
+    "locationName": "Minneapolis, Minnesota, United States | Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "•Designed and wrote MicroGrants’ 2019 Evaluation Report.\n•Collected, sorted, and analyzed data on the grants given to businesses in Minneapolis, MN and Naples, FL.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2085398/",
+     "name": "MicroGrants",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U"
+     }
+    },
+    "position": "Organizational Assessment Analyst Intern",
+    "companyName": "MicroGrants",
+    "location": "Minneapolis, Minnesota, United States | Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2085398/",
+    "companyId": "2085398",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_400_400/company-logo_400_400/0/1631302593454?e=1794441600&v=beta&t=8gjq8vZEgmhE6Ui9Cg0_ayL7ZlXHlv0YtzYT3B9zG1U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_200_200/company-logo_200_200/0/1631302593454?e=1794441600&v=beta&t=_SV4MwuFjqGjRbtLd2LApt_UHn7Iz7Q9REyh0ChNHdk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH9ydhccCyk5w/company-logo_100_100/company-logo_100_100/0/1631302593454?e=1794441600&v=beta&t=pAqXYJIN13ggbxixLAaYJoOIgX841ClzDBWPeXOn6bI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Vice Chair at Yale Model United Nations",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•Vice Chair at the Economic and Financial Committee at Yale Model United Nations XLVI.\n•Assisted with security and dismissal procedures, debate flow, and software.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11371669/",
+     "name": "Yale International Relations Association",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU"
+     }
+    },
+    "position": "Vice Chair at Yale Model United Nations",
+    "companyName": "Yale International Relations Association",
+    "location": "New Haven, Connecticut, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11371669/",
+    "companyId": "11371669",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_400_400/company-logo_400_400/0/1631433238410?e=1794441600&v=beta&t=j_53W9EkER2OhqIHfBnfRx4yxv91L-1_2MHzRNL7PtU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_200_200/company-logo_200_200/0/1631433238410?e=1794441600&v=beta&t=kjZwX8Cs_GD5aUAT4qz-ZyT-U_8EUa4_PfeZvK0mjQ4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGecVTk1oEawQ/company-logo_100_100/company-logo_100_100/0/1631433238410?e=1794441600&v=beta&t=D6yTf0vm69tDRK7e57w70U495RQrs3ipxzmNlQQEUoM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Economics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolId": "15248569",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2019
+    },
+    "endDate": {
+     "year": 2023
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_200_200/company-logo_200_200/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=UOOmnPatqyoDNhttAbEv2ACuP4Y1THC_-V4uzik-xgI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_100_100/company-logo_100_100/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=zXFk20djgcET0o-kTeY1pn4y1_9ntI9SdHPO9xn2vwI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_400_400/company-logo_400_400/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=hNWcwLwSEjh91NzCZQG9VIuiSo_q-8bLALhcPDv5NmQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_400_400/company-logo_400_400/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=hNWcwLwSEjh91NzCZQG9VIuiSo_q-8bLALhcPDv5NmQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_400_400/company-logo_400_400/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=hNWcwLwSEjh91NzCZQG9VIuiSo_q-8bLALhcPDv5NmQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_200_200/company-logo_200_200/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=UOOmnPatqyoDNhttAbEv2ACuP4Y1THC_-V4uzik-xgI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEmNyPMuyVfyQ/company-logo_100_100/company-logo_100_100/0/1657529757949/london_school_of_economics_logo?e=1794441600&v=beta&t=zXFk20djgcET0o-kTeY1pn4y1_9ntI9SdHPO9xn2vwI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6544/",
+    "schoolName": "The London School of Economics and Political Science (LSE)",
+    "degreeName": "Machine Learning and Data Science",
+    "fieldOfStudy": "Machine Learning and Data Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6544/",
+    "schoolId": "6544",
+    "degree": "Machine Learning and Data Science",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1794441600&v=beta&t=RB_Eu98Pe3mZ0ONKK4G56qFl4AztYFzLBD-jPFl4SEA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1794441600&v=beta&t=3J2qbGL5MslGZ9U1B7bA5uOvvZ8LQRxhDBXc9V8Eq7M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1794441600&v=beta&t=yX1s1ROfdw7Ke_0j-k9Ay596zxuJC0t5v2OG_aPbLUk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Economics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2019
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolId": "15248569",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2019
+    },
+    "endDate": {
+     "year": 2023
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619887965923?e=1794441600&v=beta&t=EYVxObli4wvoj0RjXJpLMLnbpjv9o3Xf2s66wvrePJc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619887965923?e=1794441600&v=beta&t=EIRylIVxK4I8fZRQ3K-bE2UFq08K3JpAAFkD8TahcRA",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619887965923?e=1794441600&v=beta&t=nUkCabWLp0f_Go1TItXp5ZQrFBZrQQXxnLqhw1xQcBg",
+   "447x447": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+     "width": 447,
+     "height": 447
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619887965923?e=1794441600&v=beta&t=nUkCabWLp0f_Go1TItXp5ZQrFBZrQQXxnLqhw1xQcBg",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619887965923?e=1794441600&v=beta&t=EIRylIVxK4I8fZRQ3K-bE2UFq08K3JpAAFkD8TahcRA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619887965923?e=1794441600&v=beta&t=EYVxObli4wvoj0RjXJpLMLnbpjv9o3Xf2s66wvrePJc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619887965923?e=1794441600&v=beta&t=EYVxObli4wvoj0RjXJpLMLnbpjv9o3Xf2s66wvrePJc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619887965923?e=1794441600&v=beta&t=EIRylIVxK4I8fZRQ3K-bE2UFq08K3JpAAFkD8TahcRA",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619887965923?e=1794441600&v=beta&t=nUkCabWLp0f_Go1TItXp5ZQrFBZrQQXxnLqhw1xQcBg",
+   "447x447": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1619887965923?e=1794441600&v=beta&t=r7D79X4R32Qpa1lNj8u0ng3_qFXCg4Q3ky06rnmL3Jg",
+     "width": 447,
+     "height": 447
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1619887965923?e=1794441600&v=beta&t=nUkCabWLp0f_Go1TItXp5ZQrFBZrQQXxnLqhw1xQcBg",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1619887965923?e=1794441600&v=beta&t=EIRylIVxK4I8fZRQ3K-bE2UFq08K3JpAAFkD8TahcRA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFBacxljqQb5w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1619887965923?e=1794441600&v=beta&t=EYVxObli4wvoj0RjXJpLMLnbpjv9o3Xf2s66wvrePJc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1586306954036?e=1794441600&v=beta&t=Y7p0EZkpw-fVSMtCOwRzNKCYi0EOFINKbpUldCOHwB0",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1586306954070?e=1794441600&v=beta&t=Ujq_RNJc-6mTq56zWlF19-GkATGqa6b3uZDGTpxxeZo",
+   "url": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1586306954070?e=1794441600&v=beta&t=Ujq_RNJc-6mTq56zWlF19-GkATGqa6b3uZDGTpxxeZo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1586306954070?e=1794441600&v=beta&t=Ujq_RNJc-6mTq56zWlF19-GkATGqa6b3uZDGTpxxeZo",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQFymH72Hd6wCw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1586306954036?e=1794441600&v=beta&t=Y7p0EZkpw-fVSMtCOwRzNKCYi0EOFINKbpUldCOHwB0",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/christian-martinez-contreras"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-21T23:55:03.547Z",
+ "foundBy": null
+}

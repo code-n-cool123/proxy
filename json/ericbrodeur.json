@@ -1,0 +1,1703 @@
+{
+ "slug": "ericbrodeur",
+ "inputUrl": "https://www.linkedin.com/in/ericbrodeur",
+ "fetchedAt": "2026-10-20T02:49:40.089Z",
+ "id": "6ad6d6c4d820dfb707d08db0",
+ "url": "https://www.linkedin.com/in/ericbrodeur",
+ "profile": {
+  "created": 1127846895000,
+  "trackingId": "pv0ree0xSJaqJM8Q5df1Aw==",
+  "firstName": "Eric",
+  "lastName": "Brodeur",
+  "pronoun": null,
+  "versionTag": "2961484552",
+  "headline": "Principal Software Engineer in Storage Industry (focus on hardware platforms)",
+  "publicIdentifier": "ericbrodeur",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "3757625",
+  "profileId": "ACoAAAA5VjkBr14bddXqEcaiTW7wec-v5aVNLQU",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516250957227?e=1793836800&v=beta&t=kKOa2KLCtoEjxi1vcJYnNMwxNlL93Vkd4zNd2qxKxNo",
+   "200x199": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250956990?e=1793836800&v=beta&t=OPAjagxfat-RgjHi4qaECKhx7iCQAWxEZIsUNKAI8jQ",
+   "311x310": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516250957904?e=1793836800&v=beta&t=6esWUtVHeJHjWv8sPu0qfnGx4iKj4VGXk8c8nzLfkTk",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516250957903?e=1793836800&v=beta&t=KIzL04ANjHQhWVluIWsl0zlxE1I3tRczEycgPyztygQ"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103039849",
+  "geoLocationName": "Minneapolis, Minnesota, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Principal Software Engineer",
+  "summary": "I believe my “StandOut” summary of strengths captures my skill set well:  Quoting:\n\n\t1. CREATOR: You make sense of the world, pulling it apart, seeing a better configuration, and creating it. \n\t2. PIONEER: You see the world as a friendly place where, around every corner, good things will happen. Your distinctive power starts with your optimism in the face of uncertainty.  \n\n\t“You’re the constant inventor. But you’re an inventor with a twist…”  \n\nI have found this describes what I bring to the table: A big picture, and lots of ideas. And also lots of details. I can (constructively) criticize ideas, both my own and others, and zero in on a good starting point—typically K.I.S.S.—and iterate to a practical solution quickly. I am a big fan of iterative agile development, as opposed to a restrictive waterfall process.\n\nMy recent storage experiences include diagnostic and manufacturing support of the Isilon hardware platform, transitioning to the hardware platform team contributing to core features and functionality, improving the customer experience.\n\nMy past networking and supercomputing experiences include diagnostic and manufacturing testing of ATM switching fabrics, network processors, SONET hardware, various networking and routing ASIC designs, supercomputer architectures, shared memory architectures, clustered disk storage systems, and manufacturing systems testing.\n\nPrevious programming environments include C, C++, Python, Bash, Assembly (x86, i960, PPC), Linux, FreeBSD, RTOS (VxWorks, OSE), CVS, Subversion, Git.",
+  "positions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2026
+     }
+    },
+    "totalDuration": "16 yrs 7 mos",
+    "description": "Isilon Systems was acquired by EMC in Nov 2010.\nEMC was acquired by Dell in Sep 2016.\nAI related layoffs occurred throughout 2026 impacting many platforms projects and teams.\n\n• Hardware and Drive Subsystem code development.\n• Leadership position in design of new products and features, and new hardware platforms.\n• Led implementation of \"Data-at-Rest Encryption\" feature via SED (Self Encrypting Drives), including implementation of TCG protocol code.\n• Contributed to Adaptive Cooling Hardware-Firmware-Software logic and solution.\n• Core team member designing and implementing new CTO (Config To Order) system for identifying hardware and presenting hardware abstraction layer (HAL) to the OneFS file system. CTO replaced the previous \"SKU centric\" software abstraction methods used in our product.\n• Core team member designing new \"Platform Infrastructure\" (PI) abstraction layer that is easily configurable and extensible. PI replaces the previous SKU and CTO abstraction layer in a scalable manner.\n• Led the team re-writing previous 10-15 years of HAL C and Python code in the new PI framework.\n• Led the team implementing OneFS Platform API (PAPI) abstractions and handlers for Hardware Platform APIs.\n• Mentor new college hires and interns as they join the Isilon Hardware Platform team.\n• Manufacturing test code development and support for EMC Isilon IQ Clustered Storage systems.\n• Implemented low-cost Arduino-based solution to enhance the testing coverage of our proprietary SAS Expander midplane board in an existing test chassis.\n• Handed off Manufacturing role to new hire, then transitioned to non-Manufacturing role in the Hardware Platform team.\n• Developed custom tools for customers to address hardware issues in deployed systems.\n• Bring-up and delivery of new platforms since 2010: X200, S200, X400, NL400, A100, X410, S210, HD400, X210, NL410, Dell-EMC Infinity (A200, A2000, H400, H500, H600, F800), multiple subsequent Dell PowerEdge based platforms.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15088102/",
+     "name": "Dell Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE"
+     }
+    }
+   },
+   {
+    "title": "Software QA",
+    "locationName": "Urbana-Champaign Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Test development for Mathematica versions 6 and 7; Parallel functionality; Load test development and monitoring for WolframAlpha web site (including Database and Compute servers, interconnect).",
+    "company": {
+     "url": "https://www.linkedin.com/company/10199/",
+     "name": "Wolfram Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Manufacturing test code development and support for Isilon IQ Clustered Storage systems.",
+    "company": {
+     "url": "",
+     "name": "Isilon Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer (Diagnostics)",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Diagnostics development and hardware debug on Red Storm, XT-3 Supercomputer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4936/",
+     "name": "Cray Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik"
+     }
+    }
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Wallingford CT",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2004
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Diagnostics development for early prototype hardware, using Linux drivers and Python scripts.",
+    "company": {
+     "url": "https://www.linkedin.com/company/23299/",
+     "name": "Mangrove Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2003
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "WaveSmith Networks was acquired by Ciena in June 2003\n\nDiagnostics development for various modules, including various switch fabric and PHY modules.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3960/",
+     "name": "Ciena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo"
+     }
+    }
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Westford MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1996
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2001
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "description": "Multiple startups acquired by Lucent Technologies, 1996-2001:\n11/1996 - 05/1999: Cascade / Ascend Communications\n05/1999 - 09/2000: Ignitus Communications LLC\n09/2000 - 09/2001: Lucent ONG, Lucent INS\n\nDiagnostics development for CBX500, GX550, GX250, MSC2500 projects.\nLed initial diagnostics development for Ignitus 3500 switch.\nTransferred from ONG to INS after cancellation of Ignitus project to return to previous Cascade / Ascend group. Initially worked on MSC25000, then led diagnostic development for OC48c BIO module for GX550.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Lucent Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_200_200/company-logo_200_200/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=V1MqPlvV1Nbr2mcwZ7MaxnCrCwjHbVj0r3__cHXBROg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_100_100/company-logo_100_100/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=WKJ4un9VwU4wm7UpSXy7B49bQ7dGPIIdvQfpZyzOEGQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19888/",
+    "schoolName": "Rose-Hulman Institute of Technology",
+    "degreeName": "BSEE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1993
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=6TM2KRacEp6tOt1y3AvwYzbyoP8-owBeDW0OBmZVFwQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=qH3EuO2HSVHfoZC1sXlC3wXzpDzL8hfjOllRaszCn8U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=ItCvJ27nmcqxsQJXixZIT9f2guadI-xngYuHUesstiY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5274/",
+    "schoolName": "Northeastern University",
+    "degreeName": "MS (partial)",
+    "fieldOfStudy": "Electrical Engineering Graduate School",
+    "timePeriod": {
+     "startDate": {
+      "year": 1993
+     },
+     "endDate": {
+      "year": 1995
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Registered Product Owner™",
+    "authority": "Agile Education by Scrum Inc.™",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Agile Education by Scrum Inc.™",
+    "title": "Registered Product Owner™",
+    "issuedBy": "Agile Education by Scrum Inc.™",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Registered Scrum Master™",
+    "authority": "Agile Education by Scrum Inc.™",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Agile Education by Scrum Inc.™",
+    "title": "Registered Scrum Master™",
+    "issuedBy": "Agile Education by Scrum Inc.™",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Algorithm & Program Design"
+   },
+   {
+    "name": "Antenna Engineering"
+   }
+  ],
+  "honors": [
+   {
+    "title": "MVP, Hardware Engineering",
+    "description": "MVP award for Hardware Engineering, given for EMC Isilon \"Waikiki\" OneFS 7.1 Release",
+    "issueDate": {},
+    "issuer": "Issued by Isilon EMC · Nov 2013"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [
+   {
+    "name": "Theta Xi",
+    "dateRange": {}
+   }
+  ],
+  "volunteerCauses": [],
+  "companyName": "Dell Technologies",
+  "companyPublicId": "delltechnologies",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/delltechnologies/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:15088102",
+   "name": "Dell Technologies",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQF0hQrvoqdRNw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+       "expiresAt": 1793836800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_"
+    }
+   },
+   "universalName": "delltechnologies",
+   "url": "https://www.linkedin.com/company/delltechnologies/",
+   "slug": "delltechnologies",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+   "specialties": []
+  },
+  "followerCount": 577,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 583,
+  "skills": [
+   {
+    "name": "Agile Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile & Waterfall Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scaled Agile Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Environment",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FreeBSD",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Mathematica",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Hardware",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Hardware Diagnostics",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Manufacturing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Project Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile & Waterfall Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scaled Agile Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Environment",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FreeBSD",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Hardware",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Hardware Diagnostics",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Manufacturing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Start-ups",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "VxWorks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Storage Solutions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Storage",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "NAS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Mathematica",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 2,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ericbrodeur",
+  "linkedinUrl": "https://www.linkedin.com/in/ericbrodeur",
+  "profileUrl": "https://www.linkedin.com/in/ericbrodeur",
+  "verified": true,
+  "registeredAt": "2005-09-27T18:48:15.000Z",
+  "location": {
+   "linkedinText": "Minneapolis, Minnesota, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Minneapolis, Minnesota, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I believe my “StandOut” summary of strengths captures my skill set well:  Quoting:\n\n\t1. CREATOR: You make sense of the world, pulling it apart, seeing a better configuration, and creating it. \n\t2. PIONEER: You see the world as a friendly place where, around every corner, good things will happen. Your distinctive power starts with your optimism in the face of uncertainty.  \n\n\t“You’re the constant inventor. But you’re an inventor with a twist…”  \n\nI have found this describes what I bring to the table: A big picture, and lots of ideas. And also lots of details. I can (constructively) criticize ideas, both my own and others, and zero in on a good starting point—typically K.I.S.S.—and iterate to a practical solution quickly. I am a big fan of iterative agile development, as opposed to a restrictive waterfall process.\n\nMy recent storage experiences include diagnostic and manufacturing support of the Isilon hardware platform, transitioning to the hardware platform team contributing to core features and functionality, improving the customer experience.\n\nMy past networking and supercomputing experiences include diagnostic and manufacturing testing of ATM switching fabrics, network processors, SONET hardware, various networking and routing ASIC designs, supercomputer architectures, shared memory architectures, clustered disk storage systems, and manufacturing systems testing.\n\nPrevious programming environments include C, C++, Python, Bash, Assembly (x86, i960, PPC), Linux, FreeBSD, RTOS (VxWorks, OSE), CVS, Subversion, Git.",
+  "currentTitle": "Principal Software Engineer",
+  "allTitles": [
+   "Principal Software Engineer",
+   "Software QA",
+   "Software Engineer",
+   "Software Engineer (Diagnostics)",
+   "Principal Diagnostic Engineer",
+   "Principal Diagnostic Engineer",
+   "Principal Diagnostic Engineer"
+  ],
+  "currentPositions": [],
+  "pastPositions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2026
+     }
+    },
+    "totalDuration": "16 yrs 7 mos",
+    "description": "Isilon Systems was acquired by EMC in Nov 2010.\nEMC was acquired by Dell in Sep 2016.\nAI related layoffs occurred throughout 2026 impacting many platforms projects and teams.\n\n• Hardware and Drive Subsystem code development.\n• Leadership position in design of new products and features, and new hardware platforms.\n• Led implementation of \"Data-at-Rest Encryption\" feature via SED (Self Encrypting Drives), including implementation of TCG protocol code.\n• Contributed to Adaptive Cooling Hardware-Firmware-Software logic and solution.\n• Core team member designing and implementing new CTO (Config To Order) system for identifying hardware and presenting hardware abstraction layer (HAL) to the OneFS file system. CTO replaced the previous \"SKU centric\" software abstraction methods used in our product.\n• Core team member designing new \"Platform Infrastructure\" (PI) abstraction layer that is easily configurable and extensible. PI replaces the previous SKU and CTO abstraction layer in a scalable manner.\n• Led the team re-writing previous 10-15 years of HAL C and Python code in the new PI framework.\n• Led the team implementing OneFS Platform API (PAPI) abstractions and handlers for Hardware Platform APIs.\n• Mentor new college hires and interns as they join the Isilon Hardware Platform team.\n• Manufacturing test code development and support for EMC Isilon IQ Clustered Storage systems.\n• Implemented low-cost Arduino-based solution to enhance the testing coverage of our proprietary SAS Expander midplane board in an existing test chassis.\n• Handed off Manufacturing role to new hire, then transitioned to non-Manufacturing role in the Hardware Platform team.\n• Developed custom tools for customers to address hardware issues in deployed systems.\n• Bring-up and delivery of new platforms since 2010: X200, S200, X400, NL400, A100, X410, S210, HD400, X210, NL410, Dell-EMC Infinity (A200, A2000, H400, H500, H600, F800), multiple subsequent Dell PowerEdge based platforms.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15088102/",
+     "name": "Dell Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE"
+     }
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Dell Technologies",
+    "location": "Greater Minneapolis-St. Paul Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15088102/",
+    "companyId": "15088102",
+    "duration": "16 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software QA",
+    "locationName": "Urbana-Champaign Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Test development for Mathematica versions 6 and 7; Parallel functionality; Load test development and monitoring for WolframAlpha web site (including Database and Compute servers, interconnect).",
+    "company": {
+     "url": "https://www.linkedin.com/company/10199/",
+     "name": "Wolfram Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4"
+     }
+    },
+    "position": "Software QA",
+    "companyName": "Wolfram Research",
+    "location": "Urbana-Champaign Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10199/",
+    "companyId": "10199",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2010
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Manufacturing test code development and support for Isilon IQ Clustered Storage systems.",
+    "company": {
+     "url": "",
+     "name": "Isilon Systems",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Isilon Systems",
+    "location": "Greater Seattle Area",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer (Diagnostics)",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Diagnostics development and hardware debug on Red Storm, XT-3 Supercomputer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4936/",
+     "name": "Cray Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik"
+     }
+    },
+    "position": "Software Engineer (Diagnostics)",
+    "companyName": "Cray Inc.",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4936/",
+    "companyId": "4936",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2004
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2005
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Wallingford CT",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2004
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Diagnostics development for early prototype hardware, using Linux drivers and Python scripts.",
+    "company": {
+     "url": "https://www.linkedin.com/company/23299/",
+     "name": "Mangrove Systems",
+     "logo": {}
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Mangrove Systems",
+    "location": "Wallingford CT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/23299/",
+    "companyId": "23299",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2003
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2003
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "WaveSmith Networks was acquired by Ciena in June 2003\n\nDiagnostics development for various modules, including various switch fabric and PHY modules.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3960/",
+     "name": "Ciena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo"
+     }
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Ciena",
+    "location": "Acton MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3960/",
+    "companyId": "3960",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2001
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2003
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Westford MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1996
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2001
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "description": "Multiple startups acquired by Lucent Technologies, 1996-2001:\n11/1996 - 05/1999: Cascade / Ascend Communications\n05/1999 - 09/2000: Ignitus Communications LLC\n09/2000 - 09/2001: Lucent ONG, Lucent INS\n\nDiagnostics development for CBX500, GX550, GX250, MSC2500 projects.\nLed initial diagnostics development for Ignitus 3500 switch.\nTransferred from ONG to INS after cancellation of Ignitus project to return to previous Cascade / Ascend group. Initially worked on MSC25000, then led diagnostic development for OC48c BIO module for GX550.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Lucent Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs"
+     }
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Lucent Technologies",
+    "location": "Westford MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1070/",
+    "companyId": "1070",
+    "duration": "4 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 1996
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2001
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "15088102",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/delltechnologies/",
+    "companyName": "Dell Technologies",
+    "companyLogo": {
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+     "vectorImage": {
+      "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQF0hQrvoqdRNw",
+      "attribution": null,
+      "c2paManifestData": null,
+      "artifacts": [
+       {
+        "width": 200,
+        "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+        "expiresAt": 1793836800000,
+        "height": 200
+       },
+       {
+        "width": 100,
+        "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+        "expiresAt": 1793836800000,
+        "height": 100
+       },
+       {
+        "width": 400,
+        "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+        "expiresAt": 1793836800000,
+        "height": 400
+       }
+      ],
+      "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_"
+     },
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+       "width": 400,
+       "height": 400,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+       "width": 200,
+       "height": 200,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+       "width": 100,
+       "height": 100,
+       "expiresAt": 1793836800000
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Greater Minneapolis-St. Paul Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2026
+     }
+    },
+    "totalDuration": "16 yrs 7 mos",
+    "description": "Isilon Systems was acquired by EMC in Nov 2010.\nEMC was acquired by Dell in Sep 2016.\nAI related layoffs occurred throughout 2026 impacting many platforms projects and teams.\n\n• Hardware and Drive Subsystem code development.\n• Leadership position in design of new products and features, and new hardware platforms.\n• Led implementation of \"Data-at-Rest Encryption\" feature via SED (Self Encrypting Drives), including implementation of TCG protocol code.\n• Contributed to Adaptive Cooling Hardware-Firmware-Software logic and solution.\n• Core team member designing and implementing new CTO (Config To Order) system for identifying hardware and presenting hardware abstraction layer (HAL) to the OneFS file system. CTO replaced the previous \"SKU centric\" software abstraction methods used in our product.\n• Core team member designing new \"Platform Infrastructure\" (PI) abstraction layer that is easily configurable and extensible. PI replaces the previous SKU and CTO abstraction layer in a scalable manner.\n• Led the team re-writing previous 10-15 years of HAL C and Python code in the new PI framework.\n• Led the team implementing OneFS Platform API (PAPI) abstractions and handlers for Hardware Platform APIs.\n• Mentor new college hires and interns as they join the Isilon Hardware Platform team.\n• Manufacturing test code development and support for EMC Isilon IQ Clustered Storage systems.\n• Implemented low-cost Arduino-based solution to enhance the testing coverage of our proprietary SAS Expander midplane board in an existing test chassis.\n• Handed off Manufacturing role to new hire, then transitioned to non-Manufacturing role in the Hardware Platform team.\n• Developed custom tools for customers to address hardware issues in deployed systems.\n• Bring-up and delivery of new platforms since 2010: X200, S200, X400, NL400, A100, X410, S210, HD400, X210, NL410, Dell-EMC Infinity (A200, A2000, H400, H500, H600, F800), multiple subsequent Dell PowerEdge based platforms.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15088102/",
+     "name": "Dell Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE"
+     }
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Dell Technologies",
+    "location": "Greater Minneapolis-St. Paul Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15088102/",
+    "companyId": "15088102",
+    "duration": "16 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_400_400/company-logo_400_400/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=lrl2YUt-PnD3-tM7NgbQZibsH-QtN5Z7Jhpe-IisMyE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_200_200/company-logo_200_200/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=4_Rr4ujni5aEp9kf63pQhunpAvfi6Z6MUtO1V5BDAeA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF0hQrvoqdRNw/company-logo_100_100/company-logo_100_100/0/1725894960637/delltechnologies_logo?e=1793836800&v=beta&t=EczSWkoY4jDSVPhx8ahKGZ4imc8Vn_FdxicAWNH7Kg8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software QA",
+    "locationName": "Urbana-Champaign Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Test development for Mathematica versions 6 and 7; Parallel functionality; Load test development and monitoring for WolframAlpha web site (including Database and Compute servers, interconnect).",
+    "company": {
+     "url": "https://www.linkedin.com/company/10199/",
+     "name": "Wolfram Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4"
+     }
+    },
+    "position": "Software QA",
+    "companyName": "Wolfram Research",
+    "location": "Urbana-Champaign Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10199/",
+    "companyId": "10199",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2010
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_400_400/company-logo_400_400/0/1631301014132?e=1793836800&v=beta&t=2BjSZqJRnB567esO1tXUpGfSN84_LbI8RkP7BYaNjF4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_200_200/company-logo_200_200/0/1631301014131?e=1793836800&v=beta&t=-Y1gBGLntjV6ty3VfaAgCIod91WRTRNvN2uBOj8fZ5A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH0-xEV33mp1A/company-logo_100_100/company-logo_100_100/0/1631301014132?e=1793836800&v=beta&t=McPi-Q9gUYjhRnAPrsth2lH2Q3ZRTXY8l4HWg4D1-E8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "Manufacturing test code development and support for Isilon IQ Clustered Storage systems.",
+    "company": {
+     "url": "",
+     "name": "Isilon Systems",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Isilon Systems",
+    "location": "Greater Seattle Area",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer (Diagnostics)",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Diagnostics development and hardware debug on Red Storm, XT-3 Supercomputer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4936/",
+     "name": "Cray Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik"
+     }
+    },
+    "position": "Software Engineer (Diagnostics)",
+    "companyName": "Cray Inc.",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4936/",
+    "companyId": "4936",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2004
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2005
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_400_400/company-logo_400_400/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=aFZnt55bZ-n9yKvgDQfVnURPy25q9Or8Y2glsZsd-Ik",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_200_200/company-logo_200_200/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=crMGM-LM5oU0_PWlGV4wDdB1Y66tANjlJw-yltt7d9M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzVLBUnva6eQ/company-logo_100_100/company-logo_100_100/0/1630574087321/cray_inc__logo?e=1793836800&v=beta&t=QLiz_whywm_eewOcwk68CxvJ_eUN8E17tN8zlPGADoA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Wallingford CT",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2004
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Diagnostics development for early prototype hardware, using Linux drivers and Python scripts.",
+    "company": {
+     "url": "https://www.linkedin.com/company/23299/",
+     "name": "Mangrove Systems",
+     "logo": {}
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Mangrove Systems",
+    "location": "Wallingford CT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/23299/",
+    "companyId": "23299",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2003
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2003
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "WaveSmith Networks was acquired by Ciena in June 2003\n\nDiagnostics development for various modules, including various switch fabric and PHY modules.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3960/",
+     "name": "Ciena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo"
+     }
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Ciena",
+    "location": "Acton MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3960/",
+    "companyId": "3960",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2001
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2003
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_400_400/company-logo_400_400/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=VeosjFjLm4aStACB2cyvSEV-a7L1psx02c7KZ5-G1mo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_200_200/company-logo_200_200/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=AwFVURFzRkUCcU9LT5_PvsAYT8SEOZlVT_a5_p4iyzs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGSAQqJoMAxqg/company-logo_100_100/company-logo_100_100/0/1696872327479/ciena_logo?e=1793836800&v=beta&t=v0tsx2LbTt_hoGxAh5-UfSBfpIrv7Icks7i3yD9-OpY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Diagnostic Engineer",
+    "locationName": "Westford MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1996
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2001
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "description": "Multiple startups acquired by Lucent Technologies, 1996-2001:\n11/1996 - 05/1999: Cascade / Ascend Communications\n05/1999 - 09/2000: Ignitus Communications LLC\n09/2000 - 09/2001: Lucent ONG, Lucent INS\n\nDiagnostics development for CBX500, GX550, GX250, MSC2500 projects.\nLed initial diagnostics development for Ignitus 3500 switch.\nTransferred from ONG to INS after cancellation of Ignitus project to return to previous Cascade / Ascend group. Initially worked on MSC25000, then led diagnostic development for OC48c BIO module for GX550.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Lucent Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs"
+     }
+    },
+    "position": "Principal Diagnostic Engineer",
+    "companyName": "Lucent Technologies",
+    "location": "Westford MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1070/",
+    "companyId": "1070",
+    "duration": "4 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 1996
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2001
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LNV4nZvupkvQqwdPXqP9YyZPUsv5x83clJ72BEJe0iA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=LoqAm1z2wgTZgmPdtg1q5phOjZ1ZxOvZzWY53YHB_Fs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1793836800&v=beta&t=KGOK_ILwTBzdVMFyPJPKHJsZJEqLkSuoiMcH0D3mPvw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_200_200/company-logo_200_200/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=V1MqPlvV1Nbr2mcwZ7MaxnCrCwjHbVj0r3__cHXBROg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_100_100/company-logo_100_100/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=WKJ4un9VwU4wm7UpSXy7B49bQ7dGPIIdvQfpZyzOEGQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_200_200/company-logo_200_200/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=V1MqPlvV1Nbr2mcwZ7MaxnCrCwjHbVj0r3__cHXBROg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_100_100/company-logo_100_100/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=WKJ4un9VwU4wm7UpSXy7B49bQ7dGPIIdvQfpZyzOEGQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19888/",
+    "schoolName": "Rose-Hulman Institute of Technology",
+    "degreeName": "BSEE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1993
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19888/",
+    "schoolId": "19888",
+    "degree": "BSEE",
+    "skills": [],
+    "startDate": {
+     "year": 1989
+    },
+    "endDate": {
+     "year": 1993
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=6TM2KRacEp6tOt1y3AvwYzbyoP8-owBeDW0OBmZVFwQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=qH3EuO2HSVHfoZC1sXlC3wXzpDzL8hfjOllRaszCn8U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=ItCvJ27nmcqxsQJXixZIT9f2guadI-xngYuHUesstiY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=qH3EuO2HSVHfoZC1sXlC3wXzpDzL8hfjOllRaszCn8U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=qH3EuO2HSVHfoZC1sXlC3wXzpDzL8hfjOllRaszCn8U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=ItCvJ27nmcqxsQJXixZIT9f2guadI-xngYuHUesstiY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1793836800&v=beta&t=6TM2KRacEp6tOt1y3AvwYzbyoP8-owBeDW0OBmZVFwQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5274/",
+    "schoolName": "Northeastern University",
+    "degreeName": "MS (partial)",
+    "fieldOfStudy": "Electrical Engineering Graduate School",
+    "timePeriod": {
+     "startDate": {
+      "year": 1993
+     },
+     "endDate": {
+      "year": 1995
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5274/",
+    "schoolId": "5274",
+    "degree": "MS (partial)",
+    "skills": [],
+    "startDate": {
+     "year": 1993
+    },
+    "endDate": {
+     "year": 1995
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_200_200/company-logo_200_200/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=V1MqPlvV1Nbr2mcwZ7MaxnCrCwjHbVj0r3__cHXBROg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_100_100/company-logo_100_100/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=WKJ4un9VwU4wm7UpSXy7B49bQ7dGPIIdvQfpZyzOEGQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_400_400/company-logo_400_400/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=pIfTgchODMiOi60NjKjwNGTk5Xb7K1Ap5jUbOgspLAA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_200_200/company-logo_200_200/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=V1MqPlvV1Nbr2mcwZ7MaxnCrCwjHbVj0r3__cHXBROg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQXBVP1S9ZLA/company-logo_100_100/company-logo_100_100/0/1630646617500/rose_hulman_institute_of_technology_logo?e=1793836800&v=beta&t=WKJ4un9VwU4wm7UpSXy7B49bQ7dGPIIdvQfpZyzOEGQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19888/",
+    "schoolName": "Rose-Hulman Institute of Technology",
+    "degreeName": "BSEE",
+    "fieldOfStudy": "Electrical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1993
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19888/",
+    "schoolId": "19888",
+    "degree": "BSEE",
+    "skills": [],
+    "startDate": {
+     "year": 1989
+    },
+    "endDate": {
+     "year": 1993
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "MVP, Hardware Engineering",
+    "description": "MVP award for Hardware Engineering, given for EMC Isilon \"Waikiki\" OneFS 7.1 Release",
+    "issueDate": {},
+    "issuer": "Issued by Isilon EMC · Nov 2013"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516250957227?e=1793836800&v=beta&t=kKOa2KLCtoEjxi1vcJYnNMwxNlL93Vkd4zNd2qxKxNo",
+   "200x199": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250956990?e=1793836800&v=beta&t=OPAjagxfat-RgjHi4qaECKhx7iCQAWxEZIsUNKAI8jQ",
+   "311x310": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+     "width": 311,
+     "height": 310
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250956990?e=1793836800&v=beta&t=OPAjagxfat-RgjHi4qaECKhx7iCQAWxEZIsUNKAI8jQ",
+     "width": 200,
+     "height": 199
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516250957227?e=1793836800&v=beta&t=kKOa2KLCtoEjxi1vcJYnNMwxNlL93Vkd4zNd2qxKxNo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516250957227?e=1793836800&v=beta&t=kKOa2KLCtoEjxi1vcJYnNMwxNlL93Vkd4zNd2qxKxNo",
+   "200x199": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250956990?e=1793836800&v=beta&t=OPAjagxfat-RgjHi4qaECKhx7iCQAWxEZIsUNKAI8jQ",
+   "311x310": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516250956988?e=1793836800&v=beta&t=2nEsdqtYgVLRkWYrw6UfStCVDoW_prfckqmgkVMKstw",
+     "width": 311,
+     "height": 310
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516250956990?e=1793836800&v=beta&t=OPAjagxfat-RgjHi4qaECKhx7iCQAWxEZIsUNKAI8jQ",
+     "width": 200,
+     "height": 199
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGX08E_XZmWrg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516250957227?e=1793836800&v=beta&t=kKOa2KLCtoEjxi1vcJYnNMwxNlL93Vkd4zNd2qxKxNo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516250957904?e=1793836800&v=beta&t=6esWUtVHeJHjWv8sPu0qfnGx4iKj4VGXk8c8nzLfkTk",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516250957903?e=1793836800&v=beta&t=KIzL04ANjHQhWVluIWsl0zlxE1I3tRczEycgPyztygQ",
+   "url": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516250957903?e=1793836800&v=beta&t=KIzL04ANjHQhWVluIWsl0zlxE1I3tRczEycgPyztygQ",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516250957903?e=1793836800&v=beta&t=KIzL04ANjHQhWVluIWsl0zlxE1I3tRczEycgPyztygQ",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5116AQGS6aPfPRniEQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516250957904?e=1793836800&v=beta&t=6esWUtVHeJHjWv8sPu0qfnGx4iKj4VGXk8c8nzLfkTk",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ericbrodeur"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-20T02:49:25.598Z",
+ "foundBy": null
+}

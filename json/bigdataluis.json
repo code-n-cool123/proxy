@@ -1,0 +1,1880 @@
+{
+ "slug": "bigdataluis",
+ "inputUrl": "https://www.linkedin.com/in/bigdataluis",
+ "fetchedAt": "2026-11-13T03:17:59.858Z",
+ "id": "6af68167326d0b70b7e24973",
+ "url": "https://www.linkedin.com/in/bigdataluis",
+ "profile": {
+  "created": 1236187890000,
+  "trackingId": "rCrRaNHqSfSctXD/NYMx6Q==",
+  "firstName": "Luis Miguel",
+  "lastName": "Ramos Quijada",
+  "pronoun": null,
+  "versionTag": "520384047",
+  "headline": "Software engineer, 20 years in production data systems: Apple, GE Predix time series (18B a day), Walmart last-mile delivery, ScyllaDB. Now small AI models that run on site, where the data is. Irvine/San Francisco, CA.",
+  "publicIdentifier": "bigdataluis",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "41858984",
+  "profileId": "ACoAAAJ-t6gB6q_EWUkaXB7Qro6N8VUUhFC_pbQ",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "529x133": "https://media.licdn.com/dms/image/v2/D5616AQElE7cdHGFibA/profile-displaybackgroundimage-shrink_350_1400/B56aF19RkdH4AY-/0/1792980359778?e=1796256000&v=beta&t=KY8tXiUpD7Mu_jaA3DEYpTMpVwdBeKzr1WRbdRaOwn8"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103575230",
+  "geoLocationName": "Irvine, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I build data systems that run where the data is produced.\n\nTwenty years in production: a DOE national laboratory, six years leading GE's Predix Time Series platform (about 18 billion datapoints a day, Cassandra across multiple data centers), the last-mile delivery backend for Walmart's international stores, distributed-database engagements at ScyllaDB, and shared data services at a large technology company.\n\nLately my own work is small language and vision models that run on site: corpus construction, from-scratch pretraining on GPUs I own, quantized export (GGUF, MLX), and conformal abstention so a model escalates to a person when it is unsure.\n\nFour patents in industrial data, one issued (US 10,277,396 B2). Speaker, Strata + Hadoop World New York 2016. MS Computer Science, Cal State Fullerton.\n\nBased in Irvine, California, and often in the San Francisco Bay Area. I am always open to talk or meet for coffee. Happy to talk about on-site detection and industrial data.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Cupertino, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 11 mos",
+    "description": "X-Ops lead for the organization (DevOps, DevSecOps, PlatformOps, FinOps, DataOps, MLOps): designed and ran a policy-gated, self-serve deployment platform with CI/CD, vulnerability and security gates, GitOps delivery through ArgoCD and policy as code with Kyverno. 405 applications, over 8,000 pods and 300 nodes moved to it. It monitors everything deployed, reports vulnerabilities weekly and enforces platform and team policies continuously.\n\nML engineering: built the platform that runs image models over millions of manufacturing test images for defects, anomalies and tagging, plus the platform the ML teams use to run their models; extended it with MCP servers and agents so an internal LLM chat service answers with reports and defect images.\n\nIntroduced AI platforms that let individuals run large models over blob, image, video and audio datasets through a generalized data lake on Apache Iceberg, within a new team building unified, reusable services for data management, analysis and processing. Owned Kubernetes deployment, security clearance and networking for each service.\n\nReviewed the manufacturing data pipeline for the scale demanded by growing data volumes, new monitored processes and vendor data platforms. Built a manufacturing yield and test analytics application used by vendors. Migrated operations services and infrastructure to cloud-native equivalents on AWS and moved applications from traditional databases to Snowflake, Druid, Cassandra and MongoDB.\n\nStack: Kubernetes, Helm, ArgoCD, Kyverno, Spark, Airflow, Druid, Snowflake, S3, Redis, Postgres, Apache Iceberg, Python, Go, Java.",
+    "insights": "Skills: Software Infrastructure · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/162479/",
+     "name": "Apple",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY"
+     }
+    }
+   },
+   {
+    "title": "Solutions Architect",
+    "locationName": "Palo Alto, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "High-throughput, low-latency distributed database engagements for messaging, retail, grocery delivery, fintech and manufacturing clients, including Discord and Starbucks: large migrations, data remodeling, and deployments on AWS and Google Cloud.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10201068/",
+     "name": "ScyllaDB",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc"
+     }
+    }
+   },
+   {
+    "title": "Principal Software Engineer (contract through Randstad)",
+    "locationName": "Sunnyvale, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Led the team that brought a new last-mile delivery experience and driver app to Walmart stores in Mexico, the United States and Canada: event-driven order and trip backend on Kafka, Spring, Oracle and Cassandra; dispatcher UI in React and Redux; Android driver app; overflow broadcast of deliveries to third parties such as DoorDash.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM"
+     }
+    }
+   },
+   {
+    "title": "Senior Staff Software Engineer, Data Services",
+    "locationName": "San Ramon, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "description": "Lead for several Predix Data Services at GE Digital and GE Global Research (Software COE), including Time Series, the most used data service across GE. Designed a distributed time-series database that took the proven designs of GE's Historian product to IoT scale:  distributed ingestion over WebSocket and gRPC, Kafka buffering, Apache Apex and an in-house Go streaming pipeline processing about 18 billion datapoints a day, Cassandra storage across multiple data centers (largest cluster 180 nodes), Java query layer for visualization.\n\nRan the NoSQL-as-a-Service team: automated provisioning, scaling, monitoring, backup and hourly metering of customer databases.\n\nBuilt Predix Functions (serverless on OpenWhisk, Docker and Kafka) and Spark runtime as a service with Airflow orchestration on EMR, Kubernetes and Yarn.\n\nLed a team of engineers; managed the analytics team between managers; a year on the visualization and UI/UX team; ScrumMaster.\n\nInstalled the Time Series services on air-gapped data centers in several countries for oil and gas, power and healthcare customers.\n\nSpeaker, Strata + Hadoop World New York 2016: \"How GE analyzes billions of mission-critical events in real time.\"\n\nPatents: US 10,277,396 B2 (granted 2019) and three published applications on industrial data ingestion and partitioning.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7364/",
+     "name": "GE Global Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer, Big Data and Visualization",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Designed and led the backend analytics system on Hadoop, Hive, HBase and Redis; scaled production intake from 3 GB per hour to over 15 GB per hour; Avro and Snappy cut stored data size by up to 90 percent.\n\nReal-time agent and analytics for handset data from major US carriers, 15 million simultaneous users on the cluster, Puppet-automated horizontal scaling.\n\nBuilt the company's internal JavaScript UI framework (Dojo, Node.js, CoffeeScript) and hybrid Windows 8 and Windows Phone 8 apps.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15020/",
+     "name": "Smith Micro Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU"
+     }
+    }
+   },
+   {
+    "title": "Consultant",
+    "locationName": "Woodcrest, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2012
+     }
+    },
+    "totalDuration": "6 yrs",
+    "description": "Independent consulting practice. Architecture and development for clients including Yamaha Motor Corporation (dealer support system and the Yamaha Motor University training portal). Active client work 2007 to 2012.",
+    "company": {
+     "url": "",
+     "name": "Liquid Digital Studio",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Rancho Cucamonga, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Embedded software in C++ and VHDL on Altera boards.",
+    "company": {
+     "url": "",
+     "name": "Blue Light Tronics",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Lead Architect",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/468990/",
+     "name": "TREO International",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Research Contract Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Program analysis for automatic differentiation (OpenAnalysis). Co-author of \"Hybrid Static/Dynamic Activity Analysis,\" Computational Science, ICCS 2006, Springer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/162510/",
+     "name": "Argonne National Laboratory",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_200_200/company-logo_200_200/0/1691085346504?e=1796256000&v=beta&t=fjnB4H6Q0facdAPIJ2OlCg9VYiHZ_fGZ3dTbvlTDNvo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_100_100/company-logo_100_100/0/1691085346504?e=1796256000&v=beta&t=hXHt4nxS_w8-Bc5-OpZYgSe6BMhY83R1WmlMV2sMcjg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/8578/",
+    "schoolName": "California State University, Fullerton",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2007
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_100_100/B56Zo7MOOIHQAU-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=oGnVib0a4RA5WaHj4D4Qwt1i45yQvDWv0Ctgq1Bk-8U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_200_200/B56Zo7MOOIHQAM-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=YwpEXIsVSF8I87T_6HDn1C5qlRHhKpAgVestPtHIhfE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_400_400/B56Zo7MOOIHQAc-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=JJEXzAK2-xJaF3PI5HOYSY1AWoSfp999hQl-kKH6Fbk"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19604/",
+    "schoolName": "La Sierra University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2006
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [
+   {
+    "title": "Hybrid Static/Dynamic Activity Analysis",
+    "publisher": "International Conference on Computational Science",
+    "date": {}
+   }
+  ],
+  "patents": [
+   {
+    "title": "Watermarking for data integrity",
+    "issuer": "US 10277396 · Issued Apr 30, 2019",
+    "issueDate": {},
+    "description": "Granted US patent (GE). Three further GE applications were published and not granted: US 2018/0246944 (ingestion of industrial internet data), US 2018/0349445 (prioritizing data ingestion services), US 2020/0210432 (dynamic re-partitioning for industrial data).\nInventors: Luis Ramos, Venkatesh Sivasubramanian, Sriramakrishna Yelisetti. Assignee: General Electric."
+   }
+  ],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Apple",
+  "companyPublicId": "apple",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/apple/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:162479",
+   "name": "Apple",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQHdAaarsO-eyA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+       "expiresAt": 1796256000000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_"
+    }
+   },
+   "universalName": "apple",
+   "url": "https://www.linkedin.com/company/apple/",
+   "slug": "apple",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+   "specialties": []
+  },
+  "followerCount": 202,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [
+   "PROFILE_CUSTOM_CTA",
+   "FEATURED_PROFILE_SECTION",
+   "COVER_PHOTO_CAROUSEL"
+  ],
+  "pronunciationUrl": "",
+  "connectionsCount": 197,
+  "skills": [
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Industrial IoT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Edge Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Druid",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Snowflake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Iceberg",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Airflow",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Cassandra",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Snowflake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Cassandra",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevSecOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MLOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Architecture",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scalability",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "User Interface",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Edge Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Druid",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Airflow",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Hadoop",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "HBase",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby on Rails",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "jQuery",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML 5",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Platform Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/bigdataluis",
+  "linkedinUrl": "https://www.linkedin.com/in/bigdataluis",
+  "profileUrl": "https://www.linkedin.com/in/bigdataluis",
+  "verified": true,
+  "registeredAt": "2009-03-04T17:31:30.000Z",
+  "location": {
+   "linkedinText": "Irvine, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Irvine, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build data systems that run where the data is produced.\n\nTwenty years in production: a DOE national laboratory, six years leading GE's Predix Time Series platform (about 18 billion datapoints a day, Cassandra across multiple data centers), the last-mile delivery backend for Walmart's international stores, distributed-database engagements at ScyllaDB, and shared data services at a large technology company.\n\nLately my own work is small language and vision models that run on site: corpus construction, from-scratch pretraining on GPUs I own, quantized export (GGUF, MLX), and conformal abstention so a model escalates to a person when it is unsure.\n\nFour patents in industrial data, one issued (US 10,277,396 B2). Speaker, Strata + Hadoop World New York 2016. MS Computer Science, Cal State Fullerton.\n\nBased in Irvine, California, and often in the San Francisco Bay Area. I am always open to talk or meet for coffee. Happy to talk about on-site detection and industrial data.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Solutions Architect",
+   "Principal Software Engineer (contract through Randstad)",
+   "Senior Staff Software Engineer, Data Services",
+   "Senior Software Engineer, Big Data and Visualization",
+   "Consultant",
+   "Embedded Software Engineer",
+   "Lead Architect",
+   "Research Contract Scientist"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Cupertino, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 11 mos",
+    "description": "X-Ops lead for the organization (DevOps, DevSecOps, PlatformOps, FinOps, DataOps, MLOps): designed and ran a policy-gated, self-serve deployment platform with CI/CD, vulnerability and security gates, GitOps delivery through ArgoCD and policy as code with Kyverno. 405 applications, over 8,000 pods and 300 nodes moved to it. It monitors everything deployed, reports vulnerabilities weekly and enforces platform and team policies continuously.\n\nML engineering: built the platform that runs image models over millions of manufacturing test images for defects, anomalies and tagging, plus the platform the ML teams use to run their models; extended it with MCP servers and agents so an internal LLM chat service answers with reports and defect images.\n\nIntroduced AI platforms that let individuals run large models over blob, image, video and audio datasets through a generalized data lake on Apache Iceberg, within a new team building unified, reusable services for data management, analysis and processing. Owned Kubernetes deployment, security clearance and networking for each service.\n\nReviewed the manufacturing data pipeline for the scale demanded by growing data volumes, new monitored processes and vendor data platforms. Built a manufacturing yield and test analytics application used by vendors. Migrated operations services and infrastructure to cloud-native equivalents on AWS and moved applications from traditional databases to Snowflake, Druid, Cassandra and MongoDB.\n\nStack: Kubernetes, Helm, ArgoCD, Kyverno, Spark, Airflow, Druid, Snowflake, S3, Redis, Postgres, Apache Iceberg, Python, Go, Java.",
+    "insights": "Skills: Software Infrastructure · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/162479/",
+     "name": "Apple",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Apple",
+    "location": "Cupertino, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162479/",
+    "companyId": "162479",
+    "duration": "5 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Solutions Architect",
+    "locationName": "Palo Alto, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "High-throughput, low-latency distributed database engagements for messaging, retail, grocery delivery, fintech and manufacturing clients, including Discord and Starbucks: large migrations, data remodeling, and deployments on AWS and Google Cloud.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10201068/",
+     "name": "ScyllaDB",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc"
+     }
+    },
+    "position": "Solutions Architect",
+    "companyName": "ScyllaDB",
+    "location": "Palo Alto, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10201068/",
+    "companyId": "10201068",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer (contract through Randstad)",
+    "locationName": "Sunnyvale, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Led the team that brought a new last-mile delivery experience and driver app to Walmart stores in Mexico, the United States and Canada: event-driven order and trip backend on Kafka, Spring, Oracle and Cassandra; dispatcher UI in React and Redux; Android driver app; overflow broadcast of deliveries to third parties such as DoorDash.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM"
+     }
+    },
+    "position": "Principal Software Engineer (contract through Randstad)",
+    "companyName": "Walmart Global Tech",
+    "location": "Sunnyvale, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11174522/",
+    "companyId": "11174522",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Software Engineer, Data Services",
+    "locationName": "San Ramon, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "description": "Lead for several Predix Data Services at GE Digital and GE Global Research (Software COE), including Time Series, the most used data service across GE. Designed a distributed time-series database that took the proven designs of GE's Historian product to IoT scale:  distributed ingestion over WebSocket and gRPC, Kafka buffering, Apache Apex and an in-house Go streaming pipeline processing about 18 billion datapoints a day, Cassandra storage across multiple data centers (largest cluster 180 nodes), Java query layer for visualization.\n\nRan the NoSQL-as-a-Service team: automated provisioning, scaling, monitoring, backup and hourly metering of customer databases.\n\nBuilt Predix Functions (serverless on OpenWhisk, Docker and Kafka) and Spark runtime as a service with Airflow orchestration on EMR, Kubernetes and Yarn.\n\nLed a team of engineers; managed the analytics team between managers; a year on the visualization and UI/UX team; ScrumMaster.\n\nInstalled the Time Series services on air-gapped data centers in several countries for oil and gas, power and healthcare customers.\n\nSpeaker, Strata + Hadoop World New York 2016: \"How GE analyzes billions of mission-critical events in real time.\"\n\nPatents: US 10,277,396 B2 (granted 2019) and three published applications on industrial data ingestion and partitioning.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7364/",
+     "name": "GE Global Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM"
+     }
+    },
+    "position": "Senior Staff Software Engineer, Data Services",
+    "companyName": "GE Global Research",
+    "location": "San Ramon, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7364/",
+    "companyId": "7364",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer, Big Data and Visualization",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Designed and led the backend analytics system on Hadoop, Hive, HBase and Redis; scaled production intake from 3 GB per hour to over 15 GB per hour; Avro and Snappy cut stored data size by up to 90 percent.\n\nReal-time agent and analytics for handset data from major US carriers, 15 million simultaneous users on the cluster, Puppet-automated horizontal scaling.\n\nBuilt the company's internal JavaScript UI framework (Dojo, Node.js, CoffeeScript) and hybrid Windows 8 and Windows Phone 8 apps.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15020/",
+     "name": "Smith Micro Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU"
+     }
+    },
+    "position": "Senior Software Engineer, Big Data and Visualization",
+    "companyName": "Smith Micro Software, Inc.",
+    "location": "Mountain View, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15020/",
+    "companyId": "15020",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Consultant",
+    "locationName": "Woodcrest, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2012
+     }
+    },
+    "totalDuration": "6 yrs",
+    "description": "Independent consulting practice. Architecture and development for clients including Yamaha Motor Corporation (dealer support system and the Yamaha Motor University training portal). Active client work 2007 to 2012.",
+    "company": {
+     "url": "",
+     "name": "Liquid Digital Studio",
+     "logo": {}
+    },
+    "position": "Consultant",
+    "companyName": "Liquid Digital Studio",
+    "location": "Woodcrest, California, United States",
+    "duration": "6 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2012
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Rancho Cucamonga, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Embedded software in C++ and VHDL on Altera boards.",
+    "company": {
+     "url": "",
+     "name": "Blue Light Tronics",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Blue Light Tronics",
+    "location": "Rancho Cucamonga, California, United States",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Architect",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/468990/",
+     "name": "TREO International",
+     "logo": {}
+    },
+    "position": "Lead Architect",
+    "companyName": "TREO International",
+    "location": "Irvine, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/468990/",
+    "companyId": "468990",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Research Contract Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Program analysis for automatic differentiation (OpenAnalysis). Co-author of \"Hybrid Static/Dynamic Activity Analysis,\" Computational Science, ICCS 2006, Springer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/162510/",
+     "name": "Argonne National Laboratory",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4"
+     }
+    },
+    "position": "Research Contract Scientist",
+    "companyName": "Argonne National Laboratory",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162510/",
+    "companyId": "162510",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2007
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "162479",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162479/",
+    "companyName": "Apple",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Cupertino, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 11 mos",
+    "description": "X-Ops lead for the organization (DevOps, DevSecOps, PlatformOps, FinOps, DataOps, MLOps): designed and ran a policy-gated, self-serve deployment platform with CI/CD, vulnerability and security gates, GitOps delivery through ArgoCD and policy as code with Kyverno. 405 applications, over 8,000 pods and 300 nodes moved to it. It monitors everything deployed, reports vulnerabilities weekly and enforces platform and team policies continuously.\n\nML engineering: built the platform that runs image models over millions of manufacturing test images for defects, anomalies and tagging, plus the platform the ML teams use to run their models; extended it with MCP servers and agents so an internal LLM chat service answers with reports and defect images.\n\nIntroduced AI platforms that let individuals run large models over blob, image, video and audio datasets through a generalized data lake on Apache Iceberg, within a new team building unified, reusable services for data management, analysis and processing. Owned Kubernetes deployment, security clearance and networking for each service.\n\nReviewed the manufacturing data pipeline for the scale demanded by growing data volumes, new monitored processes and vendor data platforms. Built a manufacturing yield and test analytics application used by vendors. Migrated operations services and infrastructure to cloud-native equivalents on AWS and moved applications from traditional databases to Snowflake, Druid, Cassandra and MongoDB.\n\nStack: Kubernetes, Helm, ArgoCD, Kyverno, Spark, Airflow, Druid, Snowflake, S3, Redis, Postgres, Apache Iceberg, Python, Go, Java.",
+    "insights": "Skills: Software Infrastructure · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/162479/",
+     "name": "Apple",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Apple",
+    "location": "Cupertino, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162479/",
+    "companyId": "162479",
+    "duration": "5 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_400_400/company-logo_400_400/0/1630637844948/apple_logo?e=1796256000&v=beta&t=ex2FGIniIkgNs8m5NTVT-Fo-FsDPVVqI1t-lZY2xXSY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_200_200/company-logo_200_200/0/1630637844948/apple_logo?e=1796256000&v=beta&t=DfbbCcXOUwT8nyRx68De2mK-m7RcFtJFi4_VAyL593E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHdAaarsO-eyA/company-logo_100_100/company-logo_100_100/0/1630637844948/apple_logo?e=1796256000&v=beta&t=SUWQtCA7_EkE5n0HzY785aV4SzfImq3zs5D_97B2miQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Solutions Architect",
+    "locationName": "Palo Alto, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "High-throughput, low-latency distributed database engagements for messaging, retail, grocery delivery, fintech and manufacturing clients, including Discord and Starbucks: large migrations, data remodeling, and deployments on AWS and Google Cloud.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10201068/",
+     "name": "ScyllaDB",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc"
+     }
+    },
+    "position": "Solutions Architect",
+    "companyName": "ScyllaDB",
+    "location": "Palo Alto, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10201068/",
+    "companyId": "10201068",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_400_400/company-logo_400_400/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a1ASPqBg6-4z15F-he4kQLe7hT6SaiVrXQmLXwq5gtc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_200_200/company-logo_200_200/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=GT-TOUg42PBy4MAinl6aBA69bsWnICiQhftOLIEQ_qI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHL76ykUJF6BA/company-logo_100_100/company-logo_100_100/0/1720633009732/scylladb_logo?e=1796256000&v=beta&t=a-iLCVnyYpV0QL_EWNQlBvus-4JuTqp1JZnuppuUF6g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer (contract through Randstad)",
+    "locationName": "Sunnyvale, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Led the team that brought a new last-mile delivery experience and driver app to Walmart stores in Mexico, the United States and Canada: event-driven order and trip backend on Kafka, Spring, Oracle and Cassandra; dispatcher UI in React and Redux; Android driver app; overflow broadcast of deliveries to third parties such as DoorDash.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM"
+     }
+    },
+    "position": "Principal Software Engineer (contract through Randstad)",
+    "companyName": "Walmart Global Tech",
+    "location": "Sunnyvale, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11174522/",
+    "companyId": "11174522",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=o6SJlCHxkMoO7TMMN1_D4kc2ybfTb9lBpxRb--7rSKM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=UBN-04rvld9pqhtANy5T9fuv5wptNGc3DtdKhl7L50Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796256000&v=beta&t=W0BPa0sSD75YLLjGc0U6a-p_enFjX61ViP7gVn_N3YM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Software Engineer, Data Services",
+    "locationName": "San Ramon, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "description": "Lead for several Predix Data Services at GE Digital and GE Global Research (Software COE), including Time Series, the most used data service across GE. Designed a distributed time-series database that took the proven designs of GE's Historian product to IoT scale:  distributed ingestion over WebSocket and gRPC, Kafka buffering, Apache Apex and an in-house Go streaming pipeline processing about 18 billion datapoints a day, Cassandra storage across multiple data centers (largest cluster 180 nodes), Java query layer for visualization.\n\nRan the NoSQL-as-a-Service team: automated provisioning, scaling, monitoring, backup and hourly metering of customer databases.\n\nBuilt Predix Functions (serverless on OpenWhisk, Docker and Kafka) and Spark runtime as a service with Airflow orchestration on EMR, Kubernetes and Yarn.\n\nLed a team of engineers; managed the analytics team between managers; a year on the visualization and UI/UX team; ScrumMaster.\n\nInstalled the Time Series services on air-gapped data centers in several countries for oil and gas, power and healthcare customers.\n\nSpeaker, Strata + Hadoop World New York 2016: \"How GE analyzes billions of mission-critical events in real time.\"\n\nPatents: US 10,277,396 B2 (granted 2019) and three published applications on industrial data ingestion and partitioning.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7364/",
+     "name": "GE Global Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM"
+     }
+    },
+    "position": "Senior Staff Software Engineer, Data Services",
+    "companyName": "GE Global Research",
+    "location": "San Ramon, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7364/",
+    "companyId": "7364",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_400_400/company-logo_400_400/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=UWPpltF18CFaGB4dUo0J52ckNd1z3W1-L34GbfhXYAM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_200_200/company-logo_200_200/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=zh6tCnKbNLsLuirRafbBkMVYmqCt9kuYkdMzQP1Ncec",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGyKOfclu7_8w/company-logo_100_100/company-logo_100_100/0/1631428972837/geglobalresearch_logo?e=1796256000&v=beta&t=36LHae8Jc1Glp7LSCjzf94LW1GAPIb4_rbJuus73LxQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer, Big Data and Visualization",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "Designed and led the backend analytics system on Hadoop, Hive, HBase and Redis; scaled production intake from 3 GB per hour to over 15 GB per hour; Avro and Snappy cut stored data size by up to 90 percent.\n\nReal-time agent and analytics for handset data from major US carriers, 15 million simultaneous users on the cluster, Puppet-automated horizontal scaling.\n\nBuilt the company's internal JavaScript UI framework (Dojo, Node.js, CoffeeScript) and hybrid Windows 8 and Windows Phone 8 apps.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15020/",
+     "name": "Smith Micro Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU"
+     }
+    },
+    "position": "Senior Software Engineer, Big Data and Visualization",
+    "companyName": "Smith Micro Software, Inc.",
+    "location": "Mountain View, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15020/",
+    "companyId": "15020",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_400_400/company-logo_400_400/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=Abl4EDHOWyqdZBYgANxuhEpt7G4yfg-WSC6gDA-l5tU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_200_200/company-logo_200_200/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=trRwXkVwpvDZfEhUIHSfSV12o70ApgKjWDI6DoP2gow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFNRXVSCTCM-w/company-logo_100_100/company-logo_100_100/0/1630488100690/smith_micro_software_logo?e=1796256000&v=beta&t=QOCiShPY_otI3YuINd_rraL1R13JQIg3pHFmJzzuSqg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Consultant",
+    "locationName": "Woodcrest, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2012
+     }
+    },
+    "totalDuration": "6 yrs",
+    "description": "Independent consulting practice. Architecture and development for clients including Yamaha Motor Corporation (dealer support system and the Yamaha Motor University training portal). Active client work 2007 to 2012.",
+    "company": {
+     "url": "",
+     "name": "Liquid Digital Studio",
+     "logo": {}
+    },
+    "position": "Consultant",
+    "companyName": "Liquid Digital Studio",
+    "location": "Woodcrest, California, United States",
+    "duration": "6 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2012
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Rancho Cucamonga, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Embedded software in C++ and VHDL on Altera boards.",
+    "company": {
+     "url": "",
+     "name": "Blue Light Tronics",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Blue Light Tronics",
+    "location": "Rancho Cucamonga, California, United States",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Architect",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/468990/",
+     "name": "TREO International",
+     "logo": {}
+    },
+    "position": "Lead Architect",
+    "companyName": "TREO International",
+    "location": "Irvine, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/468990/",
+    "companyId": "468990",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Research Contract Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2007
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Program analysis for automatic differentiation (OpenAnalysis). Co-author of \"Hybrid Static/Dynamic Activity Analysis,\" Computational Science, ICCS 2006, Springer.",
+    "company": {
+     "url": "https://www.linkedin.com/company/162510/",
+     "name": "Argonne National Laboratory",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4"
+     }
+    },
+    "position": "Research Contract Scientist",
+    "companyName": "Argonne National Laboratory",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162510/",
+    "companyId": "162510",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2007
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_400_400/B4DZ50t1NGG4AU-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=5jHkTeHjqa-QyA1ny2wNCZbQwKI3V50WgqXdkE0aS8w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_200_200/B4DZ50t1NGG4AE-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=GjcUxIuCO-3ZW9qT3MJ7ZJZ9aAAjdTR4ktsl-UwCSp4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHL1IUsbZJL7Q/company-logo_100_100/B4DZ50t1NGG4AI-/0/1780074632226/argonne_national_laboratory_logo?e=1796256000&v=beta&t=TTug9m0ZDmrmnw4B6EDXXpPHQKQEjlbxU5gHFAQsdPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_200_200/company-logo_200_200/0/1691085346504?e=1796256000&v=beta&t=fjnB4H6Q0facdAPIJ2OlCg9VYiHZ_fGZ3dTbvlTDNvo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_100_100/company-logo_100_100/0/1691085346504?e=1796256000&v=beta&t=hXHt4nxS_w8-Bc5-OpZYgSe6BMhY83R1WmlMV2sMcjg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_200_200/company-logo_200_200/0/1691085346504?e=1796256000&v=beta&t=fjnB4H6Q0facdAPIJ2OlCg9VYiHZ_fGZ3dTbvlTDNvo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_100_100/company-logo_100_100/0/1691085346504?e=1796256000&v=beta&t=hXHt4nxS_w8-Bc5-OpZYgSe6BMhY83R1WmlMV2sMcjg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/8578/",
+    "schoolName": "California State University, Fullerton",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/8578/",
+    "schoolId": "8578",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2007
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_100_100/B56Zo7MOOIHQAU-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=oGnVib0a4RA5WaHj4D4Qwt1i45yQvDWv0Ctgq1Bk-8U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_200_200/B56Zo7MOOIHQAM-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=YwpEXIsVSF8I87T_6HDn1C5qlRHhKpAgVestPtHIhfE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_400_400/B56Zo7MOOIHQAc-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=JJEXzAK2-xJaF3PI5HOYSY1AWoSfp999hQl-kKH6Fbk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_400_400/B56Zo7MOOIHQAc-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=JJEXzAK2-xJaF3PI5HOYSY1AWoSfp999hQl-kKH6Fbk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_400_400/B56Zo7MOOIHQAc-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=JJEXzAK2-xJaF3PI5HOYSY1AWoSfp999hQl-kKH6Fbk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_200_200/B56Zo7MOOIHQAM-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=YwpEXIsVSF8I87T_6HDn1C5qlRHhKpAgVestPtHIhfE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGISJG6Qqla3g/company-logo_100_100/B56Zo7MOOIHQAU-/0/1761929651338/la_sierra_university_logo?e=1796256000&v=beta&t=oGnVib0a4RA5WaHj4D4Qwt1i45yQvDWv0Ctgq1Bk-8U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19604/",
+    "schoolName": "La Sierra University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2002
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19604/",
+    "schoolId": "19604",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2002
+    },
+    "endDate": {
+     "year": 2006
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_200_200/company-logo_200_200/0/1691085346504?e=1796256000&v=beta&t=fjnB4H6Q0facdAPIJ2OlCg9VYiHZ_fGZ3dTbvlTDNvo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_100_100/company-logo_100_100/0/1691085346504?e=1796256000&v=beta&t=hXHt4nxS_w8-Bc5-OpZYgSe6BMhY83R1WmlMV2sMcjg",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_400_400/company-logo_400_400/0/1691085346504?e=1796256000&v=beta&t=B6SBj2NC6DY8CxCchq4J4nBUwK707CsrmO-z1eKe2mY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_200_200/company-logo_200_200/0/1691085346504?e=1796256000&v=beta&t=fjnB4H6Q0facdAPIJ2OlCg9VYiHZ_fGZ3dTbvlTDNvo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGHIsjKHv0dtw/company-logo_100_100/company-logo_100_100/0/1691085346504?e=1796256000&v=beta&t=hXHt4nxS_w8-Bc5-OpZYgSe6BMhY83R1WmlMV2sMcjg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/8578/",
+    "schoolName": "California State University, Fullerton",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/8578/",
+    "schoolId": "8578",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2007
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "529x133": "https://media.licdn.com/dms/image/v2/D5616AQElE7cdHGFibA/profile-displaybackgroundimage-shrink_350_1400/B56aF19RkdH4AY-/0/1792980359778?e=1796256000&v=beta&t=KY8tXiUpD7Mu_jaA3DEYpTMpVwdBeKzr1WRbdRaOwn8",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQElE7cdHGFibA/profile-displaybackgroundimage-shrink_350_1400/B56aF19RkdH4AY-/0/1792980359778?e=1796256000&v=beta&t=KY8tXiUpD7Mu_jaA3DEYpTMpVwdBeKzr1WRbdRaOwn8",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQElE7cdHGFibA/profile-displaybackgroundimage-shrink_350_1400/B56aF19RkdH4AY-/0/1792980359778?e=1796256000&v=beta&t=KY8tXiUpD7Mu_jaA3DEYpTMpVwdBeKzr1WRbdRaOwn8",
+     "width": 529,
+     "height": 133
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/bigdataluis"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T03:17:45.056Z",
+ "foundBy": null
+}

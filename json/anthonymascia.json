@@ -1,0 +1,1024 @@
+{
+ "slug": "anthonymascia",
+ "inputUrl": "https://www.linkedin.com/in/anthonymascia",
+ "fetchedAt": "2026-10-19T12:31:04.227Z",
+ "id": "6ad60d88d820dfb707d07810",
+ "url": "https://www.linkedin.com/in/anthonymascia",
+ "profile": {
+  "created": 1354030081082,
+  "trackingId": "AvLSqEVOTD+3xelKQjqYkA==",
+  "firstName": "Anthony",
+  "lastName": "Mascia",
+  "pronoun": null,
+  "versionTag": "933818225",
+  "headline": "Senior Software Engineer at AKRF",
+  "publicIdentifier": "anthonymascia",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 3,
+   "day": 25,
+   "year": null
+  },
+  "id": "217934764",
+  "profileId": "ACoAAAz9a6wBfWyBjkRYtkDFBBcazYgeGgC7CbA",
+  "pictureUrl": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_400_400/B56aBYcDUtIsAg-/0/1788190146474?e=1793836800&v=beta&t=1feyGMxrc0MOTQXLard65kctdRd5Mj07awcSVPXOMtw",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_100_100/B56aBYcDUtIsAY-/0/1788190146474?e=1793836800&v=beta&t=L9-ytBvYvrq0t9qzTXJ2Oq3tKHBModc6hz6LG50kGY4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_200_200/B56aBYcDUtIsAc-/0/1788190146474?e=1793836800&v=beta&t=20ceBabUhUldpTDGXZ_1MzxjaxR1LycqFOogswcKd3s"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_200_800/B56aBYvtx0JwAQ-/0/1788195298968?e=1793836800&v=beta&t=9Mpo6L1h95plDa_u5TthlDmwg-FKP_1BwJnemL9V0G0",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_350_1400/B56aBYvtx0JwAU-/0/1788195298968?e=1793836800&v=beta&t=bnq11gy-BL5SN_-L5q_-Op3_-1WOwfAPaGNZfA1iNz0"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I specialize in the intersection of mature enterprise architecture and applied AI. With 11 years of experience building and operating the production systems a professional-services firm runs on, I spent the last year spearheading its AI engineering capabilities from the ground up.\n\n\nThe .NET Foundation \n\nMy engineering foundation is built on over a decade of architecting the API platforms, full-stack applications, and shared infrastructure that power enterprise internal tooling. Operating across all generations of the ecosystem—from legacy frameworks to C# 14 and .NET 10—I spent 11 years owning the critical systems that only get noticed when something goes wrong. I know what it takes to build software that survives in production.\n\n\nEnterprise AI Platform & Governance \n\nMost applied-AI work today is being driven by teams who have never had to operate a production environment. The model layer moves fast, but the underlying infrastructure—permission-trimmed retrieval, review gates, Azure identity governance, audit trails, and cost visibility—is what most organizations realize they are missing after something breaks. That is the layer I build.\n• Standards & MCP Architecture: I authored the firm’s foundational AI Agent and MCP (Model Context Protocol) Server Standards. I navigated IT leadership and the AI committee to secure a firm-wide mandate restricting agents to read-only access.\n• Production AI Integration: I built the firm’s first custom MCP server from scratch—a reference implementation exposing live CRM data to AI agents governed by strict field-allowlisting and zero write paths.\n• Data-Driven AI Evaluation: I believe AI performance must be measured, not asserted. I built a golden-set evaluation harness for our LLM-judge code review agents, calibrated against historical human verdicts so changes ship on data, not faith. I rely on rigorous A/B testing to govern agent rulesets, ensuring every architectural decision is mathematically sound.\n\nCore Tech Stack: C# 14, .NET 10, Model Context Protocol (MCP), Agent Orchestration, LLM Evaluation, Azure.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York City Metropolitan Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "Lead architecture for the internal .NET application fleet, shared API infrastructure, and enterprise AI engineering standards. Proven track record of modernizing legacy systems, building automation tooling, and pioneering secure AI integrations.\n\nAI PLATFORM & GOVERNANCE\n\n• Enterprise AI Governance: Authored the firm's AI Agent Standard and MCP Server Standard — the rules for how AI agents are built, authenticated, and scoped.\n• Custom MCP Server Architecture: Architected a production service enabling secure LLM access to live CRM data. Implemented strict field-allowlisting with no write path, creating the reference implementation for future servers.\n• AI Code Review: Built a golden-set evaluation harness for LLM-judge agents calibrated against historical verdicts. This ensures AI-driven code assessments ship as measurable, accurate improvements.\n• Agent Framework: Maintained a version-controlled, review-gated framework governing multiple workstreams. Features include a centralized skill catalog, RBAC, and API spend tracking, driving adoption across external engineering teams.\n• Agent Communication: Replaced a failure-prone email relay with a direct channel between two architects' coding agents. Engineered the architecture so final execution strictly remains human-gated, improving system reliability.\n\n.NET PLATFORM & APPLICATIONS\n\n• .NET Modernization: Led the internal application fleet migration from legacy .NET Framework to .NET 10, eliminating end-of-life exposure across every application.\n• Enterprise API Infrastructure: Architected and deployed the firm's first foundational internal API platform from scratch, establishing the core shared framework layer that powers all enterprise-wide automation tooling.\n• Comprehensive .NET Ecosystem Mastery: Possess deep expertise across all .NET generations (legacy .NET Framework through .NET 10), architecting, modernizing, and maintaining the firm's entire fleet of web, WinForms desktop, and background console applications.",
+    "insights": "Artificial Intelligence (AI), .NET and +17 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/30602/",
+     "name": "AKRF",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc"
+     }
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/54453/",
+     "name": "Argus Information and Advisory Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I"
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "VB.NET Developer Intern",
+      "locationName": "White Plains, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     },
+     {
+      "title": "Product Development and Installation Intern",
+      "locationName": "White Plains",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     }
+    ]
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_200_200/company-logo_200_200/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=10kSoc31qD4ArVh-Jk40m3U8lrpfidAvVbhwyxfWgZc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_100_100/company-logo_100_100/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=5RUTSSnC_ZYCkIds2z3Wf__btehIK7xlft0Hi8pbSUY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19522/",
+    "schoolName": "Manhattan University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Goethe-Zertifikat A1: Start Deutsch 1",
+    "authority": "",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "",
+    "title": "Goethe-Zertifikat A1: Start Deutsch 1",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "German",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Science and Technology"
+  ],
+  "companyName": "AKRF",
+  "companyPublicId": "akrfinc",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/akrfinc/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:30602",
+   "name": "AKRF",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFi2SRwndMVDA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+       "expiresAt": 1793836800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_"
+    }
+   },
+   "universalName": "akrfinc",
+   "url": "https://www.linkedin.com/company/akrfinc/",
+   "slug": "akrfinc",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+   "specialties": []
+  },
+  "followerCount": 927,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 927,
+  "skills": [
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Policy, Governance, and Regulation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Entity Framework (EF) Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LLM Evaluation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET Web API",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "WinForms",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": ".NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Entity Framework (EF) Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET MVC",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "jQuery",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Bootstrap",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "AI Policy, Governance, and Regulation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/anthonymascia",
+  "linkedinUrl": "https://www.linkedin.com/in/anthonymascia",
+  "profileUrl": "https://www.linkedin.com/in/anthonymascia",
+  "verified": true,
+  "registeredAt": "2012-11-27T15:28:01.082Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I specialize in the intersection of mature enterprise architecture and applied AI. With 11 years of experience building and operating the production systems a professional-services firm runs on, I spent the last year spearheading its AI engineering capabilities from the ground up.\n\n\nThe .NET Foundation \n\nMy engineering foundation is built on over a decade of architecting the API platforms, full-stack applications, and shared infrastructure that power enterprise internal tooling. Operating across all generations of the ecosystem—from legacy frameworks to C# 14 and .NET 10—I spent 11 years owning the critical systems that only get noticed when something goes wrong. I know what it takes to build software that survives in production.\n\n\nEnterprise AI Platform & Governance \n\nMost applied-AI work today is being driven by teams who have never had to operate a production environment. The model layer moves fast, but the underlying infrastructure—permission-trimmed retrieval, review gates, Azure identity governance, audit trails, and cost visibility—is what most organizations realize they are missing after something breaks. That is the layer I build.\n• Standards & MCP Architecture: I authored the firm’s foundational AI Agent and MCP (Model Context Protocol) Server Standards. I navigated IT leadership and the AI committee to secure a firm-wide mandate restricting agents to read-only access.\n• Production AI Integration: I built the firm’s first custom MCP server from scratch—a reference implementation exposing live CRM data to AI agents governed by strict field-allowlisting and zero write paths.\n• Data-Driven AI Evaluation: I believe AI performance must be measured, not asserted. I built a golden-set evaluation harness for our LLM-judge code review agents, calibrated against historical human verdicts so changes ship on data, not faith. I rely on rigorous A/B testing to govern agent rulesets, ensuring every architectural decision is mathematically sound.\n\nCore Tech Stack: C# 14, .NET 10, Model Context Protocol (MCP), Agent Orchestration, LLM Evaluation, Azure.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York City Metropolitan Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "Lead architecture for the internal .NET application fleet, shared API infrastructure, and enterprise AI engineering standards. Proven track record of modernizing legacy systems, building automation tooling, and pioneering secure AI integrations.\n\nAI PLATFORM & GOVERNANCE\n\n• Enterprise AI Governance: Authored the firm's AI Agent Standard and MCP Server Standard — the rules for how AI agents are built, authenticated, and scoped.\n• Custom MCP Server Architecture: Architected a production service enabling secure LLM access to live CRM data. Implemented strict field-allowlisting with no write path, creating the reference implementation for future servers.\n• AI Code Review: Built a golden-set evaluation harness for LLM-judge agents calibrated against historical verdicts. This ensures AI-driven code assessments ship as measurable, accurate improvements.\n• Agent Framework: Maintained a version-controlled, review-gated framework governing multiple workstreams. Features include a centralized skill catalog, RBAC, and API spend tracking, driving adoption across external engineering teams.\n• Agent Communication: Replaced a failure-prone email relay with a direct channel between two architects' coding agents. Engineered the architecture so final execution strictly remains human-gated, improving system reliability.\n\n.NET PLATFORM & APPLICATIONS\n\n• .NET Modernization: Led the internal application fleet migration from legacy .NET Framework to .NET 10, eliminating end-of-life exposure across every application.\n• Enterprise API Infrastructure: Architected and deployed the firm's first foundational internal API platform from scratch, establishing the core shared framework layer that powers all enterprise-wide automation tooling.\n• Comprehensive .NET Ecosystem Mastery: Possess deep expertise across all .NET generations (legacy .NET Framework through .NET 10), architecting, modernizing, and maintaining the firm's entire fleet of web, WinForms desktop, and background console applications.",
+    "insights": "Artificial Intelligence (AI), .NET and +17 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/30602/",
+     "name": "AKRF",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "AKRF",
+    "location": "New York City Metropolitan Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30602/",
+    "companyId": "30602",
+    "duration": "11 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/54453/",
+     "name": "Argus Information and Advisory Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I"
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "positions": [
+     {
+      "title": "VB.NET Developer Intern",
+      "locationName": "White Plains, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     },
+     {
+      "title": "Product Development and Installation Intern",
+      "locationName": "White Plains",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     }
+    ],
+    "companyName": "Argus Information and Advisory Services",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/54453/",
+    "companyId": "54453",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [],
+  "currentPosition": [
+   {
+    "companyId": "30602",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30602/",
+    "companyName": "AKRF",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "54453",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/54453/",
+    "companyName": "Argus Information and Advisory Services",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York City Metropolitan Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "Lead architecture for the internal .NET application fleet, shared API infrastructure, and enterprise AI engineering standards. Proven track record of modernizing legacy systems, building automation tooling, and pioneering secure AI integrations.\n\nAI PLATFORM & GOVERNANCE\n\n• Enterprise AI Governance: Authored the firm's AI Agent Standard and MCP Server Standard — the rules for how AI agents are built, authenticated, and scoped.\n• Custom MCP Server Architecture: Architected a production service enabling secure LLM access to live CRM data. Implemented strict field-allowlisting with no write path, creating the reference implementation for future servers.\n• AI Code Review: Built a golden-set evaluation harness for LLM-judge agents calibrated against historical verdicts. This ensures AI-driven code assessments ship as measurable, accurate improvements.\n• Agent Framework: Maintained a version-controlled, review-gated framework governing multiple workstreams. Features include a centralized skill catalog, RBAC, and API spend tracking, driving adoption across external engineering teams.\n• Agent Communication: Replaced a failure-prone email relay with a direct channel between two architects' coding agents. Engineered the architecture so final execution strictly remains human-gated, improving system reliability.\n\n.NET PLATFORM & APPLICATIONS\n\n• .NET Modernization: Led the internal application fleet migration from legacy .NET Framework to .NET 10, eliminating end-of-life exposure across every application.\n• Enterprise API Infrastructure: Architected and deployed the firm's first foundational internal API platform from scratch, establishing the core shared framework layer that powers all enterprise-wide automation tooling.\n• Comprehensive .NET Ecosystem Mastery: Possess deep expertise across all .NET generations (legacy .NET Framework through .NET 10), architecting, modernizing, and maintaining the firm's entire fleet of web, WinForms desktop, and background console applications.",
+    "insights": "Artificial Intelligence (AI), .NET and +17 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/30602/",
+     "name": "AKRF",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "AKRF",
+    "location": "New York City Metropolitan Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30602/",
+    "companyId": "30602",
+    "duration": "11 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_400_400/company-logo_400_400/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=enNIsk26yLlwUuF53Hwmw8cnjAkXhn_SIlvrcle4YQc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_200_200/company-logo_200_200/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=XRvP-eJMpif17D2Isx9DXA755lL2H9RhnMiJA3a66aQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFi2SRwndMVDA/company-logo_100_100/company-logo_100_100/0/1726098277802/akrf_inc__logo?e=1793836800&v=beta&t=pNjyxvhltT4vOJRjULEGZ5S2qcy_Cl2NSYZz4YqZZ3s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/54453/",
+     "name": "Argus Information and Advisory Services",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I"
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "positions": [
+     {
+      "title": "VB.NET Developer Intern",
+      "locationName": "White Plains, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     },
+     {
+      "title": "Product Development and Installation Intern",
+      "locationName": "White Plains",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "",
+      "insights": "Python (Programming Language)"
+     }
+    ],
+    "companyName": "Argus Information and Advisory Services",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/54453/",
+    "companyId": "54453",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_400_400/company-logo_400_400/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=6y4ZYCJ6FxMDQ99d2dlJiAGsBZPpfqYEmfKjN6ebz7I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_200_200/company-logo_200_200/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=_uhlFhAzOR0t60MVEQQqZBBUHln4LuDVGdaxOXB8hfc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHWhkooIV1Q-A/company-logo_100_100/company-logo_100_100/0/1649432596710/argus_information_and_advisory_services_logo?e=1793836800&v=beta&t=WlAicKOnqjBu-DxEYvxmb2G2otzCEoxiFRJaJyO7Ae4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_200_200/company-logo_200_200/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=10kSoc31qD4ArVh-Jk40m3U8lrpfidAvVbhwyxfWgZc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_100_100/company-logo_100_100/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=5RUTSSnC_ZYCkIds2z3Wf__btehIK7xlft0Hi8pbSUY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_200_200/company-logo_200_200/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=10kSoc31qD4ArVh-Jk40m3U8lrpfidAvVbhwyxfWgZc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_100_100/company-logo_100_100/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=5RUTSSnC_ZYCkIds2z3Wf__btehIK7xlft0Hi8pbSUY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19522/",
+    "schoolName": "Manhattan University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19522/",
+    "schoolId": "19522",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_200_200/company-logo_200_200/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=10kSoc31qD4ArVh-Jk40m3U8lrpfidAvVbhwyxfWgZc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_100_100/company-logo_100_100/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=5RUTSSnC_ZYCkIds2z3Wf__btehIK7xlft0Hi8pbSUY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_400_400/company-logo_400_400/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=dq6gy_mP-HfxOQ8GcMlTof68SPt1JanVXli_j-xBrvs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_200_200/company-logo_200_200/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=10kSoc31qD4ArVh-Jk40m3U8lrpfidAvVbhwyxfWgZc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFu6F5UNtjLxg/company-logo_100_100/company-logo_100_100/0/1724337903164/manhattan_college_logo?e=1793836800&v=beta&t=5RUTSSnC_ZYCkIds2z3Wf__btehIK7xlft0Hi8pbSUY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19522/",
+    "schoolName": "Manhattan University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19522/",
+    "schoolId": "19522",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_400_400/B56aBYcDUtIsAg-/0/1788190146474?e=1793836800&v=beta&t=1feyGMxrc0MOTQXLard65kctdRd5Mj07awcSVPXOMtw",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_100_100/B56aBYcDUtIsAY-/0/1788190146474?e=1793836800&v=beta&t=L9-ytBvYvrq0t9qzTXJ2Oq3tKHBModc6hz6LG50kGY4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_200_200/B56aBYcDUtIsAc-/0/1788190146474?e=1793836800&v=beta&t=20ceBabUhUldpTDGXZ_1MzxjaxR1LycqFOogswcKd3s",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_400_400/B56aBYcDUtIsAg-/0/1788190146474?e=1793836800&v=beta&t=1feyGMxrc0MOTQXLard65kctdRd5Mj07awcSVPXOMtw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_200_200/B56aBYcDUtIsAc-/0/1788190146474?e=1793836800&v=beta&t=20ceBabUhUldpTDGXZ_1MzxjaxR1LycqFOogswcKd3s",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_100_100/B56aBYcDUtIsAY-/0/1788190146474?e=1793836800&v=beta&t=L9-ytBvYvrq0t9qzTXJ2Oq3tKHBModc6hz6LG50kGY4",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_400_400/B56aBYcDUtIsAg-/0/1788190146474?e=1793836800&v=beta&t=1feyGMxrc0MOTQXLard65kctdRd5Mj07awcSVPXOMtw",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_100_100/B56aBYcDUtIsAY-/0/1788190146474?e=1793836800&v=beta&t=L9-ytBvYvrq0t9qzTXJ2Oq3tKHBModc6hz6LG50kGY4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_200_200/B56aBYcDUtIsAc-/0/1788190146474?e=1793836800&v=beta&t=20ceBabUhUldpTDGXZ_1MzxjaxR1LycqFOogswcKd3s",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-crop_800_800/B56aBYcDUtIsAI-/0/1788190146474?e=1793836800&v=beta&t=dApDsLa9b29ONzKhh_fki7bIelMhhJdecLLEEyG8-zM",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_400_400/B56aBYcDUtIsAg-/0/1788190146474?e=1793836800&v=beta&t=1feyGMxrc0MOTQXLard65kctdRd5Mj07awcSVPXOMtw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_200_200/B56aBYcDUtIsAc-/0/1788190146474?e=1793836800&v=beta&t=20ceBabUhUldpTDGXZ_1MzxjaxR1LycqFOogswcKd3s",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG-hHwPuP-f5w/profile-displayphoto-scale_100_100/B56aBYcDUtIsAY-/0/1788190146474?e=1793836800&v=beta&t=L9-ytBvYvrq0t9qzTXJ2Oq3tKHBModc6hz6LG50kGY4",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_200_800/B56aBYvtx0JwAQ-/0/1788195298968?e=1793836800&v=beta&t=9Mpo6L1h95plDa_u5TthlDmwg-FKP_1BwJnemL9V0G0",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_350_1400/B56aBYvtx0JwAU-/0/1788195298968?e=1793836800&v=beta&t=bnq11gy-BL5SN_-L5q_-Op3_-1WOwfAPaGNZfA1iNz0",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_350_1400/B56aBYvtx0JwAU-/0/1788195298968?e=1793836800&v=beta&t=bnq11gy-BL5SN_-L5q_-Op3_-1WOwfAPaGNZfA1iNz0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_350_1400/B56aBYvtx0JwAU-/0/1788195298968?e=1793836800&v=beta&t=bnq11gy-BL5SN_-L5q_-Op3_-1WOwfAPaGNZfA1iNz0",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQEvVIYZDiaPlQ/profile-displaybackgroundimage-shrink_200_800/B56aBYvtx0JwAQ-/0/1788195298968?e=1793836800&v=beta&t=9Mpo6L1h95plDa_u5TthlDmwg-FKP_1BwJnemL9V0G0",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/anthonymascia"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T12:30:49.527Z",
+ "foundBy": null
+}

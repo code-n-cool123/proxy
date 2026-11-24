@@ -1,0 +1,2304 @@
+{
+ "slug": "parshv252123",
+ "inputUrl": "https://www.linkedin.com/in/parshv252123",
+ "fetchedAt": "2026-11-18T20:35:58.976Z",
+ "id": "6afe0c2e326d0b70b7e25b82",
+ "url": "https://www.linkedin.com/in/parshv252123",
+ "profile": {
+  "created": 1503234050263,
+  "trackingId": "Yp841kndShar4HqD3aGvdQ==",
+  "firstName": "Parshv",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "3056591790",
+  "headline": "Software Engineer at Walmart | Ex - Amazon",
+  "publicIdentifier": "parshv252123",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "599355562",
+  "profileId": "ACoAACO5cKoBOrMaDb8382SSMMwIKYxCoBWOu58",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I am a results-driven software engineer with a strong foundation in both theoretical concepts and practical applications. With a Master of Science in Software Engineering from San Jose State University and a Bachelor of Science in Computer Engineering from Nirma University, I have honed my skills across a wide range of programming languages, technologies, and cloud platforms.\n\nIn my current role as a Software Engineer at Amazon, I have contributed to the development of an automated, self-service content-risk management system, leveraging Java, SQL, Kotlin, JavaScript, TypeScript, ReactJS, Node.js, and AWS technologies. I played a key role in implementing Content Appropriateness policies for Books, resulting in a significant increase in automation rates and enhancing the integrity of the system.\n\nOutside of work, I am passionate about exploring new technologies, solving complex problems, and collaborating with cross-functional teams to deliver innovative solutions. I am eager to leverage my skills and experiences to contribute to challenging projects and drive business growth in a dynamic and fast-paced environment.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Sunnyvale, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "- Built and scaled high-concurrency backend services for Walmart’s global User Generated Content (UGC) platform, supporting Ratings & Reviews for millions of monthly active users while enabling multi-tenant, globally distributed, near real-time review processing with stronger consistency and observability guarantees.\n\n- Collaborated on the architectural transition from a legacy Spark-based batch jobs model (UGC 1.0) to a high-performance Event-Driven Architecture (UGC 2.0) using Golang and Azure Cosmos DB, targeting a 50% reduction in infrastructure costs and real-time data freshness.\n\n- Authored the Low-Level Design (LLD) and implemented the GET Product Reviews endpoint in Golang, optimizing data retrieval paths to handle 5,700+ QPS with sub-300ms latency.\n\n- Re-engineered data pipelines by replacing 150+ disjointed batch jobs with Kafka-based event streams, reducing the review ingestion window from 24 hours to under 5 minutes.\n\n- Designed resilient microservices on Azure and Kubernetes to maintain 99.99% availability, ensuring the platform remains stable during 3× traffic surges (12M+ monthly orders) during peak retail events.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "- Developed an automated, self-service, multi-tenant content-risk management system utilizing Java, SQL, Kotlin, JavaScript, TypeScript, ReactJS, Node.js, AWS, S3 and DynamoDB, achieving a 20% improvement in tenant engagement through enhanced usability.\n\n- Implemented Content Appropriateness policies for Books using Java, Python, Kotlin, TypeScript, AWS Step Functions and Lambdas backed by AWS CloudFormation Stacks, resulting in an increase in automation rate of policy execution to 96%.\n\n- Designed and implemented a versioning mechanism to enhance the integrity of facts within policies, contributing to a more robust and scalable content-risk management system, resulting in a 25% reduction in operational costs and enhanced the overall system efficiency. \n\n- Participated in on-call responsibilities and conducted a successful Operational Readiness Review. This meticulous approach ensured smooth event operations and significantly enhanced customer satisfaction, achieving a 40% reduction in response latency.\n\n- Authored and presented a comprehensive system implementation document to senior engineers, effectively communicated complex technical concepts and also addressed the questions.",
+    "insights": "Skills: Java · Amazon Web Services (AWS) · Kotlin · TypeScript · Software Design · Object-Oriented Programming (OOP) · AWS CloudFormation · AWS Lambda · Data Structures",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI"
+     }
+    }
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "Dallas, Texas, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and analyzed 125 Ground Operations injuries and 80 instances of aircraft wing overlaps using Power BI and Tableau.\n\n- Forecasted aircraft damage costs with 95% accuracy using Python, SQL, Data Visualization techniques and Machine Learning models.\n\n- Predicted a 25% reduction in overhead bin injuries in an aircraft using Predictive Models and Machine Learning techniques, resulting in improved safety measures.",
+    "insights": "Skills: SQL · Data Science · Tableau · Data Analysis · Python (Programming Language) · Machine Learning · Alteryx · Microsoft PowerPoint",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "San Jose State University",
+     "url": "https://www.linkedin.com/company/157344/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII"
+     }
+    },
+    "locationName": "San Jose, California, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Graduate Research Assistant, Machine Learning and NoSQL",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Machine Learning (CMPE 257)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Research Assistant, Machine Learning and Deep Learning",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Data Mining (CMPE 255)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "In collaboration with NeedEnergy, this 8-week challenge focuses on increasing clean energy adoption in Sub-Saharan Africa with the aid of machine learning for predicting energy demand and potential solar energy production. My tasks in this challenge include the following:\n\n1. Collect datasets and sources for energy demand prediction using ML\n2. Conduct research on clean energy in Africa\n3. Contribute to developing ML models for predictive analytics\n4. Co-created a dashboard for forecasting solar energy production in Harare, Zimbabwe\n5. Co-created a PV sizing tool to optimize ROI on solar installations in Harare, Zimbabwe",
+    "company": {
+     "url": "https://www.linkedin.com/company/14052175/",
+     "name": "Omdena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "- Designed and developed dashboards using AngularJS, ReactJS, Node.js, and TypeScript and blended various services into their respective dashboards, reaching over 100,000 customers within Q3 and Q4 2020, resulting in a 15% average revenue increase per customer.\n\n- Defined services in Java in Eclipse and used Postman to call endpoints of different services, successfully scaling the application architecture to accommodate a 30% increase in user traffic.\n\n- Integrated data into dashboards using Oracle Database, resulting in a 25% increase in user engagement with the dashboards.",
+    "company": {
+     "url": "https://www.linkedin.com/company/9381687/",
+     "name": "Quicko",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ"
+     }
+    }
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "- Implemented Machine Learning projects using python libraries such as Numpy, Pandas, Scikit-learn, Keras, Tensorflow, PyTorch, OpenCV and OpenPose Pose Estimation.\n\n- Generated a pose estimation model to detect and classify type of exercise and parameters related to an exercise with an accuracy of 97%.",
+    "company": {
+     "url": "https://www.linkedin.com/company/20117782/",
+     "name": "InfiVolve, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ"
+     }
+    }
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Developed a web app using Flask framework for printed and handwritten text recognition.\n\n- Extracted text from forms with printed and handwritten text in English and Hindi language using a combination of OpenCV and other machine learning techniques with an accuracy of 98%.\n\n- Managed to use Python Libraries like Optical Character Recognition and OpenCV.",
+    "company": {
+     "url": "https://www.linkedin.com/company/790183/",
+     "name": "Fusion Informatics Limited",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ"
+     }
+    }
+   },
+   {
+    "title": "Web Designer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "I was offered an intern role of Wed Designer and I successfully completed this internship that consisted of learning Web Designing (with Bootstrap Framework) and Project Deployment.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4795206/",
+     "name": "Silverwing Technologies PVT LTD.",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_200_200/company-logo_200_200/0/1708176267470?e=1796860800&v=beta&t=YSPFkwB2XNj43mIywT3teEGar3JFcTVsDi6UuW6EFTU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_100_100/company-logo_100_100/0/1708176267470?e=1796860800&v=beta&t=Pitfmq0YUrCQ6AuUuOiFMedqpSVlhXlzjKFEc-nnhl8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_400_400/company-logo_400_400/0/1708176267470?e=1796860800&v=beta&t=qcxkM8hNfsFXmYVYx_IsWfgqP3gkRrtgDnKcB2atu98"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096420/",
+    "schoolName": "Nirma University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Problem Solving (Advanced)",
+    "authority": "HackerRank",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "HackerRank",
+    "title": "Problem Solving (Advanced)",
+    "issuedBy": "HackerRank",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Deep Learning Specialization",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Deep Learning Specialization",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Advanced Data Mining"
+   },
+   {
+    "name": "Art of Programming (C Language)"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Teacher",
+    "companyName": "Visamo Kids Foundation",
+    "description": "Community service for under-privileged children by helping them in their study",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/4151204/",
+     "name": "Visamo Kids Foundation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_100_100/B4DZXsVKLjG4AQ-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=2f5z6IDNVcI6Jm0ln0b42sDslSwDFLzcKNDQ4097_zo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_400_400/B4DZXsVKLjG4AY-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=qDaXEUqO1_aQp6QYcDuLBpkoo8MvwVHzeiKGskiigRg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_200_200/B4DZXsVKLjG4AI-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=FUfLsx8b607OvAL1e3RX9pCcLCC-zl7yITerh7IZKkY"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Severstal : Steel Defect Detection",
+    "description": "I designed a model in Python language which can detect and classify the defects in Steel. I used VGG16 as the architecture, Sigmoid as the activation function, Adam as the optimizer and Binary Cross Entropy as the loss. The model was trained for 5 epochs and achieved 0.88780 as the private score and 0.90672 as the public score.",
+    "dateRange": {},
+    "associatedWith": "Aug 2019 - Dec 2019"
+   },
+   {
+    "title": "Surveillance to identify the person from different angles",
+    "description": "Designed a deep learning model which tries to detect the person from the image or video regardless of the appearance of that person. The model was trained using Convolutional Neural Networks. Different models were tried to check the accuracy of the model and then the best accuracy for one of the models was obtained. The model gave 100% training accuracy and 97% validation accuracy.",
+    "dateRange": {},
+    "associatedWith": "Jul 2019 - Nov 2019"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Walmart Global Tech",
+  "companyPublicId": "walmartglobaltech",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/walmartglobaltech/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:11174522",
+   "name": "Walmart Global Tech",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQEjq-bcaW-GSg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_"
+    }
+   },
+   "universalName": "walmartglobaltech",
+   "url": "https://www.linkedin.com/company/walmartglobaltech/",
+   "slug": "walmartglobaltech",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+   "specialties": []
+  },
+  "followerCount": 1978,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1981,
+  "skills": [
+   {
+    "name": "Data Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tableau",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Alteryx",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kotlin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Data Structures",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Alteryx",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Structures",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Tableau",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kotlin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/parshv252123",
+  "linkedinUrl": "https://www.linkedin.com/in/parshv252123",
+  "profileUrl": "https://www.linkedin.com/in/parshv252123",
+  "verified": true,
+  "registeredAt": "2017-08-20T13:00:50.263Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I am a results-driven software engineer with a strong foundation in both theoretical concepts and practical applications. With a Master of Science in Software Engineering from San Jose State University and a Bachelor of Science in Computer Engineering from Nirma University, I have honed my skills across a wide range of programming languages, technologies, and cloud platforms.\n\nIn my current role as a Software Engineer at Amazon, I have contributed to the development of an automated, self-service content-risk management system, leveraging Java, SQL, Kotlin, JavaScript, TypeScript, ReactJS, Node.js, and AWS technologies. I played a key role in implementing Content Appropriateness policies for Books, resulting in a significant increase in automation rates and enhancing the integrity of the system.\n\nOutside of work, I am passionate about exploring new technologies, solving complex problems, and collaborating with cross-functional teams to deliver innovative solutions. I am eager to leverage my skills and experiences to contribute to challenging projects and drive business growth in a dynamic and fast-paced environment.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Software Engineer",
+   "Data Scientist",
+   "Machine Learning Engineer",
+   "Software Engineer",
+   "Data Scientist",
+   "Machine Learning Engineer",
+   "Web Designer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Sunnyvale, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "- Built and scaled high-concurrency backend services for Walmart’s global User Generated Content (UGC) platform, supporting Ratings & Reviews for millions of monthly active users while enabling multi-tenant, globally distributed, near real-time review processing with stronger consistency and observability guarantees.\n\n- Collaborated on the architectural transition from a legacy Spark-based batch jobs model (UGC 1.0) to a high-performance Event-Driven Architecture (UGC 2.0) using Golang and Azure Cosmos DB, targeting a 50% reduction in infrastructure costs and real-time data freshness.\n\n- Authored the Low-Level Design (LLD) and implemented the GET Product Reviews endpoint in Golang, optimizing data retrieval paths to handle 5,700+ QPS with sub-300ms latency.\n\n- Re-engineered data pipelines by replacing 150+ disjointed batch jobs with Kafka-based event streams, reducing the review ingestion window from 24 hours to under 5 minutes.\n\n- Designed resilient microservices on Azure and Kubernetes to maintain 99.99% availability, ensuring the platform remains stable during 3× traffic surges (12M+ monthly orders) during peak retail events.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Walmart Global Tech",
+    "location": "Sunnyvale, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11174522/",
+    "companyId": "11174522",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "San Jose State University",
+     "url": "https://www.linkedin.com/company/157344/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII"
+     }
+    },
+    "locationName": "San Jose, California, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Graduate Research Assistant, Machine Learning and NoSQL",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Machine Learning (CMPE 257)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Research Assistant, Machine Learning and Deep Learning",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Data Mining (CMPE 255)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "San Jose State University",
+    "location": "San Jose, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "companyId": "157344",
+    "duration": "1 yr",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "- Developed an automated, self-service, multi-tenant content-risk management system utilizing Java, SQL, Kotlin, JavaScript, TypeScript, ReactJS, Node.js, AWS, S3 and DynamoDB, achieving a 20% improvement in tenant engagement through enhanced usability.\n\n- Implemented Content Appropriateness policies for Books using Java, Python, Kotlin, TypeScript, AWS Step Functions and Lambdas backed by AWS CloudFormation Stacks, resulting in an increase in automation rate of policy execution to 96%.\n\n- Designed and implemented a versioning mechanism to enhance the integrity of facts within policies, contributing to a more robust and scalable content-risk management system, resulting in a 25% reduction in operational costs and enhanced the overall system efficiency. \n\n- Participated in on-call responsibilities and conducted a successful Operational Readiness Review. This meticulous approach ensured smooth event operations and significantly enhanced customer satisfaction, achieving a 40% reduction in response latency.\n\n- Authored and presented a comprehensive system implementation document to senior engineers, effectively communicated complex technical concepts and also addressed the questions.",
+    "insights": "Skills: Java · Amazon Web Services (AWS) · Kotlin · TypeScript · Software Design · Object-Oriented Programming (OOP) · AWS CloudFormation · AWS Lambda · Data Structures",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "Dallas, Texas, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and analyzed 125 Ground Operations injuries and 80 instances of aircraft wing overlaps using Power BI and Tableau.\n\n- Forecasted aircraft damage costs with 95% accuracy using Python, SQL, Data Visualization techniques and Machine Learning models.\n\n- Predicted a 25% reduction in overhead bin injuries in an aircraft using Predictive Models and Machine Learning techniques, resulting in improved safety measures.",
+    "insights": "Skills: SQL · Data Science · Tableau · Data Analysis · Python (Programming Language) · Machine Learning · Alteryx · Microsoft PowerPoint",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4"
+     }
+    },
+    "position": "Data Scientist",
+    "companyName": "Southwest Airlines",
+    "location": "Dallas, Texas, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4599/",
+    "companyId": "4599",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "In collaboration with NeedEnergy, this 8-week challenge focuses on increasing clean energy adoption in Sub-Saharan Africa with the aid of machine learning for predicting energy demand and potential solar energy production. My tasks in this challenge include the following:\n\n1. Collect datasets and sources for energy demand prediction using ML\n2. Conduct research on clean energy in Africa\n3. Contribute to developing ML models for predictive analytics\n4. Co-created a dashboard for forecasting solar energy production in Harare, Zimbabwe\n5. Co-created a PV sizing tool to optimize ROI on solar installations in Harare, Zimbabwe",
+    "company": {
+     "url": "https://www.linkedin.com/company/14052175/",
+     "name": "Omdena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Omdena",
+    "location": "New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14052175/",
+    "companyId": "14052175",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "- Designed and developed dashboards using AngularJS, ReactJS, Node.js, and TypeScript and blended various services into their respective dashboards, reaching over 100,000 customers within Q3 and Q4 2020, resulting in a 15% average revenue increase per customer.\n\n- Defined services in Java in Eclipse and used Postman to call endpoints of different services, successfully scaling the application architecture to accommodate a 30% increase in user traffic.\n\n- Integrated data into dashboards using Oracle Database, resulting in a 25% increase in user engagement with the dashboards.",
+    "company": {
+     "url": "https://www.linkedin.com/company/9381687/",
+     "name": "Quicko",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Quicko",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/9381687/",
+    "companyId": "9381687",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "- Implemented Machine Learning projects using python libraries such as Numpy, Pandas, Scikit-learn, Keras, Tensorflow, PyTorch, OpenCV and OpenPose Pose Estimation.\n\n- Generated a pose estimation model to detect and classify type of exercise and parameters related to an exercise with an accuracy of 97%.",
+    "company": {
+     "url": "https://www.linkedin.com/company/20117782/",
+     "name": "InfiVolve, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ"
+     }
+    },
+    "position": "Data Scientist",
+    "companyName": "InfiVolve, Inc.",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/20117782/",
+    "companyId": "20117782",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Developed a web app using Flask framework for printed and handwritten text recognition.\n\n- Extracted text from forms with printed and handwritten text in English and Hindi language using a combination of OpenCV and other machine learning techniques with an accuracy of 98%.\n\n- Managed to use Python Libraries like Optical Character Recognition and OpenCV.",
+    "company": {
+     "url": "https://www.linkedin.com/company/790183/",
+     "name": "Fusion Informatics Limited",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Fusion Informatics Limited",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/790183/",
+    "companyId": "790183",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Designer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "I was offered an intern role of Wed Designer and I successfully completed this internship that consisted of learning Web Designing (with Bootstrap Framework) and Project Deployment.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4795206/",
+     "name": "Silverwing Technologies PVT LTD.",
+     "logo": {}
+    },
+    "position": "Web Designer",
+    "companyName": "Silverwing Technologies PVT LTD.",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4795206/",
+    "companyId": "4795206",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "11174522",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11174522/",
+    "companyName": "Walmart Global Tech",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "157344",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "companyName": "San Jose State University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Sunnyvale, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "- Built and scaled high-concurrency backend services for Walmart’s global User Generated Content (UGC) platform, supporting Ratings & Reviews for millions of monthly active users while enabling multi-tenant, globally distributed, near real-time review processing with stronger consistency and observability guarantees.\n\n- Collaborated on the architectural transition from a legacy Spark-based batch jobs model (UGC 1.0) to a high-performance Event-Driven Architecture (UGC 2.0) using Golang and Azure Cosmos DB, targeting a 50% reduction in infrastructure costs and real-time data freshness.\n\n- Authored the Low-Level Design (LLD) and implemented the GET Product Reviews endpoint in Golang, optimizing data retrieval paths to handle 5,700+ QPS with sub-300ms latency.\n\n- Re-engineered data pipelines by replacing 150+ disjointed batch jobs with Kafka-based event streams, reducing the review ingestion window from 24 hours to under 5 minutes.\n\n- Designed resilient microservices on Azure and Kubernetes to maintain 99.99% availability, ensuring the platform remains stable during 3× traffic surges (12M+ monthly orders) during peak retail events.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11174522/",
+     "name": "Walmart Global Tech",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Walmart Global Tech",
+    "location": "Sunnyvale, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11174522/",
+    "companyId": "11174522",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_400_400/company-logo_400_400/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=027mffaHpXf4Z9K9PvLJ-c-ktvQ51ydMMuxi7MbSEnY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_200_200/company-logo_200_200/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=20AvY-JQDns0cMadrHh46rIfEU0YsjCz_A7NuKJPGek",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEjq-bcaW-GSg/company-logo_100_100/company-logo_100_100/0/1630657358931/walmartglobaltech_logo?e=1796860800&v=beta&t=EX855lb_2l9TM49womhnTszCIskhzJmPU7PxjQMsnPk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "- Developed an automated, self-service, multi-tenant content-risk management system utilizing Java, SQL, Kotlin, JavaScript, TypeScript, ReactJS, Node.js, AWS, S3 and DynamoDB, achieving a 20% improvement in tenant engagement through enhanced usability.\n\n- Implemented Content Appropriateness policies for Books using Java, Python, Kotlin, TypeScript, AWS Step Functions and Lambdas backed by AWS CloudFormation Stacks, resulting in an increase in automation rate of policy execution to 96%.\n\n- Designed and implemented a versioning mechanism to enhance the integrity of facts within policies, contributing to a more robust and scalable content-risk management system, resulting in a 25% reduction in operational costs and enhanced the overall system efficiency. \n\n- Participated in on-call responsibilities and conducted a successful Operational Readiness Review. This meticulous approach ensured smooth event operations and significantly enhanced customer satisfaction, achieving a 40% reduction in response latency.\n\n- Authored and presented a comprehensive system implementation document to senior engineers, effectively communicated complex technical concepts and also addressed the questions.",
+    "insights": "Skills: Java · Amazon Web Services (AWS) · Kotlin · TypeScript · Software Design · Object-Oriented Programming (OOP) · AWS CloudFormation · AWS Lambda · Data Structures",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=R5e62GeH7j-wa0iYitSrEI4YD8vSXkaBQGtGDtykf6k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=Vm3zcluKks6RNPV1OwX9nU5L3btMTd9M8FJmeVXe5bI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1796860800&v=beta&t=ZVPn51RT_gGq-WlRu92FEf_Z7NZql6tKiejbYHyrc1g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "Dallas, Texas, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Identified and analyzed 125 Ground Operations injuries and 80 instances of aircraft wing overlaps using Power BI and Tableau.\n\n- Forecasted aircraft damage costs with 95% accuracy using Python, SQL, Data Visualization techniques and Machine Learning models.\n\n- Predicted a 25% reduction in overhead bin injuries in an aircraft using Predictive Models and Machine Learning techniques, resulting in improved safety measures.",
+    "insights": "Skills: SQL · Data Science · Tableau · Data Analysis · Python (Programming Language) · Machine Learning · Alteryx · Microsoft PowerPoint",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4"
+     }
+    },
+    "position": "Data Scientist",
+    "companyName": "Southwest Airlines",
+    "location": "Dallas, Texas, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4599/",
+    "companyId": "4599",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=zGv1me7vD-c1L7CuwH0tTufhmwUR0_2MmSJPrOhmel4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=iS7Q9tvWc0ywvN82pLOw70VcHqaZNmIigsZEtr_1yrE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1796860800&v=beta&t=S4wERM4DXI7ypSNawGyx7JAqLdGQ79Xw7URk1ZRc_3Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "San Jose State University",
+     "url": "https://www.linkedin.com/company/157344/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII"
+     }
+    },
+    "locationName": "San Jose, California, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "1 yr",
+    "positions": [
+     {
+      "title": "Graduate Research Assistant, Machine Learning and NoSQL",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Machine Learning (CMPE 257)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2022
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Research Assistant, Machine Learning and Deep Learning",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Graduate Teaching Assistant, Data Mining (CMPE 255)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "San Jose State University",
+    "location": "San Jose, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "companyId": "157344",
+    "duration": "1 yr",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "In collaboration with NeedEnergy, this 8-week challenge focuses on increasing clean energy adoption in Sub-Saharan Africa with the aid of machine learning for predicting energy demand and potential solar energy production. My tasks in this challenge include the following:\n\n1. Collect datasets and sources for energy demand prediction using ML\n2. Conduct research on clean energy in Africa\n3. Contribute to developing ML models for predictive analytics\n4. Co-created a dashboard for forecasting solar energy production in Harare, Zimbabwe\n5. Co-created a PV sizing tool to optimize ROI on solar installations in Harare, Zimbabwe",
+    "company": {
+     "url": "https://www.linkedin.com/company/14052175/",
+     "name": "Omdena",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Omdena",
+    "location": "New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14052175/",
+    "companyId": "14052175",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_400_400/company-logo_400_400/0/1630567936196?e=1796860800&v=beta&t=ix0CQ74mdMnoFtMeX1ProT5yC0f1NIZspGaK1AxoFPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_200_200/company-logo_200_200/0/1630567936196?e=1796860800&v=beta&t=SPus9PF-m3_LnHhj2i_ERHQu7I4ZUvXfWr2849_-80w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHewGk35rbUwg/company-logo_100_100/company-logo_100_100/0/1630567936196?e=1796860800&v=beta&t=ib93F-NyYc0rBblRW335oWmz5wVz_VyHo8sYxfOjPr4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "- Designed and developed dashboards using AngularJS, ReactJS, Node.js, and TypeScript and blended various services into their respective dashboards, reaching over 100,000 customers within Q3 and Q4 2020, resulting in a 15% average revenue increase per customer.\n\n- Defined services in Java in Eclipse and used Postman to call endpoints of different services, successfully scaling the application architecture to accommodate a 30% increase in user traffic.\n\n- Integrated data into dashboards using Oracle Database, resulting in a 25% increase in user engagement with the dashboards.",
+    "company": {
+     "url": "https://www.linkedin.com/company/9381687/",
+     "name": "Quicko",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Quicko",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/9381687/",
+    "companyId": "9381687",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_400_400/company-logo_400_400/0/1718193572598?e=1796860800&v=beta&t=gii1rl78vC0UyVtjNEsRmrkskU4uy8jcxnwMvzTJwdQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_200_200/company-logo_200_200/0/1718193572598?e=1796860800&v=beta&t=VZGSxq6NPfGfrNyKsdVGFloheatyoXg8bsS5Wc_zZxY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHN7KoUaYS2Mg/company-logo_100_100/company-logo_100_100/0/1718193572598?e=1796860800&v=beta&t=XcxUcceluVljUP3o4po0SkP8dNWMf5wm5eh3yRWLMhM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Scientist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2020
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "- Implemented Machine Learning projects using python libraries such as Numpy, Pandas, Scikit-learn, Keras, Tensorflow, PyTorch, OpenCV and OpenPose Pose Estimation.\n\n- Generated a pose estimation model to detect and classify type of exercise and parameters related to an exercise with an accuracy of 97%.",
+    "company": {
+     "url": "https://www.linkedin.com/company/20117782/",
+     "name": "InfiVolve, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ"
+     }
+    },
+    "position": "Data Scientist",
+    "companyName": "InfiVolve, Inc.",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/20117782/",
+    "companyId": "20117782",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_400_400/company-logo_400_400/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=JzijtwzX7onpLMy2gdGN_UK__6IpJSte6qBZt--AWBQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_200_200/company-logo_200_200/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=ZGdwqOEfzk6rVZvO2xI7sAJhXIaImRZ2mpM4U66skuU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH5nbyHS-8BMA/company-logo_100_100/company-logo_100_100/0/1630510716466/infivolve_inc_logo?e=1796860800&v=beta&t=EvdAK7jfOgBdY5iJwlzCzBntRFb2VgC4E7m6Dn26w0Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Developed a web app using Flask framework for printed and handwritten text recognition.\n\n- Extracted text from forms with printed and handwritten text in English and Hindi language using a combination of OpenCV and other machine learning techniques with an accuracy of 98%.\n\n- Managed to use Python Libraries like Optical Character Recognition and OpenCV.",
+    "company": {
+     "url": "https://www.linkedin.com/company/790183/",
+     "name": "Fusion Informatics Limited",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Fusion Informatics Limited",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/790183/",
+    "companyId": "790183",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_400_400/company-logo_400_400/0/1631362950778?e=1796860800&v=beta&t=hySbQ1bna9nPkcg6u0fZDIDt0T6VBPBO66woVcelrTQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_200_200/company-logo_200_200/0/1631362950778?e=1796860800&v=beta&t=2v_JqJh4tqyks2_2ks0YBU2ElKQx0CHT93r1T2iA1z4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFuz3rAZk3Cmw/company-logo_100_100/company-logo_100_100/0/1631362950778?e=1796860800&v=beta&t=NrIeT4MajFNzKpwMjIJ0NHZ_TIgmUHGpJPQ2PqSgNKI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Designer",
+    "locationName": "Ahmedabad, Gujarat, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "I was offered an intern role of Wed Designer and I successfully completed this internship that consisted of learning Web Designing (with Bootstrap Framework) and Project Deployment.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4795206/",
+     "name": "Silverwing Technologies PVT LTD.",
+     "logo": {}
+    },
+    "position": "Web Designer",
+    "companyName": "Silverwing Technologies PVT LTD.",
+    "location": "Ahmedabad, Gujarat, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4795206/",
+    "companyId": "4795206",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "schoolId": "157344",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_200_200/company-logo_200_200/0/1708176267470?e=1796860800&v=beta&t=YSPFkwB2XNj43mIywT3teEGar3JFcTVsDi6UuW6EFTU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_100_100/company-logo_100_100/0/1708176267470?e=1796860800&v=beta&t=Pitfmq0YUrCQ6AuUuOiFMedqpSVlhXlzjKFEc-nnhl8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_400_400/company-logo_400_400/0/1708176267470?e=1796860800&v=beta&t=qcxkM8hNfsFXmYVYx_IsWfgqP3gkRrtgDnKcB2atu98",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_400_400/company-logo_400_400/0/1708176267470?e=1796860800&v=beta&t=qcxkM8hNfsFXmYVYx_IsWfgqP3gkRrtgDnKcB2atu98",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_400_400/company-logo_400_400/0/1708176267470?e=1796860800&v=beta&t=qcxkM8hNfsFXmYVYx_IsWfgqP3gkRrtgDnKcB2atu98",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_200_200/company-logo_200_200/0/1708176267470?e=1796860800&v=beta&t=YSPFkwB2XNj43mIywT3teEGar3JFcTVsDi6UuW6EFTU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHZ6vmo4k-kqw/company-logo_100_100/company-logo_100_100/0/1708176267470?e=1796860800&v=beta&t=Pitfmq0YUrCQ6AuUuOiFMedqpSVlhXlzjKFEc-nnhl8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096420/",
+    "schoolName": "Nirma University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096420/",
+    "schoolId": "15096420",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=feSVDL1FoS9APv7sFLZ6uYKCz1y0F97ABHHjOWoWxII",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=8bFFzlw1at-GTI-mClYSbNqvlq9Rha2emG0-FmDE34g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1796860800&v=beta&t=axbAh3xDe58AdnvfwVZiiCOv6Paplak7ceAc_rQ3Z-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "schoolId": "157344",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2022
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Teacher",
+    "companyName": "Visamo Kids Foundation",
+    "description": "Community service for under-privileged children by helping them in their study",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/4151204/",
+     "name": "Visamo Kids Foundation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_100_100/B4DZXsVKLjG4AQ-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=2f5z6IDNVcI6Jm0ln0b42sDslSwDFLzcKNDQ4097_zo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_400_400/B4DZXsVKLjG4AY-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=qDaXEUqO1_aQp6QYcDuLBpkoo8MvwVHzeiKGskiigRg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_200_200/B4DZXsVKLjG4AI-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=FUfLsx8b607OvAL1e3RX9pCcLCC-zl7yITerh7IZKkY"
+     }
+    },
+    "organization": "Visamo Kids Foundation"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Teacher",
+    "companyName": "Visamo Kids Foundation",
+    "description": "Community service for under-privileged children by helping them in their study",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/4151204/",
+     "name": "Visamo Kids Foundation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_100_100/B4DZXsVKLjG4AQ-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=2f5z6IDNVcI6Jm0ln0b42sDslSwDFLzcKNDQ4097_zo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_400_400/B4DZXsVKLjG4AY-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=qDaXEUqO1_aQp6QYcDuLBpkoo8MvwVHzeiKGskiigRg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQG5aoHEoUj4PQ/company-logo_200_200/B4DZXsVKLjG4AI-/0/1743426725619/visamo_kids_foundation_logo?e=1796860800&v=beta&t=FUfLsx8b607OvAL1e3RX9pCcLCC-zl7yITerh7IZKkY"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1702005916821?e=1796860800&v=beta&t=nIos3bJU2Jc7_vjEsD2TpHgpeO9dGLGRayVfoDxjBI4",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1702005916821?e=1796860800&v=beta&t=GGmNNDdWIhBlIa6wSe3eWJxXjMwPgEXycCmWhaBvwe4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1702005916821?e=1796860800&v=beta&t=u7F6Lu4Kkaiefk-t2lLoKmF9_I8173tV4GqAK7VsEN8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHOufYCN7Z7Aw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1702005916821?e=1796860800&v=beta&t=U293x8dO1njPaT3Awh635YI6x7mKy40_ymWEwuJsbXU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/parshv252123"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T20:35:50.512Z",
+ "foundBy": null
+}

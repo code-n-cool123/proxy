@@ -1,0 +1,810 @@
+{
+ "slug": "raphnguyen",
+ "inputUrl": "https://www.linkedin.com/in/raphnguyen",
+ "fetchedAt": "2026-11-09T18:36:26.334Z",
+ "id": "6af212aaaf440f0df0ab7b74",
+ "url": "https://www.linkedin.com/in/raphnguyen",
+ "profile": {
+  "created": 1443980599781,
+  "trackingId": "8JPZU2UBTn+Tf0UOdhf2dA==",
+  "firstName": "Raphael",
+  "lastName": "Nguyen",
+  "pronoun": null,
+  "versionTag": "2080911998",
+  "headline": "Software Engineer at Adobe",
+  "publicIdentifier": "raphnguyen",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "450709667",
+  "profileId": "ACoAABrdSKMBxQ0Fo9XSDDrp87henn6tFljbPDM",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106233382",
+  "geoLocationName": "San Jose, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Data. Automation. French fries.\n\nLove football, both real and fantasy. If you're in an ESPN fantasy football league, please check out my project: https://github.com/raphattack/espn-ffb\n\nSpreadsheets are bae: https://gitlab.com/raphattack/personalfinance\n\nSometimes I write: https://medium.com/@raphnguyen",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1480/",
+     "name": "Adobe",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "description": "Lead developer of a modular data ingestion framework that provides the E in ETL. Ingestion happens across a number of distinct data pipelines, with primary pipelines consisting of Apache Sqoop and Oracle GoldenGate. Data is merged in-memory with Apache Spark and a Hive table is built on top of the final dataset. This provides clients with a seamless transition from their RDBMS world to the Hadoop ecosystem.\n\nIn production, the framework ingests over 4,000 tables from 130 different data sources with an incremental volume of approximately 150TB daily. Supported data sources include Oracle, Teradata, SAP HANA, MySql, MSSQL, Splunk, and Salesforce.\n\nFeatures and hot fixes are branched through Git and versioned in Maven for each individual module. Deployment is automated through Rundeck where regression tests ensure that only stable builds are released. The modular architecture along with automated deployment has led to faster builds, minimal production bugs, and encourages CI/CD.\n\nAfter the E in ETL, a lot of clients reach out for help in developing the T and L process. \n\nWorking with the acquisitions team, I built an end-to-end solution that joins datasets through Spark and forms REST API requests to Cisco’s CR system. The result of the project became a framework that we can feed acquisition data into and have the new customer data from the acquired company fully integrated into Cisco’s CR tables. A process that used to take months now completes in under an hour and the integrity of our customer data remains intact.\n\nA Kafka solution, in combination with Hbase, was used to send data from our cluster to clients on a different cluster. This cut the time and costs of having to move their dataset and application to a new cluster, allowing them to easily consume the data without impacting productivity.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=lK36d85Sb5emtpsqSvclwxzYCKMp7C1M1Ya4qVkcD7Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=2yBsyN9eFEepormZQ0hW2U4kLgE-HNq9wHWkVrKBodg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4813/",
+    "schoolName": "North Carolina State University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Adobe",
+  "companyPublicId": "adobe",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/adobe/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1480",
+   "name": "Adobe",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHilaKdJueUVg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+       "expiresAt": 1795651200000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+       "expiresAt": 1795651200000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_"
+    }
+   },
+   "universalName": "adobe",
+   "url": "https://www.linkedin.com/company/adobe/",
+   "slug": "adobe",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+   "specialties": []
+  },
+  "followerCount": 273,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 261,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Shell Scripting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hadoop",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hive",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MapReduce",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Sqoop",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "IntelliJ IDEA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle SQL Developer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Toad",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GoldenGate",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Shell Scripting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hive",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Sqoop",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Toad",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GoldenGate",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teradata",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teradata SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SAP HANA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Integration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Warehousing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ETL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hadoop",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MapReduce",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "IntelliJ IDEA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle SQL Developer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Enterprise Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Relational Databases",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/raphnguyen",
+  "linkedinUrl": "https://www.linkedin.com/in/raphnguyen",
+  "profileUrl": "https://www.linkedin.com/in/raphnguyen",
+  "verified": false,
+  "registeredAt": "2015-10-04T17:43:19.781Z",
+  "location": {
+   "linkedinText": "San Jose, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Jose, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Data. Automation. French fries.\n\nLove football, both real and fantasy. If you're in an ESPN fantasy football league, please check out my project: https://github.com/raphattack/espn-ffb\n\nSpreadsheets are bae: https://gitlab.com/raphattack/personalfinance\n\nSometimes I write: https://medium.com/@raphnguyen",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1480/",
+     "name": "Adobe",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Adobe",
+    "location": "San Jose, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1480/",
+    "companyId": "1480",
+    "duration": "9 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "description": "Lead developer of a modular data ingestion framework that provides the E in ETL. Ingestion happens across a number of distinct data pipelines, with primary pipelines consisting of Apache Sqoop and Oracle GoldenGate. Data is merged in-memory with Apache Spark and a Hive table is built on top of the final dataset. This provides clients with a seamless transition from their RDBMS world to the Hadoop ecosystem.\n\nIn production, the framework ingests over 4,000 tables from 130 different data sources with an incremental volume of approximately 150TB daily. Supported data sources include Oracle, Teradata, SAP HANA, MySql, MSSQL, Splunk, and Salesforce.\n\nFeatures and hot fixes are branched through Git and versioned in Maven for each individual module. Deployment is automated through Rundeck where regression tests ensure that only stable builds are released. The modular architecture along with automated deployment has led to faster builds, minimal production bugs, and encourages CI/CD.\n\nAfter the E in ETL, a lot of clients reach out for help in developing the T and L process. \n\nWorking with the acquisitions team, I built an end-to-end solution that joins datasets through Spark and forms REST API requests to Cisco’s CR system. The result of the project became a framework that we can feed acquisition data into and have the new customer data from the acquired company fully integrated into Cisco’s CR tables. A process that used to take months now completes in under an hour and the integrity of our customer data remains intact.\n\nA Kafka solution, in combination with Hbase, was used to send data from our cluster to clients on a different cluster. This cut the time and costs of having to move their dataset and application to a new cluster, allowing them to easily consume the data without impacting productivity.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Cisco",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1063/",
+    "companyId": "1063",
+    "duration": "3 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1480",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1480/",
+    "companyName": "Adobe",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Jose, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1480/",
+     "name": "Adobe",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Adobe",
+    "location": "San Jose, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1480/",
+    "companyId": "1480",
+    "duration": "9 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_400_400/B56ZodIp56HUAc-/0/1761425400480?e=1795651200&v=beta&t=UdpbEDJzLuucvb8x2-oJvRPVD4O7PV5sXNFR5CTVcaE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_200_200/B56ZodIp56HUAM-/0/1761425400480?e=1795651200&v=beta&t=pk_4aSAKjKaVQae5mmpDwxkWzl4pWNZtqeYV6lpHwgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHilaKdJueUVg/company-logo_100_100/B56ZodIp56HUAU-/0/1761425400481?e=1795651200&v=beta&t=GaFkvfa4zF8Tp4xgbg0fwQm1270JzenO4r86SMED-w8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "description": "Lead developer of a modular data ingestion framework that provides the E in ETL. Ingestion happens across a number of distinct data pipelines, with primary pipelines consisting of Apache Sqoop and Oracle GoldenGate. Data is merged in-memory with Apache Spark and a Hive table is built on top of the final dataset. This provides clients with a seamless transition from their RDBMS world to the Hadoop ecosystem.\n\nIn production, the framework ingests over 4,000 tables from 130 different data sources with an incremental volume of approximately 150TB daily. Supported data sources include Oracle, Teradata, SAP HANA, MySql, MSSQL, Splunk, and Salesforce.\n\nFeatures and hot fixes are branched through Git and versioned in Maven for each individual module. Deployment is automated through Rundeck where regression tests ensure that only stable builds are released. The modular architecture along with automated deployment has led to faster builds, minimal production bugs, and encourages CI/CD.\n\nAfter the E in ETL, a lot of clients reach out for help in developing the T and L process. \n\nWorking with the acquisitions team, I built an end-to-end solution that joins datasets through Spark and forms REST API requests to Cisco’s CR system. The result of the project became a framework that we can feed acquisition data into and have the new customer data from the acquired company fully integrated into Cisco’s CR tables. A process that used to take months now completes in under an hour and the integrity of our customer data remains intact.\n\nA Kafka solution, in combination with Hbase, was used to send data from our cluster to clients on a different cluster. This cut the time and costs of having to move their dataset and application to a new cluster, allowing them to easily consume the data without impacting productivity.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Cisco",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1063/",
+    "companyId": "1063",
+    "duration": "3 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=lK36d85Sb5emtpsqSvclwxzYCKMp7C1M1Ya4qVkcD7Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=2yBsyN9eFEepormZQ0hW2U4kLgE-HNq9wHWkVrKBodg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=lK36d85Sb5emtpsqSvclwxzYCKMp7C1M1Ya4qVkcD7Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=2yBsyN9eFEepormZQ0hW2U4kLgE-HNq9wHWkVrKBodg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4813/",
+    "schoolName": "North Carolina State University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4813/",
+    "schoolId": "4813",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=lK36d85Sb5emtpsqSvclwxzYCKMp7C1M1Ya4qVkcD7Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=2yBsyN9eFEepormZQ0hW2U4kLgE-HNq9wHWkVrKBodg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795651200&v=beta&t=G9bUoY-u9bxMg_0q3N_9hRcIJxbGcZExA_32h1XGA54",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=lK36d85Sb5emtpsqSvclwxzYCKMp7C1M1Ya4qVkcD7Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795651200&v=beta&t=2yBsyN9eFEepormZQ0hW2U4kLgE-HNq9wHWkVrKBodg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4813/",
+    "schoolName": "North Carolina State University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4813/",
+    "schoolId": "4813",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/raphnguyen"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T18:36:16.868Z",
+ "foundBy": null
+}

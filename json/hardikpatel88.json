@@ -1,0 +1,1581 @@
+{
+ "slug": "hardikpatel88",
+ "inputUrl": "https://www.linkedin.com/in/hardikpatel88",
+ "fetchedAt": "2026-11-18T16:17:02.389Z",
+ "id": "6afdcf7e326d0b70b7e255ee",
+ "url": "https://www.linkedin.com/in/hardikpatel88",
+ "profile": {
+  "created": 1271186603346,
+  "trackingId": "92HT0QGsStOmZUAXpun/7g==",
+  "firstName": "Hardik",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "1637726356",
+  "headline": "Senior Software Engineer | C# / .NET Core | Distributed Systems & APIs | Real-Time Platforms | AWS Certified",
+  "publicIdentifier": "hardikpatel88",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "72950589",
+  "profileId": "ACoAAARZIz0BIj8LAFiSqaYQAyXy5dkCyqFOOnE",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516896085792?e=1796860800&v=beta&t=j4b7_w55J-8uRRGqEA7NMIu1_epxwRjBhZ1C90egaB4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516896085891?e=1796860800&v=beta&t=XVIVgad6ILa8Fn1qwyhExeMxaqxvvojs6yQ5qX1FhhE"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103918656",
+  "geoLocationName": "San Diego, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "Senior software engineer with 12+ years building backend systems that people depend on in real time.\nFor the past decade I've been lead developer and technical owner of a real-time platform used by fire and EMS dispatch centers across the US, Canada, and Australia — now serving around 125 agencies. That means I own the whole thing: the architecture proposals, the APIs, the database schema, the browser interface, the deployment story, and the pager when something breaks at 3am.\nA few problems I've enjoyed solving:\n• Cutting a client's network traffic by roughly 93% through payload compression and server-side snapshot diffing, sending only deltas to concurrent sessions while holding sub-second update latency.\n• Designing an integration bridge that connects around 15 third-party dispatch vendors — a pluggable ingestion layer over database, REST, TCP socket, and webhook sources that normalizes wildly different vendor formats into canonical domain models and routes events downstream at high throughput.\n• Acting as one of the core architect on a company-wide re-platform from .NET Framework and ASMX web services to .NET Core with Clean Architecture across four applications, including shared infrastructure packages that let any application deploy on-premise or to the cloud by configuration alone — in-memory versus Redis caching, file-system versus CloudWatch logging.\nI care about correctness and maintainability more than cleverness, and I've learned that documentation and knowledge transfer are engineering work: the troubleshooting guides I wrote now let our PMs and QA analysts resolve most deployment issues without engineering involvement.\nI use AI-assisted development tooling (GitHub Copilot, Claude Code) daily in a production codebase — for generation, review, refactoring, and test authoring — with human oversight where correctness and security matter.\nCore stack: C#, .NET Core, ASP.NET Web API, microservices, REST API design, event-driven architecture, SignalR, SQL Server, PostgreSQL/PostGIS, Redis, AWS, JavaScript, ArcGIS JS API",
+  "positions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/51801/",
+     "name": "Deccan International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU"
+     }
+    },
+    "locationName": "Hybrid",
+    "totalDuration": "10 yrs 6 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "San Diego, CA, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2019
+       },
+       "endDate": null
+      },
+      "totalDuration": "7 yrs 5 mos",
+      "description": "Lead developer and technical owner of a real-time coverage-monitoring platform used by ~125 fire and EMS agencies across the US, Canada, and Australia.\n• Architect and develop C#/.NET Core microservices and secure RESTful Web APIs powering a data-intensive SaaS platform, with end-to-end ownership from design through deployment and production support.\n• Cut per-client network traffic by ~93% by implementing payload compression and server-side snapshot diffing over SignalR, delivering only deltas to concurrent sessions while holding sub-second update latency.\n• Designed and own the CAD integration bridge spanning ~15 third-party dispatch vendors: a pluggable ingestion layer over database, REST, TCP live-transport, and webhook sources that normalizes arbitrary vendor formats into canonical domain models and routes events downstream in real time.\n• Core architect of a company-wide re-platform from .NET Framework/ASMX to .NET Core with Clean Architecture across four applications; authored shared infrastructure NuGet packages letting any app deploy on-premise or to AWS by configuration alone (in-memory vs Redis caching, file-system vs CloudWatch/X-Ray logging).\n• Built the real-time map interface (ArcGIS JS API) for live unit tracking and citywide coverage, the user management and LDAP authentication module, and a map layer upload/download and geocoding module used by another company product.\n• Reduced open infrastructure defects by roughly 90% through systematic stabilization; implemented active-active failover and carry production on-call, joining client troubleshooting calls during incidents.\n• Architected the next-generation platform (system design and database schema) and mentor a colleague through handover; peer-review code across product teams and trained PMs and QA analysts to resolve most deployment and configuration issues independently.",
+      "insights": "C#, Event Driven Programming and +15 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "San Diego, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "• Stabilized and extended a defect-heavy early web release, resolving live-client issues first and steadily improving reliability and usability to support client growth.\n• Designed and implemented new systems and features integrating with the existing SaaS product, developing to company coding standards and quality processes.\n• Triaged, analyzed, and resolved escalated issues from customers and project managers, working across Sales, Engineering, and Product Development to deliver quality releases.\nSkills: C# · .NET · SQL · JavaScript · Debugging · Customer Support",
+      "insights": "C#, ASP.NET and +13 skills"
+     }
+    ]
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/19976/",
+     "name": "Mary and John Gray Library, Lamar University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY"
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "Student Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2016
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "•\tAssisting students to reset password for University Blackboard System\n•\tAssisting students to set up University Wifi Settings\n•\tResponsible for troubleshooting software installations of students\n•\tResponsible for helping students in printing and scanning jobs",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2015
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•\tFunctioned as the Teaching assistant for the Computer Science Department on Java Programming Lab\n•\tSupported professors in grading assignments, exam papers, quiz papers etc in Java Programming\n•\tMentored undergraduate students in Java Programming Lab\n",
+      "insights": ""
+     },
+     {
+      "title": "Research assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2015
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "•\tResponsible for solving defects occurred in project\n•\tResponsible for running simulation and gathering results for research paper\n",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "•\tWorked as part of integrated team through full life time cycles\n•\tCollaborated with team members on existing projects regarding research and development of front end interface and data visualization\n•\tCreated automated service which supports automatic collection methods with the help of decision rules and messaging.\n•\tDocumented code consistently throughout the development process by listing a description of the program, special instructions, and any changes made on the database level\n•\tResponsible for unit testing and integration testing\n•\tPreparing analysis of current programs including diagnosis and troubleshooting of problem programs\n•\tDeveloped new web application based on client requirements\n•\tAnalyzing user needs and software requirements to determine feasibility of design within time and cost constraints\n•\tTroubleshooting, debugging and Problem solving",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/3552717/",
+     "name": "Healthcare Informatics Pvt. Ltd.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0"
+     }
+    }
+   },
+   {
+    "title": "Jr Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "•\tDefine and manually execute test cases to ensure product quality within deadline\n•\tManually test the product for usability from user’s perspective\n•\tDesign, code, maintain and execute automated test script using QTP\n•\tDesign automated test scripts with database like SQL Server which handles Data input and Data Validation\n•\tDesign automated test script for different Browser using QTP\n•\tWork closely with development and other department to ensure product quality within project deadline\n•\tModify existing software to correct errors, allow it to adapt to new hardware, or to improve its performance",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2495370/",
+     "name": "KostCare Canada Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19976/",
+    "schoolName": "Lamar University",
+    "degreeName": "Master of Science (M.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_200_200/company-logo_200_200/0/1631334420489?e=1796860800&v=beta&t=cymo7owGYCUZ6B4FOS5aEA9OY3ZtxJldRncPy24rAzE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_100_100/company-logo_100_100/0/1631334420489?e=1796860800&v=beta&t=s0-7olcZ_MZlTFgcGcej72F70lPmIFyjcMltic5UC8s",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_400_400/company-logo_400_400/0/1631334420489?e=1796860800&v=beta&t=txGluE2isoYpIEghTytbBto3_LzKAXcBu0wt7dq5-GE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/8455628/",
+    "schoolName": "The Maharaja Sayajirao University of Baroda",
+    "degreeName": "Master of Computer Applications (MCA)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "AWS Certified Developer – Associate",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "AWS Certified Developer – Associate",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": ".Net Technology"
+   },
+   {
+    "name": "Advanced Computer Architecture"
+   }
+  ],
+  "honors": [
+   {
+    "title": "Graduate Studies Scholarship",
+    "description": "",
+    "issueDate": {},
+    "issuer": "Issued by Lamar University · Aug 2014"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Organizing International Culture Festival",
+    "companyName": "International Student Organisation Lamar University",
+    "description": "Participated in Organizing International Cultural Festival.",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2014
+     },
+     "endDate": null
+    },
+    "cause": "Arts and Culture",
+    "company": {
+     "url": "",
+     "name": "International Student Organisation Lamar University",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Antispam Filter for Electronic Mail",
+    "description": "Analyzed requirement for anti spam filter using hybrid method(Combination of Baysian Algorithm and Blacklisting Algorithm)\nDeveloped application for anti spam filter using Baysian Algorithms and Blacklisting Algorithm\n",
+    "dateRange": {},
+    "associatedWith": "Sep 2015 - Dec 2015"
+   },
+   {
+    "title": "Automated Document Generation",
+    "description": "•\tDeveloped a system that will hold information about automatic bill generation and their services. Implemented in Java programming language, and also used JSP\n•\tCreated a Database for implementing the service using MySQL\n•\tWorked as part of integrated team through full life time cycles",
+    "dateRange": {},
+    "associatedWith": "Jan 2015 - May 2015"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Animal Welfare",
+   "Arts and Culture",
+   "Economic Empowerment",
+   "Education",
+   "Environment",
+   "Health",
+   "Human Rights",
+   "Disaster and Humanitarian Relief",
+   "Poverty Alleviation",
+   "Science and Technology",
+   "Social Services"
+  ],
+  "companyName": "Deccan International",
+  "companyPublicId": "deccan-international",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/deccan-international/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:51801",
+   "name": "Deccan International",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C510BAQHWvbKHl6HFTg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_"
+    }
+   },
+   "universalName": "deccan-international",
+   "url": "https://www.linkedin.com/company/deccan-international/",
+   "slug": "deccan-international",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+   "specialties": []
+  },
+  "followerCount": 551,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 552,
+  "skills": [
+   {
+    "name": "C#",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SignalR",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostGIS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "SDLC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SignalR",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostGIS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "SDLC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Unit Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Acceptance Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Regression Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Manual Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Performance Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 26,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 24,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 26,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "AJAX",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Core Java",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": ".NET",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET MVC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "VB.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Servlets",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/hardikpatel88",
+  "linkedinUrl": "https://www.linkedin.com/in/hardikpatel88",
+  "profileUrl": "https://www.linkedin.com/in/hardikpatel88",
+  "verified": true,
+  "registeredAt": "2010-04-13T19:23:23.346Z",
+  "location": {
+   "linkedinText": "San Diego, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Diego, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Senior software engineer with 12+ years building backend systems that people depend on in real time.\nFor the past decade I've been lead developer and technical owner of a real-time platform used by fire and EMS dispatch centers across the US, Canada, and Australia — now serving around 125 agencies. That means I own the whole thing: the architecture proposals, the APIs, the database schema, the browser interface, the deployment story, and the pager when something breaks at 3am.\nA few problems I've enjoyed solving:\n• Cutting a client's network traffic by roughly 93% through payload compression and server-side snapshot diffing, sending only deltas to concurrent sessions while holding sub-second update latency.\n• Designing an integration bridge that connects around 15 third-party dispatch vendors — a pluggable ingestion layer over database, REST, TCP socket, and webhook sources that normalizes wildly different vendor formats into canonical domain models and routes events downstream at high throughput.\n• Acting as one of the core architect on a company-wide re-platform from .NET Framework and ASMX web services to .NET Core with Clean Architecture across four applications, including shared infrastructure packages that let any application deploy on-premise or to the cloud by configuration alone — in-memory versus Redis caching, file-system versus CloudWatch logging.\nI care about correctness and maintainability more than cleverness, and I've learned that documentation and knowledge transfer are engineering work: the troubleshooting guides I wrote now let our PMs and QA analysts resolve most deployment issues without engineering involvement.\nI use AI-assisted development tooling (GitHub Copilot, Claude Code) daily in a production codebase — for generation, review, refactoring, and test authoring — with human oversight where correctness and security matter.\nCore stack: C#, .NET Core, ASP.NET Web API, microservices, REST API design, event-driven architecture, SignalR, SQL Server, PostgreSQL/PostGIS, Redis, AWS, JavaScript, ArcGIS JS API",
+  "allTitles": [
+   "Software Engineer",
+   "Jr Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/51801/",
+     "name": "Deccan International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU"
+     }
+    },
+    "locationName": "Hybrid",
+    "totalDuration": "10 yrs 6 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "San Diego, CA, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2019
+       },
+       "endDate": null
+      },
+      "totalDuration": "7 yrs 5 mos",
+      "description": "Lead developer and technical owner of a real-time coverage-monitoring platform used by ~125 fire and EMS agencies across the US, Canada, and Australia.\n• Architect and develop C#/.NET Core microservices and secure RESTful Web APIs powering a data-intensive SaaS platform, with end-to-end ownership from design through deployment and production support.\n• Cut per-client network traffic by ~93% by implementing payload compression and server-side snapshot diffing over SignalR, delivering only deltas to concurrent sessions while holding sub-second update latency.\n• Designed and own the CAD integration bridge spanning ~15 third-party dispatch vendors: a pluggable ingestion layer over database, REST, TCP live-transport, and webhook sources that normalizes arbitrary vendor formats into canonical domain models and routes events downstream in real time.\n• Core architect of a company-wide re-platform from .NET Framework/ASMX to .NET Core with Clean Architecture across four applications; authored shared infrastructure NuGet packages letting any app deploy on-premise or to AWS by configuration alone (in-memory vs Redis caching, file-system vs CloudWatch/X-Ray logging).\n• Built the real-time map interface (ArcGIS JS API) for live unit tracking and citywide coverage, the user management and LDAP authentication module, and a map layer upload/download and geocoding module used by another company product.\n• Reduced open infrastructure defects by roughly 90% through systematic stabilization; implemented active-active failover and carry production on-call, joining client troubleshooting calls during incidents.\n• Architected the next-generation platform (system design and database schema) and mentor a colleague through handover; peer-review code across product teams and trained PMs and QA analysts to resolve most deployment and configuration issues independently.",
+      "insights": "C#, Event Driven Programming and +15 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "San Diego, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "• Stabilized and extended a defect-heavy early web release, resolving live-client issues first and steadily improving reliability and usability to support client growth.\n• Designed and implemented new systems and features integrating with the existing SaaS product, developing to company coding standards and quality processes.\n• Triaged, analyzed, and resolved escalated issues from customers and project managers, working across Sales, Engineering, and Product Development to deliver quality releases.\nSkills: C# · .NET · SQL · JavaScript · Debugging · Customer Support",
+      "insights": "C#, ASP.NET and +13 skills"
+     }
+    ],
+    "companyName": "Deccan International",
+    "location": "Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/51801/",
+    "companyId": "51801",
+    "duration": "10 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/19976/",
+     "name": "Mary and John Gray Library, Lamar University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY"
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Student Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2016
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "•\tAssisting students to reset password for University Blackboard System\n•\tAssisting students to set up University Wifi Settings\n•\tResponsible for troubleshooting software installations of students\n•\tResponsible for helping students in printing and scanning jobs",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2015
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•\tFunctioned as the Teaching assistant for the Computer Science Department on Java Programming Lab\n•\tSupported professors in grading assignments, exam papers, quiz papers etc in Java Programming\n•\tMentored undergraduate students in Java Programming Lab\n",
+      "insights": ""
+     },
+     {
+      "title": "Research assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2015
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "•\tResponsible for solving defects occurred in project\n•\tResponsible for running simulation and gathering results for research paper\n",
+      "insights": ""
+     }
+    ],
+    "companyName": "Mary and John Gray Library, Lamar University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/19976/",
+    "companyId": "19976",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "•\tWorked as part of integrated team through full life time cycles\n•\tCollaborated with team members on existing projects regarding research and development of front end interface and data visualization\n•\tCreated automated service which supports automatic collection methods with the help of decision rules and messaging.\n•\tDocumented code consistently throughout the development process by listing a description of the program, special instructions, and any changes made on the database level\n•\tResponsible for unit testing and integration testing\n•\tPreparing analysis of current programs including diagnosis and troubleshooting of problem programs\n•\tDeveloped new web application based on client requirements\n•\tAnalyzing user needs and software requirements to determine feasibility of design within time and cost constraints\n•\tTroubleshooting, debugging and Problem solving",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/3552717/",
+     "name": "Healthcare Informatics Pvt. Ltd.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Healthcare Informatics Pvt. Ltd.",
+    "location": "Vadodara Area, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3552717/",
+    "companyId": "3552717",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Jr Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "•\tDefine and manually execute test cases to ensure product quality within deadline\n•\tManually test the product for usability from user’s perspective\n•\tDesign, code, maintain and execute automated test script using QTP\n•\tDesign automated test scripts with database like SQL Server which handles Data input and Data Validation\n•\tDesign automated test script for different Browser using QTP\n•\tWork closely with development and other department to ensure product quality within project deadline\n•\tModify existing software to correct errors, allow it to adapt to new hardware, or to improve its performance",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2495370/",
+     "name": "KostCare Canada Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM"
+     }
+    },
+    "position": "Jr Software Engineer",
+    "companyName": "KostCare Canada Corporation",
+    "location": "Vadodara Area, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2495370/",
+    "companyId": "2495370",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "51801",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/51801/",
+    "companyName": "Deccan International",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "19976",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/19976/",
+    "companyName": "Mary and John Gray Library, Lamar University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/51801/",
+     "name": "Deccan International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU"
+     }
+    },
+    "locationName": "Hybrid",
+    "totalDuration": "10 yrs 6 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "San Diego, CA, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2019
+       },
+       "endDate": null
+      },
+      "totalDuration": "7 yrs 5 mos",
+      "description": "Lead developer and technical owner of a real-time coverage-monitoring platform used by ~125 fire and EMS agencies across the US, Canada, and Australia.\n• Architect and develop C#/.NET Core microservices and secure RESTful Web APIs powering a data-intensive SaaS platform, with end-to-end ownership from design through deployment and production support.\n• Cut per-client network traffic by ~93% by implementing payload compression and server-side snapshot diffing over SignalR, delivering only deltas to concurrent sessions while holding sub-second update latency.\n• Designed and own the CAD integration bridge spanning ~15 third-party dispatch vendors: a pluggable ingestion layer over database, REST, TCP live-transport, and webhook sources that normalizes arbitrary vendor formats into canonical domain models and routes events downstream in real time.\n• Core architect of a company-wide re-platform from .NET Framework/ASMX to .NET Core with Clean Architecture across four applications; authored shared infrastructure NuGet packages letting any app deploy on-premise or to AWS by configuration alone (in-memory vs Redis caching, file-system vs CloudWatch/X-Ray logging).\n• Built the real-time map interface (ArcGIS JS API) for live unit tracking and citywide coverage, the user management and LDAP authentication module, and a map layer upload/download and geocoding module used by another company product.\n• Reduced open infrastructure defects by roughly 90% through systematic stabilization; implemented active-active failover and carry production on-call, joining client troubleshooting calls during incidents.\n• Architected the next-generation platform (system design and database schema) and mentor a colleague through handover; peer-review code across product teams and trained PMs and QA analysts to resolve most deployment and configuration issues independently.",
+      "insights": "C#, Event Driven Programming and +15 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "San Diego, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "• Stabilized and extended a defect-heavy early web release, resolving live-client issues first and steadily improving reliability and usability to support client growth.\n• Designed and implemented new systems and features integrating with the existing SaaS product, developing to company coding standards and quality processes.\n• Triaged, analyzed, and resolved escalated issues from customers and project managers, working across Sales, Engineering, and Product Development to deliver quality releases.\nSkills: C# · .NET · SQL · JavaScript · Debugging · Customer Support",
+      "insights": "C#, ASP.NET and +13 skills"
+     }
+    ],
+    "companyName": "Deccan International",
+    "location": "Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/51801/",
+    "companyId": "51801",
+    "duration": "10 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_400_400/company-logo_400_400/0/1631344354469?e=1796860800&v=beta&t=bqGbvOjO3u5O0DODAOqntEHBPTU1x9IkvqKXnKxGhJU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_200_200/company-logo_200_200/0/1631344354469?e=1796860800&v=beta&t=v8sLt-6wvK3kBhf2UxYsXMPydt2dxsied1eqaLn6T2A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQHWvbKHl6HFTg/company-logo_100_100/company-logo_100_100/0/1631344354469?e=1796860800&v=beta&t=VU70LoYIf_5jHfl7THF62byvqBntqz7JZfzhRFiN3BQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/19976/",
+     "name": "Mary and John Gray Library, Lamar University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY"
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Student Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2016
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "•\tAssisting students to reset password for University Blackboard System\n•\tAssisting students to set up University Wifi Settings\n•\tResponsible for troubleshooting software installations of students\n•\tResponsible for helping students in printing and scanning jobs",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2015
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "•\tFunctioned as the Teaching assistant for the Computer Science Department on Java Programming Lab\n•\tSupported professors in grading assignments, exam papers, quiz papers etc in Java Programming\n•\tMentored undergraduate students in Java Programming Lab\n",
+      "insights": ""
+     },
+     {
+      "title": "Research assistant",
+      "locationName": "Beaumont/Port Arthur, Texas Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2015
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "•\tResponsible for solving defects occurred in project\n•\tResponsible for running simulation and gathering results for research paper\n",
+      "insights": ""
+     }
+    ],
+    "companyName": "Mary and John Gray Library, Lamar University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/19976/",
+    "companyId": "19976",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "•\tWorked as part of integrated team through full life time cycles\n•\tCollaborated with team members on existing projects regarding research and development of front end interface and data visualization\n•\tCreated automated service which supports automatic collection methods with the help of decision rules and messaging.\n•\tDocumented code consistently throughout the development process by listing a description of the program, special instructions, and any changes made on the database level\n•\tResponsible for unit testing and integration testing\n•\tPreparing analysis of current programs including diagnosis and troubleshooting of problem programs\n•\tDeveloped new web application based on client requirements\n•\tAnalyzing user needs and software requirements to determine feasibility of design within time and cost constraints\n•\tTroubleshooting, debugging and Problem solving",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/3552717/",
+     "name": "Healthcare Informatics Pvt. Ltd.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Healthcare Informatics Pvt. Ltd.",
+    "location": "Vadodara Area, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3552717/",
+    "companyId": "3552717",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_400_400/company-logo_400_400/0/1631387856115?e=1796860800&v=beta&t=ZwslePFxkRTxYHQ1--NEbtASEFioYmfyOkEBI981yW0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_200_200/company-logo_200_200/0/1631387856115?e=1796860800&v=beta&t=q7r8hNXx0Ue_j6B_5xnXur_5-4U_MHSCThbeXx9QfUM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFQdKgBF4EnHg/company-logo_100_100/company-logo_100_100/0/1631387856115?e=1796860800&v=beta&t=QHDv-f0OcXXeDhit2HFKmieRBRhdIOyEPSQERk88uMI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Jr Software Engineer",
+    "locationName": "Vadodara Area, India",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "•\tDefine and manually execute test cases to ensure product quality within deadline\n•\tManually test the product for usability from user’s perspective\n•\tDesign, code, maintain and execute automated test script using QTP\n•\tDesign automated test scripts with database like SQL Server which handles Data input and Data Validation\n•\tDesign automated test script for different Browser using QTP\n•\tWork closely with development and other department to ensure product quality within project deadline\n•\tModify existing software to correct errors, allow it to adapt to new hardware, or to improve its performance",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2495370/",
+     "name": "KostCare Canada Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM"
+     }
+    },
+    "position": "Jr Software Engineer",
+    "companyName": "KostCare Canada Corporation",
+    "location": "Vadodara Area, India",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2495370/",
+    "companyId": "2495370",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_400_400/company-logo_400_400/0/1631316731073?e=1796860800&v=beta&t=rBIoL5cqSoFq8cqD0LR4csZjSGRs8oenfVGihyhBuKM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_200_200/company-logo_200_200/0/1631316731073?e=1796860800&v=beta&t=uOhDo6xP7lbLwl-2_x_Q6YIfyIKO213psSe21s2x9C4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFZocBcm51Ykg/company-logo_100_100/company-logo_100_100/0/1631316731073?e=1796860800&v=beta&t=15uQA2FyRQSSWAQSW6gzPEqVtreCxlh8mWj8cVx52qQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19976/",
+    "schoolName": "Lamar University",
+    "degreeName": "Master of Science (M.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19976/",
+    "schoolId": "19976",
+    "degree": "Master of Science (M.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2016
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_200_200/company-logo_200_200/0/1631334420489?e=1796860800&v=beta&t=cymo7owGYCUZ6B4FOS5aEA9OY3ZtxJldRncPy24rAzE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_100_100/company-logo_100_100/0/1631334420489?e=1796860800&v=beta&t=s0-7olcZ_MZlTFgcGcej72F70lPmIFyjcMltic5UC8s",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_400_400/company-logo_400_400/0/1631334420489?e=1796860800&v=beta&t=txGluE2isoYpIEghTytbBto3_LzKAXcBu0wt7dq5-GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_400_400/company-logo_400_400/0/1631334420489?e=1796860800&v=beta&t=txGluE2isoYpIEghTytbBto3_LzKAXcBu0wt7dq5-GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_400_400/company-logo_400_400/0/1631334420489?e=1796860800&v=beta&t=txGluE2isoYpIEghTytbBto3_LzKAXcBu0wt7dq5-GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_200_200/company-logo_200_200/0/1631334420489?e=1796860800&v=beta&t=cymo7owGYCUZ6B4FOS5aEA9OY3ZtxJldRncPy24rAzE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEjZ0--4h7qPQ/company-logo_100_100/company-logo_100_100/0/1631334420489?e=1796860800&v=beta&t=s0-7olcZ_MZlTFgcGcej72F70lPmIFyjcMltic5UC8s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/8455628/",
+    "schoolName": "The Maharaja Sayajirao University of Baroda",
+    "degreeName": "Master of Computer Applications (MCA)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/8455628/",
+    "schoolId": "8455628",
+    "degree": "Master of Computer Applications (MCA)",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_400_400/company-logo_400_400/0/1631301059269?e=1796860800&v=beta&t=KGRttXXOronhE2paTLJa8dt_oyRbXX1nU14qKrKT-rY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_200_200/company-logo_200_200/0/1631301059269?e=1796860800&v=beta&t=rdn0ZPCQsRcrcxhSPzd_85CPx1m3OPah7x_AJ0NY0ow",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFeKk6z1vNayg/company-logo_100_100/company-logo_100_100/0/1631301059269?e=1796860800&v=beta&t=nxxZKRLDjBrkmuvDdlyXJHe4Ul6OJPibHOGpx-ijF5c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19976/",
+    "schoolName": "Lamar University",
+    "degreeName": "Master of Science (M.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19976/",
+    "schoolId": "19976",
+    "degree": "Master of Science (M.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2016
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Graduate Studies Scholarship",
+    "issueDate": {},
+    "issuer": "Issued by Lamar University · Aug 2014"
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Organizing International Culture Festival",
+    "companyName": "International Student Organisation Lamar University",
+    "description": "Participated in Organizing International Cultural Festival.",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2014
+     },
+     "endDate": null
+    },
+    "cause": "Arts and Culture",
+    "company": {
+     "url": "",
+     "name": "International Student Organisation Lamar University",
+     "logo": {}
+    },
+    "organization": "International Student Organisation Lamar University"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Organizing International Culture Festival",
+    "companyName": "International Student Organisation Lamar University",
+    "description": "Participated in Organizing International Cultural Festival.",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2014
+     },
+     "endDate": null
+    },
+    "cause": "Arts and Culture",
+    "company": {
+     "url": "",
+     "name": "International Student Organisation Lamar University",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516896085792?e=1796860800&v=beta&t=j4b7_w55J-8uRRGqEA7NMIu1_epxwRjBhZ1C90egaB4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516896085891?e=1796860800&v=beta&t=XVIVgad6ILa8Fn1qwyhExeMxaqxvvojs6yQ5qX1FhhE",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516896085891?e=1796860800&v=beta&t=XVIVgad6ILa8Fn1qwyhExeMxaqxvvojs6yQ5qX1FhhE",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516896085891?e=1796860800&v=beta&t=XVIVgad6ILa8Fn1qwyhExeMxaqxvvojs6yQ5qX1FhhE",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQHGSmMrTecvIw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516896085792?e=1796860800&v=beta&t=j4b7_w55J-8uRRGqEA7NMIu1_epxwRjBhZ1C90egaB4",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/hardikpatel88"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T16:16:53.131Z",
+ "foundBy": null
+}

@@ -1,0 +1,1315 @@
+{
+ "slug": "pauldwalkeriii",
+ "inputUrl": "https://www.linkedin.com/in/pauldwalkeriii",
+ "fetchedAt": "2026-10-31T08:14:13.211Z",
+ "id": "6ae5a3554f8d6cb6ddd5b895",
+ "url": "https://www.linkedin.com/in/pauldwalkeriii",
+ "profile": {
+  "created": 1512079481142,
+  "trackingId": "/UBYgzycRZKJ8gkQiRvSHw==",
+  "firstName": "Paul",
+  "lastName": "Walker",
+  "pronoun": null,
+  "versionTag": "1595919815",
+  "headline": "Software Engineer focused on backend development | Proficient in Golang & Python • Architected modular systems for optimal performance across multiple open-source projects",
+  "publicIdentifier": "pauldwalkeriii",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "621567781",
+  "profileId": "ACoAACUMXyUBm7-UrEuA7CBV18mIUg7jA13Nbc4",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1665622376112?e=1795046400&v=beta&t=3AoTombl98DjaBk5j6kS5pXcurK_e28FZYR0BYMSTEE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665622376112?e=1795046400&v=beta&t=03jPbM9eMY3MVcAVgfyjxKqnUm6ABWW8oG9wMEhXGnA",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665622376112?e=1795046400&v=beta&t=-HpTDS6M-H_kMxHmVhQGkKcNWyEdi1JEGty8Iw8GwwA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0"
+  },
+  "coverImageUrl": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1689373158724?e=1795046400&v=beta&t=CggSyDUA_BeUGOkpNaLM2L1b-Ae57EVmdmMFiOopEno",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1689373158724?e=1795046400&v=beta&t=MeVRVilaWSqi-hlguDQzI9Cw4DcluV11id2q9jEJTkw"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000014",
+  "geoLocationName": "Greater Chicago Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+  "summary": "I’m a backend-focused software engineer with a passion for building efficient, maintainable systems. I specialize in designing APIs, managing databases, and deploying full-stack applications, with a strong emphasis on backend architecture and DevOps tooling. While I’m comfortable across the stack, I feel most at home working behind the scenes—structuring data, writing business logic, and solving complex problems.\n\nMy journey into programming began in 2015 when I built my first PC. After rediscovering programming in high school, I explored different paths and completed the full-time software engineering program at Codesmith. There, I built a strong foundation in JavaScript, PostgreSQL, Node.js, basic Docker, and React, while sharpening my ability to collaborate and communicate in fast-paced environments.\n\nOne of my most rewarding experiences was contributing to Kubby Buddy, a Docker Desktop Extension. I set up CI/CD with Husky and Bash, created secure containers for metric data, and helped prototype a PostgreSQL-based system for long-term container usage tracking. While the feature didn’t ship, it showed my backend focus and commitment to thoughtful engineering.\n\nOutside of open source, I’ve built independent projects that challenged me to grow. I developed a full-stack family reunion website with a Go/PostgreSQL backend and React/TypeScript frontend, including logic to process and structure complex family tree data. I also built a DnD monster database app in Python, hosted on my homelab using Proxmox. I automated deployment with GitHub Actions and WireGuard VPN, learning to troubleshoot versioning and architecture limitations during setup.\n\nI’m always learning—exploring backend tools, experimenting with virtualization and deployment, and refining my system design skills. Looking ahead, I plan to dive into systems-level programming with C++ or C#, aiming to build an OS or game engine to strengthen my understanding of computing fundamentals.\n\nLet’s connect—or reach out at pdwalker3@proton.me. I’m always open to learning, collaborating, or chatting about backend tech.",
+  "positions": [
+   {
+    "title": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Load-tested Go (Gin) APIs on a 0.1 vCPU/512MB Koyeb instance: /api/weather/current sustained 327 req/s at 100 concurrency with p50 0.27s / p95 0.36s, and /api/map/route held ~58 req/s at 50 concurrency with p95 0.97s — 100% success across runs.\n\n• Architected a modular backend (Go + Gin) with 18 REST endpoints across auth/maps/weather/gpt, unified middleware (auth, validation, CORS, error handling), and integrations with Google Maps, Google Weather, and OpenAI.\n\n• Parallelized external calls with goroutines and context timeouts, cutting route search latency 5.0s → 0.6s and weather retrieval 2.5s → <1.0s, while keeping median latency sub-second at production-like concurrency.",
+    "insights": "Skills: Go (Programming Language) · Docker · PostgreSQL · Application Programming Interfaces (API) · Artificial Intelligence (AI)",
+    "company": {
+     "url": "",
+     "name": "Triperoni",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Integrated AES-256-GCM encryption with AWS KMS to secure all sensitive backend data, ensuring compliance with industry-standard security protocols and 100% encryption coverage for all stored and transmitted data.\n\n• Designed recursive SQL views to efficiently structure and retrieve complex familial relationships, reducing data retrieval time by pre-organizing data for direct frontend consumption, minimizing server-side processing in GOLang\n\n• Engineered a scalable API in GOLang to serve structured family tree data, ensuring optimized query performance and seamless integration with a mobile-first React frontend for responsive and dynamic data visualization",
+    "insights": "Skills: Go (Programming Language) · PostgreSQL · KMS · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/89922975/",
+     "name": "Open Source",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Created a containerized PostgreSQL database, enabling local data storage and retrieval for user-specific metrics, enforcing strict schema design to optimize query performance and ensure seamless user experience\n\n• Built modular Express routes to manage container, image, and volume workflows, implementing precise controls like starting containers, retrieving logs, and managing volumes, ensuring a clean and maintainable backend structure\n\n• Leveraged TypeScript's strict, reusable custom types to build a modular application, simplifying feature development, and ensuring consistency, while achieving 95% type coverage and enhancing code reliability\n\n• Implemented a testing suite with Jest and Docker DIND containers validating functionality in Docker environments, ensuring reliable container operations and achieving 100% backend coverage, reducing debugging time for the team\n\n• Configured CircleCI to automate build and testing pipelines, ensuring early error detection and streamlined workflows, empowering developers with confidence in the application's stability and functionality\n\n• Automated commit hooks using Husky bash scripts to enforce branch naming conventions, format staged files, and validate commit messages, ensuring adherence to best practices and streamlining the development workflow\n\n• Led the implementation of Cloudflare's domain services and workers, leveraging the power of the Wrangler package for static site hosting achieving 100% uptime and reducing bandwidth consumption by 23% over 30 days",
+    "insights": "Skills: Node.js · Express.js · PostgreSQL · Bash · Docker · Domain Names · SQL · Software Design · Problem Solving · husky · TypeScript · GitFlow · CircleCI · Cloudflare · Engineering · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/95750260/",
+     "name": "Kubby Buddy (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/89922975/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "1 mo",
+    "positions": [
+     {
+      "title": "Software Engineer | Study With Me | Keep focused with centralized notes and study",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Architected a MongoDB database to optimize user content storage utilizing the document-like structure and Mongoose schema to enforce data consistency, enhance system responsiveness, and improve user experience.\n\n• Led Implementation of Bcrypt with a security-first mindset to develop a robust authentication service, enhancing user password security against brute-force attacks by 2900% by incorporating Bcrypt's Salt work factor.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Udemize | Quickly learn about techs with ChatGPT",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Spearheaded Postgres integration, utilizing SQL's ACID-compliant consistency and integrity to store API and user data, resulting in backend efficiency and seamless data consistency across all user interactions.\n\n• Engineered Express routes and middleware design patterns to seamlessly retrieve and parse data from databases and APIs, resulting in streamlined frontend data utilization and improved user experience.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Conjure Animals | A web app to choose an animal with the conjure animals spell",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Implemented Golang to optimize API performance, achieving an extraordinary 85% reduction in average response time, resulting in a high-speed API with an average response time of just 45 milliseconds\n\n• Segmented a single-page application into reusable React components, optimizing modular design to streamline development and achieve 94% code reusability while ensuring efficient updates with React's Virtual DOM",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Systems",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Skills: Payment Systems · Problem Solving",
+    "company": {
+     "url": "https://www.linkedin.com/company/7075/",
+     "name": "Meijer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_100_100/B56Z72AiLxIoAI-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=EFJm2vMPP1FKbwxD9gM4FAnYgRK2ekXGSfMGGKvRa10",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_200_200/B56Z72AiLxIoAE-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=pQgIOL7iYiS9zG3rnXPWCCJgX1pVlVv-hFBCP1YBGEM"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6414890/",
+    "schoolName": "Codesmith",
+    "degreeName": "",
+    "fieldOfStudy": "",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 1462,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1462,
+  "skills": [
+   {
+    "name": "Application Programming Interfaces (API)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "KMS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 6,
+    "experiences": 3
+   },
+   {
+    "name": "SQL",
+    "endorsements": 16,
+    "experiences": 2
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 16,
+    "experiences": 2
+   },
+   {
+    "name": "Linux",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 6,
+    "experiences": 4
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 6,
+    "experiences": 5
+   },
+   {
+    "name": "Payment Systems",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "GitFlow",
+    "endorsements": 5,
+    "experiences": 3
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 15,
+    "experiences": 4
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 15,
+    "experiences": 3
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 14,
+    "experiences": 3
+   },
+   {
+    "name": "Git",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Application Programming Interfaces (API)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "KMS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 6,
+    "experiences": 3
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 16,
+    "experiences": 2
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 6,
+    "experiences": 4
+   },
+   {
+    "name": "Payment Systems",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 15,
+    "experiences": 3
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Domain Names",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 5,
+    "experiences": 4
+   },
+   {
+    "name": "RESTful architecture",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Troubleshooting",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 16,
+    "experiences": 2
+   },
+   {
+    "name": "Linux",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "GitFlow",
+    "endorsements": 5,
+    "experiences": 3
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 15,
+    "experiences": 4
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 14,
+    "experiences": 3
+   },
+   {
+    "name": "Git",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 14,
+    "experiences": 2
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 14,
+    "experiences": 2
+   },
+   {
+    "name": "Bash",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "CircleCI",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "SASS",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Cloudflare",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 6,
+    "experiences": 5
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/pauldwalkeriii",
+  "linkedinUrl": "https://www.linkedin.com/in/pauldwalkeriii",
+  "profileUrl": "https://www.linkedin.com/in/pauldwalkeriii",
+  "verified": true,
+  "registeredAt": "2017-11-30T22:04:41.142Z",
+  "location": {
+   "linkedinText": "Greater Chicago Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Chicago Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I’m a backend-focused software engineer with a passion for building efficient, maintainable systems. I specialize in designing APIs, managing databases, and deploying full-stack applications, with a strong emphasis on backend architecture and DevOps tooling. While I’m comfortable across the stack, I feel most at home working behind the scenes—structuring data, writing business logic, and solving complex problems.\n\nMy journey into programming began in 2015 when I built my first PC. After rediscovering programming in high school, I explored different paths and completed the full-time software engineering program at Codesmith. There, I built a strong foundation in JavaScript, PostgreSQL, Node.js, basic Docker, and React, while sharpening my ability to collaborate and communicate in fast-paced environments.\n\nOne of my most rewarding experiences was contributing to Kubby Buddy, a Docker Desktop Extension. I set up CI/CD with Husky and Bash, created secure containers for metric data, and helped prototype a PostgreSQL-based system for long-term container usage tracking. While the feature didn’t ship, it showed my backend focus and commitment to thoughtful engineering.\n\nOutside of open source, I’ve built independent projects that challenged me to grow. I developed a full-stack family reunion website with a Go/PostgreSQL backend and React/TypeScript frontend, including logic to process and structure complex family tree data. I also built a DnD monster database app in Python, hosted on my homelab using Proxmox. I automated deployment with GitHub Actions and WireGuard VPN, learning to troubleshoot versioning and architecture limitations during setup.\n\nI’m always learning—exploring backend tools, experimenting with virtualization and deployment, and refining my system design skills. Looking ahead, I plan to dive into systems-level programming with C++ or C#, aiming to build an OS or game engine to strengthen my understanding of computing fundamentals.\n\nLet’s connect—or reach out at pdwalker3@proton.me. I’m always open to learning, collaborating, or chatting about backend tech.",
+  "currentTitle": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+  "allTitles": [
+   "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+   "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+   "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+   "Systems"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Load-tested Go (Gin) APIs on a 0.1 vCPU/512MB Koyeb instance: /api/weather/current sustained 327 req/s at 100 concurrency with p50 0.27s / p95 0.36s, and /api/map/route held ~58 req/s at 50 concurrency with p95 0.97s — 100% success across runs.\n\n• Architected a modular backend (Go + Gin) with 18 REST endpoints across auth/maps/weather/gpt, unified middleware (auth, validation, CORS, error handling), and integrations with Google Maps, Google Weather, and OpenAI.\n\n• Parallelized external calls with goroutines and context timeouts, cutting route search latency 5.0s → 0.6s and weather retrieval 2.5s → <1.0s, while keeping median latency sub-second at production-like concurrency.",
+    "insights": "Skills: Go (Programming Language) · Docker · PostgreSQL · Application Programming Interfaces (API) · Artificial Intelligence (AI)",
+    "company": {
+     "url": "",
+     "name": "Triperoni",
+     "logo": {}
+    },
+    "position": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+    "companyName": "Triperoni",
+    "location": "United States · Remote",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/89922975/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    },
+    "totalDuration": "1 mo",
+    "positions": [
+     {
+      "title": "Software Engineer | Study With Me | Keep focused with centralized notes and study",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Architected a MongoDB database to optimize user content storage utilizing the document-like structure and Mongoose schema to enforce data consistency, enhance system responsiveness, and improve user experience.\n\n• Led Implementation of Bcrypt with a security-first mindset to develop a robust authentication service, enhancing user password security against brute-force attacks by 2900% by incorporating Bcrypt's Salt work factor.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Udemize | Quickly learn about techs with ChatGPT",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Spearheaded Postgres integration, utilizing SQL's ACID-compliant consistency and integrity to store API and user data, resulting in backend efficiency and seamless data consistency across all user interactions.\n\n• Engineered Express routes and middleware design patterns to seamlessly retrieve and parse data from databases and APIs, resulting in streamlined frontend data utilization and improved user experience.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Conjure Animals | A web app to choose an animal with the conjure animals spell",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Implemented Golang to optimize API performance, achieving an extraordinary 85% reduction in average response time, resulting in a high-speed API with an average response time of just 45 milliseconds\n\n• Segmented a single-page application into reusable React components, optimizing modular design to streamline development and achieve 94% code reusability while ensuring efficient updates with React's Virtual DOM",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/89922975/",
+    "companyId": "89922975",
+    "duration": "1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Integrated AES-256-GCM encryption with AWS KMS to secure all sensitive backend data, ensuring compliance with industry-standard security protocols and 100% encryption coverage for all stored and transmitted data.\n\n• Designed recursive SQL views to efficiently structure and retrieve complex familial relationships, reducing data retrieval time by pre-organizing data for direct frontend consumption, minimizing server-side processing in GOLang\n\n• Engineered a scalable API in GOLang to serve structured family tree data, ensuring optimized query performance and seamless integration with a mobile-first React frontend for responsive and dynamic data visualization",
+    "insights": "Skills: Go (Programming Language) · PostgreSQL · KMS · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/89922975/",
+     "name": "Open Source",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    },
+    "position": "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/89922975/",
+    "companyId": "89922975",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": {
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Created a containerized PostgreSQL database, enabling local data storage and retrieval for user-specific metrics, enforcing strict schema design to optimize query performance and ensure seamless user experience\n\n• Built modular Express routes to manage container, image, and volume workflows, implementing precise controls like starting containers, retrieving logs, and managing volumes, ensuring a clean and maintainable backend structure\n\n• Leveraged TypeScript's strict, reusable custom types to build a modular application, simplifying feature development, and ensuring consistency, while achieving 95% type coverage and enhancing code reliability\n\n• Implemented a testing suite with Jest and Docker DIND containers validating functionality in Docker environments, ensuring reliable container operations and achieving 100% backend coverage, reducing debugging time for the team\n\n• Configured CircleCI to automate build and testing pipelines, ensuring early error detection and streamlined workflows, empowering developers with confidence in the application's stability and functionality\n\n• Automated commit hooks using Husky bash scripts to enforce branch naming conventions, format staged files, and validate commit messages, ensuring adherence to best practices and streamlining the development workflow\n\n• Led the implementation of Cloudflare's domain services and workers, leveraging the power of the Wrangler package for static site hosting achieving 100% uptime and reducing bandwidth consumption by 23% over 30 days",
+    "insights": "Skills: Node.js · Express.js · PostgreSQL · Bash · Docker · Domain Names · SQL · Software Design · Problem Solving · husky · TypeScript · GitFlow · CircleCI · Cloudflare · Engineering · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/95750260/",
+     "name": "Kubby Buddy (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY"
+     }
+    },
+    "position": "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+    "companyName": "Kubby Buddy (Open Source)",
+    "location": "United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/95750260/",
+    "companyId": "95750260",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2023
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Systems",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Skills: Payment Systems · Problem Solving",
+    "company": {
+     "url": "https://www.linkedin.com/company/7075/",
+     "name": "Meijer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI"
+     }
+    },
+    "position": "Systems",
+    "companyName": "Meijer",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7075/",
+    "companyId": "7075",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2022
+    },
+    "endDate": {
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Triperoni",
+    "companyLogo": {}
+   },
+   {
+    "companyId": "89922975",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/89922975/",
+    "companyName": "Open Source",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Load-tested Go (Gin) APIs on a 0.1 vCPU/512MB Koyeb instance: /api/weather/current sustained 327 req/s at 100 concurrency with p50 0.27s / p95 0.36s, and /api/map/route held ~58 req/s at 50 concurrency with p95 0.97s — 100% success across runs.\n\n• Architected a modular backend (Go + Gin) with 18 REST endpoints across auth/maps/weather/gpt, unified middleware (auth, validation, CORS, error handling), and integrations with Google Maps, Google Weather, and OpenAI.\n\n• Parallelized external calls with goroutines and context timeouts, cutting route search latency 5.0s → 0.6s and weather retrieval 2.5s → <1.0s, while keeping median latency sub-second at production-like concurrency.",
+    "insights": "Skills: Go (Programming Language) · Docker · PostgreSQL · Application Programming Interfaces (API) · Artificial Intelligence (AI)",
+    "company": {
+     "url": "",
+     "name": "Triperoni",
+     "logo": {}
+    },
+    "position": "Software Engineer | Golang, Docker, PostgreSQL, APIs, AI",
+    "companyName": "Triperoni",
+    "location": "United States · Remote",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Integrated AES-256-GCM encryption with AWS KMS to secure all sensitive backend data, ensuring compliance with industry-standard security protocols and 100% encryption coverage for all stored and transmitted data.\n\n• Designed recursive SQL views to efficiently structure and retrieve complex familial relationships, reducing data retrieval time by pre-organizing data for direct frontend consumption, minimizing server-side processing in GOLang\n\n• Engineered a scalable API in GOLang to serve structured family tree data, ensuring optimized query performance and seamless integration with a mobile-first React frontend for responsive and dynamic data visualization",
+    "insights": "Skills: Go (Programming Language) · PostgreSQL · KMS · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/89922975/",
+     "name": "Open Source",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    },
+    "position": "Software Engineer | Family Reunion Web App | Secure web app for managing family tree and connections",
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/89922975/",
+    "companyId": "89922975",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": {
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+    "locationName": "United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "• Created a containerized PostgreSQL database, enabling local data storage and retrieval for user-specific metrics, enforcing strict schema design to optimize query performance and ensure seamless user experience\n\n• Built modular Express routes to manage container, image, and volume workflows, implementing precise controls like starting containers, retrieving logs, and managing volumes, ensuring a clean and maintainable backend structure\n\n• Leveraged TypeScript's strict, reusable custom types to build a modular application, simplifying feature development, and ensuring consistency, while achieving 95% type coverage and enhancing code reliability\n\n• Implemented a testing suite with Jest and Docker DIND containers validating functionality in Docker environments, ensuring reliable container operations and achieving 100% backend coverage, reducing debugging time for the team\n\n• Configured CircleCI to automate build and testing pipelines, ensuring early error detection and streamlined workflows, empowering developers with confidence in the application's stability and functionality\n\n• Automated commit hooks using Husky bash scripts to enforce branch naming conventions, format staged files, and validate commit messages, ensuring adherence to best practices and streamlining the development workflow\n\n• Led the implementation of Cloudflare's domain services and workers, leveraging the power of the Wrangler package for static site hosting achieving 100% uptime and reducing bandwidth consumption by 23% over 30 days",
+    "insights": "Skills: Node.js · Express.js · PostgreSQL · Bash · Docker · Domain Names · SQL · Software Design · Problem Solving · husky · TypeScript · GitFlow · CircleCI · Cloudflare · Engineering · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/95750260/",
+     "name": "Kubby Buddy (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY"
+     }
+    },
+    "position": "Software Engineer | Typescript, Docker, Node.JS, PostgreSQL",
+    "companyName": "Kubby Buddy (Open Source)",
+    "location": "United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/95750260/",
+    "companyId": "95750260",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2023
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_400_400/company-logo_400_400/0/1688088259131?e=1795046400&v=beta&t=1UKFopAN9nIz6j8NKYxKHn4qWgFkcqQPkaLQSxHGtAY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_200_200/company-logo_200_200/0/1688088259131?e=1795046400&v=beta&t=3rjUKZ1lpIKusAYx3KfMtEvu005xPWgepVsIUAl6nvI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQF698VfqEvxIA/company-logo_100_100/company-logo_100_100/0/1688088259131?e=1795046400&v=beta&t=OmoUHrUINzRUQaaW2ACpbzzVGIu1sCIMdZ95woHTrxA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/89922975/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA"
+     }
+    },
+    "totalDuration": "1 mo",
+    "positions": [
+     {
+      "title": "Software Engineer | Study With Me | Keep focused with centralized notes and study",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Architected a MongoDB database to optimize user content storage utilizing the document-like structure and Mongoose schema to enforce data consistency, enhance system responsiveness, and improve user experience.\n\n• Led Implementation of Bcrypt with a security-first mindset to develop a robust authentication service, enhancing user password security against brute-force attacks by 2900% by incorporating Bcrypt's Salt work factor.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Udemize | Quickly learn about techs with ChatGPT",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Spearheaded Postgres integration, utilizing SQL's ACID-compliant consistency and integrity to store API and user data, resulting in backend efficiency and seamless data consistency across all user interactions.\n\n• Engineered Express routes and middleware design patterns to seamlessly retrieve and parse data from databases and APIs, resulting in streamlined frontend data utilization and improved user experience.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer | Conjure Animals | A web app to choose an animal with the conjure animals spell",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "year": 2023
+       },
+       "endDate": {
+        "year": 2023
+       }
+      },
+      "totalDuration": "Less than a year",
+      "description": "• Implemented Golang to optimize API performance, achieving an extraordinary 85% reduction in average response time, resulting in a high-speed API with an average response time of just 45 milliseconds\n\n• Segmented a single-page application into reusable React components, optimizing modular design to streamline development and achieve 94% code reusability while ensuring efficient updates with React's Virtual DOM",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/89922975/",
+    "companyId": "89922975",
+    "duration": "1 mo",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_400_400/company-logo_400_400/0/1687386207018/os_projects_logo?e=1795046400&v=beta&t=Bhy8-Qmd213_Q4bLSgQXbwT3vP98Tlo_0n0KK2pewUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_200_200/company-logo_200_200/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=sv4bJYUKdymSFQVeddo9JXZCrsV9aXg2kVgiIRxQ4BQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEOomNNkZKJpA/company-logo_100_100/company-logo_100_100/0/1687386207017/os_projects_logo?e=1795046400&v=beta&t=mwM0UC56R8vKN7MqE7dWXRFZftZ-FZznDuPkSSusZhE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Systems",
+    "locationName": "On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Skills: Payment Systems · Problem Solving",
+    "company": {
+     "url": "https://www.linkedin.com/company/7075/",
+     "name": "Meijer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI"
+     }
+    },
+    "position": "Systems",
+    "companyName": "Meijer",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7075/",
+    "companyId": "7075",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2022
+    },
+    "endDate": {
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_400_400/B56ZUkiKeBGsAg-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=P4embGAY2vQVc46j_-x3MWU63SXpEFRKFAPt-rZFTDI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_200_200/B56ZUkiKeBGsAQ-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=UzSHAzqA2f_UML4PrLBEky6MZNImU02SUPdnW1gqjmk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEhgQ2Qx1NHYg/company-logo_100_100/B56ZUkiKeBGsAY-/0/1740074690975/meijer_logo?e=1795046400&v=beta&t=I8pcuVGEhXM3RdGRjsNFSIcw7x-BC1h88U7NU6rzFyY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_100_100/B56Z72AiLxIoAI-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=EFJm2vMPP1FKbwxD9gM4FAnYgRK2ekXGSfMGGKvRa10",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_200_200/B56Z72AiLxIoAE-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=pQgIOL7iYiS9zG3rnXPWCCJgX1pVlVv-hFBCP1YBGEM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_200_200/B56Z72AiLxIoAE-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=pQgIOL7iYiS9zG3rnXPWCCJgX1pVlVv-hFBCP1YBGEM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_100_100/B56Z72AiLxIoAI-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=EFJm2vMPP1FKbwxD9gM4FAnYgRK2ekXGSfMGGKvRa10",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6414890/",
+    "schoolName": "Codesmith",
+    "degreeName": "",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6414890/",
+    "schoolId": "6414890",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_100_100/B56Z72AiLxIoAI-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=EFJm2vMPP1FKbwxD9gM4FAnYgRK2ekXGSfMGGKvRa10",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_200_200/B56Z72AiLxIoAE-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=pQgIOL7iYiS9zG3rnXPWCCJgX1pVlVv-hFBCP1YBGEM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_400_400/B56Z72AiLxIoAU-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=mGhDZr5Wbh413IwrKEeJDj4PnwRfUPu1ZhIFhzW_EgE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_200_200/B56Z72AiLxIoAE-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=pQgIOL7iYiS9zG3rnXPWCCJgX1pVlVv-hFBCP1YBGEM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEWqFqUKWLlqg/company-logo_100_100/B56Z72AiLxIoAI-/0/1782243795905/codesmith_llc_logo?e=1795046400&v=beta&t=EFJm2vMPP1FKbwxD9gM4FAnYgRK2ekXGSfMGGKvRa10",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6414890/",
+    "schoolName": "Codesmith",
+    "degreeName": "",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6414890/",
+    "schoolId": "6414890",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1665622376112?e=1795046400&v=beta&t=3AoTombl98DjaBk5j6kS5pXcurK_e28FZYR0BYMSTEE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665622376112?e=1795046400&v=beta&t=03jPbM9eMY3MVcAVgfyjxKqnUm6ABWW8oG9wMEhXGnA",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665622376112?e=1795046400&v=beta&t=-HpTDS6M-H_kMxHmVhQGkKcNWyEdi1JEGty8Iw8GwwA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665622376112?e=1795046400&v=beta&t=-HpTDS6M-H_kMxHmVhQGkKcNWyEdi1JEGty8Iw8GwwA",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665622376112?e=1795046400&v=beta&t=03jPbM9eMY3MVcAVgfyjxKqnUm6ABWW8oG9wMEhXGnA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1665622376112?e=1795046400&v=beta&t=3AoTombl98DjaBk5j6kS5pXcurK_e28FZYR0BYMSTEE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1665622376112?e=1795046400&v=beta&t=3AoTombl98DjaBk5j6kS5pXcurK_e28FZYR0BYMSTEE",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665622376112?e=1795046400&v=beta&t=03jPbM9eMY3MVcAVgfyjxKqnUm6ABWW8oG9wMEhXGnA",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665622376112?e=1795046400&v=beta&t=-HpTDS6M-H_kMxHmVhQGkKcNWyEdi1JEGty8Iw8GwwA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1665622376112?e=1795046400&v=beta&t=ZN36wI7x2fkPxLKIzQxObeMwi877-ouIdlHdbH4-tK0",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1665622376112?e=1795046400&v=beta&t=-HpTDS6M-H_kMxHmVhQGkKcNWyEdi1JEGty8Iw8GwwA",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1665622376112?e=1795046400&v=beta&t=03jPbM9eMY3MVcAVgfyjxKqnUm6ABWW8oG9wMEhXGnA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHNXLLOa5Bd0w/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1665622376112?e=1795046400&v=beta&t=3AoTombl98DjaBk5j6kS5pXcurK_e28FZYR0BYMSTEE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1689373158724?e=1795046400&v=beta&t=CggSyDUA_BeUGOkpNaLM2L1b-Ae57EVmdmMFiOopEno",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1689373158724?e=1795046400&v=beta&t=MeVRVilaWSqi-hlguDQzI9Cw4DcluV11id2q9jEJTkw",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1689373158724?e=1795046400&v=beta&t=MeVRVilaWSqi-hlguDQzI9Cw4DcluV11id2q9jEJTkw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1689373158724?e=1795046400&v=beta&t=MeVRVilaWSqi-hlguDQzI9Cw4DcluV11id2q9jEJTkw",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQH6x60THTr5yQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1689373158724?e=1795046400&v=beta&t=CggSyDUA_BeUGOkpNaLM2L1b-Ae57EVmdmMFiOopEno",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/pauldwalkeriii"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T08:13:57.103Z",
+ "foundBy": null
+}

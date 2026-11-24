@@ -1,0 +1,1438 @@
+{
+ "slug": "miguelelizaldecruz",
+ "inputUrl": "https://www.linkedin.com/in/miguelelizaldecruz",
+ "fetchedAt": "2026-11-10T10:48:35.007Z",
+ "id": "6af2f682af440f0df0ab879f",
+ "url": "https://www.linkedin.com/in/miguelelizaldecruz",
+ "profile": {
+  "created": 1479568832002,
+  "trackingId": "FqFfljqXR9W3/RBr3UbR1w==",
+  "firstName": "Miguel",
+  "lastName": "Elizalde Cruz",
+  "pronoun": null,
+  "versionTag": "2668928685",
+  "headline": "Software Engineer Intern @ Etogy | Building AI Payment Solutions | Rust · Python",
+  "publicIdentifier": "miguelelizaldecruz",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "538499836",
+  "profileId": "ACoAACAY2vwBEQwzpWzA_NlRDxDNPB6wCI-x07s",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1664588384619?e=1795651200&v=beta&t=lMcXlnA47TROHiET9dAS_IMwuivyCTnKhgE3lAfG7ww",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664588384619?e=1795651200&v=beta&t=iTJzlLyMxxEYBrX6Fd5Fx0f7rkVlqkzXYf3bBsJFA0w",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664588384619?e=1795651200&v=beta&t=W_FRG7KcI9BDgXAvL91MkgR1NK8zCEz9Pw70wvAK5Kw",
+   "734x734": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A"
+  },
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_350_1400/B4EZ8XXofzHsAU-/0/1782803499306?e=1795651200&v=beta&t=flNpH5cw47-OS1RrsbRkOupwhsP_A1N_uDXdDWskGvk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_200_800/B4EZ8XXofzHsAQ-/0/1782803499307?e=1795651200&v=beta&t=5ukQ8dNy1_SENnTPMMX90wju9tdMAuS4bEUbo-wLPCo"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106484743",
+  "geoLocationName": "Provo, Utah, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer Intern",
+  "summary": "I got into engineering because I couldn't stop asking how things work, and I don't really know something until I build it myself. That's why I've written a PostgreSQL client in Rust for Python to cut the C dependency, and a package manager for the WebAssembly Component Model.\n\nThat curiosity is how a TA role at Ensign College's IT department grew into the university's first SRE practice. What started as grading and emails became production K3s clusters serving 1,000+ users, a Kafka pipeline pushing 30M+ messages/day, observability across 50+ Proxmox servers, and a 74% cut in AWS costs,  infrastructure the department's developers and students rely on daily.\n\nNow I'm going a level deeper into the systems most people never see: at Etogy, a fintech, I work on the AI and Federal Reserve team, where our code moves ACH payments between the Fed and partner banks. I've deployed and benchmarked LLMs across GPUs with tensor parallelism, proposed serving architectures, and built MCP integrations connecting models to our payment processor.\n\nEvery shift in my work has been the same move: build the thing, then understand what it runs on, then build the layer underneath for the people downstream. Payments turned out to be the best version of that: regulated, unforgiving, and full of infrastructure that has to be boring in the best way.\n\nC# / .NET · Python · Rust · LLM Inference · MCP · Kubernetes · Kafka · PostgreSQL · Terraform · AWS · Docker · ArgoCD · WebAssembly/WASI · Linux",
+  "positions": [
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Lehi, UT",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Internship",
+    "description": "AI and Federal Reserve team at a fintech, the code moves ACH payments between the Fed and partner banks.\n- Shipped the retrieval layer of a production MCP server now used in enterprise sales demos, building semantic search over 200 API documentation nodes in Qdrant with colbert-ir/colbertv2.0 embeddings.\n- Kept the RAG service available under GPU saturation by owning an adaptive degradation controller that reads 7 live signals and tiers sessions down to CPU embeddings, built on Netflix's load-shedding pattern.\n- Selected the production serving model by benchmarking 9 LLMs across 4 accelerator configurations and 2 inference engines (vLLM, llama.cpp) against a gpt-oss-120b baseline, then validating the finalist with guidellm.\n- Eliminated 8 of 9 candidate models before deployment by running adversarial robustness evaluations against chain-of-thought injection and system-prompt extraction.\n- Deployed and benchmarked LLMs across GPUs with tensor parallelism and proposed the serving architecture.\n- Delivered Federal Reserve payment integrations (FedACH) in C#/.NET, implementing NACHA file handling, effective-date arithmetic, and Fed holiday calendar logic.\n- Cut merchant-risk screening from ~90 minutes to 25 seconds across 50K+ merchant records by rewriting the service around an Aho-Corasick-inspired prescreen with regex verification.\n- Reduced false positives from 3–4 every two days to near zero. Surfacing a confirmed fraud case by adding an n-gram prescreen with narrowed fuzzy matching.\n- Reviewed pull requests spanning retrieval, agent orchestration, and SQL Server CTEs and stored procedures.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/103052897/",
+     "name": "Etogy",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Salt Lake County, UT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Part-time",
+    "description": "- Established university's first Site Reliability Engineering practice, architecting production K3s clusters serving 1,000+ daily users with 99.9% uptime\n- Built real-time data pipeline processing 30M+ daily messages from 40+ global servers using Kafka, TimescaleDB, and Java KStream, eliminating weeks-long manual reporting\n- Reduced monthly AWS costs by 74% through strategic re-architecture of data infrastructure and hybrid cloud migration  \n- Developed automated telemetry system with custom monitoring tools, proactively identifying resource contention across distributed systems\n- Deployed production ML inference API in Rust for cluster health validation and AWS ECR integration testing\n- Manage enterprise datacenter infrastructure, including network configuration and hardware maintenance",
+    "insights": "Data Engineering, Rust (Programming Language) and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    }
+   },
+   {
+    "title": "Data Science and Engineering Intern",
+    "locationName": "Mexico City, Mexico · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "- Migrated 300M+ records from 20 Excel spreadsheets into a PostgreSQL system, improving query speeds by 95% and enhancing data integrity for large-scale analysis\n- Implemented end-to-end data workflow automation that saved 300+ hours/month and streamlined cross-department processes, boosting team productivity\n- Engineered Selenium and Playwright web scrapers that cut data acquisition time by 90% and increased accuracy by 50%, enabling rapid multi-source customer data validation",
+    "insights": "Data Analysis, Data Engineering and +5 skills",
+    "company": {
+     "url": "",
+     "name": "Consultores Juridicos Cruz SA de CV",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Data Science Student Employee",
+    "locationName": "Salt Lake County, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Part-time",
+    "description": "- Built a data pipeline aggregating 5+ disparate sources, achieving 100% data coverage and reducing manual entry by 99%, enhancing data reliability for institutional initiatives\n- Created interactive dashboards using Power BI and Plotly, reducing data errors by 20% and empowering better decision-making across multiple departments",
+    "insights": "Python, Data Analysis and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolName": "Ensign College",
+    "degreeName": "Bachelor of Applied Science - BASc",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2026
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolName": "Ensign College",
+    "degreeName": "Certificate",
+    "fieldOfStudy": "Cloud and Systems administration",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Full-Time Volunteer Representative - Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "description": "•\tInspired groups of more than 10 Volunteers a Week by setting goals, metrics, and plans. Increased metrics results by 20%.\n•\tPlanned and monitored over 60 foreign Volunteers’ Immigration Statuses and Procedures. Guided and mentored other volunteers to do the same.\n•\tPresented metrics and religion topics with an audience of over 40 volunteers and guests.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=8ca49dijivHeG1Ou1jgc1nhgdOrN_jaNXGC3GlBdQ7E",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=VL_KEegrwsf8yno5IYqagaZEG-HxPAh-1uZ1xYPhdn0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=PLD6u2ojQ8aI9AwjHefXevReZfEk7x1kJ-fIe4gLQeo"
+     }
+    }
+   },
+   {
+    "role": "English as a Second Language Instructor",
+    "companyName": "Independent",
+    "description": "•\tPlanned and delivered English language lessons that incorporated the use of authorial audio-visual aids and various English teaching methods.\n•\tTook part in the educational process of over 40 students with a success rate of 80%.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "",
+     "name": "Independent",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Oxpg",
+    "description": "A PostgreSQL client for Python, written in Rust with PyO3 on top of tokio-postgres. Most Python Postgres libraries depend on libpq (a C library) under the hood. Oxpg wraps an async Rust implementation instead, keeping the entire stack C-free. The motivation was WASI compatibility: C dependencies block Python database code from running in WebAssembly environments. Still evolving, but the core works.\n\nRust · PyO3 · tokio-postgres · PostgreSQL · Python",
+    "dateRange": {},
+    "associatedWith": ""
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Etogy",
+  "companyPublicId": "etogy",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/etogy/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:103052897",
+   "name": "Etogy",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEcul7BXAUKMg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_"
+    }
+   },
+   "universalName": "etogy",
+   "url": "https://www.linkedin.com/company/etogy/",
+   "slug": "etogy",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+   "specialties": []
+  },
+  "followerCount": 1197,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1178,
+  "skills": [
+   {
+    "name": "Wasm",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rust (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker Products",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tableau",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Power BI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Table",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MariaDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MariaDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Presentations",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pivot Tables",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Collaborative Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Process Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Visualization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Cloud Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Wasm",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rust (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker Products",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tableau",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Microsoft Power BI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Attention to Detail",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analytical Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Decision-Making",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Active Listening",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/miguelelizaldecruz",
+  "linkedinUrl": "https://www.linkedin.com/in/miguelelizaldecruz",
+  "profileUrl": "https://www.linkedin.com/in/miguelelizaldecruz",
+  "verified": true,
+  "registeredAt": "2016-11-19T15:20:32.002Z",
+  "location": {
+   "linkedinText": "Provo, Utah, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Provo, Utah, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I got into engineering because I couldn't stop asking how things work, and I don't really know something until I build it myself. That's why I've written a PostgreSQL client in Rust for Python to cut the C dependency, and a package manager for the WebAssembly Component Model.\n\nThat curiosity is how a TA role at Ensign College's IT department grew into the university's first SRE practice. What started as grading and emails became production K3s clusters serving 1,000+ users, a Kafka pipeline pushing 30M+ messages/day, observability across 50+ Proxmox servers, and a 74% cut in AWS costs,  infrastructure the department's developers and students rely on daily.\n\nNow I'm going a level deeper into the systems most people never see: at Etogy, a fintech, I work on the AI and Federal Reserve team, where our code moves ACH payments between the Fed and partner banks. I've deployed and benchmarked LLMs across GPUs with tensor parallelism, proposed serving architectures, and built MCP integrations connecting models to our payment processor.\n\nEvery shift in my work has been the same move: build the thing, then understand what it runs on, then build the layer underneath for the people downstream. Payments turned out to be the best version of that: regulated, unforgiving, and full of infrastructure that has to be boring in the best way.\n\nC# / .NET · Python · Rust · LLM Inference · MCP · Kubernetes · Kafka · PostgreSQL · Terraform · AWS · Docker · ArgoCD · WebAssembly/WASI · Linux",
+  "currentTitle": "Software Engineer Intern",
+  "allTitles": [
+   "Software Engineer Intern",
+   "Software Engineer",
+   "Data Science and Engineering Intern",
+   "Data Science Student Employee"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Lehi, UT",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Internship",
+    "description": "AI and Federal Reserve team at a fintech, the code moves ACH payments between the Fed and partner banks.\n- Shipped the retrieval layer of a production MCP server now used in enterprise sales demos, building semantic search over 200 API documentation nodes in Qdrant with colbert-ir/colbertv2.0 embeddings.\n- Kept the RAG service available under GPU saturation by owning an adaptive degradation controller that reads 7 live signals and tiers sessions down to CPU embeddings, built on Netflix's load-shedding pattern.\n- Selected the production serving model by benchmarking 9 LLMs across 4 accelerator configurations and 2 inference engines (vLLM, llama.cpp) against a gpt-oss-120b baseline, then validating the finalist with guidellm.\n- Eliminated 8 of 9 candidate models before deployment by running adversarial robustness evaluations against chain-of-thought injection and system-prompt extraction.\n- Deployed and benchmarked LLMs across GPUs with tensor parallelism and proposed the serving architecture.\n- Delivered Federal Reserve payment integrations (FedACH) in C#/.NET, implementing NACHA file handling, effective-date arithmetic, and Fed holiday calendar logic.\n- Cut merchant-risk screening from ~90 minutes to 25 seconds across 50K+ merchant records by rewriting the service around an Aho-Corasick-inspired prescreen with regex verification.\n- Reduced false positives from 3–4 every two days to near zero. Surfacing a confirmed fraud case by adding an n-gram prescreen with narrowed fuzzy matching.\n- Reviewed pull requests spanning retrieval, agent orchestration, and SQL Server CTEs and stored procedures.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/103052897/",
+     "name": "Etogy",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Etogy",
+    "location": "Lehi, UT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/103052897/",
+    "companyId": "103052897",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Salt Lake County, UT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Part-time",
+    "description": "- Established university's first Site Reliability Engineering practice, architecting production K3s clusters serving 1,000+ daily users with 99.9% uptime\n- Built real-time data pipeline processing 30M+ daily messages from 40+ global servers using Kafka, TimescaleDB, and Java KStream, eliminating weeks-long manual reporting\n- Reduced monthly AWS costs by 74% through strategic re-architecture of data infrastructure and hybrid cloud migration  \n- Developed automated telemetry system with custom monitoring tools, proactively identifying resource contention across distributed systems\n- Deployed production ML inference API in Rust for cluster health validation and AWS ECR integration testing\n- Manage enterprise datacenter infrastructure, including network configuration and hardware maintenance",
+    "insights": "Data Engineering, Rust (Programming Language) and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Ensign College ",
+    "location": "Salt Lake County, UT · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "companyId": "15130571",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Science and Engineering Intern",
+    "locationName": "Mexico City, Mexico · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "- Migrated 300M+ records from 20 Excel spreadsheets into a PostgreSQL system, improving query speeds by 95% and enhancing data integrity for large-scale analysis\n- Implemented end-to-end data workflow automation that saved 300+ hours/month and streamlined cross-department processes, boosting team productivity\n- Engineered Selenium and Playwright web scrapers that cut data acquisition time by 90% and increased accuracy by 50%, enabling rapid multi-source customer data validation",
+    "insights": "Data Analysis, Data Engineering and +5 skills",
+    "company": {
+     "url": "",
+     "name": "Consultores Juridicos Cruz SA de CV",
+     "logo": {}
+    },
+    "position": "Data Science and Engineering Intern",
+    "companyName": "Consultores Juridicos Cruz SA de CV",
+    "location": "Mexico City, Mexico · Remote",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2023
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Data Science Student Employee",
+    "locationName": "Salt Lake County, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Part-time",
+    "description": "- Built a data pipeline aggregating 5+ disparate sources, achieving 100% data coverage and reducing manual entry by 99%, enhancing data reliability for institutional initiatives\n- Created interactive dashboards using Power BI and Plotly, reducing data errors by 20% and empowering better decision-making across multiple departments",
+    "insights": "Python, Data Analysis and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    },
+    "position": "Data Science Student Employee",
+    "companyName": "Ensign College ",
+    "location": "Salt Lake County, Utah, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "companyId": "15130571",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2022
+    },
+    "endDate": {
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "103052897",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/103052897/",
+    "companyName": "Etogy",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Lehi, UT",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Internship",
+    "description": "AI and Federal Reserve team at a fintech, the code moves ACH payments between the Fed and partner banks.\n- Shipped the retrieval layer of a production MCP server now used in enterprise sales demos, building semantic search over 200 API documentation nodes in Qdrant with colbert-ir/colbertv2.0 embeddings.\n- Kept the RAG service available under GPU saturation by owning an adaptive degradation controller that reads 7 live signals and tiers sessions down to CPU embeddings, built on Netflix's load-shedding pattern.\n- Selected the production serving model by benchmarking 9 LLMs across 4 accelerator configurations and 2 inference engines (vLLM, llama.cpp) against a gpt-oss-120b baseline, then validating the finalist with guidellm.\n- Eliminated 8 of 9 candidate models before deployment by running adversarial robustness evaluations against chain-of-thought injection and system-prompt extraction.\n- Deployed and benchmarked LLMs across GPUs with tensor parallelism and proposed the serving architecture.\n- Delivered Federal Reserve payment integrations (FedACH) in C#/.NET, implementing NACHA file handling, effective-date arithmetic, and Fed holiday calendar logic.\n- Cut merchant-risk screening from ~90 minutes to 25 seconds across 50K+ merchant records by rewriting the service around an Aho-Corasick-inspired prescreen with regex verification.\n- Reduced false positives from 3–4 every two days to near zero. Surfacing a confirmed fraud case by adding an n-gram prescreen with narrowed fuzzy matching.\n- Reviewed pull requests spanning retrieval, agent orchestration, and SQL Server CTEs and stored procedures.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/103052897/",
+     "name": "Etogy",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Etogy",
+    "location": "Lehi, UT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/103052897/",
+    "companyId": "103052897",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_400_400/company-logo_400_400/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=YEC3vxycOxX98rx7G765BMWd33xhKsK7CFSrkCFyGK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_200_200/company-logo_200_200/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=iBlAW_UMCEmCrM25dsHLDEl8Sxa0LS1nFGN7GUaEWpE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEcul7BXAUKMg/company-logo_100_100/company-logo_100_100/0/1718490782810/etogy_logo?e=1795651200&v=beta&t=XFv9au-ddoOGqrLtUCT51pH63zVzPg-wF-NA74tRTj8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Salt Lake County, UT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Part-time",
+    "description": "- Established university's first Site Reliability Engineering practice, architecting production K3s clusters serving 1,000+ daily users with 99.9% uptime\n- Built real-time data pipeline processing 30M+ daily messages from 40+ global servers using Kafka, TimescaleDB, and Java KStream, eliminating weeks-long manual reporting\n- Reduced monthly AWS costs by 74% through strategic re-architecture of data infrastructure and hybrid cloud migration  \n- Developed automated telemetry system with custom monitoring tools, proactively identifying resource contention across distributed systems\n- Deployed production ML inference API in Rust for cluster health validation and AWS ECR integration testing\n- Manage enterprise datacenter infrastructure, including network configuration and hardware maintenance",
+    "insights": "Data Engineering, Rust (Programming Language) and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Ensign College ",
+    "location": "Salt Lake County, UT · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "companyId": "15130571",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Science and Engineering Intern",
+    "locationName": "Mexico City, Mexico · Remote",
+    "timePeriod": {
+     "startDate": {
+      "year": 2023
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "- Migrated 300M+ records from 20 Excel spreadsheets into a PostgreSQL system, improving query speeds by 95% and enhancing data integrity for large-scale analysis\n- Implemented end-to-end data workflow automation that saved 300+ hours/month and streamlined cross-department processes, boosting team productivity\n- Engineered Selenium and Playwright web scrapers that cut data acquisition time by 90% and increased accuracy by 50%, enabling rapid multi-source customer data validation",
+    "insights": "Data Analysis, Data Engineering and +5 skills",
+    "company": {
+     "url": "",
+     "name": "Consultores Juridicos Cruz SA de CV",
+     "logo": {}
+    },
+    "position": "Data Science and Engineering Intern",
+    "companyName": "Consultores Juridicos Cruz SA de CV",
+    "location": "Mexico City, Mexico · Remote",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2023
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Data Science Student Employee",
+    "locationName": "Salt Lake County, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "year": 2022
+     },
+     "endDate": {
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Part-time",
+    "description": "- Built a data pipeline aggregating 5+ disparate sources, achieving 100% data coverage and reducing manual entry by 99%, enhancing data reliability for institutional initiatives\n- Created interactive dashboards using Power BI and Plotly, reducing data errors by 20% and empowering better decision-making across multiple departments",
+    "insights": "Python, Data Analysis and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/15130571/",
+     "name": "Ensign College ",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q"
+     }
+    },
+    "position": "Data Science Student Employee",
+    "companyName": "Ensign College ",
+    "location": "Salt Lake County, Utah, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "companyId": "15130571",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2022
+    },
+    "endDate": {
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolName": "Ensign College",
+    "degreeName": "Bachelor of Applied Science - BASc",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2026
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolId": "15130571",
+    "degree": "Bachelor of Applied Science - BASc",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2026
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolName": "Ensign College",
+    "degreeName": "Certificate",
+    "fieldOfStudy": "Cloud and Systems administration",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolId": "15130571",
+    "degree": "Certificate",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2023
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_400_400/B56Zwrqo28HIAY-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=lkX_2SLu5umEE82XGyeT0-B6E4M-dAioxoJt5WvFxtM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_200_200/B56Zwrqo28HIAI-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=6JHf4EhAddN6jtRB99tSED2C19Vq3XCe55b16xuni7g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFN3Sba3Dk5Gg/company-logo_100_100/B56Zwrqo28HIAQ-/0/1770259124020/ensigncollegeslc_logo?e=1795651200&v=beta&t=Kr0ax5zKZKmmmRQHWA1t5N0MankGBwIDZepYnInkE9Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolName": "Ensign College",
+    "degreeName": "Bachelor of Applied Science - BASc",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2026
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15130571/",
+    "schoolId": "15130571",
+    "degree": "Bachelor of Applied Science - BASc",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2026
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Full-Time Volunteer Representative - Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "description": "•\tInspired groups of more than 10 Volunteers a Week by setting goals, metrics, and plans. Increased metrics results by 20%.\n•\tPlanned and monitored over 60 foreign Volunteers’ Immigration Statuses and Procedures. Guided and mentored other volunteers to do the same.\n•\tPresented metrics and religion topics with an audience of over 40 volunteers and guests.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=8ca49dijivHeG1Ou1jgc1nhgdOrN_jaNXGC3GlBdQ7E",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=VL_KEegrwsf8yno5IYqagaZEG-HxPAh-1uZ1xYPhdn0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=PLD6u2ojQ8aI9AwjHefXevReZfEk7x1kJ-fIe4gLQeo"
+     }
+    },
+    "organization": "The Church of Jesus Christ of Latter-day Saints"
+   },
+   {
+    "role": "English as a Second Language Instructor",
+    "companyName": "Independent",
+    "description": "•\tPlanned and delivered English language lessons that incorporated the use of authorial audio-visual aids and various English teaching methods.\n•\tTook part in the educational process of over 40 students with a success rate of 80%.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "",
+     "name": "Independent",
+     "logo": {}
+    },
+    "organization": "Independent"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Full-Time Volunteer Representative - Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "description": "•\tInspired groups of more than 10 Volunteers a Week by setting goals, metrics, and plans. Increased metrics results by 20%.\n•\tPlanned and monitored over 60 foreign Volunteers’ Immigration Statuses and Procedures. Guided and mentored other volunteers to do the same.\n•\tPresented metrics and religion topics with an audience of over 40 volunteers and guests.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "cause": "Social Services",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=8ca49dijivHeG1Ou1jgc1nhgdOrN_jaNXGC3GlBdQ7E",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=VL_KEegrwsf8yno5IYqagaZEG-HxPAh-1uZ1xYPhdn0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795651200&v=beta&t=PLD6u2ojQ8aI9AwjHefXevReZfEk7x1kJ-fIe4gLQeo"
+     }
+    }
+   },
+   {
+    "role": "English as a Second Language Instructor",
+    "companyName": "Independent",
+    "description": "•\tPlanned and delivered English language lessons that incorporated the use of authorial audio-visual aids and various English teaching methods.\n•\tTook part in the educational process of over 40 students with a success rate of 80%.",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Education",
+    "company": {
+     "url": "",
+     "name": "Independent",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1664588384619?e=1795651200&v=beta&t=lMcXlnA47TROHiET9dAS_IMwuivyCTnKhgE3lAfG7ww",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664588384619?e=1795651200&v=beta&t=iTJzlLyMxxEYBrX6Fd5Fx0f7rkVlqkzXYf3bBsJFA0w",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664588384619?e=1795651200&v=beta&t=W_FRG7KcI9BDgXAvL91MkgR1NK8zCEz9Pw70wvAK5Kw",
+   "734x734": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+   "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+     "width": 734,
+     "height": 734
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664588384619?e=1795651200&v=beta&t=W_FRG7KcI9BDgXAvL91MkgR1NK8zCEz9Pw70wvAK5Kw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664588384619?e=1795651200&v=beta&t=iTJzlLyMxxEYBrX6Fd5Fx0f7rkVlqkzXYf3bBsJFA0w",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1664588384619?e=1795651200&v=beta&t=lMcXlnA47TROHiET9dAS_IMwuivyCTnKhgE3lAfG7ww",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1664588384619?e=1795651200&v=beta&t=lMcXlnA47TROHiET9dAS_IMwuivyCTnKhgE3lAfG7ww",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664588384619?e=1795651200&v=beta&t=iTJzlLyMxxEYBrX6Fd5Fx0f7rkVlqkzXYf3bBsJFA0w",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664588384619?e=1795651200&v=beta&t=W_FRG7KcI9BDgXAvL91MkgR1NK8zCEz9Pw70wvAK5Kw",
+   "734x734": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+   "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1664588384619?e=1795651200&v=beta&t=UdbPCRXxQv-55hdTxMhpbKC3-fjnjfmvFji4TFli64A",
+     "width": 734,
+     "height": 734
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1664588384619?e=1795651200&v=beta&t=W_FRG7KcI9BDgXAvL91MkgR1NK8zCEz9Pw70wvAK5Kw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1664588384619?e=1795651200&v=beta&t=iTJzlLyMxxEYBrX6Fd5Fx0f7rkVlqkzXYf3bBsJFA0w",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQEiGDF6ISTNlw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1664588384619?e=1795651200&v=beta&t=lMcXlnA47TROHiET9dAS_IMwuivyCTnKhgE3lAfG7ww",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_350_1400/B4EZ8XXofzHsAU-/0/1782803499306?e=1795651200&v=beta&t=flNpH5cw47-OS1RrsbRkOupwhsP_A1N_uDXdDWskGvk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_200_800/B4EZ8XXofzHsAQ-/0/1782803499307?e=1795651200&v=beta&t=5ukQ8dNy1_SENnTPMMX90wju9tdMAuS4bEUbo-wLPCo",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_350_1400/B4EZ8XXofzHsAU-/0/1782803499306?e=1795651200&v=beta&t=flNpH5cw47-OS1RrsbRkOupwhsP_A1N_uDXdDWskGvk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_350_1400/B4EZ8XXofzHsAU-/0/1782803499306?e=1795651200&v=beta&t=flNpH5cw47-OS1RrsbRkOupwhsP_A1N_uDXdDWskGvk",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQEWa3KArgGwqA/profile-displaybackgroundimage-shrink_200_800/B4EZ8XXofzHsAQ-/0/1782803499307?e=1795651200&v=beta&t=5ukQ8dNy1_SENnTPMMX90wju9tdMAuS4bEUbo-wLPCo",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/miguelelizaldecruz"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-10T10:48:25.171Z",
+ "foundBy": null
+}

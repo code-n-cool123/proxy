@@ -1,0 +1,840 @@
+{
+ "slug": "dalvikus",
+ "inputUrl": "https://www.linkedin.com/in/dalvikus",
+ "fetchedAt": "2026-11-13T02:29:22.664Z",
+ "id": "6af67602326d0b70b7e2475b",
+ "url": "https://www.linkedin.com/in/dalvikus",
+ "profile": {
+  "created": 1388161360088,
+  "trackingId": "ZOe1AkgVStGeXMSHgzGkmg==",
+  "firstName": "Gwangho",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "212591322",
+  "headline": "AI/ML Chip Compiler/Kernel Architect",
+  "publicIdentifier": "dalvikus",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "312412815",
+  "profileId": "ACoAABKfCo8BtcUb4DwpjKkcaYE-hgQKrSGqe7k",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646769856855?e=1796256000&v=beta&t=MdUE4EVCOIHsHBkLPdkTlNZTMMYxwKLXvXziD5XXgY8",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646769856855?e=1796256000&v=beta&t=6u12ua-ix8pE9lOCOdNgw3Dcqh2ebh57p295G3XizSs"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106233382",
+  "geoLocationName": "San Jose, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "SiMa.ai™ is all about scaling Physical AI! \n\nWe are passionate about scaling Physical AI across robotics, automotive, industrial automation, aerospace & defense, smart vision, and healthcare. We are shipping the industry's best, purpose-built, software centric Physical AI HW/SW platform that is best in class in ease of use, performance, and power efficiency. SiMa.ai is led by technologists and business veterans and backed by a set of top investors committed to scaling Physical AI.",
+  "positions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/18369400/",
+     "name": "SiMa.ai",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Distinguished Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Kernels, numerics, and HW/SW co-design for the MLA accelerator family: tiled many-core ASICs with DMA-driven data movement\n\n1. Roofline-Level LLM Kernels\n1) Invented auto-split, an adaptive search that partitions tensors and generates layouts automatically (US 12,639,056, sole inventor)\n2) Based on auto-split, set roofline for the latency of any model in 1 second\n\n2. Performance Modeling and Root-Cause Analysis\n1) Built analytical prefill/decode phase of all LLMs\n2) Identified synchronization freezes between instruction and data queues as the limiter of effective bandwidth\n\n3. Low-Precision Numerics\n1) Characterized weight quantization: Llama 2 from +0.21% (8-bit) to -4% (4-bit) perplexity change\n2) Designed INT8 KV-cache quantization with little impact on metrics (ARC-easy, ARC-challenge, HellaSwag, MMLU); INV4 KV-cache with acceptable metrics\n\n4. Kernel Authoring Framework and Compiler\n1) Wrote large matrix multiplication in LLM with TOPS efficiency ≥ 90%\n2) Built the LLModel Builder, a composable kernel framework that generates any LLM; extending it to ViT encoders\n3) Invented on-chip data transfers (US 12,260,253, sole inventor); one of fundamental building blocks in a compiler and the Model Builder\n4) Developed light-attention without DRAM access\n5) Fused MLP of any intermediate-size without\tDRAM access\n\n5. Pre-Silicon Development and HW/SW Co-design\n1) Multicast weights\n2) INT8 convolution of bfloat16s\n3) On-chip instruction buffer with (broadcast, loop) ≤ 128kb even for LLM\n4) Deformable convolutions\n5) Grid-sample\n\n6. Software Mitigations for Hardware Limits\n1) lookup-table-based approximation of all non-linear activations without a drop in accuracy\n2) Wrote Grid-Sample, Gather, and TopK without HW support",
+      "insights": ""
+     },
+     {
+      "title": "Senior Principal Engineer, Lead",
+      "locationName": "San Jose, California, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "Write a compiler called \"Model Builder\" to build any model\n1) Automatically split tensors over compute units for the best performance\n2) Define and design data movements between layers within compute units",
+      "insights": ""
+     },
+     {
+      "title": "Member Of Technical Staff",
+      "locationName": "San Jose",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 10 mos",
+      "description": "1. Write a general, optimal conv2d for a chip with some proposal for HW supports.\n2. Build VGG16 and ResNet50 for a chip.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Mountain View, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "5 mos",
+    "employmentType": "Full-time",
+    "description": "Bidirectional Encoder Representations for Transformers (BERT) for Natural Language Processing performance analysis at assembly level",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/12994410/",
+     "name": "Groq",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw"
+     }
+    }
+   },
+   {
+    "title": "Senior Staff Engineer",
+    "locationName": "Campbell, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "employmentType": "Full-time",
+    "description": "1. Write compute kernels for DPU (Dataflow Processing Unit): softmax, conv2d\nconv2d: quite general convolution including matrix multiplication\n2. Develop tool chain, which make compiling and linking successful without any resource conflict\n3. Write optimized convergent rounding module with 2x less code\n",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Wave Computing",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Doctor of Philosophy (PhD)",
+    "fieldOfStudy": "Physics (Theoretical Nuclear Physics)",
+    "timePeriod": {}
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master of Science (MS)",
+    "fieldOfStudy": "Physics",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Korean",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [
+   {
+    "title": "ADAPTIVE SEARCH-BASED ALLOCATION OF COMPUTATIONS TO SYNCHRONIZED, INTERCONNECTED PROCESSING ELEMENTS FOR IMPLEMENTING MACHINE LEARNING NETWORKS",
+    "issuer": "US 12,639,056 B2 · Issued May 26, 2026",
+    "issueDate": {},
+    "description": "ABSTRACT\nA system for compiling a machine learning network for execution on a plurality of interconnected processing ele- ments performs the following. tI selects splits (P„Q,,K,) for individual layers of the machine learning network based on\n(a) costs of data transfer between processing elements assuming that inputs and outputs of individual layers have a same spatial split (P,,Q,), and (b) costs of data transfer between processing elements resulting from differences in the spatial splits for inputs and outputs of individual layers. that haven i sales phe asme pie e n energet computer program that allocates computations for executing the machine learning network ot the processing elements according to the selected splits for the individual layers."
+   },
+   {
+    "title": "LAYOUT-BASED DATA TRANSFER BETWEEN SYNCHRONIZED, INTERCONNECTED PROCESSING ELEMENTS FOR IMPLEMENTING MACHINE LEARNING NETWORKS",
+    "issuer": "US-12260253-B2 · Issued Mar 25, 2025",
+    "issueDate": {},
+    "description": "** ABSTRACT **\n\nA machine learning accelerator (MLA) implements a machine learning network (MLN) by using data transfer instructions that coordinate concurrent data transfers between processing elements. Acompiler receives a descrip- tion of a machine learning network and generates the computer program that implements the MLN. The computer program contains instructions that will be run on PEs of the MLA. The PEs are connected by data transfer paths that are known to the compiler. The computations performed by the PEs may require data stored at other PEs. The compiler coordinates the data transfers to avoid conflicts and increase parallelism."
+   }
+  ],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "SiMa.ai",
+  "companyPublicId": "sima-ai",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/sima-ai/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:18369400",
+   "name": "SiMa.ai",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQHw6ZRJpPAyaA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+       "expiresAt": 1796256000000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_"
+    }
+   },
+   "universalName": "sima-ai",
+   "url": "https://www.linkedin.com/company/sima-ai/",
+   "slug": "sima-ai",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+   "specialties": []
+  },
+  "followerCount": 37,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 19,
+  "skills": [],
+  "inputUrl": "https://www.linkedin.com/in/dalvikus",
+  "linkedinUrl": "https://www.linkedin.com/in/dalvikus",
+  "profileUrl": "https://www.linkedin.com/in/dalvikus",
+  "verified": true,
+  "registeredAt": "2013-12-27T16:22:40.088Z",
+  "location": {
+   "linkedinText": "San Jose, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Jose, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "SiMa.ai™ is all about scaling Physical AI! \n\nWe are passionate about scaling Physical AI across robotics, automotive, industrial automation, aerospace & defense, smart vision, and healthcare. We are shipping the industry's best, purpose-built, software centric Physical AI HW/SW platform that is best in class in ease of use, performance, and power efficiency. SiMa.ai is led by technologists and business veterans and backed by a set of top investors committed to scaling Physical AI.",
+  "allTitles": [
+   "Machine Learning Engineer",
+   "Senior Staff Engineer"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/18369400/",
+     "name": "SiMa.ai",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Distinguished Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Kernels, numerics, and HW/SW co-design for the MLA accelerator family: tiled many-core ASICs with DMA-driven data movement\n\n1. Roofline-Level LLM Kernels\n1) Invented auto-split, an adaptive search that partitions tensors and generates layouts automatically (US 12,639,056, sole inventor)\n2) Based on auto-split, set roofline for the latency of any model in 1 second\n\n2. Performance Modeling and Root-Cause Analysis\n1) Built analytical prefill/decode phase of all LLMs\n2) Identified synchronization freezes between instruction and data queues as the limiter of effective bandwidth\n\n3. Low-Precision Numerics\n1) Characterized weight quantization: Llama 2 from +0.21% (8-bit) to -4% (4-bit) perplexity change\n2) Designed INT8 KV-cache quantization with little impact on metrics (ARC-easy, ARC-challenge, HellaSwag, MMLU); INV4 KV-cache with acceptable metrics\n\n4. Kernel Authoring Framework and Compiler\n1) Wrote large matrix multiplication in LLM with TOPS efficiency ≥ 90%\n2) Built the LLModel Builder, a composable kernel framework that generates any LLM; extending it to ViT encoders\n3) Invented on-chip data transfers (US 12,260,253, sole inventor); one of fundamental building blocks in a compiler and the Model Builder\n4) Developed light-attention without DRAM access\n5) Fused MLP of any intermediate-size without\tDRAM access\n\n5. Pre-Silicon Development and HW/SW Co-design\n1) Multicast weights\n2) INT8 convolution of bfloat16s\n3) On-chip instruction buffer with (broadcast, loop) ≤ 128kb even for LLM\n4) Deformable convolutions\n5) Grid-sample\n\n6. Software Mitigations for Hardware Limits\n1) lookup-table-based approximation of all non-linear activations without a drop in accuracy\n2) Wrote Grid-Sample, Gather, and TopK without HW support",
+      "insights": ""
+     },
+     {
+      "title": "Senior Principal Engineer, Lead",
+      "locationName": "San Jose, California, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "Write a compiler called \"Model Builder\" to build any model\n1) Automatically split tensors over compute units for the best performance\n2) Define and design data movements between layers within compute units",
+      "insights": ""
+     },
+     {
+      "title": "Member Of Technical Staff",
+      "locationName": "San Jose",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 10 mos",
+      "description": "1. Write a general, optimal conv2d for a chip with some proposal for HW supports.\n2. Build VGG16 and ResNet50 for a chip.",
+      "insights": ""
+     }
+    ],
+    "companyName": "SiMa.ai",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18369400/",
+    "companyId": "18369400",
+    "duration": "7 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Mountain View, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "5 mos",
+    "employmentType": "Full-time",
+    "description": "Bidirectional Encoder Representations for Transformers (BERT) for Natural Language Processing performance analysis at assembly level",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/12994410/",
+     "name": "Groq",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Groq",
+    "location": "Mountain View, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12994410/",
+    "companyId": "12994410",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Engineer",
+    "locationName": "Campbell, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "employmentType": "Full-time",
+    "description": "1. Write compute kernels for DPU (Dataflow Processing Unit): softmax, conv2d\nconv2d: quite general convolution including matrix multiplication\n2. Develop tool chain, which make compiling and linking successful without any resource conflict\n3. Write optimized convergent rounding module with 2x less code\n",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Wave Computing",
+     "logo": {}
+    },
+    "position": "Senior Staff Engineer",
+    "companyName": "Wave Computing",
+    "location": "Campbell, CA",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "18369400",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18369400/",
+    "companyName": "SiMa.ai",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/18369400/",
+     "name": "SiMa.ai",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Distinguished Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Kernels, numerics, and HW/SW co-design for the MLA accelerator family: tiled many-core ASICs with DMA-driven data movement\n\n1. Roofline-Level LLM Kernels\n1) Invented auto-split, an adaptive search that partitions tensors and generates layouts automatically (US 12,639,056, sole inventor)\n2) Based on auto-split, set roofline for the latency of any model in 1 second\n\n2. Performance Modeling and Root-Cause Analysis\n1) Built analytical prefill/decode phase of all LLMs\n2) Identified synchronization freezes between instruction and data queues as the limiter of effective bandwidth\n\n3. Low-Precision Numerics\n1) Characterized weight quantization: Llama 2 from +0.21% (8-bit) to -4% (4-bit) perplexity change\n2) Designed INT8 KV-cache quantization with little impact on metrics (ARC-easy, ARC-challenge, HellaSwag, MMLU); INV4 KV-cache with acceptable metrics\n\n4. Kernel Authoring Framework and Compiler\n1) Wrote large matrix multiplication in LLM with TOPS efficiency ≥ 90%\n2) Built the LLModel Builder, a composable kernel framework that generates any LLM; extending it to ViT encoders\n3) Invented on-chip data transfers (US 12,260,253, sole inventor); one of fundamental building blocks in a compiler and the Model Builder\n4) Developed light-attention without DRAM access\n5) Fused MLP of any intermediate-size without\tDRAM access\n\n5. Pre-Silicon Development and HW/SW Co-design\n1) Multicast weights\n2) INT8 convolution of bfloat16s\n3) On-chip instruction buffer with (broadcast, loop) ≤ 128kb even for LLM\n4) Deformable convolutions\n5) Grid-sample\n\n6. Software Mitigations for Hardware Limits\n1) lookup-table-based approximation of all non-linear activations without a drop in accuracy\n2) Wrote Grid-Sample, Gather, and TopK without HW support",
+      "insights": ""
+     },
+     {
+      "title": "Senior Principal Engineer, Lead",
+      "locationName": "San Jose, California, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "Write a compiler called \"Model Builder\" to build any model\n1) Automatically split tensors over compute units for the best performance\n2) Define and design data movements between layers within compute units",
+      "insights": ""
+     },
+     {
+      "title": "Member Of Technical Staff",
+      "locationName": "San Jose",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 10 mos",
+      "description": "1. Write a general, optimal conv2d for a chip with some proposal for HW supports.\n2. Build VGG16 and ResNet50 for a chip.",
+      "insights": ""
+     }
+    ],
+    "companyName": "SiMa.ai",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18369400/",
+    "companyId": "18369400",
+    "duration": "7 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_400_400/company-logo_400_400/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=-_bLAO-JgRPft72CBxkccIid2KtOIHBTaDl1vCDoRxU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_200_200/company-logo_200_200/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=xK0rNc2R69b3EuifAry0oemQYwRwhXyhc4Ey61BpRrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHw6ZRJpPAyaA/company-logo_100_100/company-logo_100_100/0/1645992873865/sima_ai_logo?e=1796256000&v=beta&t=mGHcbm_URhklWFKHRo2k2T0zTxrgjQO_d2dOHlGxnzI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Machine Learning Engineer",
+    "locationName": "Mountain View, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2019
+     }
+    },
+    "totalDuration": "5 mos",
+    "employmentType": "Full-time",
+    "description": "Bidirectional Encoder Representations for Transformers (BERT) for Natural Language Processing performance analysis at assembly level",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/12994410/",
+     "name": "Groq",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw"
+     }
+    },
+    "position": "Machine Learning Engineer",
+    "companyName": "Groq",
+    "location": "Mountain View, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12994410/",
+    "companyId": "12994410",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_400_400/B56ZmD6jUWI0AY-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=e8OET1NFMrgf345bPvsfSFtq4Cfrscy8HHZAwPxFzIg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_200_200/B56ZmD6jUWI0AI-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=5OY6iygRBxCErEB3ZMT1__g0O5PLj78MZsKj5J0dYLw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHu2B6mxi4DzA/company-logo_100_100/B56ZmD6jUWI0AQ-/0/1758854788647/groq_logo?e=1796256000&v=beta&t=u3LbP_oc01Qoml5TB8BQ2xrbmlowgnkx8oaVDBCZYXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Engineer",
+    "locationName": "Campbell, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "employmentType": "Full-time",
+    "description": "1. Write compute kernels for DPU (Dataflow Processing Unit): softmax, conv2d\nconv2d: quite general convolution including matrix multiplication\n2. Develop tool chain, which make compiling and linking successful without any resource conflict\n3. Write optimized convergent rounding module with 2x less code\n",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Wave Computing",
+     "logo": {}
+    },
+    "position": "Senior Staff Engineer",
+    "companyName": "Wave Computing",
+    "location": "Campbell, CA",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Doctor of Philosophy (PhD)",
+    "fieldOfStudy": "Physics (Theoretical Nuclear Physics)",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Doctor of Philosophy (PhD)",
+    "skills": []
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master of Science (MS)",
+    "fieldOfStudy": "Physics",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Master of Science (MS)",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Doctor of Philosophy (PhD)",
+    "fieldOfStudy": "Physics (Theoretical Nuclear Physics)",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Doctor of Philosophy (PhD)",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646769856855?e=1796256000&v=beta&t=MdUE4EVCOIHsHBkLPdkTlNZTMMYxwKLXvXziD5XXgY8",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646769856855?e=1796256000&v=beta&t=6u12ua-ix8pE9lOCOdNgw3Dcqh2ebh57p295G3XizSs",
+   "url": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646769856855?e=1796256000&v=beta&t=6u12ua-ix8pE9lOCOdNgw3Dcqh2ebh57p295G3XizSs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646769856855?e=1796256000&v=beta&t=6u12ua-ix8pE9lOCOdNgw3Dcqh2ebh57p295G3XizSs",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQGwDHUx8spjUA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646769856855?e=1796256000&v=beta&t=MdUE4EVCOIHsHBkLPdkTlNZTMMYxwKLXvXziD5XXgY8",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/dalvikus"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T02:29:13.244Z",
+ "foundBy": null
+}

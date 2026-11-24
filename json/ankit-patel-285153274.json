@@ -1,0 +1,1164 @@
+{
+ "slug": "ankit-patel-285153274",
+ "inputUrl": "https://www.linkedin.com/in/ankit-patel-285153274",
+ "fetchedAt": "2026-11-18T16:43:51.850Z",
+ "id": "6afdd5c7326d0b70b7e2571a",
+ "url": "https://www.linkedin.com/in/ankit-patel-285153274",
+ "profile": {
+  "created": 1682535151741,
+  "trackingId": "imn/V9MKSN+Vf5W5hROQmw==",
+  "firstName": "Ankit",
+  "lastName": "Patel",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "135383004",
+  "headline": "SWE II @ JPMC",
+  "publicIdentifier": "ankit-patel-285153274",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "1123088069",
+  "profileId": "ACoAAELw9sUBRDWmVOWMK0NQYUiShKuNyxbObtc",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688930280530?e=1796860800&v=beta&t=FjXAn5IGBOHGBifQXh71zhaTDvAvVpYkgbJGFPbbB1g",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688930280530?e=1796860800&v=beta&t=qc1L0mZRW2oKgJL4kdDuQsF0hUpdrgCVxzWOo4zN9bo",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688930280530?e=1796860800&v=beta&t=ocPooaxtxS0prVOfhATYasfzJWiNTuXWis0NrJmRvZ4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1688930840664?e=1796860800&v=beta&t=Fx0ikRplbmSKwTVbzw2aAkiLRzI1dinHgwJ0mz-O5aE",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688930840664?e=1796860800&v=beta&t=axAT1W2BJczUMFYQV_DJhy24NGxnfoDjTraaUVT07hU"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102812094",
+  "geoLocationName": "Columbus, Ohio, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer II",
+  "summary": "I’m a full-stack software engineer who builds end-to-end systems, turning rough ideas into production-ready tools that are fast, reliable, and easy to use.\n\nI work across the stack by building clean, responsive frontends with React and Next.js, and scalable backends with Node.js, Express, and PostgreSQL. I’ve also developed services in Python (Flask) and Java (Spring Boot), and built desktop applications with .NET and WPF. I focus on clear API design, secure authentication, and performance-driven architecture.\n\nRecently, I’ve been building Benzene, a cloud-native, microservices-based file storage platform designed for scalable and secure file management. It features a Next.js client, an edge gateway responsible for JWT verification via OIDC, and a presigned URL architecture for direct S3 uploads and downloads. The system uses event-driven communication on AWS (SNS/SQS) to handle file lifecycle events, with services decoupled for scalability and reliability. I’ve also implemented Docker-based development environments, CI/CD pipelines, and distributed tracing using OpenTelemetry to improve observability and developer workflow.\n\nI enjoy working on projects that push my technical range, from building a multiplayer client-server game in Python to developing a search engine from scratch and creating modern React applications using tools like Redux, Zod, and server actions.\n\nI value clean, maintainable code, well-structured systems, and thoughtful engineering decisions that make software easier to scale and evolve.",
+  "positions": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Columbus, OH · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "employmentType": "Full-time",
+    "description": "• Build and maintain an enterprise Node.js/TypeScript developer platform (CLI, project generators, shared libraries), peaking at ~1,700 monthly users with a 0.1% error rate.\n• Took over the team's AWS estate in my first year: 15 applications across 2 accounts and 2 regions on ECS, ALB/NLB, Route 53, Aurora PostgreSQL, Lambda, SQS, ElastiCache, KMS and Secrets Manager, deployed as infrastructure as code through Terraform and Spinnaker.\n• Re-architected multi-region DNS failover by moving Route 53 health checks to ECS Container Insights alarms; rolled out across both environments and regions with zero unhealthy minutes.\n• Restored a failed secondary region, staggered scheduled shutdowns to stop nightly failover blips, enabled Gremlin chaos testing, and caught config drift before it could roll back infrastructure.\n• Resolved a Lambda data-ingest outage to an on-prem IP change blocked at the AWS-to-on-prem firewall; added SQS dead-letter alarms and cost-allocation tagging for Bedrock-heavy AI workloads.\n• Designed OpenTelemetry tracing and code-emitted metrics across CLI commands, generators and CI/CD; added AI-agent detection showing 76% of runs are agent-driven.\n• Cut a critical CI Code Scan from 8-18 min to ~70s (85-94%), the worst static-analysis run from 16m41s to ~50s, and PR security scans from 151s to 10-13s.\n• Applied the same approach to a second monorepo: tests from ~96s to 9s and Code Scan from ~136s to 88s.\n• Diagnosed recurring CI failures as Kubernetes pod evictions, not memory exhaustion, and delivered bounded automatic recovery.\n• Sped up a compliance API from 25-35s to 1-3s per request with identical results.\n• Built AST codemods (PostCSS, Jest, Webpack, Storybook, Playwright, CommonJS-to-ESM) so teams upgrade with one command; shipped 9 Axios releases covering 11+ vulnerabilities.\n• Built 50+ AI agents and a deployment-orchestration app with least-privilege, approval-gated changes and multi-model review.",
+    "insights": "TypeScript, Node.js and +9 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JPMorganChase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer I",
+    "locationName": "Dayton, Ohio, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "• Built and maintained large-scale enterprise desktop applications using C#/.NET and WPF (XAML).\n• Developed UI features end-to-end, partnering with teammates and stakeholders to refine requirements and deliver polished experiences.\n• Implemented and enhanced data visualization/charting capabilities to improve clarity of complex data.\n• Created and refined custom WPF controls and reusable UI components to reduce duplication and speed up future development.\n• Improved centralized styling/theming (shared resource dictionaries, consistent design patterns) to ensure a cohesive UI across the application.\n• Worked within MVVM patterns and leveraged reactive programming techniques to keep UI state responsive and maintainable.\n• Performed debugging, troubleshooting, and performance tuning for UI rendering and data-heavy screens.\n• Collaborated through Git-based workflows, including peer code reviews, iterative PRs, and maintaining code quality in a long-lived codebase.",
+    "insights": "C#, .NET Framework and +10 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/163387/",
+     "name": "DCS Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8"
+     }
+    }
+   },
+   {
+    "title": "Undergraduate Teaching Assistant",
+    "locationName": "Columbus, Ohio, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "employmentType": "Part-time",
+    "description": "• Served as Head Undergraduate Teaching Assistant for Data Structures & Algorithms at The Ohio State University.\n• Led and mentored 5 TAs, coordinating student support, lab coverage, and consistent instruction.\n• Delivered review sessions covering Big-O/time complexity, graphs, heaps, search trees, and dynamic programming.\n• Oversaw grading workflows and course operations for 100 students, ensuring fairness, consistency, and timely feedback.",
+    "insights": "Leadership, Data Structures and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3173/",
+     "name": "The Ohio State University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3173/",
+    "schoolName": "The Ohio State University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "JPMorganChase",
+  "companyPublicId": "jpmorganchase",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/jpmorganchase/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1068",
+   "name": "JPMorganChase",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQGxpntCyRgsuA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_"
+    }
+   },
+   "universalName": "jpmorganchase",
+   "url": "https://www.linkedin.com/company/jpmorganchase/",
+   "slug": "jpmorganchase",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+   "specialties": []
+  },
+  "followerCount": 189,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 188,
+  "skills": [
+   {
+    "name": "Optimizing Performance",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Developer Tools",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Abstract Syntax Tree (AST)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Performance Tuning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenTelemetry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Platform Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MVVM",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Desktop Application Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Custom Controls",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Visualization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Reactive Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nodejs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Developer Tooling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Frontend Build Tooling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Optimizing Performance",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Developer Tools",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Performance Tuning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MVVM",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Desktop Application Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Custom Controls",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Visualization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Reactive Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WPF Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XAML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SOLID Design Principles",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Version Control",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming Languages",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nodejs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Windows",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure DevOps Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SOLIDWORKS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MATLAB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "R (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kotlin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenTelemetry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Platform Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ankit-patel-285153274",
+  "linkedinUrl": "https://www.linkedin.com/in/ankit-patel-285153274",
+  "profileUrl": "https://www.linkedin.com/in/ankit-patel-285153274",
+  "verified": true,
+  "registeredAt": "2023-04-26T18:52:31.741Z",
+  "location": {
+   "linkedinText": "Columbus, Ohio, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Columbus, Ohio, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I’m a full-stack software engineer who builds end-to-end systems, turning rough ideas into production-ready tools that are fast, reliable, and easy to use.\n\nI work across the stack by building clean, responsive frontends with React and Next.js, and scalable backends with Node.js, Express, and PostgreSQL. I’ve also developed services in Python (Flask) and Java (Spring Boot), and built desktop applications with .NET and WPF. I focus on clear API design, secure authentication, and performance-driven architecture.\n\nRecently, I’ve been building Benzene, a cloud-native, microservices-based file storage platform designed for scalable and secure file management. It features a Next.js client, an edge gateway responsible for JWT verification via OIDC, and a presigned URL architecture for direct S3 uploads and downloads. The system uses event-driven communication on AWS (SNS/SQS) to handle file lifecycle events, with services decoupled for scalability and reliability. I’ve also implemented Docker-based development environments, CI/CD pipelines, and distributed tracing using OpenTelemetry to improve observability and developer workflow.\n\nI enjoy working on projects that push my technical range, from building a multiplayer client-server game in Python to developing a search engine from scratch and creating modern React applications using tools like Redux, Zod, and server actions.\n\nI value clean, maintainable code, well-structured systems, and thoughtful engineering decisions that make software easier to scale and evolve.",
+  "currentTitle": "Software Engineer II",
+  "allTitles": [
+   "Software Engineer II",
+   "Software Engineer I",
+   "Undergraduate Teaching Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Columbus, OH · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "employmentType": "Full-time",
+    "description": "• Build and maintain an enterprise Node.js/TypeScript developer platform (CLI, project generators, shared libraries), peaking at ~1,700 monthly users with a 0.1% error rate.\n• Took over the team's AWS estate in my first year: 15 applications across 2 accounts and 2 regions on ECS, ALB/NLB, Route 53, Aurora PostgreSQL, Lambda, SQS, ElastiCache, KMS and Secrets Manager, deployed as infrastructure as code through Terraform and Spinnaker.\n• Re-architected multi-region DNS failover by moving Route 53 health checks to ECS Container Insights alarms; rolled out across both environments and regions with zero unhealthy minutes.\n• Restored a failed secondary region, staggered scheduled shutdowns to stop nightly failover blips, enabled Gremlin chaos testing, and caught config drift before it could roll back infrastructure.\n• Resolved a Lambda data-ingest outage to an on-prem IP change blocked at the AWS-to-on-prem firewall; added SQS dead-letter alarms and cost-allocation tagging for Bedrock-heavy AI workloads.\n• Designed OpenTelemetry tracing and code-emitted metrics across CLI commands, generators and CI/CD; added AI-agent detection showing 76% of runs are agent-driven.\n• Cut a critical CI Code Scan from 8-18 min to ~70s (85-94%), the worst static-analysis run from 16m41s to ~50s, and PR security scans from 151s to 10-13s.\n• Applied the same approach to a second monorepo: tests from ~96s to 9s and Code Scan from ~136s to 88s.\n• Diagnosed recurring CI failures as Kubernetes pod evictions, not memory exhaustion, and delivered bounded automatic recovery.\n• Sped up a compliance API from 25-35s to 1-3s per request with identical results.\n• Built AST codemods (PostCSS, Jest, Webpack, Storybook, Playwright, CommonJS-to-ESM) so teams upgrade with one command; shipped 9 Axios releases covering 11+ vulnerabilities.\n• Built 50+ AI agents and a deployment-orchestration app with least-privilege, approval-gated changes and multi-model review.",
+    "insights": "TypeScript, Node.js and +9 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JPMorganChase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg"
+     }
+    },
+    "position": "Software Engineer II",
+    "companyName": "JPMorganChase",
+    "location": "Columbus, OH · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1068/",
+    "companyId": "1068",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer I",
+    "locationName": "Dayton, Ohio, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "• Built and maintained large-scale enterprise desktop applications using C#/.NET and WPF (XAML).\n• Developed UI features end-to-end, partnering with teammates and stakeholders to refine requirements and deliver polished experiences.\n• Implemented and enhanced data visualization/charting capabilities to improve clarity of complex data.\n• Created and refined custom WPF controls and reusable UI components to reduce duplication and speed up future development.\n• Improved centralized styling/theming (shared resource dictionaries, consistent design patterns) to ensure a cohesive UI across the application.\n• Worked within MVVM patterns and leveraged reactive programming techniques to keep UI state responsive and maintainable.\n• Performed debugging, troubleshooting, and performance tuning for UI rendering and data-heavy screens.\n• Collaborated through Git-based workflows, including peer code reviews, iterative PRs, and maintaining code quality in a long-lived codebase.",
+    "insights": "C#, .NET Framework and +10 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/163387/",
+     "name": "DCS Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "DCS Corp",
+    "location": "Dayton, Ohio, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/163387/",
+    "companyId": "163387",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Teaching Assistant",
+    "locationName": "Columbus, Ohio, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "employmentType": "Part-time",
+    "description": "• Served as Head Undergraduate Teaching Assistant for Data Structures & Algorithms at The Ohio State University.\n• Led and mentored 5 TAs, coordinating student support, lab coverage, and consistent instruction.\n• Delivered review sessions covering Big-O/time complexity, graphs, heaps, search trees, and dynamic programming.\n• Oversaw grading workflows and course operations for 100 students, ensuring fairness, consistency, and timely feedback.",
+    "insights": "Leadership, Data Structures and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3173/",
+     "name": "The Ohio State University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY"
+     }
+    },
+    "position": "Undergraduate Teaching Assistant",
+    "companyName": "The Ohio State University",
+    "location": "Columbus, Ohio, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3173/",
+    "companyId": "3173",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1068",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1068/",
+    "companyName": "JPMorganChase",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Columbus, OH · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "employmentType": "Full-time",
+    "description": "• Build and maintain an enterprise Node.js/TypeScript developer platform (CLI, project generators, shared libraries), peaking at ~1,700 monthly users with a 0.1% error rate.\n• Took over the team's AWS estate in my first year: 15 applications across 2 accounts and 2 regions on ECS, ALB/NLB, Route 53, Aurora PostgreSQL, Lambda, SQS, ElastiCache, KMS and Secrets Manager, deployed as infrastructure as code through Terraform and Spinnaker.\n• Re-architected multi-region DNS failover by moving Route 53 health checks to ECS Container Insights alarms; rolled out across both environments and regions with zero unhealthy minutes.\n• Restored a failed secondary region, staggered scheduled shutdowns to stop nightly failover blips, enabled Gremlin chaos testing, and caught config drift before it could roll back infrastructure.\n• Resolved a Lambda data-ingest outage to an on-prem IP change blocked at the AWS-to-on-prem firewall; added SQS dead-letter alarms and cost-allocation tagging for Bedrock-heavy AI workloads.\n• Designed OpenTelemetry tracing and code-emitted metrics across CLI commands, generators and CI/CD; added AI-agent detection showing 76% of runs are agent-driven.\n• Cut a critical CI Code Scan from 8-18 min to ~70s (85-94%), the worst static-analysis run from 16m41s to ~50s, and PR security scans from 151s to 10-13s.\n• Applied the same approach to a second monorepo: tests from ~96s to 9s and Code Scan from ~136s to 88s.\n• Diagnosed recurring CI failures as Kubernetes pod evictions, not memory exhaustion, and delivered bounded automatic recovery.\n• Sped up a compliance API from 25-35s to 1-3s per request with identical results.\n• Built AST codemods (PostCSS, Jest, Webpack, Storybook, Playwright, CommonJS-to-ESM) so teams upgrade with one command; shipped 9 Axios releases covering 11+ vulnerabilities.\n• Built 50+ AI agents and a deployment-orchestration app with least-privilege, approval-gated changes and multi-model review.",
+    "insights": "TypeScript, Node.js and +9 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JPMorganChase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg"
+     }
+    },
+    "position": "Software Engineer II",
+    "companyName": "JPMorganChase",
+    "location": "Columbus, OH · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1068/",
+    "companyId": "1068",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=-9qJge21tNJRANLsPMzjrcbEMaxs06L2H2IYFG7hrwg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=ZHtFx5g5zRuFkpKZfVYXgrMSYvGfCvY7_lZEIvjExGg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1796860800&v=beta&t=oKjsK7Qrk6box2UX2vRHNQv3IARcvk3sZQfAixUufq4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer I",
+    "locationName": "Dayton, Ohio, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "• Built and maintained large-scale enterprise desktop applications using C#/.NET and WPF (XAML).\n• Developed UI features end-to-end, partnering with teammates and stakeholders to refine requirements and deliver polished experiences.\n• Implemented and enhanced data visualization/charting capabilities to improve clarity of complex data.\n• Created and refined custom WPF controls and reusable UI components to reduce duplication and speed up future development.\n• Improved centralized styling/theming (shared resource dictionaries, consistent design patterns) to ensure a cohesive UI across the application.\n• Worked within MVVM patterns and leveraged reactive programming techniques to keep UI state responsive and maintainable.\n• Performed debugging, troubleshooting, and performance tuning for UI rendering and data-heavy screens.\n• Collaborated through Git-based workflows, including peer code reviews, iterative PRs, and maintaining code quality in a long-lived codebase.",
+    "insights": "C#, .NET Framework and +10 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/163387/",
+     "name": "DCS Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "DCS Corp",
+    "location": "Dayton, Ohio, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/163387/",
+    "companyId": "163387",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_400_400/company-logo_400_400/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=F0a5_D6Pzrpk06-5B-8ml4K2at0iKR6bfm0CLak-QS8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_200_200/company-logo_200_200/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=zlXhtA24Qr5_q370Rk7Ahpe7umWS8uDNEuyX_77RiZ4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFUy7M6yAJbGQ/company-logo_100_100/company-logo_100_100/0/1630466086076/dcs_corp_logo?e=1796860800&v=beta&t=pH6WGIC5eQaSt22WwbNPE55mlLuf90Vh11V8y94KOiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Teaching Assistant",
+    "locationName": "Columbus, Ohio, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "employmentType": "Part-time",
+    "description": "• Served as Head Undergraduate Teaching Assistant for Data Structures & Algorithms at The Ohio State University.\n• Led and mentored 5 TAs, coordinating student support, lab coverage, and consistent instruction.\n• Delivered review sessions covering Big-O/time complexity, graphs, heaps, search trees, and dynamic programming.\n• Oversaw grading workflows and course operations for 100 students, ensuring fairness, consistency, and timely feedback.",
+    "insights": "Leadership, Data Structures and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3173/",
+     "name": "The Ohio State University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY"
+     }
+    },
+    "position": "Undergraduate Teaching Assistant",
+    "companyName": "The Ohio State University",
+    "location": "Columbus, Ohio, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3173/",
+    "companyId": "3173",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3173/",
+    "schoolName": "The Ohio State University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3173/",
+    "schoolId": "3173",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_400_400/company-logo_400_400/0/1631327096366?e=1796860800&v=beta&t=xl3EYrK9T49BjEUlmThqGNZQS1XmiIjXrNOIPki0MdY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_200_200/company-logo_200_200/0/1631327096365?e=1796860800&v=beta&t=JG2Eqkj9u9VskMsCuI4M5w9025z69oTDHcZnsDfAhGE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEw433uw5btkQ/company-logo_100_100/company-logo_100_100/0/1631327096366?e=1796860800&v=beta&t=v4J1pqi6SaJAiy06Kz_YqR86Gr8iEbVD48DjtZvaKYU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3173/",
+    "schoolName": "The Ohio State University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3173/",
+    "schoolId": "3173",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688930280530?e=1796860800&v=beta&t=FjXAn5IGBOHGBifQXh71zhaTDvAvVpYkgbJGFPbbB1g",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688930280530?e=1796860800&v=beta&t=qc1L0mZRW2oKgJL4kdDuQsF0hUpdrgCVxzWOo4zN9bo",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688930280530?e=1796860800&v=beta&t=ocPooaxtxS0prVOfhATYasfzJWiNTuXWis0NrJmRvZ4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688930280530?e=1796860800&v=beta&t=ocPooaxtxS0prVOfhATYasfzJWiNTuXWis0NrJmRvZ4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688930280530?e=1796860800&v=beta&t=qc1L0mZRW2oKgJL4kdDuQsF0hUpdrgCVxzWOo4zN9bo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688930280530?e=1796860800&v=beta&t=FjXAn5IGBOHGBifQXh71zhaTDvAvVpYkgbJGFPbbB1g",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688930280530?e=1796860800&v=beta&t=FjXAn5IGBOHGBifQXh71zhaTDvAvVpYkgbJGFPbbB1g",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688930280530?e=1796860800&v=beta&t=qc1L0mZRW2oKgJL4kdDuQsF0hUpdrgCVxzWOo4zN9bo",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688930280530?e=1796860800&v=beta&t=ocPooaxtxS0prVOfhATYasfzJWiNTuXWis0NrJmRvZ4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1688930280530?e=1796860800&v=beta&t=KqrHv6po7VaXrIGyMdPOhlqyf4I8ovtEBpdDGV3UHbU",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1688930280530?e=1796860800&v=beta&t=ocPooaxtxS0prVOfhATYasfzJWiNTuXWis0NrJmRvZ4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1688930280530?e=1796860800&v=beta&t=qc1L0mZRW2oKgJL4kdDuQsF0hUpdrgCVxzWOo4zN9bo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHMc3ki5msUtg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1688930280530?e=1796860800&v=beta&t=FjXAn5IGBOHGBifQXh71zhaTDvAvVpYkgbJGFPbbB1g",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1688930840664?e=1796860800&v=beta&t=Fx0ikRplbmSKwTVbzw2aAkiLRzI1dinHgwJ0mz-O5aE",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688930840664?e=1796860800&v=beta&t=axAT1W2BJczUMFYQV_DJhy24NGxnfoDjTraaUVT07hU",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688930840664?e=1796860800&v=beta&t=axAT1W2BJczUMFYQV_DJhy24NGxnfoDjTraaUVT07hU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1688930840664?e=1796860800&v=beta&t=axAT1W2BJczUMFYQV_DJhy24NGxnfoDjTraaUVT07hU",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQGjOSFGJBBWvg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1688930840664?e=1796860800&v=beta&t=Fx0ikRplbmSKwTVbzw2aAkiLRzI1dinHgwJ0mz-O5aE",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ankit-patel-285153274"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T16:43:42.353Z",
+ "foundBy": null
+}

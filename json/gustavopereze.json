@@ -1,0 +1,2009 @@
+{
+ "slug": "gustavopereze",
+ "inputUrl": "https://www.linkedin.com/in/gustavopereze",
+ "fetchedAt": "2026-10-31T03:32:43.178Z",
+ "id": "6ae5615b4f8d6cb6ddd5af3f",
+ "url": "https://www.linkedin.com/in/gustavopereze",
+ "profile": {
+  "created": 1336619347202,
+  "trackingId": "2jiGOT7nRgWUVqGF1OCB9A==",
+  "firstName": "Gustavo",
+  "lastName": "Perez Espinoza",
+  "pronoun": null,
+  "versionTag": "2684164003",
+  "headline": "Principal Software Engineer",
+  "publicIdentifier": "gustavopereze",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 6,
+   "day": 18,
+   "year": null
+  },
+  "id": "183559162",
+  "profileId": "ACoAAArw4_oBGBiWNGV4MuGd-gG4vd34mjBPQDg",
+  "pictureUrl": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_200_200/B4EZwQw6NyKwAY-/0/1769807785404?e=1795046400&v=beta&t=70j5M3OABNBLsNK8_XH32-P87PgC17h92BQfdXOmMS8",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_100_100/B4EZwQw6NyKwAc-/0/1769807785404?e=1795046400&v=beta&t=C6zSYimY8qvWZeSWioS2sTjp7ovueqPVx49PGzLcA8A",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_400_400/B4EZwQw6NyKwAg-/0/1769807785404?e=1795046400&v=beta&t=d_NYQmV1KhSRHzhQvUvPRJWN4omlHS1c4qItF-aOeN4"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516517668865?e=1795046400&v=beta&t=2rjc6UYMFU4nzr7N-ALkStVvGoj_Eox3DJWlSGCWPv8",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516517668772?e=1795046400&v=beta&t=ITjBEHNbnTEyJO_TPGqXXau6-02nz8sYl8P7qGh0I6Y"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Principal Software Engineer",
+  "summary": "Software engineer with 15 years across industrial IoT data engineering, enterprise RPA, full-stack .NET, and backend Go microservices. Now Principal Software Engineer at a financial technology company, working on event-driven service architecture, production reliability, and the AI tooling layer my team builds on.\n\nI've delivered across the full stack — SQL Server schema design and query optimization on industrial IoT datasets, ETL pipelines, RPA automation in Blue Prism, UiPath and Automation Anywhere, and today NATS JetStream event pipelines with REST and GraphQL services on Kubernetes serving customer-facing applications. Most recently I led an event-driven pipeline across three Go microservices: a real-time webhook consumer processing external financial events, a REST service exposing persisted state, and a GraphQL layer aggregating several backends into one customer-facing API.\n\nMuch of my current value sits before and after the code. Before: auditing multi-service designs against the actual repositories and production data — 15+ work items and 8 specifications in one release — and correcting diverged requirements before three teams start building on them. After: root-cause investigation on the problems nobody has explained yet. Evidence-first diagnosis across logs, metrics, live databases, container inspection and commit history — finding a race condition between two services, a state-wipe regression on a status transition, and a concurrency hazard that affected seven handlers, not the two reported. I hold my own conclusions to that standard too, and have retracted and re-derived my own incident numbers.\n\nThat same discipline carries into application security, where I've identified unauthenticated data-exposure paths on internal KYC/AML tooling — including a rendering gap that had survived an earlier remediation for two years — and turned each into a scoped, phased remediation plan rather than a ticket.\n\nI design and operationalize AI-integrated engineering workflows: MCP connectors that give agents governed access to logs, observability, data stores and source control; reusable agent skills that encode verified team procedures instead of generic prompts; and multi-round validation protocols that catch implementation errors before production. The aim is institutional knowledge that outlives any one person's memory — onboarding guides, decision logs and runbooks that let distributed teams move fast in the right direction.\n\nGo · C#/.NET · Node/NestJS · TypeScript · GraphQL · NATS · MongoDB · PostgreSQL · SQL Server · DynamoDB · AWS · Kubernetes",
+  "positions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Estados Unidos · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "description": "Principal Software Engineer at TradeStation, designing and delivering backend microservices and data pipelines for financial technology products.\nLed the end-to-end implementation of an event-driven data pipeline across three interconnected Go microservices — a real-time webhook consumer processing external financial events via NATS JetStream, a REST API service exposing MongoDB-persisted state to downstream consumers, and a GraphQL resolver layer aggregating multiple backend services into a unified data API for a customer-facing application. Resolved complex messaging infrastructure challenges including WorkQueue exclusive-consumer conflicts through NATS stream sourcing and explicit stream binding to bypass auto-discovery routing failures in Kubernetes staging.\nDrove architecture governance across a multi-service release — auditing 15+ work items and 8 technical specifications, correcting diverged requirements, and realigning documentation to confirmed designs before development began across three teams.\nDesigned and operationalized an AI-integrated engineering workflow combining structured prompt engineering, multi-round validation protocols, and CLI-based code generation — catching critical implementation errors before production and accelerating team adoption of AI tooling.\nDelivered across Go, Node.js/NestJS, C#/.NET Core, GraphQL, MongoDB, PostgreSQL, DynamoDB, AWS, and Kubernetes. Focused on backward-compatible schema design, graceful degradation patterns, and end-to-end staging validation using pod inspection, event stream monitoring, and centralized log correlation.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · AI-Assisted Software Development · Enterprise Architecture · AI Agents · Communication · Transact-SQL (T-SQL) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Model Context Protocol (MCP) · Generative AI · Large Language Models (LLM) · Applied AI · Amazon SQS · Technical Leadership · Prompt Engineering · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Agentic AI · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/43512/",
+     "name": "TradeStation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk"
+     }
+    }
+   },
+   {
+    "title": "Senior Consultant and Developer",
+    "locationName": "Escazu, San Jose, Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Senior Consultant and Software Engineer at EY, delivering end-to-end data engineering solutions and intelligent automation for industrial manufacturing and enterprise clients.\nArchitected and implemented a complete IoT-to-dashboard data pipeline — ingesting real-time sensor and production data from IoT devices and OPC Servers, processing and transforming it through ETL pipelines built in C#/.NET Core, persisting intermediate data in MongoDB, and loading structured analytical data into Azure SQL Server for executive reporting. The resulting dashboards gave company CEOs visibility into production line performance, material consumption per production line, and predictive maintenance windows — enabling data-driven decisions that prevented unplanned production line shutdowns.\nOwned the full data engineering stack across this pipeline: designed and optimized Azure SQL Server schemas, authored complex T-SQL including recursive CTEs and advanced stored procedures, built user-defined functions and non-clustered indexes, and performed deep execution plan analysis to tune query performance on high-volume industrial datasets. Designed and executed SSIS/Integration Services packages for data migration and transformation across heterogeneous platforms.\nDeveloped RESTful API services in TypeScript and C#/.NET Core with asynchronous request handling, and built ETL workflows for large-scale financial and operational data transformation. Designed, developed, and deployed Robotic Process Automation solutions across Blue Prism, UiPath, and Automation Anywhere — automating intercommunication between enterprise systems through XML and collection serialization.\nStack: C#/.NET Core, TypeScript, SQL Server, Azure, MongoDB, SSIS, OPC Server, Blue Prism, UiPath, Automation Anywhere, Postman, Visual Studio, GitHub.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · Enterprise Architecture · Communication · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Technical Leadership · Azure Data Lake · Big Data · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1073/",
+     "name": "EY",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Senior Software Engineer focused on backend systems development, database engineering, and API integration across enterprise platforms.\nDesigned and delivered backend systems in C#/.NET including MVC web applications and ASP.NET Web API services consumed by mobile clients, handling complex business logic with an N-layer architecture, LINQ/PLINQ, lambda expressions, and XML/JSON serialization for cross-system data exchange.\nDeveloped and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types. Conducted deep execution plan analysis to diagnose and resolve performance bottlenecks on high-volume datasets. Built communication interface layers in C# for structured data exchange between disparate enterprise systems using XML frame serialization.\nDelivered full testing cycles across all projects: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, Bootstrap, CSS, HTML, IIS, TFS, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Escazu",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Software Engineer focused on backend service development, database engineering, and enterprise system integration.\nDesigned and implemented WCF (SOAP) services in C#/.NET consumed from the model layer of MVC applications, handling structured data exchange between enterprise systems through XML frame serialization and deserialization. Built ASP.NET Web API services and developed complex stored procedures, user-defined functions, and performance-tuned SQL Server components. Conducted execution plan analysis to identify and resolve database bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# incorporating XML/JSON serialization, encryption and decryption of structured data before transmission to external services, and asynchronous request handling. Delivered advanced Excel automation with complex custom functions to support business reporting workflows.\nExecuted full testing cycles across all deliverables: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, WCF/SOAP, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, AngularJS, Bootstrap, CSS, HTML, IIS, TortoiseSVN, JIRA, SoapUI, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/68039988/",
+     "name": "Apptividad",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Software Engineer focused on backend systems development, service integration, and database engineering across enterprise platforms.\nDesigned and developed WCF (SOAP) services in C#/.NET consumed from the model layer of MVC web applications, handling structured data exchange between enterprise systems through XML/JSON serialization. Built and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types — conducting execution plan analysis to identify and resolve performance bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# for cross-system integration and contributed to full MVC web application delivery across the complete development lifecycle: requirements analysis, design, implementation, and testing. Executed full testing cycles including unit, integration, regression, and end-to-end process flow validation.\nStack: C#/.NET, WCF/SOAP, ASP.NET MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, SQL Server Integration Services, SQL Server Reporting Services, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica,Cartago, Centro",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Software Engineer focused on full-cycle application development, database engineering, and data pipeline delivery across enterprise systems.\nDesigned and developed complete MVC web applications and WCF (SOAP) service layers in C#/.NET, handling cross-system communication through XML/JSON serialization and N-layer architecture. Built and consumed WCF services from MVC model layers, and contributed to ASP.NET frontend development including AJAX, JavaScript, jQuery, and Razor views.\nTook full ownership of database engineering responsibilities: designed table schemas, defined indexing strategies, and authored complex T-SQL including stored procedures, recursive CTEs, and performance-optimized queries. Administered SQL Server databases across multiple versions (2000, 2005, 2008 R2) — performing execution plan analysis, statistics cleanup, index rebuilds, log maintenance, and stress testing to ensure reliability under production workloads.\nDesigned, developed, and executed DTSX/SSIS packages for data migration and transformation between heterogeneous database systems, ensuring data integrity across complex ETL workflows. Produced full UML documentation including entity-relationship, class, and sequence diagrams, and created interactive prototypes and wireframes to validate requirements before development began.\nExecuted comprehensive testing cycles: unit, integration, regression, process flow, and load testing using dedicated stress testing tooling.\nStack: C#/.NET, ASP.NET MVC, WCF/SOAP, SQL Server (2000–2008 R2), T-SQL, SSIS/DTSX, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, Visual Studio, Visio, Visual Paradigm, Balsamiq.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2239030/",
+     "name": "Dinamica Consultores Internacional S.A.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "COSTA RICA, SAN JOSE, ESCAZU, PLAZA ROBLE",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Software Engineer focused on data warehouse development, business intelligence reporting, and cross-platform database integration at one of Central America's largest financial institutions.\nDesigned and developed stored procedures for querying an enterprise Data Warehouse and built small internal applications in Java that connected to multiple database platforms — extracting, transforming, and presenting data in structured documents (PDF and Excel) for business reporting workflows. Developed SQL Server Reporting Services reports for Data Warehouse query visualization and analysis, and created advanced Excel macros and complex custom functions to automate data collection and presentation.\nWorked directly with legacy AS400 platform data, collecting and integrating information into modern reporting and database environments. Attended Data Warehouse query optimization training to deepen expertise in high-volume data access patterns and performance tuning.\nStack: Java, SQL Server 2012, SQL Server Reporting Services 2012, T-SQL, Excel Advanced, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/253356/",
+     "name": "BAC|Credomatic Network",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sabana Norte, San Jose, Costa Rica , Continuo al edificio de MasxMenos",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Software Engineer contributing to enterprise software development at Costa Rica's national electricity and telecommunications institution.\nParticipated in the full software development lifecycle — from requirements analysis and system design through database definition and technical documentation. Produced complete UML design artifacts including entity-relationship diagrams, use case diagrams, class diagrams, sequence diagrams, and interactive wireframe prototypes to validate requirements and guide development.\nDesigned and defined MySQL database schemas and contributed to technical documentation across all project phases.\nStack: MySQL, Visual Paradigm, Balsamiq Mockups, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · Technical Engineering · SQL · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2118087/",
+     "name": "Instituto Costarricense de Electricidad",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_200_200/B56Z7bKRZ6IoAI-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zz9PvM8yQhtZE0ZUVEc9rkwKMQ8zRayR_96-4b_aaCQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_100_100/B56Z7bKRZ6IoAM-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=5JwmonFIHZoW3BkFlXRzl4TFGHoTmCOnojKZCPO3h7Y"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20493629/",
+    "schoolName": "Universidad de Costa Rica UCR",
+    "degreeName": "Computer Science",
+    "fieldOfStudy": "Computer Engineer",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2012
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_400_400/B4DZ8qDvJNHgAU-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=pdjYl3NBYVVwv1gVENFQ2EXlDak0_ysYwyiSp-had2o",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_200_200/B4DZ8qDvJNHgAE-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=XUpr1TyP65bkl0tR0bomazDC8dBg1ucOdAdYmYym0bg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_100_100/B4DZ8qDvJNHgAI-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=LbGX3ThGYBTtmEVCJJhxo8jFNaflF2S1uuKhxQwJMuA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15091767/",
+    "schoolName": "Universidad Fidélitas",
+    "degreeName": "Lic. Computer Science",
+    "fieldOfStudy": "Computer Engineer",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Alterysx Designer Essentials",
+    "authority": "Danta Analytics",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Danta Analytics",
+    "title": "Alterysx Designer Essentials",
+    "issuedBy": "Danta Analytics",
+    "issuedByLogo": null
+   },
+   {
+    "name": "EY Robotic process automation - Silver",
+    "authority": "EY",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "EY",
+    "title": "EY Robotic process automation - Silver",
+    "issuedBy": "EY",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Angular JavaScript"
+   },
+   {
+    "name": "Fundamentos de T-SQL usando SQL SERVER 2012"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Español",
+    "proficiency": ""
+   },
+   {
+    "name": "Inglés B2",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Kuponera Kristal (Back End)",
+    "description": "Sistema de gestion de Kupones tanto para sistemas internos como para la App movil Kakeo / Coupon management system who is back end of a internal systems and an App called it Kakeo",
+    "dateRange": {},
+    "associatedWith": "Oct 2016 - Apr 2017"
+   },
+   {
+    "title": "Kristal",
+    "description": "Sitio Transaccional del nuevo producto del BCR Banca Kristal / Transactional site of the new BCR product \"Banca Kristal\"",
+    "dateRange": {},
+    "associatedWith": "Jun 2015 - Jun 2016"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [
+   {
+    "name": "Colegio de Profesionales en Informática y Computación",
+    "position": "Jun 2015 - Present",
+    "dateRange": {}
+   }
+  ],
+  "volunteerCauses": [
+   "Arts and Culture",
+   "Education",
+   "Environment",
+   "Science and Technology"
+  ],
+  "companyName": "TradeStation",
+  "companyPublicId": "tradestation",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/tradestation/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:43512",
+   "name": "TradeStation",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQEMjXHTRACHvw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_"
+    }
+   },
+   "universalName": "tradestation",
+   "url": "https://www.linkedin.com/company/tradestation/",
+   "slug": "tradestation",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+   "specialties": []
+  },
+  "followerCount": 1565,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1570,
+  "skills": [
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Solution Design",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Software Delivery",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Software",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Solution Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "AI Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Local LLMs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ollama",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI-Assisted Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Applied AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Generative AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Microsoft Copilot",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Solution Design",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Enterprise Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Solution Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "Technical Engineering",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "Extreme Programming",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Amazon SQS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Pipelines",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Data Infrastructure",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "T-SQL Stored Procedures",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Development",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Enterprise Software",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Azure Data Lake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Core",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL Server Reporting Services (SSRS)",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "ASP.NET Core",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "Transact-SQL (T-SQL)",
+    "endorsements": 0,
+    "experiences": 8
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET MVC",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "HTML 5",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "jQuery",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Local LLMs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Generative AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Copilot",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": 2
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/gustavopereze",
+  "linkedinUrl": "https://www.linkedin.com/in/gustavopereze",
+  "profileUrl": "https://www.linkedin.com/in/gustavopereze",
+  "verified": false,
+  "registeredAt": "2012-05-10T03:09:07.202Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "Software engineer with 15 years across industrial IoT data engineering, enterprise RPA, full-stack .NET, and backend Go microservices. Now Principal Software Engineer at a financial technology company, working on event-driven service architecture, production reliability, and the AI tooling layer my team builds on.\n\nI've delivered across the full stack — SQL Server schema design and query optimization on industrial IoT datasets, ETL pipelines, RPA automation in Blue Prism, UiPath and Automation Anywhere, and today NATS JetStream event pipelines with REST and GraphQL services on Kubernetes serving customer-facing applications. Most recently I led an event-driven pipeline across three Go microservices: a real-time webhook consumer processing external financial events, a REST service exposing persisted state, and a GraphQL layer aggregating several backends into one customer-facing API.\n\nMuch of my current value sits before and after the code. Before: auditing multi-service designs against the actual repositories and production data — 15+ work items and 8 specifications in one release — and correcting diverged requirements before three teams start building on them. After: root-cause investigation on the problems nobody has explained yet. Evidence-first diagnosis across logs, metrics, live databases, container inspection and commit history — finding a race condition between two services, a state-wipe regression on a status transition, and a concurrency hazard that affected seven handlers, not the two reported. I hold my own conclusions to that standard too, and have retracted and re-derived my own incident numbers.\n\nThat same discipline carries into application security, where I've identified unauthenticated data-exposure paths on internal KYC/AML tooling — including a rendering gap that had survived an earlier remediation for two years — and turned each into a scoped, phased remediation plan rather than a ticket.\n\nI design and operationalize AI-integrated engineering workflows: MCP connectors that give agents governed access to logs, observability, data stores and source control; reusable agent skills that encode verified team procedures instead of generic prompts; and multi-round validation protocols that catch implementation errors before production. The aim is institutional knowledge that outlives any one person's memory — onboarding guides, decision logs and runbooks that let distributed teams move fast in the right direction.\n\nGo · C#/.NET · Node/NestJS · TypeScript · GraphQL · NATS · MongoDB · PostgreSQL · SQL Server · DynamoDB · AWS · Kubernetes",
+  "currentTitle": "Principal Software Engineer",
+  "allTitles": [
+   "Principal Software Engineer",
+   "Senior Consultant and Developer",
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Estados Unidos · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "description": "Principal Software Engineer at TradeStation, designing and delivering backend microservices and data pipelines for financial technology products.\nLed the end-to-end implementation of an event-driven data pipeline across three interconnected Go microservices — a real-time webhook consumer processing external financial events via NATS JetStream, a REST API service exposing MongoDB-persisted state to downstream consumers, and a GraphQL resolver layer aggregating multiple backend services into a unified data API for a customer-facing application. Resolved complex messaging infrastructure challenges including WorkQueue exclusive-consumer conflicts through NATS stream sourcing and explicit stream binding to bypass auto-discovery routing failures in Kubernetes staging.\nDrove architecture governance across a multi-service release — auditing 15+ work items and 8 technical specifications, correcting diverged requirements, and realigning documentation to confirmed designs before development began across three teams.\nDesigned and operationalized an AI-integrated engineering workflow combining structured prompt engineering, multi-round validation protocols, and CLI-based code generation — catching critical implementation errors before production and accelerating team adoption of AI tooling.\nDelivered across Go, Node.js/NestJS, C#/.NET Core, GraphQL, MongoDB, PostgreSQL, DynamoDB, AWS, and Kubernetes. Focused on backward-compatible schema design, graceful degradation patterns, and end-to-end staging validation using pod inspection, event stream monitoring, and centralized log correlation.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · AI-Assisted Software Development · Enterprise Architecture · AI Agents · Communication · Transact-SQL (T-SQL) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Model Context Protocol (MCP) · Generative AI · Large Language Models (LLM) · Applied AI · Amazon SQS · Technical Leadership · Prompt Engineering · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Agentic AI · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/43512/",
+     "name": "TradeStation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk"
+     }
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "TradeStation",
+    "location": "Estados Unidos · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/43512/",
+    "companyId": "43512",
+    "duration": "5 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Consultant and Developer",
+    "locationName": "Escazu, San Jose, Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Senior Consultant and Software Engineer at EY, delivering end-to-end data engineering solutions and intelligent automation for industrial manufacturing and enterprise clients.\nArchitected and implemented a complete IoT-to-dashboard data pipeline — ingesting real-time sensor and production data from IoT devices and OPC Servers, processing and transforming it through ETL pipelines built in C#/.NET Core, persisting intermediate data in MongoDB, and loading structured analytical data into Azure SQL Server for executive reporting. The resulting dashboards gave company CEOs visibility into production line performance, material consumption per production line, and predictive maintenance windows — enabling data-driven decisions that prevented unplanned production line shutdowns.\nOwned the full data engineering stack across this pipeline: designed and optimized Azure SQL Server schemas, authored complex T-SQL including recursive CTEs and advanced stored procedures, built user-defined functions and non-clustered indexes, and performed deep execution plan analysis to tune query performance on high-volume industrial datasets. Designed and executed SSIS/Integration Services packages for data migration and transformation across heterogeneous platforms.\nDeveloped RESTful API services in TypeScript and C#/.NET Core with asynchronous request handling, and built ETL workflows for large-scale financial and operational data transformation. Designed, developed, and deployed Robotic Process Automation solutions across Blue Prism, UiPath, and Automation Anywhere — automating intercommunication between enterprise systems through XML and collection serialization.\nStack: C#/.NET Core, TypeScript, SQL Server, Azure, MongoDB, SSIS, OPC Server, Blue Prism, UiPath, Automation Anywhere, Postman, Visual Studio, GitHub.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · Enterprise Architecture · Communication · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Technical Leadership · Azure Data Lake · Big Data · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1073/",
+     "name": "EY",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8"
+     }
+    },
+    "position": "Senior Consultant and Developer",
+    "companyName": "EY",
+    "location": "Escazu, San Jose, Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1073/",
+    "companyId": "1073",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Senior Software Engineer focused on backend systems development, database engineering, and API integration across enterprise platforms.\nDesigned and delivered backend systems in C#/.NET including MVC web applications and ASP.NET Web API services consumed by mobile clients, handling complex business logic with an N-layer architecture, LINQ/PLINQ, lambda expressions, and XML/JSON serialization for cross-system data exchange.\nDeveloped and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types. Conducted deep execution plan analysis to diagnose and resolve performance bottlenecks on high-volume datasets. Built communication interface layers in C# for structured data exchange between disparate enterprise systems using XML frame serialization.\nDelivered full testing cycles across all projects: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, Bootstrap, CSS, HTML, IIS, TFS, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Novacomp",
+    "location": "Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/474342/",
+    "companyId": "474342",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Escazu",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Software Engineer focused on backend service development, database engineering, and enterprise system integration.\nDesigned and implemented WCF (SOAP) services in C#/.NET consumed from the model layer of MVC applications, handling structured data exchange between enterprise systems through XML frame serialization and deserialization. Built ASP.NET Web API services and developed complex stored procedures, user-defined functions, and performance-tuned SQL Server components. Conducted execution plan analysis to identify and resolve database bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# incorporating XML/JSON serialization, encryption and decryption of structured data before transmission to external services, and asynchronous request handling. Delivered advanced Excel automation with complex custom functions to support business reporting workflows.\nExecuted full testing cycles across all deliverables: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, WCF/SOAP, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, AngularJS, Bootstrap, CSS, HTML, IIS, TortoiseSVN, JIRA, SoapUI, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/68039988/",
+     "name": "Apptividad",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Apptividad",
+    "location": "Escazu",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68039988/",
+    "companyId": "68039988",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Software Engineer focused on backend systems development, service integration, and database engineering across enterprise platforms.\nDesigned and developed WCF (SOAP) services in C#/.NET consumed from the model layer of MVC web applications, handling structured data exchange between enterprise systems through XML/JSON serialization. Built and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types — conducting execution plan analysis to identify and resolve performance bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# for cross-system integration and contributed to full MVC web application delivery across the complete development lifecycle: requirements analysis, design, implementation, and testing. Executed full testing cycles including unit, integration, regression, and end-to-end process flow validation.\nStack: C#/.NET, WCF/SOAP, ASP.NET MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, SQL Server Integration Services, SQL Server Reporting Services, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Novacomp",
+    "location": "Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/474342/",
+    "companyId": "474342",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica,Cartago, Centro",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Software Engineer focused on full-cycle application development, database engineering, and data pipeline delivery across enterprise systems.\nDesigned and developed complete MVC web applications and WCF (SOAP) service layers in C#/.NET, handling cross-system communication through XML/JSON serialization and N-layer architecture. Built and consumed WCF services from MVC model layers, and contributed to ASP.NET frontend development including AJAX, JavaScript, jQuery, and Razor views.\nTook full ownership of database engineering responsibilities: designed table schemas, defined indexing strategies, and authored complex T-SQL including stored procedures, recursive CTEs, and performance-optimized queries. Administered SQL Server databases across multiple versions (2000, 2005, 2008 R2) — performing execution plan analysis, statistics cleanup, index rebuilds, log maintenance, and stress testing to ensure reliability under production workloads.\nDesigned, developed, and executed DTSX/SSIS packages for data migration and transformation between heterogeneous database systems, ensuring data integrity across complex ETL workflows. Produced full UML documentation including entity-relationship, class, and sequence diagrams, and created interactive prototypes and wireframes to validate requirements before development began.\nExecuted comprehensive testing cycles: unit, integration, regression, process flow, and load testing using dedicated stress testing tooling.\nStack: C#/.NET, ASP.NET MVC, WCF/SOAP, SQL Server (2000–2008 R2), T-SQL, SSIS/DTSX, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, Visual Studio, Visio, Visual Paradigm, Balsamiq.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2239030/",
+     "name": "Dinamica Consultores Internacional S.A.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Dinamica Consultores Internacional S.A.",
+    "location": "Costa Rica,Cartago, Centro",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2239030/",
+    "companyId": "2239030",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "COSTA RICA, SAN JOSE, ESCAZU, PLAZA ROBLE",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Software Engineer focused on data warehouse development, business intelligence reporting, and cross-platform database integration at one of Central America's largest financial institutions.\nDesigned and developed stored procedures for querying an enterprise Data Warehouse and built small internal applications in Java that connected to multiple database platforms — extracting, transforming, and presenting data in structured documents (PDF and Excel) for business reporting workflows. Developed SQL Server Reporting Services reports for Data Warehouse query visualization and analysis, and created advanced Excel macros and complex custom functions to automate data collection and presentation.\nWorked directly with legacy AS400 platform data, collecting and integrating information into modern reporting and database environments. Attended Data Warehouse query optimization training to deepen expertise in high-volume data access patterns and performance tuning.\nStack: Java, SQL Server 2012, SQL Server Reporting Services 2012, T-SQL, Excel Advanced, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/253356/",
+     "name": "BAC|Credomatic Network",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "BAC|Credomatic Network",
+    "location": "COSTA RICA, SAN JOSE, ESCAZU, PLAZA ROBLE",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/253356/",
+    "companyId": "253356",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sabana Norte, San Jose, Costa Rica , Continuo al edificio de MasxMenos",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Software Engineer contributing to enterprise software development at Costa Rica's national electricity and telecommunications institution.\nParticipated in the full software development lifecycle — from requirements analysis and system design through database definition and technical documentation. Produced complete UML design artifacts including entity-relationship diagrams, use case diagrams, class diagrams, sequence diagrams, and interactive wireframe prototypes to validate requirements and guide development.\nDesigned and defined MySQL database schemas and contributed to technical documentation across all project phases.\nStack: MySQL, Visual Paradigm, Balsamiq Mockups, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · Technical Engineering · SQL · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2118087/",
+     "name": "Instituto Costarricense de Electricidad",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Instituto Costarricense de Electricidad",
+    "location": "Sabana Norte, San Jose, Costa Rica , Continuo al edificio de MasxMenos",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2118087/",
+    "companyId": "2118087",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "43512",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/43512/",
+    "companyName": "TradeStation",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Estados Unidos · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "description": "Principal Software Engineer at TradeStation, designing and delivering backend microservices and data pipelines for financial technology products.\nLed the end-to-end implementation of an event-driven data pipeline across three interconnected Go microservices — a real-time webhook consumer processing external financial events via NATS JetStream, a REST API service exposing MongoDB-persisted state to downstream consumers, and a GraphQL resolver layer aggregating multiple backend services into a unified data API for a customer-facing application. Resolved complex messaging infrastructure challenges including WorkQueue exclusive-consumer conflicts through NATS stream sourcing and explicit stream binding to bypass auto-discovery routing failures in Kubernetes staging.\nDrove architecture governance across a multi-service release — auditing 15+ work items and 8 technical specifications, correcting diverged requirements, and realigning documentation to confirmed designs before development began across three teams.\nDesigned and operationalized an AI-integrated engineering workflow combining structured prompt engineering, multi-round validation protocols, and CLI-based code generation — catching critical implementation errors before production and accelerating team adoption of AI tooling.\nDelivered across Go, Node.js/NestJS, C#/.NET Core, GraphQL, MongoDB, PostgreSQL, DynamoDB, AWS, and Kubernetes. Focused on backward-compatible schema design, graceful degradation patterns, and end-to-end staging validation using pod inspection, event stream monitoring, and centralized log correlation.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · AI-Assisted Software Development · Enterprise Architecture · AI Agents · Communication · Transact-SQL (T-SQL) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Model Context Protocol (MCP) · Generative AI · Large Language Models (LLM) · Applied AI · Amazon SQS · Technical Leadership · Prompt Engineering · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Agentic AI · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/43512/",
+     "name": "TradeStation",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk"
+     }
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "TradeStation",
+    "location": "Estados Unidos · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/43512/",
+    "companyId": "43512",
+    "duration": "5 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_400_400/B4EZxJcIu1HkAY-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=L01-3Xr9eC7lUt3ap3rW5vx90v1T6xy7zmHJs926p9A",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_200_200/B4EZxJcIu1HkAI-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=EpwHafRYJUQO6dkLMhtU0xFliReelj-oOEm_3QIRCvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEMjXHTRACHvw/company-logo_100_100/B4EZxJcIu1HkAQ-/0/1770758638898/tradestation_logo?e=1795046400&v=beta&t=uwynp8uhAZ185qLY17_I5cXtfzE17S6Ard9-x64WpKc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Consultant and Developer",
+    "locationName": "Escazu, San Jose, Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Senior Consultant and Software Engineer at EY, delivering end-to-end data engineering solutions and intelligent automation for industrial manufacturing and enterprise clients.\nArchitected and implemented a complete IoT-to-dashboard data pipeline — ingesting real-time sensor and production data from IoT devices and OPC Servers, processing and transforming it through ETL pipelines built in C#/.NET Core, persisting intermediate data in MongoDB, and loading structured analytical data into Azure SQL Server for executive reporting. The resulting dashboards gave company CEOs visibility into production line performance, material consumption per production line, and predictive maintenance windows — enabling data-driven decisions that prevented unplanned production line shutdowns.\nOwned the full data engineering stack across this pipeline: designed and optimized Azure SQL Server schemas, authored complex T-SQL including recursive CTEs and advanced stored procedures, built user-defined functions and non-clustered indexes, and performed deep execution plan analysis to tune query performance on high-volume industrial datasets. Designed and executed SSIS/Integration Services packages for data migration and transformation across heterogeneous platforms.\nDeveloped RESTful API services in TypeScript and C#/.NET Core with asynchronous request handling, and built ETL workflows for large-scale financial and operational data transformation. Designed, developed, and deployed Robotic Process Automation solutions across Blue Prism, UiPath, and Automation Anywhere — automating intercommunication between enterprise systems through XML and collection serialization.\nStack: C#/.NET Core, TypeScript, SQL Server, Azure, MongoDB, SSIS, OPC Server, Blue Prism, UiPath, Automation Anywhere, Postman, Visual Studio, GitHub.",
+    "insights": "Skills: Data Engineering · Data Pipelines · Debugging · Enterprise Architecture · Communication · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Solution Architecture · Artificial Intelligence (AI) · Enterprise Software · Technical Engineering · Technical Leadership · Azure Data Lake · Big Data · Microsoft Copilot · SQL · API Development · Enterprise Software Delivery · .NET Core · Anthropic Claude · Data Infrastructure · Enterprise Solution Design · Object-Oriented Programming (OOP) · Cloud Computing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1073/",
+     "name": "EY",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8"
+     }
+    },
+    "position": "Senior Consultant and Developer",
+    "companyName": "EY",
+    "location": "Escazu, San Jose, Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1073/",
+    "companyId": "1073",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_400_400/company-logo_400_400/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=p_RqMw-5MDhEJtmRGJ6juGFZQoE4BH9QL-PulYnclt8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_200_200/company-logo_200_200/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=BAwbG4Hsj9bG9hzxy4M31NOpPcFcLvgj_M6PkGuelvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQGpRhkpxp5A9A/company-logo_100_100/company-logo_100_100/0/1630570672166/ernstandyoung_logo?e=1795046400&v=beta&t=VJYBcCGAyavTNhoC9MqYBa3PM5tjR_orI30I_Xs0D6E",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "Senior Software Engineer focused on backend systems development, database engineering, and API integration across enterprise platforms.\nDesigned and delivered backend systems in C#/.NET including MVC web applications and ASP.NET Web API services consumed by mobile clients, handling complex business logic with an N-layer architecture, LINQ/PLINQ, lambda expressions, and XML/JSON serialization for cross-system data exchange.\nDeveloped and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types. Conducted deep execution plan analysis to diagnose and resolve performance bottlenecks on high-volume datasets. Built communication interface layers in C# for structured data exchange between disparate enterprise systems using XML frame serialization.\nDelivered full testing cycles across all projects: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, Bootstrap, CSS, HTML, IIS, TFS, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Novacomp",
+    "location": "Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/474342/",
+    "companyId": "474342",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Escazu",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Software Engineer focused on backend service development, database engineering, and enterprise system integration.\nDesigned and implemented WCF (SOAP) services in C#/.NET consumed from the model layer of MVC applications, handling structured data exchange between enterprise systems through XML frame serialization and deserialization. Built ASP.NET Web API services and developed complex stored procedures, user-defined functions, and performance-tuned SQL Server components. Conducted execution plan analysis to identify and resolve database bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# incorporating XML/JSON serialization, encryption and decryption of structured data before transmission to external services, and asynchronous request handling. Delivered advanced Excel automation with complex custom functions to support business reporting workflows.\nExecuted full testing cycles across all deliverables: unit testing, integration testing, regression testing, and end-to-end process flow validation. Participated in requirements analysis and contributed to technical design from specification through delivery.\nStack: C#/.NET, ASP.NET Web API, WCF/SOAP, MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, AngularJS, Bootstrap, CSS, HTML, IIS, TortoiseSVN, JIRA, SoapUI, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Communication · Transact-SQL (T-SQL) · Technical Engineering · SQL · API Development · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/68039988/",
+     "name": "Apptividad",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Apptividad",
+    "location": "Escazu",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68039988/",
+    "companyId": "68039988",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_400_400/company-logo_400_400/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=dtmxqECjFzEu2ffrRWIjQGMnx6PWIMIZezI08eF3BV8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_200_200/company-logo_200_200/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=RPlEbEfQCKeZcpVxqNcHCKti_bc_rQEbHiNdZh8Bbe4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG8gJf339qz0A/company-logo_100_100/company-logo_100_100/0/1700843792711/apptividad_logo?e=1795046400&v=beta&t=9vO6goOycgjMJi8Wnd0F4ITX4xDeKaRNoCwt8ZSIqwI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Software Engineer focused on backend systems development, service integration, and database engineering across enterprise platforms.\nDesigned and developed WCF (SOAP) services in C#/.NET consumed from the model layer of MVC web applications, handling structured data exchange between enterprise systems through XML/JSON serialization. Built and optimized SQL Server database components including stored procedures, user-defined functions, non-clustered indexes, and user types — conducting execution plan analysis to identify and resolve performance bottlenecks on high-volume datasets.\nDeveloped communication interface layers in C# for cross-system integration and contributed to full MVC web application delivery across the complete development lifecycle: requirements analysis, design, implementation, and testing. Executed full testing cycles including unit, integration, regression, and end-to-end process flow validation.\nStack: C#/.NET, WCF/SOAP, ASP.NET MVC, SQL Server, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, SQL Server Integration Services, SQL Server Reporting Services, Visual Studio.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/474342/",
+     "name": "Novacomp",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Novacomp",
+    "location": "Costa Rica",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/474342/",
+    "companyId": "474342",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_400_400/B4EZsosi1FJQAg-/0/1765914325399?e=1795046400&v=beta&t=TZtOeh9itsrnjWAb95U7ZCFv3lLlXBpgDuI7YK7KIRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_200_200/B4EZsosi1FJQAQ-/0/1765914325399?e=1795046400&v=beta&t=RUrz4ZYHzlZLAVsXI9LvFd7hbBtrHoCQmuQZXelon_k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnszAYPRfHUQ/company-logo_100_100/B4EZsosi1FJQAY-/0/1765914325399?e=1795046400&v=beta&t=FX9SfHP_JStMNICVRiIAJoElyzMrlRX4M3cTTcKYMBU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Costa Rica,Cartago, Centro",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Software Engineer focused on full-cycle application development, database engineering, and data pipeline delivery across enterprise systems.\nDesigned and developed complete MVC web applications and WCF (SOAP) service layers in C#/.NET, handling cross-system communication through XML/JSON serialization and N-layer architecture. Built and consumed WCF services from MVC model layers, and contributed to ASP.NET frontend development including AJAX, JavaScript, jQuery, and Razor views.\nTook full ownership of database engineering responsibilities: designed table schemas, defined indexing strategies, and authored complex T-SQL including stored procedures, recursive CTEs, and performance-optimized queries. Administered SQL Server databases across multiple versions (2000, 2005, 2008 R2) — performing execution plan analysis, statistics cleanup, index rebuilds, log maintenance, and stress testing to ensure reliability under production workloads.\nDesigned, developed, and executed DTSX/SSIS packages for data migration and transformation between heterogeneous database systems, ensuring data integrity across complex ETL workflows. Produced full UML documentation including entity-relationship, class, and sequence diagrams, and created interactive prototypes and wireframes to validate requirements before development began.\nExecuted comprehensive testing cycles: unit, integration, regression, process flow, and load testing using dedicated stress testing tooling.\nStack: C#/.NET, ASP.NET MVC, WCF/SOAP, SQL Server (2000–2008 R2), T-SQL, SSIS/DTSX, LINQ/PLINQ, JavaScript, jQuery, AJAX, Razor, IIS, TFS, Visual Studio, Visio, Visual Paradigm, Balsamiq.",
+    "insights": "Skills: Data Engineering · Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · API Development · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2239030/",
+     "name": "Dinamica Consultores Internacional S.A.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Dinamica Consultores Internacional S.A.",
+    "location": "Costa Rica,Cartago, Centro",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2239030/",
+    "companyId": "2239030",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_400_400/company-logo_400_400/0/1631347080411?e=1795046400&v=beta&t=AaxiEEiVAQEWs8wFDslzQyj-G4gqii2iC6qSbAuxWjc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_200_200/company-logo_200_200/0/1631347080411?e=1795046400&v=beta&t=IyVGcMTxmaBqii1vSFTYGJ7fA1InUz-prL0DvajmY6Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHnat2cawaEyQ/company-logo_100_100/company-logo_100_100/0/1631347080411?e=1795046400&v=beta&t=BSXPjDtFy78lWdp1JzRAaMOyrJhtasZJJUeXQm4XUx4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "COSTA RICA, SAN JOSE, ESCAZU, PLAZA ROBLE",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Software Engineer focused on data warehouse development, business intelligence reporting, and cross-platform database integration at one of Central America's largest financial institutions.\nDesigned and developed stored procedures for querying an enterprise Data Warehouse and built small internal applications in Java that connected to multiple database platforms — extracting, transforming, and presenting data in structured documents (PDF and Excel) for business reporting workflows. Developed SQL Server Reporting Services reports for Data Warehouse query visualization and analysis, and created advanced Excel macros and complex custom functions to automate data collection and presentation.\nWorked directly with legacy AS400 platform data, collecting and integrating information into modern reporting and database environments. Attended Data Warehouse query optimization training to deepen expertise in high-volume data access patterns and performance tuning.\nStack: Java, SQL Server 2012, SQL Server Reporting Services 2012, T-SQL, Excel Advanced, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · SQL Server Reporting Services (SSRS) · Technical Engineering · SQL · .NET Core · Extreme Programming · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/253356/",
+     "name": "BAC|Credomatic Network",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "BAC|Credomatic Network",
+    "location": "COSTA RICA, SAN JOSE, ESCAZU, PLAZA ROBLE",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/253356/",
+    "companyId": "253356",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_400_400/company-logo_400_400/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=4-Bqa1_jFYXicgmwOytE3B9ZMair9Vik6Sw0sttSy_k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_200_200/company-logo_200_200/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=W_KNBJmRU_fBqZrLZxuZbCEICIUAsJVvetkWd1mN_rI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQETVBlVOx1izw/company-logo_100_100/company-logo_100_100/0/1630522937177/empleosbaccredomatic_logo?e=1795046400&v=beta&t=b1aeyIUEP8jCbBuwm4KEODell7jZYQqDwFOjPUyz4qo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sabana Norte, San Jose, Costa Rica , Continuo al edificio de MasxMenos",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Software Engineer contributing to enterprise software development at Costa Rica's national electricity and telecommunications institution.\nParticipated in the full software development lifecycle — from requirements analysis and system design through database definition and technical documentation. Produced complete UML design artifacts including entity-relationship diagrams, use case diagrams, class diagrams, sequence diagrams, and interactive wireframe prototypes to validate requirements and guide development.\nDesigned and defined MySQL database schemas and contributed to technical documentation across all project phases.\nStack: MySQL, Visual Paradigm, Balsamiq Mockups, Microsoft Office.",
+    "insights": "Skills: Debugging · Transact-SQL (T-SQL) · Technical Engineering · SQL · .NET Core · Object-Oriented Programming (OOP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2118087/",
+     "name": "Instituto Costarricense de Electricidad",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Instituto Costarricense de Electricidad",
+    "location": "Sabana Norte, San Jose, Costa Rica , Continuo al edificio de MasxMenos",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2118087/",
+    "companyId": "2118087",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_200_200/B56Z7bKRZ6IoAI-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zz9PvM8yQhtZE0ZUVEc9rkwKMQ8zRayR_96-4b_aaCQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_100_100/B56Z7bKRZ6IoAM-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=5JwmonFIHZoW3BkFlXRzl4TFGHoTmCOnojKZCPO3h7Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_200_200/B56Z7bKRZ6IoAI-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zz9PvM8yQhtZE0ZUVEc9rkwKMQ8zRayR_96-4b_aaCQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_100_100/B56Z7bKRZ6IoAM-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=5JwmonFIHZoW3BkFlXRzl4TFGHoTmCOnojKZCPO3h7Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20493629/",
+    "schoolName": "Universidad de Costa Rica UCR",
+    "degreeName": "Computer Science",
+    "fieldOfStudy": "Computer Engineer",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/20493629/",
+    "schoolId": "20493629",
+    "degree": "Computer Science",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2012
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_400_400/B4DZ8qDvJNHgAU-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=pdjYl3NBYVVwv1gVENFQ2EXlDak0_ysYwyiSp-had2o",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_200_200/B4DZ8qDvJNHgAE-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=XUpr1TyP65bkl0tR0bomazDC8dBg1ucOdAdYmYym0bg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_100_100/B4DZ8qDvJNHgAI-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=LbGX3ThGYBTtmEVCJJhxo8jFNaflF2S1uuKhxQwJMuA",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_400_400/B4DZ8qDvJNHgAU-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=pdjYl3NBYVVwv1gVENFQ2EXlDak0_ysYwyiSp-had2o",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_400_400/B4DZ8qDvJNHgAU-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=pdjYl3NBYVVwv1gVENFQ2EXlDak0_ysYwyiSp-had2o",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_200_200/B4DZ8qDvJNHgAE-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=XUpr1TyP65bkl0tR0bomazDC8dBg1ucOdAdYmYym0bg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFRFRWQIotlwg/company-logo_100_100/B4DZ8qDvJNHgAI-/0/1783117050786/ufidelitas_logo?e=1795046400&v=beta&t=LbGX3ThGYBTtmEVCJJhxo8jFNaflF2S1uuKhxQwJMuA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15091767/",
+    "schoolName": "Universidad Fidélitas",
+    "degreeName": "Lic. Computer Science",
+    "fieldOfStudy": "Computer Engineer",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15091767/",
+    "schoolId": "15091767",
+    "degree": "Lic. Computer Science",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_200_200/B56Z7bKRZ6IoAI-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zz9PvM8yQhtZE0ZUVEc9rkwKMQ8zRayR_96-4b_aaCQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_100_100/B56Z7bKRZ6IoAM-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=5JwmonFIHZoW3BkFlXRzl4TFGHoTmCOnojKZCPO3h7Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_400_400/B56Z7bKRZ6IoAY-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zDuCgqvyylSb_SX6nCsgqfABxmUJW9FtwVCmKlsn-AE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_200_200/B56Z7bKRZ6IoAI-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=zz9PvM8yQhtZE0ZUVEc9rkwKMQ8zRayR_96-4b_aaCQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHTkq3XT5CJPg/company-logo_100_100/B56Z7bKRZ6IoAM-/0/1781793364160/universidad_de_costa_rica_ucr_logo?e=1795046400&v=beta&t=5JwmonFIHZoW3BkFlXRzl4TFGHoTmCOnojKZCPO3h7Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20493629/",
+    "schoolName": "Universidad de Costa Rica UCR",
+    "degreeName": "Computer Science",
+    "fieldOfStudy": "Computer Engineer",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/20493629/",
+    "schoolId": "20493629",
+    "degree": "Computer Science",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2012
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_200_200/B4EZwQw6NyKwAY-/0/1769807785404?e=1795046400&v=beta&t=70j5M3OABNBLsNK8_XH32-P87PgC17h92BQfdXOmMS8",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_100_100/B4EZwQw6NyKwAc-/0/1769807785404?e=1795046400&v=beta&t=C6zSYimY8qvWZeSWioS2sTjp7ovueqPVx49PGzLcA8A",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_400_400/B4EZwQw6NyKwAg-/0/1769807785404?e=1795046400&v=beta&t=d_NYQmV1KhSRHzhQvUvPRJWN4omlHS1c4qItF-aOeN4",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_400_400/B4EZwQw6NyKwAg-/0/1769807785404?e=1795046400&v=beta&t=d_NYQmV1KhSRHzhQvUvPRJWN4omlHS1c4qItF-aOeN4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_200_200/B4EZwQw6NyKwAY-/0/1769807785404?e=1795046400&v=beta&t=70j5M3OABNBLsNK8_XH32-P87PgC17h92BQfdXOmMS8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_100_100/B4EZwQw6NyKwAc-/0/1769807785404?e=1795046400&v=beta&t=C6zSYimY8qvWZeSWioS2sTjp7ovueqPVx49PGzLcA8A",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_200_200/B4EZwQw6NyKwAY-/0/1769807785404?e=1795046400&v=beta&t=70j5M3OABNBLsNK8_XH32-P87PgC17h92BQfdXOmMS8",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_100_100/B4EZwQw6NyKwAc-/0/1769807785404?e=1795046400&v=beta&t=C6zSYimY8qvWZeSWioS2sTjp7ovueqPVx49PGzLcA8A",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_400_400/B4EZwQw6NyKwAg-/0/1769807785404?e=1795046400&v=beta&t=d_NYQmV1KhSRHzhQvUvPRJWN4omlHS1c4qItF-aOeN4",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-crop_800_800/B4EZwQw6NyKwAI-/0/1769807785318?e=1795046400&v=beta&t=j_FYtw9KFenU2R8ZNEs4s7cUAeqT9DDBpVg4o3ERT1k",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_400_400/B4EZwQw6NyKwAg-/0/1769807785404?e=1795046400&v=beta&t=d_NYQmV1KhSRHzhQvUvPRJWN4omlHS1c4qItF-aOeN4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_200_200/B4EZwQw6NyKwAY-/0/1769807785404?e=1795046400&v=beta&t=70j5M3OABNBLsNK8_XH32-P87PgC17h92BQfdXOmMS8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHCnHkXMcTZgg/profile-displayphoto-scale_100_100/B4EZwQw6NyKwAc-/0/1769807785404?e=1795046400&v=beta&t=C6zSYimY8qvWZeSWioS2sTjp7ovueqPVx49PGzLcA8A",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516517668865?e=1795046400&v=beta&t=2rjc6UYMFU4nzr7N-ALkStVvGoj_Eox3DJWlSGCWPv8",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516517668772?e=1795046400&v=beta&t=ITjBEHNbnTEyJO_TPGqXXau6-02nz8sYl8P7qGh0I6Y",
+   "url": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516517668772?e=1795046400&v=beta&t=ITjBEHNbnTEyJO_TPGqXXau6-02nz8sYl8P7qGh0I6Y",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516517668772?e=1795046400&v=beta&t=ITjBEHNbnTEyJO_TPGqXXau6-02nz8sYl8P7qGh0I6Y",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5116AQHw75tC0Rg5Mw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516517668865?e=1795046400&v=beta&t=2rjc6UYMFU4nzr7N-ALkStVvGoj_Eox3DJWlSGCWPv8",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/gustavopereze"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T03:32:34.219Z",
+ "foundBy": null
+}

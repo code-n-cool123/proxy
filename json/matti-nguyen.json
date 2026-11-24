@@ -1,0 +1,1755 @@
+{
+ "slug": "matti-nguyen",
+ "inputUrl": "https://www.linkedin.com/in/matti-nguyen",
+ "fetchedAt": "2026-11-09T00:54:43.545Z",
+ "id": "6af119d3af440f0df0ab75dd",
+ "url": "https://www.linkedin.com/in/matti-nguyen",
+ "profile": {
+  "created": 1662159560393,
+  "trackingId": "bVjLzTnFS2SzEmagZ+C93A==",
+  "firstName": "Matti",
+  "lastName": "Nguyen",
+  "pronoun": null,
+  "versionTag": "479941312",
+  "headline": "SWE at iDentalSoft | M.S. Data Science @ UCR",
+  "publicIdentifier": "matti-nguyen",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "1036372794",
+  "profileId": "ACoAAD3FyzoBI8Sbn_isRE_a_j_LrEdVsE3I9Rs",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711005446488?e=1795651200&v=beta&t=j0KNdN-5Qa2Moy1hJByvM2J-bFvDB3fLrLPFDh7uqoc",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711005446488?e=1795651200&v=beta&t=Y3l05hiO3-V_kYQd6XTGY9P-6KJ-1sXJzMe4i4wgGB4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711005446488?e=1795651200&v=beta&t=DyogAJLPBQbSBUxaXlbdGk-DZ953QWho2h7ccUZ_d2Q",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY"
+  },
+  "coverImageUrl": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1715648545392?e=1795651200&v=beta&t=nJdKL13giY_rvcPTmt5p4nNkyf-z1FBgj3cUchjxtUw",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1715648545392?e=1795651200&v=beta&t=wkFJW8_5PtMygmjicWhov8xBZZGYR-QOpnGDW8W_KeQ"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106138232",
+  "geoLocationName": "Fremont, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Hi, my name is Matti!\n\nSoftware Engineer at iDentalSoft, building across the full stack for a dental PMS. Currently developing our mobile app and working on system design and feature implementation. On the backend, I built a full RAG pipeline with a web scraping layer to power our internal knowledge base.\n\nMy background spans management information systems, data science, and information security, including a Master's degree in Data Science. Focused on growing as an engineer and taking on increasingly complex technical challenges.\n\n\ncontact: mattinguyen12@gmail.com",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Milpitas, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "description": "Building production features and R&D initiatives across iDS. Stack spans Flutter mobile, LLM/RAG systems, voice AI, and AWS Bedrock pipelines.\n\niMobile (Flutter mobile app)\n- Core screens: iChat (paginated SMS with photo loading and reverse scroll), Patients List (cursor pagination, debounced search, lazy photo cache), tabbed Patient Profile, dual mode Scheduling calendar (Chair/Provider with working-hours overlay and medical-alert rendering), iFax, iVoice with dialer, and Patient Notes with signature canvas.\n- Architecture: dedicated service layer for chat, patients, and scheduling; TapGuard debounce utility, Face ID login, and Firestore listener + FCM handler for live in-app chat sync.\n- Payments: Worldpay Hosted Payments via REST/XML → TransactionSetupID → WebView, with SoftPOS.\n\nRAG Chatbot: Built an internal knowledge assistant answering questions from the company's online documentation. \n- Pipeline: Selenium scraper -> HuggingFace embeddings -> ChromaDB ->ensemble retriever combining BM25, semantic search, self-query (metadata filtered), and multiquery with parallel batch retrieval -> LLM. Serving dental practices at ~30 queries/day (3,000+ answered, ~3s end to end).\n\niFormalizer: Built a note reformatting tool layered on the RAG stack; converts free-form clinical notes into SOAP, DAP, or standard formats. \n\nR&D / Proof of Concept:\n- AI Dental Receptionist: Conversational AI voice agent using ElevenLabs.\n- iEOB: Automated Explanation of Benefits claim reconciliation via AWS Bedrock with prompt engineered structured JSON output.\n- iPerio: Perio chart entry powered by Vosk speech recognition.",
+    "insights": "Skills: Retrieval-Augmented Generation (RAG)",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    }
+   },
+   {
+    "title": "Facility Attendant",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "Oversaw operations and compliance at city facilities, managed inventory and program activities and cultivated strong relationships with city employees and the public.",
+    "insights": "Skills: Receptionist Duties · Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/1567549/",
+     "name": "City of Fremont",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "SJSU Marketing Association",
+     "url": "https://www.linkedin.com/company/18049067/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU"
+     }
+    },
+    "locationName": "San Jose, California, United States · On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Corporate Outreach Specialist",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "Connect college students with industry professionals by coordinating guest speaker sessions, providing educational insights and networking opportunities within the club.\n\n• Organized and moderated panel discussions and Q&A sessions, providing students with valuable insights into various career opportunities and the skills required to thrive in those roles.\n• Successfully contacted representatives from leading companies, including Meta, Cisco, Intel, Quizlet, and Aruba, to facilitate insightful discussions on career paths, and professional development.\n• Collaborated with team members to identify target companies and professionals",
+      "insights": ""
+     },
+     {
+      "title": "MA Consulting Program for Inspired By Studios",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Experienced professional in team collaboration, business analysis, and project presentations for Inspired By Studios.\n\n• Collaborated in split teams and conducted business analysis reports on Inspired By Studios.\n• Created a SWOT analysis, feasibility analysis, evaluated potential B2B/B2C markets and promotional strategies\n• Delivered weekly, in-depth presentations to project managers, showcasing the latest project milestones and deliverables",
+      "insights": ""
+     },
+     {
+      "title": "Events Planning Committee",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "Responsible for planning and executing a variety of marketing and promotional events on campus, fostering school spirit, and enhancing the student experience.\n\n• Worked in teams to plan and organize general meetings and volunteer events.\n• Facilitated a successful fundraising event that raised over $1700.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Analyst Internship",
+    "locationName": "Milpitas, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Enhanced iDentalsoft's customer satisfaction and operational efficiency through technical support, project management, and website revamp.\n\n• Supported the creation and routine update and maintenance of an Excel-based monthly income reporting for iDentalsoft from Twilio.\n• Served as primary contact of customers on help desk ticketing system, improving customer satisfaction with responsive customer support. \n• Prioritized customer experience while providing product/service-related assistance and ensuring timely resolution of customer issues.\n• Played an instrumental role in migrating the existing website to a new Wiki domain and revamping website with a user-friendly interface.\n• Reviewed and ensured compatibility of x-rays and sensors with iDentalsoft and drove technical documentation with descriptive references.",
+    "insights": "Skills: Microsoft Excel · Research · Data Analysis",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    }
+   },
+   {
+    "title": "Receiving Associate",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Streamlined inventory and stockroom operations, enhancing team efficiency and collaboration.",
+    "insights": "Skills: Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/11240/",
+     "name": "Burlington Stores, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA"
+     }
+    }
+   },
+   {
+    "title": "Crew Member",
+    "locationName": "San Jose, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Responsible for payment processing, customer service, and personalized food preparation.",
+    "insights": "Skills: Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/17676044/",
+     "name": "POKI BOWL LTD",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_200_200/company-logo_200_200/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=yYyuYB1JhxUHRasCWEz6lhuPRI4R_pxM4Cll6zpxFrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_100_100/company-logo_100_100/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=xOPkiqZSk8SCvGRn26qBDaxnmDmqtpjBj-7uTLNvdyk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7709/",
+    "schoolName": "University of California, Riverside",
+    "degreeName": "MS in Computational Data Science",
+    "fieldOfStudy": "Data Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Bachelor of Business Administration",
+    "fieldOfStudy": "Management Information Systems, General",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2024
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Microsoft Certified: Azure Data Fundamentals",
+    "authority": "Microsoft",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Microsoft",
+    "title": "Microsoft Certified: Azure Data Fundamentals",
+    "issuedBy": "Microsoft",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Microsoft Certified: Azure Fundamentals",
+    "authority": "Microsoft",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Microsoft",
+    "title": "Microsoft Certified: Azure Fundamentals",
+    "issuedBy": "Microsoft",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [
+   {
+    "title": "San Jose State University Dean's Scholar",
+    "description": "Earned a GPA 3.65 or better average for the designated semester.",
+    "issueDate": {},
+    "issuer": "Issued by San Jose State University · May 2022"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "French",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "GMO Detective Interactive Chatbot",
+    "description": "Crafted an AI GMO Chatbot using IBM Watson, employing intents, entities, and dialogue nodes to accurately identify and convey produced information from barcode scans. This solution integrates detailed datasets on food properties, ensuring precise GMO analysis and origin tracking",
+    "dateRange": {},
+    "associatedWith": "Aug 2023 - Dec 2023"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "iDentalSoft",
+  "companyPublicId": "identalsoft",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/identalsoft/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:876417",
+   "name": "iDentalSoft",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQH6dODJwHRahA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_"
+    }
+   },
+   "universalName": "identalsoft",
+   "url": "https://www.linkedin.com/company/identalsoft/",
+   "slug": "identalsoft",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+   "specialties": []
+  },
+  "followerCount": 580,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 579,
+  "skills": [
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "iDentalSoft",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chatbot Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chatbot Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Presentations",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Community Outreach",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Outreach",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Business Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Market Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Collaboration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Client Presentation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Adaptive Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Collaborative Environment",
+    "endorsements": 2,
+    "experiences": 3
+   },
+   {
+    "name": "Receptionist Duties",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Chatbot Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chatbot Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Presentations",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Community Outreach",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Outreach",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Business Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Market Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Client Presentation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Adaptive Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Collaborative Environment",
+    "endorsements": 2,
+    "experiences": 3
+   },
+   {
+    "name": "Receptionist Duties",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Plain Language",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Digital Transformation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Business Reporting",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Governance",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Presentation Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Team Collaboration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Building Trust",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Active Listening",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Critical Thinking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Decision-Making",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Writing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Strategic Thinking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/matti-nguyen",
+  "linkedinUrl": "https://www.linkedin.com/in/matti-nguyen",
+  "profileUrl": "https://www.linkedin.com/in/matti-nguyen",
+  "verified": true,
+  "registeredAt": "2022-09-02T22:59:20.393Z",
+  "location": {
+   "linkedinText": "Fremont, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Fremont, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Hi, my name is Matti!\n\nSoftware Engineer at iDentalSoft, building across the full stack for a dental PMS. Currently developing our mobile app and working on system design and feature implementation. On the backend, I built a full RAG pipeline with a web scraping layer to power our internal knowledge base.\n\nMy background spans management information systems, data science, and information security, including a Master's degree in Data Science. Focused on growing as an engineer and taking on increasingly complex technical challenges.\n\n\ncontact: mattinguyen12@gmail.com",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Facility Attendant",
+   "Analyst Internship",
+   "Receiving Associate",
+   "Crew Member"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Milpitas, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "description": "Building production features and R&D initiatives across iDS. Stack spans Flutter mobile, LLM/RAG systems, voice AI, and AWS Bedrock pipelines.\n\niMobile (Flutter mobile app)\n- Core screens: iChat (paginated SMS with photo loading and reverse scroll), Patients List (cursor pagination, debounced search, lazy photo cache), tabbed Patient Profile, dual mode Scheduling calendar (Chair/Provider with working-hours overlay and medical-alert rendering), iFax, iVoice with dialer, and Patient Notes with signature canvas.\n- Architecture: dedicated service layer for chat, patients, and scheduling; TapGuard debounce utility, Face ID login, and Firestore listener + FCM handler for live in-app chat sync.\n- Payments: Worldpay Hosted Payments via REST/XML → TransactionSetupID → WebView, with SoftPOS.\n\nRAG Chatbot: Built an internal knowledge assistant answering questions from the company's online documentation. \n- Pipeline: Selenium scraper -> HuggingFace embeddings -> ChromaDB ->ensemble retriever combining BM25, semantic search, self-query (metadata filtered), and multiquery with parallel batch retrieval -> LLM. Serving dental practices at ~30 queries/day (3,000+ answered, ~3s end to end).\n\niFormalizer: Built a note reformatting tool layered on the RAG stack; converts free-form clinical notes into SOAP, DAP, or standard formats. \n\nR&D / Proof of Concept:\n- AI Dental Receptionist: Conversational AI voice agent using ElevenLabs.\n- iEOB: Automated Explanation of Benefits claim reconciliation via AWS Bedrock with prompt engineered structured JSON output.\n- iPerio: Perio chart entry powered by Vosk speech recognition.",
+    "insights": "Skills: Retrieval-Augmented Generation (RAG)",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "iDentalSoft",
+    "location": "Milpitas, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/876417/",
+    "companyId": "876417",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "SJSU Marketing Association",
+     "url": "https://www.linkedin.com/company/18049067/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU"
+     }
+    },
+    "locationName": "San Jose, California, United States · On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Corporate Outreach Specialist",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "Connect college students with industry professionals by coordinating guest speaker sessions, providing educational insights and networking opportunities within the club.\n\n• Organized and moderated panel discussions and Q&A sessions, providing students with valuable insights into various career opportunities and the skills required to thrive in those roles.\n• Successfully contacted representatives from leading companies, including Meta, Cisco, Intel, Quizlet, and Aruba, to facilitate insightful discussions on career paths, and professional development.\n• Collaborated with team members to identify target companies and professionals",
+      "insights": ""
+     },
+     {
+      "title": "MA Consulting Program for Inspired By Studios",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Experienced professional in team collaboration, business analysis, and project presentations for Inspired By Studios.\n\n• Collaborated in split teams and conducted business analysis reports on Inspired By Studios.\n• Created a SWOT analysis, feasibility analysis, evaluated potential B2B/B2C markets and promotional strategies\n• Delivered weekly, in-depth presentations to project managers, showcasing the latest project milestones and deliverables",
+      "insights": ""
+     },
+     {
+      "title": "Events Planning Committee",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "Responsible for planning and executing a variety of marketing and promotional events on campus, fostering school spirit, and enhancing the student experience.\n\n• Worked in teams to plan and organize general meetings and volunteer events.\n• Facilitated a successful fundraising event that raised over $1700.",
+      "insights": ""
+     }
+    ],
+    "companyName": "SJSU Marketing Association",
+    "location": "San Jose, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18049067/",
+    "companyId": "18049067",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Facility Attendant",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "Oversaw operations and compliance at city facilities, managed inventory and program activities and cultivated strong relationships with city employees and the public.",
+    "insights": "Skills: Receptionist Duties · Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/1567549/",
+     "name": "City of Fremont",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0"
+     }
+    },
+    "position": "Facility Attendant",
+    "companyName": "City of Fremont",
+    "location": "Fremont, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1567549/",
+    "companyId": "1567549",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Analyst Internship",
+    "locationName": "Milpitas, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Enhanced iDentalsoft's customer satisfaction and operational efficiency through technical support, project management, and website revamp.\n\n• Supported the creation and routine update and maintenance of an Excel-based monthly income reporting for iDentalsoft from Twilio.\n• Served as primary contact of customers on help desk ticketing system, improving customer satisfaction with responsive customer support. \n• Prioritized customer experience while providing product/service-related assistance and ensuring timely resolution of customer issues.\n• Played an instrumental role in migrating the existing website to a new Wiki domain and revamping website with a user-friendly interface.\n• Reviewed and ensured compatibility of x-rays and sensors with iDentalsoft and drove technical documentation with descriptive references.",
+    "insights": "Skills: Microsoft Excel · Research · Data Analysis",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    },
+    "position": "Analyst Internship",
+    "companyName": "iDentalSoft",
+    "location": "Milpitas, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/876417/",
+    "companyId": "876417",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Receiving Associate",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Streamlined inventory and stockroom operations, enhancing team efficiency and collaboration.",
+    "insights": "Skills: Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/11240/",
+     "name": "Burlington Stores, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA"
+     }
+    },
+    "position": "Receiving Associate",
+    "companyName": "Burlington Stores, Inc.",
+    "location": "Fremont, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11240/",
+    "companyId": "11240",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Crew Member",
+    "locationName": "San Jose, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Responsible for payment processing, customer service, and personalized food preparation.",
+    "insights": "Skills: Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/17676044/",
+     "name": "POKI BOWL LTD",
+     "logo": {}
+    },
+    "position": "Crew Member",
+    "companyName": "POKI BOWL LTD",
+    "location": "San Jose, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17676044/",
+    "companyId": "17676044",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "876417",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/876417/",
+    "companyName": "iDentalSoft",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "18049067",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18049067/",
+    "companyName": "SJSU Marketing Association",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Milpitas, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "description": "Building production features and R&D initiatives across iDS. Stack spans Flutter mobile, LLM/RAG systems, voice AI, and AWS Bedrock pipelines.\n\niMobile (Flutter mobile app)\n- Core screens: iChat (paginated SMS with photo loading and reverse scroll), Patients List (cursor pagination, debounced search, lazy photo cache), tabbed Patient Profile, dual mode Scheduling calendar (Chair/Provider with working-hours overlay and medical-alert rendering), iFax, iVoice with dialer, and Patient Notes with signature canvas.\n- Architecture: dedicated service layer for chat, patients, and scheduling; TapGuard debounce utility, Face ID login, and Firestore listener + FCM handler for live in-app chat sync.\n- Payments: Worldpay Hosted Payments via REST/XML → TransactionSetupID → WebView, with SoftPOS.\n\nRAG Chatbot: Built an internal knowledge assistant answering questions from the company's online documentation. \n- Pipeline: Selenium scraper -> HuggingFace embeddings -> ChromaDB ->ensemble retriever combining BM25, semantic search, self-query (metadata filtered), and multiquery with parallel batch retrieval -> LLM. Serving dental practices at ~30 queries/day (3,000+ answered, ~3s end to end).\n\niFormalizer: Built a note reformatting tool layered on the RAG stack; converts free-form clinical notes into SOAP, DAP, or standard formats. \n\nR&D / Proof of Concept:\n- AI Dental Receptionist: Conversational AI voice agent using ElevenLabs.\n- iEOB: Automated Explanation of Benefits claim reconciliation via AWS Bedrock with prompt engineered structured JSON output.\n- iPerio: Perio chart entry powered by Vosk speech recognition.",
+    "insights": "Skills: Retrieval-Augmented Generation (RAG)",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "iDentalSoft",
+    "location": "Milpitas, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/876417/",
+    "companyId": "876417",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Facility Attendant",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "Oversaw operations and compliance at city facilities, managed inventory and program activities and cultivated strong relationships with city employees and the public.",
+    "insights": "Skills: Receptionist Duties · Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/1567549/",
+     "name": "City of Fremont",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0"
+     }
+    },
+    "position": "Facility Attendant",
+    "companyName": "City of Fremont",
+    "location": "Fremont, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1567549/",
+    "companyId": "1567549",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_400_400/B56Zu_U45lHMAc-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=l2YibbDKITpFfFpcUZY0Cdx1sXqq2lGIzSAt2PTlJu0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_200_200/B56Zu_U45lHMAM-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=dCmypODydJhnNmaXuHC4MlyApthXAMJHfNzDa-UzT9c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQE4Yofeq1xsIQ/company-logo_100_100/B56Zu_U45lHMAU-/0/1768441483356/cityoffremont_logo?e=1795651200&v=beta&t=eWcI80I7dn7h4BdVvGMrP847DYewek4J0VAxMnVErGk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "SJSU Marketing Association",
+     "url": "https://www.linkedin.com/company/18049067/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU"
+     }
+    },
+    "locationName": "San Jose, California, United States · On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Corporate Outreach Specialist",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2023
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "Connect college students with industry professionals by coordinating guest speaker sessions, providing educational insights and networking opportunities within the club.\n\n• Organized and moderated panel discussions and Q&A sessions, providing students with valuable insights into various career opportunities and the skills required to thrive in those roles.\n• Successfully contacted representatives from leading companies, including Meta, Cisco, Intel, Quizlet, and Aruba, to facilitate insightful discussions on career paths, and professional development.\n• Collaborated with team members to identify target companies and professionals",
+      "insights": ""
+     },
+     {
+      "title": "MA Consulting Program for Inspired By Studios",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "Experienced professional in team collaboration, business analysis, and project presentations for Inspired By Studios.\n\n• Collaborated in split teams and conducted business analysis reports on Inspired By Studios.\n• Created a SWOT analysis, feasibility analysis, evaluated potential B2B/B2C markets and promotional strategies\n• Delivered weekly, in-depth presentations to project managers, showcasing the latest project milestones and deliverables",
+      "insights": ""
+     },
+     {
+      "title": "Events Planning Committee",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "Responsible for planning and executing a variety of marketing and promotional events on campus, fostering school spirit, and enhancing the student experience.\n\n• Worked in teams to plan and organize general meetings and volunteer events.\n• Facilitated a successful fundraising event that raised over $1700.",
+      "insights": ""
+     }
+    ],
+    "companyName": "SJSU Marketing Association",
+    "location": "San Jose, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18049067/",
+    "companyId": "18049067",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_400_400/company-logo_400_400/0/1661829429242?e=1795651200&v=beta&t=JwKpMppfe5j0DleCaZer4BvL_AUa8Q1m3gnkQN636GU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_200_200/company-logo_200_200/0/1661829429242?e=1795651200&v=beta&t=PHZnyjgiJPcGfTFCYhtXW6lIihTnW394WckgFNIMte0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGBKnEXkhWJ6g/company-logo_100_100/company-logo_100_100/0/1661829429242?e=1795651200&v=beta&t=Wsk2asc5m2YdtSiSrozQDLGpapfESn1WDMkJAoiHgHA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Analyst Internship",
+    "locationName": "Milpitas, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2022
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Enhanced iDentalsoft's customer satisfaction and operational efficiency through technical support, project management, and website revamp.\n\n• Supported the creation and routine update and maintenance of an Excel-based monthly income reporting for iDentalsoft from Twilio.\n• Served as primary contact of customers on help desk ticketing system, improving customer satisfaction with responsive customer support. \n• Prioritized customer experience while providing product/service-related assistance and ensuring timely resolution of customer issues.\n• Played an instrumental role in migrating the existing website to a new Wiki domain and revamping website with a user-friendly interface.\n• Reviewed and ensured compatibility of x-rays and sensors with iDentalsoft and drove technical documentation with descriptive references.",
+    "insights": "Skills: Microsoft Excel · Research · Data Analysis",
+    "company": {
+     "url": "https://www.linkedin.com/company/876417/",
+     "name": "iDentalSoft",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0"
+     }
+    },
+    "position": "Analyst Internship",
+    "companyName": "iDentalSoft",
+    "location": "Milpitas, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/876417/",
+    "companyId": "876417",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_400_400/company-logo_400_400/0/1631338483053?e=1795651200&v=beta&t=XyHPXx268OhGGAPXl1swL3VosHVOBly3GrIRfPirUU0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_200_200/company-logo_200_200/0/1631338483053?e=1795651200&v=beta&t=4SuVWujwOAnOYMheDro63UyXlLp1Rn9w6hlEkTY6BSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH6dODJwHRahA/company-logo_100_100/company-logo_100_100/0/1631338483053?e=1795651200&v=beta&t=I8VoQNe0NIci5aHFeBxIxhPyEEYHPy5Hx0ifydMhtbE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Receiving Associate",
+    "locationName": "Fremont, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Streamlined inventory and stockroom operations, enhancing team efficiency and collaboration.",
+    "insights": "Skills: Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/11240/",
+     "name": "Burlington Stores, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA"
+     }
+    },
+    "position": "Receiving Associate",
+    "companyName": "Burlington Stores, Inc.",
+    "location": "Fremont, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11240/",
+    "companyId": "11240",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_400_400/company-logo_400_400/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=Ne1eMbzUidC364RFsSIfa-3LeWlpK7m0x6Zwt7VUvjA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_200_200/company-logo_200_200/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=7Qjzyhvf3qEQG7gEYq2Bf59FqDOvrOjDrJd013S3GMY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFg_H1_eMML2g/company-logo_100_100/company-logo_100_100/0/1630512146219/burlington_stores_logo?e=1795651200&v=beta&t=4lFHrU15oLlOXtPy3fgu92w3P4h-R-enhduIZ5KQmgE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Crew Member",
+    "locationName": "San Jose, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "Responsible for payment processing, customer service, and personalized food preparation.",
+    "insights": "Skills: Customer Service · Collaborative Environment",
+    "company": {
+     "url": "https://www.linkedin.com/company/17676044/",
+     "name": "POKI BOWL LTD",
+     "logo": {}
+    },
+    "position": "Crew Member",
+    "companyName": "POKI BOWL LTD",
+    "location": "San Jose, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17676044/",
+    "companyId": "17676044",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_200_200/company-logo_200_200/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=yYyuYB1JhxUHRasCWEz6lhuPRI4R_pxM4Cll6zpxFrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_100_100/company-logo_100_100/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=xOPkiqZSk8SCvGRn26qBDaxnmDmqtpjBj-7uTLNvdyk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_200_200/company-logo_200_200/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=yYyuYB1JhxUHRasCWEz6lhuPRI4R_pxM4Cll6zpxFrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_100_100/company-logo_100_100/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=xOPkiqZSk8SCvGRn26qBDaxnmDmqtpjBj-7uTLNvdyk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7709/",
+    "schoolName": "University of California, Riverside",
+    "degreeName": "MS in Computational Data Science",
+    "fieldOfStudy": "Data Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7709/",
+    "schoolId": "7709",
+    "degree": "MS in Computational Data Science",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2026
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_400_400/company-logo_400_400/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=IHIL5GzKdOIh4rrXxnLIm68ku3kyI1PSXVhB7f0DaA0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_200_200/company-logo_200_200/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=MygyP8Y07qcM96sWLwxyNwh5hS0UfHREfIBrvkUozH4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH2XPEu-_xgrg/company-logo_100_100/company-logo_100_100/0/1688401344849/san_jose_state_university_logo?e=1795651200&v=beta&t=tBTvQEkrW2AxLNEdXQoGQz53AYZJXJh6zS1ZAP7HhEA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157344/",
+    "schoolName": "San José State University",
+    "degreeName": "Bachelor of Business Administration",
+    "fieldOfStudy": "Management Information Systems, General",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2024
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157344/",
+    "schoolId": "157344",
+    "degree": "Bachelor of Business Administration",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2024
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_200_200/company-logo_200_200/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=yYyuYB1JhxUHRasCWEz6lhuPRI4R_pxM4Cll6zpxFrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_100_100/company-logo_100_100/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=xOPkiqZSk8SCvGRn26qBDaxnmDmqtpjBj-7uTLNvdyk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_400_400/company-logo_400_400/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=gDS4Cf1z5LAArQqST6FK_MlRjwJSy67gJOCRpUKYzIc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_200_200/company-logo_200_200/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=yYyuYB1JhxUHRasCWEz6lhuPRI4R_pxM4Cll6zpxFrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE2uYWsiuAkgw/company-logo_100_100/company-logo_100_100/0/1630665722358/university_of_california_riverside_logo?e=1795651200&v=beta&t=xOPkiqZSk8SCvGRn26qBDaxnmDmqtpjBj-7uTLNvdyk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7709/",
+    "schoolName": "University of California, Riverside",
+    "degreeName": "MS in Computational Data Science",
+    "fieldOfStudy": "Data Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2026
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7709/",
+    "schoolId": "7709",
+    "degree": "MS in Computational Data Science",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2026
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "San Jose State University Dean's Scholar",
+    "description": "Earned a GPA 3.65 or better average for the designated semester.",
+    "issueDate": {},
+    "issuer": "Issued by San Jose State University · May 2022"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711005446488?e=1795651200&v=beta&t=j0KNdN-5Qa2Moy1hJByvM2J-bFvDB3fLrLPFDh7uqoc",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711005446488?e=1795651200&v=beta&t=Y3l05hiO3-V_kYQd6XTGY9P-6KJ-1sXJzMe4i4wgGB4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711005446488?e=1795651200&v=beta&t=DyogAJLPBQbSBUxaXlbdGk-DZ953QWho2h7ccUZ_d2Q",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711005446488?e=1795651200&v=beta&t=DyogAJLPBQbSBUxaXlbdGk-DZ953QWho2h7ccUZ_d2Q",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711005446488?e=1795651200&v=beta&t=Y3l05hiO3-V_kYQd6XTGY9P-6KJ-1sXJzMe4i4wgGB4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711005446488?e=1795651200&v=beta&t=j0KNdN-5Qa2Moy1hJByvM2J-bFvDB3fLrLPFDh7uqoc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711005446488?e=1795651200&v=beta&t=j0KNdN-5Qa2Moy1hJByvM2J-bFvDB3fLrLPFDh7uqoc",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711005446488?e=1795651200&v=beta&t=Y3l05hiO3-V_kYQd6XTGY9P-6KJ-1sXJzMe4i4wgGB4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711005446488?e=1795651200&v=beta&t=DyogAJLPBQbSBUxaXlbdGk-DZ953QWho2h7ccUZ_d2Q",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1711005446488?e=1795651200&v=beta&t=RTsA705BIRUALpqPpvd_lO2hpxXWNmKcbTdEg0pBlxY",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1711005446488?e=1795651200&v=beta&t=DyogAJLPBQbSBUxaXlbdGk-DZ953QWho2h7ccUZ_d2Q",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1711005446488?e=1795651200&v=beta&t=Y3l05hiO3-V_kYQd6XTGY9P-6KJ-1sXJzMe4i4wgGB4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQG1wVKyo0Vtgw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1711005446488?e=1795651200&v=beta&t=j0KNdN-5Qa2Moy1hJByvM2J-bFvDB3fLrLPFDh7uqoc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1715648545392?e=1795651200&v=beta&t=nJdKL13giY_rvcPTmt5p4nNkyf-z1FBgj3cUchjxtUw",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1715648545392?e=1795651200&v=beta&t=wkFJW8_5PtMygmjicWhov8xBZZGYR-QOpnGDW8W_KeQ",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1715648545392?e=1795651200&v=beta&t=wkFJW8_5PtMygmjicWhov8xBZZGYR-QOpnGDW8W_KeQ",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1715648545392?e=1795651200&v=beta&t=wkFJW8_5PtMygmjicWhov8xBZZGYR-QOpnGDW8W_KeQ",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFt1RjhxXZlKg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1715648545392?e=1795651200&v=beta&t=nJdKL13giY_rvcPTmt5p4nNkyf-z1FBgj3cUchjxtUw",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/matti-nguyen"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T00:54:30.035Z",
+ "foundBy": null
+}

@@ -1,0 +1,1364 @@
+{
+ "slug": "vinit-za",
+ "inputUrl": "https://www.linkedin.com/in/vinit-za",
+ "fetchedAt": "2026-11-18T17:01:15.032Z",
+ "id": "6afdd9db326d0b70b7e25792",
+ "url": "https://www.linkedin.com/in/vinit-za",
+ "profile": {
+  "created": 1581546917864,
+  "trackingId": "ZM/KvyUQR4O8Degk2x3Gcg==",
+  "firstName": "Vinit",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "693457572",
+  "headline": "Software Engineer",
+  "publicIdentifier": "vinit-za",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "794427511",
+  "profileId": "ACoAAC9aAHcBucG1WjE5s7wLaqx-R7E97UhNw3k",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102571732",
+  "geoLocationName": "New York, New York, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Backend Software Engineer",
+  "summary": "Software engineer at Nantum AI, a building energy management platform helping reduce carbon emissions across NYC commercial real estate.\n\nThe past two years I've focused on the messy data-flow side of the platform. I tech-led a data-model migration that consolidated fragmented per-sensor configuration into a unified schema for electric, gas, and steam utilities. I also built the AWS pipeline (Step Functions task-tokens, Lambda, S3) that productionizes our research team's ML models for cleaning and bill-reconciling raw meter data — that data ends up powering energy-savings reports, emissions compliance, and demand forecasting. Most recently I've been hardening reliability (DLQ handling across 5 services) and migrated our monitoring workloads off a continuously-running ECS container onto scheduled Lambdas.\n\nBefore Nantum I was at Qrypt, a quantum-cryptography startup — built a Mattermost plugin using their quantum-entropy SDK for end-to-end encryption, and rewrote their Kafka consumer to cut deploy time 83%.\n\nHappy to chat about distributed systems, ML in production, agent tooling, or real-time pipelines. \n\nNYC based.\n\nhttps://github.com/v-za",
+  "positions": [
+   {
+    "title": "Backend Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/10822510/",
+     "name": "Nantum AI",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Skills: MySQL · Software Design · Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/11250670/",
+     "name": "Qrypt",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "- Designed the first Kafka-Websockets integration library, pre-packaged as an Node.js Module, to aid developers set up big data streaming and real time visualization applications by abstracting away repetitive code through modularized complex classes which create Kafka clients, set up connections between consumers and socket namespaces and provide users with additional functionality to interact with real time data\n- Developed entirely in TypeScript to enforce strict type checking to defer from undesired type coercion and increase consistency and explicitness with interfaces that categorically define data\n- Built a playground within a full-stack web application using React and Express  to visualize high velocity real time Kafka data streams, in order to demo the use of Kafka-Socks to connect Kafka streams directly to the browser\n- Utilized in Node.js, WebSocket protocol using socket.io to establish an open, interactive connection between the client  and middleware, facilitating real-time bi-directional event communication while reducing total HTTP overhead\n- Leveraged React and Chart.js to create a frontend architecture that can handle high latency real time data and visualize it in an interactive and customizable manner\n- Employed Jest to accomplish thorough unit and integration test coverage for the Node.js module, streamlining the development process and maintaining code quality by mocking up React components and ensuring correct renders\n- Product developed under opensourcelabs.io",
+    "insights": "Skills: MySQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/73209737/",
+     "name": "Kafka Socks",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/18223178/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 6 mos",
+    "positions": [
+     {
+      "title": "Room to Grow | Software Engineer",
+      "locationName": "New York, New York, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "\n- Used Node.js (Express) to chain modularized middleware controller functions to handle responses and requests made from the client through HTTP REST endpoints effectively executing queries to a relational database taking advantage of Node’s single threaded event loop and non-blocking I/O\n- Designed a Postgres database and an efficient table joins s\\stem to store relational data between the user interests reinforcing ACID compliance protocols envisioning the data consistency, integrity and security of users information\n- Used React Hooks and Context API in order to maximize both current and future maintainability and modularity by separating stateful and presentational components while avoiding prop-drilling thus allowing components to be rendered based on user inputs and subsequent SQL queries",
+      "insights": ""
+     },
+     {
+      "title": "SmartNav | Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Lead the design and development team to build the navigation feature of the SmartNav RobotVac application using Java\n- Created and implemented navigation aspect of robot using the A* algorithm in order to have the robot efficiently move around and clean any floor plan inputted to it\n- Ensure disciplined approach to code management by performing unit testing with JUnit with high quality development and delivery practices through continuous integration with Travis CI and build automation with Maven\n- Operated within Agile SCRUM framework and wrote user requirements as stories, conducted daily stand ups and engaged in sprint planning",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Part of the RoME Lab concerned with modeling and controlling simulations of continuum manipulators in order to mimic snake locomotion",
+    "company": {
+     "url": "https://www.linkedin.com/company/42291/",
+     "name": "DePaul University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/42291/",
+    "schoolName": "DePaul University",
+    "degreeName": "Computer Science with Minors in Data Science and Mathematics",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Nantum AI",
+  "companyPublicId": "nantumai",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/nantumai/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:10822510",
+   "name": "Nantum AI",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQErC3xR-HWtWw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_"
+    }
+   },
+   "universalName": "nantumai",
+   "url": "https://www.linkedin.com/company/nantumai/",
+   "slug": "nantumai",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+   "specialties": []
+  },
+  "followerCount": 992,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 995,
+  "skills": [
+   {
+    "name": "Amazon S3",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Test Driven Development",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Version Control",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Test Driven Development",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Version Control",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "WebSocket",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Socket.io",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful architecture",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Express",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon S3",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "SQL",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 22,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "OAuth",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Redux",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Travis CI",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "R",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 18,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/vinit-za",
+  "linkedinUrl": "https://www.linkedin.com/in/vinit-za",
+  "profileUrl": "https://www.linkedin.com/in/vinit-za",
+  "verified": true,
+  "registeredAt": "2020-02-12T22:35:17.864Z",
+  "location": {
+   "linkedinText": "New York, New York, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York, New York, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Software engineer at Nantum AI, a building energy management platform helping reduce carbon emissions across NYC commercial real estate.\n\nThe past two years I've focused on the messy data-flow side of the platform. I tech-led a data-model migration that consolidated fragmented per-sensor configuration into a unified schema for electric, gas, and steam utilities. I also built the AWS pipeline (Step Functions task-tokens, Lambda, S3) that productionizes our research team's ML models for cleaning and bill-reconciling raw meter data — that data ends up powering energy-savings reports, emissions compliance, and demand forecasting. Most recently I've been hardening reliability (DLQ handling across 5 services) and migrated our monitoring workloads off a continuously-running ECS container onto scheduled Lambdas.\n\nBefore Nantum I was at Qrypt, a quantum-cryptography startup — built a Mattermost plugin using their quantum-entropy SDK for end-to-end encryption, and rewrote their Kafka consumer to cut deploy time 83%.\n\nHappy to chat about distributed systems, ML in production, agent tooling, or real-time pipelines. \n\nNYC based.\n\nhttps://github.com/v-za",
+  "currentTitle": "Backend Software Engineer",
+  "allTitles": [
+   "Backend Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Undergraduate Research Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Backend Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/10822510/",
+     "name": "Nantum AI",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y"
+     }
+    },
+    "position": "Backend Software Engineer",
+    "companyName": "Nantum AI",
+    "location": "New York, New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10822510/",
+    "companyId": "10822510",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/18223178/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 6 mos",
+    "positions": [
+     {
+      "title": "Room to Grow | Software Engineer",
+      "locationName": "New York, New York, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "\n- Used Node.js (Express) to chain modularized middleware controller functions to handle responses and requests made from the client through HTTP REST endpoints effectively executing queries to a relational database taking advantage of Node’s single threaded event loop and non-blocking I/O\n- Designed a Postgres database and an efficient table joins s\\stem to store relational data between the user interests reinforcing ACID compliance protocols envisioning the data consistency, integrity and security of users information\n- Used React Hooks and Context API in order to maximize both current and future maintainability and modularity by separating stateful and presentational components while avoiding prop-drilling thus allowing components to be rendered based on user inputs and subsequent SQL queries",
+      "insights": ""
+     },
+     {
+      "title": "SmartNav | Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Lead the design and development team to build the navigation feature of the SmartNav RobotVac application using Java\n- Created and implemented navigation aspect of robot using the A* algorithm in order to have the robot efficiently move around and clean any floor plan inputted to it\n- Ensure disciplined approach to code management by performing unit testing with JUnit with high quality development and delivery practices through continuous integration with Travis CI and build automation with Maven\n- Operated within Agile SCRUM framework and wrote user requirements as stories, conducted daily stand ups and engaged in sprint planning",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18223178/",
+    "companyId": "18223178",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Skills: MySQL · Software Design · Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/11250670/",
+     "name": "Qrypt",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Qrypt",
+    "location": "New York, New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11250670/",
+    "companyId": "11250670",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2021
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "- Designed the first Kafka-Websockets integration library, pre-packaged as an Node.js Module, to aid developers set up big data streaming and real time visualization applications by abstracting away repetitive code through modularized complex classes which create Kafka clients, set up connections between consumers and socket namespaces and provide users with additional functionality to interact with real time data\n- Developed entirely in TypeScript to enforce strict type checking to defer from undesired type coercion and increase consistency and explicitness with interfaces that categorically define data\n- Built a playground within a full-stack web application using React and Express  to visualize high velocity real time Kafka data streams, in order to demo the use of Kafka-Socks to connect Kafka streams directly to the browser\n- Utilized in Node.js, WebSocket protocol using socket.io to establish an open, interactive connection between the client  and middleware, facilitating real-time bi-directional event communication while reducing total HTTP overhead\n- Leveraged React and Chart.js to create a frontend architecture that can handle high latency real time data and visualize it in an interactive and customizable manner\n- Employed Jest to accomplish thorough unit and integration test coverage for the Node.js module, streamlining the development process and maintaining code quality by mocking up React components and ensuring correct renders\n- Product developed under opensourcelabs.io",
+    "insights": "Skills: MySQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/73209737/",
+     "name": "Kafka Socks",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Kafka Socks",
+    "location": "New York, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/73209737/",
+    "companyId": "73209737",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Part of the RoME Lab concerned with modeling and controlling simulations of continuum manipulators in order to mimic snake locomotion",
+    "company": {
+     "url": "https://www.linkedin.com/company/42291/",
+     "name": "DePaul University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "DePaul University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/42291/",
+    "companyId": "42291",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "10822510",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10822510/",
+    "companyName": "Nantum AI",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "18223178",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18223178/",
+    "companyName": "Open Source",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Backend Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/10822510/",
+     "name": "Nantum AI",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y"
+     }
+    },
+    "position": "Backend Software Engineer",
+    "companyName": "Nantum AI",
+    "location": "New York, New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10822510/",
+    "companyId": "10822510",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_400_400/company-logo_400_400/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=xLXkPPAQNdMGs-Ww5VuEjzP97P5BJvaILSl0JkUf08Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_200_200/company-logo_200_200/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=meLLSYi9jjLbqPO4eSIRhIBIjy_-RqFSLF_cFJ_kb0U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQErC3xR-HWtWw/company-logo_100_100/company-logo_100_100/0/1718726195575/nantumai_logo?e=1796860800&v=beta&t=VH_tNORP-AwOwHImQ3HVKpxLsQ7163ulNQfvWzv19No",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Skills: MySQL · Software Design · Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/11250670/",
+     "name": "Qrypt",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Qrypt",
+    "location": "New York, New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11250670/",
+    "companyId": "11250670",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 2021
+    },
+    "endDate": {
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_400_400/company-logo_400_400/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=vT4EdBad52WcLuVHbyG5sXhaISSuAy0ch0S-m0ckbk0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_200_200/company-logo_200_200/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=rbornlBW7kz71JHC3d7jMLDEXAkorhG6WMhJm4U9hh8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFItO3baw205g/company-logo_100_100/company-logo_100_100/0/1635776255636/qrypt_inc_logo?e=1796860800&v=beta&t=YpiardcOu20L-U0ipT42OXr2VWC7msO5psCMjxo2Kmc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "- Designed the first Kafka-Websockets integration library, pre-packaged as an Node.js Module, to aid developers set up big data streaming and real time visualization applications by abstracting away repetitive code through modularized complex classes which create Kafka clients, set up connections between consumers and socket namespaces and provide users with additional functionality to interact with real time data\n- Developed entirely in TypeScript to enforce strict type checking to defer from undesired type coercion and increase consistency and explicitness with interfaces that categorically define data\n- Built a playground within a full-stack web application using React and Express  to visualize high velocity real time Kafka data streams, in order to demo the use of Kafka-Socks to connect Kafka streams directly to the browser\n- Utilized in Node.js, WebSocket protocol using socket.io to establish an open, interactive connection between the client  and middleware, facilitating real-time bi-directional event communication while reducing total HTTP overhead\n- Leveraged React and Chart.js to create a frontend architecture that can handle high latency real time data and visualize it in an interactive and customizable manner\n- Employed Jest to accomplish thorough unit and integration test coverage for the Node.js module, streamlining the development process and maintaining code quality by mocking up React components and ensuring correct renders\n- Product developed under opensourcelabs.io",
+    "insights": "Skills: MySQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/73209737/",
+     "name": "Kafka Socks",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Kafka Socks",
+    "location": "New York, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/73209737/",
+    "companyId": "73209737",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_400_400/company-logo_400_400/0/1630521555886?e=1796860800&v=beta&t=bDD8jc-7xFM_lTtgVEPbDB3brlBgej1k74TCSmy_DFM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_200_200/company-logo_200_200/0/1630521555886?e=1796860800&v=beta&t=oNJUGXMAM-WYVYYulGjWt2tEhqZNkp2aO_hz78guIOk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQFs0QNdiH8uaQ/company-logo_100_100/company-logo_100_100/0/1630521555886?e=1796860800&v=beta&t=rZS8QCjZoAkmM5dN4f3N8Dc5ZGxd5oDhWVZdmZIqtRA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Open Source",
+     "url": "https://www.linkedin.com/company/18223178/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "1 yr 6 mos",
+    "positions": [
+     {
+      "title": "Room to Grow | Software Engineer",
+      "locationName": "New York, New York, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "6 mos",
+      "description": "\n- Used Node.js (Express) to chain modularized middleware controller functions to handle responses and requests made from the client through HTTP REST endpoints effectively executing queries to a relational database taking advantage of Node’s single threaded event loop and non-blocking I/O\n- Designed a Postgres database and an efficient table joins s\\stem to store relational data between the user interests reinforcing ACID compliance protocols envisioning the data consistency, integrity and security of users information\n- Used React Hooks and Context API in order to maximize both current and future maintainability and modularity by separating stateful and presentational components while avoiding prop-drilling thus allowing components to be rendered based on user inputs and subsequent SQL queries",
+      "insights": ""
+     },
+     {
+      "title": "SmartNav | Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Lead the design and development team to build the navigation feature of the SmartNav RobotVac application using Java\n- Created and implemented navigation aspect of robot using the A* algorithm in order to have the robot efficiently move around and clean any floor plan inputted to it\n- Ensure disciplined approach to code management by performing unit testing with JUnit with high quality development and delivery practices through continuous integration with Travis CI and build automation with Maven\n- Operated within Agile SCRUM framework and wrote user requirements as stories, conducted daily stand ups and engaged in sprint planning",
+      "insights": ""
+     }
+    ],
+    "companyName": "Open Source",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18223178/",
+    "companyId": "18223178",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_400_400/company-logo_400_400/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=3UFDbYADbewI5vB1CmMMqsqawcLBrWoTSQVRE8FWpR4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_200_200/company-logo_200_200/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=DI16sgLLZRD4QuFEYgB6s4nXt5VzBQbm8tJdtXROU28",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEnfnwYIkq6LA/company-logo_100_100/company-logo_100_100/0/1726188847716/open_source_projects_global_logo?e=1796860800&v=beta&t=8K-UrBaDx2WQn1ch7ZnEqYF8L-WNfYE7qOe2L8e2kBQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Part of the RoME Lab concerned with modeling and controlling simulations of continuum manipulators in order to mimic snake locomotion",
+    "company": {
+     "url": "https://www.linkedin.com/company/42291/",
+     "name": "DePaul University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "DePaul University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/42291/",
+    "companyId": "42291",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/42291/",
+    "schoolName": "DePaul University",
+    "degreeName": "Computer Science with Minors in Data Science and Mathematics",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/42291/",
+    "schoolId": "42291",
+    "degree": "Computer Science with Minors in Data Science and Mathematics",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_400_400/company-logo_400_400/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=eEh1sCWgM8aXKARmuw4TmFCSmAQiqrbkNWO21N3CHj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_200_200/company-logo_200_200/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=aFEb_eBwIwx6sWLWni8kTVWtISnU6KmbkeqaQOXuQ0Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGefZGT9-Ru5g/company-logo_100_100/company-logo_100_100/0/1631375527751/depaul_university_logo?e=1796860800&v=beta&t=bMT0liSWojXnbAsYMMBk4EoO2J2zzkkKqYsX4lSImkI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/42291/",
+    "schoolName": "DePaul University",
+    "degreeName": "Computer Science with Minors in Data Science and Mathematics",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/42291/",
+    "schoolId": "42291",
+    "degree": "Computer Science with Minors in Data Science and Mathematics",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/vinit-za"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T17:01:05.122Z",
+ "foundBy": null
+}

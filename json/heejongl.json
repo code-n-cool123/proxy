@@ -1,0 +1,1694 @@
+{
+ "slug": "heejongl",
+ "inputUrl": "https://www.linkedin.com/in/heejongl",
+ "fetchedAt": "2026-10-30T21:49:15.814Z",
+ "id": "6ae510db4f8d6cb6ddd5a473",
+ "url": "https://www.linkedin.com/in/heejongl",
+ "profile": {
+  "created": 1369411778952,
+  "trackingId": "b9Q0J9vDQNCRkTMff7TLgQ==",
+  "firstName": "Heejong",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "1320811140",
+  "headline": "Software Engineer",
+  "publicIdentifier": "heejongl",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "257781486",
+  "profileId": "ACoAAA9dbu4BK6JMzgOkQu9Xge9MnIruzKy4xwk",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I am a seasoned software engineer with extensive experience in distributed streaming data processing, scalable microservice architecture, and static program analysis-based software testing. As an Apache Beam committer, I have focused on improving SDK language portability across platforms. I also led the development of Sparrow, a leading static analysis-based software testing solution in Korea.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led a large-scale migration of server-side computation in ZippyDB, Meta’s distributed key-value store, from a limited expression DSL to a bytecode-compiled language platform, driving adoption from an early rollout to near completion. Built production-grade validation safeguards and delivered core language and compiler features including pattern matching, tuples, casting, native-function integration, and expanded syntax.\n\n- Improved correctness, reliability, and maintainability through formal verification, fuzzing, equivalence testing, and statistically rigorous performance benchmarking. Built cross-language schema and type-system tooling across Python, Hack, C++, and Rust, and led code-quality automation that eliminated 1,000+ issues.\n\n- Expanded the platform and developer ecosystem through build infrastructure, code generation, command-line tooling, and customer discovery. Drove technical direction through design proposals and cross-team collaboration, mentored engineers, and explored AI-assisted approaches to research and compiler optimization.",
+    "insights": "Skills: Thrift · C++ · Rust · AI Agent",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer II",
+    "locationName": "San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "- Enhanced analysis result quality for popular programming languages (Java, JS/TS, Go, Python, Scala), encompassing tasks from maintaining tree-sitter parsers to optimizing dataflow analyzers and pattern matchers. Additionally, designed and developed enhancements for type and name inference in target source code, including virtual method invocation resolution and semantic querying operators for metavariables (e.g., querying entity types or fully qualified names). Also designed and implemented cross-file differential (PR) scanning, which significantly reduced scan times while maintaining result quality.",
+    "insights": "Skills: OCaml · Static Analysis · Tree-sitter",
+    "company": {
+     "url": "https://www.linkedin.com/company/18309569/",
+     "name": "Semgrep",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sunnyvale, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "- Contributing to designing and implementation of Apache Beam. Improving the stability and the performance of various IO modules such as ParquetIO, BigQueryIO, KafkaIO and TextIO. Improving the portability and the performance of Dataflow runner, Flink runner and Java/Python worker harnesses. Contributing to a new artifact staging model and API for multi-language pipelines.",
+    "insights": "Skills: Apache Beam · Google Cloud Platform (GCP) · Java · Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4"
+     }
+    }
+   },
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Milpitas, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "- Developing a data proxy service which aims to provide a uniform RESTful interface for querying heterogeneous databases such as Postgres, Impala and AWS Athena. Built with Finagle, Thrift, Doobie and Scala.\n\n- Developing static analyzers for Android and iOS apps to detect any malicious behavior. Built with Soot, Capstone disassembler, Fastparse and Scala.",
+    "insights": "Skills: Scala · REST APIs · Microservices",
+    "company": {
+     "url": "https://www.linkedin.com/company/44195/",
+     "name": "FireEye, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M"
+     }
+    }
+   },
+   {
+    "title": "Research Engineer",
+    "locationName": "Mapo District, Seoul, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "7 yrs 1 mo",
+    "description": "Lead developer of Sparrow Java, the static program analyzer for finding semantic bugs such as null dereferences and resource leaks. Built with Soot, Antlr and Scala.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1528528/",
+     "name": "Fasoo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw"
+     }
+    }
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Developing static analysis framework for Android applications",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "UC Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA"
+     }
+    }
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2005
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Developing general recommendation engine for NSDL",
+    "company": {
+     "url": "https://www.linkedin.com/company/165198/",
+     "name": "NJIT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master of Science (MS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2008
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_200_200/company-logo_200_200/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=4jHPxzdUJtO6x1DH-baN-r37siyX5PUGfVGY0ou4HEY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_100_100/company-logo_100_100/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=fqALY4fPF2ectrvgQ1Lh4gtzf3wRjBJ977SgvIH9gWM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_400_400/company-logo_400_400/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=60FP-lAHQGfL6aw9MgNHIyRXgPUM5OTnDHiSLZx24LI"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15095344/",
+    "schoolName": "Korea Advanced Institute of Science and Technology",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2001
+     },
+     "endDate": {
+      "year": 2005
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Machine Learning",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Machine Learning",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Korean",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Meta",
+  "companyPublicId": "meta",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/meta/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:10667",
+   "name": "Meta",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHpGLIanfsREg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_"
+    }
+   },
+   "universalName": "meta",
+   "url": "https://www.linkedin.com/company/meta/",
+   "slug": "meta",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+   "specialties": []
+  },
+  "followerCount": 165,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 158,
+  "skills": [
+   {
+    "name": "Rust",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agent",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tree-sitter",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Beam",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Thrift",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scala",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Static Analysis",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Linux System Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming Languages",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Compilers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Static Analysis",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Linux System Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming Languages",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Compilers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Compiler Construction",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Emacs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OCaml",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rust",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Beam",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scala",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/heejongl",
+  "linkedinUrl": "https://www.linkedin.com/in/heejongl",
+  "profileUrl": "https://www.linkedin.com/in/heejongl",
+  "verified": true,
+  "registeredAt": "2013-05-24T16:09:38.952Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I am a seasoned software engineer with extensive experience in distributed streaming data processing, scalable microservice architecture, and static program analysis-based software testing. As an Apache Beam committer, I have focused on improving SDK language portability across platforms. I also led the development of Sparrow, a leading static analysis-based software testing solution in Korea.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Software Engineer II",
+   "Software Engineer",
+   "Senior Staff Software Engineer",
+   "Research Engineer",
+   "Visiting Scholar",
+   "Visiting Scholar"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led a large-scale migration of server-side computation in ZippyDB, Meta’s distributed key-value store, from a limited expression DSL to a bytecode-compiled language platform, driving adoption from an early rollout to near completion. Built production-grade validation safeguards and delivered core language and compiler features including pattern matching, tuples, casting, native-function integration, and expanded syntax.\n\n- Improved correctness, reliability, and maintainability through formal verification, fuzzing, equivalence testing, and statistically rigorous performance benchmarking. Built cross-language schema and type-system tooling across Python, Hack, C++, and Rust, and led code-quality automation that eliminated 1,000+ issues.\n\n- Expanded the platform and developer ecosystem through build infrastructure, code generation, command-line tooling, and customer discovery. Drove technical direction through design proposals and cross-team collaboration, mentored engineers, and explored AI-assisted approaches to research and compiler optimization.",
+    "insights": "Skills: Thrift · C++ · Rust · AI Agent",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Meta",
+    "location": "Menlo Park, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer II",
+    "locationName": "San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "- Enhanced analysis result quality for popular programming languages (Java, JS/TS, Go, Python, Scala), encompassing tasks from maintaining tree-sitter parsers to optimizing dataflow analyzers and pattern matchers. Additionally, designed and developed enhancements for type and name inference in target source code, including virtual method invocation resolution and semantic querying operators for metavariables (e.g., querying entity types or fully qualified names). Also designed and implemented cross-file differential (PR) scanning, which significantly reduced scan times while maintaining result quality.",
+    "insights": "Skills: OCaml · Static Analysis · Tree-sitter",
+    "company": {
+     "url": "https://www.linkedin.com/company/18309569/",
+     "name": "Semgrep",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8"
+     }
+    },
+    "position": "Senior Software Engineer II",
+    "companyName": "Semgrep",
+    "location": "San Francisco, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18309569/",
+    "companyId": "18309569",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sunnyvale, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "- Contributing to designing and implementation of Apache Beam. Improving the stability and the performance of various IO modules such as ParquetIO, BigQueryIO, KafkaIO and TextIO. Improving the portability and the performance of Dataflow runner, Flink runner and Java/Python worker harnesses. Contributing to a new artifact staging model and API for multi-language pipelines.",
+    "insights": "Skills: Apache Beam · Google Cloud Platform (GCP) · Java · Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Sunnyvale, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Milpitas, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "- Developing a data proxy service which aims to provide a uniform RESTful interface for querying heterogeneous databases such as Postgres, Impala and AWS Athena. Built with Finagle, Thrift, Doobie and Scala.\n\n- Developing static analyzers for Android and iOS apps to detect any malicious behavior. Built with Soot, Capstone disassembler, Fastparse and Scala.",
+    "insights": "Skills: Scala · REST APIs · Microservices",
+    "company": {
+     "url": "https://www.linkedin.com/company/44195/",
+     "name": "FireEye, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "FireEye, Inc.",
+    "location": "Milpitas, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/44195/",
+    "companyId": "44195",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Engineer",
+    "locationName": "Mapo District, Seoul, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "7 yrs 1 mo",
+    "description": "Lead developer of Sparrow Java, the static program analyzer for finding semantic bugs such as null dereferences and resource leaks. Built with Soot, Antlr and Scala.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1528528/",
+     "name": "Fasoo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw"
+     }
+    },
+    "position": "Research Engineer",
+    "companyName": "Fasoo",
+    "location": "Mapo District, Seoul, South Korea",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1528528/",
+    "companyId": "1528528",
+    "duration": "7 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Developing static analysis framework for Android applications",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "UC Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA"
+     }
+    },
+    "position": "Visiting Scholar",
+    "companyName": "UC Berkeley",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "companyId": "2517",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2005
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Developing general recommendation engine for NSDL",
+    "company": {
+     "url": "https://www.linkedin.com/company/165198/",
+     "name": "NJIT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE"
+     }
+    },
+    "position": "Visiting Scholar",
+    "companyName": "NJIT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165198/",
+    "companyId": "165198",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2005
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "10667",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyName": "Meta",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led a large-scale migration of server-side computation in ZippyDB, Meta’s distributed key-value store, from a limited expression DSL to a bytecode-compiled language platform, driving adoption from an early rollout to near completion. Built production-grade validation safeguards and delivered core language and compiler features including pattern matching, tuples, casting, native-function integration, and expanded syntax.\n\n- Improved correctness, reliability, and maintainability through formal verification, fuzzing, equivalence testing, and statistically rigorous performance benchmarking. Built cross-language schema and type-system tooling across Python, Hack, C++, and Rust, and led code-quality automation that eliminated 1,000+ issues.\n\n- Expanded the platform and developer ecosystem through build infrastructure, code generation, command-line tooling, and customer discovery. Drove technical direction through design proposals and cross-team collaboration, mentored engineers, and explored AI-assisted approaches to research and compiler optimization.",
+    "insights": "Skills: Thrift · C++ · Rust · AI Agent",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Meta",
+    "location": "Menlo Park, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Software Engineer II",
+    "locationName": "San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "- Enhanced analysis result quality for popular programming languages (Java, JS/TS, Go, Python, Scala), encompassing tasks from maintaining tree-sitter parsers to optimizing dataflow analyzers and pattern matchers. Additionally, designed and developed enhancements for type and name inference in target source code, including virtual method invocation resolution and semantic querying operators for metavariables (e.g., querying entity types or fully qualified names). Also designed and implemented cross-file differential (PR) scanning, which significantly reduced scan times while maintaining result quality.",
+    "insights": "Skills: OCaml · Static Analysis · Tree-sitter",
+    "company": {
+     "url": "https://www.linkedin.com/company/18309569/",
+     "name": "Semgrep",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8"
+     }
+    },
+    "position": "Senior Software Engineer II",
+    "companyName": "Semgrep",
+    "location": "San Francisco, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18309569/",
+    "companyId": "18309569",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_400_400/B4EZ0HVoazHYAY-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=R3DwmP4Jf0SrF8HaXOqIPnEi3Eh0O7dn-HuMxJlkJWQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_200_200/B4EZ0HVoazHYAI-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=-ysghT4hn04E4GfC36uD96Z3W9HDa-UY5_g5pUzicZ8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGtV9HoySEvqg/company-logo_100_100/B4EZ0HVoazHYAQ-/0/1773944604661/semgrep_logo?e=1795046400&v=beta&t=ReHTv0DK3Twt1Aev3pvp4bhV5n1eRgWpvUX2s3Qv_j8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Sunnyvale, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "- Contributing to designing and implementation of Apache Beam. Improving the stability and the performance of various IO modules such as ParquetIO, BigQueryIO, KafkaIO and TextIO. Improving the portability and the performance of Dataflow runner, Flink runner and Java/Python worker harnesses. Contributing to a new artifact staging model and API for multi-language pipelines.",
+    "insights": "Skills: Apache Beam · Google Cloud Platform (GCP) · Java · Python",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Sunnyvale, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795046400&v=beta&t=3YDJ5FLhpwQKuvUu9t8-8Y5588Z0yjwiHNcC6Tm7kd4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795046400&v=beta&t=LfPfTByxmbpqFFPWjyzUJpaCMnwlrxP8p3q4FGuxS_c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795046400&v=beta&t=XTLTCr45JFqdVLgmuGJ8tTXL6Ex3gliZ_XFg9r6kALw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Milpitas, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "- Developing a data proxy service which aims to provide a uniform RESTful interface for querying heterogeneous databases such as Postgres, Impala and AWS Athena. Built with Finagle, Thrift, Doobie and Scala.\n\n- Developing static analyzers for Android and iOS apps to detect any malicious behavior. Built with Soot, Capstone disassembler, Fastparse and Scala.",
+    "insights": "Skills: Scala · REST APIs · Microservices",
+    "company": {
+     "url": "https://www.linkedin.com/company/44195/",
+     "name": "FireEye, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "FireEye, Inc.",
+    "location": "Milpitas, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/44195/",
+    "companyId": "44195",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_400_400/company-logo_400_400/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=PtXdR_9eEBqNgYte85WlSCuu2BmLu-9gLf1cawjrt-M",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_200_200/company-logo_200_200/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=Rf9s5ItAiy1Izww6rD7doYrj6qskgNSoLLPnpwXaFKg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEIq9gcQ3Yf4w/company-logo_100_100/company-logo_100_100/0/1630536361908/fireeye_logo?e=1795046400&v=beta&t=6g3qVVcigNxCng_1WVWJowrW4rvyaFLtv1ZWQl5wz1k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Engineer",
+    "locationName": "Mapo District, Seoul, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "7 yrs 1 mo",
+    "description": "Lead developer of Sparrow Java, the static program analyzer for finding semantic bugs such as null dereferences and resource leaks. Built with Soot, Antlr and Scala.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1528528/",
+     "name": "Fasoo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw"
+     }
+    },
+    "position": "Research Engineer",
+    "companyName": "Fasoo",
+    "location": "Mapo District, Seoul, South Korea",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1528528/",
+    "companyId": "1528528",
+    "duration": "7 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_400_400/B56Z3befeVKwAY-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=-1Ib04BwsCPgcb0OpJtTm1B7f1qFE_fif85qpdvCvKY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_200_200/B56Z3befeVKwAI-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=WzN0nf06WFfKAaP2WAPYkhDYeoW8ihKLvMImEAg3yJE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHhQMsGCjIhww/company-logo_100_100/B56Z3befeVKwAQ-/0/1777503697171/fasoo_ai_logo?e=1795046400&v=beta&t=jDtBA5wwSwJKAUxyC2--22iCJdDM4BOhxVNYgUcQRhw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Developing static analysis framework for Android applications",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "UC Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA"
+     }
+    },
+    "position": "Visiting Scholar",
+    "companyName": "UC Berkeley",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "companyId": "2517",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=V24BSkCqRUy17JyNIvSkWdIA_RqegsYE5cz1qykZMRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1795046400&v=beta&t=8fW-h3Dq5EGMtyC9w2sizwPmyz_JQUV_uvnjfj2Yn1o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1795046400&v=beta&t=edt4ugpyBaa_RMb3Ua3ye0aFSfiucOAQQ0AdehccYNM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Visiting Scholar",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2005
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Developing general recommendation engine for NSDL",
+    "company": {
+     "url": "https://www.linkedin.com/company/165198/",
+     "name": "NJIT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE"
+     }
+    },
+    "position": "Visiting Scholar",
+    "companyName": "NJIT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/165198/",
+    "companyId": "165198",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2005
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_400_400/company-logo_400_400/0/1630582551756/njit_logo?e=1795046400&v=beta&t=Be_3F8veOEK53Ve-HbeB9h9HLPsH-l_-Z_71YPo07fE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_200_200/company-logo_200_200/0/1630582551756/njit_logo?e=1795046400&v=beta&t=1yrOxts_5-TpdktHdnBWUfeeMNhfdAkWRKoTWMCgQXw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGeM2xL_Ibjhw/company-logo_100_100/company-logo_100_100/0/1630582551756/njit_logo?e=1795046400&v=beta&t=mEgtD4QHdrw8gukyaODfbsf912C1qty13QmlaPngWXM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master of Science (MS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Master of Science (MS)",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2008
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_200_200/company-logo_200_200/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=4jHPxzdUJtO6x1DH-baN-r37siyX5PUGfVGY0ou4HEY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_100_100/company-logo_100_100/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=fqALY4fPF2ectrvgQ1Lh4gtzf3wRjBJ977SgvIH9gWM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_400_400/company-logo_400_400/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=60FP-lAHQGfL6aw9MgNHIyRXgPUM5OTnDHiSLZx24LI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_400_400/company-logo_400_400/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=60FP-lAHQGfL6aw9MgNHIyRXgPUM5OTnDHiSLZx24LI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_400_400/company-logo_400_400/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=60FP-lAHQGfL6aw9MgNHIyRXgPUM5OTnDHiSLZx24LI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_200_200/company-logo_200_200/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=4jHPxzdUJtO6x1DH-baN-r37siyX5PUGfVGY0ou4HEY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH3lOPH-h1Hew/company-logo_100_100/company-logo_100_100/0/1734401187907/_kaist__logo?e=1795046400&v=beta&t=fqALY4fPF2ectrvgQ1Lh4gtzf3wRjBJ977SgvIH9gWM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15095344/",
+    "schoolName": "Korea Advanced Institute of Science and Technology",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2001
+     },
+     "endDate": {
+      "year": 2005
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15095344/",
+    "schoolId": "15095344",
+    "degree": "Bachelor of Science (BS)",
+    "skills": [],
+    "startDate": {
+     "year": 2001
+    },
+    "endDate": {
+     "year": 2005
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Master of Science (MS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Master of Science (MS)",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2008
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516463738314?e=1795046400&v=beta&t=_rrw6Gpq_pCsmgV7Vfh4RDEgZxnoYl0jXe62COasOxY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEa4E6yv-ERpw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516463738336?e=1795046400&v=beta&t=52e1XOnQxxGCc0IjawwkbfNOM7gnX8to0QEXJU9VIrc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/heejongl"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T21:48:59.231Z",
+ "foundBy": null
+}

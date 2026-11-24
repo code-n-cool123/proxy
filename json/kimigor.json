@@ -1,0 +1,1603 @@
+{
+ "slug": "kimigor",
+ "inputUrl": "https://www.linkedin.com/in/kimigor",
+ "fetchedAt": "2026-11-13T02:06:31.467Z",
+ "id": "6af670a7326d0b70b7e2464b",
+ "url": "https://www.linkedin.com/in/kimigor",
+ "profile": {
+  "created": 1273160759000,
+  "trackingId": "LWFIqyxfRGmVeXEkvbYrqw==",
+  "firstName": "Igor",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "751058983",
+  "headline": "Senior Staff Software Engineer | Go & Java | Distributed Systems, Kubernetes & Storage | Video & AI Infrastructure",
+  "publicIdentifier": "kimigor",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "75062583",
+  "profileId": "ACoAAAR5XTcBVUpzmZTffEql2bUZMY9rxxKv_hM",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000664",
+  "geoLocationName": "Raleigh-Durham-Chapel Hill Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Staff Software Engineer",
+  "summary": "I’m a hands-on Senior Staff Software Engineer building distributed systems in Java and Go, from application backends to Kubernetes-native infrastructure, storage, and real-time video platforms.\nAs the first developer on Blaize AI Studio, I helped establish its architecture and engineering foundations and remain a core contributor to its Java/Spring, MongoDB, and RabbitMQ platform. My work includes DSFS, a dataset storage system adopted internally for AI training and company projects; a device plugin used across all Blaize Kubernetes-based projects; and operators for workflows, databases, and full-platform deployment.\nI also architected and led development of Blaize Media Plane, evolving STM from a standalone stream manager into an edge-to-cloud platform for video streaming, recording, and distributed AI analytics. It supports frame-synchronized AI metadata, searchable video archives, and autonomous edge operation. STM is currently being integrated into Blaize’s video analytics solutions.\nPreviously, at Deutsche Bank, I developed Java components for GBA, which processes hundreds of thousands of trades daily across the Americas, Europe, and Asia. I received an award for inventing a Cucumber-based testing framework with an embedded visual debugger that significantly improved the US engineering team’s productivity.\nI combine hands-on architecture and implementation with technical leadership, mentoring, and a focus on practical adoption. Since 2022, I have managed the engineer responsible for the developer infrastructure and DevOps environment I established at Blaize.\nBased in Wake Forest, North Carolina. U.S. citizen. Open to senior and staff-level software engineering opportunities in the Research Triangle and remotely across the United States.",
+  "positions": [
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Cary, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "First developer on Blaize AI Studio; established its initial architecture and codebase and remain a core contributor (Go, Java, Spring Framework, MongoDB, RabbitMQ, React). Progressed from Senior to Staff to Senior Staff Software Engineer.\n• Invented DSFS in Go, adopted internally for AI-training dataset storage and company projects: S3-backed content-addressed storage, deduplication, index-based versioning, read-only POSIX FUSE, fast import/export, and Kubernetes CSI.\n• Architected and led Blaize Media Plane, evolving STM into an edge-to-cloud video, recording, and AI analytics platform. Enabled distributed inference, independently identifiable metadata tracks, low-latency frame-synchronized overlays, searchable archives, and retrospective analytics. STM is being integrated into Blaize video analytics solutions. Defined HA and workload-distribution designs targeting up to one million streams.\n• Built Blaize’s Go device plugin for GSP accelerators, used in all Kubernetes-based company projects.\n• Architected and implemented Process Manager (Go/Kubebuilder) for multi-step workflows using DSFS for data exchange; built separate MongoDB and Redis lifecycle operators.\n• Built the full AI Studio deployment operator for Blaize AI Racks, adapting databases, ingress, storage, identity, and video to cluster resources, with an embedded AI agent guiding less experienced users.\n• Created EdgeProxy (Go/gRPC) for access behind NAT/firewalls and an on-premises OAuth2/OIDC/JWT auth server.\n• Established the NC datacenter, Kubernetes developer platform, SDLC, and CI/CD. Since 2022, manage one direct report responsible for daily infrastructure and DevOps operations.\nEngineering practices: Prometheus-compatible metrics across components; AI-assisted development guided by specifications, tests, reviews, and verification.",
+    "insights": "Skills: Distributed File Systems · gRPC · Webrtc · MongoDB · RabbitMQ · Live Video Streaming · HTTP Live Streaming",
+    "company": {
+     "url": "https://www.linkedin.com/company/30582280/",
+     "name": "Blaize",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs"
+     }
+    }
+   },
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Developed Java components for Global Booking and Allocating (GBA), an asynchronous, low-latency, in-memory platform processing hundreds of thousands of trades daily across the Americas, Europe, and Asia.\n• Migrated Tracer functionality into GBA, contributing across architecture, implementation, testing, and delivery.\n• Received an award for inventing a Cucumber-based testing framework with an embedded visual debugger that significantly increased the US engineering team’s productivity.\nFocus: Java, distributed systems, asynchronous processing, low-latency software, trade processing, and automated testing.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1262/",
+     "name": "Deutsche Bank",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc"
+     }
+    }
+   },
+   {
+    "title": "Lead Java Developer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "Lead Java Developer on the Deutsche Bank account. Relocated from Moscow to Cary, NC in September 2013, continuing the same client engagement without a break.\nHighlights across the Luxoft / Deutsche Bank engagement (2010–2017):\n• Developed distributed trade-capture, order-management, and financial integration systems in Java.\n• Designed a reusable trade-matching API and algorithm adopted across GBA modules; improved legacy Tracer performance and reliability during migration.\n• Implemented rules-driven Auto IOI matching and redesigned TradeConnect monitoring and ICE market-data integration.\n• Built federated search and automated deployment for a financial portal spanning 40+ production servers in the US, UK, and Singapore.\nFocus: Java, Spring Framework, distributed systems, financial messaging, trade processing, and integration.",
+    "company": {
+     "url": "",
+     "name": "Luxoft USA",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Java Developer",
+    "locationName": "Moscow",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Senior Java Developer on the Deutsche Bank account, contributing to the Finance Portal, Order Management System, and Commodities AS projects.\n• Developed Java/Spring enterprise applications, order-management functionality, and financial integrations using FIX, JMS, and relational databases.\n• Contributed to ongoing delivery, refactoring, and integration across portal and trading systems.\nTechnologies: Java, Spring Framework, Hibernate/JPA, JMS, FIX/QuickFIX/J, Drools, Liferay, Alfresco, Oracle, Sybase, JavaScript, and Unix shell scripting.\nRelocated to Cary, NC in September 2013 to continue the same Deutsche Bank engagement through Luxoft USA. Consolidated engagement achievements are listed under Luxoft USA.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5300/",
+     "name": "Luxoft",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo"
+     }
+    }
+   },
+   {
+    "title": "Head of software development department",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2010
+     }
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Led four engineers developing the Social Card for Moscow Citizens issuance and transaction platform, holding 12M+ cards and 2B+ transactions and processing 150M–200M transactions monthly.\n• Combined team leadership and project delivery with hands-on Java enterprise architecture and software development.\n• Owned planning, delivery, acceptance testing, mentoring, and hiring.\n• Created a business-process engine with graphical notation and a development IDE, using Swing, JGraph, Groovy, Drools, and Spring.\n• Designed an event-driven entity lifecycle framework to manage entity behavior according to its state.\n• Built JSquib, an Ajax UI framework based on the Model-View-Presenter pattern.\nTechnologies: Java, Spring Framework, Hibernate, Oracle, EJB, Drools, Groovy, Swing, and JavaScript.",
+    "company": {
+     "url": "",
+     "name": "Moscow Social Register",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Project Manager, J2EE Architect, Application Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "System design engineering, Software development, Project management\n\nUsed skills: J2EE, EJB, Oracle ADF+BC, Oracle DBMS 10g, JSP, SAP tRFC, Mainframe integration with termcap",
+    "company": {
+     "url": "https://www.linkedin.com/company/62360/",
+     "name": "Avicomp Services",
+     "logo": {}
+    }
+   },
+   {
+    "title": "IT Director",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2004
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Responsibilities:\n- Decision making in IT field\n- Project management. \n- Software development in key areas (own web-application server and some frameworks)\n\nUsed skills: J2EE, Servlets, Multithreading, Object pooling, Integration, Runtime classloading, Network protocols (TCP/IP, HTTP, SSL, Telnet, SMTP), HTML, JNDI SPI API, JCA, JAAS, J2EE Patterns, UML",
+    "company": {
+     "url": "",
+     "name": "ETG Inc., Tashkent",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Project Expert",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2000
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "IT consulting, System design engineering, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Happening Relations Sarl.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Lead Infrastructure Engineer",
+    "locationName": "Tashkent",
+    "timePeriod": {
+     "startDate": {
+      "year": 1998
+     },
+     "endDate": {
+      "year": 2000
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Network equipment support and maintenance, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Asaka Bank",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Tashkent State Technical University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1993
+     },
+     "endDate": {
+      "year": 1998
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Machine Learning",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Machine Learning",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Russian",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Blaize",
+  "companyPublicId": "blaize-ai",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/blaize-ai/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:30582280",
+   "name": "Blaize",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQH-6Vnu0tV_mg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+       "expiresAt": 1796256000000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+       "expiresAt": 1796256000000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_"
+    }
+   },
+   "universalName": "blaize-ai",
+   "url": "https://www.linkedin.com/company/blaize-ai/",
+   "slug": "blaize-ai",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+   "specialties": []
+  },
+  "followerCount": 462,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 462,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring",
+    "endorsements": 25,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed File Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Live Video Streaming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RabbitMQ",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Webrtc",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTTP Live Streaming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AJAX",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Hibernate",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "J2EE",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Tomcat",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "EJB",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "OOP",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed File Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Live Video Streaming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RabbitMQ",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Webrtc",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "OOP",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Design Patterns",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Architecture",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "JSTL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Log4j",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "JAXB",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Unix Shell Scripting",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "XSL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Spring",
+    "endorsements": 25,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AJAX",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Hibernate",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "J2EE",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Tomcat",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "EJB",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Servlets",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "JSP",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "J2SE",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "JSON",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "REST",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "SOAP",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "JDBC",
+    "endorsements": 7,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/kimigor",
+  "linkedinUrl": "https://www.linkedin.com/in/kimigor",
+  "profileUrl": "https://www.linkedin.com/in/kimigor",
+  "verified": true,
+  "registeredAt": "2010-05-06T15:45:59.000Z",
+  "location": {
+   "linkedinText": "Raleigh-Durham-Chapel Hill Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Raleigh-Durham-Chapel Hill Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I’m a hands-on Senior Staff Software Engineer building distributed systems in Java and Go, from application backends to Kubernetes-native infrastructure, storage, and real-time video platforms.\nAs the first developer on Blaize AI Studio, I helped establish its architecture and engineering foundations and remain a core contributor to its Java/Spring, MongoDB, and RabbitMQ platform. My work includes DSFS, a dataset storage system adopted internally for AI training and company projects; a device plugin used across all Blaize Kubernetes-based projects; and operators for workflows, databases, and full-platform deployment.\nI also architected and led development of Blaize Media Plane, evolving STM from a standalone stream manager into an edge-to-cloud platform for video streaming, recording, and distributed AI analytics. It supports frame-synchronized AI metadata, searchable video archives, and autonomous edge operation. STM is currently being integrated into Blaize’s video analytics solutions.\nPreviously, at Deutsche Bank, I developed Java components for GBA, which processes hundreds of thousands of trades daily across the Americas, Europe, and Asia. I received an award for inventing a Cucumber-based testing framework with an embedded visual debugger that significantly improved the US engineering team’s productivity.\nI combine hands-on architecture and implementation with technical leadership, mentoring, and a focus on practical adoption. Since 2022, I have managed the engineer responsible for the developer infrastructure and DevOps environment I established at Blaize.\nBased in Wake Forest, North Carolina. U.S. citizen. Open to senior and staff-level software engineering opportunities in the Research Triangle and remotely across the United States.",
+  "currentTitle": "Senior Staff Software Engineer",
+  "allTitles": [
+   "Senior Staff Software Engineer",
+   "Lead Software Engineer",
+   "Lead Java Developer",
+   "Senior Java Developer",
+   "Head of software development department",
+   "Project Manager, J2EE Architect, Application Developer",
+   "IT Director",
+   "Project Expert",
+   "Lead Infrastructure Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Cary, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "First developer on Blaize AI Studio; established its initial architecture and codebase and remain a core contributor (Go, Java, Spring Framework, MongoDB, RabbitMQ, React). Progressed from Senior to Staff to Senior Staff Software Engineer.\n• Invented DSFS in Go, adopted internally for AI-training dataset storage and company projects: S3-backed content-addressed storage, deduplication, index-based versioning, read-only POSIX FUSE, fast import/export, and Kubernetes CSI.\n• Architected and led Blaize Media Plane, evolving STM into an edge-to-cloud video, recording, and AI analytics platform. Enabled distributed inference, independently identifiable metadata tracks, low-latency frame-synchronized overlays, searchable archives, and retrospective analytics. STM is being integrated into Blaize video analytics solutions. Defined HA and workload-distribution designs targeting up to one million streams.\n• Built Blaize’s Go device plugin for GSP accelerators, used in all Kubernetes-based company projects.\n• Architected and implemented Process Manager (Go/Kubebuilder) for multi-step workflows using DSFS for data exchange; built separate MongoDB and Redis lifecycle operators.\n• Built the full AI Studio deployment operator for Blaize AI Racks, adapting databases, ingress, storage, identity, and video to cluster resources, with an embedded AI agent guiding less experienced users.\n• Created EdgeProxy (Go/gRPC) for access behind NAT/firewalls and an on-premises OAuth2/OIDC/JWT auth server.\n• Established the NC datacenter, Kubernetes developer platform, SDLC, and CI/CD. Since 2022, manage one direct report responsible for daily infrastructure and DevOps operations.\nEngineering practices: Prometheus-compatible metrics across components; AI-assisted development guided by specifications, tests, reviews, and verification.",
+    "insights": "Skills: Distributed File Systems · gRPC · Webrtc · MongoDB · RabbitMQ · Live Video Streaming · HTTP Live Streaming",
+    "company": {
+     "url": "https://www.linkedin.com/company/30582280/",
+     "name": "Blaize",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "Blaize",
+    "location": "Cary, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30582280/",
+    "companyId": "30582280",
+    "duration": "7 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Developed Java components for Global Booking and Allocating (GBA), an asynchronous, low-latency, in-memory platform processing hundreds of thousands of trades daily across the Americas, Europe, and Asia.\n• Migrated Tracer functionality into GBA, contributing across architecture, implementation, testing, and delivery.\n• Received an award for inventing a Cucumber-based testing framework with an embedded visual debugger that significantly increased the US engineering team’s productivity.\nFocus: Java, distributed systems, asynchronous processing, low-latency software, trade processing, and automated testing.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1262/",
+     "name": "Deutsche Bank",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc"
+     }
+    },
+    "position": "Lead Software Engineer",
+    "companyName": "Deutsche Bank",
+    "location": "Cary, NC, USA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1262/",
+    "companyId": "1262",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Java Developer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "Lead Java Developer on the Deutsche Bank account. Relocated from Moscow to Cary, NC in September 2013, continuing the same client engagement without a break.\nHighlights across the Luxoft / Deutsche Bank engagement (2010–2017):\n• Developed distributed trade-capture, order-management, and financial integration systems in Java.\n• Designed a reusable trade-matching API and algorithm adopted across GBA modules; improved legacy Tracer performance and reliability during migration.\n• Implemented rules-driven Auto IOI matching and redesigned TradeConnect monitoring and ICE market-data integration.\n• Built federated search and automated deployment for a financial portal spanning 40+ production servers in the US, UK, and Singapore.\nFocus: Java, Spring Framework, distributed systems, financial messaging, trade processing, and integration.",
+    "company": {
+     "url": "",
+     "name": "Luxoft USA",
+     "logo": {}
+    },
+    "position": "Lead Java Developer",
+    "companyName": "Luxoft USA",
+    "location": "Cary, NC, USA",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Java Developer",
+    "locationName": "Moscow",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Senior Java Developer on the Deutsche Bank account, contributing to the Finance Portal, Order Management System, and Commodities AS projects.\n• Developed Java/Spring enterprise applications, order-management functionality, and financial integrations using FIX, JMS, and relational databases.\n• Contributed to ongoing delivery, refactoring, and integration across portal and trading systems.\nTechnologies: Java, Spring Framework, Hibernate/JPA, JMS, FIX/QuickFIX/J, Drools, Liferay, Alfresco, Oracle, Sybase, JavaScript, and Unix shell scripting.\nRelocated to Cary, NC in September 2013 to continue the same Deutsche Bank engagement through Luxoft USA. Consolidated engagement achievements are listed under Luxoft USA.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5300/",
+     "name": "Luxoft",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo"
+     }
+    },
+    "position": "Senior Java Developer",
+    "companyName": "Luxoft",
+    "location": "Moscow",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5300/",
+    "companyId": "5300",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Head of software development department",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2010
+     }
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Led four engineers developing the Social Card for Moscow Citizens issuance and transaction platform, holding 12M+ cards and 2B+ transactions and processing 150M–200M transactions monthly.\n• Combined team leadership and project delivery with hands-on Java enterprise architecture and software development.\n• Owned planning, delivery, acceptance testing, mentoring, and hiring.\n• Created a business-process engine with graphical notation and a development IDE, using Swing, JGraph, Groovy, Drools, and Spring.\n• Designed an event-driven entity lifecycle framework to manage entity behavior according to its state.\n• Built JSquib, an Ajax UI framework based on the Model-View-Presenter pattern.\nTechnologies: Java, Spring Framework, Hibernate, Oracle, EJB, Drools, Groovy, Swing, and JavaScript.",
+    "company": {
+     "url": "",
+     "name": "Moscow Social Register",
+     "logo": {}
+    },
+    "position": "Head of software development department",
+    "companyName": "Moscow Social Register",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Project Manager, J2EE Architect, Application Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "System design engineering, Software development, Project management\n\nUsed skills: J2EE, EJB, Oracle ADF+BC, Oracle DBMS 10g, JSP, SAP tRFC, Mainframe integration with termcap",
+    "company": {
+     "url": "https://www.linkedin.com/company/62360/",
+     "name": "Avicomp Services",
+     "logo": {}
+    },
+    "position": "Project Manager, J2EE Architect, Application Developer",
+    "companyName": "Avicomp Services",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/62360/",
+    "companyId": "62360",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2004
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2005
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "IT Director",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2004
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Responsibilities:\n- Decision making in IT field\n- Project management. \n- Software development in key areas (own web-application server and some frameworks)\n\nUsed skills: J2EE, Servlets, Multithreading, Object pooling, Integration, Runtime classloading, Network protocols (TCP/IP, HTTP, SSL, Telnet, SMTP), HTML, JNDI SPI API, JCA, JAAS, J2EE Patterns, UML",
+    "company": {
+     "url": "",
+     "name": "ETG Inc., Tashkent",
+     "logo": {}
+    },
+    "position": "IT Director",
+    "companyName": "ETG Inc., Tashkent",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Project Expert",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2000
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "IT consulting, System design engineering, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Happening Relations Sarl.",
+     "logo": {}
+    },
+    "position": "Project Expert",
+    "companyName": "Happening Relations Sarl.",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2000
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Infrastructure Engineer",
+    "locationName": "Tashkent",
+    "timePeriod": {
+     "startDate": {
+      "year": 1998
+     },
+     "endDate": {
+      "year": 2000
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Network equipment support and maintenance, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Asaka Bank",
+     "logo": {}
+    },
+    "position": "Lead Infrastructure Engineer",
+    "companyName": "Asaka Bank",
+    "location": "Tashkent",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1998
+    },
+    "endDate": {
+     "year": 2000
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "30582280",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30582280/",
+    "companyName": "Blaize",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "Cary, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "First developer on Blaize AI Studio; established its initial architecture and codebase and remain a core contributor (Go, Java, Spring Framework, MongoDB, RabbitMQ, React). Progressed from Senior to Staff to Senior Staff Software Engineer.\n• Invented DSFS in Go, adopted internally for AI-training dataset storage and company projects: S3-backed content-addressed storage, deduplication, index-based versioning, read-only POSIX FUSE, fast import/export, and Kubernetes CSI.\n• Architected and led Blaize Media Plane, evolving STM into an edge-to-cloud video, recording, and AI analytics platform. Enabled distributed inference, independently identifiable metadata tracks, low-latency frame-synchronized overlays, searchable archives, and retrospective analytics. STM is being integrated into Blaize video analytics solutions. Defined HA and workload-distribution designs targeting up to one million streams.\n• Built Blaize’s Go device plugin for GSP accelerators, used in all Kubernetes-based company projects.\n• Architected and implemented Process Manager (Go/Kubebuilder) for multi-step workflows using DSFS for data exchange; built separate MongoDB and Redis lifecycle operators.\n• Built the full AI Studio deployment operator for Blaize AI Racks, adapting databases, ingress, storage, identity, and video to cluster resources, with an embedded AI agent guiding less experienced users.\n• Created EdgeProxy (Go/gRPC) for access behind NAT/firewalls and an on-premises OAuth2/OIDC/JWT auth server.\n• Established the NC datacenter, Kubernetes developer platform, SDLC, and CI/CD. Since 2022, manage one direct report responsible for daily infrastructure and DevOps operations.\nEngineering practices: Prometheus-compatible metrics across components; AI-assisted development guided by specifications, tests, reviews, and verification.",
+    "insights": "Skills: Distributed File Systems · gRPC · Webrtc · MongoDB · RabbitMQ · Live Video Streaming · HTTP Live Streaming",
+    "company": {
+     "url": "https://www.linkedin.com/company/30582280/",
+     "name": "Blaize",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "Blaize",
+    "location": "Cary, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/30582280/",
+    "companyId": "30582280",
+    "duration": "7 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_400_400/B56ZuL0x9iKcAY-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=fhp0Y0gDDFrkpg8PCbM0hsxmEi9ZeTsBkVrz5Sw3IYk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_200_200/B56ZuL0x9iKcAI-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=2V2U7rYGZCaKMu8hg2vYJeT52b69BSZIxganPgY8qRY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH-6Vnu0tV_mg/company-logo_100_100/B56ZuL0x9iKcAQ-/0/1767577428377/blaize_ai_logo?e=1796256000&v=beta&t=3f2c82o7FD6rEdIhmbLVbc0dW5UV94f4LWny4DWtHDs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Lead Software Engineer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Developed Java components for Global Booking and Allocating (GBA), an asynchronous, low-latency, in-memory platform processing hundreds of thousands of trades daily across the Americas, Europe, and Asia.\n• Migrated Tracer functionality into GBA, contributing across architecture, implementation, testing, and delivery.\n• Received an award for inventing a Cucumber-based testing framework with an embedded visual debugger that significantly increased the US engineering team’s productivity.\nFocus: Java, distributed systems, asynchronous processing, low-latency software, trade processing, and automated testing.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1262/",
+     "name": "Deutsche Bank",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc"
+     }
+    },
+    "position": "Lead Software Engineer",
+    "companyName": "Deutsche Bank",
+    "location": "Cary, NC, USA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1262/",
+    "companyId": "1262",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_400_400/B4DaGLgtNcIMAY-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=G42by_UrkJbr4qYIJHoKo0AavsZybauTgRUUEVAa6-0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_200_200/B4DaGLgtNcIMAI-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=ETmjQyxXkyGgysXDf-lEYjBvKwz3Kuh-LarBe4V-dzc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGtCfrHAYJpmw/company-logo_100_100/B4DaGLgtNcIMAM-/0/1793341969462/deutsche_bank_logo?e=1796256000&v=beta&t=pVLTANB1EiD2luun-EGmXHBgbix-OPrm6EGYlEcpwvI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Java Developer",
+    "locationName": "Cary, NC, USA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "Lead Java Developer on the Deutsche Bank account. Relocated from Moscow to Cary, NC in September 2013, continuing the same client engagement without a break.\nHighlights across the Luxoft / Deutsche Bank engagement (2010–2017):\n• Developed distributed trade-capture, order-management, and financial integration systems in Java.\n• Designed a reusable trade-matching API and algorithm adopted across GBA modules; improved legacy Tracer performance and reliability during migration.\n• Implemented rules-driven Auto IOI matching and redesigned TradeConnect monitoring and ICE market-data integration.\n• Built federated search and automated deployment for a financial portal spanning 40+ production servers in the US, UK, and Singapore.\nFocus: Java, Spring Framework, distributed systems, financial messaging, trade processing, and integration.",
+    "company": {
+     "url": "",
+     "name": "Luxoft USA",
+     "logo": {}
+    },
+    "position": "Lead Java Developer",
+    "companyName": "Luxoft USA",
+    "location": "Cary, NC, USA",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Java Developer",
+    "locationName": "Moscow",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Senior Java Developer on the Deutsche Bank account, contributing to the Finance Portal, Order Management System, and Commodities AS projects.\n• Developed Java/Spring enterprise applications, order-management functionality, and financial integrations using FIX, JMS, and relational databases.\n• Contributed to ongoing delivery, refactoring, and integration across portal and trading systems.\nTechnologies: Java, Spring Framework, Hibernate/JPA, JMS, FIX/QuickFIX/J, Drools, Liferay, Alfresco, Oracle, Sybase, JavaScript, and Unix shell scripting.\nRelocated to Cary, NC in September 2013 to continue the same Deutsche Bank engagement through Luxoft USA. Consolidated engagement achievements are listed under Luxoft USA.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5300/",
+     "name": "Luxoft",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo"
+     }
+    },
+    "position": "Senior Java Developer",
+    "companyName": "Luxoft",
+    "location": "Moscow",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5300/",
+    "companyId": "5300",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_400_400/B56ZtGvJgYIEAc-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mlhm0EVTDYCK3aM_62-LY8kdjKWmuvOMymxglRJVLtw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_200_200/B56ZtGvJgYIEAM-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=mVmOJ-kYYMsgGP8Yo-SNwM71Xocg1DIBunT0qwuMyNo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGXg4uCDPdcXg/company-logo_100_100/B56ZtGvJgYIEAU-/0/1766418324735/luxoft_logo?e=1796256000&v=beta&t=GPWVsXC70hKY4622qRkeJCNa9LqYXivAHiwXik23aSo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Head of software development department",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2010
+     }
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Led four engineers developing the Social Card for Moscow Citizens issuance and transaction platform, holding 12M+ cards and 2B+ transactions and processing 150M–200M transactions monthly.\n• Combined team leadership and project delivery with hands-on Java enterprise architecture and software development.\n• Owned planning, delivery, acceptance testing, mentoring, and hiring.\n• Created a business-process engine with graphical notation and a development IDE, using Swing, JGraph, Groovy, Drools, and Spring.\n• Designed an event-driven entity lifecycle framework to manage entity behavior according to its state.\n• Built JSquib, an Ajax UI framework based on the Model-View-Presenter pattern.\nTechnologies: Java, Spring Framework, Hibernate, Oracle, EJB, Drools, Groovy, Swing, and JavaScript.",
+    "company": {
+     "url": "",
+     "name": "Moscow Social Register",
+     "logo": {}
+    },
+    "position": "Head of software development department",
+    "companyName": "Moscow Social Register",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Project Manager, J2EE Architect, Application Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2004
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2005
+     }
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "System design engineering, Software development, Project management\n\nUsed skills: J2EE, EJB, Oracle ADF+BC, Oracle DBMS 10g, JSP, SAP tRFC, Mainframe integration with termcap",
+    "company": {
+     "url": "https://www.linkedin.com/company/62360/",
+     "name": "Avicomp Services",
+     "logo": {}
+    },
+    "position": "Project Manager, J2EE Architect, Application Developer",
+    "companyName": "Avicomp Services",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/62360/",
+    "companyId": "62360",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2004
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2005
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "IT Director",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2004
+     }
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Responsibilities:\n- Decision making in IT field\n- Project management. \n- Software development in key areas (own web-application server and some frameworks)\n\nUsed skills: J2EE, Servlets, Multithreading, Object pooling, Integration, Runtime classloading, Network protocols (TCP/IP, HTTP, SSL, Telnet, SMTP), HTML, JNDI SPI API, JCA, JAAS, J2EE Patterns, UML",
+    "company": {
+     "url": "",
+     "name": "ETG Inc., Tashkent",
+     "logo": {}
+    },
+    "position": "IT Director",
+    "companyName": "ETG Inc., Tashkent",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2004
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Project Expert",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2000
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2000
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "IT consulting, System design engineering, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Happening Relations Sarl.",
+     "logo": {}
+    },
+    "position": "Project Expert",
+    "companyName": "Happening Relations Sarl.",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2000
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2000
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Lead Infrastructure Engineer",
+    "locationName": "Tashkent",
+    "timePeriod": {
+     "startDate": {
+      "year": 1998
+     },
+     "endDate": {
+      "year": 2000
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Network equipment support and maintenance, Hardware design engineering, Network design engineering",
+    "company": {
+     "url": "",
+     "name": "Asaka Bank",
+     "logo": {}
+    },
+    "position": "Lead Infrastructure Engineer",
+    "companyName": "Asaka Bank",
+    "location": "Tashkent",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1998
+    },
+    "endDate": {
+     "year": 2000
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Tashkent State Technical University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1993
+     },
+     "endDate": {
+      "year": 1998
+     }
+    },
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 1993
+    },
+    "endDate": {
+     "year": 1998
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Tashkent State Technical University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Software engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 1993
+     },
+     "endDate": {
+      "year": 1998
+     }
+    },
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 1993
+    },
+    "endDate": {
+     "year": 1998
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516932765630?e=1796256000&v=beta&t=bXdTJqG8535FDyGuVorbdYPiC9I6MeLYxYJHyCkWo_g",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQGn-TNypKdOdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516932766495?e=1796256000&v=beta&t=4srIIOQlVpw6rMqiOe3168VTe_46zjr84uW0sIWiOIw",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/kimigor"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T02:06:22.239Z",
+ "foundBy": null
+}

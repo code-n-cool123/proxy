@@ -1,0 +1,2191 @@
+{
+ "slug": "pmwhite",
+ "inputUrl": "https://www.linkedin.com/in/pmwhite",
+ "fetchedAt": "2026-10-31T04:53:47.446Z",
+ "id": "6ae5745b4f8d6cb6ddd5b1cc",
+ "url": "https://www.linkedin.com/in/pmwhite",
+ "profile": {
+  "created": 1184936815000,
+  "trackingId": "/1fJkF6nTkK/MyG0BgjIwA==",
+  "firstName": "Philip",
+  "lastName": "White",
+  "pronoun": null,
+  "versionTag": "148103004",
+  "headline": "Software Engineer at AWS | Platform, Infrastructure & Reliability | Founding engineer on Amazon Q Apps and Quick Flows | Nixpkgs maintainer",
+  "publicIdentifier": "pmwhite",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "13864828",
+  "profileId": "ACoAAADTj3wBsNYUHQhWlGiYwCSSAHP_JABzjQs",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104116203",
+  "geoLocationName": "Seattle, Washington, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "I'm a software engineer with 17 years of experience, including 13 at Amazon. I build product foundations that other engineers can extend and operate.\n\nA founding engineer on Amazon Q Apps and Quick Flows, I led four engineers across two sites to deliver Flows' service foundation and platform integrations. I also led its expansion into three more regions, bringing the total to seven; another engineer delivered later waves independently.\n\nMy work spans backend systems, infrastructure, customer-facing applications, and security coordination. I've served as Security Guardian for Honeycode, Q Apps, and Quick Flows. I've helped teams reduce recurring operational work through better tooling and clear ownership, including a ~70% reduction in new high-severity on-call tickets.\n\nAt Amazon, I've conducted 100+ SDE interviews, mentored four interns, and given technical talks on coding agents, operational analysis, and Q Business internals.\n\nI've contributed to open source since 2014. I maintain CloudWatch Agent and Kiro CLI packages in Nixpkgs and contributed end-to-end cold-storage support to rustic, including an AWS Glacier plugin and CDK app. Outside work, I run personal services on Kubernetes and Terraform across OVHcloud and Rackspace Spot.\nI'm interested in owning a substantial platform or backend area, staying hands-on, and helping other engineers deliver reliably.",
+  "positions": [
+   {
+    "company": {
+     "name": "Amazon Web Services (AWS)",
+     "url": "https://www.linkedin.com/company/2382910/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "10 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Founding engineer on Quick Flows, the agentic-workflow product in Amazon Quick Suite.\n\n• Led four engineers across two sites to deliver the service foundation and platform integrations for feature development and launch on schedule. Evaluated three architecture options, divided work by service, and coordinated with platform teams.\n• Led expansion into three additional regions (seven total), enabling enterprise customers to adopt Quick Suite. Documented the rollout and coached an engineer who delivered later waves independently.\n• Initiated an ongoing dependency-channel migration: 350 environments, ~1,000 packages affected; three services migrated so far, eliminating their weeks-long patch delays from the fork. Secured sponsorship and reduced access approval to two clicks; two volunteers now contribute.\n• Cut new high-severity tickets ~70%, from ~50/week to the low teens. Led a three-engineer working group on alarms and deployment health gates, then established weekly prevention work for the on-call engineer using an AI-maintained ticket digest.\n• As Security Guardian, led six application security and compliance engagements in one year across privacy, HIPAA, and AWS standards. Coordinated threat modeling, penetration-test scope, and remediation across five engineers for Flows' preview and GA.\n• Delivered API Gateway–ALB integration using PrivateLink and private custom domains, avoiding a Lambda bridge's cold-start latency. Timeboxed the proof of concept to one week with a viable fallback; published a reusable CDK construct.\n• Delivered the workflow marketplace with PM and UX; adapted installation and sharing behavior as requirements changed and backfilled existing flows.\n• Led the 2025 Q Apps postmortem while continuing to support the product. Corrected deployment-code drift, closed the manual-edit path, and coordinated corrective work; findings were reviewed at org and AWS level.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "AWS — Amazon Q Apps, a generative-AI app builder inside Q Business; earlier, Yellowstone.\n\n• Shipped Q Business's simplified setup experience with PM, UX, and the console team, released in a public AWS launch. Reduced manual setup and refactored signup logic into a state machine the console team still uses.\n• Founding engineer on Q Apps; designed and built customer-data deletion required for GDPR compliance, handling closed accounts and obsolete data revisions within an existing data model. Operating in production for 2+ years.\n• Led Yellowstone's moderation design (2022–23), translating ambiguous UX requirements into a decision record that resolved a product/engineering misunderstanding before implementation. Wrote the technical design and alpha/private-beta plans.\n• Led Q Apps infrastructure work with Q Business's console team (TypeScript, React); delivered its first region expansion after GA, to Dublin for a large customer, and wrote the rollout runbook.\n• Security Guardian for Q Apps from 2023.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 yrs 11 mos",
+      "description": "AWS — Amazon Honeycode, a no-code application builder.\n\n• Built Honeycode's enterprise integration and AWS service console (Java, TypeScript, React).\n• Delivered AWS IAM Identity Center (SSO) onboarding against a fixed launch date.\n• Served as Honeycode's Security Guardian, the first of three AWS products where I held the role.\n• Ran the migration of the product onto its production domain.\n• Introduced TypeScript, Kotlin, and TLA+ to the organization; maintained and upgraded shared systems beyond my team's ownership.\n• Supported the team on AWS console and identity questions, and served as its default scrum master.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "SDE in Community Shopping",
+    "locationName": "Seattle, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Amazon retail — Shared Shopping Experience.\n\n• Developed frontend and backend features for Customer Collections and New For You (Ruby on Rails, JavaScript, SQL).\n• Designed and built a deployment system adopted beyond my team, and built an internal community around it.\n• Took ownership of a shared caching service's JDK 8 upgrade.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    }
+   },
+   {
+    "title": "owner of IT consultancy",
+    "locationName": "Iowa City-Cedar Rapids Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "- Was one-person IT department for Cedar Valley Christian School. Deliverables included standardized Windows image on desktops, centralized login (Active Directory), roaming profiles, network file shares, group policy, and backups.\n- Was one-person IT department for Electric Beach tanning salon. Work included maintaining customer records software, backups, customer wifi, and sound system design and wiring.",
+    "company": {
+     "url": "",
+     "name": "Moonlit Consulting",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "• Owned development of all GUI applications for the group using .NET, WPF, and WCF.\n• team's subject matter expert on MIL-STD-188-220C for a Software-Defined Radio project\n• received department's Above & Beyond Award for work with high school interns",
+    "company": {
+     "url": "https://www.linkedin.com/company/3959/",
+     "name": "Rockwell Collins",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU"
+     }
+    }
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Research Assistant in the Semantic Web Lab.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    }
+   },
+   {
+    "title": "Intern - MFW team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Developed improvements to HP server firmware in C++;\n- Integrated Coverity Prevent, Subversion, and email to determine which team member is responsible for emergent defects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    }
+   },
+   {
+    "title": "Student Teacher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Established rapport with, and taught existing curriculum to, 70+ students.\n- Dreamt up and implemented engaging activities.\n- Developed a Java application to randomize seating assignments during test-taking, upholding certain constraints.",
+    "company": {
+     "url": "",
+     "name": "Richardson ISD",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Mentor",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "A paid appointment to tutor students in several Computer Science courses.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    }
+   },
+   {
+    "title": "Intern - MFWT team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2007
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Reduced software defects by designing and developing automated tests\n- Improved testing infrastructure by implementing major features in Perl-based test harness\n- Designed, implemented, and maintained an internal web app used by hundreds of employees to enroll in the City of Richardson Corporate Challenge",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    }
+   },
+   {
+    "title": "Intern on Application Testing team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2006
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "- Developed automated tests using Perl\n- Load-tested web applications\n- Taught Linux aliases to full-time coworkers\n- Discovered the value of good culture and high team morale",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JP Morgan Chase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0"
+     }
+    }
+   },
+   {
+    "title": "Student Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "- Compiled some Linux kernels\n- Developed a web application to assemble ClearCase Configuration Specifications for full-time engineers.\n- Discovered the hard way how brittle UI tests can be.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1397/",
+     "name": "Texas Instruments",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166681/",
+    "schoolName": "The University of Texas at Dallas",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2009
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Coursera",
+    "degreeName": "Functional Programming Principles in Scala",
+    "fieldOfStudy": "Functional Programming Principles in Scala",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2014
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "AWS Certified Security - Specialty",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "AWS Certified Security - Specialty",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   },
+   {
+    "name": "AWS Certified Advanced Networking – Specialty",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "AWS Certified Advanced Networking – Specialty",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Self-hosted infrastructure (personal)",
+    "description": "Run personal web services on Kubernetes across OVHcloud and Rackspace Spot, provisioned with Terraform. Designed the cluster to tolerate node loss on auctioned, interruptible capacity. This is personal infrastructure experience; my professional infrastructure work is AWS-native.",
+    "dateRange": {},
+    "associatedWith": "Jan 2025 - Present"
+   },
+   {
+    "title": "Nixpkgs maintainer",
+    "description": "Maintainer in the world's largest package repository, where I took on Amazon's tools because no one else had: the CloudWatch Agent and its NixOS module, and Kiro CLI. Repackaged Kiro CLI into an FHS sandbox to restore a broken package after the original fix stalled in review.",
+    "dateRange": {},
+    "associatedWith": "Jan 2024 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Amazon Web Services (AWS)",
+  "companyPublicId": "amazon-web-services",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/amazon-web-services/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2382910",
+   "name": "Amazon Web Services (AWS)",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFqdm1TZ-RZKQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_"
+    }
+   },
+   "universalName": "amazon-web-services",
+   "url": "https://www.linkedin.com/company/amazon-web-services/",
+   "slug": "amazon-web-services",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+   "specialties": []
+  },
+  "followerCount": 508,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 507,
+  "skills": [
+   {
+    "name": "Software Development",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "UML",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NI LabVIEW",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WPF",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "QP framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "QM modeler",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Lustre",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MIT Alloy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rails",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "A/B Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ETL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Lustre",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "A/B Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ETL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "UML",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "NI LabVIEW",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WPF",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rails",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/pmwhite",
+  "linkedinUrl": "https://www.linkedin.com/in/pmwhite",
+  "profileUrl": "https://www.linkedin.com/in/pmwhite",
+  "verified": true,
+  "registeredAt": "2007-07-20T13:06:55.000Z",
+  "location": {
+   "linkedinText": "Seattle, Washington, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Seattle, Washington, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a software engineer with 17 years of experience, including 13 at Amazon. I build product foundations that other engineers can extend and operate.\n\nA founding engineer on Amazon Q Apps and Quick Flows, I led four engineers across two sites to deliver Flows' service foundation and platform integrations. I also led its expansion into three more regions, bringing the total to seven; another engineer delivered later waves independently.\n\nMy work spans backend systems, infrastructure, customer-facing applications, and security coordination. I've served as Security Guardian for Honeycode, Q Apps, and Quick Flows. I've helped teams reduce recurring operational work through better tooling and clear ownership, including a ~70% reduction in new high-severity on-call tickets.\n\nAt Amazon, I've conducted 100+ SDE interviews, mentored four interns, and given technical talks on coding agents, operational analysis, and Q Business internals.\n\nI've contributed to open source since 2014. I maintain CloudWatch Agent and Kiro CLI packages in Nixpkgs and contributed end-to-end cold-storage support to rustic, including an AWS Glacier plugin and CDK app. Outside work, I run personal services on Kubernetes and Terraform across OVHcloud and Rackspace Spot.\nI'm interested in owning a substantial platform or backend area, staying hands-on, and helping other engineers deliver reliably.",
+  "allTitles": [
+   "SDE in Community Shopping",
+   "owner of IT consultancy",
+   "Software Engineer",
+   "Research Assistant",
+   "Intern - MFW team",
+   "Student Teacher",
+   "Senior Mentor",
+   "Intern - MFWT team",
+   "Intern on Application Testing team",
+   "Student Engineer"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "name": "Amazon Web Services (AWS)",
+     "url": "https://www.linkedin.com/company/2382910/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "10 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Founding engineer on Quick Flows, the agentic-workflow product in Amazon Quick Suite.\n\n• Led four engineers across two sites to deliver the service foundation and platform integrations for feature development and launch on schedule. Evaluated three architecture options, divided work by service, and coordinated with platform teams.\n• Led expansion into three additional regions (seven total), enabling enterprise customers to adopt Quick Suite. Documented the rollout and coached an engineer who delivered later waves independently.\n• Initiated an ongoing dependency-channel migration: 350 environments, ~1,000 packages affected; three services migrated so far, eliminating their weeks-long patch delays from the fork. Secured sponsorship and reduced access approval to two clicks; two volunteers now contribute.\n• Cut new high-severity tickets ~70%, from ~50/week to the low teens. Led a three-engineer working group on alarms and deployment health gates, then established weekly prevention work for the on-call engineer using an AI-maintained ticket digest.\n• As Security Guardian, led six application security and compliance engagements in one year across privacy, HIPAA, and AWS standards. Coordinated threat modeling, penetration-test scope, and remediation across five engineers for Flows' preview and GA.\n• Delivered API Gateway–ALB integration using PrivateLink and private custom domains, avoiding a Lambda bridge's cold-start latency. Timeboxed the proof of concept to one week with a viable fallback; published a reusable CDK construct.\n• Delivered the workflow marketplace with PM and UX; adapted installation and sharing behavior as requirements changed and backfilled existing flows.\n• Led the 2025 Q Apps postmortem while continuing to support the product. Corrected deployment-code drift, closed the manual-edit path, and coordinated corrective work; findings were reviewed at org and AWS level.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "AWS — Amazon Q Apps, a generative-AI app builder inside Q Business; earlier, Yellowstone.\n\n• Shipped Q Business's simplified setup experience with PM, UX, and the console team, released in a public AWS launch. Reduced manual setup and refactored signup logic into a state machine the console team still uses.\n• Founding engineer on Q Apps; designed and built customer-data deletion required for GDPR compliance, handling closed accounts and obsolete data revisions within an existing data model. Operating in production for 2+ years.\n• Led Yellowstone's moderation design (2022–23), translating ambiguous UX requirements into a decision record that resolved a product/engineering misunderstanding before implementation. Wrote the technical design and alpha/private-beta plans.\n• Led Q Apps infrastructure work with Q Business's console team (TypeScript, React); delivered its first region expansion after GA, to Dublin for a large customer, and wrote the rollout runbook.\n• Security Guardian for Q Apps from 2023.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 yrs 11 mos",
+      "description": "AWS — Amazon Honeycode, a no-code application builder.\n\n• Built Honeycode's enterprise integration and AWS service console (Java, TypeScript, React).\n• Delivered AWS IAM Identity Center (SSO) onboarding against a fixed launch date.\n• Served as Honeycode's Security Guardian, the first of three AWS products where I held the role.\n• Ran the migration of the product onto its production domain.\n• Introduced TypeScript, Kotlin, and TLA+ to the organization; maintained and upgraded shared systems beyond my team's ownership.\n• Supported the team on AWS console and identity questions, and served as its default scrum master.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Amazon Web Services (AWS)",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "10 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "SDE in Community Shopping",
+    "locationName": "Seattle, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Amazon retail — Shared Shopping Experience.\n\n• Developed frontend and backend features for Customer Collections and New For You (Ruby on Rails, JavaScript, SQL).\n• Designed and built a deployment system adopted beyond my team, and built an internal community around it.\n• Took ownership of a shared caching service's JDK 8 upgrade.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    },
+    "position": "SDE in Community Shopping",
+    "companyName": "Amazon",
+    "location": "Seattle, WA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "owner of IT consultancy",
+    "locationName": "Iowa City-Cedar Rapids Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "- Was one-person IT department for Cedar Valley Christian School. Deliverables included standardized Windows image on desktops, centralized login (Active Directory), roaming profiles, network file shares, group policy, and backups.\n- Was one-person IT department for Electric Beach tanning salon. Work included maintaining customer records software, backups, customer wifi, and sound system design and wiring.",
+    "company": {
+     "url": "",
+     "name": "Moonlit Consulting",
+     "logo": {}
+    },
+    "position": "owner of IT consultancy",
+    "companyName": "Moonlit Consulting",
+    "location": "Iowa City-Cedar Rapids Area",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "• Owned development of all GUI applications for the group using .NET, WPF, and WCF.\n• team's subject matter expert on MIL-STD-188-220C for a Software-Defined Radio project\n• received department's Above & Beyond Award for work with high school interns",
+    "company": {
+     "url": "https://www.linkedin.com/company/3959/",
+     "name": "Rockwell Collins",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Rockwell Collins",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3959/",
+    "companyId": "3959",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Research Assistant in the Semantic Web Lab.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    },
+    "position": "Research Assistant",
+    "companyName": "The University of Texas at Dallas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "companyId": "166681",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern - MFW team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Developed improvements to HP server firmware in C++;\n- Integrated Coverity Prevent, Subversion, and email to determine which team member is responsible for emergent defects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    },
+    "position": "Intern - MFW team",
+    "companyName": "HP",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5390798/",
+    "companyId": "5390798",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2008
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Teacher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Established rapport with, and taught existing curriculum to, 70+ students.\n- Dreamt up and implemented engaging activities.\n- Developed a Java application to randomize seating assignments during test-taking, upholding certain constraints.",
+    "company": {
+     "url": "",
+     "name": "Richardson ISD",
+     "logo": {}
+    },
+    "position": "Student Teacher",
+    "companyName": "Richardson ISD",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Mentor",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "A paid appointment to tutor students in several Computer Science courses.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    },
+    "position": "Senior Mentor",
+    "companyName": "The University of Texas at Dallas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "companyId": "166681",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern - MFWT team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2007
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Reduced software defects by designing and developing automated tests\n- Improved testing infrastructure by implementing major features in Perl-based test harness\n- Designed, implemented, and maintained an internal web app used by hundreds of employees to enroll in the City of Richardson Corporate Challenge",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    },
+    "position": "Intern - MFWT team",
+    "companyName": "HP",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5390798/",
+    "companyId": "5390798",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2007
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern on Application Testing team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2006
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "- Developed automated tests using Perl\n- Load-tested web applications\n- Taught Linux aliases to full-time coworkers\n- Discovered the value of good culture and high team morale",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JP Morgan Chase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0"
+     }
+    },
+    "position": "Intern on Application Testing team",
+    "companyName": "JP Morgan Chase",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1068/",
+    "companyId": "1068",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2006
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "- Compiled some Linux kernels\n- Developed a web application to assemble ClearCase Configuration Specifications for full-time engineers.\n- Discovered the hard way how brittle UI tests can be.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1397/",
+     "name": "Texas Instruments",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s"
+     }
+    },
+    "position": "Student Engineer",
+    "companyName": "Texas Instruments",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1397/",
+    "companyId": "1397",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2382910",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyName": "Amazon Web Services (AWS)",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "name": "Amazon Web Services (AWS)",
+     "url": "https://www.linkedin.com/company/2382910/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "10 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Founding engineer on Quick Flows, the agentic-workflow product in Amazon Quick Suite.\n\n• Led four engineers across two sites to deliver the service foundation and platform integrations for feature development and launch on schedule. Evaluated three architecture options, divided work by service, and coordinated with platform teams.\n• Led expansion into three additional regions (seven total), enabling enterprise customers to adopt Quick Suite. Documented the rollout and coached an engineer who delivered later waves independently.\n• Initiated an ongoing dependency-channel migration: 350 environments, ~1,000 packages affected; three services migrated so far, eliminating their weeks-long patch delays from the fork. Secured sponsorship and reduced access approval to two clicks; two volunteers now contribute.\n• Cut new high-severity tickets ~70%, from ~50/week to the low teens. Led a three-engineer working group on alarms and deployment health gates, then established weekly prevention work for the on-call engineer using an AI-maintained ticket digest.\n• As Security Guardian, led six application security and compliance engagements in one year across privacy, HIPAA, and AWS standards. Coordinated threat modeling, penetration-test scope, and remediation across five engineers for Flows' preview and GA.\n• Delivered API Gateway–ALB integration using PrivateLink and private custom domains, avoiding a Lambda bridge's cold-start latency. Timeboxed the proof of concept to one week with a viable fallback; published a reusable CDK construct.\n• Delivered the workflow marketplace with PM and UX; adapted installation and sharing behavior as requirements changed and backfilled existing flows.\n• Led the 2025 Q Apps postmortem while continuing to support the product. Corrected deployment-code drift, closed the manual-edit path, and coordinated corrective work; findings were reviewed at org and AWS level.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 9 mos",
+      "description": "AWS — Amazon Q Apps, a generative-AI app builder inside Q Business; earlier, Yellowstone.\n\n• Shipped Q Business's simplified setup experience with PM, UX, and the console team, released in a public AWS launch. Reduced manual setup and refactored signup logic into a state machine the console team still uses.\n• Founding engineer on Q Apps; designed and built customer-data deletion required for GDPR compliance, handling closed accounts and obsolete data revisions within an existing data model. Operating in production for 2+ years.\n• Led Yellowstone's moderation design (2022–23), translating ambiguous UX requirements into a decision record that resolved a product/engineering misunderstanding before implementation. Wrote the technical design and alpha/private-beta plans.\n• Led Q Apps infrastructure work with Q Business's console team (TypeScript, React); delivered its first region expansion after GA, to Dublin for a large customer, and wrote the rollout runbook.\n• Security Guardian for Q Apps from 2023.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "Seattle, Washington, United States · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "5 yrs 11 mos",
+      "description": "AWS — Amazon Honeycode, a no-code application builder.\n\n• Built Honeycode's enterprise integration and AWS service console (Java, TypeScript, React).\n• Delivered AWS IAM Identity Center (SSO) onboarding against a fixed launch date.\n• Served as Honeycode's Security Guardian, the first of three AWS products where I held the role.\n• Ran the migration of the product onto its production domain.\n• Introduced TypeScript, Kotlin, and TLA+ to the organization; maintained and upgraded shared systems beyond my team's ownership.\n• Supported the team on AWS console and identity questions, and served as its default scrum master.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Amazon Web Services (AWS)",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "10 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=PokVKuugksr8XKtn19awDfvfgGajG7MMAyoMfjqyO30",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=UtAwxneQpW2GaF23ktu4JtkwfSP-Q2H6gknl9Q2cUI8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1795046400&v=beta&t=K8vWax_c1tvqM7vZCdsdiWsQ9u-trelbTuw3tAjPaEU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "SDE in Community Shopping",
+    "locationName": "Seattle, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 1 mo",
+    "description": "Amazon retail — Shared Shopping Experience.\n\n• Developed frontend and backend features for Customer Collections and New For You (Ruby on Rails, JavaScript, SQL).\n• Designed and built a deployment system adopted beyond my team, and built an internal community around it.\n• Took ownership of a shared caching service's JDK 8 upgrade.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ"
+     }
+    },
+    "position": "SDE in Community Shopping",
+    "companyName": "Amazon",
+    "location": "Seattle, WA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=muNRtoL3uFQqvW5LmuNr5JnylxojqYkgsuCUpNPCqrI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=8idjET8s5VetLP3b5NtxPRVk6-0DyF-l5eId0vj0oTQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795046400&v=beta&t=IitA494WfHA_k1BtbmD-9HKrrMBS1uhBjqDAOsJXJyo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "owner of IT consultancy",
+    "locationName": "Iowa City-Cedar Rapids Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "- Was one-person IT department for Cedar Valley Christian School. Deliverables included standardized Windows image on desktops, centralized login (Active Directory), roaming profiles, network file shares, group policy, and backups.\n- Was one-person IT department for Electric Beach tanning salon. Work included maintaining customer records software, backups, customer wifi, and sound system design and wiring.",
+    "company": {
+     "url": "",
+     "name": "Moonlit Consulting",
+     "logo": {}
+    },
+    "position": "owner of IT consultancy",
+    "companyName": "Moonlit Consulting",
+    "location": "Iowa City-Cedar Rapids Area",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2013
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "• Owned development of all GUI applications for the group using .NET, WPF, and WCF.\n• team's subject matter expert on MIL-STD-188-220C for a Software-Defined Radio project\n• received department's Above & Beyond Award for work with high school interns",
+    "company": {
+     "url": "https://www.linkedin.com/company/3959/",
+     "name": "Rockwell Collins",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Rockwell Collins",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3959/",
+    "companyId": "3959",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_400_400/company-logo_400_400/0/1631328131115?e=1795046400&v=beta&t=gUfXd3XN8rShxi0JwDZDgEB4ISjWNKxsg1DZ9NFOooU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_200_200/company-logo_200_200/0/1631328131115?e=1795046400&v=beta&t=aI4TGbsv56q6QugSIcL3KOO9Um47FyLBI1r7tGrnj5c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHmCZyVa566_Q/company-logo_100_100/company-logo_100_100/0/1631328131115?e=1795046400&v=beta&t=cRLDnKnMSfd0EuzVMIXs4TCLxAeQ_92cokW3MyP9dlc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Research Assistant in the Semantic Web Lab.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    },
+    "position": "Research Assistant",
+    "companyName": "The University of Texas at Dallas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "companyId": "166681",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern - MFW team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Developed improvements to HP server firmware in C++;\n- Integrated Coverity Prevent, Subversion, and email to determine which team member is responsible for emergent defects.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    },
+    "position": "Intern - MFW team",
+    "companyName": "HP",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5390798/",
+    "companyId": "5390798",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2008
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Teacher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2008
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Established rapport with, and taught existing curriculum to, 70+ students.\n- Dreamt up and implemented engaging activities.\n- Developed a Java application to randomize seating assignments during test-taking, upholding certain constraints.",
+    "company": {
+     "url": "",
+     "name": "Richardson ISD",
+     "logo": {}
+    },
+    "position": "Student Teacher",
+    "companyName": "Richardson ISD",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Mentor",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2007
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "A paid appointment to tutor students in several Computer Science courses.",
+    "company": {
+     "url": "https://www.linkedin.com/company/166681/",
+     "name": "The University of Texas at Dallas",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k"
+     }
+    },
+    "position": "Senior Mentor",
+    "companyName": "The University of Texas at Dallas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "companyId": "166681",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern - MFWT team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2007
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Reduced software defects by designing and developing automated tests\n- Improved testing infrastructure by implementing major features in Perl-based test harness\n- Designed, implemented, and maintained an internal web app used by hundreds of employees to enroll in the City of Richardson Corporate Challenge",
+    "company": {
+     "url": "https://www.linkedin.com/company/5390798/",
+     "name": "HP",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc"
+     }
+    },
+    "position": "Intern - MFWT team",
+    "companyName": "HP",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5390798/",
+    "companyId": "5390798",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2007
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_400_400/B56ZViAo6QHoAY-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=f-MY9zVNBrBMY0CSZLj856JEJKjrhCZ2zB13qg6oZPA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_200_200/B56ZViAo6QHoAI-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=dYpT9VWTO79dhpFq5PKPnsorsbvGqwm2WcJxkihrcw0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJUaQAv2kVcQ/company-logo_100_100/B56ZViAo6QHoAQ-/0/1741106089999/hp_logo?e=1795046400&v=beta&t=jvMithy1JwYL72UKm-B_0CAePe9fDETsjKbLWajbANc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern on Application Testing team",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2006
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "- Developed automated tests using Perl\n- Load-tested web applications\n- Taught Linux aliases to full-time coworkers\n- Discovered the value of good culture and high team morale",
+    "company": {
+     "url": "https://www.linkedin.com/company/1068/",
+     "name": "JP Morgan Chase",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0"
+     }
+    },
+    "position": "Intern on Application Testing team",
+    "companyName": "JP Morgan Chase",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1068/",
+    "companyId": "1068",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2006
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_400_400/company-logo_400_400/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=l78cWHHldNXFy8V0-QrMB9cOEuN-hCLeGaIKhSXTha0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_200_200/company-logo_200_200/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=pS2pFjCQu8ifon1cmH8AAnZvAmblYQ5JePuY50NJ8xE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGxpntCyRgsuA/company-logo_100_100/company-logo_100_100/0/1718711710850/jpmorganchase_logo?e=1795046400&v=beta&t=ogO9kKrlhnVyVXsdPYU3DCNx0PLefJxrdB6mB42IhzU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2005
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "- Compiled some Linux kernels\n- Developed a web application to assemble ClearCase Configuration Specifications for full-time engineers.\n- Discovered the hard way how brittle UI tests can be.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1397/",
+     "name": "Texas Instruments",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s"
+     }
+    },
+    "position": "Student Engineer",
+    "companyName": "Texas Instruments",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1397/",
+    "companyId": "1397",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2005
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_400_400/B56ZoMY5iZHIAY-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=8oQgTBFSMBlhanyTKKfom-62ejY6n0d-tlB5LqFJWr0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_200_200/B56ZoMY5iZHIAI-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=HDym9HFjbN5fA7XjMXpOpzMo_na22NafaCI3evKO36s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGaVtOjkyl-LQ/company-logo_100_100/B56ZoMY5iZHIAQ-/0/1761144445476/texas_instruments_logo?e=1795046400&v=beta&t=j5I4T9BEY3QMWdFaIFg0_5gHsHIYIdfeJtEbxWpNHk8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166681/",
+    "schoolName": "The University of Texas at Dallas",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "schoolId": "166681",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2009
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Coursera",
+    "degreeName": "Functional Programming Principles in Scala",
+    "fieldOfStudy": "Functional Programming Principles in Scala",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2014
+     }
+    },
+    "degree": "Functional Programming Principles in Scala",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2014
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_400_400/company-logo_400_400/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=NwtBYrhgZkaZsGQohIvUT6hY8wqx2dDd5V087-Alw-k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_200_200/company-logo_200_200/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=aLTX2lHcnVf8wL8TgxpMVHryclhGh6zc-BJXKrZ2hU8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEBYU4_oEvArQ/company-logo_100_100/company-logo_100_100/0/1630623687859/university_of_texas_at_dallas_logo?e=1795046400&v=beta&t=OxgWoRrGdhQ0xRssJ9Q9cwPWzE1PfHLFVpbeOQ5_0LA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166681/",
+    "schoolName": "The University of Texas at Dallas",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/166681/",
+    "schoolId": "166681",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2009
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/pmwhite"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T04:53:32.303Z",
+ "foundBy": null
+}

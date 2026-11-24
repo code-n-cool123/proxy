@@ -1,0 +1,1492 @@
+{
+ "slug": "trupoet",
+ "inputUrl": "https://www.linkedin.com/in/trupoet",
+ "fetchedAt": "2026-10-30T16:49:18.497Z",
+ "id": "6ae4ca8e4f8d6cb6ddd599ec",
+ "url": "https://www.linkedin.com/in/trupoet",
+ "profile": {
+  "created": 1140688486000,
+  "trackingId": "c4JkT7EoStSkKnHhKJ/DJQ==",
+  "firstName": "Jerica",
+  "lastName": "Wilson",
+  "pronoun": null,
+  "versionTag": "1741147936",
+  "headline": "Staff iOS Engineer | Swift & SwiftUI | AI-Assisted Development & Multi-Agent Workflows | Mobile Architecture & Technical Leadership | Veryanda",
+  "publicIdentifier": "trupoet",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 10,
+   "day": 9,
+   "year": null
+  },
+  "id": "5058224",
+  "profileId": "ACoAAABNLrABv-VY9iIwOiWnPHey0OqbwY7ZEpI",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_100_100/B4DZi9yjFoG8Ag-/0/1755530802091?e=1795046400&v=beta&t=a0qhAMJ9L5Jw6gMHQqBaliVdFnBhfIVfv85rPerng_U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_200_200/B4DZi9yjFoG8Ac-/0/1755530802091?e=1795046400&v=beta&t=DP6ZtVpDHc7Xab5UG0BzoXzhGDKtU3OGPzJRqCjB37Y",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_400_400/B4DZi9yjFoG8Ak-/0/1755530802091?e=1795046400&v=beta&t=_GUs643YY7PrOsQ47-OXNo0cVCMeDy4SUFs-vnqOTiI"
+  },
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_350_1400/B56aCgyBqDHMAU-/0/1789403863931?e=1795046400&v=beta&t=VxbF7FrbEoKuNrwzraKGVPQcn-C9YApAKJQnIyfPR1w",
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_200_800/B56aCgyBqDHMAQ-/0/1789403863931?e=1795046400&v=beta&t=oQLAW8pj9QaDH6ixHS1Ch62K1V4NoASJdNxgnclUq84"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103463944",
+  "geoLocationName": "Kent, Washington, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Founder & Independent Software Engineer",
+  "summary": "Software engineer with experience building products since 1999, with a Computer Science degree (2004) and a focus on iOS development since 2008. My career has grown from hands-on engineering into mentorship, technical leadership, and community education.\n\nToday I build with AI end to end. At Flow I used AI tools to ship my work, and my Swift and architecture experience is what kept it up to spec: reviewing, structuring, and owning the result. On my own time I build local-first AI tools, like Afterword (on-device transcription and AI meeting notes, built on Swift and Core Audio) and Lashline (a real-time face-tracking filter for OBS). I also run Agent Desk, my own multi-agent workspace: several Claude Code sessions, one per project, with specialized subagents that fact-check, review anything before it goes public, and audit repos before they're open-sourced.\n\nAlongside engineering, I’ve taught iOS development through App Camp for Girls, contributed technical and operational support to non-profits, and served in leadership roles as Treasurer and IT Chair for Cheer Seattle’s Board of Directors.\n\nI’m also active in creative and performance communities as a Twitch streamer and content creator where I regularly engage in teaching, mentoring, and community building.\n\nAcross all of these experiences, I focus on making complex systems accessible—whether through software, instruction, or creative work—while fostering strong team culture, collaboration, and growth.",
+  "positions": [
+   {
+    "title": "Founder & Independent Software Engineer",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Freelance",
+    "description": "Veryanda is my independent iOS consultancy, offering Staff-level iOS and mobile engineering: native Swift and SwiftUI apps, mobile architecture, CI and release processes, and AI-assisted development workflows.\n\nAlongside the practice, I build agentic AI tooling with Claude Code:\n• A sales-research agent that finds and vets prospective clients, keeps sourced facts separate from inference, and drafts personalized outreach for my review.\n• A Python pipeline that turns Twitch VODs into published Shorts: Whisper transcription, headless Claude clip scoring, ffmpeg vertical captioned cuts, and a Swift + Core Image thumbnail picker. It schedules posts to YouTube, TikTok and Patreon and runs unattended.\n• Agent Desk: a multi-agent Claude Code workspace, one session per project, with fact-checking and review subagents.\n• Token-cost control with jev-model-router, a Claude Code mod that routes each task to the right model and reasoning effort.\n\nOpen-source projects:\n• Lashline (C++): an OBS Studio filter that draws winged eyeliner on a live webcam. On-device face tracking (MediaPipe models on ONNX Runtime, about 3 ms per frame) with GPU rendering, so it never slows OBS down. github.com/valheru7/lashline\n• Afterword (Swift + Python): local-first AI meeting notes. Core Audio process taps record mic and call audio separately, whisper.cpp transcribes on-device, and Claude or a local model writes the notes. github.com/valheru7/afterword\n• Shoutout Friend (JavaScript): a Firebot script that writes personal Twitch shoutouts with Claude, with guards so chat text can't hijack the bot. github.com/valheru7/shoutoutFriend\n• Voice Steady (JavaScript): a browser-based pitch and resonance practice tool; real-time pitch and formant analysis in a Web Audio worklet cues you through your headphones. github.com/valheru7/voice-steady\n• vodkit (Python): a Claude Code skill and plugin for frame-accurate Twitch VOD clips, audio and chapters without downloading whole streams. github.com/valheru7/vodkit",
+    "insights": "iOS Development, Mobile Application Development and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/143815040/",
+     "name": "Veryanda",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4"
+     }
+    }
+   },
+   {
+    "title": "Staff iOS Engineer / Tech Lead",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "Lead development of SwiftUI and TCA features, driving architecture and delivery across iOS. Own CI/CD pipelines via GitHub Actions and manage end-to-end release processes and rotations for both iOS and Android. Coordinate cross-functional initiatives by aligning engineering, design, and product through structured planning and execution. Champion a people-first, high-performing remote culture while ensuring projects ship reliably and on schedule.",
+    "insights": "iOS Development, SwiftUI and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/87130667/",
+     "name": "Flow",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo"
+     }
+    }
+   },
+   {
+    "title": "Senior iOS Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using MVVMC, Realm, SwiftUI, Combine, Async/await. Also a lot of work with CollectionViews and Compositional Layouts.\n\nAt a NYC-based early stage startup moving at a fast pace. Advised management, VPs, and founders of proper Software Development Lifecycle Practices, helped engineer a more sustainable release process, and contributed to CI infrastructure efforts (automated unused images and swift lint/format checks). Pushed for modularizing the codebase and for user-presented strings to be in one place for future localization. Helped document and enforce mobile architecture and mobile design system standards.\n\nAlso created culture channels on slack to promote employee well-being, local Seattle office meetups, and “hangout” Zoom meetings for remote employees to feel like they were more part of the office/team.",
+    "insights": "UIKit, SwiftUI and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/69194943/",
+     "name": "Saturn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM"
+     }
+    }
+   },
+   {
+    "title": "Senior iOS Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using paradigms such as protocol oriented programming, modular development, RxSwift, Observable patterns, Unidirectional architecture, and MVVM. \n\nExperience in both the passenger and driver apps across rideshare, transit, and rentals features.\n\nAlso helping out as a backend engineer to unblock myself and other mobile engineers.\n\nWorking closely with the cross-functional teams to determine direction and implementation, helping troubleshoot issues, and following features and experiments through to completion. Internally, helping document every bit of hidden knowledge encountered while automating otherwise cryptic processes for re-use. Reviewing code and providing [on-call] support for features implemented.\n\nMentoring new engineers both backend and iOS, introducing them to tools and standards and code reviewing their work. \n\nGoing above and beyond, sharing knowledge of our complex development environments and helping troubleshoot and improve these systems in the process. Developing scripts for automating common but difficult tasks in dev environments as well as proxy mock scripts that help mobile engineers get their work done when the server/backend service work has not been done yet.\n\nOn a personal level, contributing to company culture and social events when possible as well.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2620735/",
+     "name": "Lyft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_200_200/company-logo_200_200/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=BDYy_er_-GX0f2RXAgSxbpnd9zMbeloMvsf7znpyNX4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_100_100/company-logo_100_100/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=LzfpgcZyI-qhYDzQy2aWzGYj9liwW5iBaZhUdhjC-Pc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10102/",
+    "schoolName": "Western Washington University",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2004
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Russian",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Treasurer, Board Director",
+    "companyName": "CHEER Seattle",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2024
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    }
+   },
+   {
+    "role": "Chair of IT Committee",
+    "companyName": "CHEER Seattle",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Afterword: local-first AI meeting notes",
+    "description": "Free, local-first AI notes for meetings and job interviews. A Swift helper records the mic and the call audio on separate tracks with Core Audio process taps, whisper.cpp transcribes on-device, and Claude or a local Ollama model turns the transcript into structured notes. Echo removal makes headphones optional, and audio never leaves the computer. Built with AI-assisted development (Claude Code).\n\nOpen source (Swift + Python). Works with Zoom, Meet, Teams or anything that plays through your speakers; no bot joins the call. Notes are plain Markdown files.\n\nCode: https://github.com/valheru7/afterword",
+    "dateRange": {},
+    "associatedWith": "Oct 2026 - Present"
+   },
+   {
+    "title": "Lashline: real-time eyeliner filter for OBS Studio",
+    "description": "Open-source OBS Studio filter that draws winged eyeliner, with optional lashes, on a live webcam, and keeps it on the lash line through head turns, blinks and smiles. A replacement for Snap Camera's eyeliner lens that runs entirely on your computer. Google's MediaPipe face landmark models run through ONNX Runtime on a worker thread (about 3 ms per frame on a laptop CPU), and the liner is drawn on the GPU, so OBS's render thread never waits. C++, with CI builds for Windows, macOS and Linux. Built with AI-assisted development (Claude Code).\n\nhttps://github.com/valheru7/lashline",
+    "dateRange": {},
+    "associatedWith": "Oct 2026 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Human Rights",
+   "Science and Technology"
+  ],
+  "companyName": "Veryanda",
+  "companyPublicId": "veryanda",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/veryanda/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:143815040",
+   "name": "Veryanda",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQGPXdRncnmjIA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+       "expiresAt": 1795046400000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_"
+    }
+   },
+   "universalName": "veryanda",
+   "url": "https://www.linkedin.com/company/veryanda/",
+   "slug": "veryanda",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+   "specialties": []
+  },
+  "followerCount": 1903,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1890,
+  "skills": [
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ffmpeg",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Digital Signal Processing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Audio API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Graphics Processing Unit",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ONNX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Core Audio",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI-assisted Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Application Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cursor AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Serena",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ffmpeg",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Digital Signal Processing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Graphics Processing Unit",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Core Audio",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Application Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TCA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "UIKit",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Model-view-viewmodel (MVVM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 67,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "iOS development",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C++/CLI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google App Engine",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "iPhone development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "iOS Development",
+    "endorsements": 4,
+    "experiences": 3
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "vscode",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SwiftUI",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Swift (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 32,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 29,
+    "experiences": ""
+   },
+   {
+    "name": "Objective-C",
+    "endorsements": 25,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 17,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "OS X",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Mac OS X",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "iOS",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cursor AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Serena",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/trupoet",
+  "linkedinUrl": "https://www.linkedin.com/in/trupoet",
+  "profileUrl": "https://www.linkedin.com/in/trupoet",
+  "verified": true,
+  "registeredAt": "2006-02-23T09:54:46.000Z",
+  "location": {
+   "linkedinText": "Kent, Washington, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Kent, Washington, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Software engineer with experience building products since 1999, with a Computer Science degree (2004) and a focus on iOS development since 2008. My career has grown from hands-on engineering into mentorship, technical leadership, and community education.\n\nToday I build with AI end to end. At Flow I used AI tools to ship my work, and my Swift and architecture experience is what kept it up to spec: reviewing, structuring, and owning the result. On my own time I build local-first AI tools, like Afterword (on-device transcription and AI meeting notes, built on Swift and Core Audio) and Lashline (a real-time face-tracking filter for OBS). I also run Agent Desk, my own multi-agent workspace: several Claude Code sessions, one per project, with specialized subagents that fact-check, review anything before it goes public, and audit repos before they're open-sourced.\n\nAlongside engineering, I’ve taught iOS development through App Camp for Girls, contributed technical and operational support to non-profits, and served in leadership roles as Treasurer and IT Chair for Cheer Seattle’s Board of Directors.\n\nI’m also active in creative and performance communities as a Twitch streamer and content creator where I regularly engage in teaching, mentoring, and community building.\n\nAcross all of these experiences, I focus on making complex systems accessible—whether through software, instruction, or creative work—while fostering strong team culture, collaboration, and growth.",
+  "currentTitle": "Founder & Independent Software Engineer",
+  "allTitles": [
+   "Founder & Independent Software Engineer",
+   "Staff iOS Engineer / Tech Lead",
+   "Senior iOS Developer",
+   "Senior iOS Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Founder & Independent Software Engineer",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Freelance",
+    "description": "Veryanda is my independent iOS consultancy, offering Staff-level iOS and mobile engineering: native Swift and SwiftUI apps, mobile architecture, CI and release processes, and AI-assisted development workflows.\n\nAlongside the practice, I build agentic AI tooling with Claude Code:\n• A sales-research agent that finds and vets prospective clients, keeps sourced facts separate from inference, and drafts personalized outreach for my review.\n• A Python pipeline that turns Twitch VODs into published Shorts: Whisper transcription, headless Claude clip scoring, ffmpeg vertical captioned cuts, and a Swift + Core Image thumbnail picker. It schedules posts to YouTube, TikTok and Patreon and runs unattended.\n• Agent Desk: a multi-agent Claude Code workspace, one session per project, with fact-checking and review subagents.\n• Token-cost control with jev-model-router, a Claude Code mod that routes each task to the right model and reasoning effort.\n\nOpen-source projects:\n• Lashline (C++): an OBS Studio filter that draws winged eyeliner on a live webcam. On-device face tracking (MediaPipe models on ONNX Runtime, about 3 ms per frame) with GPU rendering, so it never slows OBS down. github.com/valheru7/lashline\n• Afterword (Swift + Python): local-first AI meeting notes. Core Audio process taps record mic and call audio separately, whisper.cpp transcribes on-device, and Claude or a local model writes the notes. github.com/valheru7/afterword\n• Shoutout Friend (JavaScript): a Firebot script that writes personal Twitch shoutouts with Claude, with guards so chat text can't hijack the bot. github.com/valheru7/shoutoutFriend\n• Voice Steady (JavaScript): a browser-based pitch and resonance practice tool; real-time pitch and formant analysis in a Web Audio worklet cues you through your headphones. github.com/valheru7/voice-steady\n• vodkit (Python): a Claude Code skill and plugin for frame-accurate Twitch VOD clips, audio and chapters without downloading whole streams. github.com/valheru7/vodkit",
+    "insights": "iOS Development, Mobile Application Development and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/143815040/",
+     "name": "Veryanda",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4"
+     }
+    },
+    "position": "Founder & Independent Software Engineer",
+    "companyName": "Veryanda",
+    "location": "Seattle, Washington, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/143815040/",
+    "companyId": "143815040",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Staff iOS Engineer / Tech Lead",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "Lead development of SwiftUI and TCA features, driving architecture and delivery across iOS. Own CI/CD pipelines via GitHub Actions and manage end-to-end release processes and rotations for both iOS and Android. Coordinate cross-functional initiatives by aligning engineering, design, and product through structured planning and execution. Champion a people-first, high-performing remote culture while ensuring projects ship reliably and on schedule.",
+    "insights": "iOS Development, SwiftUI and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/87130667/",
+     "name": "Flow",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo"
+     }
+    },
+    "position": "Staff iOS Engineer / Tech Lead",
+    "companyName": "Flow",
+    "location": "Seattle, Washington, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/87130667/",
+    "companyId": "87130667",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2026
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior iOS Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using MVVMC, Realm, SwiftUI, Combine, Async/await. Also a lot of work with CollectionViews and Compositional Layouts.\n\nAt a NYC-based early stage startup moving at a fast pace. Advised management, VPs, and founders of proper Software Development Lifecycle Practices, helped engineer a more sustainable release process, and contributed to CI infrastructure efforts (automated unused images and swift lint/format checks). Pushed for modularizing the codebase and for user-presented strings to be in one place for future localization. Helped document and enforce mobile architecture and mobile design system standards.\n\nAlso created culture channels on slack to promote employee well-being, local Seattle office meetups, and “hangout” Zoom meetings for remote employees to feel like they were more part of the office/team.",
+    "insights": "UIKit, SwiftUI and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/69194943/",
+     "name": "Saturn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM"
+     }
+    },
+    "position": "Senior iOS Developer",
+    "companyName": "Saturn",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/69194943/",
+    "companyId": "69194943",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior iOS Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using paradigms such as protocol oriented programming, modular development, RxSwift, Observable patterns, Unidirectional architecture, and MVVM. \n\nExperience in both the passenger and driver apps across rideshare, transit, and rentals features.\n\nAlso helping out as a backend engineer to unblock myself and other mobile engineers.\n\nWorking closely with the cross-functional teams to determine direction and implementation, helping troubleshoot issues, and following features and experiments through to completion. Internally, helping document every bit of hidden knowledge encountered while automating otherwise cryptic processes for re-use. Reviewing code and providing [on-call] support for features implemented.\n\nMentoring new engineers both backend and iOS, introducing them to tools and standards and code reviewing their work. \n\nGoing above and beyond, sharing knowledge of our complex development environments and helping troubleshoot and improve these systems in the process. Developing scripts for automating common but difficult tasks in dev environments as well as proxy mock scripts that help mobile engineers get their work done when the server/backend service work has not been done yet.\n\nOn a personal level, contributing to company culture and social events when possible as well.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2620735/",
+     "name": "Lyft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno"
+     }
+    },
+    "position": "Senior iOS Engineer",
+    "companyName": "Lyft",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2620735/",
+    "companyId": "2620735",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "143815040",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/143815040/",
+    "companyName": "Veryanda",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Founder & Independent Software Engineer",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "6 mos",
+    "employmentType": "Freelance",
+    "description": "Veryanda is my independent iOS consultancy, offering Staff-level iOS and mobile engineering: native Swift and SwiftUI apps, mobile architecture, CI and release processes, and AI-assisted development workflows.\n\nAlongside the practice, I build agentic AI tooling with Claude Code:\n• A sales-research agent that finds and vets prospective clients, keeps sourced facts separate from inference, and drafts personalized outreach for my review.\n• A Python pipeline that turns Twitch VODs into published Shorts: Whisper transcription, headless Claude clip scoring, ffmpeg vertical captioned cuts, and a Swift + Core Image thumbnail picker. It schedules posts to YouTube, TikTok and Patreon and runs unattended.\n• Agent Desk: a multi-agent Claude Code workspace, one session per project, with fact-checking and review subagents.\n• Token-cost control with jev-model-router, a Claude Code mod that routes each task to the right model and reasoning effort.\n\nOpen-source projects:\n• Lashline (C++): an OBS Studio filter that draws winged eyeliner on a live webcam. On-device face tracking (MediaPipe models on ONNX Runtime, about 3 ms per frame) with GPU rendering, so it never slows OBS down. github.com/valheru7/lashline\n• Afterword (Swift + Python): local-first AI meeting notes. Core Audio process taps record mic and call audio separately, whisper.cpp transcribes on-device, and Claude or a local model writes the notes. github.com/valheru7/afterword\n• Shoutout Friend (JavaScript): a Firebot script that writes personal Twitch shoutouts with Claude, with guards so chat text can't hijack the bot. github.com/valheru7/shoutoutFriend\n• Voice Steady (JavaScript): a browser-based pitch and resonance practice tool; real-time pitch and formant analysis in a Web Audio worklet cues you through your headphones. github.com/valheru7/voice-steady\n• vodkit (Python): a Claude Code skill and plugin for frame-accurate Twitch VOD clips, audio and chapters without downloading whole streams. github.com/valheru7/vodkit",
+    "insights": "iOS Development, Mobile Application Development and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/143815040/",
+     "name": "Veryanda",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4"
+     }
+    },
+    "position": "Founder & Independent Software Engineer",
+    "companyName": "Veryanda",
+    "location": "Seattle, Washington, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/143815040/",
+    "companyId": "143815040",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_400_400/B56aCRJ.rwJEAU-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=pUUA8uCuHJ-axrItKDLf8vMr-GaYO7IhMmSD2u70nN4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_200_200/B56aCRJ.rwJEAE-/0/1789141707744/veryanda_logo?e=1795046400&v=beta&t=R0QAo-GwVL8foghO6BflKr8UeoW_GaPYF7IMcdtAG_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGPXdRncnmjIA/company-logo_100_100/B56aCRJ.rwJEAI-/0/1789141707745/veryanda_logo?e=1795046400&v=beta&t=M58dKbXHYVzammTOrmeZ9PNaHAQVTUl0tmdDzLTmwa4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Staff iOS Engineer / Tech Lead",
+    "locationName": "Seattle, Washington, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2026
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "Lead development of SwiftUI and TCA features, driving architecture and delivery across iOS. Own CI/CD pipelines via GitHub Actions and manage end-to-end release processes and rotations for both iOS and Android. Coordinate cross-functional initiatives by aligning engineering, design, and product through structured planning and execution. Champion a people-first, high-performing remote culture while ensuring projects ship reliably and on schedule.",
+    "insights": "iOS Development, SwiftUI and +4 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/87130667/",
+     "name": "Flow",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo"
+     }
+    },
+    "position": "Staff iOS Engineer / Tech Lead",
+    "companyName": "Flow",
+    "location": "Seattle, Washington, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/87130667/",
+    "companyId": "87130667",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2026
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_400_400/B4EaCqVJdiJ8AU-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=vpuErq8bT3WKYTXQmOdzyNfNYFefSnTqd-BVwFcuvtA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_200_200/B4EaCqVJdiJ8AE-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=f0sqYrhrVqy5E1UgmBXjT3RRzvn9484iujLdzDi7HGo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGjmeaMJTGI6g/company-logo_100_100/B4EaCqVJdiJ8AI-/0/1789564065888/live_life_in_flow_logo?e=1795046400&v=beta&t=6I-3EsTcrR8e7EbTA7BwPWL5c0cT1DXcGnOiCHUKTHo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior iOS Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using MVVMC, Realm, SwiftUI, Combine, Async/await. Also a lot of work with CollectionViews and Compositional Layouts.\n\nAt a NYC-based early stage startup moving at a fast pace. Advised management, VPs, and founders of proper Software Development Lifecycle Practices, helped engineer a more sustainable release process, and contributed to CI infrastructure efforts (automated unused images and swift lint/format checks). Pushed for modularizing the codebase and for user-presented strings to be in one place for future localization. Helped document and enforce mobile architecture and mobile design system standards.\n\nAlso created culture channels on slack to promote employee well-being, local Seattle office meetups, and “hangout” Zoom meetings for remote employees to feel like they were more part of the office/team.",
+    "insights": "UIKit, SwiftUI and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/69194943/",
+     "name": "Saturn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM"
+     }
+    },
+    "position": "Senior iOS Developer",
+    "companyName": "Saturn",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/69194943/",
+    "companyId": "69194943",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_400_400/company-logo_400_400/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=l37flKEUphyYwleMQSpdeqPhLaKYRBivYqhR197MGaM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_200_200/company-logo_200_200/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=yvLtalluPMNBjdGrrX7y03vlJTicQbKsvZa4r8_Fp6E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEvJvPqZq3nUA/company-logo_100_100/company-logo_100_100/0/1657645273620/saturntechnologies_logo?e=1795046400&v=beta&t=QVFJ9fYue-6cZ373bH3YIYpUV_1PcorHareftN5sQag",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior iOS Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "iOS development in Swift/Xcode using paradigms such as protocol oriented programming, modular development, RxSwift, Observable patterns, Unidirectional architecture, and MVVM. \n\nExperience in both the passenger and driver apps across rideshare, transit, and rentals features.\n\nAlso helping out as a backend engineer to unblock myself and other mobile engineers.\n\nWorking closely with the cross-functional teams to determine direction and implementation, helping troubleshoot issues, and following features and experiments through to completion. Internally, helping document every bit of hidden knowledge encountered while automating otherwise cryptic processes for re-use. Reviewing code and providing [on-call] support for features implemented.\n\nMentoring new engineers both backend and iOS, introducing them to tools and standards and code reviewing their work. \n\nGoing above and beyond, sharing knowledge of our complex development environments and helping troubleshoot and improve these systems in the process. Developing scripts for automating common but difficult tasks in dev environments as well as proxy mock scripts that help mobile engineers get their work done when the server/backend service work has not been done yet.\n\nOn a personal level, contributing to company culture and social events when possible as well.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2620735/",
+     "name": "Lyft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno"
+     }
+    },
+    "position": "Senior iOS Engineer",
+    "companyName": "Lyft",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2620735/",
+    "companyId": "2620735",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_400_400/B4EZdbVQ6oHcAg-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=4qIGMdVZIRT881C1AcTJaVv9tflSyt3qeouxqg-WBno",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_200_200/B4EZdbVQ6oHcAQ-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=lrFdEWWmJ7yAwuCyEkl_Xp0U20qFaSVcDdwXq18Ku2s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG5JWwh4GET8A/company-logo_100_100/B4EZdbVQ6oHcAY-/0/1749583990773/lyft_logo?e=1795046400&v=beta&t=od6XocG2kRGCpUFqDzTrMezTcrWkUplSt7Zv7LAq_x8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_200_200/company-logo_200_200/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=BDYy_er_-GX0f2RXAgSxbpnd9zMbeloMvsf7znpyNX4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_100_100/company-logo_100_100/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=LzfpgcZyI-qhYDzQy2aWzGYj9liwW5iBaZhUdhjC-Pc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_200_200/company-logo_200_200/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=BDYy_er_-GX0f2RXAgSxbpnd9zMbeloMvsf7znpyNX4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_100_100/company-logo_100_100/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=LzfpgcZyI-qhYDzQy2aWzGYj9liwW5iBaZhUdhjC-Pc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10102/",
+    "schoolName": "Western Washington University",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10102/",
+    "schoolId": "10102",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 1999
+    },
+    "endDate": {
+     "year": 2004
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_200_200/company-logo_200_200/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=BDYy_er_-GX0f2RXAgSxbpnd9zMbeloMvsf7znpyNX4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_100_100/company-logo_100_100/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=LzfpgcZyI-qhYDzQy2aWzGYj9liwW5iBaZhUdhjC-Pc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_400_400/company-logo_400_400/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=rVPqC2wMZyugAJ1oA3gnDLyeHEGC9m_TeCqFcvj7HQI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_200_200/company-logo_200_200/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=BDYy_er_-GX0f2RXAgSxbpnd9zMbeloMvsf7znpyNX4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF4FV7rPE-0Og/company-logo_100_100/company-logo_100_100/0/1649887653357/western_washington_university_logo?e=1795046400&v=beta&t=LzfpgcZyI-qhYDzQy2aWzGYj9liwW5iBaZhUdhjC-Pc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10102/",
+    "schoolName": "Western Washington University",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10102/",
+    "schoolId": "10102",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 1999
+    },
+    "endDate": {
+     "year": 2004
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Treasurer, Board Director",
+    "companyName": "CHEER Seattle",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2024
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    },
+    "organization": "CHEER Seattle"
+   },
+   {
+    "role": "Chair of IT Committee",
+    "companyName": "CHEER Seattle",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    },
+    "organization": "CHEER Seattle"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Treasurer, Board Director",
+    "companyName": "CHEER Seattle",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2024
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    }
+   },
+   {
+    "role": "Chair of IT Committee",
+    "companyName": "CHEER Seattle",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "cause": "Human Rights",
+    "company": {
+     "url": "https://www.linkedin.com/company/10260970/",
+     "name": "CHEER Seattle",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_200_200/company-logo_200_200/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=sgQNKEEFY5NeOZD3Wp966s8PPtXWnkVLclzfcsqV638",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_100_100/company-logo_100_100/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=rKA6pz2eCxkFS4LyOEJnt34LRop-5xmIisa61D4WyLg",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqQwh8Up9pjw/company-logo_400_400/company-logo_400_400/0/1714429818531/cheer_seattle_logo?e=1795046400&v=beta&t=7wMgi-XxMUoxHoUIpNUb4fASYEVT8YMYPqYVh7jQUg8"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_100_100/B4DZi9yjFoG8Ag-/0/1755530802091?e=1795046400&v=beta&t=a0qhAMJ9L5Jw6gMHQqBaliVdFnBhfIVfv85rPerng_U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_200_200/B4DZi9yjFoG8Ac-/0/1755530802091?e=1795046400&v=beta&t=DP6ZtVpDHc7Xab5UG0BzoXzhGDKtU3OGPzJRqCjB37Y",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_400_400/B4DZi9yjFoG8Ak-/0/1755530802091?e=1795046400&v=beta&t=_GUs643YY7PrOsQ47-OXNo0cVCMeDy4SUFs-vnqOTiI",
+   "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_400_400/B4DZi9yjFoG8Ak-/0/1755530802091?e=1795046400&v=beta&t=_GUs643YY7PrOsQ47-OXNo0cVCMeDy4SUFs-vnqOTiI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_200_200/B4DZi9yjFoG8Ac-/0/1755530802091?e=1795046400&v=beta&t=DP6ZtVpDHc7Xab5UG0BzoXzhGDKtU3OGPzJRqCjB37Y",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_100_100/B4DZi9yjFoG8Ag-/0/1755530802091?e=1795046400&v=beta&t=a0qhAMJ9L5Jw6gMHQqBaliVdFnBhfIVfv85rPerng_U",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_100_100/B4DZi9yjFoG8Ag-/0/1755530802091?e=1795046400&v=beta&t=a0qhAMJ9L5Jw6gMHQqBaliVdFnBhfIVfv85rPerng_U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_200_200/B4DZi9yjFoG8Ac-/0/1755530802091?e=1795046400&v=beta&t=DP6ZtVpDHc7Xab5UG0BzoXzhGDKtU3OGPzJRqCjB37Y",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_400_400/B4DZi9yjFoG8Ak-/0/1755530802091?e=1795046400&v=beta&t=_GUs643YY7PrOsQ47-OXNo0cVCMeDy4SUFs-vnqOTiI",
+   "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-crop_800_800/B4DZi9yjFoG8AM-/0/1755530801992?e=1795046400&v=beta&t=5sbVdwPqpIOwu05e72clPta4qu214Ve8IPECWfqO5gA",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_400_400/B4DZi9yjFoG8Ak-/0/1755530802091?e=1795046400&v=beta&t=_GUs643YY7PrOsQ47-OXNo0cVCMeDy4SUFs-vnqOTiI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_200_200/B4DZi9yjFoG8Ac-/0/1755530802091?e=1795046400&v=beta&t=DP6ZtVpDHc7Xab5UG0BzoXzhGDKtU3OGPzJRqCjB37Y",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4D03AQE2CjgwjczbPw/profile-displayphoto-scale_100_100/B4DZi9yjFoG8Ag-/0/1755530802091?e=1795046400&v=beta&t=a0qhAMJ9L5Jw6gMHQqBaliVdFnBhfIVfv85rPerng_U",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_350_1400/B56aCgyBqDHMAU-/0/1789403863931?e=1795046400&v=beta&t=VxbF7FrbEoKuNrwzraKGVPQcn-C9YApAKJQnIyfPR1w",
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_200_800/B56aCgyBqDHMAQ-/0/1789403863931?e=1795046400&v=beta&t=oQLAW8pj9QaDH6ixHS1Ch62K1V4NoASJdNxgnclUq84",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_350_1400/B56aCgyBqDHMAU-/0/1789403863931?e=1795046400&v=beta&t=VxbF7FrbEoKuNrwzraKGVPQcn-C9YApAKJQnIyfPR1w",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_350_1400/B56aCgyBqDHMAU-/0/1789403863931?e=1795046400&v=beta&t=VxbF7FrbEoKuNrwzraKGVPQcn-C9YApAKJQnIyfPR1w",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFF69wEJVOnlA/profile-displaybackgroundimage-shrink_200_800/B56aCgyBqDHMAQ-/0/1789403863931?e=1795046400&v=beta&t=oQLAW8pj9QaDH6ixHS1Ch62K1V4NoASJdNxgnclUq84",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/trupoet"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T16:49:09.597Z",
+ "foundBy": null
+}

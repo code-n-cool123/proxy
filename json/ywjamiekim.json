@@ -1,0 +1,1430 @@
+{
+ "slug": "ywjamiekim",
+ "inputUrl": "https://www.linkedin.com/in/ywjamiekim",
+ "fetchedAt": "2026-11-13T01:20:10.564Z",
+ "id": "6af665ca326d0b70b7e2444f",
+ "url": "https://www.linkedin.com/in/ywjamiekim",
+ "profile": {
+  "created": 1553096098914,
+  "trackingId": "5rFvOs9GS0Cb+FDNoOct+A==",
+  "firstName": "Young Won (Jamie)",
+  "lastName": "Kim, Ph.D.",
+  "pronoun": null,
+  "versionTag": "3422421406",
+  "headline": "Sr. Software Engineer with PhD in Computational Biology",
+  "publicIdentifier": "ywjamiekim",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "725690788",
+  "profileId": "ACoAACtBKaQBaEFGFTsSgqKiMhJPdCQzg1wcnFg",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+   "597x597": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+   "597x597": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104116203",
+  "geoLocationName": "Seattle, Washington, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Sr. Software Engineer with extensive experience designing and building LLM architecture, AI agents, data pipelines, and ML models. Skilled in developing data-driven strategies that deliver actionable business insights and optimize workflows.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Houston, Texas, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "I design and deploy scalable data systems supporting clinical research, LLM applications, and ML workflows. My work bridges AI engineering, backend development, and infrastructure automation to accelerate insights and impact.\n\n◦ Built a multi-agent product for clinical trial data and documents using LangChain and LangGraph, giving trial sponsors self-serve, natural-language access to trial data and protocols.\n◦ Extended this agent system into a proactive risk-monitoring system using Celery, Celery Beat, and Celery chords to run agents on recurring schedules, continuously surfacing emerging risk signals across clinical trials instead of relying on manual review.\n◦ Implemented fine-grained access control using PostgreSQL row-level security (RLS) and dynamic, runtime Role-Based Access Control (RBAC) grants, enforcing per-user and per-tenant data isolation for secure multi-tenant access.\n◦ Containerized backend and agent components as independently scalable services with asynchronous REST APIs, deployed on Kubernetes with automated CI/CD\n◦ Owned scalable PostgreSQL databases and modular data ingestion pipelines that unify heterogeneous clinical trial datasets, serving as a key liaison between data pipeline and infrastructure teams.\n◦ Developed demographic-based ML models for biomarker discovery in colorectal neoplasia, achieving 89% accuracy and influencing clinical trial design.\n◦ Built a pipeline that processes actigraphy data to extract features for predicting disease status\n◦ Created a data augmentation workflow to improve insights for underrepresented demographics to enhance business performance and  improve representation.\n◦ Streamlined analytics workflows by automating PowerPoint report generation from 250M+ Snowflake rows, enhancing decision-making and saving hours of manual effort per cycle.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/28137143/",
+     "name": "OmniScience",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0"
+     }
+    }
+   },
+   {
+    "title": "Senior Bioinformatics Consultant",
+    "locationName": "South San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "I help biotech and Pharma companies meet their research and business needs by offering domain expertise and bioinformatics/data science skills.\n\n- Machine learning\n- Genomics (Cancer, neurodegenerative diseases, immune repertoire, etc)\n- Dockerized Nextflow pipeline development\n- Data visualization\n- Project management\n- Project scoping, proposal writing",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/17967077/",
+     "name": "BISC Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw"
+     }
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/162655/",
+     "name": "Baylor College of Medicine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "Postdoctoral Research Associate",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "PhD Candidate",
+      "locationName": "Houston, Texas",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2020
+       }
+      },
+      "totalDuration": "5 yrs 4 mos",
+      "description": "Computational biologist with a formal training in statistical machine learning. 6 publications, 1 manuscript under review. \n\nDeveloped Python-based algorithms to identify genetic variations that contribute to Alzheimer's disease  (AD) risk: \n- Analyzed whole exome sequencing data (82 million variants across ~5k samples) and identified potential genetic modifiers of APOE in AD\n- More than half of the genes tested modulated neurodegenerative phenotype in Drosophila AD models\n- Built a patient risk stratification model using Adaboost-SVM that may be used on top of the usual APOE-based AD risk assessment (AUC = 0.79 for APOE2 carriers and AUC = 0.71 for APOE4 carriers)\n\nDeveloped algorithms to analyze TCGA cancer germline samples:\n- Collaborated with 10+ other labs to produce, quality control, and analyze ~10k whole genome sequencing samples of cancer patients spanning 33 cancer types as part of the TCGA PanCanAtlas Germline Working Group\n- Built a polygenic risk model to stratify individuals at risk for colon cancer such that individuals at risk may be identified for earlier diagnostic screening (AUC = 0.90 in discovery cohorts, AUC = 0.88 in replication cohorts)\n- Interrogated the codon-level co-occurrences of germline variants and somatic mutations and their role in cancer",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Took part in 1) identification of metabolic differences between M1 (inflammatory) and M2 (anti-inflammatory) macrophages and 2) characterization of tumor-associated macrophages and their roles in breast cancer, working with oncology surgeons to screen for potential drug targets to be used clinically.\n\n2 publications",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/15096106/",
+     "name": "Seoul National University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/162655/",
+    "schoolName": "Baylor College of Medicine",
+    "degreeName": "Doctor of Philosophy - PhD",
+    "fieldOfStudy": "Genome Sciences/Genomics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_200_200/company-logo_200_200/0/1631338821198?e=1796256000&v=beta&t=NWHNYwH2Z30nS-WvokFTs8_wPJT2_gnfOjXsxC945S4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_100_100/company-logo_100_100/0/1631338821198?e=1796256000&v=beta&t=WN071jOWE23867FzpfYALcAdu5oDZrl3kwZL7Zqr95M",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_400_400/company-logo_400_400/0/1631338821198?e=1796256000&v=beta&t=NLBjdatWn6f1nshvbwypH6RT9v_KroT5KCMsTNJU4BI"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15094698/",
+    "schoolName": "Korea University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Biology/Biological Sciences, General",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Data Science Professional Certificate",
+    "authority": "Coursera Course Certificates",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera Course Certificates",
+    "title": "Data Science Professional Certificate",
+    "issuedBy": "Coursera Course Certificates",
+    "issuedByLogo": null
+   },
+   {
+    "name": "IBM Data Science Professional Certificate Specialization",
+    "authority": "Coursera Course Certificates",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera Course Certificates",
+    "title": "IBM Data Science Professional Certificate Specialization",
+    "issuedBy": "Coursera Course Certificates",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Cancer"
+   },
+   {
+    "name": "Cell Division"
+   }
+  ],
+  "honors": [
+   {
+    "title": "Poster Finalist",
+    "description": "Poster finalist in the annual Graduate Student Symposium",
+    "issueDate": {},
+    "issuer": "Issued by Baylor College of Medicine Graduate School · Oct 2018"
+   },
+   {
+    "title": "Poster Presenter",
+    "description": "Poster presenter at the Gordon Research Conference on Human Genetic Variation and Disease",
+    "issueDate": {},
+    "issuer": "Issued by Gordon Research Conference · Jun 2018"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "French",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [
+   {
+    "title": "Functional variants identify sex-specific genes and pathways in Alzheimer’s Disease",
+    "publisher": "Nature Communications · May 13, 2023",
+    "date": {}
+   },
+   {
+    "title": "A general calculus of fitness landscapes finds genes under selection in cancers",
+    "publisher": "Genome Research · Mar 17, 2022",
+    "date": {}
+   }
+  ],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "OmniScience",
+  "companyPublicId": "omniscience-bio",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/omniscience-bio/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:28137143",
+   "name": "OmniScience",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEC2i43AUHzLQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+       "expiresAt": 1796256000000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_"
+    }
+   },
+   "universalName": "omniscience-bio",
+   "url": "https://www.linkedin.com/company/omniscience-bio/",
+   "slug": "omniscience-bio",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+   "specialties": []
+  },
+  "followerCount": 356,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 348,
+  "skills": [
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Genomics",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Bioinformatics",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Statistical Data Analysis",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Molecular Biology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cell Biology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "R",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cancer Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NGS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cancer Genomics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mouse Handling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Genomics",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Bioinformatics",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Statistical Data Analysis",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Molecular Biology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cell Biology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Cancer Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NGS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cancer Genomics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mouse Handling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphPad Prism",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "R",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Seaborn",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Word",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ywjamiekim",
+  "linkedinUrl": "https://www.linkedin.com/in/ywjamiekim",
+  "profileUrl": "https://www.linkedin.com/in/ywjamiekim",
+  "verified": true,
+  "registeredAt": "2019-03-20T15:34:58.914Z",
+  "location": {
+   "linkedinText": "Seattle, Washington, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Seattle, Washington, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Sr. Software Engineer with extensive experience designing and building LLM architecture, AI agents, data pipelines, and ML models. Skilled in developing data-driven strategies that deliver actionable business insights and optimize workflows.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Bioinformatics Consultant",
+   "Undergraduate Research Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Houston, Texas, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "I design and deploy scalable data systems supporting clinical research, LLM applications, and ML workflows. My work bridges AI engineering, backend development, and infrastructure automation to accelerate insights and impact.\n\n◦ Built a multi-agent product for clinical trial data and documents using LangChain and LangGraph, giving trial sponsors self-serve, natural-language access to trial data and protocols.\n◦ Extended this agent system into a proactive risk-monitoring system using Celery, Celery Beat, and Celery chords to run agents on recurring schedules, continuously surfacing emerging risk signals across clinical trials instead of relying on manual review.\n◦ Implemented fine-grained access control using PostgreSQL row-level security (RLS) and dynamic, runtime Role-Based Access Control (RBAC) grants, enforcing per-user and per-tenant data isolation for secure multi-tenant access.\n◦ Containerized backend and agent components as independently scalable services with asynchronous REST APIs, deployed on Kubernetes with automated CI/CD\n◦ Owned scalable PostgreSQL databases and modular data ingestion pipelines that unify heterogeneous clinical trial datasets, serving as a key liaison between data pipeline and infrastructure teams.\n◦ Developed demographic-based ML models for biomarker discovery in colorectal neoplasia, achieving 89% accuracy and influencing clinical trial design.\n◦ Built a pipeline that processes actigraphy data to extract features for predicting disease status\n◦ Created a data augmentation workflow to improve insights for underrepresented demographics to enhance business performance and  improve representation.\n◦ Streamlined analytics workflows by automating PowerPoint report generation from 250M+ Snowflake rows, enhancing decision-making and saving hours of manual effort per cycle.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/28137143/",
+     "name": "OmniScience",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "OmniScience",
+    "location": "Houston, Texas, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28137143/",
+    "companyId": "28137143",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/162655/",
+     "name": "Baylor College of Medicine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Postdoctoral Research Associate",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "PhD Candidate",
+      "locationName": "Houston, Texas",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2020
+       }
+      },
+      "totalDuration": "5 yrs 4 mos",
+      "description": "Computational biologist with a formal training in statistical machine learning. 6 publications, 1 manuscript under review. \n\nDeveloped Python-based algorithms to identify genetic variations that contribute to Alzheimer's disease  (AD) risk: \n- Analyzed whole exome sequencing data (82 million variants across ~5k samples) and identified potential genetic modifiers of APOE in AD\n- More than half of the genes tested modulated neurodegenerative phenotype in Drosophila AD models\n- Built a patient risk stratification model using Adaboost-SVM that may be used on top of the usual APOE-based AD risk assessment (AUC = 0.79 for APOE2 carriers and AUC = 0.71 for APOE4 carriers)\n\nDeveloped algorithms to analyze TCGA cancer germline samples:\n- Collaborated with 10+ other labs to produce, quality control, and analyze ~10k whole genome sequencing samples of cancer patients spanning 33 cancer types as part of the TCGA PanCanAtlas Germline Working Group\n- Built a polygenic risk model to stratify individuals at risk for colon cancer such that individuals at risk may be identified for earlier diagnostic screening (AUC = 0.90 in discovery cohorts, AUC = 0.88 in replication cohorts)\n- Interrogated the codon-level co-occurrences of germline variants and somatic mutations and their role in cancer",
+      "insights": ""
+     }
+    ],
+    "companyName": "Baylor College of Medicine",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162655/",
+    "companyId": "162655",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Bioinformatics Consultant",
+    "locationName": "South San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "I help biotech and Pharma companies meet their research and business needs by offering domain expertise and bioinformatics/data science skills.\n\n- Machine learning\n- Genomics (Cancer, neurodegenerative diseases, immune repertoire, etc)\n- Dockerized Nextflow pipeline development\n- Data visualization\n- Project management\n- Project scoping, proposal writing",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/17967077/",
+     "name": "BISC Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw"
+     }
+    },
+    "position": "Senior Bioinformatics Consultant",
+    "companyName": "BISC Global",
+    "location": "South San Francisco, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17967077/",
+    "companyId": "17967077",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Took part in 1) identification of metabolic differences between M1 (inflammatory) and M2 (anti-inflammatory) macrophages and 2) characterization of tumor-associated macrophages and their roles in breast cancer, working with oncology surgeons to screen for potential drug targets to be used clinically.\n\n2 publications",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/15096106/",
+     "name": "Seoul National University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "Seoul National University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "companyId": "15096106",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "28137143",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28137143/",
+    "companyName": "OmniScience",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "162655",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162655/",
+    "companyName": "Baylor College of Medicine",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Houston, Texas, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "I design and deploy scalable data systems supporting clinical research, LLM applications, and ML workflows. My work bridges AI engineering, backend development, and infrastructure automation to accelerate insights and impact.\n\n◦ Built a multi-agent product for clinical trial data and documents using LangChain and LangGraph, giving trial sponsors self-serve, natural-language access to trial data and protocols.\n◦ Extended this agent system into a proactive risk-monitoring system using Celery, Celery Beat, and Celery chords to run agents on recurring schedules, continuously surfacing emerging risk signals across clinical trials instead of relying on manual review.\n◦ Implemented fine-grained access control using PostgreSQL row-level security (RLS) and dynamic, runtime Role-Based Access Control (RBAC) grants, enforcing per-user and per-tenant data isolation for secure multi-tenant access.\n◦ Containerized backend and agent components as independently scalable services with asynchronous REST APIs, deployed on Kubernetes with automated CI/CD\n◦ Owned scalable PostgreSQL databases and modular data ingestion pipelines that unify heterogeneous clinical trial datasets, serving as a key liaison between data pipeline and infrastructure teams.\n◦ Developed demographic-based ML models for biomarker discovery in colorectal neoplasia, achieving 89% accuracy and influencing clinical trial design.\n◦ Built a pipeline that processes actigraphy data to extract features for predicting disease status\n◦ Created a data augmentation workflow to improve insights for underrepresented demographics to enhance business performance and  improve representation.\n◦ Streamlined analytics workflows by automating PowerPoint report generation from 250M+ Snowflake rows, enhancing decision-making and saving hours of manual effort per cycle.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/28137143/",
+     "name": "OmniScience",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "OmniScience",
+    "location": "Houston, Texas, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28137143/",
+    "companyId": "28137143",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_400_400/company-logo_400_400/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=ALTw0ZzX66BxfJoY5EzdMRBwfyTXX3eF1Bapx3XzCs0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_200_200/company-logo_200_200/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=k3O8sgPwJEeNMBeUN-KTi0jym0dWfhlq9oIGjKE74w0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEC2i43AUHzLQ/company-logo_100_100/company-logo_100_100/0/1706147540187/mercury_data_science_logo?e=1796256000&v=beta&t=Fo_AJ_hXw_61-Sgm8F-2nG_XZkh8nQ0tuIIgq0-32Ec",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Bioinformatics Consultant",
+    "locationName": "South San Francisco, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "I help biotech and Pharma companies meet their research and business needs by offering domain expertise and bioinformatics/data science skills.\n\n- Machine learning\n- Genomics (Cancer, neurodegenerative diseases, immune repertoire, etc)\n- Dockerized Nextflow pipeline development\n- Data visualization\n- Project management\n- Project scoping, proposal writing",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/17967077/",
+     "name": "BISC Global",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw"
+     }
+    },
+    "position": "Senior Bioinformatics Consultant",
+    "companyName": "BISC Global",
+    "location": "South San Francisco, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17967077/",
+    "companyId": "17967077",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_400_400/company-logo_400_400/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=VlcevUoD9S8MPxJHA8pCHnieS0CjHp4U9SBt0LO0spw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_200_200/company-logo_200_200/0/1683039952961/bisc_global_logo?e=1796256000&v=beta&t=MKxBwIzTS09s0ehLR1hSp2yHj3sofdZGulhDFJs76w4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEj4cAU8OJXtA/company-logo_100_100/company-logo_100_100/0/1683039952962/bisc_global_logo?e=1796256000&v=beta&t=y8A1TuG0pSINzS9Y-gu3sTb2RC1Pd33x6UHTBkpindw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/162655/",
+     "name": "Baylor College of Medicine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI"
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "positions": [
+     {
+      "title": "Postdoctoral Research Associate",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "PhD Candidate",
+      "locationName": "Houston, Texas",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2015
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2020
+       }
+      },
+      "totalDuration": "5 yrs 4 mos",
+      "description": "Computational biologist with a formal training in statistical machine learning. 6 publications, 1 manuscript under review. \n\nDeveloped Python-based algorithms to identify genetic variations that contribute to Alzheimer's disease  (AD) risk: \n- Analyzed whole exome sequencing data (82 million variants across ~5k samples) and identified potential genetic modifiers of APOE in AD\n- More than half of the genes tested modulated neurodegenerative phenotype in Drosophila AD models\n- Built a patient risk stratification model using Adaboost-SVM that may be used on top of the usual APOE-based AD risk assessment (AUC = 0.79 for APOE2 carriers and AUC = 0.71 for APOE4 carriers)\n\nDeveloped algorithms to analyze TCGA cancer germline samples:\n- Collaborated with 10+ other labs to produce, quality control, and analyze ~10k whole genome sequencing samples of cancer patients spanning 33 cancer types as part of the TCGA PanCanAtlas Germline Working Group\n- Built a polygenic risk model to stratify individuals at risk for colon cancer such that individuals at risk may be identified for earlier diagnostic screening (AUC = 0.90 in discovery cohorts, AUC = 0.88 in replication cohorts)\n- Interrogated the codon-level co-occurrences of germline variants and somatic mutations and their role in cancer",
+      "insights": ""
+     }
+    ],
+    "companyName": "Baylor College of Medicine",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/162655/",
+    "companyId": "162655",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Took part in 1) identification of metabolic differences between M1 (inflammatory) and M2 (anti-inflammatory) macrophages and 2) characterization of tumor-associated macrophages and their roles in breast cancer, working with oncology surgeons to screen for potential drug targets to be used clinically.\n\n2 publications",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/15096106/",
+     "name": "Seoul National University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "Seoul National University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "companyId": "15096106",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=uLvBR-vyB6cuD61qc3PhNrMyLY1uceJJZ74azx1683Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=aDtW-hY_Zk9XPyxKIbCYzDSTZ092ObdqMReVN8VgdzI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1796256000&v=beta&t=nWWtQUWT1OjmFdmA8JtMRIxrgVyuId9iMOChacpYqhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/162655/",
+    "schoolName": "Baylor College of Medicine",
+    "degreeName": "Doctor of Philosophy - PhD",
+    "fieldOfStudy": "Genome Sciences/Genomics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/162655/",
+    "schoolId": "162655",
+    "degree": "Doctor of Philosophy - PhD",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2020
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_200_200/company-logo_200_200/0/1631338821198?e=1796256000&v=beta&t=NWHNYwH2Z30nS-WvokFTs8_wPJT2_gnfOjXsxC945S4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_100_100/company-logo_100_100/0/1631338821198?e=1796256000&v=beta&t=WN071jOWE23867FzpfYALcAdu5oDZrl3kwZL7Zqr95M",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_400_400/company-logo_400_400/0/1631338821198?e=1796256000&v=beta&t=NLBjdatWn6f1nshvbwypH6RT9v_KroT5KCMsTNJU4BI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_400_400/company-logo_400_400/0/1631338821198?e=1796256000&v=beta&t=NLBjdatWn6f1nshvbwypH6RT9v_KroT5KCMsTNJU4BI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_400_400/company-logo_400_400/0/1631338821198?e=1796256000&v=beta&t=NLBjdatWn6f1nshvbwypH6RT9v_KroT5KCMsTNJU4BI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_200_200/company-logo_200_200/0/1631338821198?e=1796256000&v=beta&t=NWHNYwH2Z30nS-WvokFTs8_wPJT2_gnfOjXsxC945S4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGlk-jTN4pzzQ/company-logo_100_100/company-logo_100_100/0/1631338821198?e=1796256000&v=beta&t=WN071jOWE23867FzpfYALcAdu5oDZrl3kwZL7Zqr95M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15094698/",
+    "schoolName": "Korea University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Biology/Biological Sciences, General",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15094698/",
+    "schoolId": "15094698",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_400_400/company-logo_400_400/0/1631332416214?e=1796256000&v=beta&t=nKGuJBi_QjDrzGjOwEt-bZjflCkf3OyuGD3qB4FHCEI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_200_200/company-logo_200_200/0/1631332416213?e=1796256000&v=beta&t=m9v1vGh5yUq2gRTow78DteXYFCYjgA367DBTVwLeYuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEq5r1ol6xSEw/company-logo_100_100/company-logo_100_100/0/1631332416214?e=1796256000&v=beta&t=5YqBsn-ypzCaSqA1eZtFWlB7sMzJ1jFH4FpZvvZ6W9A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/162655/",
+    "schoolName": "Baylor College of Medicine",
+    "degreeName": "Doctor of Philosophy - PhD",
+    "fieldOfStudy": "Genome Sciences/Genomics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/162655/",
+    "schoolId": "162655",
+    "degree": "Doctor of Philosophy - PhD",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Poster Finalist",
+    "description": "Poster finalist in the annual Graduate Student Symposium",
+    "issueDate": {},
+    "issuer": "Issued by Baylor College of Medicine Graduate School · Oct 2018"
+   },
+   {
+    "title": "Poster Presenter",
+    "description": "Poster presenter at the Gordon Research Conference on Human Genetic Variation and Disease",
+    "issueDate": {},
+    "issuer": "Issued by Gordon Research Conference · Jun 2018"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+   "597x597": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+     "width": 597,
+     "height": 597
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+   "597x597": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+     "width": 597,
+     "height": 597
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+   "597x597": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1605041203489?e=1796256000&v=beta&t=sNiQb7WXNOh6EqHHm18l_MAczunAgxyH5ScAxqKRxX4",
+     "width": 597,
+     "height": 597
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1605041203489?e=1796256000&v=beta&t=YOfotifao1SB49dMZKMda_T8-8zEENFNZyZ-VrtPNsU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1605041203489?e=1796256000&v=beta&t=b41-4SyaJiR8PdvKNHRaFPJLJK5C9QUCzRREdWpgCTE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQEIB5gMqN78Qg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1605041203489?e=1796256000&v=beta&t=NdgHi1vJuEQpHnQQK4c6FMhVDvll3pxeAcVcu7wJ6wY",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ywjamiekim"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T01:20:01.261Z",
+ "foundBy": null
+}

@@ -1,0 +1,1172 @@
+{
+ "slug": "eric-capps",
+ "inputUrl": "https://www.linkedin.com/in/eric-capps",
+ "fetchedAt": "2026-10-19T19:31:58.340Z",
+ "id": "6ad6702ed820dfb707d083bf",
+ "url": "https://www.linkedin.com/in/eric-capps",
+ "profile": {
+  "created": 1193905674000,
+  "trackingId": "F3j6ivxXSliaddUW1NV8/g==",
+  "firstName": "Eric",
+  "lastName": "Capps",
+  "pronoun": null,
+  "versionTag": "343772210",
+  "headline": "Principal Software Engineer at Dynamo",
+  "publicIdentifier": "eric-capps",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "17600767",
+  "profileId": "ACoAAAEMkP8BYqAMFL6Z7wvz83GxTe7kRfgwQI4",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103250458",
+  "geoLocationName": "Salt Lake City, Utah, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Principal Software Engineer",
+  "summary": "Software Engineering Director and Principal Architect with 20+ years of experience building and scaling high-performance geospatial data pipelines, telematics systems, and machine learning engines. Inventor with multiple patents (awarded and pending) in vehicle telematics. Proven track record of leading globally distributed cross-functional teams and transitioning legacy architectures into modern, scalable, real-time data solutions.",
+  "positions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Salt Lake City, UT · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "Contract with Commerce Logic (acquired by Bestpass)\n\nToll Calculator \n- Created a best-in-class toll calculator for North America. Input is the GPS data points from a vehicle as well as vehicle attributes; output is the tolls for that trip. This calculator is both faster and more accurate than all other commercially available calculators.\n- Architected and developed a machine learning-driven toll detection engine that accurately predicts real-time vehicle gantry crossings by analyzing raw (noisy) GPS telemetry data.\n- Designed data pipelines utilizing unsupervised learning to identify driving patterns, allowing the system to automatically discover and map exact physical toll booth locations.\n- Maximized real-time detection accuracy by creating an automated testing framework that learns from the actual toll bill as well as human feedback, drastically reducing false-positive toll detections on adjacent non-toll roads.\n- Built a full-stack internal mapping dashboard from scratch that enables operations teams to visually review trips, label ground-truth data, and continuously train the core algorithm.\n\nFleet Processing\n- Spearheaded the design and architecture of a fleet processing engine capable of ingesting and standardizing live telemetry for 70,000+ vehicles (and growing) from disparate third-party APIs (Geotab, Samsara, Platform Science).\n- Optimized system performance and compute costs by implementing aggressive spatial pre-filtering logic, instantly discarding trips that did not travel on toll roads.\n- Developed complex geospatial data scrubbers to filter bad GPS data and stitch together disconnected trips, ensuring high-fidelity data is passed to the toll calculator.\n",
+    "insights": "Skills: Software Engineering · Machine Learning · Spatial Analysis · System Architecture",
+    "company": {
+     "url": "",
+     "name": "Dynamo",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Hockey Coach",
+    "locationName": "Salt Lake City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "13 yrs 7 mos",
+    "description": "Dedicated youth hockey coach with experience across all age groups (comp teams as well as High School). Applied coaching principles to foster teamwork, leadership, and performance in both sports and the workplace.",
+    "insights": "Skills: Coaching · Leadership",
+    "company": {
+     "url": "",
+     "name": "Volunteer",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+     "logo": {}
+    },
+    "locationName": "Salt Lake City, UT",
+    "employmentType": "Full-time",
+    "totalDuration": "19 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Director of In-Vehicle Software",
+      "locationName": "Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2009
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "13 yrs 9 mos",
+      "description": "- Owned the full in-vehicle technology stack throughout a 20-year tenure, bridging low-level microcontroller firmware to the Android user interface for telematics and Electronic Logging Devices (ELD) deployed across North America.\n- Instrumental in evolving the core product from a specialized NASCAR crash data recorder into a comprehensive, multi-functional ELD, safety, and camera platform.\n- Led the strategic transition of the in-cab technology stack from C on embedded Linux to Java on Android, adapting to industry evolution and rapidly changing customer needs.\n- Expanded and managed a globally distributed firmware team, scaling from a single developer to a high-performing international organization.\n- Managed fleet operations for tens of thousands of active devices, utilizing server-side data analytics to detect field defects and deploying Over-The-Air (OTA) updates to maintain compliance and reliability.\n- Delivered industry-leading telematics solutions that captured major market share and directly contributed to the company’s sustained growth and eventual acquisition.\n",
+      "insights": ""
+     },
+     {
+      "title": "Principal Software Architect",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2009
+       }
+      },
+      "totalDuration": "4 yrs 5 mos",
+      "description": "Skills: SQL · System Architecture · Android Development",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2003
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2005
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Skills: Software Development · Embedded Linux",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Senior Software Engineer/Architect",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2003
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "* Designed and implemented a new version of the authoring application so it was a true client/server application.  Also, switched the data store from an object oriented database to a more standard back end (Oracle or SQL Server).  Deloitte and Touche estimated this project would cost $850,000 and take over 8 months to complete with a full team of developers.  Designed a more elegant solution and converted the application with one other developer in less than four months.  This allowed the authoring tool to run over a dial-up connection, where a 100-Mbps network connection was required previously.  Both the client and the server were written in Java and supported on Windows, Solaris and Linux.\n\n* Won the Creativity & Innovation in Product Quality award in 2000 from votes submitted by my peers.  This award is given to the individual whose visionary innovation and creative ideas succeeded in dramatically improving the quality of Avaltus’ interactive learning solutions.\n\n* Engineered an XML solution to remove the reliance on a proprietary object oriented database to avoid a 4-percent royalty payment on each courseware sale.  Implemented this solution in less than a week.  \n\n* Managed a talented team of developers who are responsible for implementing new features and maintaining the Jupiter Learning Server (J2EE web application) and all learning objects (Java Applets, HTML and Javascript) for both web and CD delivery.\n\n* Optimized the Jupiter Learning Server to handle over 750 concurrent users per mid range CPU and reduced memory usage from 5 MB per concurrent user to 250 KB per concurrent user.  These optimizations significantly reduced the complexity in creating a server farm that can handle thousands of concurrent users.",
+    "company": {
+     "url": "",
+     "name": "Avaltus",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "Greater Salt Lake City Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "* Created Designer’s Edge (C++/MFC), which sold twice the initial projections – four million in sales the first year with only four software developers. This product won the Software Product of the Year Award from Multimedia Training, the Stellar Award from Windows Sources and received the first five star rating ever given from Interactivity.  Our team also won the Times Mirror Innovation Award for our work on this product.\n\n* Created many base classes, which were adopted as standards across all applications. \n\n* Developed Quest 6.0, a multimedia authoring system, which utilized COM/ActiveX technology to make it completely extensible.",
+    "company": {
+     "url": "",
+     "name": "Allen Communication (Mentergy)",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_200_200/company-logo_200_200/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=V1_ialMaAbynsu6rx5G9JyajB1IJ2fu1t5_tFKYP150",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_100_100/company-logo_100_100/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=L0q4CgLVqk2AgI4FquojwVRWxVPlUO3KClBh2JZxZoE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251168/",
+    "schoolName": "University of Utah",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1987
+     },
+     "endDate": {
+      "year": 1992
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 338,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 337,
+  "skills": [
+   {
+    "name": "Telematics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spatial Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 32,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Telematics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spatial Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 32,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Team Building",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Product Management",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 24,
+    "experiences": ""
+   },
+   {
+    "name": "Product Development",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Operating Systems",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "NetSuite",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "PCB design",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Integration",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "JDBC",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded C",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Objective-C",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Firmware",
+    "endorsements": 26,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Team Leadership",
+    "endorsements": 13,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/eric-capps",
+  "linkedinUrl": "https://www.linkedin.com/in/eric-capps",
+  "profileUrl": "https://www.linkedin.com/in/eric-capps",
+  "verified": true,
+  "registeredAt": "2007-11-01T08:27:54.000Z",
+  "location": {
+   "linkedinText": "Salt Lake City, Utah, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Salt Lake City, Utah, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Software Engineering Director and Principal Architect with 20+ years of experience building and scaling high-performance geospatial data pipelines, telematics systems, and machine learning engines. Inventor with multiple patents (awarded and pending) in vehicle telematics. Proven track record of leading globally distributed cross-functional teams and transitioning legacy architectures into modern, scalable, real-time data solutions.",
+  "currentTitle": "Principal Software Engineer",
+  "allTitles": [
+   "Principal Software Engineer",
+   "Hockey Coach",
+   "Senior Software Engineer/Architect",
+   "Software Developer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Salt Lake City, UT · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "Contract with Commerce Logic (acquired by Bestpass)\n\nToll Calculator \n- Created a best-in-class toll calculator for North America. Input is the GPS data points from a vehicle as well as vehicle attributes; output is the tolls for that trip. This calculator is both faster and more accurate than all other commercially available calculators.\n- Architected and developed a machine learning-driven toll detection engine that accurately predicts real-time vehicle gantry crossings by analyzing raw (noisy) GPS telemetry data.\n- Designed data pipelines utilizing unsupervised learning to identify driving patterns, allowing the system to automatically discover and map exact physical toll booth locations.\n- Maximized real-time detection accuracy by creating an automated testing framework that learns from the actual toll bill as well as human feedback, drastically reducing false-positive toll detections on adjacent non-toll roads.\n- Built a full-stack internal mapping dashboard from scratch that enables operations teams to visually review trips, label ground-truth data, and continuously train the core algorithm.\n\nFleet Processing\n- Spearheaded the design and architecture of a fleet processing engine capable of ingesting and standardizing live telemetry for 70,000+ vehicles (and growing) from disparate third-party APIs (Geotab, Samsara, Platform Science).\n- Optimized system performance and compute costs by implementing aggressive spatial pre-filtering logic, instantly discarding trips that did not travel on toll roads.\n- Developed complex geospatial data scrubbers to filter bad GPS data and stitch together disconnected trips, ensuring high-fidelity data is passed to the toll calculator.\n",
+    "insights": "Skills: Software Engineering · Machine Learning · Spatial Analysis · System Architecture",
+    "company": {
+     "url": "",
+     "name": "Dynamo",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Dynamo",
+    "location": "Salt Lake City, UT · Remote",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+     "logo": {}
+    },
+    "locationName": "Salt Lake City, UT",
+    "employmentType": "Full-time",
+    "totalDuration": "19 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Director of In-Vehicle Software",
+      "locationName": "Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2009
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "13 yrs 9 mos",
+      "description": "- Owned the full in-vehicle technology stack throughout a 20-year tenure, bridging low-level microcontroller firmware to the Android user interface for telematics and Electronic Logging Devices (ELD) deployed across North America.\n- Instrumental in evolving the core product from a specialized NASCAR crash data recorder into a comprehensive, multi-functional ELD, safety, and camera platform.\n- Led the strategic transition of the in-cab technology stack from C on embedded Linux to Java on Android, adapting to industry evolution and rapidly changing customer needs.\n- Expanded and managed a globally distributed firmware team, scaling from a single developer to a high-performing international organization.\n- Managed fleet operations for tens of thousands of active devices, utilizing server-side data analytics to detect field defects and deploying Over-The-Air (OTA) updates to maintain compliance and reliability.\n- Delivered industry-leading telematics solutions that captured major market share and directly contributed to the company’s sustained growth and eventual acquisition.\n",
+      "insights": ""
+     },
+     {
+      "title": "Principal Software Architect",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2009
+       }
+      },
+      "totalDuration": "4 yrs 5 mos",
+      "description": "Skills: SQL · System Architecture · Android Development",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2003
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2005
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Skills: Software Development · Embedded Linux",
+      "insights": ""
+     }
+    ],
+    "companyName": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+    "location": "Salt Lake City, UT",
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+    "duration": "19 yrs 11 mos",
+    "skills": [],
+    "companyLogo": {}
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Hockey Coach",
+    "locationName": "Salt Lake City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "13 yrs 7 mos",
+    "description": "Dedicated youth hockey coach with experience across all age groups (comp teams as well as High School). Applied coaching principles to foster teamwork, leadership, and performance in both sports and the workplace.",
+    "insights": "Skills: Coaching · Leadership",
+    "company": {
+     "url": "",
+     "name": "Volunteer",
+     "logo": {}
+    },
+    "position": "Hockey Coach",
+    "companyName": "Volunteer",
+    "location": "Salt Lake City Metropolitan Area",
+    "duration": "13 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer/Architect",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2003
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "* Designed and implemented a new version of the authoring application so it was a true client/server application.  Also, switched the data store from an object oriented database to a more standard back end (Oracle or SQL Server).  Deloitte and Touche estimated this project would cost $850,000 and take over 8 months to complete with a full team of developers.  Designed a more elegant solution and converted the application with one other developer in less than four months.  This allowed the authoring tool to run over a dial-up connection, where a 100-Mbps network connection was required previously.  Both the client and the server were written in Java and supported on Windows, Solaris and Linux.\n\n* Won the Creativity & Innovation in Product Quality award in 2000 from votes submitted by my peers.  This award is given to the individual whose visionary innovation and creative ideas succeeded in dramatically improving the quality of Avaltus’ interactive learning solutions.\n\n* Engineered an XML solution to remove the reliance on a proprietary object oriented database to avoid a 4-percent royalty payment on each courseware sale.  Implemented this solution in less than a week.  \n\n* Managed a talented team of developers who are responsible for implementing new features and maintaining the Jupiter Learning Server (J2EE web application) and all learning objects (Java Applets, HTML and Javascript) for both web and CD delivery.\n\n* Optimized the Jupiter Learning Server to handle over 750 concurrent users per mid range CPU and reduced memory usage from 5 MB per concurrent user to 250 KB per concurrent user.  These optimizations significantly reduced the complexity in creating a server farm that can handle thousands of concurrent users.",
+    "company": {
+     "url": "",
+     "name": "Avaltus",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer/Architect",
+    "companyName": "Avaltus",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1999
+    },
+    "endDate": {
+     "year": 2003
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "Greater Salt Lake City Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "* Created Designer’s Edge (C++/MFC), which sold twice the initial projections – four million in sales the first year with only four software developers. This product won the Software Product of the Year Award from Multimedia Training, the Stellar Award from Windows Sources and received the first five star rating ever given from Interactivity.  Our team also won the Times Mirror Innovation Award for our work on this product.\n\n* Created many base classes, which were adopted as standards across all applications. \n\n* Developed Quest 6.0, a multimedia authoring system, which utilized COM/ActiveX technology to make it completely extensible.",
+    "company": {
+     "url": "",
+     "name": "Allen Communication (Mentergy)",
+     "logo": {}
+    },
+    "position": "Software Developer",
+    "companyName": "Allen Communication (Mentergy)",
+    "location": "Greater Salt Lake City Area",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1994
+    },
+    "endDate": {
+     "year": 1999
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Dynamo",
+    "companyLogo": {}
+   },
+   {
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+    "companyName": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+    "companyLogo": {}
+   }
+  ],
+  "experience": [
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Salt Lake City, UT · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "Contract with Commerce Logic (acquired by Bestpass)\n\nToll Calculator \n- Created a best-in-class toll calculator for North America. Input is the GPS data points from a vehicle as well as vehicle attributes; output is the tolls for that trip. This calculator is both faster and more accurate than all other commercially available calculators.\n- Architected and developed a machine learning-driven toll detection engine that accurately predicts real-time vehicle gantry crossings by analyzing raw (noisy) GPS telemetry data.\n- Designed data pipelines utilizing unsupervised learning to identify driving patterns, allowing the system to automatically discover and map exact physical toll booth locations.\n- Maximized real-time detection accuracy by creating an automated testing framework that learns from the actual toll bill as well as human feedback, drastically reducing false-positive toll detections on adjacent non-toll roads.\n- Built a full-stack internal mapping dashboard from scratch that enables operations teams to visually review trips, label ground-truth data, and continuously train the core algorithm.\n\nFleet Processing\n- Spearheaded the design and architecture of a fleet processing engine capable of ingesting and standardizing live telemetry for 70,000+ vehicles (and growing) from disparate third-party APIs (Geotab, Samsara, Platform Science).\n- Optimized system performance and compute costs by implementing aggressive spatial pre-filtering logic, instantly discarding trips that did not travel on toll roads.\n- Developed complex geospatial data scrubbers to filter bad GPS data and stitch together disconnected trips, ensuring high-fidelity data is passed to the toll calculator.\n",
+    "insights": "Skills: Software Engineering · Machine Learning · Spatial Analysis · System Architecture",
+    "company": {
+     "url": "",
+     "name": "Dynamo",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Dynamo",
+    "location": "Salt Lake City, UT · Remote",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Hockey Coach",
+    "locationName": "Salt Lake City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2025
+     }
+    },
+    "totalDuration": "13 yrs 7 mos",
+    "description": "Dedicated youth hockey coach with experience across all age groups (comp teams as well as High School). Applied coaching principles to foster teamwork, leadership, and performance in both sports and the workplace.",
+    "insights": "Skills: Coaching · Leadership",
+    "company": {
+     "url": "",
+     "name": "Volunteer",
+     "logo": {}
+    },
+    "position": "Hockey Coach",
+    "companyName": "Volunteer",
+    "location": "Salt Lake City Metropolitan Area",
+    "duration": "13 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+     "url": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+     "logo": {}
+    },
+    "locationName": "Salt Lake City, UT",
+    "employmentType": "Full-time",
+    "totalDuration": "19 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Director of In-Vehicle Software",
+      "locationName": "Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2009
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2023
+       }
+      },
+      "totalDuration": "13 yrs 9 mos",
+      "description": "- Owned the full in-vehicle technology stack throughout a 20-year tenure, bridging low-level microcontroller firmware to the Android user interface for telematics and Electronic Logging Devices (ELD) deployed across North America.\n- Instrumental in evolving the core product from a specialized NASCAR crash data recorder into a comprehensive, multi-functional ELD, safety, and camera platform.\n- Led the strategic transition of the in-cab technology stack from C on embedded Linux to Java on Android, adapting to industry evolution and rapidly changing customer needs.\n- Expanded and managed a globally distributed firmware team, scaling from a single developer to a high-performing international organization.\n- Managed fleet operations for tens of thousands of active devices, utilizing server-side data analytics to detect field defects and deploying Over-The-Air (OTA) updates to maintain compliance and reliability.\n- Delivered industry-leading telematics solutions that captured major market share and directly contributed to the company’s sustained growth and eventual acquisition.\n",
+      "insights": ""
+     },
+     {
+      "title": "Principal Software Architect",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2005
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2009
+       }
+      },
+      "totalDuration": "4 yrs 5 mos",
+      "description": "Skills: SQL · System Architecture · Android Development",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "On-site",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2003
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2005
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "Skills: Software Development · Embedded Linux",
+      "insights": ""
+     }
+    ],
+    "companyName": "inthinc Tech Solutions, Inc. (Acquired by Orbcomm)",
+    "location": "Salt Lake City, UT",
+    "companyLinkedinUrl": "https://www.linkedin.com/search/results/all/?keywords=inthinc+Tech+Solutions%2C+Inc%2E+%28Acquired+by+Orbcomm%29",
+    "duration": "19 yrs 11 mos",
+    "skills": [],
+    "companyLogo": {}
+   },
+   {
+    "title": "Senior Software Engineer/Architect",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1999
+     },
+     "endDate": {
+      "year": 2003
+     }
+    },
+    "totalDuration": "4 yrs",
+    "description": "* Designed and implemented a new version of the authoring application so it was a true client/server application.  Also, switched the data store from an object oriented database to a more standard back end (Oracle or SQL Server).  Deloitte and Touche estimated this project would cost $850,000 and take over 8 months to complete with a full team of developers.  Designed a more elegant solution and converted the application with one other developer in less than four months.  This allowed the authoring tool to run over a dial-up connection, where a 100-Mbps network connection was required previously.  Both the client and the server were written in Java and supported on Windows, Solaris and Linux.\n\n* Won the Creativity & Innovation in Product Quality award in 2000 from votes submitted by my peers.  This award is given to the individual whose visionary innovation and creative ideas succeeded in dramatically improving the quality of Avaltus’ interactive learning solutions.\n\n* Engineered an XML solution to remove the reliance on a proprietary object oriented database to avoid a 4-percent royalty payment on each courseware sale.  Implemented this solution in less than a week.  \n\n* Managed a talented team of developers who are responsible for implementing new features and maintaining the Jupiter Learning Server (J2EE web application) and all learning objects (Java Applets, HTML and Javascript) for both web and CD delivery.\n\n* Optimized the Jupiter Learning Server to handle over 750 concurrent users per mid range CPU and reduced memory usage from 5 MB per concurrent user to 250 KB per concurrent user.  These optimizations significantly reduced the complexity in creating a server farm that can handle thousands of concurrent users.",
+    "company": {
+     "url": "",
+     "name": "Avaltus",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer/Architect",
+    "companyName": "Avaltus",
+    "duration": "4 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1999
+    },
+    "endDate": {
+     "year": 2003
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "Greater Salt Lake City Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 1994
+     },
+     "endDate": {
+      "year": 1999
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "* Created Designer’s Edge (C++/MFC), which sold twice the initial projections – four million in sales the first year with only four software developers. This product won the Software Product of the Year Award from Multimedia Training, the Stellar Award from Windows Sources and received the first five star rating ever given from Interactivity.  Our team also won the Times Mirror Innovation Award for our work on this product.\n\n* Created many base classes, which were adopted as standards across all applications. \n\n* Developed Quest 6.0, a multimedia authoring system, which utilized COM/ActiveX technology to make it completely extensible.",
+    "company": {
+     "url": "",
+     "name": "Allen Communication (Mentergy)",
+     "logo": {}
+    },
+    "position": "Software Developer",
+    "companyName": "Allen Communication (Mentergy)",
+    "location": "Greater Salt Lake City Area",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1994
+    },
+    "endDate": {
+     "year": 1999
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_200_200/company-logo_200_200/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=V1_ialMaAbynsu6rx5G9JyajB1IJ2fu1t5_tFKYP150",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_100_100/company-logo_100_100/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=L0q4CgLVqk2AgI4FquojwVRWxVPlUO3KClBh2JZxZoE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_200_200/company-logo_200_200/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=V1_ialMaAbynsu6rx5G9JyajB1IJ2fu1t5_tFKYP150",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_100_100/company-logo_100_100/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=L0q4CgLVqk2AgI4FquojwVRWxVPlUO3KClBh2JZxZoE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251168/",
+    "schoolName": "University of Utah",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1987
+     },
+     "endDate": {
+      "year": 1992
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15251168/",
+    "schoolId": "15251168",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 1987
+    },
+    "endDate": {
+     "year": 1992
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_200_200/company-logo_200_200/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=V1_ialMaAbynsu6rx5G9JyajB1IJ2fu1t5_tFKYP150",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_100_100/company-logo_100_100/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=L0q4CgLVqk2AgI4FquojwVRWxVPlUO3KClBh2JZxZoE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_400_400/company-logo_400_400/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=sEh8zBfkFQpHwTIdU5_ofvClT6lFdJjouUXTDML4nwo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_200_200/company-logo_200_200/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=V1_ialMaAbynsu6rx5G9JyajB1IJ2fu1t5_tFKYP150",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHOj4lIdQUuYA/company-logo_100_100/company-logo_100_100/0/1630650497476/university_of_utah_logo?e=1793836800&v=beta&t=L0q4CgLVqk2AgI4FquojwVRWxVPlUO3KClBh2JZxZoE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251168/",
+    "schoolName": "University of Utah",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1987
+     },
+     "endDate": {
+      "year": 1992
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15251168/",
+    "schoolId": "15251168",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 1987
+    },
+    "endDate": {
+     "year": 1992
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517658918032?e=1793836800&v=beta&t=np8O4z8IVDuC-XUfgmVYscEEHcnLF3aGbZxDxMPdXS4",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517658918031?e=1793836800&v=beta&t=fsAFbE_sVfLdZf05sBZ1bByA0bW7vGuYCt-EUdQx0wk",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517658918047?e=1793836800&v=beta&t=r_WRn9o3wJk880mhYsRcrkNM_HEorE7qILAaJ-HBwjs",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFGCZJ8cGgN8g/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517658918010?e=1793836800&v=beta&t=ppLjDDHKShjoS--Dqo2Op2vn74lZhfH75BJKj-iok38",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/eric-capps"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T19:31:38.873Z",
+ "foundBy": null
+}

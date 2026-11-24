@@ -1,0 +1,1542 @@
+{
+ "slug": "adavidlee",
+ "inputUrl": "https://www.linkedin.com/in/adavidlee",
+ "fetchedAt": "2026-10-30T21:49:47.912Z",
+ "id": "6ae510fb4f8d6cb6ddd5a477",
+ "url": "https://www.linkedin.com/in/adavidlee",
+ "profile": {
+  "created": 1335800627000,
+  "trackingId": "yS9rNGOBT3idRHOkxy9l9A==",
+  "firstName": "David",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "1680852393",
+  "headline": "Senior Platform Engineer @ Gluware | Kubernetes • Bazel • Pulumi • IaC | Architect of Gluware Platform 2 (RPM→container-first) & multi-cluster GitOps | Bridging platform engineering and Applied AI tooling",
+  "publicIdentifier": "adavidlee",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "181855510",
+  "profileId": "ACoAAArW5RYBaRtNaschNef4VvwP4BrD_wBzx3o",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516476519754?e=1795046400&v=beta&t=WP1PN3b3C5cpR2KbOGvmA8Fv96gSpHP5U65lvG7Ju8Q",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516476519924?e=1795046400&v=beta&t=UVpDXx6hBWaNuph3fB8n-rSrhXxUwBivzZds3OytCks",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516476519830?e=1795046400&v=beta&t=Dn1qv_ASx8Ab6hTzCw6k0vJ5yXEo9cXMS_6NsMUROw0",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8"
+  },
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_350_1400/B56Z5A412gG0Ac-/0/1779205103251?e=1795046400&v=beta&t=ayKlyFW206PUEcmpP1luCGjnadn3KfC2PiYTgA-csYk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_200_800/B56Z5A412gG0AY-/0/1779205103252?e=1795046400&v=beta&t=MziUW3tZMaTDPDzehxNOw1vuT0gLUwpR1PDnRBJg9bk"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:101857797",
+  "geoLocationName": "Sacramento, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer · Platform / DevOps Lead",
+  "summary": "I've been running Linux since 1993, and I was a BBS sysop before I had a driver's license. Four decades later, the job is still the same one it always was: build something useful, then help the next person understand how it works.\n\nFor the last seven years at Gluware I've built the systems other engineers stand on. A multi-cluster Kubernetes platform on ArgoCD. CI/CD on an autoscaled spot fleet. Nx monorepos with self-hosted remote caching, and two generations of a hermetic Bazel build. I was lead architect of the move off RPM/CentOS to a container-first platform, and I built the metrics app that finally showed us what our build pipeline was actually doing. The thread through all of it is developer experience: give engineers a fast feedback loop and stop them fighting their tools.\n\nLately I've been building agentic tooling into that platform. I shipped an internal MCP server that nobody touched until I solved the auth, and then it turned into a daily habit on the team. Using AI to genuinely rethink how engineers ship is the part of this work I'm most interested in right now.\n\nBefore any of it, I was a US Army telecommunications specialist. By 19 I was briefing senior officers and running classified comms infrastructure in the field, filling a frequency-manager role three pay grades above mine and writing the training the rest of the corps used. That's been the pattern ever since: drop me into something undefined, and I'll figure out what's needed and bring people along.\n\nIf you're working on developer productivity and platform engineering at scale, I'm always glad to compare notes.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer · Platform / DevOps Lead",
+    "locationName": "Greater Sacramento · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 6 mos",
+    "description": "• Lead architect and major contributor on Gluware Platform 2 (GP2) — drove the multi-year migration from RPM/CentOS to a Debian/Ubuntu, container-first platform. Replaced a legacy Make-based Docker build with a   hermetic, cached Bazel 9 (rules_img) pipeline; Packer-built images for AWS, Azure, vSphere, and QEMU with cloud-init, gluware-init provisioning, GPG fetch from AWS Secrets Manager, and SBOM generation.\n\n• Architected and operate a multi-cluster Kubernetes platform spanning cloud and on-prem (k3s) on ArgoCD + Helm — 10+ enterprise apps (GitLab, Jenkins, Prometheus, Authentik, Artifactory, ExternalSecrets) across   dev/staging/prod. ~1,300 authored commits.\n\n• Owned the IaC estate end-to-end: Pulumi (TypeScript) for VM provisioning across AWS + Azure with Policy-as-Code; Terraform/Terragrunt for cloud application infra; Ansible + Chef for OS-level and appliance config management (~600 commits across the Gluware cookbook ecosystem).\n\n• Led the consolidation of hundreds of separate repos into Nx monorepos with self-hosted remote caching across 50+ packages and a dozen services — eliminating duplicated tooling and version drift.\n\n• Drove the JavaScript → TypeScript migration of 150+ backend services. Owned plan, tooling, code standards, and team enablement. ~3,000 authored commits across the main TS backend monorepo.\n\n• Built Gluware's multi-tenant Jenkins-on-Kubernetes platform — dynamic pod templates, autoscaled agents, Valkey-backed artifact caching, Configuration-as-Code, Bitbucket webhooks — plus shared Jenkins library and    Renovate-based dependency automation. \n\n• Owned the multi-protocol file-transfer service (FTP/SFTP/TFTP) for 7 years, including IPv6 dual-stack rollout and Make → Bazel migration.\n\n• Designed and shipped a marketplace-quality skill/plugin system for internal AI tooling — Bitbucket MCP server (PR review, build status, OAuth) and skill suites for incident response, K8s/GitOps, and IaC.",
+    "insights": "Skills: Jenkins · Jest · Prometheus.io · Git · TypeScript · RabbitMQ · Webpack · VMware vSphere · Helm · pnpm · Terraform · Ansible · NestJS · Docker · PostgreSQL · Bitbucket Pipelines · DevOps · ArgoCD · WebSocket · Amazon Web Services (AWS) · Bazel · GitOps · REST APIs · Packers · vitest · Pulumi · Gitlab · GraphQL · Python (Programming Language) · Amazon EKS · Renovate · Microsoft Azure · MySQL · Continuous Integration and Continuous Delivery (CI/CD) · Bash · Pinia · yarn · OpenTelemetry · Chef.io · React.js · ExternalSecrets · MongoDB · Nx · Authentik · Kubernetes · Platform Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/450671/",
+     "name": "Gluware, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc"
+     }
+    }
+   },
+   {
+    "title": "Senior Frontend Developer",
+    "locationName": "Rancho Cordova, California · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "• Implemented a Domain-Driven Design architecture in ASP.NET Core 2.x to replace a legacy .NET 4.5 codebase, including a RESTful API and WebSocket layer.\n\n• Led the frontend migration from JavaScript / KnockoutJS / CSS to TypeScript / Vue.js / SCSS — including team training on fundamentals and code standards.\n\n• Automated build and deployment of custom Docker images; stood up the CI/CD pipeline in Azure DevOps.\n\n• Migrated the team's source control from TFVC to Git, including rolling out Git filters and hooks. Created and trained the team on the documentation standard.\n\n• Stood up Jest-based UI unit testing and trained Business Analysts + Developers on writing tests.",
+    "insights": "Skills: Jest · C# · Git · Webpack · Azure DevOps Services · Docker · WebSocket · REST APIs · Microsoft Azure · Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4896/",
+     "name": "Blue Shield of California",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "PowerSchool Group LLC",
+     "url": "https://www.linkedin.com/company/10114126/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Full Stack Developer",
+      "locationName": "Folsom CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "• Designed and shipped a full-stack platform automating updates, data refreshes, push notifications, and account management — Node.js + NoSQL backend with a Vue.js / ES6-7 / Webpack frontend.\n\n• Built a REST + WebSocket API bridging Salesforce, Slack, an internal portal, and the PowerSchool server stack.\n\n• Built a Natural Language Processing chatbot in Slack to streamline team workflow.\n\n• Built a multi-server deployment agent operating across thousands of devices and hundreds of customers.\n\n• Implemented Docker tooling for development and cloud deployment with CI/CD.",
+      "insights": ""
+     },
+     {
+      "title": "Software Development Manager",
+      "locationName": "Rancho Cordova, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2016
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "• Drove a 48% revenue increase, 22% average-deal-size increase, and 37% utilization rate improvement in the first 12 months; introduced new subscription-based annual recurring revenue streams.\n\n• Managed the development team responsible for custom-tailoring Pearson platform software for customers across North America, Asia, Europe, and the Middle East.\n\n• Modernized the team's methodology and toolchain — moved to ES6/7, established Node.js in the build pipeline, and rolled out a consistent unified build pipeline across the team's projects.\n\n• Defined and managed customer support + QA roles to raise the bar on service quality; oversaw scoping, workload, and delivery of hundreds of customer-specific contracted projects.\n\n• Implemented end-to-end process documentation (flowcharts, business summaries, technical/programming policies); redesigned Salesforce reporting and the sales approach.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Senior Software Engineer Team Lead",
+    "locationName": "Rancho Cordova, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2014
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Helped establish the customizations team behind state-wide and district-specific PowerSchool work, contributing to over $21M in generated revenue.\n\n• Implemented the first Transcript Record Exchange feature within PowerSchool, enabling electronic transcript exchange between systems — helped enable state-wide participation in national transcript communication and exchange.\n\n• Acted as Project Manager on a large share of small-to-enterprise projects in addition to development responsibilities.\n\n• Mentored engineers in emerging Node.js, browser-based JavaScript, and single-page-application patterns.\n\n• Built and rolled out a reporting framework that reduced development cost and error rates while improving usability for clients worldwide.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2137/",
+     "name": "Pearson",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo"
+     }
+    }
+   },
+   {
+    "title": "Telecommunications Specialist (TS Clearance)",
+    "locationName": "Bad Kreuznach · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "141st Signal Battalion, 1st Armored Division (V Corps). Enlisted at 17; held a Top Secret security clearance.\n\n• Filled the Division Frequency Manager role (E7/SFC billet) as an E4/SPC during the Kosovo rotation drawdown.\n\n• First soldier in unit to field the Spitfire Secure Tactical Satellite Radio — system arrived with no docs; figured out operation, loaded encryption keys, coordinated with the Italy comms team, built the V Corps training material.\n\n• Responsible for the distribution of secure cryptographic keys for classified communication over tactical satellite, FM, and handheld radios.\n\n• Conducted training for 141st Signal Battalion, 1st Armored Division, and V Corps on tactical radio equipment operation.\n\n• Maintained inventory valued at over $20M; briefed senior officers on the operational benefits of deploying new technology to the Division.",
+    "insights": "Skills: Telecommunications · Network Operations Center (NOC) · Leadership · Training",
+    "company": {
+     "url": "https://www.linkedin.com/company/1223/",
+     "name": "US Army",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_200_200/company-logo_200_200/0/1631315490143?e=1795046400&v=beta&t=sJGwlrj5E10MNdAdWBGBj1RLuAP7FKuCODMkABJLP1E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_100_100/company-logo_100_100/0/1631315490143?e=1795046400&v=beta&t=VHA2ZLK9k7Z_85kd8cny3N3JyAN2B40rbzcSrXP-tN0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/12740/",
+    "schoolName": "American InterContinental University",
+    "degreeName": "Business Administration",
+    "fieldOfStudy": "Business Administration",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2004
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Gluware, Inc.",
+  "companyPublicId": "gluwareinc",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/gluwareinc/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:450671",
+   "name": "Gluware, Inc.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQELbrqj7TXbcQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_"
+    }
+   },
+   "universalName": "gluwareinc",
+   "url": "https://www.linkedin.com/company/gluwareinc/",
+   "slug": "gluwareinc",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+   "specialties": []
+  },
+  "followerCount": 327,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 322,
+  "skills": [
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bazel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Amazon EKS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Jest",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "vitest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ExternalSecrets",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Authentik",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenTelemetry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prometheus.io",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RabbitMQ",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WebSocket",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "RabbitMQ",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "WebSocket",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Gitlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "yarn",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "GitOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Telecommunications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Network Operations Center (NOC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Client Side Scripting",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Server Side Programming",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Quality Assurance",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Training",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Account Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PowerSchool",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Satisfaction",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Bazel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EKS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Jest",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Prometheus.io",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NestJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ansible",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Chef.io",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "VMware vSphere",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Management",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "OpenTelemetry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Packers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Platform Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/adavidlee",
+  "linkedinUrl": "https://www.linkedin.com/in/adavidlee",
+  "profileUrl": "https://www.linkedin.com/in/adavidlee",
+  "verified": true,
+  "registeredAt": "2012-04-30T15:43:47.000Z",
+  "location": {
+   "linkedinText": "Sacramento, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Sacramento, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I've been running Linux since 1993, and I was a BBS sysop before I had a driver's license. Four decades later, the job is still the same one it always was: build something useful, then help the next person understand how it works.\n\nFor the last seven years at Gluware I've built the systems other engineers stand on. A multi-cluster Kubernetes platform on ArgoCD. CI/CD on an autoscaled spot fleet. Nx monorepos with self-hosted remote caching, and two generations of a hermetic Bazel build. I was lead architect of the move off RPM/CentOS to a container-first platform, and I built the metrics app that finally showed us what our build pipeline was actually doing. The thread through all of it is developer experience: give engineers a fast feedback loop and stop them fighting their tools.\n\nLately I've been building agentic tooling into that platform. I shipped an internal MCP server that nobody touched until I solved the auth, and then it turned into a daily habit on the team. Using AI to genuinely rethink how engineers ship is the part of this work I'm most interested in right now.\n\nBefore any of it, I was a US Army telecommunications specialist. By 19 I was briefing senior officers and running classified comms infrastructure in the field, filling a frequency-manager role three pay grades above mine and writing the training the rest of the corps used. That's been the pattern ever since: drop me into something undefined, and I'll figure out what's needed and bring people along.\n\nIf you're working on developer productivity and platform engineering at scale, I'm always glad to compare notes.",
+  "currentTitle": "Senior Software Engineer · Platform / DevOps Lead",
+  "allTitles": [
+   "Senior Software Engineer · Platform / DevOps Lead",
+   "Senior Frontend Developer",
+   "Senior Software Engineer Team Lead",
+   "Telecommunications Specialist (TS Clearance)"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer · Platform / DevOps Lead",
+    "locationName": "Greater Sacramento · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 6 mos",
+    "description": "• Lead architect and major contributor on Gluware Platform 2 (GP2) — drove the multi-year migration from RPM/CentOS to a Debian/Ubuntu, container-first platform. Replaced a legacy Make-based Docker build with a   hermetic, cached Bazel 9 (rules_img) pipeline; Packer-built images for AWS, Azure, vSphere, and QEMU with cloud-init, gluware-init provisioning, GPG fetch from AWS Secrets Manager, and SBOM generation.\n\n• Architected and operate a multi-cluster Kubernetes platform spanning cloud and on-prem (k3s) on ArgoCD + Helm — 10+ enterprise apps (GitLab, Jenkins, Prometheus, Authentik, Artifactory, ExternalSecrets) across   dev/staging/prod. ~1,300 authored commits.\n\n• Owned the IaC estate end-to-end: Pulumi (TypeScript) for VM provisioning across AWS + Azure with Policy-as-Code; Terraform/Terragrunt for cloud application infra; Ansible + Chef for OS-level and appliance config management (~600 commits across the Gluware cookbook ecosystem).\n\n• Led the consolidation of hundreds of separate repos into Nx monorepos with self-hosted remote caching across 50+ packages and a dozen services — eliminating duplicated tooling and version drift.\n\n• Drove the JavaScript → TypeScript migration of 150+ backend services. Owned plan, tooling, code standards, and team enablement. ~3,000 authored commits across the main TS backend monorepo.\n\n• Built Gluware's multi-tenant Jenkins-on-Kubernetes platform — dynamic pod templates, autoscaled agents, Valkey-backed artifact caching, Configuration-as-Code, Bitbucket webhooks — plus shared Jenkins library and    Renovate-based dependency automation. \n\n• Owned the multi-protocol file-transfer service (FTP/SFTP/TFTP) for 7 years, including IPv6 dual-stack rollout and Make → Bazel migration.\n\n• Designed and shipped a marketplace-quality skill/plugin system for internal AI tooling — Bitbucket MCP server (PR review, build status, OAuth) and skill suites for incident response, K8s/GitOps, and IaC.",
+    "insights": "Skills: Jenkins · Jest · Prometheus.io · Git · TypeScript · RabbitMQ · Webpack · VMware vSphere · Helm · pnpm · Terraform · Ansible · NestJS · Docker · PostgreSQL · Bitbucket Pipelines · DevOps · ArgoCD · WebSocket · Amazon Web Services (AWS) · Bazel · GitOps · REST APIs · Packers · vitest · Pulumi · Gitlab · GraphQL · Python (Programming Language) · Amazon EKS · Renovate · Microsoft Azure · MySQL · Continuous Integration and Continuous Delivery (CI/CD) · Bash · Pinia · yarn · OpenTelemetry · Chef.io · React.js · ExternalSecrets · MongoDB · Nx · Authentik · Kubernetes · Platform Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/450671/",
+     "name": "Gluware, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc"
+     }
+    },
+    "position": "Senior Software Engineer · Platform / DevOps Lead",
+    "companyName": "Gluware, Inc.",
+    "location": "Greater Sacramento · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/450671/",
+    "companyId": "450671",
+    "duration": "7 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "PowerSchool Group LLC",
+     "url": "https://www.linkedin.com/company/10114126/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Full Stack Developer",
+      "locationName": "Folsom CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "• Designed and shipped a full-stack platform automating updates, data refreshes, push notifications, and account management — Node.js + NoSQL backend with a Vue.js / ES6-7 / Webpack frontend.\n\n• Built a REST + WebSocket API bridging Salesforce, Slack, an internal portal, and the PowerSchool server stack.\n\n• Built a Natural Language Processing chatbot in Slack to streamline team workflow.\n\n• Built a multi-server deployment agent operating across thousands of devices and hundreds of customers.\n\n• Implemented Docker tooling for development and cloud deployment with CI/CD.",
+      "insights": ""
+     },
+     {
+      "title": "Software Development Manager",
+      "locationName": "Rancho Cordova, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2016
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "• Drove a 48% revenue increase, 22% average-deal-size increase, and 37% utilization rate improvement in the first 12 months; introduced new subscription-based annual recurring revenue streams.\n\n• Managed the development team responsible for custom-tailoring Pearson platform software for customers across North America, Asia, Europe, and the Middle East.\n\n• Modernized the team's methodology and toolchain — moved to ES6/7, established Node.js in the build pipeline, and rolled out a consistent unified build pipeline across the team's projects.\n\n• Defined and managed customer support + QA roles to raise the bar on service quality; oversaw scoping, workload, and delivery of hundreds of customer-specific contracted projects.\n\n• Implemented end-to-end process documentation (flowcharts, business summaries, technical/programming policies); redesigned Salesforce reporting and the sales approach.",
+      "insights": ""
+     }
+    ],
+    "companyName": "PowerSchool Group LLC",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10114126/",
+    "companyId": "10114126",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Frontend Developer",
+    "locationName": "Rancho Cordova, California · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "• Implemented a Domain-Driven Design architecture in ASP.NET Core 2.x to replace a legacy .NET 4.5 codebase, including a RESTful API and WebSocket layer.\n\n• Led the frontend migration from JavaScript / KnockoutJS / CSS to TypeScript / Vue.js / SCSS — including team training on fundamentals and code standards.\n\n• Automated build and deployment of custom Docker images; stood up the CI/CD pipeline in Azure DevOps.\n\n• Migrated the team's source control from TFVC to Git, including rolling out Git filters and hooks. Created and trained the team on the documentation standard.\n\n• Stood up Jest-based UI unit testing and trained Business Analysts + Developers on writing tests.",
+    "insights": "Skills: Jest · C# · Git · Webpack · Azure DevOps Services · Docker · WebSocket · REST APIs · Microsoft Azure · Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4896/",
+     "name": "Blue Shield of California",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w"
+     }
+    },
+    "position": "Senior Frontend Developer",
+    "companyName": "Blue Shield of California",
+    "location": "Rancho Cordova, California · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4896/",
+    "companyId": "4896",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer Team Lead",
+    "locationName": "Rancho Cordova, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2014
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Helped establish the customizations team behind state-wide and district-specific PowerSchool work, contributing to over $21M in generated revenue.\n\n• Implemented the first Transcript Record Exchange feature within PowerSchool, enabling electronic transcript exchange between systems — helped enable state-wide participation in national transcript communication and exchange.\n\n• Acted as Project Manager on a large share of small-to-enterprise projects in addition to development responsibilities.\n\n• Mentored engineers in emerging Node.js, browser-based JavaScript, and single-page-application patterns.\n\n• Built and rolled out a reporting framework that reduced development cost and error rates while improving usability for clients worldwide.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2137/",
+     "name": "Pearson",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo"
+     }
+    },
+    "position": "Senior Software Engineer Team Lead",
+    "companyName": "Pearson",
+    "location": "Rancho Cordova, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2137/",
+    "companyId": "2137",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2014
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Telecommunications Specialist (TS Clearance)",
+    "locationName": "Bad Kreuznach · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "141st Signal Battalion, 1st Armored Division (V Corps). Enlisted at 17; held a Top Secret security clearance.\n\n• Filled the Division Frequency Manager role (E7/SFC billet) as an E4/SPC during the Kosovo rotation drawdown.\n\n• First soldier in unit to field the Spitfire Secure Tactical Satellite Radio — system arrived with no docs; figured out operation, loaded encryption keys, coordinated with the Italy comms team, built the V Corps training material.\n\n• Responsible for the distribution of secure cryptographic keys for classified communication over tactical satellite, FM, and handheld radios.\n\n• Conducted training for 141st Signal Battalion, 1st Armored Division, and V Corps on tactical radio equipment operation.\n\n• Maintained inventory valued at over $20M; briefed senior officers on the operational benefits of deploying new technology to the Division.",
+    "insights": "Skills: Telecommunications · Network Operations Center (NOC) · Leadership · Training",
+    "company": {
+     "url": "https://www.linkedin.com/company/1223/",
+     "name": "US Army",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ"
+     }
+    },
+    "position": "Telecommunications Specialist (TS Clearance)",
+    "companyName": "US Army",
+    "location": "Bad Kreuznach · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1223/",
+    "companyId": "1223",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 1998
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2002
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "450671",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/450671/",
+    "companyName": "Gluware, Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "10114126",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10114126/",
+    "companyName": "PowerSchool Group LLC",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer · Platform / DevOps Lead",
+    "locationName": "Greater Sacramento · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 6 mos",
+    "description": "• Lead architect and major contributor on Gluware Platform 2 (GP2) — drove the multi-year migration from RPM/CentOS to a Debian/Ubuntu, container-first platform. Replaced a legacy Make-based Docker build with a   hermetic, cached Bazel 9 (rules_img) pipeline; Packer-built images for AWS, Azure, vSphere, and QEMU with cloud-init, gluware-init provisioning, GPG fetch from AWS Secrets Manager, and SBOM generation.\n\n• Architected and operate a multi-cluster Kubernetes platform spanning cloud and on-prem (k3s) on ArgoCD + Helm — 10+ enterprise apps (GitLab, Jenkins, Prometheus, Authentik, Artifactory, ExternalSecrets) across   dev/staging/prod. ~1,300 authored commits.\n\n• Owned the IaC estate end-to-end: Pulumi (TypeScript) for VM provisioning across AWS + Azure with Policy-as-Code; Terraform/Terragrunt for cloud application infra; Ansible + Chef for OS-level and appliance config management (~600 commits across the Gluware cookbook ecosystem).\n\n• Led the consolidation of hundreds of separate repos into Nx monorepos with self-hosted remote caching across 50+ packages and a dozen services — eliminating duplicated tooling and version drift.\n\n• Drove the JavaScript → TypeScript migration of 150+ backend services. Owned plan, tooling, code standards, and team enablement. ~3,000 authored commits across the main TS backend monorepo.\n\n• Built Gluware's multi-tenant Jenkins-on-Kubernetes platform — dynamic pod templates, autoscaled agents, Valkey-backed artifact caching, Configuration-as-Code, Bitbucket webhooks — plus shared Jenkins library and    Renovate-based dependency automation. \n\n• Owned the multi-protocol file-transfer service (FTP/SFTP/TFTP) for 7 years, including IPv6 dual-stack rollout and Make → Bazel migration.\n\n• Designed and shipped a marketplace-quality skill/plugin system for internal AI tooling — Bitbucket MCP server (PR review, build status, OAuth) and skill suites for incident response, K8s/GitOps, and IaC.",
+    "insights": "Skills: Jenkins · Jest · Prometheus.io · Git · TypeScript · RabbitMQ · Webpack · VMware vSphere · Helm · pnpm · Terraform · Ansible · NestJS · Docker · PostgreSQL · Bitbucket Pipelines · DevOps · ArgoCD · WebSocket · Amazon Web Services (AWS) · Bazel · GitOps · REST APIs · Packers · vitest · Pulumi · Gitlab · GraphQL · Python (Programming Language) · Amazon EKS · Renovate · Microsoft Azure · MySQL · Continuous Integration and Continuous Delivery (CI/CD) · Bash · Pinia · yarn · OpenTelemetry · Chef.io · React.js · ExternalSecrets · MongoDB · Nx · Authentik · Kubernetes · Platform Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/450671/",
+     "name": "Gluware, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc"
+     }
+    },
+    "position": "Senior Software Engineer · Platform / DevOps Lead",
+    "companyName": "Gluware, Inc.",
+    "location": "Greater Sacramento · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/450671/",
+    "companyId": "450671",
+    "duration": "7 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_400_400/company-logo_400_400/0/1631377724393?e=1795046400&v=beta&t=fA5KUVTIqzn-zS4XFvYsM44d26F--6v_xJQfRy_KvIc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_200_200/company-logo_200_200/0/1631377724393?e=1795046400&v=beta&t=P-GE_-ak2fkSaqVBACBYOYK0Z9VLaqdhWcFXCKtfXgc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQELbrqj7TXbcQ/company-logo_100_100/company-logo_100_100/0/1631377724393?e=1795046400&v=beta&t=r_xS_lAo1mYhXfYl-NbY0zqHk8PdQU0OvW3AKzQdD64",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Frontend Developer",
+    "locationName": "Rancho Cordova, California · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "• Implemented a Domain-Driven Design architecture in ASP.NET Core 2.x to replace a legacy .NET 4.5 codebase, including a RESTful API and WebSocket layer.\n\n• Led the frontend migration from JavaScript / KnockoutJS / CSS to TypeScript / Vue.js / SCSS — including team training on fundamentals and code standards.\n\n• Automated build and deployment of custom Docker images; stood up the CI/CD pipeline in Azure DevOps.\n\n• Migrated the team's source control from TFVC to Git, including rolling out Git filters and hooks. Created and trained the team on the documentation standard.\n\n• Stood up Jest-based UI unit testing and trained Business Analysts + Developers on writing tests.",
+    "insights": "Skills: Jest · C# · Git · Webpack · Azure DevOps Services · Docker · WebSocket · REST APIs · Microsoft Azure · Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4896/",
+     "name": "Blue Shield of California",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w"
+     }
+    },
+    "position": "Senior Frontend Developer",
+    "companyName": "Blue Shield of California",
+    "location": "Rancho Cordova, California · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4896/",
+    "companyId": "4896",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_400_400/company-logo_400_400/0/1698852330632/blue_shield_of_california_logo?e=1795046400&v=beta&t=rCpiC3TtkGzOM97OPk1PE-lUYz1nF-Y5trPQ-NrAT5w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_200_200/company-logo_200_200/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=AaxqzGxi8DgIHIXSppoUqc8qmq6lfYi6ltVlxv_uwu4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGzj1JJ9UcHPQ/company-logo_100_100/company-logo_100_100/0/1698852330631/blue_shield_of_california_logo?e=1795046400&v=beta&t=SK_d4VtMuPfrwGLNdOBEa8v6q_k75-5ckUcntcAN2Vs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "PowerSchool Group LLC",
+     "url": "https://www.linkedin.com/company/10114126/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Full Stack Developer",
+      "locationName": "Folsom CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2017
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "• Designed and shipped a full-stack platform automating updates, data refreshes, push notifications, and account management — Node.js + NoSQL backend with a Vue.js / ES6-7 / Webpack frontend.\n\n• Built a REST + WebSocket API bridging Salesforce, Slack, an internal portal, and the PowerSchool server stack.\n\n• Built a Natural Language Processing chatbot in Slack to streamline team workflow.\n\n• Built a multi-server deployment agent operating across thousands of devices and hundreds of customers.\n\n• Implemented Docker tooling for development and cloud deployment with CI/CD.",
+      "insights": ""
+     },
+     {
+      "title": "Software Development Manager",
+      "locationName": "Rancho Cordova, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2016
+       }
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "• Drove a 48% revenue increase, 22% average-deal-size increase, and 37% utilization rate improvement in the first 12 months; introduced new subscription-based annual recurring revenue streams.\n\n• Managed the development team responsible for custom-tailoring Pearson platform software for customers across North America, Asia, Europe, and the Middle East.\n\n• Modernized the team's methodology and toolchain — moved to ES6/7, established Node.js in the build pipeline, and rolled out a consistent unified build pipeline across the team's projects.\n\n• Defined and managed customer support + QA roles to raise the bar on service quality; oversaw scoping, workload, and delivery of hundreds of customer-specific contracted projects.\n\n• Implemented end-to-end process documentation (flowcharts, business summaries, technical/programming policies); redesigned Salesforce reporting and the sales approach.",
+      "insights": ""
+     }
+    ],
+    "companyName": "PowerSchool Group LLC",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10114126/",
+    "companyId": "10114126",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_400_400/B56Z30dCT1G0Ac-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=z02GwRJaamlTn1qDDE5HvhwRbJcpXF75x8GIfg8vdQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_200_200/B56Z30dCT1G0AM-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=iaWMsZCQDW4Mu5NEw3orKutTffT1ZmKwF5Q8ge3gbeA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYyKTTb1JMgA/company-logo_100_100/B56Z30dCT1G0AU-/0/1777922746030/powerschool_group_llc_logo?e=1795046400&v=beta&t=Z9dAwHCGs3HOnsQeq4ucDvZ618AlzM6PlJkICZ37-uU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Senior Software Engineer Team Lead",
+    "locationName": "Rancho Cordova, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2014
+     }
+    },
+    "totalDuration": "5 yrs",
+    "description": "• Helped establish the customizations team behind state-wide and district-specific PowerSchool work, contributing to over $21M in generated revenue.\n\n• Implemented the first Transcript Record Exchange feature within PowerSchool, enabling electronic transcript exchange between systems — helped enable state-wide participation in national transcript communication and exchange.\n\n• Acted as Project Manager on a large share of small-to-enterprise projects in addition to development responsibilities.\n\n• Mentored engineers in emerging Node.js, browser-based JavaScript, and single-page-application patterns.\n\n• Built and rolled out a reporting framework that reduced development cost and error rates while improving usability for clients worldwide.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2137/",
+     "name": "Pearson",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo"
+     }
+    },
+    "position": "Senior Software Engineer Team Lead",
+    "companyName": "Pearson",
+    "location": "Rancho Cordova, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2137/",
+    "companyId": "2137",
+    "duration": "5 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2014
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_400_400/B4EZYPofEYHkAY-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=BR3Yc455QmejqcRAoH4Tbm3Ir5TrGmNNa2ilQAesjYs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_200_200/B4EZYPofEYHkAI-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=b4_AEhn-uMnU50ohNd99M6GabQfYCZQ7OOS8AqFYWdo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG9W4lfcWc9dQ/company-logo_100_100/B4EZYPofEYHkAQ-/0/1744018993869/pearson_logo?e=1795046400&v=beta&t=43w6DuT3sKBlRmATlSPcwtUrIkaUenuC25HWbH5L9gM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Telecommunications Specialist (TS Clearance)",
+    "locationName": "Bad Kreuznach · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2002
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "141st Signal Battalion, 1st Armored Division (V Corps). Enlisted at 17; held a Top Secret security clearance.\n\n• Filled the Division Frequency Manager role (E7/SFC billet) as an E4/SPC during the Kosovo rotation drawdown.\n\n• First soldier in unit to field the Spitfire Secure Tactical Satellite Radio — system arrived with no docs; figured out operation, loaded encryption keys, coordinated with the Italy comms team, built the V Corps training material.\n\n• Responsible for the distribution of secure cryptographic keys for classified communication over tactical satellite, FM, and handheld radios.\n\n• Conducted training for 141st Signal Battalion, 1st Armored Division, and V Corps on tactical radio equipment operation.\n\n• Maintained inventory valued at over $20M; briefed senior officers on the operational benefits of deploying new technology to the Division.",
+    "insights": "Skills: Telecommunications · Network Operations Center (NOC) · Leadership · Training",
+    "company": {
+     "url": "https://www.linkedin.com/company/1223/",
+     "name": "US Army",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ"
+     }
+    },
+    "position": "Telecommunications Specialist (TS Clearance)",
+    "companyName": "US Army",
+    "location": "Bad Kreuznach · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1223/",
+    "companyId": "1223",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 1998
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2002
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_400_400/company-logo_400_400/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=1_0g3iRPaTWlWPTJjEozDObyqA9nBkjQgmsSsm0bhtQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_200_200/company-logo_200_200/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=fhJQPCu4TnQ3mdCEmqwgy1-uxFyaQTuip37R8u0WuvA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEp91nGwnXLng/company-logo_100_100/company-logo_100_100/0/1678286107166/us_army_logo?e=1795046400&v=beta&t=C9U3WP2-zbbMVSVq0DGRR5tV3KNrN8MKoJBvSi-Lx-8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_200_200/company-logo_200_200/0/1631315490143?e=1795046400&v=beta&t=sJGwlrj5E10MNdAdWBGBj1RLuAP7FKuCODMkABJLP1E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_100_100/company-logo_100_100/0/1631315490143?e=1795046400&v=beta&t=VHA2ZLK9k7Z_85kd8cny3N3JyAN2B40rbzcSrXP-tN0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_200_200/company-logo_200_200/0/1631315490143?e=1795046400&v=beta&t=sJGwlrj5E10MNdAdWBGBj1RLuAP7FKuCODMkABJLP1E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_100_100/company-logo_100_100/0/1631315490143?e=1795046400&v=beta&t=VHA2ZLK9k7Z_85kd8cny3N3JyAN2B40rbzcSrXP-tN0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/12740/",
+    "schoolName": "American InterContinental University",
+    "degreeName": "Business Administration",
+    "fieldOfStudy": "Business Administration",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/12740/",
+    "schoolId": "12740",
+    "degree": "Business Administration",
+    "skills": [],
+    "startDate": {
+     "year": 2004
+    },
+    "endDate": {
+     "year": 2004
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_200_200/company-logo_200_200/0/1631315490143?e=1795046400&v=beta&t=sJGwlrj5E10MNdAdWBGBj1RLuAP7FKuCODMkABJLP1E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_100_100/company-logo_100_100/0/1631315490143?e=1795046400&v=beta&t=VHA2ZLK9k7Z_85kd8cny3N3JyAN2B40rbzcSrXP-tN0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_400_400/company-logo_400_400/0/1631315490143?e=1795046400&v=beta&t=3xD3S5VgC9YCzekMrv4sZqEdw-A3MYhuL2lv1s-GrDA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_200_200/company-logo_200_200/0/1631315490143?e=1795046400&v=beta&t=sJGwlrj5E10MNdAdWBGBj1RLuAP7FKuCODMkABJLP1E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEUro4yf64pzw/company-logo_100_100/company-logo_100_100/0/1631315490143?e=1795046400&v=beta&t=VHA2ZLK9k7Z_85kd8cny3N3JyAN2B40rbzcSrXP-tN0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/12740/",
+    "schoolName": "American InterContinental University",
+    "degreeName": "Business Administration",
+    "fieldOfStudy": "Business Administration",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2004
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/12740/",
+    "schoolId": "12740",
+    "degree": "Business Administration",
+    "skills": [],
+    "startDate": {
+     "year": 2004
+    },
+    "endDate": {
+     "year": 2004
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516476519754?e=1795046400&v=beta&t=WP1PN3b3C5cpR2KbOGvmA8Fv96gSpHP5U65lvG7Ju8Q",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516476519924?e=1795046400&v=beta&t=UVpDXx6hBWaNuph3fB8n-rSrhXxUwBivzZds3OytCks",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516476519830?e=1795046400&v=beta&t=Dn1qv_ASx8Ab6hTzCw6k0vJ5yXEo9cXMS_6NsMUROw0",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516476519830?e=1795046400&v=beta&t=Dn1qv_ASx8Ab6hTzCw6k0vJ5yXEo9cXMS_6NsMUROw0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516476519924?e=1795046400&v=beta&t=UVpDXx6hBWaNuph3fB8n-rSrhXxUwBivzZds3OytCks",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516476519754?e=1795046400&v=beta&t=WP1PN3b3C5cpR2KbOGvmA8Fv96gSpHP5U65lvG7Ju8Q",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516476519754?e=1795046400&v=beta&t=WP1PN3b3C5cpR2KbOGvmA8Fv96gSpHP5U65lvG7Ju8Q",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516476519924?e=1795046400&v=beta&t=UVpDXx6hBWaNuph3fB8n-rSrhXxUwBivzZds3OytCks",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516476519830?e=1795046400&v=beta&t=Dn1qv_ASx8Ab6hTzCw6k0vJ5yXEo9cXMS_6NsMUROw0",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+   "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516476519816?e=1795046400&v=beta&t=G3E_B9Uw8iTPZeBq4wQYIbnCJ4aZc6jF2FsV8R75Vz8",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516476519830?e=1795046400&v=beta&t=Dn1qv_ASx8Ab6hTzCw6k0vJ5yXEo9cXMS_6NsMUROw0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516476519924?e=1795046400&v=beta&t=UVpDXx6hBWaNuph3fB8n-rSrhXxUwBivzZds3OytCks",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5103AQGP2PFPncnqvA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516476519754?e=1795046400&v=beta&t=WP1PN3b3C5cpR2KbOGvmA8Fv96gSpHP5U65lvG7Ju8Q",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_350_1400/B56Z5A412gG0Ac-/0/1779205103251?e=1795046400&v=beta&t=ayKlyFW206PUEcmpP1luCGjnadn3KfC2PiYTgA-csYk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_200_800/B56Z5A412gG0AY-/0/1779205103252?e=1795046400&v=beta&t=MziUW3tZMaTDPDzehxNOw1vuT0gLUwpR1PDnRBJg9bk",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_350_1400/B56Z5A412gG0Ac-/0/1779205103251?e=1795046400&v=beta&t=ayKlyFW206PUEcmpP1luCGjnadn3KfC2PiYTgA-csYk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_350_1400/B56Z5A412gG0Ac-/0/1779205103251?e=1795046400&v=beta&t=ayKlyFW206PUEcmpP1luCGjnadn3KfC2PiYTgA-csYk",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQG_3tYQlXaDPQ/profile-displaybackgroundimage-shrink_200_800/B56Z5A412gG0AY-/0/1779205103252?e=1795046400&v=beta&t=MziUW3tZMaTDPDzehxNOw1vuT0gLUwpR1PDnRBJg9bk",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/adavidlee"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T21:49:30.452Z",
+ "foundBy": null
+}

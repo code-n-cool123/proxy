@@ -1,0 +1,1704 @@
+{
+ "slug": "rakeemthomas",
+ "inputUrl": "https://www.linkedin.com/in/rakeemthomas",
+ "fetchedAt": "2026-10-30T17:12:26.558Z",
+ "id": "6ae4cffa4f8d6cb6ddd59ac9",
+ "url": "https://www.linkedin.com/in/rakeemthomas",
+ "profile": {
+  "created": 1403397808807,
+  "trackingId": "evFXOpqhTCKLJujkc/ohpw==",
+  "firstName": "Rakeem",
+  "lastName": "Thomas",
+  "pronoun": null,
+  "versionTag": "366898999",
+  "headline": "Senior Software Engineer | Agentic AI Systems & Distributed Backends | Full-Stack (React, Node.js) | LLM Tool-Calling, MCP",
+  "publicIdentifier": "rakeemthomas",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "351720470",
+  "profileId": "ACoAABT21BYBpH4z5-dHBc8SaZpPWGRHYGnKPzQ",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516924229185?e=1795046400&v=beta&t=KXuwqnpu00JJ0PqoY6XcmBuGLQiz8NEh1pFEtNkMLVY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516924229379?e=1795046400&v=beta&t=_aLr8j2twB4USsOylSvXK0ORAkz3ZC-O8ODs85wsJ-0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516924229055?e=1795046400&v=beta&t=AU1BYE4ocyUIQUGA5GnaicDhCRYXrYSF6kq0vMTEJTE",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1523231903309?e=1795046400&v=beta&t=7uE-vPCyVA0hqrglbHgAGyKATu6R9AjLZJp-MACrdtc",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1523231903532?e=1795046400&v=beta&t=AyJRNgyjFuYP28iXrPnylgGKZgnajYoZnVPpUQncYL8"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I'm a Senior Software Engineer who's spent most of my career building distributed, event-driven backend systems, and more recently have extended that into AI-native, agentic systems, full stack, from orchestration down to the production UI. Most recently I've been designing Forge, a multi-agent incident-triage platform with an explicit four-agent handoff pipeline, a shared Anthropic/MCP tool-calling core, and per-run cost and prompt-version tracking so every agent decision stays reproducible. I also built a tool-routing layer that constrains an LLM to a forced tool-choice enum over live tool names, removing hallucination at the API boundary instead of catching it after the fact. That agentic work sits on top of years of distributed-systems experience: architecting a company's Apache Kafka adoption with an explicit command/event separation, building dead-letter-queue pipelines with backoff and retries, and designing event-driven architectures that multiple frontend teams depended on for reliable real-time data. I pair that backend depth with 8+ years of production frontend engineering (React, TypeScript, Core Web Vitals, WCAG accessibility), full stack from event-driven backends to agentic orchestration to the production UI. Right now I'm going deeper on the harder parts of agentic systems, multi-agent evaluation, failure recovery, and reliability once the first working pipeline is done, since that's where most of the real engineering work actually lives. I care about systems that fail loudly and safely rather than silently and expensively. If that's the kind of problem you're working on, I'd like to hear about it.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "10 mos",
+    "description": "Designing and building a greenfield multi-agent incident-triage platform (four-agent pipeline, shared MCP/Anthropic tool-calling core, per-run token-cost and prompt-version tracking for full reproducibility).\n\nDesigned a description-based LLM tool-routing layer that replaced a hardcoded route list responsible for production 502s, constraining tool selection with a forced tool-choice enum to eliminate hallucination at the API boundary.\n\nLed a zero-downtime migration of a core domain from a fragile per-project-copy architecture to a single shared immutable data layer across three repositories, adding a two-tier read-only guard system to protect shared state.\n\nEliminated an N+1 write-conflict cascade in the highest-traffic API path and restored near-real-time responsiveness to a scenario-planning map UI that had been showing stale results under rapid interaction.\n\nReplaced a stream-through-API file upload path with a direct-to-cloud signed-URL flow (GCS v4 resumable uploads), so the API no longer proxies file bytes at all. Along the way I fixed a subtle Next.js configuration bug where a feature flag baked in at build time couldn't actually be toggled per environment, moving it onto a runtime config seam instead.",
+    "company": {
+     "url": "https://www.linkedin.com/company/92575722/",
+     "name": "Inkwell",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Sourcemap: the Supply Chain Transparency Company",
+     "url": "https://www.linkedin.com/company/732336/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700"
+     }
+    },
+    "locationName": "New York, NY · Remote",
+    "employmentType": "Full-time",
+    "totalDuration": "4 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "Architected the platform's adoption of Apache Kafka and an event-driven backend, introducing a shared abstraction layer and domain-driven event taxonomy that gave frontend teams reliable real-time data.\n\nBuilt a dead-letter-queue pipeline with exponential backoff and bounded retries, plus Datadog instrumentation, to improve system resiliency and failure visibility.\n\nDirected delivery of a production Next.js application unifying supplier submission flows with real-time visualizations, cutting average supplier response time from 35 to 5 days.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Built accessible, standards-compliant UI (WCAG, semantic structure, keyboard navigation) across complex, data-heavy supplier-facing forms.\n\nDeliver full stack features in Angular, Node, and MongoDB.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "Led a production frontend migration from AngularJS to React without pausing delivery on a live product, and designed a GraphQL layer unifying data access across 20+ microservices.\n\nBuilt a reusable React component library adopted by 5+ teams, with automated Storybook CI for visual consistency and rapid feedback across cross-functional teams.\n\nReduced JavaScript bundle size by 20% and improved Lighthouse scores through Core Web Vitals audits and budgets, applying WCAG accessibility standards across shared UI.",
+    "insights": "Skills: Node.js · TypeScript · React · GraphQL · Jest · NoSQL · REST APIs · Web Performance · Webpack · Microservices · JavaScript · Application Programming Interfaces (API) · Unit Testing · React.js · Angular · Microsoft Azure · Full-Stack Development · Redux.js · Stream Processing · Event Driven Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/82315716/",
+     "name": "GE Digital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami/Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Modernized legacy APIs by refactoring monolithic endpoints into Node.js AWS Lambda microservices, improving scalability and reducing operational overhead.\n\nAdded versioned Swagger/OpenAPI documentation to standardize API contracts and streamline frontend and internal integrations.\n\nCollaborated across teams to align API structures with frontend needs, improving consistency and reducing integration bugs.",
+    "insights": "Skills: Node.js · TypeScript · AWS Lambda · REST APIs · Application Programming Interfaces (API) · NoSQL · Agile Methodologies · Unit Testing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1681/",
+     "name": "Robert Half",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I"
+     }
+    }
+   },
+   {
+    "title": "Javascript Developer",
+    "locationName": "Coconut Creek, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Built the InstaPlay Recorder, a React-driven UI that captures and serializes browser events for real-time test automation and playback across distributed environments.\n\nDeveloped the Data Bank Upload workflow enabling parameterized test execution using external CSV inputs, expanding automated test coverage.\n\nImproved reliability and delivery speed by automating CI pipelines using Jenkins and GitHub CI, reducing regressions and tightening release cycles.\n\nContributed to performance improvements across the LoadNinja frontend to support high-volume test execution scenarios.",
+    "insights": "Skills: React · Jest · NoSQL · REST APIs · Webpack · Agile Methodologies · AWS Lambda · JavaScript · Application Programming Interfaces (API) · Web Performance · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · Redux.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/108422/",
+     "name": "SmartBear Software",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Designed the initial GraphQL schema and React integration layer for a cross-platform messaging application, enabling efficient data synchronization across web and mobile clients.\n\nImproved performance of a time-tracking app by optimizing Webpack configuration (loaders, compression, code-splitting), reducing load times and improving runtime efficiency.\n\nImplemented reusable frontend components and cleaned up legacy codebases, improving maintainability and developer velocity.",
+    "insights": "Skills: React · NoSQL · REST APIs · Continuous Integration and Continuous Delivery (CI/CD) · Agile Methodologies · AWS Lambda · JavaScript · PostgreSQL · Application Programming Interfaces (API) · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · GraphQL · MongoDB",
+    "company": {
+     "url": "",
+     "name": "blubeta",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_100_100/B4EaF15DIwKYAI-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=I4qqdtfcqPfYaCAvxpChfUizLcj9iwCNBiFnwJo23Ak",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_200_200/B4EaF15DIwKYAE-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=nr4RrfwFUKv67oUfGgm1SkEbLGLTo7eIte1E3lSMlbY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166632/",
+    "schoolName": "University of Central Florida",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Bachelor of Science (B.S.)",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Real Time Web with Node.js",
+    "authority": "Code School",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Code School",
+    "title": "Real Time Web with Node.js",
+    "issuedBy": "Code School",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "CS50xMiami"
+   },
+   {
+    "name": "Intro to Programming with C"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Volunteer",
+    "companyName": "American Red Cross",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "cause": "Disaster and Humanitarian Relief",
+    "company": {
+     "url": "https://www.linkedin.com/company/157239/",
+     "name": "American Red Cross",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_200_200/company-logo_200_200/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=AUb30bfHasvwLTybnE1wUy2soP3LySOvdmtmrznsp_g",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_100_100/company-logo_100_100/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=53LDiS59MEqkvBqJDGIaYtMdgpbBX7I8RZN6r09JQY0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_400_400/company-logo_400_400/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=zv3IvUovczYZv-tbCwIfIZlliVSOYkcKs-o4t7Hiztw"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Intro to React workshop",
+    "description": "Led a one-hour technical workshop to introduce new Ironhack graduates to React.",
+    "dateRange": {},
+    "associatedWith": "May 2018 - May 2018"
+   },
+   {
+    "title": "Building Your TechDegree Resume",
+    "description": "Designed technical resume course in collaboration with TeamTreehouse for their TechDegree program.",
+    "dateRange": {},
+    "associatedWith": "Mar 2017 - May 2017"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Animal Welfare",
+   "Arts and Culture",
+   "Children",
+   "Civil Rights and Social Action",
+   "Disaster and Humanitarian Relief",
+   "Environment",
+   "Health",
+   "Human Rights",
+   "Poverty Alleviation",
+   "Science and Technology",
+   "Social Services"
+  ],
+  "companyName": "Inkwell",
+  "companyPublicId": "inkwell-tech",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/inkwell-tech/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:92575722",
+   "name": "Inkwell",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFSGW3G8teikg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_"
+    }
+   },
+   "universalName": "inkwell-tech",
+   "url": "https://www.linkedin.com/company/inkwell-tech/",
+   "slug": "inkwell-tech",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+   "specialties": []
+  },
+  "followerCount": 812,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 806,
+  "skills": [
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 4,
+    "experiences": 4
+   },
+   {
+    "name": "React.js",
+    "endorsements": 7,
+    "experiences": 4
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": 5
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nextjs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Stream Processing",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Application Programming Interfaces (API)",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Confluent",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 2,
+    "experiences": 3
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": 5
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Stream Processing",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Application Programming Interfaces (API)",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Confluent",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Performance",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Sentry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Documentation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unit Testing",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": 5
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 4,
+    "experiences": 4
+   },
+   {
+    "name": "React.js",
+    "endorsements": 7,
+    "experiences": 4
+   },
+   {
+    "name": "Nextjs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 2,
+    "experiences": 3
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Webpack",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Datadog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redux.js",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Jest",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Angular",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 17,
+    "experiences": 4
+   },
+   {
+    "name": "HTML",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 3,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/rakeemthomas",
+  "linkedinUrl": "https://www.linkedin.com/in/rakeemthomas",
+  "profileUrl": "https://www.linkedin.com/in/rakeemthomas",
+  "verified": true,
+  "registeredAt": "2014-06-22T00:43:28.807Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "I'm a Senior Software Engineer who's spent most of my career building distributed, event-driven backend systems, and more recently have extended that into AI-native, agentic systems, full stack, from orchestration down to the production UI. Most recently I've been designing Forge, a multi-agent incident-triage platform with an explicit four-agent handoff pipeline, a shared Anthropic/MCP tool-calling core, and per-run cost and prompt-version tracking so every agent decision stays reproducible. I also built a tool-routing layer that constrains an LLM to a forced tool-choice enum over live tool names, removing hallucination at the API boundary instead of catching it after the fact. That agentic work sits on top of years of distributed-systems experience: architecting a company's Apache Kafka adoption with an explicit command/event separation, building dead-letter-queue pipelines with backoff and retries, and designing event-driven architectures that multiple frontend teams depended on for reliable real-time data. I pair that backend depth with 8+ years of production frontend engineering (React, TypeScript, Core Web Vitals, WCAG accessibility), full stack from event-driven backends to agentic orchestration to the production UI. Right now I'm going deeper on the harder parts of agentic systems, multi-agent evaluation, failure recovery, and reliability once the first working pipeline is done, since that's where most of the real engineering work actually lives. I care about systems that fail loudly and safely rather than silently and expensively. If that's the kind of problem you're working on, I'd like to hear about it.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Javascript Developer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "10 mos",
+    "description": "Designing and building a greenfield multi-agent incident-triage platform (four-agent pipeline, shared MCP/Anthropic tool-calling core, per-run token-cost and prompt-version tracking for full reproducibility).\n\nDesigned a description-based LLM tool-routing layer that replaced a hardcoded route list responsible for production 502s, constraining tool selection with a forced tool-choice enum to eliminate hallucination at the API boundary.\n\nLed a zero-downtime migration of a core domain from a fragile per-project-copy architecture to a single shared immutable data layer across three repositories, adding a two-tier read-only guard system to protect shared state.\n\nEliminated an N+1 write-conflict cascade in the highest-traffic API path and restored near-real-time responsiveness to a scenario-planning map UI that had been showing stale results under rapid interaction.\n\nReplaced a stream-through-API file upload path with a direct-to-cloud signed-URL flow (GCS v4 resumable uploads), so the API no longer proxies file bytes at all. Along the way I fixed a subtle Next.js configuration bug where a feature flag baked in at build time couldn't actually be toggled per environment, moving it onto a runtime config seam instead.",
+    "company": {
+     "url": "https://www.linkedin.com/company/92575722/",
+     "name": "Inkwell",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Inkwell",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/92575722/",
+    "companyId": "92575722",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Sourcemap: the Supply Chain Transparency Company",
+     "url": "https://www.linkedin.com/company/732336/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700"
+     }
+    },
+    "locationName": "New York, NY · Remote",
+    "employmentType": "Full-time",
+    "totalDuration": "4 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "Architected the platform's adoption of Apache Kafka and an event-driven backend, introducing a shared abstraction layer and domain-driven event taxonomy that gave frontend teams reliable real-time data.\n\nBuilt a dead-letter-queue pipeline with exponential backoff and bounded retries, plus Datadog instrumentation, to improve system resiliency and failure visibility.\n\nDirected delivery of a production Next.js application unifying supplier submission flows with real-time visualizations, cutting average supplier response time from 35 to 5 days.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Built accessible, standards-compliant UI (WCAG, semantic structure, keyboard navigation) across complex, data-heavy supplier-facing forms.\n\nDeliver full stack features in Angular, Node, and MongoDB.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Sourcemap: the Supply Chain Transparency Company",
+    "location": "New York, NY · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/732336/",
+    "companyId": "732336",
+    "duration": "4 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "Led a production frontend migration from AngularJS to React without pausing delivery on a live product, and designed a GraphQL layer unifying data access across 20+ microservices.\n\nBuilt a reusable React component library adopted by 5+ teams, with automated Storybook CI for visual consistency and rapid feedback across cross-functional teams.\n\nReduced JavaScript bundle size by 20% and improved Lighthouse scores through Core Web Vitals audits and budgets, applying WCAG accessibility standards across shared UI.",
+    "insights": "Skills: Node.js · TypeScript · React · GraphQL · Jest · NoSQL · REST APIs · Web Performance · Webpack · Microservices · JavaScript · Application Programming Interfaces (API) · Unit Testing · React.js · Angular · Microsoft Azure · Full-Stack Development · Redux.js · Stream Processing · Event Driven Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/82315716/",
+     "name": "GE Digital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "GE Digital",
+    "location": "Miami-Fort Lauderdale Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/82315716/",
+    "companyId": "82315716",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami/Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Modernized legacy APIs by refactoring monolithic endpoints into Node.js AWS Lambda microservices, improving scalability and reducing operational overhead.\n\nAdded versioned Swagger/OpenAPI documentation to standardize API contracts and streamline frontend and internal integrations.\n\nCollaborated across teams to align API structures with frontend needs, improving consistency and reducing integration bugs.",
+    "insights": "Skills: Node.js · TypeScript · AWS Lambda · REST APIs · Application Programming Interfaces (API) · NoSQL · Agile Methodologies · Unit Testing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1681/",
+     "name": "Robert Half",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Robert Half",
+    "location": "Miami/Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1681/",
+    "companyId": "1681",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Javascript Developer",
+    "locationName": "Coconut Creek, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Built the InstaPlay Recorder, a React-driven UI that captures and serializes browser events for real-time test automation and playback across distributed environments.\n\nDeveloped the Data Bank Upload workflow enabling parameterized test execution using external CSV inputs, expanding automated test coverage.\n\nImproved reliability and delivery speed by automating CI pipelines using Jenkins and GitHub CI, reducing regressions and tightening release cycles.\n\nContributed to performance improvements across the LoadNinja frontend to support high-volume test execution scenarios.",
+    "insights": "Skills: React · Jest · NoSQL · REST APIs · Webpack · Agile Methodologies · AWS Lambda · JavaScript · Application Programming Interfaces (API) · Web Performance · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · Redux.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/108422/",
+     "name": "SmartBear Software",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI"
+     }
+    },
+    "position": "Javascript Developer",
+    "companyName": "SmartBear Software",
+    "location": "Coconut Creek, FL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/108422/",
+    "companyId": "108422",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Designed the initial GraphQL schema and React integration layer for a cross-platform messaging application, enabling efficient data synchronization across web and mobile clients.\n\nImproved performance of a time-tracking app by optimizing Webpack configuration (loaders, compression, code-splitting), reducing load times and improving runtime efficiency.\n\nImplemented reusable frontend components and cleaned up legacy codebases, improving maintainability and developer velocity.",
+    "insights": "Skills: React · NoSQL · REST APIs · Continuous Integration and Continuous Delivery (CI/CD) · Agile Methodologies · AWS Lambda · JavaScript · PostgreSQL · Application Programming Interfaces (API) · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · GraphQL · MongoDB",
+    "company": {
+     "url": "",
+     "name": "blubeta",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "blubeta",
+    "location": "Miami, FL",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "92575722",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/92575722/",
+    "companyName": "Inkwell",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "732336",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/732336/",
+    "companyName": "Sourcemap: the Supply Chain Transparency Company",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "10 mos",
+    "description": "Designing and building a greenfield multi-agent incident-triage platform (four-agent pipeline, shared MCP/Anthropic tool-calling core, per-run token-cost and prompt-version tracking for full reproducibility).\n\nDesigned a description-based LLM tool-routing layer that replaced a hardcoded route list responsible for production 502s, constraining tool selection with a forced tool-choice enum to eliminate hallucination at the API boundary.\n\nLed a zero-downtime migration of a core domain from a fragile per-project-copy architecture to a single shared immutable data layer across three repositories, adding a two-tier read-only guard system to protect shared state.\n\nEliminated an N+1 write-conflict cascade in the highest-traffic API path and restored near-real-time responsiveness to a scenario-planning map UI that had been showing stale results under rapid interaction.\n\nReplaced a stream-through-API file upload path with a direct-to-cloud signed-URL flow (GCS v4 resumable uploads), so the API no longer proxies file bytes at all. Along the way I fixed a subtle Next.js configuration bug where a feature flag baked in at build time couldn't actually be toggled per environment, moving it onto a runtime config seam instead.",
+    "company": {
+     "url": "https://www.linkedin.com/company/92575722/",
+     "name": "Inkwell",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Inkwell",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/92575722/",
+    "companyId": "92575722",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_400_400/B4EZah4gQ2HYAY-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=GHy0CjjkSyXIo4CAP1VY0jJ4T-Bcaa79nex6PLYYICY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_200_200/B4EZah4gQ2HYAI-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=01Hy51qUWtkxCrQYlaa6QAwWSxU7IEs72BOMTKfNXOA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFSGW3G8teikg/company-logo_100_100/B4EZah4gQ2HYAQ-/0/1746472666489/aiinkwell_logo?e=1795046400&v=beta&t=a-X8oS06TpmZKQK2_LtlMBhmiLX37FQgbUPzs9kC5NU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Sourcemap: the Supply Chain Transparency Company",
+     "url": "https://www.linkedin.com/company/732336/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700"
+     }
+    },
+    "locationName": "New York, NY · Remote",
+    "employmentType": "Full-time",
+    "totalDuration": "4 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2025
+       }
+      },
+      "totalDuration": "3 yrs 8 mos",
+      "description": "Architected the platform's adoption of Apache Kafka and an event-driven backend, introducing a shared abstraction layer and domain-driven event taxonomy that gave frontend teams reliable real-time data.\n\nBuilt a dead-letter-queue pipeline with exponential backoff and bounded retries, plus Datadog instrumentation, to improve system resiliency and failure visibility.\n\nDirected delivery of a production Next.js application unifying supplier submission flows with real-time visualizations, cutting average supplier response time from 35 to 5 days.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Built accessible, standards-compliant UI (WCAG, semantic structure, keyboard navigation) across complex, data-heavy supplier-facing forms.\n\nDeliver full stack features in Angular, Node, and MongoDB.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Sourcemap: the Supply Chain Transparency Company",
+    "location": "New York, NY · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/732336/",
+    "companyId": "732336",
+    "duration": "4 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_400_400/company-logo_400_400/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=Y7G9JZxcyuB2WCpaS4cAtapwVGEs_fnffhGUbyzY700",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_200_200/company-logo_200_200/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=WRS7JsejS1neXbX-0S3b_NfEAsKebm7Gml7zFpGyKQw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmQBEixlVnLQ/company-logo_100_100/company-logo_100_100/0/1732633218983/sourcemap_logo?e=1795046400&v=beta&t=k-vSVH418dRl_cGX5hgAQZl1XvGkNsTgWf3uqqMj0IA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 9 mos",
+    "description": "Led a production frontend migration from AngularJS to React without pausing delivery on a live product, and designed a GraphQL layer unifying data access across 20+ microservices.\n\nBuilt a reusable React component library adopted by 5+ teams, with automated Storybook CI for visual consistency and rapid feedback across cross-functional teams.\n\nReduced JavaScript bundle size by 20% and improved Lighthouse scores through Core Web Vitals audits and budgets, applying WCAG accessibility standards across shared UI.",
+    "insights": "Skills: Node.js · TypeScript · React · GraphQL · Jest · NoSQL · REST APIs · Web Performance · Webpack · Microservices · JavaScript · Application Programming Interfaces (API) · Unit Testing · React.js · Angular · Microsoft Azure · Full-Stack Development · Redux.js · Stream Processing · Event Driven Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/82315716/",
+     "name": "GE Digital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "GE Digital",
+    "location": "Miami-Fort Lauderdale Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/82315716/",
+    "companyId": "82315716",
+    "duration": "1 yr 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_400_400/company-logo_400_400/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=tDV0_tgl8do51p3srD9EteSBHuRd_3SIE_z1wWFOF90",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_200_200/company-logo_200_200/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=GU_pgEDYRTaMsJpy31PJQRaiIzawFFCNklq4sbFCNck",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3fXAI-jYu5A/company-logo_100_100/company-logo_100_100/0/1681910638687/gevernova_logo?e=1795046400&v=beta&t=ioP5ris0ef6BwZaNBL0PLPpBb9LSxS7HjIjTeOkS7Fo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami/Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Modernized legacy APIs by refactoring monolithic endpoints into Node.js AWS Lambda microservices, improving scalability and reducing operational overhead.\n\nAdded versioned Swagger/OpenAPI documentation to standardize API contracts and streamline frontend and internal integrations.\n\nCollaborated across teams to align API structures with frontend needs, improving consistency and reducing integration bugs.",
+    "insights": "Skills: Node.js · TypeScript · AWS Lambda · REST APIs · Application Programming Interfaces (API) · NoSQL · Agile Methodologies · Unit Testing",
+    "company": {
+     "url": "https://www.linkedin.com/company/1681/",
+     "name": "Robert Half",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Robert Half",
+    "location": "Miami/Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1681/",
+    "companyId": "1681",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_400_400/company-logo_400_400/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=3dok7RQzVJ8AaJZtyuNOEHZKwI_3GvpqXUFZdNfax5I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_200_200/company-logo_200_200/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=xyAV_enFJf9J-8HRQAZIkzLSXyRI5FbX5TZkYAbJmfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFP6-a3z7Fm8Q/company-logo_100_100/company-logo_100_100/0/1696341221977/robert_half_international_logo?e=1795046400&v=beta&t=wjAipIHDM_bPtdlnXBVcRNrU6Hv4edl9BgDUItnAqAI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Javascript Developer",
+    "locationName": "Coconut Creek, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Built the InstaPlay Recorder, a React-driven UI that captures and serializes browser events for real-time test automation and playback across distributed environments.\n\nDeveloped the Data Bank Upload workflow enabling parameterized test execution using external CSV inputs, expanding automated test coverage.\n\nImproved reliability and delivery speed by automating CI pipelines using Jenkins and GitHub CI, reducing regressions and tightening release cycles.\n\nContributed to performance improvements across the LoadNinja frontend to support high-volume test execution scenarios.",
+    "insights": "Skills: React · Jest · NoSQL · REST APIs · Webpack · Agile Methodologies · AWS Lambda · JavaScript · Application Programming Interfaces (API) · Web Performance · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · Redux.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/108422/",
+     "name": "SmartBear Software",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI"
+     }
+    },
+    "position": "Javascript Developer",
+    "companyName": "SmartBear Software",
+    "location": "Coconut Creek, FL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/108422/",
+    "companyId": "108422",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_400_400/company-logo_400_400/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=qqKeqhEJxdDV23wTCKGngqHJZ6vSIm8DdQRiZ4eQBpI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_200_200/company-logo_200_200/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=ETjGwizOsOJkFolvqP7tNdg-kfhoLzjmjTnivpKwZTE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHvcaaw3m3gUw/company-logo_100_100/company-logo_100_100/0/1633542767992/smartbear_logo?e=1795046400&v=beta&t=BUfUlzWUCs_pEFk_ZVDbycI3sahVMSw9zlyxjFpgdKo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Designed the initial GraphQL schema and React integration layer for a cross-platform messaging application, enabling efficient data synchronization across web and mobile clients.\n\nImproved performance of a time-tracking app by optimizing Webpack configuration (loaders, compression, code-splitting), reducing load times and improving runtime efficiency.\n\nImplemented reusable frontend components and cleaned up legacy codebases, improving maintainability and developer velocity.",
+    "insights": "Skills: React · NoSQL · REST APIs · Continuous Integration and Continuous Delivery (CI/CD) · Agile Methodologies · AWS Lambda · JavaScript · PostgreSQL · Application Programming Interfaces (API) · Unit Testing · Amazon Web Services (AWS) · React.js · Full-Stack Development · GraphQL · MongoDB",
+    "company": {
+     "url": "",
+     "name": "blubeta",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "blubeta",
+    "location": "Miami, FL",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_100_100/B4EaF15DIwKYAI-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=I4qqdtfcqPfYaCAvxpChfUizLcj9iwCNBiFnwJo23Ak",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_200_200/B4EaF15DIwKYAE-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=nr4RrfwFUKv67oUfGgm1SkEbLGLTo7eIte1E3lSMlbY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_200_200/B4EaF15DIwKYAE-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=nr4RrfwFUKv67oUfGgm1SkEbLGLTo7eIte1E3lSMlbY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_100_100/B4EaF15DIwKYAI-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=I4qqdtfcqPfYaCAvxpChfUizLcj9iwCNBiFnwJo23Ak",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166632/",
+    "schoolName": "University of Central Florida",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Bachelor of Science (B.S.)",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/166632/",
+    "schoolId": "166632",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_100_100/B4EaF15DIwKYAI-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=I4qqdtfcqPfYaCAvxpChfUizLcj9iwCNBiFnwJo23Ak",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_200_200/B4EaF15DIwKYAE-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=nr4RrfwFUKv67oUfGgm1SkEbLGLTo7eIte1E3lSMlbY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_400_400/B4EaF15DIwKYAU-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=l5P214V2tgjKHlvcgnshd3Jrl6PLBaP1eVVWmabasAM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_200_200/B4EaF15DIwKYAE-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=nr4RrfwFUKv67oUfGgm1SkEbLGLTo7eIte1E3lSMlbY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGngtzYO3qYew/company-logo_100_100/B4EaF15DIwKYAI-/0/1792979252008/university_of_central_florida_logo?e=1795046400&v=beta&t=I4qqdtfcqPfYaCAvxpChfUizLcj9iwCNBiFnwJo23Ak",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/166632/",
+    "schoolName": "University of Central Florida",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Bachelor of Science (B.S.)",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/166632/",
+    "schoolId": "166632",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Volunteer",
+    "companyName": "American Red Cross",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "cause": "Disaster and Humanitarian Relief",
+    "company": {
+     "url": "https://www.linkedin.com/company/157239/",
+     "name": "American Red Cross",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_200_200/company-logo_200_200/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=AUb30bfHasvwLTybnE1wUy2soP3LySOvdmtmrznsp_g",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_100_100/company-logo_100_100/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=53LDiS59MEqkvBqJDGIaYtMdgpbBX7I8RZN6r09JQY0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_400_400/company-logo_400_400/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=zv3IvUovczYZv-tbCwIfIZlliVSOYkcKs-o4t7Hiztw"
+     }
+    },
+    "organization": "American Red Cross"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Volunteer",
+    "companyName": "American Red Cross",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "cause": "Disaster and Humanitarian Relief",
+    "company": {
+     "url": "https://www.linkedin.com/company/157239/",
+     "name": "American Red Cross",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_200_200/company-logo_200_200/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=AUb30bfHasvwLTybnE1wUy2soP3LySOvdmtmrznsp_g",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_100_100/company-logo_100_100/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=53LDiS59MEqkvBqJDGIaYtMdgpbBX7I8RZN6r09JQY0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHUWIQmmDRJOw/company-logo_400_400/company-logo_400_400/0/1656603670184/american_red_cross_logo?e=1795046400&v=beta&t=zv3IvUovczYZv-tbCwIfIZlliVSOYkcKs-o4t7Hiztw"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516924229185?e=1795046400&v=beta&t=KXuwqnpu00JJ0PqoY6XcmBuGLQiz8NEh1pFEtNkMLVY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516924229379?e=1795046400&v=beta&t=_aLr8j2twB4USsOylSvXK0ORAkz3ZC-O8ODs85wsJ-0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516924229055?e=1795046400&v=beta&t=AU1BYE4ocyUIQUGA5GnaicDhCRYXrYSF6kq0vMTEJTE",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516924229055?e=1795046400&v=beta&t=AU1BYE4ocyUIQUGA5GnaicDhCRYXrYSF6kq0vMTEJTE",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516924229379?e=1795046400&v=beta&t=_aLr8j2twB4USsOylSvXK0ORAkz3ZC-O8ODs85wsJ-0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516924229185?e=1795046400&v=beta&t=KXuwqnpu00JJ0PqoY6XcmBuGLQiz8NEh1pFEtNkMLVY",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516924229185?e=1795046400&v=beta&t=KXuwqnpu00JJ0PqoY6XcmBuGLQiz8NEh1pFEtNkMLVY",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516924229379?e=1795046400&v=beta&t=_aLr8j2twB4USsOylSvXK0ORAkz3ZC-O8ODs85wsJ-0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516924229055?e=1795046400&v=beta&t=AU1BYE4ocyUIQUGA5GnaicDhCRYXrYSF6kq0vMTEJTE",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516924229075?e=1795046400&v=beta&t=zT2ehbWLrPmBnm7jpdO10oRC2l-wtDfyekb5hUti4wc",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516924229055?e=1795046400&v=beta&t=AU1BYE4ocyUIQUGA5GnaicDhCRYXrYSF6kq0vMTEJTE",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516924229379?e=1795046400&v=beta&t=_aLr8j2twB4USsOylSvXK0ORAkz3ZC-O8ODs85wsJ-0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQFUgtJMJYtghQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516924229185?e=1795046400&v=beta&t=KXuwqnpu00JJ0PqoY6XcmBuGLQiz8NEh1pFEtNkMLVY",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1523231903309?e=1795046400&v=beta&t=7uE-vPCyVA0hqrglbHgAGyKATu6R9AjLZJp-MACrdtc",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1523231903532?e=1795046400&v=beta&t=AyJRNgyjFuYP28iXrPnylgGKZgnajYoZnVPpUQncYL8",
+   "url": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1523231903532?e=1795046400&v=beta&t=AyJRNgyjFuYP28iXrPnylgGKZgnajYoZnVPpUQncYL8",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1523231903532?e=1795046400&v=beta&t=AyJRNgyjFuYP28iXrPnylgGKZgnajYoZnVPpUQncYL8",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQEJrXKTKoiMPQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1523231903309?e=1795046400&v=beta&t=7uE-vPCyVA0hqrglbHgAGyKATu6R9AjLZJp-MACrdtc",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/rakeemthomas"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T17:12:16.737Z",
+ "foundBy": null
+}

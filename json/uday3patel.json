@@ -1,0 +1,2227 @@
+{
+ "slug": "uday3patel",
+ "inputUrl": "https://www.linkedin.com/in/uday3patel",
+ "fetchedAt": "2026-11-18T21:23:49.544Z",
+ "id": "6afe1765326d0b70b7e25c6c",
+ "url": "https://www.linkedin.com/in/uday3patel",
+ "profile": {
+  "created": 1532038637159,
+  "trackingId": "4rWB4ujwTRCtWLadkeBung==",
+  "firstName": "Uday",
+  "lastName": "Y. Patel",
+  "pronoun": null,
+  "versionTag": "1499332867",
+  "headline": "Software Engineer II @ NBCUniversal | Distributed Systems | Tech Strategy & GTM",
+  "publicIdentifier": "uday3patel",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 2,
+   "day": 3,
+   "year": null
+  },
+  "id": "671093172",
+  "profileId": "ACoAACgAEbQBY7FOWkZo7yPcUlONF4B2khjaqRg",
+  "pictureUrl": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_200_200/B4EZ1kuNIkGkAY-/0/1775511328522?e=1796860800&v=beta&t=huP4g2CUaJThw4rzamjgW0Og2f0xH1o0LHqlOpy3WNY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_400_400/B4EZ1kuNIkGkAg-/0/1775511328522?e=1796860800&v=beta&t=2cCFrQJlR_WfU1__mOCeOIP7v3MmQbpSGXjRHHL4cT4",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_100_100/B4EZ1kuNIkGkAc-/0/1775511328522?e=1796860800&v=beta&t=7eu9_EvuEsyZOlBR7UU86AMAmCUkdbP94SnRGWZhC_s"
+  },
+  "coverImageUrl": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_200_800/B4EZ1gq17aG8AU-/0/1775443337248?e=1796860800&v=beta&t=SYrEsu-W_6EU6fW4SXlsDIPuSBtkTqnezU5_nba6cGY",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_350_1400/B4EZ1gq17aG8AY-/0/1775443337248?e=1796860800&v=beta&t=YABs8OpWfqEAYTySYlQymhnGIRLSxRXokD7iKlCOAn4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000077",
+  "geoLocationName": "Greater Philadelphia",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer, Peacock Content Rights",
+  "summary": "I'm a people-first IC that enjoys shipping resourceful software with a focus on system design, development, deployment, and product sense. My goal is to deliver exceptional quality and performance, balancing engineering trade-offs along the way.\n\nBuilding software at scale is inherently collaborative; having a culture of elite communication is paramount, it motivates me to bring my best self forward.\n\nProficient in Product Engineering, I've an increasing interest in Systems Development. I'm also invested in patterns of distributed systems and failure mode & effects analysis (FMEA).\n\nI have a soft spot for Event Driven Systems, Software Delivery, and Product Strategy.\n\nCurrently, I'm strengthening my software engineering pillars by deeply understanding & solving domain problems, driving features at scale, owning the business of software (P&L), and being a sponge.\n\nNorth Star: Eng. Manager (EM) / VP of Eng. / Lead TPM\n\nThings on my mind at the moment:\n\n• SDK Development & DevX\n• Server Side Ad Injection, OTT Media, DSPs, RTB\n• CI / CD Systems and Deployment Optimizations\n• Telemetry Systems & o11y\n• Content Delivery Networks (CDN)\n• FinTech Products & Services\n• Change Data Capture (CDC) Software\n• Search Systems (at scale)\n• Spec-Driven Development (SDD)\n\nWhen I'm not waiting for CI pipelines to finish, I like to gain XP points:\n\n• Try new cuisines\n• Attend live sporting events\n• Spend quality time with my folks\n• Geek out about Urban Development & Sociology\n• Travel (obligatory)",
+  "positions": [
+   {
+    "title": "Software Engineer, Peacock Content Rights",
+    "locationName": "Los Angeles, CA • 30 Rockefeller Plaza, New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Org: O&T, On-Air Systems Development\nTeam: Content Engineering\n\nGlobal Content Rights Metadata Service for Peacock, Linear TV, and Distribution\n\nOwnership:\n• CLM Software\n• Rights API\n• Data Export Service\n• Shared Core Library\n• Kinesis Data Stream Infrastructure\n• Database Schema and Migrations\n\nDeveloped and maintained high-performance, read-optimized REST APIs using FastAPI to expose complex rights and contracts data from AWS RDS cluster, enabling scalable data access for internal applications and downstream services.\n\nDesigned a scalable CDC-driven async pipeline using AWS Database Migration Service (DMS), AWS Kinesis, and AWS Lambda to stream, enrich, and index relational data from RDS into OpenSearch, enabling low-latency, full-text search and offloading read-heavy queries from the primary database cluster. AWS OpenSearch Ingestion (OSI), which abstracts this design into a managed zETL service, is a solution that performs a similar sync process at scale.\n\nBuilt a fault-tolerant, event driven distributed system using AWS Lambda and AWS SQS with DLQ and a data re-drive policy to extract and transform transactional data from AWS RDS cluster into denormalized star schema tables for reporting.\n\nNote: Briefly explored the Quant Engineering space in 2026 Q2 before boomeranging; retained original start date and tenur",
+    "insights": "Skills: FastAPI · AWS Kinesis · Python Programming Language · AWS Lambda · Datadog · Serverless Framework · AngularJS · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/1828/",
+     "name": "NBCUniversal",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g"
+     }
+    }
+   },
+   {
+    "title": "Quantitative Software Engineer, Equities",
+    "locationName": "1307 Point Street, Baltimore, MD · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Org: Front Office Investments Technology\nTeam: TRPIM Quant Engineering\n\nModel serving infra, distributed state machines, and integrations with data products (Bloomberg / FactSet); providing a platform which results in daily pre-market trade signals for a multi-billion dollar Active ETF (Ticker: TCAF, ~$7.1B AUM circa '26 Q2) led by David Giroux.\n\nLed the design of a metadata-driven DAG with AWS Step Functions to orchestrate 3rd party market data ingestion; used PostgreSQL to persist priority configuration, enabling deterministic job execution to accelerate workflow changes by ~5x without requiring application deployments.\n\nRefactored and modernized a Python-based service by introducing modular architecture, automated Pytest coverage for critical data-validation workflows, and Makefile-driven developer tooling, reducing regression defects by ~40% and improving developer onboarding and contribution velocity.",
+    "insights": "Skills: AWS Step Functions · Data Infrastructure · AWS Lambda · Python Programming Language · Quant Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/157329/",
+     "name": "T. Rowe Price",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Guardian Life",
+     "url": "https://www.linkedin.com/company/164085/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs",
+    "positions": [
+     {
+      "title": "Software Engineer II, Direct-To-Consumer",
+      "locationName": "10 Hudson Yards, New York, NY · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2025
+       }
+      },
+      "totalDuration": "1 yr",
+      "description": "Org: DTC, formerly Guardian Direct\nTeam: Group Retail Engineering\n\nShip production software for customers of our Retail DTC Product Offerings:\n\n🦷 Dental\n👁️ Vision\n🩼 Accident\n\nCoordinated with Legal, Product, and Engineering to implement Cross-Sell marketing features using Typescript, GraphQL, and Contentful CMS, enhancing our product offerings in the Customer Buying Process and Member Portal which increased national product sales by 7%\n\nBuilt service-oriented data infrastructure using Temporal, Grafana, Nest.js, Next.js, LaunchDarkly, and MLflow for real-time stream processing of digital leads to analyze prospect conversion metrics, directly driving revenue for a $19.5M YoY business using AdTech\n\nDeveloped and owned a Release Management CI/CD Service using a Jenkins cluster, Groovy, Python, FastAPI, and GitOps to create configurable deployments that only include QA tested pieces of code. Consumed by several Engineering teams @ Guardian for one-click app releases, saving hundreds of prod-rollback hours.\n\nIdeated and built a Dental Plan Comparison component in React.js for the 2024 Q4 launch of a new product. Utilized React Refs and Context to build a hover and scroll feature using the Pub/Sub architecture pattern, garnering an increase of +15% in enrollment which was tracked using Twilio Segment and Google Analytics / GTM for comprehensive telemetry.\n\nIntegrated Cybersource (Visa) authorized payments, LaunchDarkly feature flags, and delivered an end-to-end enrollment flow with ShadCN UI components for Retail Broker Portal, a greenfield application that is planned to launch in Q2 2025",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer, Rating & Quoting Engine",
+      "locationName": "New York, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "Org: Group Underwriting\nTeam: Pre-Sales Core Platform\n\n• Worked on the primary in-house Actuarial Rating and Quoting Engine used daily by internal analysts\n• Participated in all ceremonies involved with SDLC & Agile: PR code reviews, design meetings, CI/CD, stand-up sessions, and release schedule on-call triaging\n• Contributed to application modernization efforts by migrating on-premises proposal data to AWS S3\n• Built a multi-threaded job in production to handle batch processing of ~1M+ PII client records\n• Refactored service components to reflect Paid FMLA policy changes in Oregon & Colorado for 2023 Q4\n• Used Mockito for functional tests to ensure proper performance of business critical API endpoints\n• Transformed complex, legacy model objects into their Spring Boot 3.x version equivalent\n• Ideated and built a new UI for an Underwriting Admin portal with React.js + .NET Core",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Biopolymer Research Extern",
+    "locationName": "Florham Park, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Personal Care Science\nTeam: Research & Development\n\n• Conducted research on new bioactive algae-based species suitable for cosmetic innovation\n• Performed a market landscape analysis of potential partners in the biopolymer and bioactive space\n• Presented project deliverables to the program director and company members while highlighting cosmetic efficacy\n• Visited the North American BASF HQ site in Florham Park, New Jersey to highlight our findings via a presentation to stakeholders and R&D leadership",
+    "company": {
+     "url": "https://www.linkedin.com/company/2633/",
+     "name": "BASF",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA"
+     }
+    }
+   },
+   {
+    "title": "Research Fellow",
+    "locationName": "Washington, DC · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Org: Office of Congresswoman Lisa Campbell\nTeam: Campaign Analytics\n\n• Supported Rep. Campbell to a 2022 Midterm Election victory — first woman to be elected in the district\n• Provided data driven solutions and consult directly with campaign teams to complete impactful research/projects\n• Conducted weekly stand up meetings to discuss project timelines\n• Built visualizations from sensitive political data and create insights with Google Looker Studio to maximize campaign impact\n• Developed a data pipeline from VAN using python (Parsons library) to convert raw campaign data into a map of locations from voter information for analysis",
+    "insights": "Skills: Python Programming Language · Pandas",
+    "company": {
+     "url": "https://www.linkedin.com/company/18981951/",
+     "name": "Bluebonnet Data",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA"
+     }
+    }
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "• Lead and taught recitation sections for 40+ undergraduate students enrolled in 01:198:111 Fall 2021 (Introduction to Computer Science)\n• Developed engaging and supplemental coursework to extend concepts learned in lecture for students\n• Communicated with Dr. Lars Sorensen, Ph.D. through bi-monthly meetings in order to relay concepts and material effectively",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    }
+   },
+   {
+    "title": "Data Engineer, Service Analytics",
+    "locationName": "Jacksonville, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Global Operations & Strategy\nTeam: Service Analytics\n\n• Developed custom solutions from Drift Chatbot API using ETL process standards, handling data from both North American and United Kingdom servers\n• Integrated Python script cloud automation using Task Scheduler and AWS t2.large EC2 instance\n• Built email notification system via Outlook Groups and Python using corporate SMTP server to send automated, HTML-embedded emails on failure of cloud-based scripts\n• Transformed monthly reports that were done manually into an automated, daily procedure; Increased efficiency by 22%\n• Contributed to Talent Acquisition research on Dun & Bradstreet - Dublin, Ireland Campus with fellow interns by creating a presentation for the People Team/HR managers\n• The intern class was given the opportunity to meet with many C-Suite Executives at the company through Fireside Chats including the CEO, Anthony Jabbour",
+    "insights": "Skills: Python Programming Language · Cloud Automation · Microsoft Power BI · Jupyter Notebook · Extract, Transform, Load (ETL) · SQL · Amazon EC2 · Amazon Redshift",
+    "company": {
+     "url": "https://www.linkedin.com/company/2385/",
+     "name": "Dun & Bradstreet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo"
+     }
+    }
+   },
+   {
+    "title": "Consultant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "• Cooperated with staff members to learn various skills and troubleshooting techniques to maintain/administer Campus Computing Labs and Campus Help Desk Services\n• Utilized and became familiar with ServiceNow Ticketing Software to handle technology requests from patrons\n• Applied customer service skills to assist patrons in any technical or situational issue",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolName": "Rutgers University–New Brunswick",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolName": "Rutgers University–New Brunswick",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer & Information Science",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [
+   {
+    "name": "AWS Cloud Practitioner",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "AWS Cloud Practitioner",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Python Skill Certificate",
+    "authority": "HackerRank",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "HackerRank",
+    "title": "Python Skill Certificate",
+    "issuedBy": "HackerRank",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Artificial Intelligence"
+   },
+   {
+    "name": "Cloud Computing & Big Data"
+   }
+  ],
+  "honors": [
+   {
+    "title": "Dean's List",
+    "description": "",
+    "issueDate": {},
+    "issuer": ""
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Software Engineer",
+    "companyName": "The Linux Foundation",
+    "description": "I wrote code in Go to deliver a feature for their open-source software.",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2024
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/208777/",
+     "name": "The Linux Foundation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_200_200/company-logo_200_200/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=PjUdgnuup-BuAWEnP2Y1JEbEUbZhMQKkv1HAhfCyvPc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_100_100/company-logo_100_100/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=rLkOlNWdbUMl44ag8hOkgimkqceZwD7zBJ3VOwmZjY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_400_400/company-logo_400_400/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=YsAwWY3q0NCGiXu3OJxEi-zZQuXf54lYQq1SRQvl3t0"
+     }
+    }
+   },
+   {
+    "role": "Software Engineer, Full Stack",
+    "companyName": "Internet Archive",
+    "description": "• Open source community member of openlibrary.org [Spring 2024 Cohort]",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "https://www.linkedin.com/company/20541/",
+     "name": "Internet Archive",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_200_200/company-logo_200_200/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=BGxmldAwavE9ex6lhcBG8UlzfnKABTlzlPZhE6FFY4w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_100_100/company-logo_100_100/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=8H0z_en7N67d2b36m760BnLpbTyEdgsm0RjUZvDsoAk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_400_400/company-logo_400_400/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=5dPYYOoIbTgpYoO7jyDP1EQ4Mj4XIm0UAQGJuQQrJck"
+     }
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Children",
+   "Civil Rights and Social Action",
+   "Disaster and Humanitarian Relief",
+   "Education",
+   "Science and Technology"
+  ],
+  "companyName": "NBCUniversal",
+  "companyPublicId": "nbcuniversal-inc-",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/nbcuniversal-inc-/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1828",
+   "name": "NBCUniversal",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQHIwjfYY3sIoQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+       "expiresAt": 1796860800000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+       "expiresAt": 1796860800000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_"
+    }
+   },
+   "universalName": "nbcuniversal-inc-",
+   "url": "https://www.linkedin.com/company/nbcuniversal-inc-/",
+   "slug": "nbcuniversal-inc-",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+   "specialties": []
+  },
+  "followerCount": 3836,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 3852,
+  "skills": [
+   {
+    "name": "AWS Lambda",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Python Programming Language",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 3,
+    "experiences": 2
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Kinesis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Datadog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rust (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nest.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Concurrent Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Quant Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Styled Components",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 3,
+    "experiences": 2
+   },
+   {
+    "name": "Concurrent Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multithreading",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test-Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Process Automation",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Extract, Transform, Load (ETL)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EC2",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Pipelines",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Redshift",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linear Algebra",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Python Programming Language",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Kinesis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Datadog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Rust (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nest.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Styled Components",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Framework",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "AngularJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hibernate",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/uday3patel",
+  "linkedinUrl": "https://www.linkedin.com/in/uday3patel",
+  "profileUrl": "https://www.linkedin.com/in/uday3patel",
+  "verified": true,
+  "registeredAt": "2018-07-19T22:17:17.159Z",
+  "location": {
+   "linkedinText": "Greater Philadelphia",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Philadelphia",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a people-first IC that enjoys shipping resourceful software with a focus on system design, development, deployment, and product sense. My goal is to deliver exceptional quality and performance, balancing engineering trade-offs along the way.\n\nBuilding software at scale is inherently collaborative; having a culture of elite communication is paramount, it motivates me to bring my best self forward.\n\nProficient in Product Engineering, I've an increasing interest in Systems Development. I'm also invested in patterns of distributed systems and failure mode & effects analysis (FMEA).\n\nI have a soft spot for Event Driven Systems, Software Delivery, and Product Strategy.\n\nCurrently, I'm strengthening my software engineering pillars by deeply understanding & solving domain problems, driving features at scale, owning the business of software (P&L), and being a sponge.\n\nNorth Star: Eng. Manager (EM) / VP of Eng. / Lead TPM\n\nThings on my mind at the moment:\n\n• SDK Development & DevX\n• Server Side Ad Injection, OTT Media, DSPs, RTB\n• CI / CD Systems and Deployment Optimizations\n• Telemetry Systems & o11y\n• Content Delivery Networks (CDN)\n• FinTech Products & Services\n• Change Data Capture (CDC) Software\n• Search Systems (at scale)\n• Spec-Driven Development (SDD)\n\nWhen I'm not waiting for CI pipelines to finish, I like to gain XP points:\n\n• Try new cuisines\n• Attend live sporting events\n• Spend quality time with my folks\n• Geek out about Urban Development & Sociology\n• Travel (obligatory)",
+  "currentTitle": "Software Engineer, Peacock Content Rights",
+  "allTitles": [
+   "Software Engineer, Peacock Content Rights",
+   "Quantitative Software Engineer, Equities",
+   "Biopolymer Research Extern",
+   "Research Fellow",
+   "Teaching Assistant",
+   "Data Engineer, Service Analytics",
+   "Consultant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer, Peacock Content Rights",
+    "locationName": "Los Angeles, CA • 30 Rockefeller Plaza, New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Org: O&T, On-Air Systems Development\nTeam: Content Engineering\n\nGlobal Content Rights Metadata Service for Peacock, Linear TV, and Distribution\n\nOwnership:\n• CLM Software\n• Rights API\n• Data Export Service\n• Shared Core Library\n• Kinesis Data Stream Infrastructure\n• Database Schema and Migrations\n\nDeveloped and maintained high-performance, read-optimized REST APIs using FastAPI to expose complex rights and contracts data from AWS RDS cluster, enabling scalable data access for internal applications and downstream services.\n\nDesigned a scalable CDC-driven async pipeline using AWS Database Migration Service (DMS), AWS Kinesis, and AWS Lambda to stream, enrich, and index relational data from RDS into OpenSearch, enabling low-latency, full-text search and offloading read-heavy queries from the primary database cluster. AWS OpenSearch Ingestion (OSI), which abstracts this design into a managed zETL service, is a solution that performs a similar sync process at scale.\n\nBuilt a fault-tolerant, event driven distributed system using AWS Lambda and AWS SQS with DLQ and a data re-drive policy to extract and transform transactional data from AWS RDS cluster into denormalized star schema tables for reporting.\n\nNote: Briefly explored the Quant Engineering space in 2026 Q2 before boomeranging; retained original start date and tenur",
+    "insights": "Skills: FastAPI · AWS Kinesis · Python Programming Language · AWS Lambda · Datadog · Serverless Framework · AngularJS · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/1828/",
+     "name": "NBCUniversal",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g"
+     }
+    },
+    "position": "Software Engineer, Peacock Content Rights",
+    "companyName": "NBCUniversal",
+    "location": "Los Angeles, CA • 30 Rockefeller Plaza, New York, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1828/",
+    "companyId": "1828",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Guardian Life",
+     "url": "https://www.linkedin.com/company/164085/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs",
+    "positions": [
+     {
+      "title": "Software Engineer II, Direct-To-Consumer",
+      "locationName": "10 Hudson Yards, New York, NY · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2025
+       }
+      },
+      "totalDuration": "1 yr",
+      "description": "Org: DTC, formerly Guardian Direct\nTeam: Group Retail Engineering\n\nShip production software for customers of our Retail DTC Product Offerings:\n\n🦷 Dental\n👁️ Vision\n🩼 Accident\n\nCoordinated with Legal, Product, and Engineering to implement Cross-Sell marketing features using Typescript, GraphQL, and Contentful CMS, enhancing our product offerings in the Customer Buying Process and Member Portal which increased national product sales by 7%\n\nBuilt service-oriented data infrastructure using Temporal, Grafana, Nest.js, Next.js, LaunchDarkly, and MLflow for real-time stream processing of digital leads to analyze prospect conversion metrics, directly driving revenue for a $19.5M YoY business using AdTech\n\nDeveloped and owned a Release Management CI/CD Service using a Jenkins cluster, Groovy, Python, FastAPI, and GitOps to create configurable deployments that only include QA tested pieces of code. Consumed by several Engineering teams @ Guardian for one-click app releases, saving hundreds of prod-rollback hours.\n\nIdeated and built a Dental Plan Comparison component in React.js for the 2024 Q4 launch of a new product. Utilized React Refs and Context to build a hover and scroll feature using the Pub/Sub architecture pattern, garnering an increase of +15% in enrollment which was tracked using Twilio Segment and Google Analytics / GTM for comprehensive telemetry.\n\nIntegrated Cybersource (Visa) authorized payments, LaunchDarkly feature flags, and delivered an end-to-end enrollment flow with ShadCN UI components for Retail Broker Portal, a greenfield application that is planned to launch in Q2 2025",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer, Rating & Quoting Engine",
+      "locationName": "New York, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "Org: Group Underwriting\nTeam: Pre-Sales Core Platform\n\n• Worked on the primary in-house Actuarial Rating and Quoting Engine used daily by internal analysts\n• Participated in all ceremonies involved with SDLC & Agile: PR code reviews, design meetings, CI/CD, stand-up sessions, and release schedule on-call triaging\n• Contributed to application modernization efforts by migrating on-premises proposal data to AWS S3\n• Built a multi-threaded job in production to handle batch processing of ~1M+ PII client records\n• Refactored service components to reflect Paid FMLA policy changes in Oregon & Colorado for 2023 Q4\n• Used Mockito for functional tests to ensure proper performance of business critical API endpoints\n• Transformed complex, legacy model objects into their Spring Boot 3.x version equivalent\n• Ideated and built a new UI for an Underwriting Admin portal with React.js + .NET Core",
+      "insights": ""
+     }
+    ],
+    "companyName": "Guardian Life",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164085/",
+    "companyId": "164085",
+    "duration": "2 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Quantitative Software Engineer, Equities",
+    "locationName": "1307 Point Street, Baltimore, MD · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Org: Front Office Investments Technology\nTeam: TRPIM Quant Engineering\n\nModel serving infra, distributed state machines, and integrations with data products (Bloomberg / FactSet); providing a platform which results in daily pre-market trade signals for a multi-billion dollar Active ETF (Ticker: TCAF, ~$7.1B AUM circa '26 Q2) led by David Giroux.\n\nLed the design of a metadata-driven DAG with AWS Step Functions to orchestrate 3rd party market data ingestion; used PostgreSQL to persist priority configuration, enabling deterministic job execution to accelerate workflow changes by ~5x without requiring application deployments.\n\nRefactored and modernized a Python-based service by introducing modular architecture, automated Pytest coverage for critical data-validation workflows, and Makefile-driven developer tooling, reducing regression defects by ~40% and improving developer onboarding and contribution velocity.",
+    "insights": "Skills: AWS Step Functions · Data Infrastructure · AWS Lambda · Python Programming Language · Quant Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/157329/",
+     "name": "T. Rowe Price",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4"
+     }
+    },
+    "position": "Quantitative Software Engineer, Equities",
+    "companyName": "T. Rowe Price",
+    "location": "1307 Point Street, Baltimore, MD · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157329/",
+    "companyId": "157329",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Biopolymer Research Extern",
+    "locationName": "Florham Park, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Personal Care Science\nTeam: Research & Development\n\n• Conducted research on new bioactive algae-based species suitable for cosmetic innovation\n• Performed a market landscape analysis of potential partners in the biopolymer and bioactive space\n• Presented project deliverables to the program director and company members while highlighting cosmetic efficacy\n• Visited the North American BASF HQ site in Florham Park, New Jersey to highlight our findings via a presentation to stakeholders and R&D leadership",
+    "company": {
+     "url": "https://www.linkedin.com/company/2633/",
+     "name": "BASF",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA"
+     }
+    },
+    "position": "Biopolymer Research Extern",
+    "companyName": "BASF",
+    "location": "Florham Park, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2633/",
+    "companyId": "2633",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2022
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Fellow",
+    "locationName": "Washington, DC · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Org: Office of Congresswoman Lisa Campbell\nTeam: Campaign Analytics\n\n• Supported Rep. Campbell to a 2022 Midterm Election victory — first woman to be elected in the district\n• Provided data driven solutions and consult directly with campaign teams to complete impactful research/projects\n• Conducted weekly stand up meetings to discuss project timelines\n• Built visualizations from sensitive political data and create insights with Google Looker Studio to maximize campaign impact\n• Developed a data pipeline from VAN using python (Parsons library) to convert raw campaign data into a map of locations from voter information for analysis",
+    "insights": "Skills: Python Programming Language · Pandas",
+    "company": {
+     "url": "https://www.linkedin.com/company/18981951/",
+     "name": "Bluebonnet Data",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA"
+     }
+    },
+    "position": "Research Fellow",
+    "companyName": "Bluebonnet Data",
+    "location": "Washington, DC · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18981951/",
+    "companyId": "18981951",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "• Lead and taught recitation sections for 40+ undergraduate students enrolled in 01:198:111 Fall 2021 (Introduction to Computer Science)\n• Developed engaging and supplemental coursework to extend concepts learned in lecture for students\n• Communicated with Dr. Lars Sorensen, Ph.D. through bi-monthly meetings in order to relay concepts and material effectively",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    },
+    "position": "Teaching Assistant",
+    "companyName": "Rutgers University Department of Computer Science",
+    "location": "New Brunswick, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98345160/",
+    "companyId": "98345160",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Engineer, Service Analytics",
+    "locationName": "Jacksonville, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Global Operations & Strategy\nTeam: Service Analytics\n\n• Developed custom solutions from Drift Chatbot API using ETL process standards, handling data from both North American and United Kingdom servers\n• Integrated Python script cloud automation using Task Scheduler and AWS t2.large EC2 instance\n• Built email notification system via Outlook Groups and Python using corporate SMTP server to send automated, HTML-embedded emails on failure of cloud-based scripts\n• Transformed monthly reports that were done manually into an automated, daily procedure; Increased efficiency by 22%\n• Contributed to Talent Acquisition research on Dun & Bradstreet - Dublin, Ireland Campus with fellow interns by creating a presentation for the People Team/HR managers\n• The intern class was given the opportunity to meet with many C-Suite Executives at the company through Fireside Chats including the CEO, Anthony Jabbour",
+    "insights": "Skills: Python Programming Language · Cloud Automation · Microsoft Power BI · Jupyter Notebook · Extract, Transform, Load (ETL) · SQL · Amazon EC2 · Amazon Redshift",
+    "company": {
+     "url": "https://www.linkedin.com/company/2385/",
+     "name": "Dun & Bradstreet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo"
+     }
+    },
+    "position": "Data Engineer, Service Analytics",
+    "companyName": "Dun & Bradstreet",
+    "location": "Jacksonville, FL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2385/",
+    "companyId": "2385",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Consultant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "• Cooperated with staff members to learn various skills and troubleshooting techniques to maintain/administer Campus Computing Labs and Campus Help Desk Services\n• Utilized and became familiar with ServiceNow Ticketing Software to handle technology requests from patrons\n• Applied customer service skills to assist patrons in any technical or situational issue",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    },
+    "position": "Consultant",
+    "companyName": "Rutgers University Department of Computer Science",
+    "location": "New Brunswick, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98345160/",
+    "companyId": "98345160",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1828",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1828/",
+    "companyName": "NBCUniversal",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "164085",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164085/",
+    "companyName": "Guardian Life",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer, Peacock Content Rights",
+    "locationName": "Los Angeles, CA • 30 Rockefeller Plaza, New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Org: O&T, On-Air Systems Development\nTeam: Content Engineering\n\nGlobal Content Rights Metadata Service for Peacock, Linear TV, and Distribution\n\nOwnership:\n• CLM Software\n• Rights API\n• Data Export Service\n• Shared Core Library\n• Kinesis Data Stream Infrastructure\n• Database Schema and Migrations\n\nDeveloped and maintained high-performance, read-optimized REST APIs using FastAPI to expose complex rights and contracts data from AWS RDS cluster, enabling scalable data access for internal applications and downstream services.\n\nDesigned a scalable CDC-driven async pipeline using AWS Database Migration Service (DMS), AWS Kinesis, and AWS Lambda to stream, enrich, and index relational data from RDS into OpenSearch, enabling low-latency, full-text search and offloading read-heavy queries from the primary database cluster. AWS OpenSearch Ingestion (OSI), which abstracts this design into a managed zETL service, is a solution that performs a similar sync process at scale.\n\nBuilt a fault-tolerant, event driven distributed system using AWS Lambda and AWS SQS with DLQ and a data re-drive policy to extract and transform transactional data from AWS RDS cluster into denormalized star schema tables for reporting.\n\nNote: Briefly explored the Quant Engineering space in 2026 Q2 before boomeranging; retained original start date and tenur",
+    "insights": "Skills: FastAPI · AWS Kinesis · Python Programming Language · AWS Lambda · Datadog · Serverless Framework · AngularJS · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/1828/",
+     "name": "NBCUniversal",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g"
+     }
+    },
+    "position": "Software Engineer, Peacock Content Rights",
+    "companyName": "NBCUniversal",
+    "location": "Los Angeles, CA • 30 Rockefeller Plaza, New York, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1828/",
+    "companyId": "1828",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_400_400/B4EZq9EoPBKoAY-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=Os17U97lAt5M2VYZwlM77aV2AyXCZG0GC03-9sGJb2s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_200_200/B4EZq9EoPBKoAI-/0/1764108698871/nbcuniversal_inc__logo?e=1796860800&v=beta&t=WCPGE5kxYnwnA2qG4RKqFiIsGrdrW5-il6giMkLj75g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHIwjfYY3sIoQ/company-logo_100_100/B4EZq9EoPBKoAQ-/0/1764108698870/nbcuniversal_inc__logo?e=1796860800&v=beta&t=hSWbjlAdBRkanVsjXRuua3s6t33FyUXty8WGupRiOxw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Quantitative Software Engineer, Equities",
+    "locationName": "1307 Point Street, Baltimore, MD · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Org: Front Office Investments Technology\nTeam: TRPIM Quant Engineering\n\nModel serving infra, distributed state machines, and integrations with data products (Bloomberg / FactSet); providing a platform which results in daily pre-market trade signals for a multi-billion dollar Active ETF (Ticker: TCAF, ~$7.1B AUM circa '26 Q2) led by David Giroux.\n\nLed the design of a metadata-driven DAG with AWS Step Functions to orchestrate 3rd party market data ingestion; used PostgreSQL to persist priority configuration, enabling deterministic job execution to accelerate workflow changes by ~5x without requiring application deployments.\n\nRefactored and modernized a Python-based service by introducing modular architecture, automated Pytest coverage for critical data-validation workflows, and Makefile-driven developer tooling, reducing regression defects by ~40% and improving developer onboarding and contribution velocity.",
+    "insights": "Skills: AWS Step Functions · Data Infrastructure · AWS Lambda · Python Programming Language · Quant Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/157329/",
+     "name": "T. Rowe Price",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4"
+     }
+    },
+    "position": "Quantitative Software Engineer, Equities",
+    "companyName": "T. Rowe Price",
+    "location": "1307 Point Street, Baltimore, MD · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157329/",
+    "companyId": "157329",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2026
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_400_400/company-logo_400_400/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=JtiBf2txlRXMtOLaHPmiQDIdgghhBiijO3m0Txzqvj4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_200_200/company-logo_200_200/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=mh4ZTBMFAwmXjWXXdKRDVUOoNxTHLOOVZzxBKKdfSd8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQERPKgvBdQ6-g/company-logo_100_100/company-logo_100_100/0/1700060135023/t__rowe_price_logo?e=1796860800&v=beta&t=zQJnpRQMDc8xO71n093srPhj6YD8eG1N1KPyDtNyzFY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Guardian Life",
+     "url": "https://www.linkedin.com/company/164085/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "2 yrs",
+    "positions": [
+     {
+      "title": "Software Engineer II, Direct-To-Consumer",
+      "locationName": "10 Hudson Yards, New York, NY · Hybrid",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2024
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2025
+       }
+      },
+      "totalDuration": "1 yr",
+      "description": "Org: DTC, formerly Guardian Direct\nTeam: Group Retail Engineering\n\nShip production software for customers of our Retail DTC Product Offerings:\n\n🦷 Dental\n👁️ Vision\n🩼 Accident\n\nCoordinated with Legal, Product, and Engineering to implement Cross-Sell marketing features using Typescript, GraphQL, and Contentful CMS, enhancing our product offerings in the Customer Buying Process and Member Portal which increased national product sales by 7%\n\nBuilt service-oriented data infrastructure using Temporal, Grafana, Nest.js, Next.js, LaunchDarkly, and MLflow for real-time stream processing of digital leads to analyze prospect conversion metrics, directly driving revenue for a $19.5M YoY business using AdTech\n\nDeveloped and owned a Release Management CI/CD Service using a Jenkins cluster, Groovy, Python, FastAPI, and GitOps to create configurable deployments that only include QA tested pieces of code. Consumed by several Engineering teams @ Guardian for one-click app releases, saving hundreds of prod-rollback hours.\n\nIdeated and built a Dental Plan Comparison component in React.js for the 2024 Q4 launch of a new product. Utilized React Refs and Context to build a hover and scroll feature using the Pub/Sub architecture pattern, garnering an increase of +15% in enrollment which was tracked using Twilio Segment and Google Analytics / GTM for comprehensive telemetry.\n\nIntegrated Cybersource (Visa) authorized payments, LaunchDarkly feature flags, and delivered an end-to-end enrollment flow with ShadCN UI components for Retail Broker Portal, a greenfield application that is planned to launch in Q2 2025",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer, Rating & Quoting Engine",
+      "locationName": "New York, NY",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "Org: Group Underwriting\nTeam: Pre-Sales Core Platform\n\n• Worked on the primary in-house Actuarial Rating and Quoting Engine used daily by internal analysts\n• Participated in all ceremonies involved with SDLC & Agile: PR code reviews, design meetings, CI/CD, stand-up sessions, and release schedule on-call triaging\n• Contributed to application modernization efforts by migrating on-premises proposal data to AWS S3\n• Built a multi-threaded job in production to handle batch processing of ~1M+ PII client records\n• Refactored service components to reflect Paid FMLA policy changes in Oregon & Colorado for 2023 Q4\n• Used Mockito for functional tests to ensure proper performance of business critical API endpoints\n• Transformed complex, legacy model objects into their Spring Boot 3.x version equivalent\n• Ideated and built a new UI for an Underwriting Admin portal with React.js + .NET Core",
+      "insights": ""
+     }
+    ],
+    "companyName": "Guardian Life",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164085/",
+    "companyId": "164085",
+    "duration": "2 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_400_400/company-logo_400_400/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=k95OS_6YimWYh1Xz6rNjc1Gi_GsdAVasTKGU7EnalFY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_200_200/company-logo_200_200/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=qDy8XNULwD4nY_fYY1nI6naBfvrC8hqA3zVoNs2Aooo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGRVFQqCAy1wg/company-logo_100_100/company-logo_100_100/0/1630562775358/the_guardian_life_insurance_company_of_america_164085_logo?e=1796860800&v=beta&t=AY8zdBqA6Yi40J30p-F2nnfq37mk4YZ8GaoYvOwRnrI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Biopolymer Research Extern",
+    "locationName": "Florham Park, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Personal Care Science\nTeam: Research & Development\n\n• Conducted research on new bioactive algae-based species suitable for cosmetic innovation\n• Performed a market landscape analysis of potential partners in the biopolymer and bioactive space\n• Presented project deliverables to the program director and company members while highlighting cosmetic efficacy\n• Visited the North American BASF HQ site in Florham Park, New Jersey to highlight our findings via a presentation to stakeholders and R&D leadership",
+    "company": {
+     "url": "https://www.linkedin.com/company/2633/",
+     "name": "BASF",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA"
+     }
+    },
+    "position": "Biopolymer Research Extern",
+    "companyName": "BASF",
+    "location": "Florham Park, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2633/",
+    "companyId": "2633",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2022
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_400_400/B4EZ8czz8IHoAU-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=d2izriswIFOnrf4Mk5OaArkrtv1oI3YxygP4cJ5krTg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_200_200/B4EZ8czz8IHoAE-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=AaWjRE3AU5rWLxdQTgKeki4de2pUDpMSTq1fHV66PSI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVFpL5cLoZUg/company-logo_100_100/B4EZ8czz8IHoAI-/0/1782894772228/basf_logo?e=1796860800&v=beta&t=3TaNTwWivsgWdiiVtns1kyw8Snaip3F1qxFbXFVMaKA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Fellow",
+    "locationName": "Washington, DC · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Org: Office of Congresswoman Lisa Campbell\nTeam: Campaign Analytics\n\n• Supported Rep. Campbell to a 2022 Midterm Election victory — first woman to be elected in the district\n• Provided data driven solutions and consult directly with campaign teams to complete impactful research/projects\n• Conducted weekly stand up meetings to discuss project timelines\n• Built visualizations from sensitive political data and create insights with Google Looker Studio to maximize campaign impact\n• Developed a data pipeline from VAN using python (Parsons library) to convert raw campaign data into a map of locations from voter information for analysis",
+    "insights": "Skills: Python Programming Language · Pandas",
+    "company": {
+     "url": "https://www.linkedin.com/company/18981951/",
+     "name": "Bluebonnet Data",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA"
+     }
+    },
+    "position": "Research Fellow",
+    "companyName": "Bluebonnet Data",
+    "location": "Washington, DC · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18981951/",
+    "companyId": "18981951",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_400_400/company-logo_400_400/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=S-AHKdqjuG-sxA-c5Fhrl5V3WhyPQWi13cEE1asZBUA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_200_200/company-logo_200_200/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=6BAfFfcju1pisQoRfKahkArbLtOGYTLvML51WaGkWTc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFKyBQCw97UBg/company-logo_100_100/company-logo_100_100/0/1667836763352/bluebonnet_data_logo?e=1796860800&v=beta&t=bG8QGYq3Ay521vQvVXNFvsKfDa-RqwZML3WhLOAY8YY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Teaching Assistant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "• Lead and taught recitation sections for 40+ undergraduate students enrolled in 01:198:111 Fall 2021 (Introduction to Computer Science)\n• Developed engaging and supplemental coursework to extend concepts learned in lecture for students\n• Communicated with Dr. Lars Sorensen, Ph.D. through bi-monthly meetings in order to relay concepts and material effectively",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    },
+    "position": "Teaching Assistant",
+    "companyName": "Rutgers University Department of Computer Science",
+    "location": "New Brunswick, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98345160/",
+    "companyId": "98345160",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Engineer, Service Analytics",
+    "locationName": "Jacksonville, FL",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Org: Global Operations & Strategy\nTeam: Service Analytics\n\n• Developed custom solutions from Drift Chatbot API using ETL process standards, handling data from both North American and United Kingdom servers\n• Integrated Python script cloud automation using Task Scheduler and AWS t2.large EC2 instance\n• Built email notification system via Outlook Groups and Python using corporate SMTP server to send automated, HTML-embedded emails on failure of cloud-based scripts\n• Transformed monthly reports that were done manually into an automated, daily procedure; Increased efficiency by 22%\n• Contributed to Talent Acquisition research on Dun & Bradstreet - Dublin, Ireland Campus with fellow interns by creating a presentation for the People Team/HR managers\n• The intern class was given the opportunity to meet with many C-Suite Executives at the company through Fireside Chats including the CEO, Anthony Jabbour",
+    "insights": "Skills: Python Programming Language · Cloud Automation · Microsoft Power BI · Jupyter Notebook · Extract, Transform, Load (ETL) · SQL · Amazon EC2 · Amazon Redshift",
+    "company": {
+     "url": "https://www.linkedin.com/company/2385/",
+     "name": "Dun & Bradstreet",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo"
+     }
+    },
+    "position": "Data Engineer, Service Analytics",
+    "companyName": "Dun & Bradstreet",
+    "location": "Jacksonville, FL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2385/",
+    "companyId": "2385",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_400_400/company-logo_400_400/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b5RLnS34mQCAFqGkwjX9pKoFDEBPeYsmkMlNKQ5BUEo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_200_200/company-logo_200_200/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=pQiw4wVl9V95Dqz53d6_n9O1FqOCbiT48WI6gmBL574",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlVerw9jUZmg/company-logo_100_100/company-logo_100_100/0/1688672958148/dun__bradstreet_logo?e=1796860800&v=beta&t=b9oatNaoknZGCQYHxM_RCJwZ01URp3urvOL9E_IPz5Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Consultant",
+    "locationName": "New Brunswick, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "• Cooperated with staff members to learn various skills and troubleshooting techniques to maintain/administer Campus Computing Labs and Campus Help Desk Services\n• Utilized and became familiar with ServiceNow Ticketing Software to handle technology requests from patrons\n• Applied customer service skills to assist patrons in any technical or situational issue",
+    "company": {
+     "url": "https://www.linkedin.com/company/98345160/",
+     "name": "Rutgers University Department of Computer Science",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs"
+     }
+    },
+    "position": "Consultant",
+    "companyName": "Rutgers University Department of Computer Science",
+    "location": "New Brunswick, NJ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/98345160/",
+    "companyId": "98345160",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_400_400/company-logo_400_400/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=rjHEwdvZ_isQvrz6EGbUMo6WG4X71GxotBWTzVBnjIs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_200_200/company-logo_200_200/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=o9gwV1KUkeqmuav6hJTauynvPXOyeWDUuOIudxadgbc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEErutNybctPQ/company-logo_100_100/company-logo_100_100/0/1721757351278/rutgers_university_department_of_computer_science_logo?e=1796860800&v=beta&t=sE-fez2qE7zb-ForCMdij15rjfFNqwWr_kKStWH_HDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolName": "Rutgers University–New Brunswick",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolId": "22295811",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2022
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolName": "Rutgers University–New Brunswick",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer & Information Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolId": "22295811",
+    "degree": "Master's degree",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_400_400/company-logo_400_400/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=j3ySjTzbsg4Y1EiIhfEep5WgfvOg0I7hSmGUwZ-9IKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_200_200/company-logo_200_200/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=IWTkZwJu5p_lCW8n77NoGDdyb3yIFhQKFxs8w6-mbxU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEBRTKlTDdhRw/company-logo_100_100/company-logo_100_100/0/1695149141823/rutgersnb_logo?e=1796860800&v=beta&t=T_L3bK3fibw_jgsZkx9-8gJw5HbLHVKutZOGVFPyr5M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolName": "Rutgers University–New Brunswick",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/22295811/",
+    "schoolId": "22295811",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2022
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Dean's List",
+    "issueDate": {}
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Software Engineer",
+    "companyName": "The Linux Foundation",
+    "description": "I wrote code in Go to deliver a feature for their open-source software.",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2024
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/208777/",
+     "name": "The Linux Foundation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_200_200/company-logo_200_200/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=PjUdgnuup-BuAWEnP2Y1JEbEUbZhMQKkv1HAhfCyvPc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_100_100/company-logo_100_100/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=rLkOlNWdbUMl44ag8hOkgimkqceZwD7zBJ3VOwmZjY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_400_400/company-logo_400_400/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=YsAwWY3q0NCGiXu3OJxEi-zZQuXf54lYQq1SRQvl3t0"
+     }
+    },
+    "organization": "The Linux Foundation"
+   },
+   {
+    "role": "Software Engineer, Full Stack",
+    "companyName": "Internet Archive",
+    "description": "• Open source community member of openlibrary.org [Spring 2024 Cohort]",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "https://www.linkedin.com/company/20541/",
+     "name": "Internet Archive",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_200_200/company-logo_200_200/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=BGxmldAwavE9ex6lhcBG8UlzfnKABTlzlPZhE6FFY4w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_100_100/company-logo_100_100/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=8H0z_en7N67d2b36m760BnLpbTyEdgsm0RjUZvDsoAk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_400_400/company-logo_400_400/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=5dPYYOoIbTgpYoO7jyDP1EQ4Mj4XIm0UAQGJuQQrJck"
+     }
+    },
+    "organization": "Internet Archive"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Software Engineer",
+    "companyName": "The Linux Foundation",
+    "description": "I wrote code in Go to deliver a feature for their open-source software.",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2024
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/208777/",
+     "name": "The Linux Foundation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_200_200/company-logo_200_200/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=PjUdgnuup-BuAWEnP2Y1JEbEUbZhMQKkv1HAhfCyvPc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_100_100/company-logo_100_100/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=rLkOlNWdbUMl44ag8hOkgimkqceZwD7zBJ3VOwmZjY8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEXYSSWEvEL9g/company-logo_400_400/company-logo_400_400/0/1657565842240/the_linux_foundation_logo?e=1796860800&v=beta&t=YsAwWY3q0NCGiXu3OJxEi-zZQuXf54lYQq1SRQvl3t0"
+     }
+    }
+   },
+   {
+    "role": "Software Engineer, Full Stack",
+    "companyName": "Internet Archive",
+    "description": "• Open source community member of openlibrary.org [Spring 2024 Cohort]",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "https://www.linkedin.com/company/20541/",
+     "name": "Internet Archive",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_200_200/company-logo_200_200/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=BGxmldAwavE9ex6lhcBG8UlzfnKABTlzlPZhE6FFY4w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_100_100/company-logo_100_100/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=8H0z_en7N67d2b36m760BnLpbTyEdgsm0RjUZvDsoAk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEdG3jSPgPFw/company-logo_400_400/company-logo_400_400/0/1738788481068/internet_archive_logo?e=1796860800&v=beta&t=5dPYYOoIbTgpYoO7jyDP1EQ4Mj4XIm0UAQGJuQQrJck"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_200_200/B4EZ1kuNIkGkAY-/0/1775511328522?e=1796860800&v=beta&t=huP4g2CUaJThw4rzamjgW0Og2f0xH1o0LHqlOpy3WNY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_400_400/B4EZ1kuNIkGkAg-/0/1775511328522?e=1796860800&v=beta&t=2cCFrQJlR_WfU1__mOCeOIP7v3MmQbpSGXjRHHL4cT4",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_100_100/B4EZ1kuNIkGkAc-/0/1775511328522?e=1796860800&v=beta&t=7eu9_EvuEsyZOlBR7UU86AMAmCUkdbP94SnRGWZhC_s",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_400_400/B4EZ1kuNIkGkAg-/0/1775511328522?e=1796860800&v=beta&t=2cCFrQJlR_WfU1__mOCeOIP7v3MmQbpSGXjRHHL4cT4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_200_200/B4EZ1kuNIkGkAY-/0/1775511328522?e=1796860800&v=beta&t=huP4g2CUaJThw4rzamjgW0Og2f0xH1o0LHqlOpy3WNY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_100_100/B4EZ1kuNIkGkAc-/0/1775511328522?e=1796860800&v=beta&t=7eu9_EvuEsyZOlBR7UU86AMAmCUkdbP94SnRGWZhC_s",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_200_200/B4EZ1kuNIkGkAY-/0/1775511328522?e=1796860800&v=beta&t=huP4g2CUaJThw4rzamjgW0Og2f0xH1o0LHqlOpy3WNY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_400_400/B4EZ1kuNIkGkAg-/0/1775511328522?e=1796860800&v=beta&t=2cCFrQJlR_WfU1__mOCeOIP7v3MmQbpSGXjRHHL4cT4",
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_100_100/B4EZ1kuNIkGkAc-/0/1775511328522?e=1796860800&v=beta&t=7eu9_EvuEsyZOlBR7UU86AMAmCUkdbP94SnRGWZhC_s",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-crop_800_800/B4EZ1kuNIkGkAI-/0/1775511328435?e=1796860800&v=beta&t=hfjNgHpBvP2W31EzTVgm7FafE2xGxXJLBE_uG2bn17g",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_400_400/B4EZ1kuNIkGkAg-/0/1775511328522?e=1796860800&v=beta&t=2cCFrQJlR_WfU1__mOCeOIP7v3MmQbpSGXjRHHL4cT4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_200_200/B4EZ1kuNIkGkAY-/0/1775511328522?e=1796860800&v=beta&t=huP4g2CUaJThw4rzamjgW0Og2f0xH1o0LHqlOpy3WNY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQH1mzW5INElFw/profile-displayphoto-scale_100_100/B4EZ1kuNIkGkAc-/0/1775511328522?e=1796860800&v=beta&t=7eu9_EvuEsyZOlBR7UU86AMAmCUkdbP94SnRGWZhC_s",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_200_800/B4EZ1gq17aG8AU-/0/1775443337248?e=1796860800&v=beta&t=SYrEsu-W_6EU6fW4SXlsDIPuSBtkTqnezU5_nba6cGY",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_350_1400/B4EZ1gq17aG8AY-/0/1775443337248?e=1796860800&v=beta&t=YABs8OpWfqEAYTySYlQymhnGIRLSxRXokD7iKlCOAn4",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_350_1400/B4EZ1gq17aG8AY-/0/1775443337248?e=1796860800&v=beta&t=YABs8OpWfqEAYTySYlQymhnGIRLSxRXokD7iKlCOAn4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_350_1400/B4EZ1gq17aG8AY-/0/1775443337248?e=1796860800&v=beta&t=YABs8OpWfqEAYTySYlQymhnGIRLSxRXokD7iKlCOAn4",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQFO3aMoccgpRw/profile-displaybackgroundimage-shrink_200_800/B4EZ1gq17aG8AU-/0/1775443337248?e=1796860800&v=beta&t=SYrEsu-W_6EU6fW4SXlsDIPuSBtkTqnezU5_nba6cGY",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/uday3patel"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T21:23:29.870Z",
+ "foundBy": null
+}

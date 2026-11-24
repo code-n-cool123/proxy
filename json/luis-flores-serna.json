@@ -1,0 +1,1328 @@
+{
+ "slug": "luis-flores-serna",
+ "inputUrl": "https://www.linkedin.com/in/luis-flores-serna",
+ "fetchedAt": "2026-11-09T17:44:37.778Z",
+ "id": "6af20685af440f0df0ab7911",
+ "url": "https://www.linkedin.com/in/luis-flores-serna",
+ "profile": {
+  "created": 1379538864700,
+  "trackingId": "bM6W2k+7Q/meW6YXxxTdag==",
+  "firstName": "Luis",
+  "lastName": "Flores",
+  "pronoun": null,
+  "versionTag": "2066192528",
+  "headline": "Senior Software Engineer in Test / SDET · AI Quality Engineer | Agentic & Multi-Agent Systems Testing, LLM Evals, Guardrails | Quality Platform · MCP · AI Observability",
+  "publicIdentifier": "luis-flores-serna",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "288921404",
+  "profileId": "ACoAABE4lzwBbIdlTETZBzUa6hIsjVx8I8B_g0o",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_350_1400/B4EaCnl7NwHAAU-/0/1789518132349?e=1795651200&v=beta&t=DBjHA6vjqkfCNqzVJOcqgEvewDJUFFfSBtamSSk--lA",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_200_800/B4EaCnl7NwHAAQ-/0/1789518132349?e=1795651200&v=beta&t=CkYSSbMxmoms4sMbqQo23EwSbJI20WEdyAt-XLuXAYE"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000052",
+  "geoLocationName": "Atlanta Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "I build the quality platform that ships software, and the AI agents that test it.\n\nI architected my current employer's first multi-agent system on Claude (Anthropic) Managed Agents: a coordinator handles agent orchestration across four least-privilege specialist agents that plan test coverage, write Playwright E2E specs, run them against the pull request's live review app, security-review the diff, and open a draft PR - unattended, from GitHub trigger to review. Its sibling system diagnoses and repairs flaky and failing end-to-end tests straight from CI. Engineers on other product teams adopted both within a month.\n\nMaking that safe was most of the work. I own the Python/FastAPI control plane on Kubernetes that brokers every agent action: signed GitHub webhooks, exactly-once run claiming, and one authorization checkpoint that refuses any write not backed by a passing test run and a clean security verdict - so the agents never hold write credentials. I authored the threat model reviewed by Security, layered deny-by-default egress, moved execution of agent-written code into ephemeral Kubernetes Jobs that hold no credentials, and added spend caps, kill switches, LLM evals for these non-deterministic systems, and Datadog dashboards on per-agent cost, coverage gaps, and stalled runs. Every agent prompt and skill ships as version-pinned config in Git, so behavior changes by pull request and code review, never by console click.\n\nUnderneath that is 12+ years as an SDET (Software Engineer in Test) building test automation for SaaS and fintech. I built the Playwright/TypeScript E2E framework across 10+ application modules, migrated CI/CD from GitLab CI to GitHub Actions with parallel test sharding (60%+ faster suites; ~95 required smoke tests blocking every PR across 5 shards), and built Datadog-powered flaky-test intelligence that auto-quarantines and reports weekly to Slack, cutting false failures ~30%. Before that I built Cypress, Selenium, and Cucumber frameworks at MAXEX and led a 20-person QA team at Hexaware.\n\nWhat I work with: TypeScript, Python, Ruby, Playwright, Cypress, RSpec, GitHub Actions, Kubernetes, Helm, AWS, Datadog observability, Claude API and Managed Agents, MCP (Model Context Protocol), agentic AI, prompt engineering, LLM evals, guardrails.\n\nOpen to Senior/Staff Software Developer Engineer (Test), Lead/Manager Engineer in Test, Quality Platform, and AI agent infrastructure roles - remote US or Atlanta. Best way to reach me: luis.flores.serna@gmail.com",
+  "positions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/2334910/",
+     "name": "Ontra",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU"
+     }
+    },
+    "locationName": "United States · Remote",
+    "totalDuration": "3 yrs 5 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer (Quality) / SDET, Platform Quality Engineering",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "I build and operate Ontra's autonomous multi-agent QA platform - AI agents that plan, write, run, and security-review tests on every pull request. Adopted by other product teams within a month.\n\n- Architected Ontra's first multi-agent system on Claude (Anthropic) Managed Agents: a coordinator drives four least-privilege agents that plan coverage, write Playwright tests, run them, security-review the diff, and open a draft PR.\n- Built the Python/FastAPI control plane on Kubernetes that brokers every agent action: signed GitHub webhooks, exactly-once run claiming, and a checkpoint that blocks any write without a passing test run.\n- Owned the security architecture: authored the threat model reviewed by Security (12 threats, every pre-launch High closed) and put deny-by-default egress around the agents, their web tools, and the Kubernetes namespace.\n- Moved agent-written test code into ephemeral Kubernetes Jobs holding no GitHub, Anthropic, or secrets-manager credentials, so untrusted generated code runs sandboxed and credential-free.\n- Cut a full pipeline run from 66 to 49 minutes and per-run cost by about a quarter via per-phase instrumentation, prompt caching, and an eval-gated A/B on model effort.\n- Added per-run spend caps, kill switches, and Datadog alerts on per-agent cost, coverage gaps, and stalled runs; every prompt and skill is version-pinned in Git, so behavior changes by pull request.\n- Published seven reusable Claude Code skills (QA planning, test authoring, test review, CI-failure repair) and MCP integrations for Playwright, Jira, and Notion; engineers author new tests in about half the time.\n- Led the three-engineer platform workstream with Infrastructure and Security, including the build-vs-buy call across Managed Agents, self-hosted, and AWS Bedrock AgentCore, plus the operator runbooks.",
+      "insights": "AI Agents, Kubernetes and +3 skills"
+     },
+     {
+      "title": "Test Automation Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Built Ontra's end-to-end test automation platform and the CI/CD pipeline that runs it as a blocking gate on every pull request.\n\n- Designed and built the Playwright/TypeScript E2E framework using Page Object Model and functional patterns, covering 10+ application modules.\n- Migrated CI from GitLab CI to GitHub Actions with parallel test sharding, cutting suite execution time by over 60%, and made ~95 required smoke tests a blocking PR check across 5 shards.\n- Built Datadog-powered flaky-test detection that auto-quarantines flaky tests and reports them weekly in Slack, cutting false failures ~30%, with GitHub Pages dashboards and S3-hosted Playwright reports for release quality metrics.\n- Created a tag-based test organization system (smoke, regression, flaky, team-specific) across 8+ product team domains, unified test fixtures, and added API-based test data teardown to cut maintenance overhead.\n- Shipped Ruby on Rails services for inbound email processing and document origination, Postman API conformance tests for SCIM provisioning, and React/Ember.js fixes to make the app more testable.",
+      "insights": "Playwright, TypeScript and +3 skills"
+     }
+    ]
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/15081079/",
+     "name": "MAXEX",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA"
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "Senior Software Developer In Test",
+      "locationName": "Atlanta Metropolitan Area · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2023
+       }
+      },
+      "totalDuration": "3 yrs 4 mos",
+      "description": "- Built automation frameworks from the ground up for functional, regression, API, and end-to-end testing using Cypress, Selenium, Cucumber, and SoapUI in TypeScript, Ruby, and Java.\n- Integrated automated testing into CI/CD pipelines with AWS services, GitHub Actions, and Jenkins, moving releases from monthly to bi-weekly.\n- Served as test-strategy SME across product teams and drove Cypress and modern CI/CD adoption org-wide, cutting production defects over 40%; mentored QA engineers and raised automated coverage of core flows from 45% to 80%.",
+      "insights": "Selenium, Cypress and +3 skills"
+     },
+     {
+      "title": "Senior QA Automation Engineer",
+      "locationName": "Atlanta, Georgia",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "",
+      "insights": "Selenium, Cypress and +3 skills"
+     }
+    ]
+   },
+   {
+    "title": "Software Quality Assurance Engineer",
+    "locationName": "McLean, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "- Led an offsite team of 20 QA professionals delivering unit, integration, API, and end-to-end testing in an Agile environment.\n- Built Selenium/Java/Cucumber UI automation and ETL/SQL data-validation suites.",
+    "insights": "Java, Selenium and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/164182/",
+     "name": "Hexaware Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Quality Systems and Productivity",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2013
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Scrum Master Accredited Certification",
+    "authority": "International Scrum Institute™ (Scrum Institute)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "International Scrum Institute™ (Scrum Institute)",
+    "title": "Scrum Master Accredited Certification",
+    "issuedBy": "International Scrum Institute™ (Scrum Institute)",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Green Belt Six Sigma",
+    "authority": "Arizona State University",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Arizona State University",
+    "title": "Green Belt Six Sigma",
+    "issuedBy": "Arizona State University",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Borrego de Oro",
+    "description": "Best  student athlete in  2013 class.",
+    "issueDate": {},
+    "issuer": "Dec 2013"
+   },
+   {
+    "title": "Green Belt Six Sigma Certification",
+    "description": "",
+    "issueDate": {},
+    "issuer": "Issued by Arizona St University · Dec 2013"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Children",
+   "Economic Empowerment",
+   "Human Rights"
+  ],
+  "companyName": "Ontra",
+  "companyPublicId": "ontra-ai",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/ontra-ai/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2334910",
+   "name": "Ontra",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQFnHBXmsCCDMQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_"
+    }
+   },
+   "universalName": "ontra-ai",
+   "url": "https://www.linkedin.com/company/ontra-ai/",
+   "slug": "ontra-ai",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+   "specialties": []
+  },
+  "followerCount": 1416,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1415,
+  "skills": [
+   {
+    "name": "Test Automation",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Playwright",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Observability",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Guardrails",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Function Calling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LLM Evaluation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agent Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Threat Modeling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Strategy",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "RSpec",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Playwright",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Threat Modeling",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Multi-agent Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Strategy",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "RSpec",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Planning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Defect Tracking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cross-functional Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Functional Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation Frameworks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Review",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Regression Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "End-to-end Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Datadog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Helm (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS CodePipeline",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Selenium",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SoapUI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JIRA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Postman API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Observability",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cucumber",
+    "endorsements": 0,
+    "experiences": 2
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/luis-flores-serna",
+  "linkedinUrl": "https://www.linkedin.com/in/luis-flores-serna",
+  "profileUrl": "https://www.linkedin.com/in/luis-flores-serna",
+  "verified": true,
+  "registeredAt": "2013-09-18T21:14:24.700Z",
+  "location": {
+   "linkedinText": "Atlanta Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Atlanta Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build the quality platform that ships software, and the AI agents that test it.\n\nI architected my current employer's first multi-agent system on Claude (Anthropic) Managed Agents: a coordinator handles agent orchestration across four least-privilege specialist agents that plan test coverage, write Playwright E2E specs, run them against the pull request's live review app, security-review the diff, and open a draft PR - unattended, from GitHub trigger to review. Its sibling system diagnoses and repairs flaky and failing end-to-end tests straight from CI. Engineers on other product teams adopted both within a month.\n\nMaking that safe was most of the work. I own the Python/FastAPI control plane on Kubernetes that brokers every agent action: signed GitHub webhooks, exactly-once run claiming, and one authorization checkpoint that refuses any write not backed by a passing test run and a clean security verdict - so the agents never hold write credentials. I authored the threat model reviewed by Security, layered deny-by-default egress, moved execution of agent-written code into ephemeral Kubernetes Jobs that hold no credentials, and added spend caps, kill switches, LLM evals for these non-deterministic systems, and Datadog dashboards on per-agent cost, coverage gaps, and stalled runs. Every agent prompt and skill ships as version-pinned config in Git, so behavior changes by pull request and code review, never by console click.\n\nUnderneath that is 12+ years as an SDET (Software Engineer in Test) building test automation for SaaS and fintech. I built the Playwright/TypeScript E2E framework across 10+ application modules, migrated CI/CD from GitLab CI to GitHub Actions with parallel test sharding (60%+ faster suites; ~95 required smoke tests blocking every PR across 5 shards), and built Datadog-powered flaky-test intelligence that auto-quarantines and reports weekly to Slack, cutting false failures ~30%. Before that I built Cypress, Selenium, and Cucumber frameworks at MAXEX and led a 20-person QA team at Hexaware.\n\nWhat I work with: TypeScript, Python, Ruby, Playwright, Cypress, RSpec, GitHub Actions, Kubernetes, Helm, AWS, Datadog observability, Claude API and Managed Agents, MCP (Model Context Protocol), agentic AI, prompt engineering, LLM evals, guardrails.\n\nOpen to Senior/Staff Software Developer Engineer (Test), Lead/Manager Engineer in Test, Quality Platform, and AI agent infrastructure roles - remote US or Atlanta. Best way to reach me: luis.flores.serna@gmail.com",
+  "allTitles": [
+   "Software Quality Assurance Engineer"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/2334910/",
+     "name": "Ontra",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU"
+     }
+    },
+    "locationName": "United States · Remote",
+    "totalDuration": "3 yrs 5 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer (Quality) / SDET, Platform Quality Engineering",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "I build and operate Ontra's autonomous multi-agent QA platform - AI agents that plan, write, run, and security-review tests on every pull request. Adopted by other product teams within a month.\n\n- Architected Ontra's first multi-agent system on Claude (Anthropic) Managed Agents: a coordinator drives four least-privilege agents that plan coverage, write Playwright tests, run them, security-review the diff, and open a draft PR.\n- Built the Python/FastAPI control plane on Kubernetes that brokers every agent action: signed GitHub webhooks, exactly-once run claiming, and a checkpoint that blocks any write without a passing test run.\n- Owned the security architecture: authored the threat model reviewed by Security (12 threats, every pre-launch High closed) and put deny-by-default egress around the agents, their web tools, and the Kubernetes namespace.\n- Moved agent-written test code into ephemeral Kubernetes Jobs holding no GitHub, Anthropic, or secrets-manager credentials, so untrusted generated code runs sandboxed and credential-free.\n- Cut a full pipeline run from 66 to 49 minutes and per-run cost by about a quarter via per-phase instrumentation, prompt caching, and an eval-gated A/B on model effort.\n- Added per-run spend caps, kill switches, and Datadog alerts on per-agent cost, coverage gaps, and stalled runs; every prompt and skill is version-pinned in Git, so behavior changes by pull request.\n- Published seven reusable Claude Code skills (QA planning, test authoring, test review, CI-failure repair) and MCP integrations for Playwright, Jira, and Notion; engineers author new tests in about half the time.\n- Led the three-engineer platform workstream with Infrastructure and Security, including the build-vs-buy call across Managed Agents, self-hosted, and AWS Bedrock AgentCore, plus the operator runbooks.",
+      "insights": "AI Agents, Kubernetes and +3 skills"
+     },
+     {
+      "title": "Test Automation Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Built Ontra's end-to-end test automation platform and the CI/CD pipeline that runs it as a blocking gate on every pull request.\n\n- Designed and built the Playwright/TypeScript E2E framework using Page Object Model and functional patterns, covering 10+ application modules.\n- Migrated CI from GitLab CI to GitHub Actions with parallel test sharding, cutting suite execution time by over 60%, and made ~95 required smoke tests a blocking PR check across 5 shards.\n- Built Datadog-powered flaky-test detection that auto-quarantines flaky tests and reports them weekly in Slack, cutting false failures ~30%, with GitHub Pages dashboards and S3-hosted Playwright reports for release quality metrics.\n- Created a tag-based test organization system (smoke, regression, flaky, team-specific) across 8+ product team domains, unified test fixtures, and added API-based test data teardown to cut maintenance overhead.\n- Shipped Ruby on Rails services for inbound email processing and document origination, Postman API conformance tests for SCIM provisioning, and React/Ember.js fixes to make the app more testable.",
+      "insights": "Playwright, TypeScript and +3 skills"
+     }
+    ],
+    "companyName": "Ontra",
+    "location": "United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2334910/",
+    "companyId": "2334910",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/15081079/",
+     "name": "MAXEX",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA"
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Senior Software Developer In Test",
+      "locationName": "Atlanta Metropolitan Area · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2023
+       }
+      },
+      "totalDuration": "3 yrs 4 mos",
+      "description": "- Built automation frameworks from the ground up for functional, regression, API, and end-to-end testing using Cypress, Selenium, Cucumber, and SoapUI in TypeScript, Ruby, and Java.\n- Integrated automated testing into CI/CD pipelines with AWS services, GitHub Actions, and Jenkins, moving releases from monthly to bi-weekly.\n- Served as test-strategy SME across product teams and drove Cypress and modern CI/CD adoption org-wide, cutting production defects over 40%; mentored QA engineers and raised automated coverage of core flows from 45% to 80%.",
+      "insights": "Selenium, Cypress and +3 skills"
+     },
+     {
+      "title": "Senior QA Automation Engineer",
+      "locationName": "Atlanta, Georgia",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "",
+      "insights": "Selenium, Cypress and +3 skills"
+     }
+    ],
+    "companyName": "MAXEX",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15081079/",
+    "companyId": "15081079",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Quality Assurance Engineer",
+    "locationName": "McLean, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "- Led an offsite team of 20 QA professionals delivering unit, integration, API, and end-to-end testing in an Agile environment.\n- Built Selenium/Java/Cucumber UI automation and ETL/SQL data-validation suites.",
+    "insights": "Java, Selenium and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/164182/",
+     "name": "Hexaware Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU"
+     }
+    },
+    "position": "Software Quality Assurance Engineer",
+    "companyName": "Hexaware Technologies",
+    "location": "McLean, VA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164182/",
+    "companyId": "164182",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2334910",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2334910/",
+    "companyName": "Ontra",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "15081079",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15081079/",
+    "companyName": "MAXEX",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/2334910/",
+     "name": "Ontra",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU"
+     }
+    },
+    "locationName": "United States · Remote",
+    "totalDuration": "3 yrs 5 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer (Quality) / SDET, Platform Quality Engineering",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2025
+       },
+       "endDate": null
+      },
+      "totalDuration": "1 yr 11 mos",
+      "description": "I build and operate Ontra's autonomous multi-agent QA platform - AI agents that plan, write, run, and security-review tests on every pull request. Adopted by other product teams within a month.\n\n- Architected Ontra's first multi-agent system on Claude (Anthropic) Managed Agents: a coordinator drives four least-privilege agents that plan coverage, write Playwright tests, run them, security-review the diff, and open a draft PR.\n- Built the Python/FastAPI control plane on Kubernetes that brokers every agent action: signed GitHub webhooks, exactly-once run claiming, and a checkpoint that blocks any write without a passing test run.\n- Owned the security architecture: authored the threat model reviewed by Security (12 threats, every pre-launch High closed) and put deny-by-default egress around the agents, their web tools, and the Kubernetes namespace.\n- Moved agent-written test code into ephemeral Kubernetes Jobs holding no GitHub, Anthropic, or secrets-manager credentials, so untrusted generated code runs sandboxed and credential-free.\n- Cut a full pipeline run from 66 to 49 minutes and per-run cost by about a quarter via per-phase instrumentation, prompt caching, and an eval-gated A/B on model effort.\n- Added per-run spend caps, kill switches, and Datadog alerts on per-agent cost, coverage gaps, and stalled runs; every prompt and skill is version-pinned in Git, so behavior changes by pull request.\n- Published seven reusable Claude Code skills (QA planning, test authoring, test review, CI-failure repair) and MCP integrations for Playwright, Jira, and Notion; engineers author new tests in about half the time.\n- Led the three-engineer platform workstream with Infrastructure and Security, including the build-vs-buy call across Managed Agents, self-hosted, and AWS Bedrock AgentCore, plus the operator runbooks.",
+      "insights": "AI Agents, Kubernetes and +3 skills"
+     },
+     {
+      "title": "Test Automation Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 12,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Built Ontra's end-to-end test automation platform and the CI/CD pipeline that runs it as a blocking gate on every pull request.\n\n- Designed and built the Playwright/TypeScript E2E framework using Page Object Model and functional patterns, covering 10+ application modules.\n- Migrated CI from GitLab CI to GitHub Actions with parallel test sharding, cutting suite execution time by over 60%, and made ~95 required smoke tests a blocking PR check across 5 shards.\n- Built Datadog-powered flaky-test detection that auto-quarantines flaky tests and reports them weekly in Slack, cutting false failures ~30%, with GitHub Pages dashboards and S3-hosted Playwright reports for release quality metrics.\n- Created a tag-based test organization system (smoke, regression, flaky, team-specific) across 8+ product team domains, unified test fixtures, and added API-based test data teardown to cut maintenance overhead.\n- Shipped Ruby on Rails services for inbound email processing and document origination, Postman API conformance tests for SCIM provisioning, and React/Ember.js fixes to make the app more testable.",
+      "insights": "Playwright, TypeScript and +3 skills"
+     }
+    ],
+    "companyName": "Ontra",
+    "location": "United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2334910/",
+    "companyId": "2334910",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_400_400/company-logo_400_400/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=CNNXXNYgFmW1Ero86nHUHdfJ1ZMlfq-Rz-jIh2nPLQU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_200_200/company-logo_200_200/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=Ay8cNibyDwJ3axpazwaxU2Hf6PE1t3nyzPZzJM8gJVc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFnHBXmsCCDMQ/company-logo_100_100/company-logo_100_100/0/1675809092106/ontra_ai_logo?e=1795651200&v=beta&t=w1QkUO7xQ0j73yt1fdSnXlJjqk91WcFInTSsKaPkXHE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/15081079/",
+     "name": "MAXEX",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA"
+     }
+    },
+    "totalDuration": "5 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Senior Software Developer In Test",
+      "locationName": "Atlanta Metropolitan Area · Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2023
+       }
+      },
+      "totalDuration": "3 yrs 4 mos",
+      "description": "- Built automation frameworks from the ground up for functional, regression, API, and end-to-end testing using Cypress, Selenium, Cucumber, and SoapUI in TypeScript, Ruby, and Java.\n- Integrated automated testing into CI/CD pipelines with AWS services, GitHub Actions, and Jenkins, moving releases from monthly to bi-weekly.\n- Served as test-strategy SME across product teams and drove Cypress and modern CI/CD adoption org-wide, cutting production defects over 40%; mentored QA engineers and raised automated coverage of core flows from 45% to 80%.",
+      "insights": "Selenium, Cypress and +3 skills"
+     },
+     {
+      "title": "Senior QA Automation Engineer",
+      "locationName": "Atlanta, Georgia",
+      "timePeriod": {
+       "startDate": {
+        "month": 3,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "",
+      "insights": "Selenium, Cypress and +3 skills"
+     }
+    ],
+    "companyName": "MAXEX",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15081079/",
+    "companyId": "15081079",
+    "duration": "5 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_400_400-alternative/company-logo_400_400-alternative/0/1630520994141/maxex_llc_logo?e=1795651200&v=beta&t=EyxK_zAhrCvrfIBHMvxzDLaTV39DOOopSqkkRSkXVnA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_200_200-alternative/company-logo_200_200-alternative/0/1630520994142/maxex_llc_logo?e=1795651200&v=beta&t=71ds8Z2QWKPbfLAjNBzbSc7huH-aqMMxhFAUkr2ed8E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEiCNaYrolNpQ/company-logo_100_100/company-logo_100_100/0/1630520994131/maxex_llc_logo?e=1795651200&v=beta&t=97_z_E5DZJNANdQnuD8DjTYUFAdqQ5OUvMAptDB5Y0c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Quality Assurance Engineer",
+    "locationName": "McLean, VA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "- Led an offsite team of 20 QA professionals delivering unit, integration, API, and end-to-end testing in an Agile environment.\n- Built Selenium/Java/Cucumber UI automation and ETL/SQL data-validation suites.",
+    "insights": "Java, Selenium and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/164182/",
+     "name": "Hexaware Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU"
+     }
+    },
+    "position": "Software Quality Assurance Engineer",
+    "companyName": "Hexaware Technologies",
+    "location": "McLean, VA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/164182/",
+    "companyId": "164182",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_400_400/company-logo_400_400/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=hgjvQTZLPdsRpsyKd5KrHWB9zrC8fxJmXeEzdcRCpCU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_200_200/company-logo_200_200/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=vn2_U9P-HkH9V7wbGOK8tIhveVeGJHolwkLoGDQx-AY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQGVuPcKyowdig/company-logo_100_100/company-logo_100_100/0/1719899292683/hexaware_technologies_logo?e=1795651200&v=beta&t=aH_0TWT_o0EtGxPOm6uldvT2PDOKV-n91RcjpEkSW4M",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Quality Systems and Productivity",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5669/",
+    "schoolId": "5669",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2013
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5669/",
+    "schoolId": "5669",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2013
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_400_400/B4EaGcvWqbG0AY-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=vCPhsOaVVNtZJFy0CvZ5K5DFO3RCVzlv_Flsr2Vrr84",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_200_200/B4EaGcvWqbG0AI-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=4KV6UoAzN1XMllbOTai-ssh8oyfj71op5swo7uMhDys",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFp7Pep3mgAGg/company-logo_100_100/B4EaGcvWqbG0AM-/0/1793631022108/tecdemonterrey_logo?e=1795651200&v=beta&t=6iMErc638h5mQLztGis4krdvGOb3uKf-PeFmHWi4vvY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5669/",
+    "schoolName": "Tecnológico de Monterrey",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Quality Systems and Productivity",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5669/",
+    "schoolId": "5669",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Borrego de Oro",
+    "description": "Best  student athlete in  2013 class.",
+    "issueDate": {},
+    "issuer": "Dec 2013"
+   },
+   {
+    "title": "Green Belt Six Sigma Certification",
+    "issueDate": {},
+    "issuer": "Issued by Arizona St University · Dec 2013"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_350_1400/B4EaCnl7NwHAAU-/0/1789518132349?e=1795651200&v=beta&t=DBjHA6vjqkfCNqzVJOcqgEvewDJUFFfSBtamSSk--lA",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_200_800/B4EaCnl7NwHAAQ-/0/1789518132349?e=1795651200&v=beta&t=CkYSSbMxmoms4sMbqQo23EwSbJI20WEdyAt-XLuXAYE",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_350_1400/B4EaCnl7NwHAAU-/0/1789518132349?e=1795651200&v=beta&t=DBjHA6vjqkfCNqzVJOcqgEvewDJUFFfSBtamSSk--lA",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_350_1400/B4EaCnl7NwHAAU-/0/1789518132349?e=1795651200&v=beta&t=DBjHA6vjqkfCNqzVJOcqgEvewDJUFFfSBtamSSk--lA",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHRZRxED_tPPw/profile-displaybackgroundimage-shrink_200_800/B4EaCnl7NwHAAQ-/0/1789518132349?e=1795651200&v=beta&t=CkYSSbMxmoms4sMbqQo23EwSbJI20WEdyAt-XLuXAYE",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/luis-flores-serna"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T17:44:27.933Z",
+ "foundBy": null
+}

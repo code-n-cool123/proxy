@@ -1,0 +1,1348 @@
+{
+ "slug": "jay-lee-489b11",
+ "inputUrl": "https://www.linkedin.com/in/jay-lee-489b11",
+ "fetchedAt": "2026-10-31T02:10:34.534Z",
+ "id": "6ae54e1a4f8d6cb6ddd5ac9b",
+ "url": "https://www.linkedin.com/in/jay-lee-489b11",
+ "profile": {
+  "created": 1117104779000,
+  "trackingId": "9SqsPXRFQrynX/9bTsOL/w==",
+  "firstName": "Jay",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "1295374886",
+  "headline": "Software Engineer at Microsoft",
+  "publicIdentifier": "jay-lee-489b11",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "2760297",
+  "profileId": "ACoAAAAqHmkB3L5ZUoGvuFh3uYzHg-oDAdMXS2c",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+   "103x103": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+   "103x103": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104116203",
+  "geoLocationName": "Seattle, Washington, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Sr SDE",
+  "summary": "C#.Net,Team Foundation System 2010, Visual Studio 2010 SP1 ultimate/Visual Studio Test Professional 2010, PowerShell, WPF, Java,C/C++,MS SQL 2012, Microsoft Dynamic, Office 365, Rascal Mini Debugging tool, Product Studio, BulkLoad 4.0(SQLXML),ASP.Net, ADO.net, VB,VBA, Javascript/VBScript,Perl,.Net 4.0 or lower vesrion,NUnit, MySQL,WSE(Web Service Enhancement),JSP,CGI,TCP/IP, SOAP,COM/DCOM,UML,XML,HTML/DHTML,CSS,Window Server(2008 or lower)/client(Vista or lower),Solaris,Linux,VT, ES/900,MAC,IIS,WebLogic,WebSphere,Tomcat,Fujitsu,VMWare,VirtualPC, Ghost Image,Perforce,Visual SourceSafe, Mercury LoadRunner,MS ACT,Visual Test,Rational SQA, Cisco Load Balancer,IBM 3270,AS/400,IMS/CICS,TDD(Test-Driven Development),SCRUM,Agile,Waterfall, Load/Stress/Scalability/Performance/Tuning,CCW(Callable COM Wrapper), Win32 API,Winsock,OWC(Office Web Components),Java Bean/Applet/Swing/JFC,ISAPI,\n\nSpecialties: Microsoft Certified Systems Engineer (MCSE-NT4.0)\nBilingual in Chinese",
+  "positions": [
+   {
+    "title": "Sr SDE",
+    "locationName": "Redmond, WA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr",
+    "description": "·       Focus Areas: Service Architecture | AI Engineering | Auth & Security | CI/CD Pipelines\n• Auth Pipeline Refactoring: Re-architected token validation across 5 microservices and clients (UI, Geneva, Graph) built on Microsoft's Azure AD auth stack (MISE / S2S Token Validation). • S2S Two-Factor Auth: Enforced strict multi-tenant authorization requiring two distinct proof factors per request (Service App Token + mandatory Tenant Token via custom HTTP headers), while validating single-factor credentials (Azure AD bearer tokens, legacy OBO partner PFAT tokens, and custom protocols). • Dynamic Scheme Switching: Engineered policy handlers inspecting request headers to route to correct schemes and enforce server-side authorization gates, preventing single-factor identity bypasses. • AI Agent Orchestration: Integrated Copilot CLI orchestrators (s360-breeze-toolkit with gpt-5.6-sol) into daily workflows across a 250k+ LOC C# repo; automated git PR diff extraction for rapid AI context ingestion and code reviews. • Autonomous AI Workflows: Directed AI agents to execute local MSBuild validation, verify 4,100+ unit/integration tests, and automate git branch management & Azure DevOps PR creation. • MISE v2.x Migration: Upgraded services from MISE 1.x to 2.5.3 for S360 compliance, configuring scheme-scoped options (MiseVersion = \"2.0\") and resolving breaking Authority changes via decompilation. • Observability (OTel & Geneva): Instrumented OpenTelemetry across auth workflows to capture metrics (latency, failures, exceptions) and exported telemetry streams to Geneva for real-time monitoring. • Infrastructure & Cert Auto-Rotation: Configured automated SSL/TLS cert auto-rotation across Azure VMSS and Key Vault via AzSecPack, eliminating certificate-expiration outages. • CI/CD Standardization: Resolved release-blocking pipeline failures in Azure DevOps (MOBR) by fixing artifact creation for cluster/app deployments and standardizing build display names.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1953635/",
+     "name": "WaferWire Cloud Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "One Microsoft Way · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "15 yrs 4 mos",
+    "description": "Core Engineering & System Architecture • Architected end-to-end service architectures using C#, Python, .NET Core, KQL, and SQL, owning complete lifecycles across CI/CD, production monitoring, and system reliability. • Engineered distributed systems and data ingestion pipelines processing tens of terabytes daily across Azure with elastic scalability, low latency, and resilient fault handling. • Coded distributed batch ingestion pipelines (Python, Spark, Azure Synapse Analytics, .NET) powering global workloads and Medallion (Bronze/Silver/Gold) data architectures. • Architected a self-service partner onboarding platform, cutting onboarding time by >50%. • Built parallel-processing frameworks, priority task schedulers for executive dashboards, and automated backfill engines for batch job recovery. • Delivered end-to-end data flows (Azure Blob → Synapse Spark → Cosmos DB / Azure SQL) with proactive alerting and cost-optimized compute utilization.\nTechnical Leadership & CI/CD • Led 18 offshore SDE teams/vendor groups, directing daily deliverables, code reviews, and technical execution across Public, Government, and Sovereign clouds. • Engineered CI/CD pipelines using Azure EV2, standardizing multi-environment rollouts and reducing release cycles from 30 days to 7 days. • Introduced internal telemetry pipelines and automated provisioning for multi-geo cloud services.\nGovernance, Security & Observability • Achieved 100% security compliance across Azure SQL, Cosmos DB, Storage, and Key Vault via refactoring, IaC, and deployment modernization. • Developed observability solutions using Application Insights, Azure Monitor, and KQL schemas, integrating self-help diagnostics and automated incident resolution. • Built secure, privacy-compliant data-export services for Dynamics 365 telemetry delivery.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "·       Led and mentored a team of interns, providing daily technical guidance, assigning tasks, and establishing quality standards for development work.\n·       Architected Kiosk UI features and core Service APIs utilizing XML integration to support multi-threaded enterprise application workflows.\n·       Engineered a scalable, high-throughput automation testing framework (C#, Java, Python) to validate API services, monitor system performance, and conduct longevity testing under peak real-world load.",
+    "company": {
+     "url": "",
+     "name": "MOD Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Software Engineer ",
+    "locationName": "Seattle · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2009
+     }
+    },
+    "totalDuration": "9 yrs 9 mos",
+    "description": "·       Technical Guidance & Mentorship: Directed and mentored junior software engineers, interns, and offshore maintenance development teams across daily assignments, bug fixes, and code reviews to ensure system stability and high-quality deliverables.\n·       Cross-Platform Application Engineering: Designed and developed cross-platform Java applets and client software enabling seamless connectivity between enterprise front-ends and legacy backends (IBM Mainframe 3270 / AS/400 5250) across Windows, Solaris, Unix, and Linux environments.\n·       ISAPI & Middleware Architecture: Built custom IIS ISAPI filter/extension modules to securely manage, route, and load-balance incoming HTTP web requests through IIS to backend Java servlets and host application interfaces.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2771/",
+     "name": "Attachmate Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y"
+     }
+    }
+   },
+   {
+    "title": "Field Automation Consultant",
+    "locationName": "Bellevue, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 4,
+      "year": 1999
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "·       Delivered 30+ client automation engagements for Microsoft and HP. Designed API/UI automation frameworks (C/C++, Java, VB) and load testing suites with Mercury LoadRunner. Built SQL-based tools for traffic simulation, monitoring, and automated regression validation.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3117/",
+     "name": "Lionbridge",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_200_200/B56Z6Q4H2JKMAE-/0/1780547092074?e=1795046400&v=beta&t=Xf3D3K2232taa5l0TsvQrKD8kY8iaU8DtWbME0xkPjo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_100_100/B56Z6Q4H2JKMAI-/0/1780547092074?e=1795046400&v=beta&t=upnVMtxshf2BdaJMgoK9JBdPC1TBCOZbGAlr3NyJxNE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2584/",
+    "schoolName": "University of Washington",
+    "degreeName": "BS",
+    "fieldOfStudy": "Electric Engineering in Computer",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Your phonetic class at lake union",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "EE",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Chinese",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "MarketGemini – AI-Driven Financial Analytics Platform (Independent Project)",
+    "description": "Summary\nDeveloping a personal financial-analytics platform that applies AI concepts to commodity and stock-market data. The project is being built iteratively—starting with gold-price time-series analysis—and serves as both a technical learning initiative and a proof of concept for future AI-based insights, forecasting, and mobile delivery.\n\nCurrently focused on data ingestion, anomaly detection, and visualization, with an architecture designed to expand into multi-service, cloud-hosted AI capabilities.\n\nTechnical Highlights (Current + Planned Exploration)\nBackend Services (initial Python build complete; Go & Java planned)\n     1. Python (FastAPI) for data ingestion, analytics, and RAG-ready APIs\n     2. Go microservice for high-throughput anomaly detection and model inference (planned)    \n     3. Java (Spring Boot) gateway for secure API orchestration and validation (planned)\n\nCloud Infrastructure (architecture in design phase)\n     1. AWS (ECS Fargate, Lambda, S3, CloudFront, DynamoDB, Secrets Manager) (target environment)\n     2. CI/CD via GitHub Actions → AWS CodeBuild / CodeDeploy (to be implemented)\n\nData & AI Processing (active development & research)\n     1. Time-series enrichment (SMA, volatility, drawdowns)\n     2. Unsupervised anomaly detection (robust z-score, change-point)\n     3. Foundation for ML forecasting (Prophet/LSTM) and RAG-based insights (planned)\n\nFrontend / Mobile (MVP in progress)\n     1. SwiftUI iOS app with offline caching and AI insight overlay (prototype)\n     2. Optional React dashboard for admin and metrics views (planned)\n\nSecurity & Testing\n     1. Environment-based secret management (AWS Secrets Manager planned)\n     2. Unit & integration tests (pytest, go test, JUnit) for analytics accuracy and service reliability\n\nRole: Independent Developer / Product Architect\nFocus: Iterative design · AI and data analytics learning · Cross-language backend · Cloud deployment · Mobile visualization",
+    "dateRange": {},
+    "associatedWith": "Aug 2025 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "WaferWire Cloud Technologies",
+  "companyPublicId": "waferwire",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/waferwire/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1953635",
+   "name": "WaferWire Cloud Technologies",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQGvveDeVfS5Yg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_"
+    }
+   },
+   "universalName": "waferwire",
+   "url": "https://www.linkedin.com/company/waferwire/",
+   "slug": "waferwire",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+   "specialties": []
+  },
+  "followerCount": 767,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 758,
+  "skills": [
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prophet",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 29,
+    "experiences": ""
+   },
+   {
+    "name": "Test Planning",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Test Cases",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Selenium",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Quality Assurance",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "VBScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": ".NET",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Prophet",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 29,
+    "experiences": ""
+   },
+   {
+    "name": "Test Planning",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "Test Cases",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Software Quality Assurance",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Test Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TCP/IP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perforce",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Design Patterns",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Selenium",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "VBScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": ".NET",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "TFS",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "IIS",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/jay-lee-489b11",
+  "linkedinUrl": "https://www.linkedin.com/in/jay-lee-489b11",
+  "profileUrl": "https://www.linkedin.com/in/jay-lee-489b11",
+  "verified": true,
+  "registeredAt": "2005-05-26T10:52:59.000Z",
+  "location": {
+   "linkedinText": "Seattle, Washington, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Seattle, Washington, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "C#.Net,Team Foundation System 2010, Visual Studio 2010 SP1 ultimate/Visual Studio Test Professional 2010, PowerShell, WPF, Java,C/C++,MS SQL 2012, Microsoft Dynamic, Office 365, Rascal Mini Debugging tool, Product Studio, BulkLoad 4.0(SQLXML),ASP.Net, ADO.net, VB,VBA, Javascript/VBScript,Perl,.Net 4.0 or lower vesrion,NUnit, MySQL,WSE(Web Service Enhancement),JSP,CGI,TCP/IP, SOAP,COM/DCOM,UML,XML,HTML/DHTML,CSS,Window Server(2008 or lower)/client(Vista or lower),Solaris,Linux,VT, ES/900,MAC,IIS,WebLogic,WebSphere,Tomcat,Fujitsu,VMWare,VirtualPC, Ghost Image,Perforce,Visual SourceSafe, Mercury LoadRunner,MS ACT,Visual Test,Rational SQA, Cisco Load Balancer,IBM 3270,AS/400,IMS/CICS,TDD(Test-Driven Development),SCRUM,Agile,Waterfall, Load/Stress/Scalability/Performance/Tuning,CCW(Callable COM Wrapper), Win32 API,Winsock,OWC(Office Web Components),Java Bean/Applet/Swing/JFC,ISAPI,\n\nSpecialties: Microsoft Certified Systems Engineer (MCSE-NT4.0)\nBilingual in Chinese",
+  "currentTitle": "Sr SDE",
+  "allTitles": [
+   "Sr SDE",
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Senior Software Engineer ",
+   "Field Automation Consultant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Sr SDE",
+    "locationName": "Redmond, WA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr",
+    "description": "·       Focus Areas: Service Architecture | AI Engineering | Auth & Security | CI/CD Pipelines\n• Auth Pipeline Refactoring: Re-architected token validation across 5 microservices and clients (UI, Geneva, Graph) built on Microsoft's Azure AD auth stack (MISE / S2S Token Validation). • S2S Two-Factor Auth: Enforced strict multi-tenant authorization requiring two distinct proof factors per request (Service App Token + mandatory Tenant Token via custom HTTP headers), while validating single-factor credentials (Azure AD bearer tokens, legacy OBO partner PFAT tokens, and custom protocols). • Dynamic Scheme Switching: Engineered policy handlers inspecting request headers to route to correct schemes and enforce server-side authorization gates, preventing single-factor identity bypasses. • AI Agent Orchestration: Integrated Copilot CLI orchestrators (s360-breeze-toolkit with gpt-5.6-sol) into daily workflows across a 250k+ LOC C# repo; automated git PR diff extraction for rapid AI context ingestion and code reviews. • Autonomous AI Workflows: Directed AI agents to execute local MSBuild validation, verify 4,100+ unit/integration tests, and automate git branch management & Azure DevOps PR creation. • MISE v2.x Migration: Upgraded services from MISE 1.x to 2.5.3 for S360 compliance, configuring scheme-scoped options (MiseVersion = \"2.0\") and resolving breaking Authority changes via decompilation. • Observability (OTel & Geneva): Instrumented OpenTelemetry across auth workflows to capture metrics (latency, failures, exceptions) and exported telemetry streams to Geneva for real-time monitoring. • Infrastructure & Cert Auto-Rotation: Configured automated SSL/TLS cert auto-rotation across Azure VMSS and Key Vault via AzSecPack, eliminating certificate-expiration outages. • CI/CD Standardization: Resolved release-blocking pipeline failures in Azure DevOps (MOBR) by fixing artifact creation for cluster/app deployments and standardizing build display names.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1953635/",
+     "name": "WaferWire Cloud Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI"
+     }
+    },
+    "position": "Sr SDE",
+    "companyName": "WaferWire Cloud Technologies",
+    "location": "Redmond, WA · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1953635/",
+    "companyId": "1953635",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "One Microsoft Way · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "15 yrs 4 mos",
+    "description": "Core Engineering & System Architecture • Architected end-to-end service architectures using C#, Python, .NET Core, KQL, and SQL, owning complete lifecycles across CI/CD, production monitoring, and system reliability. • Engineered distributed systems and data ingestion pipelines processing tens of terabytes daily across Azure with elastic scalability, low latency, and resilient fault handling. • Coded distributed batch ingestion pipelines (Python, Spark, Azure Synapse Analytics, .NET) powering global workloads and Medallion (Bronze/Silver/Gold) data architectures. • Architected a self-service partner onboarding platform, cutting onboarding time by >50%. • Built parallel-processing frameworks, priority task schedulers for executive dashboards, and automated backfill engines for batch job recovery. • Delivered end-to-end data flows (Azure Blob → Synapse Spark → Cosmos DB / Azure SQL) with proactive alerting and cost-optimized compute utilization.\nTechnical Leadership & CI/CD • Led 18 offshore SDE teams/vendor groups, directing daily deliverables, code reviews, and technical execution across Public, Government, and Sovereign clouds. • Engineered CI/CD pipelines using Azure EV2, standardizing multi-environment rollouts and reducing release cycles from 30 days to 7 days. • Introduced internal telemetry pipelines and automated provisioning for multi-geo cloud services.\nGovernance, Security & Observability • Achieved 100% security compliance across Azure SQL, Cosmos DB, Storage, and Key Vault via refactoring, IaC, and deployment modernization. • Developed observability solutions using Application Insights, Azure Monitor, and KQL schemas, integrating self-help diagnostics and automated incident resolution. • Built secure, privacy-compliant data-export services for Dynamics 365 telemetry delivery.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Microsoft",
+    "location": "One Microsoft Way · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1035/",
+    "companyId": "1035",
+    "duration": "15 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "·       Led and mentored a team of interns, providing daily technical guidance, assigning tasks, and establishing quality standards for development work.\n·       Architected Kiosk UI features and core Service APIs utilizing XML integration to support multi-threaded enterprise application workflows.\n·       Engineered a scalable, high-throughput automation testing framework (C#, Java, Python) to validate API services, monitor system performance, and conduct longevity testing under peak real-world load.",
+    "company": {
+     "url": "",
+     "name": "MOD Systems",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "MOD Systems",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2010
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer ",
+    "locationName": "Seattle · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2009
+     }
+    },
+    "totalDuration": "9 yrs 9 mos",
+    "description": "·       Technical Guidance & Mentorship: Directed and mentored junior software engineers, interns, and offshore maintenance development teams across daily assignments, bug fixes, and code reviews to ensure system stability and high-quality deliverables.\n·       Cross-Platform Application Engineering: Designed and developed cross-platform Java applets and client software enabling seamless connectivity between enterprise front-ends and legacy backends (IBM Mainframe 3270 / AS/400 5250) across Windows, Solaris, Unix, and Linux environments.\n·       ISAPI & Middleware Architecture: Built custom IIS ISAPI filter/extension modules to securely manage, route, and load-balance incoming HTTP web requests through IIS to backend Java servlets and host application interfaces.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2771/",
+     "name": "Attachmate Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y"
+     }
+    },
+    "position": "Senior Software Engineer ",
+    "companyName": "Attachmate Corp",
+    "location": "Seattle · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2771/",
+    "companyId": "2771",
+    "duration": "9 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Field Automation Consultant",
+    "locationName": "Bellevue, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 4,
+      "year": 1999
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "·       Delivered 30+ client automation engagements for Microsoft and HP. Designed API/UI automation frameworks (C/C++, Java, VB) and load testing suites with Mercury LoadRunner. Built SQL-based tools for traffic simulation, monitoring, and automated regression validation.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3117/",
+     "name": "Lionbridge",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw"
+     }
+    },
+    "position": "Field Automation Consultant",
+    "companyName": "Lionbridge",
+    "location": "Bellevue, WA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3117/",
+    "companyId": "3117",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 1998
+    },
+    "endDate": {
+     "month": 4,
+     "year": 1999
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1953635",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1953635/",
+    "companyName": "WaferWire Cloud Technologies",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Sr SDE",
+    "locationName": "Redmond, WA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr",
+    "description": "·       Focus Areas: Service Architecture | AI Engineering | Auth & Security | CI/CD Pipelines\n• Auth Pipeline Refactoring: Re-architected token validation across 5 microservices and clients (UI, Geneva, Graph) built on Microsoft's Azure AD auth stack (MISE / S2S Token Validation). • S2S Two-Factor Auth: Enforced strict multi-tenant authorization requiring two distinct proof factors per request (Service App Token + mandatory Tenant Token via custom HTTP headers), while validating single-factor credentials (Azure AD bearer tokens, legacy OBO partner PFAT tokens, and custom protocols). • Dynamic Scheme Switching: Engineered policy handlers inspecting request headers to route to correct schemes and enforce server-side authorization gates, preventing single-factor identity bypasses. • AI Agent Orchestration: Integrated Copilot CLI orchestrators (s360-breeze-toolkit with gpt-5.6-sol) into daily workflows across a 250k+ LOC C# repo; automated git PR diff extraction for rapid AI context ingestion and code reviews. • Autonomous AI Workflows: Directed AI agents to execute local MSBuild validation, verify 4,100+ unit/integration tests, and automate git branch management & Azure DevOps PR creation. • MISE v2.x Migration: Upgraded services from MISE 1.x to 2.5.3 for S360 compliance, configuring scheme-scoped options (MiseVersion = \"2.0\") and resolving breaking Authority changes via decompilation. • Observability (OTel & Geneva): Instrumented OpenTelemetry across auth workflows to capture metrics (latency, failures, exceptions) and exported telemetry streams to Geneva for real-time monitoring. • Infrastructure & Cert Auto-Rotation: Configured automated SSL/TLS cert auto-rotation across Azure VMSS and Key Vault via AzSecPack, eliminating certificate-expiration outages. • CI/CD Standardization: Resolved release-blocking pipeline failures in Azure DevOps (MOBR) by fixing artifact creation for cluster/app deployments and standardizing build display names.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1953635/",
+     "name": "WaferWire Cloud Technologies",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI"
+     }
+    },
+    "position": "Sr SDE",
+    "companyName": "WaferWire Cloud Technologies",
+    "location": "Redmond, WA · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1953635/",
+    "companyId": "1953635",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_400_400/B56ZuPrF.nG0AY-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=AYJvsIz6OqC92IesH7mzu5Atonk4Ruhz9yn9B2c-f68",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_200_200/B56ZuPrF.nG0AI-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=qJLb8YuNlS13gwg8SfvcA9pIySFWlt3X9cOrFWE5gBI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGvveDeVfS5Yg/company-logo_100_100/B56ZuPrF.nG0AQ-/0/1767641997462/waferwire_logo?e=1795046400&v=beta&t=sg_vSp8ZQxxHMVnADGeGAOrctzHxUuSHs2-v3FUiyL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "One Microsoft Way · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2025
+     }
+    },
+    "totalDuration": "15 yrs 4 mos",
+    "description": "Core Engineering & System Architecture • Architected end-to-end service architectures using C#, Python, .NET Core, KQL, and SQL, owning complete lifecycles across CI/CD, production monitoring, and system reliability. • Engineered distributed systems and data ingestion pipelines processing tens of terabytes daily across Azure with elastic scalability, low latency, and resilient fault handling. • Coded distributed batch ingestion pipelines (Python, Spark, Azure Synapse Analytics, .NET) powering global workloads and Medallion (Bronze/Silver/Gold) data architectures. • Architected a self-service partner onboarding platform, cutting onboarding time by >50%. • Built parallel-processing frameworks, priority task schedulers for executive dashboards, and automated backfill engines for batch job recovery. • Delivered end-to-end data flows (Azure Blob → Synapse Spark → Cosmos DB / Azure SQL) with proactive alerting and cost-optimized compute utilization.\nTechnical Leadership & CI/CD • Led 18 offshore SDE teams/vendor groups, directing daily deliverables, code reviews, and technical execution across Public, Government, and Sovereign clouds. • Engineered CI/CD pipelines using Azure EV2, standardizing multi-environment rollouts and reducing release cycles from 30 days to 7 days. • Introduced internal telemetry pipelines and automated provisioning for multi-geo cloud services.\nGovernance, Security & Observability • Achieved 100% security compliance across Azure SQL, Cosmos DB, Storage, and Key Vault via refactoring, IaC, and deployment modernization. • Developed observability solutions using Application Insights, Azure Monitor, and KQL schemas, integrating self-help diagnostics and automated incident resolution. • Built secure, privacy-compliant data-export services for Dynamics 365 telemetry delivery.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Microsoft",
+    "location": "One Microsoft Way · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1035/",
+    "companyId": "1035",
+    "duration": "15 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=PF-VM3736hLjlyfPrh1IO6a9gyDDkiLQI3eeOrLUhKo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=mav8w8jEt3NPEiEnF11Co9CCakpcbMACvbtmIN3aTtM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795046400&v=beta&t=EkeE8XR_tWGgUCopY0YJVlmwoBty0rQx_Nlmts-fzbg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2010
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "·       Led and mentored a team of interns, providing daily technical guidance, assigning tasks, and establishing quality standards for development work.\n·       Architected Kiosk UI features and core Service APIs utilizing XML integration to support multi-threaded enterprise application workflows.\n·       Engineered a scalable, high-throughput automation testing framework (C#, Java, Python) to validate API services, monitor system performance, and conduct longevity testing under peak real-world load.",
+    "company": {
+     "url": "",
+     "name": "MOD Systems",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "MOD Systems",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2010
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer ",
+    "locationName": "Seattle · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2009
+     }
+    },
+    "totalDuration": "9 yrs 9 mos",
+    "description": "·       Technical Guidance & Mentorship: Directed and mentored junior software engineers, interns, and offshore maintenance development teams across daily assignments, bug fixes, and code reviews to ensure system stability and high-quality deliverables.\n·       Cross-Platform Application Engineering: Designed and developed cross-platform Java applets and client software enabling seamless connectivity between enterprise front-ends and legacy backends (IBM Mainframe 3270 / AS/400 5250) across Windows, Solaris, Unix, and Linux environments.\n·       ISAPI & Middleware Architecture: Built custom IIS ISAPI filter/extension modules to securely manage, route, and load-balance incoming HTTP web requests through IIS to backend Java servlets and host application interfaces.",
+    "company": {
+     "url": "https://www.linkedin.com/company/2771/",
+     "name": "Attachmate Corp",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y"
+     }
+    },
+    "position": "Senior Software Engineer ",
+    "companyName": "Attachmate Corp",
+    "location": "Seattle · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2771/",
+    "companyId": "2771",
+    "duration": "9 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_400_400/company-logo_400_400/0/1631301111565?e=1795046400&v=beta&t=h9ANQuWRt6FkTfNKCdhuHiC6TiDzqGdlQ6ifvXdl56Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_200_200/company-logo_200_200/0/1631301111565?e=1795046400&v=beta&t=hA2sVgTO5fifrHzHAdGlaNEwIUdUoGekMCVD22V-g68",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEabHifXtk4aA/company-logo_100_100/company-logo_100_100/0/1631301111565?e=1795046400&v=beta&t=iLN-lV3ggBgLBpeZX1cXazHYWw45PvX0-cHEay7oLhU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Field Automation Consultant",
+    "locationName": "Bellevue, WA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 1998
+     },
+     "endDate": {
+      "month": 4,
+      "year": 1999
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "·       Delivered 30+ client automation engagements for Microsoft and HP. Designed API/UI automation frameworks (C/C++, Java, VB) and load testing suites with Mercury LoadRunner. Built SQL-based tools for traffic simulation, monitoring, and automated regression validation.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3117/",
+     "name": "Lionbridge",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw"
+     }
+    },
+    "position": "Field Automation Consultant",
+    "companyName": "Lionbridge",
+    "location": "Bellevue, WA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3117/",
+    "companyId": "3117",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 1998
+    },
+    "endDate": {
+     "month": 4,
+     "year": 1999
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_400_400/B4EZfoIyF6GwAY-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=wutlcn2gA2QFStyFFc_E_SzRzOhlfPLE8g2ZzZsP2r4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_200_200/B4EZfoIyF6GwAI-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=tFgYUOv8DwVqKW1Hg5JlgXu6Xr-B5f9I-Urr1VXck_E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFrLdh37iH9jA/company-logo_100_100/B4EZfoIyF6GwAQ-/0/1751946306236/lionbridge_logo?e=1795046400&v=beta&t=byAr9m9fAFxHlmWdHxViaPu4Hv9tM4XqGtH3qrHwchw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_200_200/B56Z6Q4H2JKMAE-/0/1780547092074?e=1795046400&v=beta&t=Xf3D3K2232taa5l0TsvQrKD8kY8iaU8DtWbME0xkPjo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_100_100/B56Z6Q4H2JKMAI-/0/1780547092074?e=1795046400&v=beta&t=upnVMtxshf2BdaJMgoK9JBdPC1TBCOZbGAlr3NyJxNE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_200_200/B56Z6Q4H2JKMAE-/0/1780547092074?e=1795046400&v=beta&t=Xf3D3K2232taa5l0TsvQrKD8kY8iaU8DtWbME0xkPjo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_100_100/B56Z6Q4H2JKMAI-/0/1780547092074?e=1795046400&v=beta&t=upnVMtxshf2BdaJMgoK9JBdPC1TBCOZbGAlr3NyJxNE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2584/",
+    "schoolName": "University of Washington",
+    "degreeName": "BS",
+    "fieldOfStudy": "Electric Engineering in Computer",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2584/",
+    "schoolId": "2584",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 1995
+    },
+    "endDate": {
+     "year": 1997
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Your phonetic class at lake union",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "EE",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "degree": "Bachelor of Science (BS)",
+    "skills": [],
+    "startDate": {
+     "year": 1995
+    },
+    "endDate": {
+     "year": 1997
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_200_200/B56Z6Q4H2JKMAE-/0/1780547092074?e=1795046400&v=beta&t=Xf3D3K2232taa5l0TsvQrKD8kY8iaU8DtWbME0xkPjo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_100_100/B56Z6Q4H2JKMAI-/0/1780547092074?e=1795046400&v=beta&t=upnVMtxshf2BdaJMgoK9JBdPC1TBCOZbGAlr3NyJxNE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_400_400/B56Z6Q4H2JKMAU-/0/1780547092074?e=1795046400&v=beta&t=C9Mm4yzmx08MVPTpTgxgOaGipUeoqJn0SbFmsHv9tWY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_200_200/B56Z6Q4H2JKMAE-/0/1780547092074?e=1795046400&v=beta&t=Xf3D3K2232taa5l0TsvQrKD8kY8iaU8DtWbME0xkPjo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEYQ5hvFAZ8gQ/company-logo_100_100/B56Z6Q4H2JKMAI-/0/1780547092074?e=1795046400&v=beta&t=upnVMtxshf2BdaJMgoK9JBdPC1TBCOZbGAlr3NyJxNE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2584/",
+    "schoolName": "University of Washington",
+    "degreeName": "BS",
+    "fieldOfStudy": "Electric Engineering in Computer",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2584/",
+    "schoolId": "2584",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 1995
+    },
+    "endDate": {
+     "year": 1997
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+   "103x103": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+     "width": 103,
+     "height": 103
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+   "103x103": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+     "width": 103,
+     "height": 103
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+   "103x103": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516272052203?e=1795046400&v=beta&t=4LqeyCmhf_Mrm_9FY-SiItdk0uqgg-bWQE4QGSuknas",
+     "width": 103,
+     "height": 103
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFD4PWrUq4JZA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516272115815?e=1795046400&v=beta&t=krDBAH_5qKZ_NzRDzimUSLwYtHMJXcQx3QGItUPh4tU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/jay-lee-489b11"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T02:10:22.254Z",
+ "foundBy": null
+}

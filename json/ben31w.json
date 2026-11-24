@@ -1,0 +1,1104 @@
+{
+ "slug": "ben31w",
+ "inputUrl": "https://www.linkedin.com/in/ben31w",
+ "fetchedAt": "2026-10-31T10:36:59.084Z",
+ "id": "6ae5c4cb4f8d6cb6ddd5bd44",
+ "url": "https://www.linkedin.com/in/ben31w",
+ "profile": {
+  "created": 1528339095359,
+  "trackingId": "X3Dy1ekYRVOXmykvlS1Ymg==",
+  "firstName": "Benjamin",
+  "lastName": "Wright",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "1092481279",
+  "headline": "Software Engineer at L3Harris, Maritime Systems",
+  "publicIdentifier": "ben31w",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "660762672",
+  "profileId": "ACoAACdicDABw4yB9Cwop5f0VcDGzHX64TEMlIA",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660850862653?e=1795046400&v=beta&t=qm6FW2THelXKojTzBk8ta3C29Fo-caNNQvCJErSIhfE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660850862653?e=1795046400&v=beta&t=nJz7RJVbGT3h_jWBy3Zfcpkqp0RBIDiEZv3IOAFemoE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660850862653?e=1795046400&v=beta&t=PAyjm1v0T5JQSJ4NLBLGa_nfc8yDmsSR7MFgH7QSB0A",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0"
+  },
+  "coverImageUrl": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1692328955671?e=1795046400&v=beta&t=GJeCjQyr0v-qfW_nUluF_-IHP0VwiTuXoOART_7Atlw",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1692328955671?e=1795046400&v=beta&t=Sgh8Y2MDKlj3V-07TRG2A0sGPyHoDzsxhlIzsQiTOtA"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Software Engineer, Sr. Associate",
+  "summary": "SWE of maritime defense systems, but open-minded and adaptable to new technologies. Great at learning new skills through Google, YouTube, reading, and now AI. Satisfied by solving problems, especially through programming. Always seeking ways to improve myself. \n\nFun Facts\n\nFavorite Programming Language: Python because of its simplicity and wide array of libraries. Java is a close second because of nostalgia.\n\nLeast Favorite Programming Language: JavaScript. Its syntax feels like an awkward mix between Python and Java, being weakly typed like Python but requiring boilerplate keywords like Java. While I respect JavaScript's rise from frontend to full stack, I'm not a fan of its syntax.\n\nFavorite Operating System: Ubuntu because it offers the flexibility of Linux and has an active community on Ask Ubuntu. For aesthetics, I enjoy Archcraft Linux.\n\nFavorite Version Control System: Git because it's satisfying to use from the terminal, well-integrated with GitHub and Bitbucket, and fast. \n\nFavorite Relational Database: SQLite. I appreciate its ease of use for developing personal projects. If I had to pick a relational DB for a production environment, I'd choose PostgreSQL, but I don't think it matters that much.\n\nFavorite NoSQL Database: Redis because it excels in simplicity and speed. I like my databases the same way I like my programming languages/everything in life: simple.\n\nFavorite AI Coding Assistant: Codex, for now... although OpenAI and Anthropic keep leapfrogging each other.",
+  "positions": [
+   {
+    "title": "Software Engineer, Sr. Associate",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "employmentType": "Full-time",
+    "description": "Primary developer of a Condition Based Monitoring (CBM) internal research project. Using PySpark and Palantir Foundry, I’ve developed a data pipeline that discovers ship machinery states via clustering. I've contributed to all stages of the pipeline: ingest, unzip, normalize, feature engineer, and cluster. I've also developed tools for exploratory data analysis and visualization. The current phase of the project is fault discovery, but this will eventually extend to real-time fault prediction.\n\nAlso primary developer of the Machinery Centralized Control System (MCCS), On-Board Training System (OBTS) for the next generation US Navy frigate (FFG-62). I develop machinery plant simulations to train control system operators. I collaborate with controls engineers to create realistic simulations and useful instructor capabilities, like save states and dashboards for introducing faults. I've improved the build process by creating a Jenkins pipeline that builds + packages multiple repositories into a single zip file. Using Java and Redis, I’ve simulated electrical, propulsion, auxiliary, and damage control systems for the frigate. The electrical system is particularly polished: it includes diesel generators that distribute voltage + frequency, connect to load centers via breakers, and can be commanded to receive different base loads when run in parallel. I’ve also simulated components of the combined diesel-electric and gas propulsion system, including the dual-redundant Modbus TCP behavior.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    }
+   },
+   {
+    "title": "Intern D, Software Engineering",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Developed quality-of-life features and improvements for an automated integration testing app. Features include the parsing of two input files: a spreadsheet with expected run times for each test, and a text file of tests to run. The spreadsheet was used to display expected vs actual runtimes, which is useful for engineers debugging the system. The text file was used to limit unnecessary tests from running.\n\nOptimized the build process of an old control system, making it easier for oncoming engineers to understand. Using Java, Batch, and PowerShell, I added safety checks for duplicate VM instances that could break the build. Similar to the project above, I enabled the build GUI to parse a spreadsheet and display expected vs actual times for various build steps.\n\nWrote regression test procedures based on customer’s software design instructions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    }
+   },
+   {
+    "title": "Intern C, Software Engineering",
+    "locationName": "Chesapeake, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Developed maritime Intelligence/Surveillance/Reconnaissance (ISR) and sonar programs. Both programs used an agile workflow with Atlassian to manage sprints and Git to manage version control.\n\nFor the ISR program, I created and edited various panels on the frontend and added threads to poll for input USB devices like joystick controllers. This was done in Java and JavaFX.\n\nFor the sonar program, I helped refactor the old codebase using static analysis tools. I pair programmed directly with the other developers and provided moral support :) This was done in C++. ",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_200_200/company-logo_200_200/0/1631320059510?e=1795046400&v=beta&t=-CkVM_9EYK98uDyioQsJIT-N8lEWAh9FjlUniIe2aic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_100_100/company-logo_100_100/0/1631320059510?e=1795046400&v=beta&t=YquunmG3yR4hdUgVsW8k7_ggvHXoEbsuz4lTBuEiqgg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20257/",
+    "schoolName": "Christopher Newport University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "https://www.linkedin.com/company/33446247/",
+    "schoolName": "Loudoun County High School",
+    "degreeName": "High School Diploma",
+    "fieldOfStudy": "High School Diploma",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Warehouse/My Market Assistant",
+    "companyName": "Food for Others",
+    "description": "I volunteer at the warehouse and market of a local food pantry. At the warehouse, I stock shelves and process donated items. At the market, I help clients choose their groceries.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/274471/",
+     "name": "Food for Others",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_400_400/B4EZ.t4roHIgAY-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=hvDWM3o6Gj4guefKQSbTcY7zWRqlel8cyOv4pPyz7Vg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_200_200/B4EZ.t4roHIgAI-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=W1x-nKGaBhIVR0KbAiEDDNRs-xR8DbkRwBGFwUVFQDs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_100_100/B4EZ.t4roHIgAM-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=ZDA8TO5XDx0-EtAcjkQNyBgrV4RXuUvqXJazVlusI1o"
+     }
+    }
+   },
+   {
+    "role": "Mentor",
+    "companyName": "RISE Mentoring",
+    "description": "As a mentor, I spend time around kids who are at risk (have been through the juvenile court system) at events, like trips to amusement parks and local attractions. I socialize with the kids and try to set a positive example.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/106821986/",
+     "name": "RISE Mentoring",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_200_200/B4EZX.TZi9HgAM-/0/1743728253879?e=1795046400&v=beta&t=miTvun6NcFLjz-uDGlowp8bRArlQmc_1mk6dV-HR-BI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_100_100/B4EZX.TZi9HgAU-/0/1743728253879?e=1795046400&v=beta&t=8K_h9tf2iM1kCRvz5OScaYcDHgvuR_Nqpv9kl6GT3QA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_400_400/B4EZX.TZi9HgAc-/0/1743728253879?e=1795046400&v=beta&t=KfEfr-ofY83HFqpIm8QsIcK6lcYeIA7wY8ZdMZFR90M"
+     }
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "L3Harris Technologies",
+  "companyPublicId": "l3harris-technologies",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/l3harris-technologies/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:40745219",
+   "name": "L3Harris Technologies",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQEB2mPDbj_TDA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_"
+    }
+   },
+   "universalName": "l3harris-technologies",
+   "url": "https://www.linkedin.com/company/l3harris-technologies/",
+   "slug": "l3harris-technologies",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+   "specialties": []
+  },
+  "followerCount": 517,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 517,
+  "skills": [
+   {
+    "name": "Palantir Foundry",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PySpark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PySpark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ben31w",
+  "linkedinUrl": "https://www.linkedin.com/in/ben31w",
+  "profileUrl": "https://www.linkedin.com/in/ben31w",
+  "verified": true,
+  "registeredAt": "2018-06-07T02:38:15.359Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "SWE of maritime defense systems, but open-minded and adaptable to new technologies. Great at learning new skills through Google, YouTube, reading, and now AI. Satisfied by solving problems, especially through programming. Always seeking ways to improve myself. \n\nFun Facts\n\nFavorite Programming Language: Python because of its simplicity and wide array of libraries. Java is a close second because of nostalgia.\n\nLeast Favorite Programming Language: JavaScript. Its syntax feels like an awkward mix between Python and Java, being weakly typed like Python but requiring boilerplate keywords like Java. While I respect JavaScript's rise from frontend to full stack, I'm not a fan of its syntax.\n\nFavorite Operating System: Ubuntu because it offers the flexibility of Linux and has an active community on Ask Ubuntu. For aesthetics, I enjoy Archcraft Linux.\n\nFavorite Version Control System: Git because it's satisfying to use from the terminal, well-integrated with GitHub and Bitbucket, and fast. \n\nFavorite Relational Database: SQLite. I appreciate its ease of use for developing personal projects. If I had to pick a relational DB for a production environment, I'd choose PostgreSQL, but I don't think it matters that much.\n\nFavorite NoSQL Database: Redis because it excels in simplicity and speed. I like my databases the same way I like my programming languages/everything in life: simple.\n\nFavorite AI Coding Assistant: Codex, for now... although OpenAI and Anthropic keep leapfrogging each other.",
+  "currentTitle": "Software Engineer, Sr. Associate",
+  "allTitles": [
+   "Software Engineer, Sr. Associate",
+   "Intern D, Software Engineering",
+   "Intern C, Software Engineering"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer, Sr. Associate",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "employmentType": "Full-time",
+    "description": "Primary developer of a Condition Based Monitoring (CBM) internal research project. Using PySpark and Palantir Foundry, I’ve developed a data pipeline that discovers ship machinery states via clustering. I've contributed to all stages of the pipeline: ingest, unzip, normalize, feature engineer, and cluster. I've also developed tools for exploratory data analysis and visualization. The current phase of the project is fault discovery, but this will eventually extend to real-time fault prediction.\n\nAlso primary developer of the Machinery Centralized Control System (MCCS), On-Board Training System (OBTS) for the next generation US Navy frigate (FFG-62). I develop machinery plant simulations to train control system operators. I collaborate with controls engineers to create realistic simulations and useful instructor capabilities, like save states and dashboards for introducing faults. I've improved the build process by creating a Jenkins pipeline that builds + packages multiple repositories into a single zip file. Using Java and Redis, I’ve simulated electrical, propulsion, auxiliary, and damage control systems for the frigate. The electrical system is particularly polished: it includes diesel generators that distribute voltage + frequency, connect to load centers via breakers, and can be commanded to receive different base loads when run in parallel. I’ve also simulated components of the combined diesel-electric and gas propulsion system, including the dual-redundant Modbus TCP behavior.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Software Engineer, Sr. Associate",
+    "companyName": "L3Harris Technologies",
+    "location": "Herndon, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Intern D, Software Engineering",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Developed quality-of-life features and improvements for an automated integration testing app. Features include the parsing of two input files: a spreadsheet with expected run times for each test, and a text file of tests to run. The spreadsheet was used to display expected vs actual runtimes, which is useful for engineers debugging the system. The text file was used to limit unnecessary tests from running.\n\nOptimized the build process of an old control system, making it easier for oncoming engineers to understand. Using Java, Batch, and PowerShell, I added safety checks for duplicate VM instances that could break the build. Similar to the project above, I enabled the build GUI to parse a spreadsheet and display expected vs actual times for various build steps.\n\nWrote regression test procedures based on customer’s software design instructions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Intern D, Software Engineering",
+    "companyName": "L3Harris Technologies",
+    "location": "Herndon, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern C, Software Engineering",
+    "locationName": "Chesapeake, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Developed maritime Intelligence/Surveillance/Reconnaissance (ISR) and sonar programs. Both programs used an agile workflow with Atlassian to manage sprints and Git to manage version control.\n\nFor the ISR program, I created and edited various panels on the frontend and added threads to poll for input USB devices like joystick controllers. This was done in Java and JavaFX.\n\nFor the sonar program, I helped refactor the old codebase using static analysis tools. I pair programmed directly with the other developers and provided moral support :) This was done in C++. ",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Intern C, Software Engineering",
+    "companyName": "L3Harris Technologies",
+    "location": "Chesapeake, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "40745219",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyName": "L3Harris Technologies",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer, Sr. Associate",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "employmentType": "Full-time",
+    "description": "Primary developer of a Condition Based Monitoring (CBM) internal research project. Using PySpark and Palantir Foundry, I’ve developed a data pipeline that discovers ship machinery states via clustering. I've contributed to all stages of the pipeline: ingest, unzip, normalize, feature engineer, and cluster. I've also developed tools for exploratory data analysis and visualization. The current phase of the project is fault discovery, but this will eventually extend to real-time fault prediction.\n\nAlso primary developer of the Machinery Centralized Control System (MCCS), On-Board Training System (OBTS) for the next generation US Navy frigate (FFG-62). I develop machinery plant simulations to train control system operators. I collaborate with controls engineers to create realistic simulations and useful instructor capabilities, like save states and dashboards for introducing faults. I've improved the build process by creating a Jenkins pipeline that builds + packages multiple repositories into a single zip file. Using Java and Redis, I’ve simulated electrical, propulsion, auxiliary, and damage control systems for the frigate. The electrical system is particularly polished: it includes diesel generators that distribute voltage + frequency, connect to load centers via breakers, and can be commanded to receive different base loads when run in parallel. I’ve also simulated components of the combined diesel-electric and gas propulsion system, including the dual-redundant Modbus TCP behavior.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Software Engineer, Sr. Associate",
+    "companyName": "L3Harris Technologies",
+    "location": "Herndon, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Intern D, Software Engineering",
+    "locationName": "Herndon, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "Developed quality-of-life features and improvements for an automated integration testing app. Features include the parsing of two input files: a spreadsheet with expected run times for each test, and a text file of tests to run. The spreadsheet was used to display expected vs actual runtimes, which is useful for engineers debugging the system. The text file was used to limit unnecessary tests from running.\n\nOptimized the build process of an old control system, making it easier for oncoming engineers to understand. Using Java, Batch, and PowerShell, I added safety checks for duplicate VM instances that could break the build. Similar to the project above, I enabled the build GUI to parse a spreadsheet and display expected vs actual times for various build steps.\n\nWrote regression test procedures based on customer’s software design instructions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Intern D, Software Engineering",
+    "companyName": "L3Harris Technologies",
+    "location": "Herndon, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern C, Software Engineering",
+    "locationName": "Chesapeake, Virginia, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Developed maritime Intelligence/Surveillance/Reconnaissance (ISR) and sonar programs. Both programs used an agile workflow with Atlassian to manage sprints and Git to manage version control.\n\nFor the ISR program, I created and edited various panels on the frontend and added threads to poll for input USB devices like joystick controllers. This was done in Java and JavaFX.\n\nFor the sonar program, I helped refactor the old codebase using static analysis tools. I pair programmed directly with the other developers and provided moral support :) This was done in C++. ",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Intern C, Software Engineering",
+    "companyName": "L3Harris Technologies",
+    "location": "Chesapeake, Virginia, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_200_200/company-logo_200_200/0/1631320059510?e=1795046400&v=beta&t=-CkVM_9EYK98uDyioQsJIT-N8lEWAh9FjlUniIe2aic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_100_100/company-logo_100_100/0/1631320059510?e=1795046400&v=beta&t=YquunmG3yR4hdUgVsW8k7_ggvHXoEbsuz4lTBuEiqgg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_200_200/company-logo_200_200/0/1631320059510?e=1795046400&v=beta&t=-CkVM_9EYK98uDyioQsJIT-N8lEWAh9FjlUniIe2aic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_100_100/company-logo_100_100/0/1631320059510?e=1795046400&v=beta&t=YquunmG3yR4hdUgVsW8k7_ggvHXoEbsuz4lTBuEiqgg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20257/",
+    "schoolName": "Christopher Newport University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/20257/",
+    "schoolId": "20257",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "https://www.linkedin.com/company/33446247/",
+    "schoolName": "Loudoun County High School",
+    "degreeName": "High School Diploma",
+    "fieldOfStudy": "High School Diploma",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/33446247/",
+    "schoolId": "33446247",
+    "degree": "High School Diploma",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_200_200/company-logo_200_200/0/1631320059510?e=1795046400&v=beta&t=-CkVM_9EYK98uDyioQsJIT-N8lEWAh9FjlUniIe2aic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_100_100/company-logo_100_100/0/1631320059510?e=1795046400&v=beta&t=YquunmG3yR4hdUgVsW8k7_ggvHXoEbsuz4lTBuEiqgg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_400_400/company-logo_400_400/0/1631320059510?e=1795046400&v=beta&t=UHdv9KamFmAHUoYuTbJgsP4Sxe8iVpyfZ60SGbyNBfE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_200_200/company-logo_200_200/0/1631320059510?e=1795046400&v=beta&t=-CkVM_9EYK98uDyioQsJIT-N8lEWAh9FjlUniIe2aic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQFUcZObA-ep5g/company-logo_100_100/company-logo_100_100/0/1631320059510?e=1795046400&v=beta&t=YquunmG3yR4hdUgVsW8k7_ggvHXoEbsuz4lTBuEiqgg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/20257/",
+    "schoolName": "Christopher Newport University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/20257/",
+    "schoolId": "20257",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2023
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Warehouse/My Market Assistant",
+    "companyName": "Food for Others",
+    "description": "I volunteer at the warehouse and market of a local food pantry. At the warehouse, I stock shelves and process donated items. At the market, I help clients choose their groceries.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/274471/",
+     "name": "Food for Others",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_400_400/B4EZ.t4roHIgAY-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=hvDWM3o6Gj4guefKQSbTcY7zWRqlel8cyOv4pPyz7Vg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_200_200/B4EZ.t4roHIgAI-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=W1x-nKGaBhIVR0KbAiEDDNRs-xR8DbkRwBGFwUVFQDs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_100_100/B4EZ.t4roHIgAM-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=ZDA8TO5XDx0-EtAcjkQNyBgrV4RXuUvqXJazVlusI1o"
+     }
+    },
+    "organization": "Food for Others"
+   },
+   {
+    "role": "Mentor",
+    "companyName": "RISE Mentoring",
+    "description": "As a mentor, I spend time around kids who are at risk (have been through the juvenile court system) at events, like trips to amusement parks and local attractions. I socialize with the kids and try to set a positive example.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/106821986/",
+     "name": "RISE Mentoring",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_200_200/B4EZX.TZi9HgAM-/0/1743728253879?e=1795046400&v=beta&t=miTvun6NcFLjz-uDGlowp8bRArlQmc_1mk6dV-HR-BI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_100_100/B4EZX.TZi9HgAU-/0/1743728253879?e=1795046400&v=beta&t=8K_h9tf2iM1kCRvz5OScaYcDHgvuR_Nqpv9kl6GT3QA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_400_400/B4EZX.TZi9HgAc-/0/1743728253879?e=1795046400&v=beta&t=KfEfr-ofY83HFqpIm8QsIcK6lcYeIA7wY8ZdMZFR90M"
+     }
+    },
+    "organization": "RISE Mentoring"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Warehouse/My Market Assistant",
+    "companyName": "Food for Others",
+    "description": "I volunteer at the warehouse and market of a local food pantry. At the warehouse, I stock shelves and process donated items. At the market, I help clients choose their groceries.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/274471/",
+     "name": "Food for Others",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_400_400/B4EZ.t4roHIgAY-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=hvDWM3o6Gj4guefKQSbTcY7zWRqlel8cyOv4pPyz7Vg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_200_200/B4EZ.t4roHIgAI-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=W1x-nKGaBhIVR0KbAiEDDNRs-xR8DbkRwBGFwUVFQDs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG9mXVAgZ7Nqg/company-logo_100_100/B4EZ.t4roHIgAM-/0/1785328745297/foodforothers_logo?e=1795046400&v=beta&t=ZDA8TO5XDx0-EtAcjkQNyBgrV4RXuUvqXJazVlusI1o"
+     }
+    }
+   },
+   {
+    "role": "Mentor",
+    "companyName": "RISE Mentoring",
+    "description": "As a mentor, I spend time around kids who are at risk (have been through the juvenile court system) at events, like trips to amusement parks and local attractions. I socialize with the kids and try to set a positive example.",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/106821986/",
+     "name": "RISE Mentoring",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_200_200/B4EZX.TZi9HgAM-/0/1743728253879?e=1795046400&v=beta&t=miTvun6NcFLjz-uDGlowp8bRArlQmc_1mk6dV-HR-BI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_100_100/B4EZX.TZi9HgAU-/0/1743728253879?e=1795046400&v=beta&t=8K_h9tf2iM1kCRvz5OScaYcDHgvuR_Nqpv9kl6GT3QA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEq2wRwt6dOmQ/company-logo_400_400/B4EZX.TZi9HgAc-/0/1743728253879?e=1795046400&v=beta&t=KfEfr-ofY83HFqpIm8QsIcK6lcYeIA7wY8ZdMZFR90M"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660850862653?e=1795046400&v=beta&t=qm6FW2THelXKojTzBk8ta3C29Fo-caNNQvCJErSIhfE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660850862653?e=1795046400&v=beta&t=nJz7RJVbGT3h_jWBy3Zfcpkqp0RBIDiEZv3IOAFemoE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660850862653?e=1795046400&v=beta&t=PAyjm1v0T5JQSJ4NLBLGa_nfc8yDmsSR7MFgH7QSB0A",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660850862653?e=1795046400&v=beta&t=PAyjm1v0T5JQSJ4NLBLGa_nfc8yDmsSR7MFgH7QSB0A",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660850862653?e=1795046400&v=beta&t=nJz7RJVbGT3h_jWBy3Zfcpkqp0RBIDiEZv3IOAFemoE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660850862653?e=1795046400&v=beta&t=qm6FW2THelXKojTzBk8ta3C29Fo-caNNQvCJErSIhfE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660850862653?e=1795046400&v=beta&t=qm6FW2THelXKojTzBk8ta3C29Fo-caNNQvCJErSIhfE",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660850862653?e=1795046400&v=beta&t=nJz7RJVbGT3h_jWBy3Zfcpkqp0RBIDiEZv3IOAFemoE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660850862653?e=1795046400&v=beta&t=PAyjm1v0T5JQSJ4NLBLGa_nfc8yDmsSR7MFgH7QSB0A",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1660850862653?e=1795046400&v=beta&t=46G625ABpELJckWrmIX8AQlc_EBi_FFn9uOV83pQlD0",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1660850862653?e=1795046400&v=beta&t=PAyjm1v0T5JQSJ4NLBLGa_nfc8yDmsSR7MFgH7QSB0A",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1660850862653?e=1795046400&v=beta&t=nJz7RJVbGT3h_jWBy3Zfcpkqp0RBIDiEZv3IOAFemoE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQH5OdQ-xoPTlQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1660850862653?e=1795046400&v=beta&t=qm6FW2THelXKojTzBk8ta3C29Fo-caNNQvCJErSIhfE",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1692328955671?e=1795046400&v=beta&t=GJeCjQyr0v-qfW_nUluF_-IHP0VwiTuXoOART_7Atlw",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1692328955671?e=1795046400&v=beta&t=Sgh8Y2MDKlj3V-07TRG2A0sGPyHoDzsxhlIzsQiTOtA",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1692328955671?e=1795046400&v=beta&t=Sgh8Y2MDKlj3V-07TRG2A0sGPyHoDzsxhlIzsQiTOtA",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1692328955671?e=1795046400&v=beta&t=Sgh8Y2MDKlj3V-07TRG2A0sGPyHoDzsxhlIzsQiTOtA",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQH2YGmLNwJ17Q/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1692328955671?e=1795046400&v=beta&t=GJeCjQyr0v-qfW_nUluF_-IHP0VwiTuXoOART_7Atlw",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ben31w"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T10:36:49.039Z",
+ "foundBy": null
+}

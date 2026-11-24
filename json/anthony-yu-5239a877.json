@@ -1,0 +1,2071 @@
+{
+ "slug": "anthony-yu-5239a877",
+ "inputUrl": "https://www.linkedin.com/in/anthony-yu-5239a877",
+ "fetchedAt": "2026-10-19T18:29:54.706Z",
+ "id": "6ad661a2d820dfb707d08253",
+ "url": "https://www.linkedin.com/in/anthony-yu-5239a877",
+ "profile": {
+  "created": 1374574834000,
+  "trackingId": "roaR109ASXm1PBdMKi+EIg==",
+  "firstName": "Anthony",
+  "lastName": "Yu",
+  "pronoun": null,
+  "versionTag": "1051258179",
+  "headline": "Senior Software Engineer at Roblox",
+  "publicIdentifier": "anthony-yu-5239a877",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "274185963",
+  "profileId": "ACoAABBXvusBasyVas_edLdxt50WuzQ6c7moQ3c",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516632425668?e=1793836800&v=beta&t=hsG5ze1ILbGQWxm7MDHAm7TsKiPnjzyYi1CBJqgYnn4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516632425605?e=1793836800&v=beta&t=sOVFU56nowfe-6Z9JT7ajRXb-CCGC0bnmtdGcPs_3kQ"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106233382",
+  "geoLocationName": "San Jose, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "",
+  "summary": "I have 6 years of experience in software engineering. I've focused mainly on building and maintaining data pipelines as well as developing back-end services.",
+  "positions": [
+   {
+    "company": {
+     "name": "Roblox",
+     "url": "https://www.linkedin.com/company/147977/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o"
+     }
+    },
+    "locationName": "San Mateo, CA",
+    "employmentType": "Full-time",
+    "totalDuration": "6 yrs 3 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "Ads Platform Team\n- Trained agentic (GPT) models and fine-tuned VLMs (qwen-vl) using SFT & LoRA to moderate 10000+ video and image ads per day, automating the human moderation flow and reducing cost by 90+% with Temporal workers\n--- Implemented 5+ skills to fully automate an agentic moderation flow to validate performance against human labels\n--- Scaled the local skill run to dispatch tasks across remote workspaces to handle 5000+ ad evaluations daily\n--- Created an agent to scrape Meta ads through a browser flow to pass back to moderation agents for review\n- Drove the entire Google mobile and desktop ads reporting pipeline design, implementations, and coordination using Airflow DAGs amp; Apache Flink to support offline and real-time reporting and revenue share for Rewarded Ads, processing 350M+ rows of data across 11 Data Transfer files (requests, impressions, etc) joined with revenue data\n- Created a \"golden\" dataset using DAGs that process 30B+ serving response and 1B+ impression events daily to join into a singular source of truth for all ad analytical purposes, including model training for better ad delivery\n- Processed 60M+ Kafka events daily in Flink and DAGs to upload reporting metrics for 4000+ ad units in 2000+ games\n- Oversaw the team's data pipeline projects to suggest designs/improvements for new features impacting ad reporting\n- Coordinated cross-team collaboration to migrate 120+ pipelines to newer infrastructure and technologies\n- Optimized up to 70% on resource usage on the heaviest pipelines, reducing monetary costs by 50%\n- Mentored 5+ engineers to onboard onto the ads reporting data pipeline to expand team expertise in this domain",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 3 mos",
+      "description": "Ads Team\n- Spearheaded SSP ads reporting to support revenue share to developers showing third-party ads in their games\n- Owned Audience Estimation with Airflow DAGs to show advertisers potential reach based on targeting criteria, processing 1B+ serving requests daily to bucket users, then approximate cardinality using HyperLogLog sketches\n- Designed modular data sanity checks to improve ads reporting accuracy, preventing bad data from surfacing to users\n- Coded an ads moderation tool using React to evaluate immersive ad image creatives, with features including zooming, reshaping, recoloring, and in-game billboard models features to maximize moderator context for accuracy\n- Implemented a full-stack solution (React, Golang) for an ads debugging tool used by all ads teams daily to track ads serving and delivery performance and anomalies, reporting current delivery status and metrics\n- Pioneered Ads Serving API, integrating with a 3rd-party ad manager and weighting ads to determine ads ranking while respecting user targeting dimensions and frequency capping to serve new immersive 3D display/portal ads",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "Social Connection Team\n- Owned the User Blocking service serving 80K+ QPS and migrated 30+ consumers to the new C# gRPC microservice\n- Migrated 116M+ user blocking lists from MSSQL to CockroachDB while anonymizing user IDs to comply with GDPR\n- Implemented friending API endpoints to support friend requests from imported contacts",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Social Connection Team\n- Developed the full moderation flow for Display Names with CSHTML, handling data changes with MSSQL\n- Integrated an SNS topic amp; SQS processor to reliably remove all user connections upon a user block",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "company": {
+     "name": "Berkeley RISE Lab",
+     "url": "https://www.linkedin.com/company/17932505/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM"
+     }
+    },
+    "locationName": "Berkeley, California",
+    "employmentType": null,
+    "totalDuration": "1 yr 3 mos",
+    "positions": [
+     {
+      "title": "Undergraduate Researcher (Ray Tune)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Designed and coded a sklearn GridSearchCV API combining Tune schedulers for 10x faster parameter search\n- Published a Medium blog post featuring the new library\n- Integrated and modified the Dragonfly API to add scalable Bayesian optimization techniques within Ray\n- Added a fully-functional example of using population based training to train a memory neural network",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher (Modin)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Implemented parallelized functions with Ray to speed up JSON reading by over 2x for 200+ MB files\n- Tested against newest versions of Pandas (0.25.0) to maintain equivalent functional behavior",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Back End Engineer Intern (Promoted Inventory Team) ",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Implemented and deployed from scratch a referral code service in Java as a Maven project with Spring dependency\ninjections as part of a quarterly company objective to promote reward programs for users\n- Created a secure procedure to generate referral codes via hashing (SHA256) to also avoid user codes from colliding\n- Designed database schema and data access objects with JDBI to store & update user referral codes under PostgreSQL\n- Integrated Kafka to read in millions of reservation events to track seated reservations and reward users accordingly\n- Collaborated with front-end to add support for custom discovery shifts for a 100+% more revenue pricing program\n- Coded a CRON job to update 1000+ restaurants’ metrics hourly to ensure restaurants maximize discoverability",
+    "company": {
+     "url": "https://www.linkedin.com/company/12181/",
+     "name": "OpenTable",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA"
+     }
+    }
+   },
+   {
+    "title": "Lab Assistant/Course Reader for EE16A",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Helped students with circuits and Python code in two weekly lab sessions\n- Graded weekly assignments and midterm/final exams",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "University of California, Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8"
+     }
+    }
+   },
+   {
+    "title": "Data Analyst Intern",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Designed dashboards using Tableau after analyzing 2500+ rows to identify discrepancies between databases\n- Implemented from scratch a payment log with Google Sheets with supplementary scripts in JavaScript and Python for receipt generation, archiving, and daily summary files to process 5000+ yearly transactions\n- Developed R scripts to generate printed rosters and documents for 3800+ kids for the recreational sports camps",
+    "company": {
+     "url": "",
+     "name": "Residential and Student Services Programs",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineering and Data Analytics Intern",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Visualized and analyzed 100,000+ rows using R to determine user habits with the company’s light products\n- Developed an algorithm in Python (NumPy, Pandas) using matrices and cross-correlation to suggest schedules and groups based on data for automated light controls\n- Communicated and documented in Chinese to minimize the language barrier with the engineers",
+    "company": {
+     "url": "",
+     "name": "Axalent Solutions, Inc.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Academic Intern for CS61A/CS61B",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted students individually during weekly lab sections\n- Hosted weekly office hours to help students one-on-one\n",
+    "company": {
+     "url": "",
+     "name": "The Department of Electrical Engineering and Computer Science",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Private Tutor",
+    "locationName": "Shanghai, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Tutored a sophomore in Algebra II and high school chemistry\n- Created PowerPoint presentations to help review concepts\n- Wrote original quizzes to assess the student's understanding\n- Boosted the student's grade by half a letter grade in one quarter",
+    "company": {
+     "url": "",
+     "name": "Self",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Member",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Attended weekly morning-to-afternoon co-learning sessions and workshops involving computer architecture and HTML/CSS/Javascript\n- Assisted other members in various concepts learned throughout the workshops",
+    "company": {
+     "url": "https://www.linkedin.com/company/15074893/",
+     "name": "Coderbunker",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor of Arts (B.A.)",
+    "fieldOfStudy": "Computer Science & Statistics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "The SMIC Private School",
+    "degreeName": "",
+    "fieldOfStudy": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2005
+     },
+     "endDate": {
+      "year": 2016
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [
+   {
+    "name": "Concepts of Computing with Data"
+   },
+   {
+    "name": "Concepts of Probability"
+   }
+  ],
+  "honors": [
+   {
+    "title": "Hacktech 2019: Best Entertainment Hack",
+    "description": "- Developed an entertainment system that converts hand and arm motions to play preset tracks or custom sounds\n- Implemented with the Kinect API to recognize hand motions and positions to toggle play modes or instruments\n- Wrote tracks using Sonic Pi \n- Designed a UI with PyGame to draw important joints with Kinect",
+    "issueDate": {},
+    "issuer": "Issued by Major League Hacking · Mar 2019"
+   },
+   {
+    "title": "Upsilon Pi Epsilon Member",
+    "description": "- Invited to the computer science honor society in UC Berkeley\n- Part of the top third of all computer science majors in UC Berkeley",
+    "issueDate": {},
+    "issuer": "Issued by Upsilon Pi Epsilon · May 2018"
+   }
+  ],
+  "languages": [
+   {
+    "name": "Chinese (Simplified)",
+    "proficiency": ""
+   },
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Volunteer at the Shanghai Healing Home",
+    "companyName": "Shanghai Healing Home",
+    "description": "Cared for orphaned children with cleft lip and palate or other physical deformities.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2014
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "",
+     "name": "Shanghai Healing Home",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Web Development Tutorials",
+    "description": "- Co-authored a series of web development tutorials to teach members of the committee basic skills\n- Tutorials include guides on Git, HTML/CSS, and JavaScript",
+    "dateRange": {},
+    "associatedWith": "Jun 2018 - May 2019"
+   },
+   {
+    "title": "Hermes",
+    "description": "- Implemented a web application featuring Flask, JavaScript, jQuery, and HTML/CSS to enhance lectures for more\nimmersive learning with a team of 4\n- Designed both the front and back-end structure of bite-sized exercises to be inserted in lectures\n- Integrated into Berkeley’s introductory CS course (CS 61A) for beta-testing",
+    "dateRange": {},
+    "associatedWith": "Oct 2017 - Mar 2019"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [
+   {
+    "name": "AP Calculus BC",
+    "score": "Score: 5 · May 2016",
+    "description": ""
+   },
+   {
+    "name": "AP Physics 2",
+    "score": "Score: 5 · May 2016",
+    "description": ""
+   }
+  ],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Roblox",
+  "companyPublicId": "roblox",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/roblox/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:147977",
+   "name": "Roblox",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQG364JsrSwWDw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+       "expiresAt": 1793836800000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+       "expiresAt": 1793836800000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_"
+    }
+   },
+   "universalName": "roblox",
+   "url": "https://www.linkedin.com/company/roblox/",
+   "slug": "roblox",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+   "specialties": []
+  },
+  "followerCount": 456,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 448,
+  "skills": [
+   {
+    "name": "PySpark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Flink",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Pipelines",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenAI Codex",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "LaTeX",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Drums",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Data Pipelines",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Drums",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Video Editing",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "PySpark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Flink",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "LaTeX",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "R",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "OpenAI Codex",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/anthony-yu-5239a877",
+  "linkedinUrl": "https://www.linkedin.com/in/anthony-yu-5239a877",
+  "profileUrl": "https://www.linkedin.com/in/anthony-yu-5239a877",
+  "verified": true,
+  "registeredAt": "2013-07-23T10:20:34.000Z",
+  "location": {
+   "linkedinText": "San Jose, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Jose, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I have 6 years of experience in software engineering. I've focused mainly on building and maintaining data pipelines as well as developing back-end services.",
+  "allTitles": [
+   "Back End Engineer Intern (Promoted Inventory Team) ",
+   "Lab Assistant/Course Reader for EE16A",
+   "Data Analyst Intern",
+   "Software Engineering and Data Analytics Intern",
+   "Academic Intern for CS61A/CS61B",
+   "Private Tutor",
+   "Member"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "name": "Roblox",
+     "url": "https://www.linkedin.com/company/147977/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o"
+     }
+    },
+    "locationName": "San Mateo, CA",
+    "employmentType": "Full-time",
+    "totalDuration": "6 yrs 3 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "Ads Platform Team\n- Trained agentic (GPT) models and fine-tuned VLMs (qwen-vl) using SFT & LoRA to moderate 10000+ video and image ads per day, automating the human moderation flow and reducing cost by 90+% with Temporal workers\n--- Implemented 5+ skills to fully automate an agentic moderation flow to validate performance against human labels\n--- Scaled the local skill run to dispatch tasks across remote workspaces to handle 5000+ ad evaluations daily\n--- Created an agent to scrape Meta ads through a browser flow to pass back to moderation agents for review\n- Drove the entire Google mobile and desktop ads reporting pipeline design, implementations, and coordination using Airflow DAGs amp; Apache Flink to support offline and real-time reporting and revenue share for Rewarded Ads, processing 350M+ rows of data across 11 Data Transfer files (requests, impressions, etc) joined with revenue data\n- Created a \"golden\" dataset using DAGs that process 30B+ serving response and 1B+ impression events daily to join into a singular source of truth for all ad analytical purposes, including model training for better ad delivery\n- Processed 60M+ Kafka events daily in Flink and DAGs to upload reporting metrics for 4000+ ad units in 2000+ games\n- Oversaw the team's data pipeline projects to suggest designs/improvements for new features impacting ad reporting\n- Coordinated cross-team collaboration to migrate 120+ pipelines to newer infrastructure and technologies\n- Optimized up to 70% on resource usage on the heaviest pipelines, reducing monetary costs by 50%\n- Mentored 5+ engineers to onboard onto the ads reporting data pipeline to expand team expertise in this domain",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 3 mos",
+      "description": "Ads Team\n- Spearheaded SSP ads reporting to support revenue share to developers showing third-party ads in their games\n- Owned Audience Estimation with Airflow DAGs to show advertisers potential reach based on targeting criteria, processing 1B+ serving requests daily to bucket users, then approximate cardinality using HyperLogLog sketches\n- Designed modular data sanity checks to improve ads reporting accuracy, preventing bad data from surfacing to users\n- Coded an ads moderation tool using React to evaluate immersive ad image creatives, with features including zooming, reshaping, recoloring, and in-game billboard models features to maximize moderator context for accuracy\n- Implemented a full-stack solution (React, Golang) for an ads debugging tool used by all ads teams daily to track ads serving and delivery performance and anomalies, reporting current delivery status and metrics\n- Pioneered Ads Serving API, integrating with a 3rd-party ad manager and weighting ads to determine ads ranking while respecting user targeting dimensions and frequency capping to serve new immersive 3D display/portal ads",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "Social Connection Team\n- Owned the User Blocking service serving 80K+ QPS and migrated 30+ consumers to the new C# gRPC microservice\n- Migrated 116M+ user blocking lists from MSSQL to CockroachDB while anonymizing user IDs to comply with GDPR\n- Implemented friending API endpoints to support friend requests from imported contacts",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Social Connection Team\n- Developed the full moderation flow for Display Names with CSHTML, handling data changes with MSSQL\n- Integrated an SNS topic amp; SQS processor to reliably remove all user connections upon a user block",
+      "insights": ""
+     }
+    ],
+    "companyName": "Roblox",
+    "location": "San Mateo, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/147977/",
+    "companyId": "147977",
+    "duration": "6 yrs 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Berkeley RISE Lab",
+     "url": "https://www.linkedin.com/company/17932505/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM"
+     }
+    },
+    "locationName": "Berkeley, California",
+    "totalDuration": "1 yr 3 mos",
+    "positions": [
+     {
+      "title": "Undergraduate Researcher (Ray Tune)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Designed and coded a sklearn GridSearchCV API combining Tune schedulers for 10x faster parameter search\n- Published a Medium blog post featuring the new library\n- Integrated and modified the Dragonfly API to add scalable Bayesian optimization techniques within Ray\n- Added a fully-functional example of using population based training to train a memory neural network",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher (Modin)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Implemented parallelized functions with Ray to speed up JSON reading by over 2x for 200+ MB files\n- Tested against newest versions of Pandas (0.25.0) to maintain equivalent functional behavior",
+      "insights": ""
+     }
+    ],
+    "companyName": "Berkeley RISE Lab",
+    "location": "Berkeley, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17932505/",
+    "companyId": "17932505",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Back End Engineer Intern (Promoted Inventory Team) ",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Implemented and deployed from scratch a referral code service in Java as a Maven project with Spring dependency\ninjections as part of a quarterly company objective to promote reward programs for users\n- Created a secure procedure to generate referral codes via hashing (SHA256) to also avoid user codes from colliding\n- Designed database schema and data access objects with JDBI to store & update user referral codes under PostgreSQL\n- Integrated Kafka to read in millions of reservation events to track seated reservations and reward users accordingly\n- Collaborated with front-end to add support for custom discovery shifts for a 100+% more revenue pricing program\n- Coded a CRON job to update 1000+ restaurants’ metrics hourly to ensure restaurants maximize discoverability",
+    "company": {
+     "url": "https://www.linkedin.com/company/12181/",
+     "name": "OpenTable",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA"
+     }
+    },
+    "position": "Back End Engineer Intern (Promoted Inventory Team) ",
+    "companyName": "OpenTable",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12181/",
+    "companyId": "12181",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Lab Assistant/Course Reader for EE16A",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Helped students with circuits and Python code in two weekly lab sessions\n- Graded weekly assignments and midterm/final exams",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "University of California, Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8"
+     }
+    },
+    "position": "Lab Assistant/Course Reader for EE16A",
+    "companyName": "University of California, Berkeley",
+    "location": "Berkeley, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "companyId": "2517",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Analyst Intern",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Designed dashboards using Tableau after analyzing 2500+ rows to identify discrepancies between databases\n- Implemented from scratch a payment log with Google Sheets with supplementary scripts in JavaScript and Python for receipt generation, archiving, and daily summary files to process 5000+ yearly transactions\n- Developed R scripts to generate printed rosters and documents for 3800+ kids for the recreational sports camps",
+    "company": {
+     "url": "",
+     "name": "Residential and Student Services Programs",
+     "logo": {}
+    },
+    "position": "Data Analyst Intern",
+    "companyName": "Residential and Student Services Programs",
+    "location": "Berkeley, CA",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering and Data Analytics Intern",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Visualized and analyzed 100,000+ rows using R to determine user habits with the company’s light products\n- Developed an algorithm in Python (NumPy, Pandas) using matrices and cross-correlation to suggest schedules and groups based on data for automated light controls\n- Communicated and documented in Chinese to minimize the language barrier with the engineers",
+    "company": {
+     "url": "",
+     "name": "Axalent Solutions, Inc.",
+     "logo": {}
+    },
+    "position": "Software Engineering and Data Analytics Intern",
+    "companyName": "Axalent Solutions, Inc.",
+    "location": "Shanghai City, China",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Academic Intern for CS61A/CS61B",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted students individually during weekly lab sections\n- Hosted weekly office hours to help students one-on-one\n",
+    "company": {
+     "url": "",
+     "name": "The Department of Electrical Engineering and Computer Science",
+     "logo": {}
+    },
+    "position": "Academic Intern for CS61A/CS61B",
+    "companyName": "The Department of Electrical Engineering and Computer Science",
+    "location": "Berkeley, CA",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Private Tutor",
+    "locationName": "Shanghai, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Tutored a sophomore in Algebra II and high school chemistry\n- Created PowerPoint presentations to help review concepts\n- Wrote original quizzes to assess the student's understanding\n- Boosted the student's grade by half a letter grade in one quarter",
+    "company": {
+     "url": "",
+     "name": "Self",
+     "logo": {}
+    },
+    "position": "Private Tutor",
+    "companyName": "Self",
+    "location": "Shanghai, China",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Member",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Attended weekly morning-to-afternoon co-learning sessions and workshops involving computer architecture and HTML/CSS/Javascript\n- Assisted other members in various concepts learned throughout the workshops",
+    "company": {
+     "url": "https://www.linkedin.com/company/15074893/",
+     "name": "Coderbunker",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs"
+     }
+    },
+    "position": "Member",
+    "companyName": "Coderbunker",
+    "location": "Shanghai City, China",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15074893/",
+    "companyId": "15074893",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "147977",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/147977/",
+    "companyName": "Roblox",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "17932505",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17932505/",
+    "companyName": "Berkeley RISE Lab",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "company": {
+     "name": "Roblox",
+     "url": "https://www.linkedin.com/company/147977/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o"
+     }
+    },
+    "locationName": "San Mateo, CA",
+    "employmentType": "Full-time",
+    "totalDuration": "6 yrs 3 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2024
+       },
+       "endDate": null
+      },
+      "totalDuration": "2 yrs 2 mos",
+      "description": "Ads Platform Team\n- Trained agentic (GPT) models and fine-tuned VLMs (qwen-vl) using SFT & LoRA to moderate 10000+ video and image ads per day, automating the human moderation flow and reducing cost by 90+% with Temporal workers\n--- Implemented 5+ skills to fully automate an agentic moderation flow to validate performance against human labels\n--- Scaled the local skill run to dispatch tasks across remote workspaces to handle 5000+ ad evaluations daily\n--- Created an agent to scrape Meta ads through a browser flow to pass back to moderation agents for review\n- Drove the entire Google mobile and desktop ads reporting pipeline design, implementations, and coordination using Airflow DAGs amp; Apache Flink to support offline and real-time reporting and revenue share for Rewarded Ads, processing 350M+ rows of data across 11 Data Transfer files (requests, impressions, etc) joined with revenue data\n- Created a \"golden\" dataset using DAGs that process 30B+ serving response and 1B+ impression events daily to join into a singular source of truth for all ad analytical purposes, including model training for better ad delivery\n- Processed 60M+ Kafka events daily in Flink and DAGs to upload reporting metrics for 4000+ ad units in 2000+ games\n- Oversaw the team's data pipeline projects to suggest designs/improvements for new features impacting ad reporting\n- Coordinated cross-team collaboration to migrate 120+ pipelines to newer infrastructure and technologies\n- Optimized up to 70% on resource usage on the heaviest pipelines, reducing monetary costs by 50%\n- Mentored 5+ engineers to onboard onto the ads reporting data pipeline to expand team expertise in this domain",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2024
+       }
+      },
+      "totalDuration": "2 yrs 3 mos",
+      "description": "Ads Team\n- Spearheaded SSP ads reporting to support revenue share to developers showing third-party ads in their games\n- Owned Audience Estimation with Airflow DAGs to show advertisers potential reach based on targeting criteria, processing 1B+ serving requests daily to bucket users, then approximate cardinality using HyperLogLog sketches\n- Designed modular data sanity checks to improve ads reporting accuracy, preventing bad data from surfacing to users\n- Coded an ads moderation tool using React to evaluate immersive ad image creatives, with features including zooming, reshaping, recoloring, and in-game billboard models features to maximize moderator context for accuracy\n- Implemented a full-stack solution (React, Golang) for an ads debugging tool used by all ads teams daily to track ads serving and delivery performance and anomalies, reporting current delivery status and metrics\n- Pioneered Ads Serving API, integrating with a 3rd-party ad manager and weighting ads to determine ads ranking while respecting user targeting dimensions and frequency capping to serve new immersive 3D display/portal ads",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2022
+       }
+      },
+      "totalDuration": "11 mos",
+      "description": "Social Connection Team\n- Owned the User Blocking service serving 80K+ QPS and migrated 30+ consumers to the new C# gRPC microservice\n- Migrated 116M+ user blocking lists from MSSQL to CockroachDB while anonymizing user IDs to comply with GDPR\n- Implemented friending API endpoints to support friend requests from imported contacts",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 2 mos",
+      "description": "Social Connection Team\n- Developed the full moderation flow for Display Names with CSHTML, handling data changes with MSSQL\n- Integrated an SNS topic amp; SQS processor to reliably remove all user connections upon a user block",
+      "insights": ""
+     }
+    ],
+    "companyName": "Roblox",
+    "location": "San Mateo, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/147977/",
+    "companyId": "147977",
+    "duration": "6 yrs 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_400_400/B56ZXO1eZRGcAY-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=51Idxa3JOkzczi_8RFheBSMjFbxfi8X7pTejLDy76Gk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_200_200/B56ZXO1eZRGcAI-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=u00Yp5peMSemRYfiIikiORYxs9uQWiymw57a9DO2U0I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQG364JsrSwWDw/company-logo_100_100/B56ZXO1eZRGcAQ-/0/1742931879751/roblox_logo?e=1793836800&v=beta&t=ylo_YrlfNAICwZ1_pdaJCpvFmKy8QeIW7o6iMWvC58o",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Berkeley RISE Lab",
+     "url": "https://www.linkedin.com/company/17932505/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM"
+     }
+    },
+    "locationName": "Berkeley, California",
+    "totalDuration": "1 yr 3 mos",
+    "positions": [
+     {
+      "title": "Undergraduate Researcher (Ray Tune)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "- Designed and coded a sklearn GridSearchCV API combining Tune schedulers for 10x faster parameter search\n- Published a Medium blog post featuring the new library\n- Integrated and modified the Dragonfly API to add scalable Bayesian optimization techniques within Ray\n- Added a fully-functional example of using population based training to train a memory neural network",
+      "insights": ""
+     },
+     {
+      "title": "Undergraduate Researcher (Modin)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "- Implemented parallelized functions with Ray to speed up JSON reading by over 2x for 200+ MB files\n- Tested against newest versions of Pandas (0.25.0) to maintain equivalent functional behavior",
+      "insights": ""
+     }
+    ],
+    "companyName": "Berkeley RISE Lab",
+    "location": "Berkeley, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/17932505/",
+    "companyId": "17932505",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_400_400/company-logo_400_400/0/1631322896545?e=1793836800&v=beta&t=EBKLW1isBVHJ_pCQ1ewx-mw0HO_ryc1q_tvvtnItoNM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_200_200/company-logo_200_200/0/1631322896545?e=1793836800&v=beta&t=f1_fb56d6fRhT_222eFMpD_HTi2J8M4yemSLEOCk764",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnciwvth6LYA/company-logo_100_100/company-logo_100_100/0/1631322896545?e=1793836800&v=beta&t=7ya2oM5wSr5ndLjIlQDjHylCmFA2qrUA55yEuVXpBtI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Back End Engineer Intern (Promoted Inventory Team) ",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2019
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "- Implemented and deployed from scratch a referral code service in Java as a Maven project with Spring dependency\ninjections as part of a quarterly company objective to promote reward programs for users\n- Created a secure procedure to generate referral codes via hashing (SHA256) to also avoid user codes from colliding\n- Designed database schema and data access objects with JDBI to store & update user referral codes under PostgreSQL\n- Integrated Kafka to read in millions of reservation events to track seated reservations and reward users accordingly\n- Collaborated with front-end to add support for custom discovery shifts for a 100+% more revenue pricing program\n- Coded a CRON job to update 1000+ restaurants’ metrics hourly to ensure restaurants maximize discoverability",
+    "company": {
+     "url": "https://www.linkedin.com/company/12181/",
+     "name": "OpenTable",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA"
+     }
+    },
+    "position": "Back End Engineer Intern (Promoted Inventory Team) ",
+    "companyName": "OpenTable",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/12181/",
+    "companyId": "12181",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_400_400/company-logo_400_400/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=ywMkcFMORMHupCRiwhrZJQeQHUlIhBt0YLUAw08kxfA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_200_200/company-logo_200_200/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=6_AOgioDSdIrCQaV18l8AiRuq2tymf6ezlkyAAI6h0M",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHVUb8KeHv_-A/company-logo_100_100/company-logo_100_100/0/1709249414071/opentable_logo?e=1793836800&v=beta&t=w7fOecejtHQRvh60CbWYeZryP1EHj_e4AJMqcG9JnVQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Lab Assistant/Course Reader for EE16A",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Helped students with circuits and Python code in two weekly lab sessions\n- Graded weekly assignments and midterm/final exams",
+    "company": {
+     "url": "https://www.linkedin.com/company/2517/",
+     "name": "University of California, Berkeley",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8"
+     }
+    },
+    "position": "Lab Assistant/Course Reader for EE16A",
+    "companyName": "University of California, Berkeley",
+    "location": "Berkeley, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "companyId": "2517",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Data Analyst Intern",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Designed dashboards using Tableau after analyzing 2500+ rows to identify discrepancies between databases\n- Implemented from scratch a payment log with Google Sheets with supplementary scripts in JavaScript and Python for receipt generation, archiving, and daily summary files to process 5000+ yearly transactions\n- Developed R scripts to generate printed rosters and documents for 3800+ kids for the recreational sports camps",
+    "company": {
+     "url": "",
+     "name": "Residential and Student Services Programs",
+     "logo": {}
+    },
+    "position": "Data Analyst Intern",
+    "companyName": "Residential and Student Services Programs",
+    "location": "Berkeley, CA",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering and Data Analytics Intern",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Visualized and analyzed 100,000+ rows using R to determine user habits with the company’s light products\n- Developed an algorithm in Python (NumPy, Pandas) using matrices and cross-correlation to suggest schedules and groups based on data for automated light controls\n- Communicated and documented in Chinese to minimize the language barrier with the engineers",
+    "company": {
+     "url": "",
+     "name": "Axalent Solutions, Inc.",
+     "logo": {}
+    },
+    "position": "Software Engineering and Data Analytics Intern",
+    "companyName": "Axalent Solutions, Inc.",
+    "location": "Shanghai City, China",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Academic Intern for CS61A/CS61B",
+    "locationName": "Berkeley, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted students individually during weekly lab sections\n- Hosted weekly office hours to help students one-on-one\n",
+    "company": {
+     "url": "",
+     "name": "The Department of Electrical Engineering and Computer Science",
+     "logo": {}
+    },
+    "position": "Academic Intern for CS61A/CS61B",
+    "companyName": "The Department of Electrical Engineering and Computer Science",
+    "location": "Berkeley, CA",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Private Tutor",
+    "locationName": "Shanghai, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "- Tutored a sophomore in Algebra II and high school chemistry\n- Created PowerPoint presentations to help review concepts\n- Wrote original quizzes to assess the student's understanding\n- Boosted the student's grade by half a letter grade in one quarter",
+    "company": {
+     "url": "",
+     "name": "Self",
+     "logo": {}
+    },
+    "position": "Private Tutor",
+    "companyName": "Self",
+    "location": "Shanghai, China",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Member",
+    "locationName": "Shanghai City, China",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Attended weekly morning-to-afternoon co-learning sessions and workshops involving computer architecture and HTML/CSS/Javascript\n- Assisted other members in various concepts learned throughout the workshops",
+    "company": {
+     "url": "https://www.linkedin.com/company/15074893/",
+     "name": "Coderbunker",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs"
+     }
+    },
+    "position": "Member",
+    "companyName": "Coderbunker",
+    "location": "Shanghai City, China",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15074893/",
+    "companyId": "15074893",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_400_400/company-logo_400_400/0/1631371281515?e=1793836800&v=beta&t=AjRCK7WpY4RjXc8oK8bK-LejPyM39kOoHJFoD7rFmfs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_200_200/company-logo_200_200/0/1631371281515?e=1793836800&v=beta&t=sr2PHmCQRp5Dei1mad3QBdx5DtSB3LXCXutrZkJJx9Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHQ4alxHZKBuQ/company-logo_100_100/company-logo_100_100/0/1631371281515?e=1793836800&v=beta&t=XZqYbOPmPhIXm8C2IFZOm-Ftq5rErEQuC7o_PpnU4J8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor of Arts (B.A.)",
+    "fieldOfStudy": "Computer Science & Statistics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "schoolId": "2517",
+    "degree": "Bachelor of Arts (B.A.)",
+    "skills": [],
+    "startDate": {
+     "year": 2016
+    },
+    "endDate": {
+     "year": 2020
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "The SMIC Private School",
+    "degreeName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 2005
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "skills": [],
+    "startDate": {
+     "year": 2005
+    },
+    "endDate": {
+     "year": 2016
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_400_400/company-logo_400_400/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=43cCY13aTEe4QPJ7Sh669jB_OIpX7OmkmaHVKiv6ul8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_200_200/company-logo_200_200/0/1732135669730/uc_berkeley_logo?e=1793836800&v=beta&t=jIQtUwW0n5tfTqZUL9CAwZVxHorttEbCntcUkjX1VSY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwjF_5CYj_JQ/company-logo_100_100/company-logo_100_100/0/1732135669731/uc_berkeley_logo?e=1793836800&v=beta&t=OIb4d_V5fCA5OLYiNXCkzuPZTFhSvtTsdBJ1E_pd1WM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2517/",
+    "schoolName": "University of California, Berkeley",
+    "degreeName": "Bachelor of Arts (B.A.)",
+    "fieldOfStudy": "Computer Science & Statistics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2517/",
+    "schoolId": "2517",
+    "degree": "Bachelor of Arts (B.A.)",
+    "skills": [],
+    "startDate": {
+     "year": 2016
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Hacktech 2019: Best Entertainment Hack",
+    "description": "- Developed an entertainment system that converts hand and arm motions to play preset tracks or custom sounds\n- Implemented with the Kinect API to recognize hand motions and positions to toggle play modes or instruments\n- Wrote tracks using Sonic Pi \n- Designed a UI with PyGame to draw important joints with Kinect",
+    "issueDate": {},
+    "issuer": "Issued by Major League Hacking · Mar 2019"
+   },
+   {
+    "title": "Upsilon Pi Epsilon Member",
+    "description": "- Invited to the computer science honor society in UC Berkeley\n- Part of the top third of all computer science majors in UC Berkeley",
+    "issueDate": {},
+    "issuer": "Issued by Upsilon Pi Epsilon · May 2018"
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Volunteer at the Shanghai Healing Home",
+    "companyName": "Shanghai Healing Home",
+    "description": "Cared for orphaned children with cleft lip and palate or other physical deformities.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2014
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "",
+     "name": "Shanghai Healing Home",
+     "logo": {}
+    },
+    "organization": "Shanghai Healing Home"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Volunteer at the Shanghai Healing Home",
+    "companyName": "Shanghai Healing Home",
+    "description": "Cared for orphaned children with cleft lip and palate or other physical deformities.",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2014
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "",
+     "name": "Shanghai Healing Home",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516632425668?e=1793836800&v=beta&t=hsG5ze1ILbGQWxm7MDHAm7TsKiPnjzyYi1CBJqgYnn4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516632425605?e=1793836800&v=beta&t=sOVFU56nowfe-6Z9JT7ajRXb-CCGC0bnmtdGcPs_3kQ",
+   "url": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516632425605?e=1793836800&v=beta&t=sOVFU56nowfe-6Z9JT7ajRXb-CCGC0bnmtdGcPs_3kQ",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516632425605?e=1793836800&v=beta&t=sOVFU56nowfe-6Z9JT7ajRXb-CCGC0bnmtdGcPs_3kQ",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E16AQFt_vzjnbs1Bw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516632425668?e=1793836800&v=beta&t=hsG5ze1ILbGQWxm7MDHAm7TsKiPnjzyYi1CBJqgYnn4",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/anthony-yu-5239a877"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T18:29:37.486Z",
+ "foundBy": null
+}

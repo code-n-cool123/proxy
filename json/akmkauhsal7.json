@@ -1,0 +1,1162 @@
+{
+ "slug": "akmkauhsal7",
+ "inputUrl": "https://www.linkedin.com/in/akmkauhsal7",
+ "fetchedAt": "2026-11-18T19:39:05.667Z",
+ "id": "6afdfed9326d0b70b7e25a60",
+ "url": "https://www.linkedin.com/in/akmkauhsal7",
+ "profile": {
+  "created": 1411048785451,
+  "trackingId": "xIhSU/FSTmCvz2SeXB1bRQ==",
+  "firstName": "Kaushalkumar",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "2173454428",
+  "headline": "Senior Software Engineer | Healthcare & Clinical AI Platforms | Full Stack · End-to-End Delivery",
+  "publicIdentifier": "akmkauhsal7",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "371124545",
+  "profileId": "ACoAABYe6UEBsauPoVNHqb93D5bL_cSkcEhq1QY",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726519222499?e=1796860800&v=beta&t=ads3T-oAHdafD12o2SVSBUAF4cvVzu8m3NhInQ1qJVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726519222499?e=1796860800&v=beta&t=BjY6jaQkrRfCuisRehvitr-bK5XqQmt75BbIN3r0-n8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726519222499?e=1796860800&v=beta&t=bDLb1o0fZMCqjPU6gPQmmuwptZHT_KbrWOtiRxYbZH4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1718655308444?e=1796860800&v=beta&t=puNQGJirL8PrhmJh8vcSJu01zM0c4Aq6hDUks4xApCw",
+   "1056x264": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718655308444?e=1796860800&v=beta&t=Z1RodwZlBG93REio6GMgW--hCigv7iPlPhR4YkEhJLw"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102003310",
+  "geoLocationName": "Edison, New Jersey, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Who I Am\nI’m a Senior Software Engineer with 8+ years building healthcare and clinical AI platforms. Currently shipping production multi-agent LLM features for the largest active community of medical experts, on a stack of Go, TypeScript/React, GPT-5, DynamoDB, and AWS EKS.\n\nWhat I do\n• Build features end-to-end across schema, API, frontend, infrastructure, and observability — no handoffs, no waiting on other teams\n• Ship production AI: multi-agent LLM platforms, evidence-based answer drafting, proofread review, streaming UIs with planner/synthesizer architectures\n• Scale products from 0 to N independently and own them through production incidents\n• Mentor juniors, lead delivery on multi-month, multi-codebase projects, and set technical direction\n\nHow I work\nDaily Claude Code driver. I’ve built a personal AI-assisted engineering workflow with ~20 custom commands, a 7-phase PR review skill that runs parallel sub-agents, and a full MCP tool ecosystem so my agents act on real systems instead of just reading code. This is how I get senior-engineer leverage on multi-repo work.\n\nStack I reach for: TypeScript, Go, Node.js, React, Next.js, NestJS, Python, MySQL, PostgreSQL, MongoDB, DynamoDB, AWS, Azure, Kubernetes, Terraform.\n\nHealthcare domains shipped in: pharma, hospitals, insurance, clinical trials, REMS programs, FHIR/EMR integration.\n\nOff the keyboard: hiking and camping.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "employmentType": "Full-time",
+    "description": "At Mednet, the largest active community of medical experts. Building the AI layer of the platform alongside core platform engineering across the modern and legacy stacks.\n\nWhat I have shipped:\n🤖 Multi-Agent AI Platform — built a multi-agent LLM system in Go powering two production features: evidence-based expert-answer drafting and proofread review of physician-authored answers. Planner/synthesizer architecture on GPT-5, DynamoDB session caching, Server-Sent Events streaming with a “thinking step” preview, automatic citation of clinical guidelines, and per-conversation cost tracking for unit economics.\n\n🔐 Doctor Onboarding V2 + Enterprise SSO — rewrote the doctor onboarding flow across four codebases with no regressions during cutover. Shipped SSO with Google, Microsoft, and Apple, including identity-mapping schema, OAuth provider chain, and automated Apple key rotation through AWS Secrets Manager. Migrated live traffic behind a LaunchDarkly flag with zero downtime.\n\n🛡️ Shadow-Ban Moderation System — owned moderation for the platform’s core entities (questions, answers, comments) end-to-end across database, API, admin frontend, legacy services, and the email pipeline. Banned authors still see their own content; the community doesn’t.\n\n⚙️ Platform engineering — speech-to-text dictation via AWS Transcribe Medical, GTM analytics pipeline with user-level identity attribution, Terraform/Kubernetes for new service rollouts, production debugging across CloudWatch, Sentry, and New Relic.\n\nStack: TypeScript/React, Node.js, Go, PHP/Yii, MySQL, DynamoDB, Redis, AWS EKS, Terraform.",
+    "insights": "React.js, Node.js and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/6591189/",
+     "name": "Mednet",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME"
+     }
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/5103346/",
+     "name": "Medocity, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs 3 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "Greater New York City Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 yrs 2 mos",
+      "description": "𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀 (7+ 𝘆𝗲𝗮𝗿𝘀):\n• Built RESTful APIs and GraphQL endpoints using Apollo Server.\n• Proficient in Promises, Async/Await, and event-driven architecture.\n• Integrated Socket.IO for real-time features like chat and notifications.\n• Created middleware for logging, error handling, and preprocessing in Express.js.\n• Developed Azure functions for FHIR data integration with EHR systems.\n𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦 (6 𝘆𝗲𝗮𝗿𝘀):\n• Developed RESTful APIs with JWT, OAuth2, and role-based access control in TypeScript\n• Built microservices with Azure Service Bus for communication\n• Developed with guards, interceptors, and pipelines\n• Integrated TypeORM and Mongoose for database operations\n• Performed unit testing with Jest\n• Added Swagger documentation using @nestjs/swagger\n𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜(𝟱 𝘆𝗲𝗮𝗿𝘀):\n• Developed high-performance REST APIs with FastAPI\n• Used SQLAlchemy for Azure SQL Server, PostgreSQL and  PyMongo for MongoDB\n• Built data validation for APIs with Pydantic\n• Applied FastAPI dependency injection for modular code\n• Developed ETL pipelines\n• Wrote scripts for data processing and recurring tasks\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀:\n• Optimized APIs with Redis caching and MongoDB schema design\n• Created Azure functions for background jobs and tasks\n• Managed SQL Server/PostgreSQL for real-time reporting\n• Proficient in Azure services: Web Apps, Function Apps, and CI/CD pipelines with Azure DevOps\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱\n• Built SPAs with React, Context API, and Redux for state management\n• Developed reusable components, hooks, and integrated APIs with Axios\n• Improved performance with lazy loading and code-splitting\n• Designed responsive UIs using Bootstrap, Tailwind CSS, and HTML/CSS\n• Integrated real-time updates using Chart.js\n𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:\n• Managed Agile projects via JIRA and conducted code reviews\n• Led team across time zones and partnered with UX teams on Figma designs",
+      "insights": "MERN Stack, Node.js and +60 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "New York City Metropolitan Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "3 yrs 2 mos",
+      "description": "𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀: Built RESTful APIs, GraphQL endpoints, Socket.IO integrations, and serverless Azure functions. Proficient in middleware, async programming, and ESLint.\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦: Developed modular REST APIs, microservices, and secured systems with JWT/OAuth2. Used TypeORM/Mongoose, guards, interceptors, Jest testing.\n• 𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜: Built scalable apps, REST APIs, middleware, ORM optimizations, ETL pipelines, and asyncio workflows.\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀\n• Optimized APIs with Redis caching, MongoDB triggers, and SQL Server/PostgreSQL schemas.\n• Created Azure serverless functions, CI/CD pipelines, and managed Azure services.\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• Developed React SPAs with reusable components, Context API, Redux, and Axios.\n• Enhanced UIs with Bootstrap, Tailwind CSS, and performance optimizations.\n• Integrated real-time updates using Chart.js and Socket.IO.",
+      "insights": "MERN Stack, Node.js and +59 skills"
+     }
+    ]
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_200_200/company-logo_200_200/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=WYdq4S4SM8bfi7sRSpDKLLeWwjctE7JFSHS_xFryUH8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_100_100/company-logo_100_100/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=xxV5kXwCaJcLbUMX3TBL_XWEDznRzkNrnwcSrUzEPaY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10822/",
+    "schoolName": "Fairleigh Dickinson University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "VISHWAKARMA GOVERNMENT ENGINEERING COLLEGE",
+    "degreeName": "Engineer’s Degree",
+    "fieldOfStudy": "Information Technology",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Programming in C++",
+    "authority": "Aptech",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Aptech",
+    "title": "Programming in C++",
+    "issuedBy": "Aptech",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Programming in C",
+    "authority": "Aptech",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Aptech",
+    "title": "Programming in C",
+    "issuedBy": "Aptech",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Advance Database System"
+   },
+   {
+    "name": "Artificial Intelligence"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Mednet",
+  "companyPublicId": "themednet",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/themednet/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:6591189",
+   "name": "Mednet",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEk5DIjtE0vGg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+       "expiresAt": 1796860800000,
+       "height": 400
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+       "expiresAt": 1796860800000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_"
+    }
+   },
+   "universalName": "themednet",
+   "url": "https://www.linkedin.com/company/themednet/",
+   "slug": "themednet",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+   "specialties": []
+  },
+  "followerCount": 1642,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1638,
+  "skills": [
+   {
+    "name": "Interpersonal Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Skilled Multi-tasker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SASS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django REST Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Gateways",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "State Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React Hooks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MERN Stack",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redux.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dashboard Building",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tailwind CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "State Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React Hooks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dashboard Building",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Flows",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Review",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript Frameworks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Scale Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Structures",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Extract, Transform, Load (ETL)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Experience (UX)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SASS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django REST Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Gateways",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MERN Stack",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redux.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tailwind CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Representational State Transfer (REST)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Swagger API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Figma (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure DevOps Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Electronic Medical Record (EMR)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JSON",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Interpersonal Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Skilled Multi-tasker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/akmkauhsal7",
+  "linkedinUrl": "https://www.linkedin.com/in/akmkauhsal7",
+  "profileUrl": "https://www.linkedin.com/in/akmkauhsal7",
+  "verified": true,
+  "registeredAt": "2014-09-18T13:59:45.451Z",
+  "location": {
+   "linkedinText": "Edison, New Jersey, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Edison, New Jersey, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Who I Am\nI’m a Senior Software Engineer with 8+ years building healthcare and clinical AI platforms. Currently shipping production multi-agent LLM features for the largest active community of medical experts, on a stack of Go, TypeScript/React, GPT-5, DynamoDB, and AWS EKS.\n\nWhat I do\n• Build features end-to-end across schema, API, frontend, infrastructure, and observability — no handoffs, no waiting on other teams\n• Ship production AI: multi-agent LLM platforms, evidence-based answer drafting, proofread review, streaming UIs with planner/synthesizer architectures\n• Scale products from 0 to N independently and own them through production incidents\n• Mentor juniors, lead delivery on multi-month, multi-codebase projects, and set technical direction\n\nHow I work\nDaily Claude Code driver. I’ve built a personal AI-assisted engineering workflow with ~20 custom commands, a 7-phase PR review skill that runs parallel sub-agents, and a full MCP tool ecosystem so my agents act on real systems instead of just reading code. This is how I get senior-engineer leverage on multi-repo work.\n\nStack I reach for: TypeScript, Go, Node.js, React, Next.js, NestJS, Python, MySQL, PostgreSQL, MongoDB, DynamoDB, AWS, Azure, Kubernetes, Terraform.\n\nHealthcare domains shipped in: pharma, hospitals, insurance, clinical trials, REMS programs, FHIR/EMR integration.\n\nOff the keyboard: hiking and camping.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "employmentType": "Full-time",
+    "description": "At Mednet, the largest active community of medical experts. Building the AI layer of the platform alongside core platform engineering across the modern and legacy stacks.\n\nWhat I have shipped:\n🤖 Multi-Agent AI Platform — built a multi-agent LLM system in Go powering two production features: evidence-based expert-answer drafting and proofread review of physician-authored answers. Planner/synthesizer architecture on GPT-5, DynamoDB session caching, Server-Sent Events streaming with a “thinking step” preview, automatic citation of clinical guidelines, and per-conversation cost tracking for unit economics.\n\n🔐 Doctor Onboarding V2 + Enterprise SSO — rewrote the doctor onboarding flow across four codebases with no regressions during cutover. Shipped SSO with Google, Microsoft, and Apple, including identity-mapping schema, OAuth provider chain, and automated Apple key rotation through AWS Secrets Manager. Migrated live traffic behind a LaunchDarkly flag with zero downtime.\n\n🛡️ Shadow-Ban Moderation System — owned moderation for the platform’s core entities (questions, answers, comments) end-to-end across database, API, admin frontend, legacy services, and the email pipeline. Banned authors still see their own content; the community doesn’t.\n\n⚙️ Platform engineering — speech-to-text dictation via AWS Transcribe Medical, GTM analytics pipeline with user-level identity attribution, Terraform/Kubernetes for new service rollouts, production debugging across CloudWatch, Sentry, and New Relic.\n\nStack: TypeScript/React, Node.js, Go, PHP/Yii, MySQL, DynamoDB, Redis, AWS EKS, Terraform.",
+    "insights": "React.js, Node.js and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/6591189/",
+     "name": "Mednet",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Mednet",
+    "location": "New York, NY · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6591189/",
+    "companyId": "6591189",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/5103346/",
+     "name": "Medocity, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs 3 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "Greater New York City Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 yrs 2 mos",
+      "description": "𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀 (7+ 𝘆𝗲𝗮𝗿𝘀):\n• Built RESTful APIs and GraphQL endpoints using Apollo Server.\n• Proficient in Promises, Async/Await, and event-driven architecture.\n• Integrated Socket.IO for real-time features like chat and notifications.\n• Created middleware for logging, error handling, and preprocessing in Express.js.\n• Developed Azure functions for FHIR data integration with EHR systems.\n𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦 (6 𝘆𝗲𝗮𝗿𝘀):\n• Developed RESTful APIs with JWT, OAuth2, and role-based access control in TypeScript\n• Built microservices with Azure Service Bus for communication\n• Developed with guards, interceptors, and pipelines\n• Integrated TypeORM and Mongoose for database operations\n• Performed unit testing with Jest\n• Added Swagger documentation using @nestjs/swagger\n𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜(𝟱 𝘆𝗲𝗮𝗿𝘀):\n• Developed high-performance REST APIs with FastAPI\n• Used SQLAlchemy for Azure SQL Server, PostgreSQL and  PyMongo for MongoDB\n• Built data validation for APIs with Pydantic\n• Applied FastAPI dependency injection for modular code\n• Developed ETL pipelines\n• Wrote scripts for data processing and recurring tasks\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀:\n• Optimized APIs with Redis caching and MongoDB schema design\n• Created Azure functions for background jobs and tasks\n• Managed SQL Server/PostgreSQL for real-time reporting\n• Proficient in Azure services: Web Apps, Function Apps, and CI/CD pipelines with Azure DevOps\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱\n• Built SPAs with React, Context API, and Redux for state management\n• Developed reusable components, hooks, and integrated APIs with Axios\n• Improved performance with lazy loading and code-splitting\n• Designed responsive UIs using Bootstrap, Tailwind CSS, and HTML/CSS\n• Integrated real-time updates using Chart.js\n𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:\n• Managed Agile projects via JIRA and conducted code reviews\n• Led team across time zones and partnered with UX teams on Figma designs",
+      "insights": "MERN Stack, Node.js and +60 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "New York City Metropolitan Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "3 yrs 2 mos",
+      "description": "𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀: Built RESTful APIs, GraphQL endpoints, Socket.IO integrations, and serverless Azure functions. Proficient in middleware, async programming, and ESLint.\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦: Developed modular REST APIs, microservices, and secured systems with JWT/OAuth2. Used TypeORM/Mongoose, guards, interceptors, Jest testing.\n• 𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜: Built scalable apps, REST APIs, middleware, ORM optimizations, ETL pipelines, and asyncio workflows.\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀\n• Optimized APIs with Redis caching, MongoDB triggers, and SQL Server/PostgreSQL schemas.\n• Created Azure serverless functions, CI/CD pipelines, and managed Azure services.\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• Developed React SPAs with reusable components, Context API, Redux, and Axios.\n• Enhanced UIs with Bootstrap, Tailwind CSS, and performance optimizations.\n• Integrated real-time updates using Chart.js and Socket.IO.",
+      "insights": "MERN Stack, Node.js and +59 skills"
+     }
+    ],
+    "companyName": "Medocity, Inc.",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5103346/",
+    "companyId": "5103346",
+    "duration": "7 yrs 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [],
+  "currentPosition": [
+   {
+    "companyId": "6591189",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6591189/",
+    "companyName": "Mednet",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "5103346",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5103346/",
+    "companyName": "Medocity, Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 5 mos",
+    "employmentType": "Full-time",
+    "description": "At Mednet, the largest active community of medical experts. Building the AI layer of the platform alongside core platform engineering across the modern and legacy stacks.\n\nWhat I have shipped:\n🤖 Multi-Agent AI Platform — built a multi-agent LLM system in Go powering two production features: evidence-based expert-answer drafting and proofread review of physician-authored answers. Planner/synthesizer architecture on GPT-5, DynamoDB session caching, Server-Sent Events streaming with a “thinking step” preview, automatic citation of clinical guidelines, and per-conversation cost tracking for unit economics.\n\n🔐 Doctor Onboarding V2 + Enterprise SSO — rewrote the doctor onboarding flow across four codebases with no regressions during cutover. Shipped SSO with Google, Microsoft, and Apple, including identity-mapping schema, OAuth provider chain, and automated Apple key rotation through AWS Secrets Manager. Migrated live traffic behind a LaunchDarkly flag with zero downtime.\n\n🛡️ Shadow-Ban Moderation System — owned moderation for the platform’s core entities (questions, answers, comments) end-to-end across database, API, admin frontend, legacy services, and the email pipeline. Banned authors still see their own content; the community doesn’t.\n\n⚙️ Platform engineering — speech-to-text dictation via AWS Transcribe Medical, GTM analytics pipeline with user-level identity attribution, Terraform/Kubernetes for new service rollouts, production debugging across CloudWatch, Sentry, and New Relic.\n\nStack: TypeScript/React, Node.js, Go, PHP/Yii, MySQL, DynamoDB, Redis, AWS EKS, Terraform.",
+    "insights": "React.js, Node.js and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/6591189/",
+     "name": "Mednet",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Mednet",
+    "location": "New York, NY · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6591189/",
+    "companyId": "6591189",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_400_400/B56Zx2sGP3J4Ac-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=VU_sCb4qcq9COJiqhT6oiSoQFUF3eU7f9TxD93j4SRY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_200_200/B56Zx2sGP3J4AM-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=7PiM3jDv58wqaJwlBoQoklyQ_5Mnyj7Q7-owjz6ZOME",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEk5DIjtE0vGg/company-logo_100_100/B56Zx2sGP3J4AU-/0/1771517798065/themednet_logo?e=1796860800&v=beta&t=wXKMz6i6XCIB3ktVjKFU_lEcRMJruM35YDAvEcpj4HQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/5103346/",
+     "name": "Medocity, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s"
+     }
+    },
+    "locationName": "On-site",
+    "totalDuration": "7 yrs 3 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Developer",
+      "locationName": "Greater New York City Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2025
+       }
+      },
+      "totalDuration": "4 yrs 2 mos",
+      "description": "𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀 (7+ 𝘆𝗲𝗮𝗿𝘀):\n• Built RESTful APIs and GraphQL endpoints using Apollo Server.\n• Proficient in Promises, Async/Await, and event-driven architecture.\n• Integrated Socket.IO for real-time features like chat and notifications.\n• Created middleware for logging, error handling, and preprocessing in Express.js.\n• Developed Azure functions for FHIR data integration with EHR systems.\n𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦 (6 𝘆𝗲𝗮𝗿𝘀):\n• Developed RESTful APIs with JWT, OAuth2, and role-based access control in TypeScript\n• Built microservices with Azure Service Bus for communication\n• Developed with guards, interceptors, and pipelines\n• Integrated TypeORM and Mongoose for database operations\n• Performed unit testing with Jest\n• Added Swagger documentation using @nestjs/swagger\n𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜(𝟱 𝘆𝗲𝗮𝗿𝘀):\n• Developed high-performance REST APIs with FastAPI\n• Used SQLAlchemy for Azure SQL Server, PostgreSQL and  PyMongo for MongoDB\n• Built data validation for APIs with Pydantic\n• Applied FastAPI dependency injection for modular code\n• Developed ETL pipelines\n• Wrote scripts for data processing and recurring tasks\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀:\n• Optimized APIs with Redis caching and MongoDB schema design\n• Created Azure functions for background jobs and tasks\n• Managed SQL Server/PostgreSQL for real-time reporting\n• Proficient in Azure services: Web Apps, Function Apps, and CI/CD pipelines with Azure DevOps\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱\n• Built SPAs with React, Context API, and Redux for state management\n• Developed reusable components, hooks, and integrated APIs with Axios\n• Improved performance with lazy loading and code-splitting\n• Designed responsive UIs using Bootstrap, Tailwind CSS, and HTML/CSS\n• Integrated real-time updates using Chart.js\n𝗠𝗮𝗻𝗮𝗴𝗲𝗺𝗲𝗻𝘁:\n• Managed Agile projects via JIRA and conducted code reviews\n• Led team across time zones and partnered with UX teams on Figma designs",
+      "insights": "MERN Stack, Node.js and +60 skills"
+     },
+     {
+      "title": "Software Developer",
+      "locationName": "New York City Metropolitan Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 6,
+        "year": 2021
+       }
+      },
+      "totalDuration": "3 yrs 2 mos",
+      "description": "𝗕𝗮𝗰𝗸𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗘𝘅𝗽𝗿𝗲𝘀𝘀.𝗷𝘀: Built RESTful APIs, GraphQL endpoints, Socket.IO integrations, and serverless Azure functions. Proficient in middleware, async programming, and ESLint.\n• 𝗡𝗼𝗱𝗲.𝗷𝘀 𝘄𝗶𝘁𝗵 𝗡𝗲𝘀𝘁𝗝𝗦: Developed modular REST APIs, microservices, and secured systems with JWT/OAuth2. Used TypeORM/Mongoose, guards, interceptors, Jest testing.\n• 𝗣𝘆𝘁𝗵𝗼𝗻 𝗮𝗻𝗱 𝗙𝗮𝘀𝘁𝗔𝗣𝗜: Built scalable apps, REST APIs, middleware, ORM optimizations, ETL pipelines, and asyncio workflows.\n𝗖𝗿𝗼𝘀𝘀-𝗖𝘂𝘁𝘁𝗶𝗻𝗴 𝗖𝗼𝗻𝗰𝗲𝗿𝗻𝘀\n• Optimized APIs with Redis caching, MongoDB triggers, and SQL Server/PostgreSQL schemas.\n• Created Azure serverless functions, CI/CD pipelines, and managed Azure services.\n𝗙𝗿𝗼𝗻𝘁𝗲𝗻𝗱 𝗥𝗲𝘀𝗽𝗼𝗻𝘀𝗶𝗯𝗶𝗹𝗶𝘁𝗶𝗲𝘀\n• Developed React SPAs with reusable components, Context API, Redux, and Axios.\n• Enhanced UIs with Bootstrap, Tailwind CSS, and performance optimizations.\n• Integrated real-time updates using Chart.js and Socket.IO.",
+      "insights": "MERN Stack, Node.js and +59 skills"
+     }
+    ],
+    "companyName": "Medocity, Inc.",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5103346/",
+    "companyId": "5103346",
+    "duration": "7 yrs 3 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_400_400/company-logo_400_400/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=v1Fp3tbXbKIkF_gLdeDME9v9NlGAutVWUedEYBrHz9s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_200_200/company-logo_200_200/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=5MaProh415IUxk8vWHneAA8hzJAnsPT04bw8wMQjJI0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEoAC-lfzxEwg/company-logo_100_100/company-logo_100_100/0/1645468583917/medocityinc_logo?e=1796860800&v=beta&t=FzlONBFIfTzx5xw7nA249LVVYK-l0CXSs5NXkSNTHts",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_200_200/company-logo_200_200/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=WYdq4S4SM8bfi7sRSpDKLLeWwjctE7JFSHS_xFryUH8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_100_100/company-logo_100_100/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=xxV5kXwCaJcLbUMX3TBL_XWEDznRzkNrnwcSrUzEPaY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_200_200/company-logo_200_200/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=WYdq4S4SM8bfi7sRSpDKLLeWwjctE7JFSHS_xFryUH8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_100_100/company-logo_100_100/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=xxV5kXwCaJcLbUMX3TBL_XWEDznRzkNrnwcSrUzEPaY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10822/",
+    "schoolName": "Fairleigh Dickinson University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10822/",
+    "schoolId": "10822",
+    "degree": "Master’s Degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "VISHWAKARMA GOVERNMENT ENGINEERING COLLEGE",
+    "degreeName": "Engineer’s Degree",
+    "fieldOfStudy": "Information Technology",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2015
+     }
+    },
+    "degree": "Engineer’s Degree",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_200_200/company-logo_200_200/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=WYdq4S4SM8bfi7sRSpDKLLeWwjctE7JFSHS_xFryUH8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_100_100/company-logo_100_100/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=xxV5kXwCaJcLbUMX3TBL_XWEDznRzkNrnwcSrUzEPaY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_400_400/company-logo_400_400/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=VLBPX5tvxdn1X-ViyNx7GFTBJeh2nb_HhQkSh92lehg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_200_200/company-logo_200_200/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=WYdq4S4SM8bfi7sRSpDKLLeWwjctE7JFSHS_xFryUH8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFn1-Q-th6QHg/company-logo_100_100/company-logo_100_100/0/1720538505455/fairleigh_dickinson_university_logo?e=1796860800&v=beta&t=xxV5kXwCaJcLbUMX3TBL_XWEDznRzkNrnwcSrUzEPaY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10822/",
+    "schoolName": "Fairleigh Dickinson University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10822/",
+    "schoolId": "10822",
+    "degree": "Master’s Degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726519222499?e=1796860800&v=beta&t=ads3T-oAHdafD12o2SVSBUAF4cvVzu8m3NhInQ1qJVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726519222499?e=1796860800&v=beta&t=BjY6jaQkrRfCuisRehvitr-bK5XqQmt75BbIN3r0-n8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726519222499?e=1796860800&v=beta&t=bDLb1o0fZMCqjPU6gPQmmuwptZHT_KbrWOtiRxYbZH4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726519222499?e=1796860800&v=beta&t=bDLb1o0fZMCqjPU6gPQmmuwptZHT_KbrWOtiRxYbZH4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726519222499?e=1796860800&v=beta&t=BjY6jaQkrRfCuisRehvitr-bK5XqQmt75BbIN3r0-n8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726519222499?e=1796860800&v=beta&t=ads3T-oAHdafD12o2SVSBUAF4cvVzu8m3NhInQ1qJVU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726519222499?e=1796860800&v=beta&t=ads3T-oAHdafD12o2SVSBUAF4cvVzu8m3NhInQ1qJVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726519222499?e=1796860800&v=beta&t=BjY6jaQkrRfCuisRehvitr-bK5XqQmt75BbIN3r0-n8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726519222499?e=1796860800&v=beta&t=bDLb1o0fZMCqjPU6gPQmmuwptZHT_KbrWOtiRxYbZH4",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726519222536?e=1796860800&v=beta&t=f6XVh4dW3HQtn4EGshWKmFO3ge_nq4woIaIP6tKEsmc",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726519222499?e=1796860800&v=beta&t=bDLb1o0fZMCqjPU6gPQmmuwptZHT_KbrWOtiRxYbZH4",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726519222499?e=1796860800&v=beta&t=BjY6jaQkrRfCuisRehvitr-bK5XqQmt75BbIN3r0-n8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE5VtSigLVNIw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726519222499?e=1796860800&v=beta&t=ads3T-oAHdafD12o2SVSBUAF4cvVzu8m3NhInQ1qJVU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1718655308444?e=1796860800&v=beta&t=puNQGJirL8PrhmJh8vcSJu01zM0c4Aq6hDUks4xApCw",
+   "1056x264": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718655308444?e=1796860800&v=beta&t=Z1RodwZlBG93REio6GMgW--hCigv7iPlPhR4YkEhJLw",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718655308444?e=1796860800&v=beta&t=Z1RodwZlBG93REio6GMgW--hCigv7iPlPhR4YkEhJLw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1718655308444?e=1796860800&v=beta&t=Z1RodwZlBG93REio6GMgW--hCigv7iPlPhR4YkEhJLw",
+     "width": 1056,
+     "height": 264
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQHIQI5Rbr3pTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1718655308444?e=1796860800&v=beta&t=puNQGJirL8PrhmJh8vcSJu01zM0c4Aq6hDUks4xApCw",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/akmkauhsal7"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T19:38:56.201Z",
+ "foundBy": null
+}

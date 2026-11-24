@@ -1,0 +1,1444 @@
+{
+ "slug": "josephtaewookim",
+ "inputUrl": "https://www.linkedin.com/in/josephtaewookim",
+ "fetchedAt": "2026-11-13T02:28:36.942Z",
+ "id": "6af675d4326d0b70b7e24751",
+ "url": "https://www.linkedin.com/in/josephtaewookim",
+ "profile": {
+  "created": 1369674930100,
+  "trackingId": "MoGTnlnTQBOymbc4gihqZA==",
+  "firstName": "Joseph",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "906040892",
+  "headline": "Software Engineer, AI/ML Infra @ Meta",
+  "publicIdentifier": "josephtaewookim",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "258424264",
+  "profileId": "ACoAAA9nPcgB5YBvL5_0fF2PwgFFQ2xIoPVP82Y",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000091",
+  "geoLocationName": "Greater Seattle Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer, AI/ML Infrastructure",
+  "summary": "Software Engineer with a passion for tackling challenging problems and improving lives.\n\nMy focus is in the field of AI/ML, where I aim to leverage my background in Mathematics and Software Engineering to make a positive impact.",
+  "positions": [
+   {
+    "title": "Software Engineer, AI/ML Infrastructure",
+    "locationName": "Redmond, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Designed and deployed ML ranking and recommendation systems for Horizon Worlds and Facebook Instant Games, powering personalized content discovery for millions of users across VR and mobile.\n• Built user interest-profiling pipelines from scratch, aggregating real-time engagement signals (clicks, impressions, session activity) into per-user preference profiles consumed by ranking, recommendation, and exploration models.\n• Developed 12+ LLM-based content-understanding pipelines (Llama) classifying content across a 9-dimension taxonomy, becoming the data foundation for personalization across Games, Apps, and Worlds surfaces.\n• Engineered high-signal feature sets for ranking models — including embedding similarity, temporal engagement features, and category affinity scores — enabling more granular and adaptive personalization.\n• Reduced H-Ranking feature-extraction latency ~15% (272ms -> 231ms) through pipeline profiling and targeted service-level optimization.\n• Eliminated a saw-tooth traffic pattern flooding downstream inference via async rate-limit tuning and job scheduling - downstream P90 300ms -> 20ms and $100K+ / yr in infra savings.\n• Built device- and OS-segmented performance features (frame rate, load time, crash rate) enabling contextual ranking that downranks content only on affected device segments rather than globally.\n• Led end-to-end latency optimization of a text-to-animation diffusion pipeline (LLaMA-based motion transformer), achieving a 3.1x production speedup on the dominant inference stage via GPU profiling and TensorRT, with quality validated on golden prompts and automated + LLM-based evals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc"
+     }
+    }
+   },
+   {
+    "title": "Mentor & Tester",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Provided academic support for students enrolled in DeepLearning.AI courses on topics related to machine learning, deep learning, and mathematical foundations for machine learning and data science.\n• Thoroughly tested and reviewed new course content, and provided detailed feedback and recommendations for fixes to optimize the learning experience.\n• Mentor for the following Coursera/DeepLearning.AI courses:\n  - Machine Learning Specialization\n  - Deep Learning Specialization\n  - Mathematics for Machine Learning and Data Science Specialization\n  - GANs Specialization",
+    "company": {
+     "url": "https://www.linkedin.com/company/18246783/",
+     "name": "DeepLearning.AI",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Developed a language selection feature from scratch and deployed it in production on the Connect Cases Home card, used by thousands of support agents.\n• Owned and led massive code migrations in Google Ads.\n• Worked on Machine Learning model migrations, writing SQL queries to materialize tables used for training models to improve agent assignment based on Case context and features.\n• Received one-on-one monthly Machine Learning mentorship sessions from a Staff SWE on the ML team.\n• Received 2 peer bonuses for improving Google codebase health and making substantial contributions to legacy code API removal.\n• Completed and earned certificates for level 1 and level 2 A11y (Accessibility) training.\n• Top 1000 code change submitter (company-wide) during a half-year period. Earned a badge for this.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Codecademy",
+     "url": "https://www.linkedin.com/company/2696602/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "4 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Content Contributor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 11 mos",
+      "description": "• Wrote and tested code for developing course materials.\n• Authored lessons, projects, and quizzes covering SQL and Python concepts.\n• Produced questions and review cards for the Codecademy Go app on iOS and Android, downloaded by 1 million+ learners, covering concepts in computer science and programming languages (Java, Python, C++, JavaScript, HTML, CSS, SQL).\n• Created over 500 posts for the Codecademy forums making questions and answers regarding computer science and software development concepts covered in courses.",
+      "insights": ""
+     },
+     {
+      "title": "Advisor/Coach",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "• Advised and supported the 10,000+ paying learners on Codecademy in multiple programming languages (Java, Python, JavaScript, HTML, CSS, SQL) in live one-on-one online chat sessions.\n• Taught coding concepts, reviewed and debugged code, and advised learners on learning paths and goals for software development.\n• Moderated and led over 600 students in the Codecademy Intensive Web Development course, keeping learners engaged, and providing support and resources throughout the duration of the course.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "company": {
+     "name": "Penn State University",
+     "url": "https://www.linkedin.com/company/3657/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "1 yr 4 mos",
+    "positions": [
+     {
+      "title": "Software Development Intern",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Learned and utilized Java and PHP for work on the codebase of the online tool utilized by ITS consultants around campus.\n• Reviewed hundreds of lines of legacy code - rewrote code comments and functions and fixed minor bugs.",
+      "insights": ""
+     },
+     {
+      "title": "Information Technology Services Lab Consultant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "• Assisted students, faculty, and staff with technology questions in computer labs around campus, answering any general questions about using software based on Mac OS, Windows, or Linux operating systems.\n• Maintained proper operation of computer hardware and printers.",
+      "insights": ""
+     }
+    ]
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_200_200/company-logo_200_200/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=f8b_7M-MKXRd7joD__7zlht2-Uwf-Y2fsJq7zGiYq1Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=87iq60kJuQAL4eXzVas0pkpaSjMqTbNK0oNLRnJF_pA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1792/",
+    "schoolName": "Stanford University",
+    "degreeName": "Graduate coursework",
+    "fieldOfStudy": "Graduate coursework",
+    "timePeriod": {}
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3657/",
+    "schoolName": "Penn State University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Mathematics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "XCS221 - Artificial Intelligence: Principles and Techniques",
+    "authority": "Stanford Online",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Stanford Online",
+    "title": "XCS221 - Artificial Intelligence: Principles and Techniques",
+    "issuedBy": "Stanford Online",
+    "issuedByLogo": null
+   },
+   {
+    "name": "XCS224N - Natural Language Processing with Deep Learning",
+    "authority": "Stanford Online",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Stanford Online",
+    "title": "XCS224N - Natural Language Processing with Deep Learning",
+    "issuedBy": "Stanford Online",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [
+   {
+    "title": "Exploring Effectiveness of Multimodal Variational Autoencoders on Text-Image Tasks",
+    "publisher": "Dec 23, 2024",
+    "date": {}
+   }
+  ],
+  "patents": [],
+  "testScores": [
+   {
+    "name": "SAT Math Section",
+    "score": "Score: 800/800",
+    "description": ""
+   }
+  ],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Meta",
+  "companyPublicId": "meta",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/meta/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:10667",
+   "name": "Meta",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHpGLIanfsREg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+       "expiresAt": 1796256000000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+       "expiresAt": 1796256000000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_"
+    }
+   },
+   "universalName": "meta",
+   "url": "https://www.linkedin.com/company/meta/",
+   "slug": "meta",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+   "specialties": []
+  },
+  "followerCount": 235,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 229,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mathematics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mathematics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Statistics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/josephtaewookim",
+  "linkedinUrl": "https://www.linkedin.com/in/josephtaewookim",
+  "profileUrl": "https://www.linkedin.com/in/josephtaewookim",
+  "verified": true,
+  "registeredAt": "2013-05-27T17:15:30.100Z",
+  "location": {
+   "linkedinText": "Greater Seattle Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Seattle Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Software Engineer with a passion for tackling challenging problems and improving lives.\n\nMy focus is in the field of AI/ML, where I aim to leverage my background in Mathematics and Software Engineering to make a positive impact.",
+  "currentTitle": "Software Engineer, AI/ML Infrastructure",
+  "allTitles": [
+   "Software Engineer, AI/ML Infrastructure",
+   "Mentor & Tester",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer, AI/ML Infrastructure",
+    "locationName": "Redmond, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Designed and deployed ML ranking and recommendation systems for Horizon Worlds and Facebook Instant Games, powering personalized content discovery for millions of users across VR and mobile.\n• Built user interest-profiling pipelines from scratch, aggregating real-time engagement signals (clicks, impressions, session activity) into per-user preference profiles consumed by ranking, recommendation, and exploration models.\n• Developed 12+ LLM-based content-understanding pipelines (Llama) classifying content across a 9-dimension taxonomy, becoming the data foundation for personalization across Games, Apps, and Worlds surfaces.\n• Engineered high-signal feature sets for ranking models — including embedding similarity, temporal engagement features, and category affinity scores — enabling more granular and adaptive personalization.\n• Reduced H-Ranking feature-extraction latency ~15% (272ms -> 231ms) through pipeline profiling and targeted service-level optimization.\n• Eliminated a saw-tooth traffic pattern flooding downstream inference via async rate-limit tuning and job scheduling - downstream P90 300ms -> 20ms and $100K+ / yr in infra savings.\n• Built device- and OS-segmented performance features (frame rate, load time, crash rate) enabling contextual ranking that downranks content only on affected device segments rather than globally.\n• Led end-to-end latency optimization of a text-to-animation diffusion pipeline (LLaMA-based motion transformer), achieving a 3.1x production speedup on the dominant inference stage via GPU profiling and TensorRT, with quality validated on golden prompts and automated + LLM-based evals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc"
+     }
+    },
+    "position": "Software Engineer, AI/ML Infrastructure",
+    "companyName": "Meta",
+    "location": "Redmond, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Codecademy",
+     "url": "https://www.linkedin.com/company/2696602/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U"
+     }
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Content Contributor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 11 mos",
+      "description": "• Wrote and tested code for developing course materials.\n• Authored lessons, projects, and quizzes covering SQL and Python concepts.\n• Produced questions and review cards for the Codecademy Go app on iOS and Android, downloaded by 1 million+ learners, covering concepts in computer science and programming languages (Java, Python, C++, JavaScript, HTML, CSS, SQL).\n• Created over 500 posts for the Codecademy forums making questions and answers regarding computer science and software development concepts covered in courses.",
+      "insights": ""
+     },
+     {
+      "title": "Advisor/Coach",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "• Advised and supported the 10,000+ paying learners on Codecademy in multiple programming languages (Java, Python, JavaScript, HTML, CSS, SQL) in live one-on-one online chat sessions.\n• Taught coding concepts, reviewed and debugged code, and advised learners on learning paths and goals for software development.\n• Moderated and led over 600 students in the Codecademy Intensive Web Development course, keeping learners engaged, and providing support and resources throughout the duration of the course.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Codecademy",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2696602/",
+    "companyId": "2696602",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Penn State University",
+     "url": "https://www.linkedin.com/company/3657/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8"
+     }
+    },
+    "totalDuration": "1 yr 4 mos",
+    "positions": [
+     {
+      "title": "Software Development Intern",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Learned and utilized Java and PHP for work on the codebase of the online tool utilized by ITS consultants around campus.\n• Reviewed hundreds of lines of legacy code - rewrote code comments and functions and fixed minor bugs.",
+      "insights": ""
+     },
+     {
+      "title": "Information Technology Services Lab Consultant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "• Assisted students, faculty, and staff with technology questions in computer labs around campus, answering any general questions about using software based on Mac OS, Windows, or Linux operating systems.\n• Maintained proper operation of computer hardware and printers.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Penn State University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3657/",
+    "companyId": "3657",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Mentor & Tester",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Provided academic support for students enrolled in DeepLearning.AI courses on topics related to machine learning, deep learning, and mathematical foundations for machine learning and data science.\n• Thoroughly tested and reviewed new course content, and provided detailed feedback and recommendations for fixes to optimize the learning experience.\n• Mentor for the following Coursera/DeepLearning.AI courses:\n  - Machine Learning Specialization\n  - Deep Learning Specialization\n  - Mathematics for Machine Learning and Data Science Specialization\n  - GANs Specialization",
+    "company": {
+     "url": "https://www.linkedin.com/company/18246783/",
+     "name": "DeepLearning.AI",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls"
+     }
+    },
+    "position": "Mentor & Tester",
+    "companyName": "DeepLearning.AI",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18246783/",
+    "companyId": "18246783",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Developed a language selection feature from scratch and deployed it in production on the Connect Cases Home card, used by thousands of support agents.\n• Owned and led massive code migrations in Google Ads.\n• Worked on Machine Learning model migrations, writing SQL queries to materialize tables used for training models to improve agent assignment based on Case context and features.\n• Received one-on-one monthly Machine Learning mentorship sessions from a Staff SWE on the ML team.\n• Received 2 peer bonuses for improving Google codebase health and making substantial contributions to legacy code API removal.\n• Completed and earned certificates for level 1 and level 2 A11y (Accessibility) training.\n• Top 1000 code change submitter (company-wide) during a half-year period. Earned a badge for this.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Irvine, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "10667",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyName": "Meta",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "2696602",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2696602/",
+    "companyName": "Codecademy",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "3657",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3657/",
+    "companyName": "Penn State University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer, AI/ML Infrastructure",
+    "locationName": "Redmond, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Designed and deployed ML ranking and recommendation systems for Horizon Worlds and Facebook Instant Games, powering personalized content discovery for millions of users across VR and mobile.\n• Built user interest-profiling pipelines from scratch, aggregating real-time engagement signals (clicks, impressions, session activity) into per-user preference profiles consumed by ranking, recommendation, and exploration models.\n• Developed 12+ LLM-based content-understanding pipelines (Llama) classifying content across a 9-dimension taxonomy, becoming the data foundation for personalization across Games, Apps, and Worlds surfaces.\n• Engineered high-signal feature sets for ranking models — including embedding similarity, temporal engagement features, and category affinity scores — enabling more granular and adaptive personalization.\n• Reduced H-Ranking feature-extraction latency ~15% (272ms -> 231ms) through pipeline profiling and targeted service-level optimization.\n• Eliminated a saw-tooth traffic pattern flooding downstream inference via async rate-limit tuning and job scheduling - downstream P90 300ms -> 20ms and $100K+ / yr in infra savings.\n• Built device- and OS-segmented performance features (frame rate, load time, crash rate) enabling contextual ranking that downranks content only on affected device segments rather than globally.\n• Led end-to-end latency optimization of a text-to-animation diffusion pipeline (LLaMA-based motion transformer), achieving a 3.1x production speedup on the dominant inference stage via GPU profiling and TensorRT, with quality validated on golden prompts and automated + LLM-based evals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc"
+     }
+    },
+    "position": "Software Engineer, AI/ML Infrastructure",
+    "companyName": "Meta",
+    "location": "Redmond, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=PMYCd51rl6Fhr9IFEz5av2kPse99TgTRSspdhNdxnoc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=J6q4q4IACzdPblzE-h41M269YZTqtyLpra6Bb3jmAXc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1796256000&v=beta&t=syFIvdGuEgnH_meXtBT9QhodGy1nwm0BNGNF3_HyNoA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Mentor & Tester",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2025
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "• Provided academic support for students enrolled in DeepLearning.AI courses on topics related to machine learning, deep learning, and mathematical foundations for machine learning and data science.\n• Thoroughly tested and reviewed new course content, and provided detailed feedback and recommendations for fixes to optimize the learning experience.\n• Mentor for the following Coursera/DeepLearning.AI courses:\n  - Machine Learning Specialization\n  - Deep Learning Specialization\n  - Mathematics for Machine Learning and Data Science Specialization\n  - GANs Specialization",
+    "company": {
+     "url": "https://www.linkedin.com/company/18246783/",
+     "name": "DeepLearning.AI",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls"
+     }
+    },
+    "position": "Mentor & Tester",
+    "companyName": "DeepLearning.AI",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18246783/",
+    "companyId": "18246783",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_400_400/B4EaChOr35IUAY-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=gz-fJAnzEim5hJkdUe6sLAEkXlQ2Gn0Ij9snASMI1yg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_200_200/B4EaChOr35IUAI-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=MRr83dZeW3tQAmjO-R7SsVkAR5aBtE6IsGYTNkiaPls",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEeku3eYbZ5_Q/company-logo_100_100/B4EaChOr35IUAM-/0/1789411376900/deeplearningai_logo?e=1796256000&v=beta&t=vA0uP-8D-AQwNswFEHh3u1U9APgAGPneYGTboPiAsiA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Irvine, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "• Developed a language selection feature from scratch and deployed it in production on the Connect Cases Home card, used by thousands of support agents.\n• Owned and led massive code migrations in Google Ads.\n• Worked on Machine Learning model migrations, writing SQL queries to materialize tables used for training models to improve agent assignment based on Case context and features.\n• Received one-on-one monthly Machine Learning mentorship sessions from a Staff SWE on the ML team.\n• Received 2 peer bonuses for improving Google codebase health and making substantial contributions to legacy code API removal.\n• Completed and earned certificates for level 1 and level 2 A11y (Accessibility) training.\n• Top 1000 code change submitter (company-wide) during a half-year period. Earned a badge for this.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Irvine, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1796256000&v=beta&t=Ohc7HTGxJL8dlgL01GeWCchIy96R8B-WcF2BIuA82ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1796256000&v=beta&t=GRh3umoHU8wtK8LkQICYlkQbLXJqGfOOW3XSpdNBmRw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1796256000&v=beta&t=q_ksQC7AYFYYRznzPn-rEd51CWmYYWoH0XZwHRUV5YI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Codecademy",
+     "url": "https://www.linkedin.com/company/2696602/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U"
+     }
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "positions": [
+     {
+      "title": "Content Contributor",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 11 mos",
+      "description": "• Wrote and tested code for developing course materials.\n• Authored lessons, projects, and quizzes covering SQL and Python concepts.\n• Produced questions and review cards for the Codecademy Go app on iOS and Android, downloaded by 1 million+ learners, covering concepts in computer science and programming languages (Java, Python, C++, JavaScript, HTML, CSS, SQL).\n• Created over 500 posts for the Codecademy forums making questions and answers regarding computer science and software development concepts covered in courses.",
+      "insights": ""
+     },
+     {
+      "title": "Advisor/Coach",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 12,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs",
+      "description": "• Advised and supported the 10,000+ paying learners on Codecademy in multiple programming languages (Java, Python, JavaScript, HTML, CSS, SQL) in live one-on-one online chat sessions.\n• Taught coding concepts, reviewed and debugged code, and advised learners on learning paths and goals for software development.\n• Moderated and led over 600 students in the Codecademy Intensive Web Development course, keeping learners engaged, and providing support and resources throughout the duration of the course.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Codecademy",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2696602/",
+    "companyId": "2696602",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_400_400/company-logo_400_400/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=TrozHAy2pnKKgYaJFrgMPXWEHboL7dtTuky6tLxgw2U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_200_200/company-logo_200_200/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=Gw_2J3xuCOCAZiCWPTsGYgWbWkgn5aK60jyRD1rkBU4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQH81kKlXtE0og/company-logo_100_100/company-logo_100_100/0/1720724787444/codecademy_logo?e=1796256000&v=beta&t=zTgPwwAXZk95swhWN0JPUU1FXYYh8T_ftSEdipwbIpI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Penn State University",
+     "url": "https://www.linkedin.com/company/3657/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8"
+     }
+    },
+    "totalDuration": "1 yr 4 mos",
+    "positions": [
+     {
+      "title": "Software Development Intern",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 mos",
+      "description": "• Learned and utilized Java and PHP for work on the codebase of the online tool utilized by ITS consultants around campus.\n• Reviewed hundreds of lines of legacy code - rewrote code comments and functions and fixed minor bugs.",
+      "insights": ""
+     },
+     {
+      "title": "Information Technology Services Lab Consultant",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "• Assisted students, faculty, and staff with technology questions in computer labs around campus, answering any general questions about using software based on Mac OS, Windows, or Linux operating systems.\n• Maintained proper operation of computer hardware and printers.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Penn State University",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3657/",
+    "companyId": "3657",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_200_200/company-logo_200_200/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=f8b_7M-MKXRd7joD__7zlht2-Uwf-Y2fsJq7zGiYq1Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=87iq60kJuQAL4eXzVas0pkpaSjMqTbNK0oNLRnJF_pA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_200_200/company-logo_200_200/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=f8b_7M-MKXRd7joD__7zlht2-Uwf-Y2fsJq7zGiYq1Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=87iq60kJuQAL4eXzVas0pkpaSjMqTbNK0oNLRnJF_pA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1792/",
+    "schoolName": "Stanford University",
+    "degreeName": "Graduate coursework",
+    "fieldOfStudy": "Graduate coursework",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1792/",
+    "schoolId": "1792",
+    "degree": "Graduate coursework",
+    "skills": []
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_400_400/company-logo_400_400/0/1631308876392?e=1796256000&v=beta&t=OV_RPkfXrRj2D3gE5P4mWd8IYIsYHZIrSpIM2UW65f8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_200_200/company-logo_200_200/0/1631308876392?e=1796256000&v=beta&t=BXQ51gwc7mW5TgymbOLnyfGRoXAqlQyjp07J4D8soVU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEFv0lqpE-gsQ/company-logo_100_100/company-logo_100_100/0/1631308876392?e=1796256000&v=beta&t=1W6oUahNN1Ec2OFLqy94pX4Q55HDZ7PITEa86oTp-qE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3657/",
+    "schoolName": "Penn State University",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Mathematics",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3657/",
+    "schoolId": "3657",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_200_200/company-logo_200_200/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=f8b_7M-MKXRd7joD__7zlht2-Uwf-Y2fsJq7zGiYq1Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=87iq60kJuQAL4eXzVas0pkpaSjMqTbNK0oNLRnJF_pA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_400_400/company-logo_400_400/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=RUPEAb1ZECE3ZyDaMg1yl0f5fVUsi1HQhLEzD8_Om0s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_200_200/company-logo_200_200/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=f8b_7M-MKXRd7joD__7zlht2-Uwf-Y2fsJq7zGiYq1Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHr9suxyJBXMw/company-logo_100_100/company-logo_100_100/0/1635534378870/stanford_university_logo?e=1796256000&v=beta&t=87iq60kJuQAL4eXzVas0pkpaSjMqTbNK0oNLRnJF_pA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1792/",
+    "schoolName": "Stanford University",
+    "degreeName": "Graduate coursework",
+    "fieldOfStudy": "Graduate coursework",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1792/",
+    "schoolId": "1792",
+    "degree": "Graduate coursework",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+   "450x450": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516469910518?e=1796256000&v=beta&t=6Laq3l-5vMDKOqFXpHK-ea6cnUncBopaxEMA1ZSyy_Y",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1516469910222?e=1796256000&v=beta&t=sdr7Uhl4Aq1JV5Vc01Cta5k3ylvFfZcIt8V8ZABzIQo",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516469909752?e=1796256000&v=beta&t=9dgF0gNyuhVD9CUx7zUz2qIvThkVWY-ORJf26dUabgo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQHmo5-ZE5JuFw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516469909786?e=1796256000&v=beta&t=LNIgXmjvfkgcdFRNGZycQHwaqRRGuqExioNp-3FvK7I",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/josephtaewookim"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T02:28:27.846Z",
+ "foundBy": null
+}

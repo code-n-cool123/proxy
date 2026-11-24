@@ -1,0 +1,1583 @@
+{
+ "slug": "eric-tsai-6438581",
+ "inputUrl": "https://www.linkedin.com/in/eric-tsai-6438581",
+ "fetchedAt": "2026-10-20T06:02:43.978Z",
+ "id": "6ad70403d820dfb707d090cb",
+ "url": "https://www.linkedin.com/in/eric-tsai-6438581",
+ "profile": {
+  "created": 1141083519000,
+  "trackingId": "5Q9Ch+CIQCO45O/CHsoANA==",
+  "firstName": "Eric",
+  "lastName": "Tsai",
+  "pronoun": null,
+  "versionTag": "3208569356",
+  "headline": "Senior Software Engineer at AWS S3/Glacier",
+  "publicIdentifier": "eric-tsai-6438581",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "5095059",
+  "profileId": "ACoAAABNvpMBKUeFi1dzGxpnaKom4WQVzOdhP8c",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000091",
+  "geoLocationName": "Greater Seattle Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I am a software engineer in the Seattle Area.  I have previously worked at Intel and MbientLab, and create mods for the PC game, Killing Floor in my spare time",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Greater Seattle Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "7 yrs 7 mos",
+    "description": "* Led 3 developer team to design and deliver a storage reclamation system that repurposed 1/3rd existing capacity for new customer data, reducing infrastructure CapEx. Planned the project roadmap, authored threat modeling and durability review, and drove discussions on race conditions with other services and maintaining data integrity.\n* Drove software integration of a smaller archival hardware rack, enabling Glacier to utilize smaller data centers. Generalized a hardware specific control service, coordinated bug fixes and feature requests with the vendor, and trained the hardware team on operating the new racks.\n* Reduced memory usage by 3.2x and object validation times by 6x by proposing and implementing a migration from DynamicObject to Kotlin data classes while maintaining backwards compatibility with persisted EDN and Fressian data.\n*Automated fleet-wide firmware deployment for the archival hardware servers, replacing a 2-hour manual install process with a streamlined, AZ-aware deployment pipeline with safety checks.\n* Designed and coded an inline error correction layer to reduce HDD’s unrecoverable bit rate by 1000x.\n* Unblocked data durability team’s ARM migration by validating a cross architecture, SIMD-based CRC64 implementation, and exposed the Barret Reduction code to provide an O(lg n) optimization for shifting 0s.\n* Developed a JVM agent to inject memory fuzzing at the bytecode-level, extending a Java-only tool to all JVM languages.\n* Lead several \"Glacier Learning\" sessions for developers diving into performance and integrity critical Glacier code.\n* Mentored junior devs on Kotlin, Glacier architecture, and Amazon tooling, helping them independently ship code.",
+    "insights": "Skills: REST APIs · Storage Devices · Kotlin · Java Virtual Machine (JVM) · Amazon Elastic MapReduce (EMR)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "* Architected MetaMotion (MM) / MetaWear (MW) SDK for Android (Java) and .NET Standard 2.0 (C#).\n* Built a platform-agnostic C SDK coupled with a shared library binding generator, enabling 3 rd party languages with Foreign Function Interface support to communicate with sensor board.\n* Implemented Python and JavaScript binding generators for the C SDK.\n* Developed unified Bluetooth Low Energy (BLE) C interface standardizing BLE communication on Linux and Windows 10.\n* Coded MetaBase for Android and Windows 10, an app for non-developers to easily collect sensor data from the board.\n* Implemented the web dashboard, payment processing, and access rules for MetaCloud, a synchronization and visualization service for MM and MW sensor data.\n* Maintained community forums, answering developer and support questions to facilitate platform onboarding",
+    "insights": "Skills: Android · Python · C++ · Universal Windows Platform (UWP) · C#",
+    "company": {
+     "url": "https://www.linkedin.com/company/15346992/",
+     "name": "Mbientlab",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI"
+     }
+    }
+   },
+   {
+    "title": "Modder",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "* Published 4 game modifications (mods) for the game Killing Floor in Unreal Engine 2.5.\n   -SuperZombies, enhances enemies with new abilities and behaviors providing new challenges for veteran players.\n    -KFStatsX, shows granular player statistics beyond health, armor, and money in game combined with an external service to aggregate and display global player statistics.\n    -ServerAchievements, defines an API over expanded in-game hooks for creating custom achievements combined with an external service to persist player progress across independent servers.\n    -CustomBuyMenu, trader UI enhancement helping players dynamically filter class-specific inventory, later integrated into the standard game.\n* Ran a community driven beta implementing suggestions on game mechanics and game balance.\n* Contributed bug and exploit fixes to the standard game.",
+    "insights": "Skills: UnrealScript · Software Design",
+    "company": {
+     "url": "",
+     "name": "Freelance",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2014
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "* Supported floating point (fp) validation tools with bug fixes, new features, and updates for new Intel architecture.\n* Designed and implemented application telemetry to collect usage data on the team’s tools.\n* Engineered cross platform DNS Service Discovery C++ library for automatic network discovery of the team’s services.\n* Created documentation generator for the fp tests, generating webpages by parsing comments and test content.\n* Integrated Apache Ivy into the build flow, researching retrieving and publishing artifacts with a shared repository.\n* Reduced test times by 8x over the previous system by supporting parallel test suite execution.\n* Taught class on the IEEE Standard for Floating-Point Arithmetic to employees new to fp validation.",
+    "insights": "Skills: C++ · Floating Point Validation · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "University of Illinois at Urbana-Champaign",
+     "url": "https://www.linkedin.com/company/2650/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Undergrad TA",
+      "locationName": "Urbana, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "Held office hours and graded exams for ECE 205 - Circuits for Non Majors",
+      "insights": ""
+     },
+     {
+      "title": "Student Programmer",
+      "locationName": "Champaign, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "Designed the office's website and maintained course registration database for the Office of Continuing Education",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Undergrad Technical Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2007
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Analyzed the effects of different plasma assembly procedures on phase-change memory cells and performed electrical failure analysis to characterize faulty cells",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Electrical and Electronics Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2008
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2008
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Algorithms: Design and Analysis, Part 1",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Algorithms: Design and Analysis, Part 1",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Functional Programming Principles in Scala",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Functional Programming Principles in Scala",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Chinese",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Amazon Web Services (AWS)",
+  "companyPublicId": "amazon-web-services",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/amazon-web-services/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2382910",
+   "name": "Amazon Web Services (AWS)",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFqdm1TZ-RZKQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+       "expiresAt": 1793836800000,
+       "height": 400
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+       "expiresAt": 1793836800000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_"
+    }
+   },
+   "universalName": "amazon-web-services",
+   "url": "https://www.linkedin.com/company/amazon-web-services/",
+   "slug": "amazon-web-services",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+   "specialties": []
+  },
+  "followerCount": 141,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 141,
+  "skills": [
+   {
+    "name": "Floating Point Validation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Universal Windows Platform (UWP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Storage Devices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java Virtual Machine (JVM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Elastic MapReduce (EMR)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kotlin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 7,
+    "experiences": 2
+   },
+   {
+    "name": "Groovy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scala",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Storage Devices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java Virtual Machine (JVM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Groovy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "UnrealScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XSL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "x86 Assembly",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Universal Windows Platform (UWP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Elastic MapReduce (EMR)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kotlin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 7,
+    "experiences": 2
+   },
+   {
+    "name": "Java",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scala",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQLite",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/eric-tsai-6438581",
+  "linkedinUrl": "https://www.linkedin.com/in/eric-tsai-6438581",
+  "profileUrl": "https://www.linkedin.com/in/eric-tsai-6438581",
+  "verified": false,
+  "registeredAt": "2006-02-27T23:38:39.000Z",
+  "location": {
+   "linkedinText": "Greater Seattle Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Seattle Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I am a software engineer in the Seattle Area.  I have previously worked at Intel and MbientLab, and create mods for the PC game, Killing Floor in my spare time",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Modder",
+   "Software Engineer",
+   "Undergrad Technical Intern"
+  ],
+  "currentPositions": [
+   {
+    "company": {
+     "name": "University of Illinois at Urbana-Champaign",
+     "url": "https://www.linkedin.com/company/2650/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg"
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Undergrad TA",
+      "locationName": "Urbana, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "Held office hours and graded exams for ECE 205 - Circuits for Non Majors",
+      "insights": ""
+     },
+     {
+      "title": "Student Programmer",
+      "locationName": "Champaign, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "Designed the office's website and maintained course registration database for the Office of Continuing Education",
+      "insights": ""
+     }
+    ],
+    "companyName": "University of Illinois at Urbana-Champaign",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "companyId": "2650",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Greater Seattle Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "7 yrs 7 mos",
+    "description": "* Led 3 developer team to design and deliver a storage reclamation system that repurposed 1/3rd existing capacity for new customer data, reducing infrastructure CapEx. Planned the project roadmap, authored threat modeling and durability review, and drove discussions on race conditions with other services and maintaining data integrity.\n* Drove software integration of a smaller archival hardware rack, enabling Glacier to utilize smaller data centers. Generalized a hardware specific control service, coordinated bug fixes and feature requests with the vendor, and trained the hardware team on operating the new racks.\n* Reduced memory usage by 3.2x and object validation times by 6x by proposing and implementing a migration from DynamicObject to Kotlin data classes while maintaining backwards compatibility with persisted EDN and Fressian data.\n*Automated fleet-wide firmware deployment for the archival hardware servers, replacing a 2-hour manual install process with a streamlined, AZ-aware deployment pipeline with safety checks.\n* Designed and coded an inline error correction layer to reduce HDD’s unrecoverable bit rate by 1000x.\n* Unblocked data durability team’s ARM migration by validating a cross architecture, SIMD-based CRC64 implementation, and exposed the Barret Reduction code to provide an O(lg n) optimization for shifting 0s.\n* Developed a JVM agent to inject memory fuzzing at the bytecode-level, extending a Java-only tool to all JVM languages.\n* Lead several \"Glacier Learning\" sessions for developers diving into performance and integrity critical Glacier code.\n* Mentored junior devs on Kotlin, Glacier architecture, and Amazon tooling, helping them independently ship code.",
+    "insights": "Skills: REST APIs · Storage Devices · Kotlin · Java Virtual Machine (JVM) · Amazon Elastic MapReduce (EMR)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "Greater Seattle Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "7 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2026
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "* Architected MetaMotion (MM) / MetaWear (MW) SDK for Android (Java) and .NET Standard 2.0 (C#).\n* Built a platform-agnostic C SDK coupled with a shared library binding generator, enabling 3 rd party languages with Foreign Function Interface support to communicate with sensor board.\n* Implemented Python and JavaScript binding generators for the C SDK.\n* Developed unified Bluetooth Low Energy (BLE) C interface standardizing BLE communication on Linux and Windows 10.\n* Coded MetaBase for Android and Windows 10, an app for non-developers to easily collect sensor data from the board.\n* Implemented the web dashboard, payment processing, and access rules for MetaCloud, a synchronization and visualization service for MM and MW sensor data.\n* Maintained community forums, answering developer and support questions to facilitate platform onboarding",
+    "insights": "Skills: Android · Python · C++ · Universal Windows Platform (UWP) · C#",
+    "company": {
+     "url": "https://www.linkedin.com/company/15346992/",
+     "name": "Mbientlab",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Mbientlab",
+    "location": "San Francisco Bay Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15346992/",
+    "companyId": "15346992",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Modder",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "* Published 4 game modifications (mods) for the game Killing Floor in Unreal Engine 2.5.\n   -SuperZombies, enhances enemies with new abilities and behaviors providing new challenges for veteran players.\n    -KFStatsX, shows granular player statistics beyond health, armor, and money in game combined with an external service to aggregate and display global player statistics.\n    -ServerAchievements, defines an API over expanded in-game hooks for creating custom achievements combined with an external service to persist player progress across independent servers.\n    -CustomBuyMenu, trader UI enhancement helping players dynamically filter class-specific inventory, later integrated into the standard game.\n* Ran a community driven beta implementing suggestions on game mechanics and game balance.\n* Contributed bug and exploit fixes to the standard game.",
+    "insights": "Skills: UnrealScript · Software Design",
+    "company": {
+     "url": "",
+     "name": "Freelance",
+     "logo": {}
+    },
+    "position": "Modder",
+    "companyName": "Freelance",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2014
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "* Supported floating point (fp) validation tools with bug fixes, new features, and updates for new Intel architecture.\n* Designed and implemented application telemetry to collect usage data on the team’s tools.\n* Engineered cross platform DNS Service Discovery C++ library for automatic network discovery of the team’s services.\n* Created documentation generator for the fp tests, generating webpages by parsing comments and test content.\n* Integrated Apache Ivy into the build flow, researching retrieving and publishing artifacts with a shared repository.\n* Reduced test times by 8x over the previous system by supporting parallel test suite execution.\n* Taught class on the IEEE Standard for Floating-Point Arithmetic to employees new to fp validation.",
+    "insights": "Skills: C++ · Floating Point Validation · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergrad Technical Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2007
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Analyzed the effects of different plasma assembly procedures on phase-change memory cells and performed electrical failure analysis to characterize faulty cells",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "Undergrad Technical Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2382910",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/amazon-web-services/",
+    "companyName": "Amazon Web Services (AWS)",
+    "companyLogo": {
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+     "vectorImage": {
+      "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFqdm1TZ-RZKQ",
+      "attribution": null,
+      "c2paManifestData": null,
+      "artifacts": [
+       {
+        "width": 400,
+        "fileIdentifyingUrlPathSegment": "400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+        "expiresAt": 1793836800000,
+        "height": 400
+       },
+       {
+        "width": 100,
+        "fileIdentifyingUrlPathSegment": "100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+        "expiresAt": 1793836800000,
+        "height": 100
+       },
+       {
+        "width": 200,
+        "fileIdentifyingUrlPathSegment": "200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+        "expiresAt": 1793836800000,
+        "height": 200
+       }
+      ],
+      "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_"
+     },
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+       "width": 400,
+       "height": 400,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+       "width": 200,
+       "height": 200,
+       "expiresAt": 1793836800000
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+       "width": 100,
+       "height": 100,
+       "expiresAt": 1793836800000
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "2650",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "companyName": "University of Illinois at Urbana-Champaign",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Greater Seattle Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2026
+     }
+    },
+    "totalDuration": "7 yrs 7 mos",
+    "description": "* Led 3 developer team to design and deliver a storage reclamation system that repurposed 1/3rd existing capacity for new customer data, reducing infrastructure CapEx. Planned the project roadmap, authored threat modeling and durability review, and drove discussions on race conditions with other services and maintaining data integrity.\n* Drove software integration of a smaller archival hardware rack, enabling Glacier to utilize smaller data centers. Generalized a hardware specific control service, coordinated bug fixes and feature requests with the vendor, and trained the hardware team on operating the new racks.\n* Reduced memory usage by 3.2x and object validation times by 6x by proposing and implementing a migration from DynamicObject to Kotlin data classes while maintaining backwards compatibility with persisted EDN and Fressian data.\n*Automated fleet-wide firmware deployment for the archival hardware servers, replacing a 2-hour manual install process with a streamlined, AZ-aware deployment pipeline with safety checks.\n* Designed and coded an inline error correction layer to reduce HDD’s unrecoverable bit rate by 1000x.\n* Unblocked data durability team’s ARM migration by validating a cross architecture, SIMD-based CRC64 implementation, and exposed the Barret Reduction code to provide an O(lg n) optimization for shifting 0s.\n* Developed a JVM agent to inject memory fuzzing at the bytecode-level, extending a Java-only tool to all JVM languages.\n* Lead several \"Glacier Learning\" sessions for developers diving into performance and integrity critical Glacier code.\n* Mentored junior devs on Kotlin, Glacier architecture, and Amazon tooling, helping them independently ship code.",
+    "insights": "Skills: REST APIs · Storage Devices · Kotlin · Java Virtual Machine (JVM) · Amazon Elastic MapReduce (EMR)",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "Greater Seattle Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "7 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2026
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=Tw5RWmSqMFHZhIFX-Qwpc0nUXmmn8yjFdqZkzt_vVb0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=7gEuGhSI07qY_avvAiT9OMpPfyOUVLUo3VBlbdtO6h4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1793836800&v=beta&t=UK2Zr9VdwrVXSozVtSvQkvTPdIgMSpE5gwXasy71l2Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "* Architected MetaMotion (MM) / MetaWear (MW) SDK for Android (Java) and .NET Standard 2.0 (C#).\n* Built a platform-agnostic C SDK coupled with a shared library binding generator, enabling 3 rd party languages with Foreign Function Interface support to communicate with sensor board.\n* Implemented Python and JavaScript binding generators for the C SDK.\n* Developed unified Bluetooth Low Energy (BLE) C interface standardizing BLE communication on Linux and Windows 10.\n* Coded MetaBase for Android and Windows 10, an app for non-developers to easily collect sensor data from the board.\n* Implemented the web dashboard, payment processing, and access rules for MetaCloud, a synchronization and visualization service for MM and MW sensor data.\n* Maintained community forums, answering developer and support questions to facilitate platform onboarding",
+    "insights": "Skills: Android · Python · C++ · Universal Windows Platform (UWP) · C#",
+    "company": {
+     "url": "https://www.linkedin.com/company/15346992/",
+     "name": "Mbientlab",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Mbientlab",
+    "location": "San Francisco Bay Area · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15346992/",
+    "companyId": "15346992",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_400_400/company-logo_400_400/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=bYuXTfVDMVOsIykhee8rBQfPd-Yp1pxgXvJfUJ0mkbI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_200_200/company-logo_200_200/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=dlSl3gGNW6ETKC60nc27xhEW1RVGNwFnwJNS8adSLiA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFloFhevE1K4A/company-logo_100_100/company-logo_100_100/0/1630582138995/mbientlab_logo?e=1793836800&v=beta&t=RjwLsY8hfCNn2v2IlsQKzftJyrKmDC8Yr4Px8UYMlLE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Modder",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 yrs 1 mo",
+    "description": "* Published 4 game modifications (mods) for the game Killing Floor in Unreal Engine 2.5.\n   -SuperZombies, enhances enemies with new abilities and behaviors providing new challenges for veteran players.\n    -KFStatsX, shows granular player statistics beyond health, armor, and money in game combined with an external service to aggregate and display global player statistics.\n    -ServerAchievements, defines an API over expanded in-game hooks for creating custom achievements combined with an external service to persist player progress across independent servers.\n    -CustomBuyMenu, trader UI enhancement helping players dynamically filter class-specific inventory, later integrated into the standard game.\n* Ran a community driven beta implementing suggestions on game mechanics and game balance.\n* Contributed bug and exploit fixes to the standard game.",
+    "insights": "Skills: UnrealScript · Software Design",
+    "company": {
+     "url": "",
+     "name": "Freelance",
+     "logo": {}
+    },
+    "position": "Modder",
+    "companyName": "Freelance",
+    "duration": "4 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2014
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "* Supported floating point (fp) validation tools with bug fixes, new features, and updates for new Intel architecture.\n* Designed and implemented application telemetry to collect usage data on the team’s tools.\n* Engineered cross platform DNS Service Discovery C++ library for automatic network discovery of the team’s services.\n* Created documentation generator for the fp tests, generating webpages by parsing comments and test content.\n* Integrated Apache Ivy into the build flow, researching retrieving and publishing artifacts with a shared repository.\n* Reduced test times by 8x over the previous system by supporting parallel test suite execution.\n* Taught class on the IEEE Standard for Floating-Point Arithmetic to employees new to fp validation.",
+    "insights": "Skills: C++ · Floating Point Validation · Software Design",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "University of Illinois at Urbana-Champaign",
+     "url": "https://www.linkedin.com/company/2650/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg"
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "positions": [
+     {
+      "title": "Undergrad TA",
+      "locationName": "Urbana, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2008
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "Held office hours and graded exams for ECE 205 - Circuits for Non Majors",
+      "insights": ""
+     },
+     {
+      "title": "Student Programmer",
+      "locationName": "Champaign, IL",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2007
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2008
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "Designed the office's website and maintained course registration database for the Office of Continuing Education",
+      "insights": ""
+     }
+    ],
+    "companyName": "University of Illinois at Urbana-Champaign",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "companyId": "2650",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Undergrad Technical Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2007
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Analyzed the effects of different plasma assembly procedures on phase-change memory cells and performed electrical failure analysis to characterize faulty cells",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE"
+     }
+    },
+    "position": "Undergrad Technical Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=xSgLXC_YV6hr9Q6schFBQLTr6sk9MmxPg8GmuA21VZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1793836800&v=beta&t=vzs7hugAQDFsbc3zz_WPDMCmRvVVSPVLvfmsNXPwnHM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1793836800&v=beta&t=gkR1YlWLc8G49BGKc76clnOsz6hzkJawKd9yeZqanPI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Electrical and Electronics Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "schoolId": "2650",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2004
+    },
+    "endDate": {
+     "year": 2008
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "schoolId": "2650",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2004
+    },
+    "endDate": {
+     "year": 2008
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=LN4MTPlkFS5Bu64NE-SnF8qqob5MTwbX3juCGLG98lg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=gp83coxFkA4FOvYeH9t3DghO_TP_cOgbCemWmSpbTnY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1793836800&v=beta&t=tGgwLa-KBDso5GFTEYJM5O8mKtLZnwpk71CmJZj5ZiE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Electrical and Electronics Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2004
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "schoolId": "2650",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2004
+    },
+    "endDate": {
+     "year": 2008
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/eric-tsai-6438581"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-20T06:02:34.253Z",
+ "foundBy": null
+}

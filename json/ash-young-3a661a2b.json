@@ -1,0 +1,1685 @@
+{
+ "slug": "ash-young-3a661a2b",
+ "inputUrl": "https://www.linkedin.com/in/ash-young-3a661a2b",
+ "fetchedAt": "2026-10-31T09:07:02.721Z",
+ "id": "6ae5afb64f8d6cb6ddd5ba5f",
+ "url": "https://www.linkedin.com/in/ash-young-3a661a2b",
+ "profile": {
+  "created": 1298089176003,
+  "trackingId": "XMAT9zJARom3HuplSy26sg==",
+  "firstName": "Ash",
+  "lastName": "Young",
+  "pronoun": null,
+  "versionTag": "1695208954",
+  "headline": "Engineering @ PHC Global | Senior Engineering Lead | Full Stack Software Engineer",
+  "publicIdentifier": "ash-young-3a661a2b",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "106041006",
+  "profileId": "ACoAAAZSDq4BOINyuFfYVKGGzpAF3heh-9hmcSc",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_100_100/B4EZiA_HLeGoAg-/0/1754510685800?e=1795046400&v=beta&t=nBqDeycjnY9FoKAEM9WlZQNrhUsQpbPHmiVbQqPMiKQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_400_400/B4EZiA_HLeGoAk-/0/1754510685800?e=1795046400&v=beta&t=QGm97LdbI9XfCs0e9ZCAWiAburW7ZmjvnJbKD-nLx7c",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_200_200/B4EZiA_HLeGoAc-/0/1754510685800?e=1795046400&v=beta&t=EUOh8ly4iv1upjvSEoh-1GI0pKUdnmGG1cuYa8cf6ZA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs"
+  },
+  "coverImageUrl": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_350_1400/B4EZZwEG8LHoAc-/0/1745636854350?e=1795046400&v=beta&t=tjsvsChLrSHnlxU6oA4ptyHZg9ocrUdvm7MPTpndY0o",
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_200_800/B4EZZwEG8LHoAY-/0/1745636854350?e=1795046400&v=beta&t=ZMJmVTWnZJZRq4JyJ6J7j-AjMDaPOJ5DrLP1KXABAgM"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Engineering Lead, Full Stack Software Engineer",
+  "summary": "I'm an impact driven, product-focused, full-stack software engineer and technical leader working in React/TypeScript, Python and Java.  \n\nFast-paced environments are where I thrive. \n\nI build APIs, data pipelines, AI agents and features, frontends, and tooling in between along with coaching teammates, guiding roadmaps, and making strategic project decisions.",
+  "positions": [
+   {
+    "title": "Senior Engineering Lead, Full Stack Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Epidemiology startup focused on infectious disease tracking.\n\nProduct development 0→1\n- Built an agentic biothreat monitoring product from concept to feature-flagged production: React/MUI frontend (scan/sweep map, cluster drawers, sort/filter), from-scratch REST backend, an LLM-scored ETL pipeline\n- Built a custom CMS for creating SME content\n\nAI/ML engineering\n- Built an agentic GDELT pipeline that ingests, embeds, clusters, and scores global news to surface biothreats, via a two-stage Claude Opus + Sonnet architecture with prompt caching, adaptive reasoning, cost accounting, location grounding.\n- Built RAG/LLM integrations (OpenAI, Gemini, HuggingFace) with pgvector semantic search, plus forecasting, scenario modeling, feedback capture.\n\nCost & reliability\n- Cut LLM spend on an agentic pipeline ~75% (~$7.8k/mo): traced spend to a translingual feed (8.7x driver), validated levers offline. Migrated cluster scoring to Sonnet 5 and classification to Haiku 4.5 (40-44% cheaper at equal/better quality across 400 stratified cases and blind adjudication), plus a Gemini Flash pre-screen cutting volume ~55% at stable disease recall across 25 languages.\n- Set reliability, observability, and cost-control standards; decommissioned legacy pipelines.\n\nData & platform\n- Engineered real-time ETL pipelines with anomaly detection on Kubernetes (Airflow, Argo), hardened with retry/backoff, preflight checks; designed schemas (Protobuf + PostgreSQL), deployed microservices on GCP with CI/CD.\n\nAPIs\n- Architected and launched internal and external APIs exposing time-series biothreat signals, analytics, and public health data: data models, vector search, pagination, OpenAPI specs, REST + gRPC, and Auth0 + Keycloak JWT auth.\n\nFrontend\n- Led frontend modernization; built time-series visualizations, MUI tables, forms.\n\nLeadership\n- Player/coach engineering manager and tech lead: set roadmap priorities, coached engineers, ran hiring end to end (sourcing, assessments, interviews).",
+    "insights": "Skills: Software Architecture · TypeScript · FastAPI · Interviewing · Time Series Forecasting · Large Language Models (LLM) · Distributed Systems · Python · Coaching · Hiring · Retrieval-Augmented Generation (RAG) · AI Agents · React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/74449598/",
+     "name": "PHC Global",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Digits is a FinTech startup building the world's first autonomous general ledger. It is an AI-powered accounting and financial reporting platform.\n\n- Deployed production code in React/TypeScript, Go, Java, Apache Beam via continuous integration\n- Built AI-driven accounting reconciliation interface for customers\n- Developed time series forecasting model for financial insight generation\n- Implemented time series dashboards for historical and projected financial data\n- Developed custom tagging/parsing architecture for converting model objects into natural language\n- Designed/maintained/migrated database schemas in GCP Spanner\n- Prototyped code in Python\n- Designed and wrote architecture documents\n- Worked with designers and product managers to refine and prioritize features in product roadmap\n- Built product features end-to-end based on feature requirements\n- Performed code reviews \n- Interviewed and evaluated work samples of potential new employees",
+    "insights": "Skills: Software Architecture · TypeScript · Apollo · Data Migration · JavaScript · Apache Beam · Time Series Forecasting · GCP Spanner · Java · Linear Regression · React Hooks · Figma (Software) · styled-components · HTML · Distributed Systems · Cascading Style Sheets (CSS) · GraphQL · Protobuf · Go (Programming Language) · Kotlin · React.js · SQL · Python (Programming Language) · Google Cloud Platform (GCP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18696096/",
+     "name": "Digits",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI"
+     }
+    }
+   },
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "Los Angeles",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "description": "Entertainment industry talent agency for actors, musicians, athletes, and more. \n\n- Built APIs and data pipelines with Node.js and Elasticsearch for processing engagement opportunities and client profiles\n- Built web interfaces in Angular.js, React, and Typescript to display and configure music touring routes and riders, support more diverse casting representation, and connect talent to performance opportunities \n- Wrote and tested back-end and front-end code to support ~20 applications for talent agents and other professionals to support our clients in film, television, music touring, and sports",
+    "insights": "Skills: JavaScript · Distributed Systems · MongoDB · SQL · Node.js · Elasticsearch",
+    "company": {
+     "url": "https://www.linkedin.com/company/163252/",
+     "name": "Creative Artists Agency",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc"
+     }
+    }
+   },
+   {
+    "title": "Software Development Engineer",
+    "locationName": "Agoura Hills, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Performed full-stack web application development and software support\n- Designed and implemented software features on the server and client side (Java backend, Isomorphic JavaScript framework on the frontend, Postgres database)\n- Refactored major codebases for high availability and decoupling of components\n- Configured installation scripts\n- Installed software remotely and on-site for enterprise customers\n- Provided support for existing and new customers\n- Trained new developers on the team",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Alcatel-Lucent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY"
+     }
+    }
+   },
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Raleigh, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Developed reusable solutions in java for gathering information via xml from web services - Engaged in architectural Websphere Message Broker development\n- Coordinated test and production environment set-up\n- Modified Oracle tables",
+    "company": {
+     "url": "https://www.linkedin.com/company/1033/",
+     "name": "Accenture",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg"
+     }
+    }
+   },
+   {
+    "title": "Technology Assistant",
+    "locationName": "Wilmington, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted university staff and students with the use of technology on campus\n- Performed software troubleshooting\n- Designed spreadsheets\n- Assisted others with online environment collaboration (SharePoint, Remedy, LogMeIn) - Managed equipment checkout\n- Managed technology inventory",
+    "company": {
+     "url": "https://www.linkedin.com/company/10865/",
+     "name": "UNC Wilmington",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10865/",
+    "schoolName": "University of North Carolina Wilmington",
+    "degreeName": "Bachelor's Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=sudAqzZjM0MXy03e_qKUQxwl3JHUPqRgEC7Uk4h6orc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=hltuAiks2ZP6PORwupCFIY0Y-U8zBykornJiBgFRgwo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795046400&v=beta&t=n7OBYgmVmsO1s6GkgIgR3B1XCmzZotvW54wZpQbZF0o"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4813/",
+    "schoolName": "North Carolina State University",
+    "degreeName": "Bioengineering",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2009
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Cauldron iOS app",
+    "description": "Cauldron is an app that helps you decide what to have for dinner when you simply can't be bothered to brainstorm it.\n\nIt includes customizable and built in menus with pictures to aid in visualizing what you can eat when your brain has given up on doing it for you.\n\nI'm currently working on a ML model to suggest more diverse menu options for times when you're ready to shake the menu up. I originally iterated on using chatGPT to suggest new menu items, but decided to move towards a custom on-device model to shield customers from subscription costs. \n\nI wanted to create a visual design that's not like anything else I've seen on iOS. It's bright and playful with buoyant animations.",
+    "dateRange": {},
+    "associatedWith": ""
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Animal Welfare",
+   "Education",
+   "Environment",
+   "Health",
+   "Human Rights",
+   "Poverty Alleviation",
+   "Science and Technology"
+  ],
+  "companyName": "PHC Global",
+  "companyPublicId": "phc-global",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/phc-global/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:74449598",
+   "name": "PHC Global",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEJU1VZCM1b0w",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_"
+    }
+   },
+   "universalName": "phc-global",
+   "url": "https://www.linkedin.com/company/phc-global/",
+   "slug": "phc-global",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+   "specialties": []
+  },
+  "followerCount": 641,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 610,
+  "skills": [
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Forecasting",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hiring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Interviewing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenAI API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Swift (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GPT-4",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "iOS Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Hiring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Interviewing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GPT-4",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "iOS Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Protobuf",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering Practices",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OOP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Swift (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "gRPC",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Django REST Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 13,
+    "experiences": 2
+   },
+   {
+    "name": "Python",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Eclipse",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Red Hat Linux",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Relational Databases",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Time Series Forecasting",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenAI API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apollo",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ash-young-3a661a2b",
+  "linkedinUrl": "https://www.linkedin.com/in/ash-young-3a661a2b",
+  "profileUrl": "https://www.linkedin.com/in/ash-young-3a661a2b",
+  "verified": true,
+  "registeredAt": "2011-02-19T04:19:36.003Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm an impact driven, product-focused, full-stack software engineer and technical leader working in React/TypeScript, Python and Java.  \n\nFast-paced environments are where I thrive. \n\nI build APIs, data pipelines, AI agents and features, frontends, and tooling in between along with coaching teammates, guiding roadmaps, and making strategic project decisions.",
+  "currentTitle": "Senior Engineering Lead, Full Stack Software Engineer",
+  "allTitles": [
+   "Senior Engineering Lead, Full Stack Software Engineer",
+   "Software Engineer",
+   "Full Stack Software Engineer",
+   "Software Development Engineer",
+   "Associate Software Engineer",
+   "Technology Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Engineering Lead, Full Stack Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Epidemiology startup focused on infectious disease tracking.\n\nProduct development 0→1\n- Built an agentic biothreat monitoring product from concept to feature-flagged production: React/MUI frontend (scan/sweep map, cluster drawers, sort/filter), from-scratch REST backend, an LLM-scored ETL pipeline\n- Built a custom CMS for creating SME content\n\nAI/ML engineering\n- Built an agentic GDELT pipeline that ingests, embeds, clusters, and scores global news to surface biothreats, via a two-stage Claude Opus + Sonnet architecture with prompt caching, adaptive reasoning, cost accounting, location grounding.\n- Built RAG/LLM integrations (OpenAI, Gemini, HuggingFace) with pgvector semantic search, plus forecasting, scenario modeling, feedback capture.\n\nCost & reliability\n- Cut LLM spend on an agentic pipeline ~75% (~$7.8k/mo): traced spend to a translingual feed (8.7x driver), validated levers offline. Migrated cluster scoring to Sonnet 5 and classification to Haiku 4.5 (40-44% cheaper at equal/better quality across 400 stratified cases and blind adjudication), plus a Gemini Flash pre-screen cutting volume ~55% at stable disease recall across 25 languages.\n- Set reliability, observability, and cost-control standards; decommissioned legacy pipelines.\n\nData & platform\n- Engineered real-time ETL pipelines with anomaly detection on Kubernetes (Airflow, Argo), hardened with retry/backoff, preflight checks; designed schemas (Protobuf + PostgreSQL), deployed microservices on GCP with CI/CD.\n\nAPIs\n- Architected and launched internal and external APIs exposing time-series biothreat signals, analytics, and public health data: data models, vector search, pagination, OpenAPI specs, REST + gRPC, and Auth0 + Keycloak JWT auth.\n\nFrontend\n- Led frontend modernization; built time-series visualizations, MUI tables, forms.\n\nLeadership\n- Player/coach engineering manager and tech lead: set roadmap priorities, coached engineers, ran hiring end to end (sourcing, assessments, interviews).",
+    "insights": "Skills: Software Architecture · TypeScript · FastAPI · Interviewing · Time Series Forecasting · Large Language Models (LLM) · Distributed Systems · Python · Coaching · Hiring · Retrieval-Augmented Generation (RAG) · AI Agents · React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/74449598/",
+     "name": "PHC Global",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ"
+     }
+    },
+    "position": "Senior Engineering Lead, Full Stack Software Engineer",
+    "companyName": "PHC Global",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/74449598/",
+    "companyId": "74449598",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Digits is a FinTech startup building the world's first autonomous general ledger. It is an AI-powered accounting and financial reporting platform.\n\n- Deployed production code in React/TypeScript, Go, Java, Apache Beam via continuous integration\n- Built AI-driven accounting reconciliation interface for customers\n- Developed time series forecasting model for financial insight generation\n- Implemented time series dashboards for historical and projected financial data\n- Developed custom tagging/parsing architecture for converting model objects into natural language\n- Designed/maintained/migrated database schemas in GCP Spanner\n- Prototyped code in Python\n- Designed and wrote architecture documents\n- Worked with designers and product managers to refine and prioritize features in product roadmap\n- Built product features end-to-end based on feature requirements\n- Performed code reviews \n- Interviewed and evaluated work samples of potential new employees",
+    "insights": "Skills: Software Architecture · TypeScript · Apollo · Data Migration · JavaScript · Apache Beam · Time Series Forecasting · GCP Spanner · Java · Linear Regression · React Hooks · Figma (Software) · styled-components · HTML · Distributed Systems · Cascading Style Sheets (CSS) · GraphQL · Protobuf · Go (Programming Language) · Kotlin · React.js · SQL · Python (Programming Language) · Google Cloud Platform (GCP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18696096/",
+     "name": "Digits",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Digits",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18696096/",
+    "companyId": "18696096",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "Los Angeles",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "description": "Entertainment industry talent agency for actors, musicians, athletes, and more. \n\n- Built APIs and data pipelines with Node.js and Elasticsearch for processing engagement opportunities and client profiles\n- Built web interfaces in Angular.js, React, and Typescript to display and configure music touring routes and riders, support more diverse casting representation, and connect talent to performance opportunities \n- Wrote and tested back-end and front-end code to support ~20 applications for talent agents and other professionals to support our clients in film, television, music touring, and sports",
+    "insights": "Skills: JavaScript · Distributed Systems · MongoDB · SQL · Node.js · Elasticsearch",
+    "company": {
+     "url": "https://www.linkedin.com/company/163252/",
+     "name": "Creative Artists Agency",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc"
+     }
+    },
+    "position": "Full Stack Software Engineer",
+    "companyName": "Creative Artists Agency",
+    "location": "Los Angeles",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/163252/",
+    "companyId": "163252",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Development Engineer",
+    "locationName": "Agoura Hills, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Performed full-stack web application development and software support\n- Designed and implemented software features on the server and client side (Java backend, Isomorphic JavaScript framework on the frontend, Postgres database)\n- Refactored major codebases for high availability and decoupling of components\n- Configured installation scripts\n- Installed software remotely and on-site for enterprise customers\n- Provided support for existing and new customers\n- Trained new developers on the team",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Alcatel-Lucent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY"
+     }
+    },
+    "position": "Software Development Engineer",
+    "companyName": "Alcatel-Lucent",
+    "location": "Agoura Hills, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1070/",
+    "companyId": "1070",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Raleigh, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Developed reusable solutions in java for gathering information via xml from web services - Engaged in architectural Websphere Message Broker development\n- Coordinated test and production environment set-up\n- Modified Oracle tables",
+    "company": {
+     "url": "https://www.linkedin.com/company/1033/",
+     "name": "Accenture",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg"
+     }
+    },
+    "position": "Associate Software Engineer",
+    "companyName": "Accenture",
+    "location": "Raleigh, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1033/",
+    "companyId": "1033",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Assistant",
+    "locationName": "Wilmington, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted university staff and students with the use of technology on campus\n- Performed software troubleshooting\n- Designed spreadsheets\n- Assisted others with online environment collaboration (SharePoint, Remedy, LogMeIn) - Managed equipment checkout\n- Managed technology inventory",
+    "company": {
+     "url": "https://www.linkedin.com/company/10865/",
+     "name": "UNC Wilmington",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s"
+     }
+    },
+    "position": "Technology Assistant",
+    "companyName": "UNC Wilmington",
+    "location": "Wilmington, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10865/",
+    "companyId": "10865",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2011
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "74449598",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/74449598/",
+    "companyName": "PHC Global",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Engineering Lead, Full Stack Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Epidemiology startup focused on infectious disease tracking.\n\nProduct development 0→1\n- Built an agentic biothreat monitoring product from concept to feature-flagged production: React/MUI frontend (scan/sweep map, cluster drawers, sort/filter), from-scratch REST backend, an LLM-scored ETL pipeline\n- Built a custom CMS for creating SME content\n\nAI/ML engineering\n- Built an agentic GDELT pipeline that ingests, embeds, clusters, and scores global news to surface biothreats, via a two-stage Claude Opus + Sonnet architecture with prompt caching, adaptive reasoning, cost accounting, location grounding.\n- Built RAG/LLM integrations (OpenAI, Gemini, HuggingFace) with pgvector semantic search, plus forecasting, scenario modeling, feedback capture.\n\nCost & reliability\n- Cut LLM spend on an agentic pipeline ~75% (~$7.8k/mo): traced spend to a translingual feed (8.7x driver), validated levers offline. Migrated cluster scoring to Sonnet 5 and classification to Haiku 4.5 (40-44% cheaper at equal/better quality across 400 stratified cases and blind adjudication), plus a Gemini Flash pre-screen cutting volume ~55% at stable disease recall across 25 languages.\n- Set reliability, observability, and cost-control standards; decommissioned legacy pipelines.\n\nData & platform\n- Engineered real-time ETL pipelines with anomaly detection on Kubernetes (Airflow, Argo), hardened with retry/backoff, preflight checks; designed schemas (Protobuf + PostgreSQL), deployed microservices on GCP with CI/CD.\n\nAPIs\n- Architected and launched internal and external APIs exposing time-series biothreat signals, analytics, and public health data: data models, vector search, pagination, OpenAPI specs, REST + gRPC, and Auth0 + Keycloak JWT auth.\n\nFrontend\n- Led frontend modernization; built time-series visualizations, MUI tables, forms.\n\nLeadership\n- Player/coach engineering manager and tech lead: set roadmap priorities, coached engineers, ran hiring end to end (sourcing, assessments, interviews).",
+    "insights": "Skills: Software Architecture · TypeScript · FastAPI · Interviewing · Time Series Forecasting · Large Language Models (LLM) · Distributed Systems · Python · Coaching · Hiring · Retrieval-Augmented Generation (RAG) · AI Agents · React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/74449598/",
+     "name": "PHC Global",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ"
+     }
+    },
+    "position": "Senior Engineering Lead, Full Stack Software Engineer",
+    "companyName": "PHC Global",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/74449598/",
+    "companyId": "74449598",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_400_400/B56Z6t7Nr5HQAU-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=y9GxLEgALZqv1hHAueNe_OTZdVaNJ_PeB784f_8mqFw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_200_200/B56Z6t7Nr5HQAE-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=L6kXZB9xNS0_TBWjznl17jzjwcptDLq0UKqF6VjPXCQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEJU1VZCM1b0w/company-logo_100_100/B56Z6t7Nr5HQAI-/0/1781034441719/phc_global_logo?e=1795046400&v=beta&t=TYea3Q500yeq_iwxYe0Ij0bmAJOMPc_wbM_Ye9xukA8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Digits is a FinTech startup building the world's first autonomous general ledger. It is an AI-powered accounting and financial reporting platform.\n\n- Deployed production code in React/TypeScript, Go, Java, Apache Beam via continuous integration\n- Built AI-driven accounting reconciliation interface for customers\n- Developed time series forecasting model for financial insight generation\n- Implemented time series dashboards for historical and projected financial data\n- Developed custom tagging/parsing architecture for converting model objects into natural language\n- Designed/maintained/migrated database schemas in GCP Spanner\n- Prototyped code in Python\n- Designed and wrote architecture documents\n- Worked with designers and product managers to refine and prioritize features in product roadmap\n- Built product features end-to-end based on feature requirements\n- Performed code reviews \n- Interviewed and evaluated work samples of potential new employees",
+    "insights": "Skills: Software Architecture · TypeScript · Apollo · Data Migration · JavaScript · Apache Beam · Time Series Forecasting · GCP Spanner · Java · Linear Regression · React Hooks · Figma (Software) · styled-components · HTML · Distributed Systems · Cascading Style Sheets (CSS) · GraphQL · Protobuf · Go (Programming Language) · Kotlin · React.js · SQL · Python (Programming Language) · Google Cloud Platform (GCP)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18696096/",
+     "name": "Digits",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Digits",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18696096/",
+    "companyId": "18696096",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_400_400/company-logo_400_400/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=m7MQ6xAwGEszGEMKCo18-bAwlzWKAfDYjHiwf2Tl9tI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_200_200/company-logo_200_200/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=wToNHiN7PPhFMayspJMFjQBNwJG4B1C12ViTmBI5mTA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFEIYtTHLy_0Q/company-logo_100_100/company-logo_100_100/0/1730927640299/digits_financial_logo?e=1795046400&v=beta&t=r2pmMwxuAIxlUOGcP8wD_hpOMyUke7_SwH3BrDI41U0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "Los Angeles",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "description": "Entertainment industry talent agency for actors, musicians, athletes, and more. \n\n- Built APIs and data pipelines with Node.js and Elasticsearch for processing engagement opportunities and client profiles\n- Built web interfaces in Angular.js, React, and Typescript to display and configure music touring routes and riders, support more diverse casting representation, and connect talent to performance opportunities \n- Wrote and tested back-end and front-end code to support ~20 applications for talent agents and other professionals to support our clients in film, television, music touring, and sports",
+    "insights": "Skills: JavaScript · Distributed Systems · MongoDB · SQL · Node.js · Elasticsearch",
+    "company": {
+     "url": "https://www.linkedin.com/company/163252/",
+     "name": "Creative Artists Agency",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc"
+     }
+    },
+    "position": "Full Stack Software Engineer",
+    "companyName": "Creative Artists Agency",
+    "location": "Los Angeles",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/163252/",
+    "companyId": "163252",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_400_400/company-logo_400_400/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=Ury57MUHwbXB9mPNuRlZL4Smj6HR59U5F0W0Hu1ATpc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_200_200/company-logo_200_200/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=IoJMhsCyavr367WLp82PAFksnUulZpm0FIxW3ly2KCo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE-kjoOh1wTQg/company-logo_100_100/company-logo_100_100/0/1672875326951/creative_artists_agency_logo?e=1795046400&v=beta&t=LWvuJ6f6K_XK1_edOvKMXO-jdp2WS15bCr_CsBTMdPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Development Engineer",
+    "locationName": "Agoura Hills, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Performed full-stack web application development and software support\n- Designed and implemented software features on the server and client side (Java backend, Isomorphic JavaScript framework on the frontend, Postgres database)\n- Refactored major codebases for high availability and decoupling of components\n- Configured installation scripts\n- Installed software remotely and on-site for enterprise customers\n- Provided support for existing and new customers\n- Trained new developers on the team",
+    "company": {
+     "url": "https://www.linkedin.com/company/1070/",
+     "name": "Alcatel-Lucent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY"
+     }
+    },
+    "position": "Software Development Engineer",
+    "companyName": "Alcatel-Lucent",
+    "location": "Agoura Hills, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1070/",
+    "companyId": "1070",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_400_400/B4EZqby_U_HgAY-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=--6v4UopGmBVtA5B6x9xt0kXvs9X8QBakXI3jvEt_Qk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_200_200/B4EZqby_U_HgAI-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=jE3RIs8GwPzg19cWY_vNg0BgnHMgjd0B1EPFIBV98SY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQE_ff-lEcAC5w/company-logo_100_100/B4EZqby_U_HgAQ-/0/1763550426950/nokia_logo?e=1795046400&v=beta&t=Al4zpkhYBvA72hYhlD_OylrmBzegx1qm_XJYGfPUfZ4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Raleigh, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2013
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "- Developed reusable solutions in java for gathering information via xml from web services - Engaged in architectural Websphere Message Broker development\n- Coordinated test and production environment set-up\n- Modified Oracle tables",
+    "company": {
+     "url": "https://www.linkedin.com/company/1033/",
+     "name": "Accenture",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg"
+     }
+    },
+    "position": "Associate Software Engineer",
+    "companyName": "Accenture",
+    "location": "Raleigh, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1033/",
+    "companyId": "1033",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_400_400/B4DZfqEQWkHAAg-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Tdx--t5KDJSdmmlEpYYZQyJtn1g9wmn5Q7t728Xvveg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_200_200/B4DZfqEQWkHAAQ-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=pddZer-4N8GyZ7jclsLBP2qhrMKTov6FD1xhtBGN2uo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEgtOEcxlXMog/company-logo_100_100/B4DZfqEQWkHAAY-/0/1751978673981/accenture_logo?e=1795046400&v=beta&t=Gpm41OhId42FWOFqN1XomVyHQzz4Abxbn7fJVb1U0PU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technology Assistant",
+    "locationName": "Wilmington, North Carolina",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "- Assisted university staff and students with the use of technology on campus\n- Performed software troubleshooting\n- Designed spreadsheets\n- Assisted others with online environment collaboration (SharePoint, Remedy, LogMeIn) - Managed equipment checkout\n- Managed technology inventory",
+    "company": {
+     "url": "https://www.linkedin.com/company/10865/",
+     "name": "UNC Wilmington",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s"
+     }
+    },
+    "position": "Technology Assistant",
+    "companyName": "UNC Wilmington",
+    "location": "Wilmington, North Carolina",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10865/",
+    "companyId": "10865",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2011
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10865/",
+    "schoolName": "University of North Carolina Wilmington",
+    "degreeName": "Bachelor's Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10865/",
+    "schoolId": "10865",
+    "degree": "Bachelor's Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2011
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=sudAqzZjM0MXy03e_qKUQxwl3JHUPqRgEC7Uk4h6orc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=hltuAiks2ZP6PORwupCFIY0Y-U8zBykornJiBgFRgwo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795046400&v=beta&t=n7OBYgmVmsO1s6GkgIgR3B1XCmzZotvW54wZpQbZF0o",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795046400&v=beta&t=n7OBYgmVmsO1s6GkgIgR3B1XCmzZotvW54wZpQbZF0o",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_400_400/company-logo_400_400/0/1645128364860/north_carolina_state_university_logo?e=1795046400&v=beta&t=n7OBYgmVmsO1s6GkgIgR3B1XCmzZotvW54wZpQbZF0o",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_200_200/company-logo_200_200/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=sudAqzZjM0MXy03e_qKUQxwl3JHUPqRgEC7Uk4h6orc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGaD7AuaL571Q/company-logo_100_100/company-logo_100_100/0/1645128364859/north_carolina_state_university_logo?e=1795046400&v=beta&t=hltuAiks2ZP6PORwupCFIY0Y-U8zBykornJiBgFRgwo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4813/",
+    "schoolName": "North Carolina State University",
+    "degreeName": "Bioengineering",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4813/",
+    "schoolId": "4813",
+    "degree": "Bioengineering",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2009
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_400_400/company-logo_400_400/0/1631329529315?e=1795046400&v=beta&t=M97YpOC47CbBoPczK6oLAYrL-__U9u3xY2rM4zwkZ4s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_200_200/company-logo_200_200/0/1631329529315?e=1795046400&v=beta&t=ZRMy-JLDftmIPmz2MuCsUXUVtYaKm70Ot7Py6z5Uzrg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFVUlKjKxbNdQ/company-logo_100_100/company-logo_100_100/0/1631329529315?e=1795046400&v=beta&t=_5_k70vtLKU1D3G7H-2ZPhKf7ete2crtDeJWqBB8GLA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10865/",
+    "schoolName": "University of North Carolina Wilmington",
+    "degreeName": "Bachelor's Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10865/",
+    "schoolId": "10865",
+    "degree": "Bachelor's Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_100_100/B4EZiA_HLeGoAg-/0/1754510685800?e=1795046400&v=beta&t=nBqDeycjnY9FoKAEM9WlZQNrhUsQpbPHmiVbQqPMiKQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_400_400/B4EZiA_HLeGoAk-/0/1754510685800?e=1795046400&v=beta&t=QGm97LdbI9XfCs0e9ZCAWiAburW7ZmjvnJbKD-nLx7c",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_200_200/B4EZiA_HLeGoAc-/0/1754510685800?e=1795046400&v=beta&t=EUOh8ly4iv1upjvSEoh-1GI0pKUdnmGG1cuYa8cf6ZA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_400_400/B4EZiA_HLeGoAk-/0/1754510685800?e=1795046400&v=beta&t=QGm97LdbI9XfCs0e9ZCAWiAburW7ZmjvnJbKD-nLx7c",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_200_200/B4EZiA_HLeGoAc-/0/1754510685800?e=1795046400&v=beta&t=EUOh8ly4iv1upjvSEoh-1GI0pKUdnmGG1cuYa8cf6ZA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_100_100/B4EZiA_HLeGoAg-/0/1754510685800?e=1795046400&v=beta&t=nBqDeycjnY9FoKAEM9WlZQNrhUsQpbPHmiVbQqPMiKQ",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_100_100/B4EZiA_HLeGoAg-/0/1754510685800?e=1795046400&v=beta&t=nBqDeycjnY9FoKAEM9WlZQNrhUsQpbPHmiVbQqPMiKQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_400_400/B4EZiA_HLeGoAk-/0/1754510685800?e=1795046400&v=beta&t=QGm97LdbI9XfCs0e9ZCAWiAburW7ZmjvnJbKD-nLx7c",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_200_200/B4EZiA_HLeGoAc-/0/1754510685800?e=1795046400&v=beta&t=EUOh8ly4iv1upjvSEoh-1GI0pKUdnmGG1cuYa8cf6ZA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-crop_800_800/B4EZiA_HLeGoAM-/0/1754510685708?e=1795046400&v=beta&t=IazVt-TXv9KSXsj_5ByQDD3ts09i2Y5BcFw9-WNtyMs",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_400_400/B4EZiA_HLeGoAk-/0/1754510685800?e=1795046400&v=beta&t=QGm97LdbI9XfCs0e9ZCAWiAburW7ZmjvnJbKD-nLx7c",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_200_200/B4EZiA_HLeGoAc-/0/1754510685800?e=1795046400&v=beta&t=EUOh8ly4iv1upjvSEoh-1GI0pKUdnmGG1cuYa8cf6ZA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE-t90LAqP87w/profile-displayphoto-scale_100_100/B4EZiA_HLeGoAg-/0/1754510685800?e=1795046400&v=beta&t=nBqDeycjnY9FoKAEM9WlZQNrhUsQpbPHmiVbQqPMiKQ",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_350_1400/B4EZZwEG8LHoAc-/0/1745636854350?e=1795046400&v=beta&t=tjsvsChLrSHnlxU6oA4ptyHZg9ocrUdvm7MPTpndY0o",
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_200_800/B4EZZwEG8LHoAY-/0/1745636854350?e=1795046400&v=beta&t=ZMJmVTWnZJZRq4JyJ6J7j-AjMDaPOJ5DrLP1KXABAgM",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_350_1400/B4EZZwEG8LHoAc-/0/1745636854350?e=1795046400&v=beta&t=tjsvsChLrSHnlxU6oA4ptyHZg9ocrUdvm7MPTpndY0o",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_350_1400/B4EZZwEG8LHoAc-/0/1745636854350?e=1795046400&v=beta&t=tjsvsChLrSHnlxU6oA4ptyHZg9ocrUdvm7MPTpndY0o",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQG-p3x7wW8xvA/profile-displaybackgroundimage-shrink_200_800/B4EZZwEG8LHoAY-/0/1745636854350?e=1795046400&v=beta&t=ZMJmVTWnZJZRq4JyJ6J7j-AjMDaPOJ5DrLP1KXABAgM",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ash-young-3a661a2b"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T09:06:51.931Z",
+ "foundBy": null
+}

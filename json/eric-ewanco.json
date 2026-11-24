@@ -1,0 +1,2540 @@
+{
+ "slug": "eric-ewanco",
+ "inputUrl": "https://www.linkedin.com/in/eric-ewanco",
+ "fetchedAt": "2026-10-20T00:56:18.811Z",
+ "id": "6ad6bc32d820dfb707d08b82",
+ "url": "https://www.linkedin.com/in/eric-ewanco",
+ "profile": {
+  "created": 1096426346000,
+  "trackingId": "WVhB/+pIReKxtp9Lu2L0gw==",
+  "firstName": "Eric",
+  "lastName": "Ewanco",
+  "pronoun": null,
+  "versionTag": "1752885597",
+  "headline": "Senior Software Engineer",
+  "publicIdentifier": "eric-ewanco",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "1193686",
+  "profileId": "ACoAAAASNtYBVebOEpSCoEmL6EZlVJEw7PtfKyE",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:106737890",
+  "geoLocationName": "Shrewsbury, Massachusetts, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Embedded software development engineer with extensive experience in telecom and networking industry. Keen ability to solve problems, fast learner, and successful communicator. Expert C programmer, also skilled at C++, bash, assembly, Python, and Linux. Ample experience with RTOS (Real-Time Operating Systems). Battle-scarred veteran of the Software Development Life Cycle (SDLC). Flexible and adaptable; able to handle whatever is thrown my way. \n",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Worcester, Massachusetts, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Improved reliability of perception systems through root-cause analysis of sensor and firmware issues, including identifying and helping reveal a defect in sensor firmware, and distinguishing hardware, firmware, and configuration causes of image quality and scan failures. Analyzed and diagnosed vision sensor behavior across heterogeneous camera systems, including off-the-shelf sensors and limited in-house devices. Enabled support for new vision sensor by assisting with driver bring-up and validation for the Stereolabs Zed X camera, including exposure/gain verification, test harness setup, and integration alongside existing sensor stacks. Established image quality validation for robotic vision systems by establishing and validating metrics for image sharpness and blurriness using real field data, statistically deriving appropriate per-camera thresholds.\n\nDesigned and implemented GPU-accelerated image signal processing components in C++ using CUDA, NVIDIA NPP, and custom kernel. Made complex GPU image processing behavior observable and trustworthy by developing validation strategies appropriate for nondeterministic systems, enabling real defects to be distinguished from acceptable variation across platforms and implementations. Characterized and improved performance of GPU-backed image processing workflows by profiling latency on real hardware, evaluating CPU vs. GPU approaches and hardware acceleration options, and applying optimizations selectively based on measured impact and long-term maintainability.\n\nDesigned software to interpret and validate low-level sensor data for safety-critical robotic perception, transforming raw telemetry and protocol data into representations suitable for analysis and debugging of real-world system behavior. Developed protocol parsing and simulation support, enabling reliable testing and validation of perception behavior under varied operating conditions.",
+    "insights": "Skills: Real-Time Operating Systems (RTOS) · Amazon Web Services (AWS) · C++ · CUDA · GPU",
+    "company": {
+     "url": "https://www.linkedin.com/company/2848013/",
+     "name": "Geisel Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "ASML",
+     "url": "https://www.linkedin.com/company/3894/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "3 yrs",
+    "positions": [
+     {
+      "title": "Software Design Engineer II",
+      "locationName": "Wilton, Connecticut, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "Added support in calibration, performance, and diagnostic code for 12 color laser wafer alignment sensor in semiconductor photolithography machine.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Embedded Software Engineer",
+      "locationName": "Wilton, Connecticut",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Contract  — Researched changes required to compensate for latency introduced by FIR filter in semiconductor photolithography product and implemented diagnostic logging. Increased wafer alignment mark scan speed. Added support for new alignment mark scanning laser.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Computer Consultant",
+    "locationName": "Shrewsbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Built a web site for this nonprofit, consulted on social media presence, and served as overall technical advisor.",
+    "company": {
+     "url": "",
+     "name": "Political and Civic Involvement Opportunities in Massachusetts",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, Massachusetts",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Enhanced European stock exchange feed protocols for low-latency Redline Accelerated Ticker Plant product: Synthesized trade information for Johannesburg feed (in C). Exposed three significant product bugs, which I then analyzed and fixed, by writing Python data validation test. ",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, MA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Worked on contract for Redline Trading Solutions in Woburn, MA on stock exchange feed protocols in a Linux C environment. Also worked on regression tests in Python.",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Designer",
+    "locationName": "Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Worked on OpenSUSE Linux platform team for Session Border Controller and Media Gateway (VoIP) on the platform team delivering installers (including a network installer) and customizing OpenSUSE for custom hardware. Patched kernel bugs.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "GENBAND",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    }
+   },
+   {
+    "title": "Contract Software Engineer",
+    "locationName": "Northboro MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Retooled C# flash utilities to meet changing requirements. Put together a website for a non-profit.",
+    "company": {
+     "url": "",
+     "name": "Self Employed",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "description": "Reef Point Systems became NextPoint Networks, which shortly thereafter was acquired by Genband on 16 Sep 2008.  Subsequently delivered operating system upgrade feature for media gateway product (from design to unit test).  Made software load possible by modifying boot loader to increase several times the allowable image size for network boot.  Protected revenue by implementing software keying feature in OpenSAF middleware.  As a subject-matter expert on OS, turned Linux platform (OpenSuSE 11.1-, 12.1-, and 12.2-based) for session border controller into a much more reliable and enhanced product (Bash, C, C++, kernel).  Simplified manufacturing by designing and implementing network install feature.  Cut development time by writing Field Replaceable Unit (FRU) flash update and automatic firmware update programs.  Delivered OS installer for two products.  Ensured NEBS compliance by exercising all aspects of session border controller product (disk tests, memory tests, network tests, etc.). ",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "Genband",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    }
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Delivered critical enhancements and fixes for security gateway in network processor (Prism/MIPS) fast path code (both microcode [assembly] and VxWorks host processor [C++]), working with TCP/IP and UDP/IP firewalling, forwarding, translation, and other functions.  Implemented GTP-U relay components, queue rate limit optimization, Iuh and GAN packet interception, queue length watermark alert system, firewall and lookup changes, enhanced keepalive mechanism, call lawful interception components, media relay translation components, TCP options processing, IPSec sequence number boundary checking, IP header validation, stacked VLANs, IPSec ToS copy, high-speed support, L2 preprocessing, and miscellaneous features.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/25543/",
+     "name": "Reef Point Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "North Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Designed and delivered SONET optics drivers.  Delivered reliability improvements for Ethernet drivers.  On my own initiative, improved product quality by developing exhaustive functional test plan for SONET/SDH to ferret out hidden bugs.  ",
+    "company": {
+     "url": "",
+     "name": "Avici Systems",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2002
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "Delivered key I/O subsystem for startup by architecting software and leading a six-person development team for the GN 1600 Layer 2/3 multiservice switch.  Media included SONET (OC-3, OC-12, OC-48), DS3, DS1, NxDS0, and Ethernet (10/100, Gigabit) interfaces, carrying ATM, HDLC, & Ethernet traffic, delivered over POS-PHY bus to an Agere network processor.  Integrated device drivers for Spectra 4x155 SONET framer and Mach-48 ATM/HDLC payload processor, and oversaw implementation/integration of DS3/DS1/NxDS0 drivers. Carried I/O software development from conception through design, implementation, and debug to final shipment.  Ensured Telcordia compliance for GR-253, GR-820, and other standards.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/8199033/",
+     "name": "Gotham Networks",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Marlborough MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 10,
+      "year": 1999
+     }
+    },
+    "totalDuration": "2 yrs 7 mos",
+    "description": "Integrated ATM signaling code into Total Control Hub's \"Pilgrim\" router software platform for DS3 ATM network interface card. Adapted network driver code for signaling and Classical IP over ATM (RFC 1577).  Revised LSI ATMizer II SAR processor firmware for new silicon design, optimized SAR software performance, and took responsibility for final product release.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/1920/",
+     "name": "3Com",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1997
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Developed drivers for ATM network interface card",
+    "company": {
+     "url": "https://www.linkedin.com/company/5951/",
+     "name": "US Robotics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Implemented ATM I/O card support.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14204/",
+     "name": "Xyplex",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 1992
+     },
+     "endDate": {
+      "month": 7,
+      "year": 1995
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Developed Ethernet driver, backplane interface code, serial drivers, and kernel port. Engineered out of band management bus arbitration protocol, integrated software, provided engineering development support for co-branded product.  Fixed bugs in Ethernet bridge code.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1025/",
+     "name": "Digital Equipment Corporation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_200_200/company-logo_200_200/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=wv_7u2y0Uqq4wiI92TwNQztR2mV0e_p6K85WwwrEcwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_100_100/company-logo_100_100/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=pRh0Vbf88wNc24cjwFyxBIcsnV7P6Dwf45fjDPqLxDY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3147/",
+    "schoolName": "Carnegie Mellon University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {}
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "High School for Engineering Professions at Dunbar",
+    "degreeName": "",
+    "fieldOfStudy": "",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Volunteer",
+    "companyName": "People Making a Difference (PMD)",
+    "description": "I participate in projects that feed the poor and help the disadvantaged",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2005
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/241294/",
+     "name": "People Making a Difference (PMD)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_200_200/company-logo_200_200/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=9S-k9x5n1ZOw3Um1u1vfBJueJyovv-hr7ALik7pVwzE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_100_100/company-logo_100_100/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=q-t4DtAcrZ3hFXoDjUv4Na85WuDE4Y98s6ISqURmFQk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_400_400/company-logo_400_400/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=5H3mg59hid89LQG6EECstw8oUrKXs7wSkvZsyxxLJfk"
+     }
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Poverty Alleviation",
+   "Science and Technology"
+  ],
+  "companyName": "Geisel Software, Inc.",
+  "companyPublicId": "geiselsoftware",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/geiselsoftware/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2848013",
+   "name": "Geisel Software, Inc.",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQG5E447uImDrQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+       "expiresAt": 1793836800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+       "expiresAt": 1793836800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_"
+    }
+   },
+   "universalName": "geiselsoftware",
+   "url": "https://www.linkedin.com/company/geiselsoftware/",
+   "slug": "geiselsoftware",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+   "specialties": []
+  },
+  "followerCount": 488,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 477,
+  "skills": [
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CUDA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GPU",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 36,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 30,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 25,
+    "experiences": ""
+   },
+   {
+    "name": "TCP/IP",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Telecommunications",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Ethernet",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "CUDA",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GPU",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TCP/IP",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Telecommunications",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Ethernet",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "VxWorks",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "IP",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "OpenSuse",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 36,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 30,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Device Drivers",
+    "endorsements": 25,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "RTOS",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/eric-ewanco",
+  "linkedinUrl": "https://www.linkedin.com/in/eric-ewanco",
+  "profileUrl": "https://www.linkedin.com/in/eric-ewanco",
+  "verified": true,
+  "registeredAt": "2004-09-29T02:52:26.000Z",
+  "location": {
+   "linkedinText": "Shrewsbury, Massachusetts, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Shrewsbury, Massachusetts, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Embedded software development engineer with extensive experience in telecom and networking industry. Keen ability to solve problems, fast learner, and successful communicator. Expert C programmer, also skilled at C++, bash, assembly, Python, and Linux. Ample experience with RTOS (Real-Time Operating Systems). Battle-scarred veteran of the Software Development Life Cycle (SDLC). Flexible and adaptable; able to handle whatever is thrown my way. \n",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Computer Consultant",
+   "Principal Software Engineer",
+   "Principal Software Engineer",
+   "Senior Designer",
+   "Contract Software Engineer",
+   "Senior Software Engineer",
+   "Principal Software Engineer",
+   "Principal Software Engineer",
+   "Principal Software Engineer",
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Worcester, Massachusetts, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Improved reliability of perception systems through root-cause analysis of sensor and firmware issues, including identifying and helping reveal a defect in sensor firmware, and distinguishing hardware, firmware, and configuration causes of image quality and scan failures. Analyzed and diagnosed vision sensor behavior across heterogeneous camera systems, including off-the-shelf sensors and limited in-house devices. Enabled support for new vision sensor by assisting with driver bring-up and validation for the Stereolabs Zed X camera, including exposure/gain verification, test harness setup, and integration alongside existing sensor stacks. Established image quality validation for robotic vision systems by establishing and validating metrics for image sharpness and blurriness using real field data, statistically deriving appropriate per-camera thresholds.\n\nDesigned and implemented GPU-accelerated image signal processing components in C++ using CUDA, NVIDIA NPP, and custom kernel. Made complex GPU image processing behavior observable and trustworthy by developing validation strategies appropriate for nondeterministic systems, enabling real defects to be distinguished from acceptable variation across platforms and implementations. Characterized and improved performance of GPU-backed image processing workflows by profiling latency on real hardware, evaluating CPU vs. GPU approaches and hardware acceleration options, and applying optimizations selectively based on measured impact and long-term maintainability.\n\nDesigned software to interpret and validate low-level sensor data for safety-critical robotic perception, transforming raw telemetry and protocol data into representations suitable for analysis and debugging of real-world system behavior. Developed protocol parsing and simulation support, enabling reliable testing and validation of perception behavior under varied operating conditions.",
+    "insights": "Skills: Real-Time Operating Systems (RTOS) · Amazon Web Services (AWS) · C++ · CUDA · GPU",
+    "company": {
+     "url": "https://www.linkedin.com/company/2848013/",
+     "name": "Geisel Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Geisel Software, Inc.",
+    "location": "Worcester, Massachusetts, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2848013/",
+    "companyId": "2848013",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "ASML",
+     "url": "https://www.linkedin.com/company/3894/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI"
+     }
+    },
+    "totalDuration": "3 yrs",
+    "positions": [
+     {
+      "title": "Software Design Engineer II",
+      "locationName": "Wilton, Connecticut, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "Added support in calibration, performance, and diagnostic code for 12 color laser wafer alignment sensor in semiconductor photolithography machine.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Embedded Software Engineer",
+      "locationName": "Wilton, Connecticut",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Contract  — Researched changes required to compensate for latency introduced by FIR filter in semiconductor photolithography product and implemented diagnostic logging. Increased wafer alignment mark scan speed. Added support for new alignment mark scanning laser.",
+      "insights": ""
+     }
+    ],
+    "companyName": "ASML",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3894/",
+    "companyId": "3894",
+    "duration": "3 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Computer Consultant",
+    "locationName": "Shrewsbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Built a web site for this nonprofit, consulted on social media presence, and served as overall technical advisor.",
+    "company": {
+     "url": "",
+     "name": "Political and Civic Involvement Opportunities in Massachusetts",
+     "logo": {}
+    },
+    "position": "Computer Consultant",
+    "companyName": "Political and Civic Involvement Opportunities in Massachusetts",
+    "location": "Shrewsbury, MA",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, Massachusetts",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Enhanced European stock exchange feed protocols for low-latency Redline Accelerated Ticker Plant product: Synthesized trade information for Johannesburg feed (in C). Exposed three significant product bugs, which I then analyzed and fixed, by writing Python data validation test. ",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Innovaide Inc.",
+    "location": "Marlborough, Massachusetts",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, MA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Worked on contract for Redline Trading Solutions in Woburn, MA on stock exchange feed protocols in a Linux C environment. Also worked on regression tests in Python.",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Innovaide Inc.",
+    "location": "Marlborough, MA, US",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Designer",
+    "locationName": "Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Worked on OpenSUSE Linux platform team for Session Border Controller and Media Gateway (VoIP) on the platform team delivering installers (including a network installer) and customizing OpenSUSE for custom hardware. Patched kernel bugs.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "GENBAND",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    },
+    "position": "Senior Designer",
+    "companyName": "GENBAND",
+    "location": "Billerica MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4079/",
+    "companyId": "4079",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Contract Software Engineer",
+    "locationName": "Northboro MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Retooled C# flash utilities to meet changing requirements. Put together a website for a non-profit.",
+    "company": {
+     "url": "",
+     "name": "Self Employed",
+     "logo": {}
+    },
+    "position": "Contract Software Engineer",
+    "companyName": "Self Employed",
+    "location": "Northboro MA",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "description": "Reef Point Systems became NextPoint Networks, which shortly thereafter was acquired by Genband on 16 Sep 2008.  Subsequently delivered operating system upgrade feature for media gateway product (from design to unit test).  Made software load possible by modifying boot loader to increase several times the allowable image size for network boot.  Protected revenue by implementing software keying feature in OpenSAF middleware.  As a subject-matter expert on OS, turned Linux platform (OpenSuSE 11.1-, 12.1-, and 12.2-based) for session border controller into a much more reliable and enhanced product (Bash, C, C++, kernel).  Simplified manufacturing by designing and implementing network install feature.  Cut development time by writing Field Replaceable Unit (FRU) flash update and automatic firmware update programs.  Delivered OS installer for two products.  Ensured NEBS compliance by exercising all aspects of session border controller product (disk tests, memory tests, network tests, etc.). ",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "Genband",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Genband",
+    "location": "Billerica, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4079/",
+    "companyId": "4079",
+    "duration": "9 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Delivered critical enhancements and fixes for security gateway in network processor (Prism/MIPS) fast path code (both microcode [assembly] and VxWorks host processor [C++]), working with TCP/IP and UDP/IP firewalling, forwarding, translation, and other functions.  Implemented GTP-U relay components, queue rate limit optimization, Iuh and GAN packet interception, queue length watermark alert system, firewall and lookup changes, enhanced keepalive mechanism, call lawful interception components, media relay translation components, TCP options processing, IPSec sequence number boundary checking, IP header validation, stacked VLANs, IPSec ToS copy, high-speed support, L2 preprocessing, and miscellaneous features.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/25543/",
+     "name": "Reef Point Systems",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Reef Point Systems",
+    "location": "Billerica, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/25543/",
+    "companyId": "25543",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "North Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Designed and delivered SONET optics drivers.  Delivered reliability improvements for Ethernet drivers.  On my own initiative, improved product quality by developing exhaustive functional test plan for SONET/SDH to ferret out hidden bugs.  ",
+    "company": {
+     "url": "",
+     "name": "Avici Systems",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Avici Systems",
+    "location": "North Billerica MA",
+    "duration": "3 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2002
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2002
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "Delivered key I/O subsystem for startup by architecting software and leading a six-person development team for the GN 1600 Layer 2/3 multiservice switch.  Media included SONET (OC-3, OC-12, OC-48), DS3, DS1, NxDS0, and Ethernet (10/100, Gigabit) interfaces, carrying ATM, HDLC, & Ethernet traffic, delivered over POS-PHY bus to an Agere network processor.  Integrated device drivers for Spectra 4x155 SONET framer and Mach-48 ATM/HDLC payload processor, and oversaw implementation/integration of DS3/DS1/NxDS0 drivers. Carried I/O software development from conception through design, implementation, and debug to final shipment.  Ensured Telcordia compliance for GR-253, GR-820, and other standards.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/8199033/",
+     "name": "Gotham Networks",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Gotham Networks",
+    "location": "Acton MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/8199033/",
+    "companyId": "8199033",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2002
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Marlborough MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 10,
+      "year": 1999
+     }
+    },
+    "totalDuration": "2 yrs 7 mos",
+    "description": "Integrated ATM signaling code into Total Control Hub's \"Pilgrim\" router software platform for DS3 ATM network interface card. Adapted network driver code for signaling and Classical IP over ATM (RFC 1577).  Revised LSI ATMizer II SAR processor firmware for new silicon design, optimized SAR software performance, and took responsibility for final product release.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/1920/",
+     "name": "3Com",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "3Com",
+    "location": "Marlborough MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1920/",
+    "companyId": "1920",
+    "duration": "2 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 1997
+    },
+    "endDate": {
+     "month": 10,
+     "year": 1999
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1997
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Developed drivers for ATM network interface card",
+    "company": {
+     "url": "https://www.linkedin.com/company/5951/",
+     "name": "US Robotics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "US Robotics",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5951/",
+    "companyId": "5951",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 1997
+    },
+    "endDate": {
+     "year": 1997
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Implemented ATM I/O card support.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14204/",
+     "name": "Xyplex",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Xyplex",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14204/",
+    "companyId": "14204",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1995
+    },
+    "endDate": {
+     "year": 1997
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 1992
+     },
+     "endDate": {
+      "month": 7,
+      "year": 1995
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Developed Ethernet driver, backplane interface code, serial drivers, and kernel port. Engineered out of band management bus arbitration protocol, integrated software, provided engineering development support for co-branded product.  Fixed bugs in Ethernet bridge code.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1025/",
+     "name": "Digital Equipment Corporation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Digital Equipment Corporation",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1025/",
+    "companyId": "1025",
+    "duration": "3 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 1992
+    },
+    "endDate": {
+     "month": 7,
+     "year": 1995
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2848013",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2848013/",
+    "companyName": "Geisel Software, Inc.",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "3894",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3894/",
+    "companyName": "ASML",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Worcester, Massachusetts, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "Improved reliability of perception systems through root-cause analysis of sensor and firmware issues, including identifying and helping reveal a defect in sensor firmware, and distinguishing hardware, firmware, and configuration causes of image quality and scan failures. Analyzed and diagnosed vision sensor behavior across heterogeneous camera systems, including off-the-shelf sensors and limited in-house devices. Enabled support for new vision sensor by assisting with driver bring-up and validation for the Stereolabs Zed X camera, including exposure/gain verification, test harness setup, and integration alongside existing sensor stacks. Established image quality validation for robotic vision systems by establishing and validating metrics for image sharpness and blurriness using real field data, statistically deriving appropriate per-camera thresholds.\n\nDesigned and implemented GPU-accelerated image signal processing components in C++ using CUDA, NVIDIA NPP, and custom kernel. Made complex GPU image processing behavior observable and trustworthy by developing validation strategies appropriate for nondeterministic systems, enabling real defects to be distinguished from acceptable variation across platforms and implementations. Characterized and improved performance of GPU-backed image processing workflows by profiling latency on real hardware, evaluating CPU vs. GPU approaches and hardware acceleration options, and applying optimizations selectively based on measured impact and long-term maintainability.\n\nDesigned software to interpret and validate low-level sensor data for safety-critical robotic perception, transforming raw telemetry and protocol data into representations suitable for analysis and debugging of real-world system behavior. Developed protocol parsing and simulation support, enabling reliable testing and validation of perception behavior under varied operating conditions.",
+    "insights": "Skills: Real-Time Operating Systems (RTOS) · Amazon Web Services (AWS) · C++ · CUDA · GPU",
+    "company": {
+     "url": "https://www.linkedin.com/company/2848013/",
+     "name": "Geisel Software, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Geisel Software, Inc.",
+    "location": "Worcester, Massachusetts, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2848013/",
+    "companyId": "2848013",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_400_400/company-logo_400_400/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=MtvO4sC16MT-VgiO8BCtXYfNrduLnuyj7nGffM627eU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_200_200/company-logo_200_200/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=65ENwSBS1iEXygP5zRQKxwV9rU1UikGiWqz6e54aJN8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQG5E447uImDrQ/company-logo_100_100/company-logo_100_100/0/1630617179529/geisel_software_inc__logo?e=1793836800&v=beta&t=qdd5zSq2XQpDVc1FtRJJjP0pXscSlSti2sbSkfOVCxU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "ASML",
+     "url": "https://www.linkedin.com/company/3894/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI"
+     }
+    },
+    "totalDuration": "3 yrs",
+    "positions": [
+     {
+      "title": "Software Design Engineer II",
+      "locationName": "Wilton, Connecticut, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 7 mos",
+      "description": "Added support in calibration, performance, and diagnostic code for 12 color laser wafer alignment sensor in semiconductor photolithography machine.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Embedded Software Engineer",
+      "locationName": "Wilton, Connecticut",
+      "timePeriod": {
+       "startDate": {
+        "month": 11,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2020
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "Contract  — Researched changes required to compensate for latency introduced by FIR filter in semiconductor photolithography product and implemented diagnostic logging. Increased wafer alignment mark scan speed. Added support for new alignment mark scanning laser.",
+      "insights": ""
+     }
+    ],
+    "companyName": "ASML",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3894/",
+    "companyId": "3894",
+    "duration": "3 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_400_400/company-logo_400_400/0/1705332957987/asml_logo?e=1793836800&v=beta&t=EM67K5teB6uSYDFrYrqvmh8P494Aj8RCule-zoyCzvI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_200_200/company-logo_200_200/0/1705332957987/asml_logo?e=1793836800&v=beta&t=rzWofcKtwohtNowFDECfDTsRzdCDqQrNOANPI_Dc-Is",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ1C7BJMd2eg/company-logo_100_100/company-logo_100_100/0/1705332957987/asml_logo?e=1793836800&v=beta&t=qE1c1qIOKyxLdeOwta7wrUvFRJC6yovIMcuHwXvRCro",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Computer Consultant",
+    "locationName": "Shrewsbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "Built a web site for this nonprofit, consulted on social media presence, and served as overall technical advisor.",
+    "company": {
+     "url": "",
+     "name": "Political and Civic Involvement Opportunities in Massachusetts",
+     "logo": {}
+    },
+    "position": "Computer Consultant",
+    "companyName": "Political and Civic Involvement Opportunities in Massachusetts",
+    "location": "Shrewsbury, MA",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2020
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, Massachusetts",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "Enhanced European stock exchange feed protocols for low-latency Redline Accelerated Ticker Plant product: Synthesized trade information for Johannesburg feed (in C). Exposed three significant product bugs, which I then analyzed and fixed, by writing Python data validation test. ",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Innovaide Inc.",
+    "location": "Marlborough, Massachusetts",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Marlborough, MA, US",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Worked on contract for Redline Trading Solutions in Woburn, MA on stock exchange feed protocols in a Linux C environment. Also worked on regression tests in Python.",
+    "company": {
+     "url": "",
+     "name": "Innovaide Inc.",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Innovaide Inc.",
+    "location": "Marlborough, MA, US",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Designer",
+    "locationName": "Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Worked on OpenSUSE Linux platform team for Session Border Controller and Media Gateway (VoIP) on the platform team delivering installers (including a network installer) and customizing OpenSUSE for custom hardware. Patched kernel bugs.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "GENBAND",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    },
+    "position": "Senior Designer",
+    "companyName": "GENBAND",
+    "location": "Billerica MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4079/",
+    "companyId": "4079",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Contract Software Engineer",
+    "locationName": "Northboro MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Retooled C# flash utilities to meet changing requirements. Put together a website for a non-profit.",
+    "company": {
+     "url": "",
+     "name": "Self Employed",
+     "logo": {}
+    },
+    "position": "Contract Software Engineer",
+    "companyName": "Self Employed",
+    "location": "Northboro MA",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "9 yrs 1 mo",
+    "description": "Reef Point Systems became NextPoint Networks, which shortly thereafter was acquired by Genband on 16 Sep 2008.  Subsequently delivered operating system upgrade feature for media gateway product (from design to unit test).  Made software load possible by modifying boot loader to increase several times the allowable image size for network boot.  Protected revenue by implementing software keying feature in OpenSAF middleware.  As a subject-matter expert on OS, turned Linux platform (OpenSuSE 11.1-, 12.1-, and 12.2-based) for session border controller into a much more reliable and enhanced product (Bash, C, C++, kernel).  Simplified manufacturing by designing and implementing network install feature.  Cut development time by writing Field Replaceable Unit (FRU) flash update and automatic firmware update programs.  Delivered OS installer for two products.  Ensured NEBS compliance by exercising all aspects of session border controller product (disk tests, memory tests, network tests, etc.). ",
+    "company": {
+     "url": "https://www.linkedin.com/company/4079/",
+     "name": "Genband",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Genband",
+    "location": "Billerica, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4079/",
+    "companyId": "4079",
+    "duration": "9 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_400_400/company-logo_400_400/0/1631380879831/genband_logo?e=1793836800&v=beta&t=9ePjuP-P7UBSWPlMbuWUeyTmIyN6zG1i9JfeauR2OpY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_200_200/company-logo_200_200/0/1631380879831/genband_logo?e=1793836800&v=beta&t=oEUCB6a8j50F0d6ttbEvN9pHuSQKHSlXcSLu4mPLWfA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGGoItEDMgzAQ/company-logo_100_100/company-logo_100_100/0/1631380879831/genband_logo?e=1793836800&v=beta&t=612WaNqNGtqSalY3sC4XZBwM49hucGD1DaR2KujjYvU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Billerica, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2006
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2008
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Delivered critical enhancements and fixes for security gateway in network processor (Prism/MIPS) fast path code (both microcode [assembly] and VxWorks host processor [C++]), working with TCP/IP and UDP/IP firewalling, forwarding, translation, and other functions.  Implemented GTP-U relay components, queue rate limit optimization, Iuh and GAN packet interception, queue length watermark alert system, firewall and lookup changes, enhanced keepalive mechanism, call lawful interception components, media relay translation components, TCP options processing, IPSec sequence number boundary checking, IP header validation, stacked VLANs, IPSec ToS copy, high-speed support, L2 preprocessing, and miscellaneous features.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/25543/",
+     "name": "Reef Point Systems",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Reef Point Systems",
+    "location": "Billerica, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/25543/",
+    "companyId": "25543",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2006
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2008
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "North Billerica MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2002
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2006
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Designed and delivered SONET optics drivers.  Delivered reliability improvements for Ethernet drivers.  On my own initiative, improved product quality by developing exhaustive functional test plan for SONET/SDH to ferret out hidden bugs.  ",
+    "company": {
+     "url": "",
+     "name": "Avici Systems",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Avici Systems",
+    "location": "North Billerica MA",
+    "duration": "3 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2002
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2006
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Principal Software Engineer",
+    "locationName": "Acton MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 1999
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2002
+     }
+    },
+    "totalDuration": "2 yrs 9 mos",
+    "description": "Delivered key I/O subsystem for startup by architecting software and leading a six-person development team for the GN 1600 Layer 2/3 multiservice switch.  Media included SONET (OC-3, OC-12, OC-48), DS3, DS1, NxDS0, and Ethernet (10/100, Gigabit) interfaces, carrying ATM, HDLC, & Ethernet traffic, delivered over POS-PHY bus to an Agere network processor.  Integrated device drivers for Spectra 4x155 SONET framer and Mach-48 ATM/HDLC payload processor, and oversaw implementation/integration of DS3/DS1/NxDS0 drivers. Carried I/O software development from conception through design, implementation, and debug to final shipment.  Ensured Telcordia compliance for GR-253, GR-820, and other standards.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/8199033/",
+     "name": "Gotham Networks",
+     "logo": {}
+    },
+    "position": "Principal Software Engineer",
+    "companyName": "Gotham Networks",
+    "location": "Acton MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/8199033/",
+    "companyId": "8199033",
+    "duration": "2 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 1999
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2002
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Marlborough MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 10,
+      "year": 1999
+     }
+    },
+    "totalDuration": "2 yrs 7 mos",
+    "description": "Integrated ATM signaling code into Total Control Hub's \"Pilgrim\" router software platform for DS3 ATM network interface card. Adapted network driver code for signaling and Classical IP over ATM (RFC 1577).  Revised LSI ATMizer II SAR processor firmware for new silicon design, optimized SAR software performance, and took responsibility for final product release.  ",
+    "company": {
+     "url": "https://www.linkedin.com/company/1920/",
+     "name": "3Com",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "3Com",
+    "location": "Marlborough MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1920/",
+    "companyId": "1920",
+    "duration": "2 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 1997
+    },
+    "endDate": {
+     "month": 10,
+     "year": 1999
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_400_400/company-logo_400_400/0/1631300812102?e=1793836800&v=beta&t=yow_S6v7OiQJ-htxFSNY6w4-t4WQ2c8P5wJL7EmAFAc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_200_200/company-logo_200_200/0/1631300812102?e=1793836800&v=beta&t=lp0TgZxemuuL5XVbziG0kpzR0qNebTnnVW6N2QHJz1k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEg_qPvHeAoPg/company-logo_100_100/company-logo_100_100/0/1631300812102?e=1793836800&v=beta&t=9ke4aYPz-s7qwOei2qe9xR44o25mGDODaUVAphYm_K4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1997
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Developed drivers for ATM network interface card",
+    "company": {
+     "url": "https://www.linkedin.com/company/5951/",
+     "name": "US Robotics",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "US Robotics",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5951/",
+    "companyId": "5951",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 1997
+    },
+    "endDate": {
+     "year": 1997
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_400_400/company-logo_400_400/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=j8IgvFesg9mQsrivsaOa9dZA0cGhePMPCkBBzrOQZQk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_200_200/company-logo_200_200/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=IU3UN3l9LWr4DCCvr8uF4aVhR0ImyIWmQVFKzlAocZo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQESJcJNVUkS5A/company-logo_100_100/company-logo_100_100/0/1630622096405/us_robotics_logo?e=1793836800&v=beta&t=ZCAtTX6_bWz12jYwJqmWlyXBSncrr1O5Hy53_-gEiTE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1995
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "Implemented ATM I/O card support.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14204/",
+     "name": "Xyplex",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Xyplex",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14204/",
+    "companyId": "14204",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1995
+    },
+    "endDate": {
+     "year": 1997
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 1992
+     },
+     "endDate": {
+      "month": 7,
+      "year": 1995
+     }
+    },
+    "totalDuration": "3 yrs 7 mos",
+    "description": "Developed Ethernet driver, backplane interface code, serial drivers, and kernel port. Engineered out of band management bus arbitration protocol, integrated software, provided engineering development support for co-branded product.  Fixed bugs in Ethernet bridge code.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1025/",
+     "name": "Digital Equipment Corporation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Digital Equipment Corporation",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1025/",
+    "companyId": "1025",
+    "duration": "3 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 1992
+    },
+    "endDate": {
+     "month": 7,
+     "year": 1995
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_400_400/B4EZdkxlEZH0Ac-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=n8-ugRkdmhDdCNJs7lHFzpKGOxLx7n9hV4RhXOF2JRw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_200_200/B4EZdkxlEZH0AM-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=XsSLjlDSfX_TTP0HTCSxtdWbhLUF1CNJxNt3vi32pBk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG3eeRIFGMG9g/company-logo_100_100/B4EZdkxlEZH0AU-/0/1749742408362/hewlett_packard_enterprise_logo?e=1793836800&v=beta&t=hzb8O0uDjgM18MNE7FGQSA14POktzJ9Z5L81X61dL9c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_200_200/company-logo_200_200/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=wv_7u2y0Uqq4wiI92TwNQztR2mV0e_p6K85WwwrEcwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_100_100/company-logo_100_100/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=pRh0Vbf88wNc24cjwFyxBIcsnV7P6Dwf45fjDPqLxDY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_200_200/company-logo_200_200/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=wv_7u2y0Uqq4wiI92TwNQztR2mV0e_p6K85WwwrEcwo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_100_100/company-logo_100_100/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=pRh0Vbf88wNc24cjwFyxBIcsnV7P6Dwf45fjDPqLxDY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3147/",
+    "schoolName": "Carnegie Mellon University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3147/",
+    "schoolId": "3147",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "High School for Engineering Professions at Dunbar",
+    "degreeName": "",
+    "timePeriod": {},
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_200_200/company-logo_200_200/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=wv_7u2y0Uqq4wiI92TwNQztR2mV0e_p6K85WwwrEcwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_100_100/company-logo_100_100/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=pRh0Vbf88wNc24cjwFyxBIcsnV7P6Dwf45fjDPqLxDY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_400_400/company-logo_400_400/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=a_a-3c19IHF9oOLZ5MKAfMnAK_kRz-H3en6BZXx74as",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_200_200/company-logo_200_200/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=wv_7u2y0Uqq4wiI92TwNQztR2mV0e_p6K85WwwrEcwo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQH0rMqWuDcNzA/company-logo_100_100/company-logo_100_100/0/1656670432790/carnegie_mellon_university_logo?e=1793836800&v=beta&t=pRh0Vbf88wNc24cjwFyxBIcsnV7P6Dwf45fjDPqLxDY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3147/",
+    "schoolName": "Carnegie Mellon University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3147/",
+    "schoolId": "3147",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Volunteer",
+    "companyName": "People Making a Difference (PMD)",
+    "description": "I participate in projects that feed the poor and help the disadvantaged",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2005
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/241294/",
+     "name": "People Making a Difference (PMD)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_200_200/company-logo_200_200/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=9S-k9x5n1ZOw3Um1u1vfBJueJyovv-hr7ALik7pVwzE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_100_100/company-logo_100_100/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=q-t4DtAcrZ3hFXoDjUv4Na85WuDE4Y98s6ISqURmFQk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_400_400/company-logo_400_400/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=5H3mg59hid89LQG6EECstw8oUrKXs7wSkvZsyxxLJfk"
+     }
+    },
+    "organization": "People Making a Difference (PMD)"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Volunteer",
+    "companyName": "People Making a Difference (PMD)",
+    "description": "I participate in projects that feed the poor and help the disadvantaged",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2005
+     },
+     "endDate": null
+    },
+    "cause": "Poverty Alleviation",
+    "company": {
+     "url": "https://www.linkedin.com/company/241294/",
+     "name": "People Making a Difference (PMD)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_200_200/company-logo_200_200/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=9S-k9x5n1ZOw3Um1u1vfBJueJyovv-hr7ALik7pVwzE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_100_100/company-logo_100_100/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=q-t4DtAcrZ3hFXoDjUv4Na85WuDE4Y98s6ISqURmFQk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG8KcavRMTbdg/company-logo_400_400/company-logo_400_400/0/1731521931236/people_making_a_difference_pmd_logo?e=1793836800&v=beta&t=5H3mg59hid89LQG6EECstw8oUrKXs7wSkvZsyxxLJfk"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-crop_800_800/B4EZ3.4bDLHUAI-/0/1778097704849?e=1793836800&v=beta&t=OTGn5qAGXMc5_NwATIR_z5xVe-7rIcjbxTDHt8RUZgc",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_400_400/B4EZ3.4bDLHUAg-/0/1778097704944?e=1793836800&v=beta&t=jOT5-k6QjA9CnJpns9hsLNyK6aDnFk0Kf5YqKI38BVc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_200_200/B4EZ3.4bDLHUAY-/0/1778097704944?e=1793836800&v=beta&t=Xr6txE8ZBehda37oxnrObPhUmFySOGOnNZ_fNWZhgRA",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGS-rpDV4jUZw/profile-displayphoto-scale_100_100/B4EZ3.4bDLHUAc-/0/1778097704944?e=1793836800&v=beta&t=JB6La9KLmyPfnD0cuhJssBZC2ihs2rWVERxIqmBqBZk",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/eric-ewanco"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-20T00:56:02.021Z",
+ "foundBy": null
+}

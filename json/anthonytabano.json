@@ -1,0 +1,1417 @@
+{
+ "slug": "anthonytabano",
+ "inputUrl": "https://www.linkedin.com/in/anthonytabano",
+ "fetchedAt": "2026-10-19T12:25:15.584Z",
+ "id": "6ad60c2bd820dfb707d077d6",
+ "url": "https://www.linkedin.com/in/anthonytabano",
+ "profile": {
+  "created": 1327893982860,
+  "trackingId": "SVDCtZA8TAmOJlHHELdMZw==",
+  "firstName": "Anthony",
+  "lastName": "Tabano",
+  "pronoun": null,
+  "versionTag": "183760960",
+  "headline": "Senior Software Engineer, Optum (UnitedHealth Group) | Backend, Platform & Applied AI | Java/Spring, TypeScript, Rust | Building kernl (getkernl.ai), a local-first AI agent runtime",
+  "publicIdentifier": "anthonytabano",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 8,
+   "day": 22,
+   "year": null
+  },
+  "id": "164875676",
+  "profileId": "ACoAAAnTzZwBEuT1pPEdVBVYw82OTrFGL7kkguw",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_100_100/B4EZwfjDbYK0Ac-/0/1770055809220?e=1793836800&v=beta&t=odLziCpKeXr6y0RR0ax1WtC1KpSTy5ubZOkNSFlVeVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_200_200/B4EZwfjDbYK0AY-/0/1770055809220?e=1793836800&v=beta&t=ii-LLUdqyB1v6z4foANpBR55HCxio1CqSvikYzji2XU",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_400_400/B4EZwfjDbYK0Ag-/0/1770055809220?e=1793836800&v=beta&t=WpK7WO0aA5uR0Vek_5rlZnOycKAJUnSczAzutRQkPaw"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1727888612244?e=1793836800&v=beta&t=3bopR_HJpIzFm6Fa950eEXy_O1lhasxujeWwwGBrmVs",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727888612244?e=1793836800&v=beta&t=df6MxKHK5zxBaP6u3WrVpfX5wVd7-kSl_-4_Yeud9T4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer, Optum (UnitedHealth Group)",
+  "summary": "Senior software engineer with 13 years delivering regulated enterprise systems across healthcare, insurance, higher education, and defense aerospace, specializing in Java/Spring services, developer platforms, and event-driven and workflow systems.\n\nCurrently building Optum's national clinical prior-authorization platform full-time: Spring Boot microservices, GraphQL APIs, and TypeScript/React applications behind a provider portal used by 15,000+ providers, on a platform serving 1M+ members.\n\nCore strengths: backend and API design, event-driven architecture, developer platforms and release automation, PostgreSQL and Redis, LLM agent systems.\n\nOutside of work I build kernl (getkernl.ai), a desktop AI agent written in Rust, publicly available as an early release for Windows under my own LLC. It runs local models on the user's own hardware, or a cloud provider on their own key, with a planner and verifier loop and explicit approval gates on anything destructive.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer, Optum (UnitedHealth Group)",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 10 mos",
+    "description": "Clinical prior-authorization platform serving 1M+ members, with a provider portal used by 15,000+ providers.\n\n- Built and owned the department's shared code and build platform (an Nx monorepo), adopted by 12+ teams. Publishing a typical change, from pull request to release, dropped from about an hour to usually 5 to 15 minutes. Only affected libraries were rebuilt, and each library carried its own version, so a hotfix no longer forced version changes across every module.\n- Set the rules for what each library could hold and had teams split their shared code into small, focused libraries as it moved in. Teams could reuse code in small pieces and keep their own release schedules.\n- Co-led the v2 redesign and rebuild of the provider portal, and loaded another application's authorization forms into it as lightweight Single-SPA parcels instead of embedding the whole application. Proposed and built the portal's move to route-based navigation with a URL for each page, a pattern other teams then adopted.\n- Built backend services for authorizations, hospital admissions, batch processing, and configuration. Helped split hospital admissions out of a large legacy workflow system (Camunda) and move electronic prior-authorization rules (EDI 278) into an in-house rules engine.\n- Designed and added custom metrics (StatsD) to the payer integration pipeline and built the team's first monitoring dashboard on them (Datadog), giving the team and the business a live view of volume and failures by partner system.\n- Led a four-engineer partner team for six months alongside a full delivery load, coordinating application-wide Angular modernization and the move to React and Turborepo.",
+    "company": {
+     "url": "",
+     "name": "buildit",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "Armonk, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Tech lead for an 8-engineer distributed team across onshore and offshore locations. Set technical standards, refined stories with business stakeholders before they reached the team, interviewed and screened candidates, and ran recurring knowledge-sharing sessions.\n- Designed custom message bucketing and routing across the Spring Boot and RabbitMQ event backbone of a Kubernetes-based B2B2C insurance platform, supporting partner API integrations, operations workflows, and a configurable white-label product.\n- Established the release process that let other engineering teams deliver to the shared platform without depending on my team for releases.\n- Ran a zero-downtime modernization from Spring Boot 2.1 to 2.5 and Angular 8 to 12 across 10 applications, sequenced app-by-app while keeping production stable.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15073937/",
+     "name": "iptiQ by Swiss Re",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "White Plains, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Re-architected a failing 5-hour nightly inventory sync across 300+ dealerships into a multithreaded Spring Batch pipeline, cutting runtime to under 25 minutes.\n\nBuilt the integration layer with Apache Camel, connecting supplier APIs, SFTP feeds, and internal systems with retry, backoff, and flow control for unreliable endpoints.\n\nDeveloped order-management microservices for a 1M+ SKU catalog on AWS, using Redis caching and query tuning to support inventory and fulfillment workflows, and designed the quote and pricing APIs behind the e-commerce frontend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7990/",
+     "name": "AutoNation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer & Supervisor",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Led multi-year development of an employee-benefits and HR application suite on Spring Boot, Angular, and AWS, integrated with Banner ERP (Oracle).\n\nImplemented OAuth 2.0 SSO that federated CAS and Shibboleth identities and issued JWTs to internal and partner applications.\n\nSupervised a data-analyst team, running weekly SQL and PL/SQL workshops across the college that eliminated 20+ hours per month of manual reporting, and conducted code reviews, performance reviews, and 1:1s.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14018/",
+     "name": "Teachers College of Columbia University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4"
+     }
+    }
+   },
+   {
+    "title": "Aerospace & Software Engineer (Multiple Roles) ",
+    "locationName": "Stratford, CT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Moved from aerospace engineering into software, earning two promotions in three years across support, business-intelligence, and design-engineering roles.\n\nBuilt an operational fleet-analytics command center (C#, Oracle PL/SQL, Tableau) for the CH-53K and S-92 helicopter programs.\n\nProductionized Monte Carlo supply-chain forecasting and ANOVA analyses as Oracle stored procedures for critical parts with 6 to 12 month lead times.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6469/",
+     "name": "Sikorsky",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_200_200/company-logo_200_200/0/1645719835572?e=1793836800&v=beta&t=QZpnD7Bx-FTxwwHcwyVrPNA2_Z7wDMtmWFluaam8Fik",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_100_100/company-logo_100_100/0/1645719835572?e=1793836800&v=beta&t=CZzlxY3ytbMVlH_MSy2I9S3UbgRP-CBzM1DQK8e1_70",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/165810/",
+    "schoolName": "Sacred Heart University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_200_200/company-logo_200_200/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=oonqmWmNDhMrHxRT7NgVttIcIAta4HnA2WY24mZcvhM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_100_100/company-logo_100_100/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=82BdaF5bpiWhi2X1tEDGzYxzyEU3Ow6s18r9RHIFCqA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_400_400/company-logo_400_400/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=pPi-fY12mUTAJLcHNG5J89Ud3Iodg9GuXTdb3EO-Yi0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/9405/",
+    "schoolName": "Embry-Riddle Aeronautical University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Aerospace, Aeronautical and Astronautical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2012
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Private Pilot License",
+    "authority": "Federal Aviation Administration",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Federal Aviation Administration",
+    "title": "Private Pilot License",
+    "issuedBy": "Federal Aviation Administration",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Aerodynamics"
+   },
+   {
+    "name": "Aerospace Engineering Materials"
+   }
+  ],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "kernl (personal AI agent platform)",
+    "description": "Personal project. An AI agent platform written in Rust that runs coding agents on local open-weight models. Scored 48.5% on Terminal-Bench 2.1 (the full 89-task set, single run) with a local 27B open-weight model. Also built the MCP tool runtime and the eval harness I used to run the benchmark end to end. More at getkernl.ai",
+    "dateRange": {},
+    "associatedWith": "Jan 2026 - Present"
+   },
+   {
+    "title": "Flight Dynamics Project",
+    "description": "Boeing 747-400 Autopilot Simulation\nTeam of 4\n\nProject goal was to create a simulated autopilot for a Boeing 747-400. An extensive Matlab script calculated longitudinal and lateral stability coefficients and derivatives and determined phugoid and short period modes. Matlab outputs were plugged into Simulink to create servo control simulations using the servo transfer functions. Outputs were then transferred to Flight Vis.",
+    "dateRange": {},
+    "associatedWith": "Sep 2011 - Dec 2012"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Education",
+   "Politics",
+   "Science and Technology"
+  ],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 978,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 972,
+  "skills": [
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-End Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Aerospace Engineering",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Aircraft",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Writing",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-End Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Engineering",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Aerospace Engineering",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Aircraft",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Writing",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Project Planning",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Program Management",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nastran",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Aircraft Design",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Camel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "CATIA",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Simulink",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Catia",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "MS Project",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Basic",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Project",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Labview",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/anthonytabano",
+  "linkedinUrl": "https://www.linkedin.com/in/anthonytabano",
+  "profileUrl": "https://www.linkedin.com/in/anthonytabano",
+  "verified": true,
+  "registeredAt": "2012-01-30T03:26:22.860Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Senior software engineer with 13 years delivering regulated enterprise systems across healthcare, insurance, higher education, and defense aerospace, specializing in Java/Spring services, developer platforms, and event-driven and workflow systems.\n\nCurrently building Optum's national clinical prior-authorization platform full-time: Spring Boot microservices, GraphQL APIs, and TypeScript/React applications behind a provider portal used by 15,000+ providers, on a platform serving 1M+ members.\n\nCore strengths: backend and API design, event-driven architecture, developer platforms and release automation, PostgreSQL and Redis, LLM agent systems.\n\nOutside of work I build kernl (getkernl.ai), a desktop AI agent written in Rust, publicly available as an early release for Windows under my own LLC. It runs local models on the user's own hardware, or a cloud provider on their own key, with a planner and verifier loop and explicit approval gates on anything destructive.",
+  "currentTitle": "Senior Software Engineer, Optum (UnitedHealth Group)",
+  "allTitles": [
+   "Senior Software Engineer, Optum (UnitedHealth Group)",
+   "Senior Full Stack Developer",
+   "Senior Software Engineer",
+   "Software Engineer & Supervisor",
+   "Aerospace & Software Engineer (Multiple Roles) "
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer, Optum (UnitedHealth Group)",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 10 mos",
+    "description": "Clinical prior-authorization platform serving 1M+ members, with a provider portal used by 15,000+ providers.\n\n- Built and owned the department's shared code and build platform (an Nx monorepo), adopted by 12+ teams. Publishing a typical change, from pull request to release, dropped from about an hour to usually 5 to 15 minutes. Only affected libraries were rebuilt, and each library carried its own version, so a hotfix no longer forced version changes across every module.\n- Set the rules for what each library could hold and had teams split their shared code into small, focused libraries as it moved in. Teams could reuse code in small pieces and keep their own release schedules.\n- Co-led the v2 redesign and rebuild of the provider portal, and loaded another application's authorization forms into it as lightweight Single-SPA parcels instead of embedding the whole application. Proposed and built the portal's move to route-based navigation with a URL for each page, a pattern other teams then adopted.\n- Built backend services for authorizations, hospital admissions, batch processing, and configuration. Helped split hospital admissions out of a large legacy workflow system (Camunda) and move electronic prior-authorization rules (EDI 278) into an in-house rules engine.\n- Designed and added custom metrics (StatsD) to the payer integration pipeline and built the team's first monitoring dashboard on them (Datadog), giving the team and the business a live view of volume and failures by partner system.\n- Led a four-engineer partner team for six months alongside a full delivery load, coordinating application-wide Angular modernization and the move to React and Turborepo.",
+    "company": {
+     "url": "",
+     "name": "buildit",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer, Optum (UnitedHealth Group)",
+    "companyName": "buildit",
+    "location": "Remote",
+    "duration": "4 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "Armonk, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Tech lead for an 8-engineer distributed team across onshore and offshore locations. Set technical standards, refined stories with business stakeholders before they reached the team, interviewed and screened candidates, and ran recurring knowledge-sharing sessions.\n- Designed custom message bucketing and routing across the Spring Boot and RabbitMQ event backbone of a Kubernetes-based B2B2C insurance platform, supporting partner API integrations, operations workflows, and a configurable white-label product.\n- Established the release process that let other engineering teams deliver to the shared platform without depending on my team for releases.\n- Ran a zero-downtime modernization from Spring Boot 2.1 to 2.5 and Angular 8 to 12 across 10 applications, sequenced app-by-app while keeping production stable.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15073937/",
+     "name": "iptiQ by Swiss Re",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius"
+     }
+    },
+    "position": "Senior Full Stack Developer",
+    "companyName": "iptiQ by Swiss Re",
+    "location": "Armonk, NY · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15073937/",
+    "companyId": "15073937",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "White Plains, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Re-architected a failing 5-hour nightly inventory sync across 300+ dealerships into a multithreaded Spring Batch pipeline, cutting runtime to under 25 minutes.\n\nBuilt the integration layer with Apache Camel, connecting supplier APIs, SFTP feeds, and internal systems with retry, backoff, and flow control for unreliable endpoints.\n\nDeveloped order-management microservices for a 1M+ SKU catalog on AWS, using Redis caching and query tuning to support inventory and fulfillment workflows, and designed the quote and pricing APIs behind the e-commerce frontend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7990/",
+     "name": "AutoNation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "AutoNation",
+    "location": "White Plains, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7990/",
+    "companyId": "7990",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer & Supervisor",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Led multi-year development of an employee-benefits and HR application suite on Spring Boot, Angular, and AWS, integrated with Banner ERP (Oracle).\n\nImplemented OAuth 2.0 SSO that federated CAS and Shibboleth identities and issued JWTs to internal and partner applications.\n\nSupervised a data-analyst team, running weekly SQL and PL/SQL workshops across the college that eliminated 20+ hours per month of manual reporting, and conducted code reviews, performance reviews, and 1:1s.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14018/",
+     "name": "Teachers College of Columbia University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4"
+     }
+    },
+    "position": "Software Engineer & Supervisor",
+    "companyName": "Teachers College of Columbia University",
+    "location": "New York, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14018/",
+    "companyId": "14018",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Aerospace & Software Engineer (Multiple Roles) ",
+    "locationName": "Stratford, CT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Moved from aerospace engineering into software, earning two promotions in three years across support, business-intelligence, and design-engineering roles.\n\nBuilt an operational fleet-analytics command center (C#, Oracle PL/SQL, Tableau) for the CH-53K and S-92 helicopter programs.\n\nProductionized Monte Carlo supply-chain forecasting and ANOVA analyses as Oracle stored procedures for critical parts with 6 to 12 month lead times.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6469/",
+     "name": "Sikorsky",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc"
+     }
+    },
+    "position": "Aerospace & Software Engineer (Multiple Roles) ",
+    "companyName": "Sikorsky",
+    "location": "Stratford, CT · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6469/",
+    "companyId": "6469",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "buildit",
+    "companyLogo": {}
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer, Optum (UnitedHealth Group)",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 10 mos",
+    "description": "Clinical prior-authorization platform serving 1M+ members, with a provider portal used by 15,000+ providers.\n\n- Built and owned the department's shared code and build platform (an Nx monorepo), adopted by 12+ teams. Publishing a typical change, from pull request to release, dropped from about an hour to usually 5 to 15 minutes. Only affected libraries were rebuilt, and each library carried its own version, so a hotfix no longer forced version changes across every module.\n- Set the rules for what each library could hold and had teams split their shared code into small, focused libraries as it moved in. Teams could reuse code in small pieces and keep their own release schedules.\n- Co-led the v2 redesign and rebuild of the provider portal, and loaded another application's authorization forms into it as lightweight Single-SPA parcels instead of embedding the whole application. Proposed and built the portal's move to route-based navigation with a URL for each page, a pattern other teams then adopted.\n- Built backend services for authorizations, hospital admissions, batch processing, and configuration. Helped split hospital admissions out of a large legacy workflow system (Camunda) and move electronic prior-authorization rules (EDI 278) into an in-house rules engine.\n- Designed and added custom metrics (StatsD) to the payer integration pipeline and built the team's first monitoring dashboard on them (Datadog), giving the team and the business a live view of volume and failures by partner system.\n- Led a four-engineer partner team for six months alongside a full delivery load, coordinating application-wide Angular modernization and the move to React and Turborepo.",
+    "company": {
+     "url": "",
+     "name": "buildit",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer, Optum (UnitedHealth Group)",
+    "companyName": "buildit",
+    "location": "Remote",
+    "duration": "4 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "Armonk, NY · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Tech lead for an 8-engineer distributed team across onshore and offshore locations. Set technical standards, refined stories with business stakeholders before they reached the team, interviewed and screened candidates, and ran recurring knowledge-sharing sessions.\n- Designed custom message bucketing and routing across the Spring Boot and RabbitMQ event backbone of a Kubernetes-based B2B2C insurance platform, supporting partner API integrations, operations workflows, and a configurable white-label product.\n- Established the release process that let other engineering teams deliver to the shared platform without depending on my team for releases.\n- Ran a zero-downtime modernization from Spring Boot 2.1 to 2.5 and Angular 8 to 12 across 10 applications, sequenced app-by-app while keeping production stable.",
+    "company": {
+     "url": "https://www.linkedin.com/company/15073937/",
+     "name": "iptiQ by Swiss Re",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius"
+     }
+    },
+    "position": "Senior Full Stack Developer",
+    "companyName": "iptiQ by Swiss Re",
+    "location": "Armonk, NY · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/15073937/",
+    "companyId": "15073937",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_400_400/company-logo_400_400/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=9RmNT_sBb0C2yWBrreCTzJLdy_tXT35-TPYPRo-5Ius",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_200_200/company-logo_200_200/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=SthQMT9M5Sa5wyeU9vVSIzenzdkeOlW16SfvTDJQDGw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGzcFGogwmXKQ/company-logo_100_100/company-logo_100_100/0/1688657302962/iptiq_logo?e=1793836800&v=beta&t=TpxVxIFWBouSffky6qtJA-ycp0Tm_vqfREYT4Rhw2oY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "White Plains, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Re-architected a failing 5-hour nightly inventory sync across 300+ dealerships into a multithreaded Spring Batch pipeline, cutting runtime to under 25 minutes.\n\nBuilt the integration layer with Apache Camel, connecting supplier APIs, SFTP feeds, and internal systems with retry, backoff, and flow control for unreliable endpoints.\n\nDeveloped order-management microservices for a 1M+ SKU catalog on AWS, using Redis caching and query tuning to support inventory and fulfillment workflows, and designed the quote and pricing APIs behind the e-commerce frontend.",
+    "company": {
+     "url": "https://www.linkedin.com/company/7990/",
+     "name": "AutoNation",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "AutoNation",
+    "location": "White Plains, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7990/",
+    "companyId": "7990",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_400_400/B4EZ2wjTEoIcAc-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=paHXJISqhiRL6d6FmtpPqdj9_Agzj3pI0uG38SjyYls",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_200_200/B4EZ2wjTEoIcAM-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=hYbpcAAcWvd6KAdcTOKi7QQLii1MAJVmGaN6Nw6hMkY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGy1702GS-8Ig/company-logo_100_100/B4EZ2wjTEoIcAU-/0/1776783537066/autonation_logo?e=1793836800&v=beta&t=vUCjc8MD4fi_JKdbAhYwR0toVunHSc_4tbA8wYMyHVE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer & Supervisor",
+    "locationName": "New York, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 2 mos",
+    "description": "Led multi-year development of an employee-benefits and HR application suite on Spring Boot, Angular, and AWS, integrated with Banner ERP (Oracle).\n\nImplemented OAuth 2.0 SSO that federated CAS and Shibboleth identities and issued JWTs to internal and partner applications.\n\nSupervised a data-analyst team, running weekly SQL and PL/SQL workshops across the college that eliminated 20+ hours per month of manual reporting, and conducted code reviews, performance reviews, and 1:1s.",
+    "company": {
+     "url": "https://www.linkedin.com/company/14018/",
+     "name": "Teachers College of Columbia University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4"
+     }
+    },
+    "position": "Software Engineer & Supervisor",
+    "companyName": "Teachers College of Columbia University",
+    "location": "New York, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14018/",
+    "companyId": "14018",
+    "duration": "2 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_400_400/company-logo_400_400/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=Fi7kVK1tornZ7aFZo6dtET-NZ1_aG2VO9JxKfHZ-8y4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_200_200/company-logo_200_200/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=WWNXKDSrsorA5fiiHg5SrYFSt-ErndEV72yF1pNP_Ro",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHJ9pfxk3w3tA/company-logo_100_100/company-logo_100_100/0/1692623683095/teachers_college_columbia_university_logo?e=1793836800&v=beta&t=m25A_Fqt6um16Xgqy4nLJcfCemuY5sGVGMseI41ZZm8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Aerospace & Software Engineer (Multiple Roles) ",
+    "locationName": "Stratford, CT · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2016
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Moved from aerospace engineering into software, earning two promotions in three years across support, business-intelligence, and design-engineering roles.\n\nBuilt an operational fleet-analytics command center (C#, Oracle PL/SQL, Tableau) for the CH-53K and S-92 helicopter programs.\n\nProductionized Monte Carlo supply-chain forecasting and ANOVA analyses as Oracle stored procedures for critical parts with 6 to 12 month lead times.",
+    "company": {
+     "url": "https://www.linkedin.com/company/6469/",
+     "name": "Sikorsky",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc"
+     }
+    },
+    "position": "Aerospace & Software Engineer (Multiple Roles) ",
+    "companyName": "Sikorsky",
+    "location": "Stratford, CT · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6469/",
+    "companyId": "6469",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_400_400/company-logo_400_400/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=4CbCdbcWrxnsJ8I_55a-WMKEA7KRbiC93S67gUUvaRc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_200_200/company-logo_200_200/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=QLAkN6V_S8haLmTwS3wKCMbsfw5BDuvbVF91LsL1VWw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFC7egdif3dag/company-logo_100_100/company-logo_100_100/0/1678373725823/sikorsky_logo?e=1793836800&v=beta&t=ERdm9lpaSGxAFRZ6bCoC7n-Z6rQ8Wyg4ReTAmv-DtlY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_200_200/company-logo_200_200/0/1645719835572?e=1793836800&v=beta&t=QZpnD7Bx-FTxwwHcwyVrPNA2_Z7wDMtmWFluaam8Fik",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_100_100/company-logo_100_100/0/1645719835572?e=1793836800&v=beta&t=CZzlxY3ytbMVlH_MSy2I9S3UbgRP-CBzM1DQK8e1_70",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_200_200/company-logo_200_200/0/1645719835572?e=1793836800&v=beta&t=QZpnD7Bx-FTxwwHcwyVrPNA2_Z7wDMtmWFluaam8Fik",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_100_100/company-logo_100_100/0/1645719835572?e=1793836800&v=beta&t=CZzlxY3ytbMVlH_MSy2I9S3UbgRP-CBzM1DQK8e1_70",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/165810/",
+    "schoolName": "Sacred Heart University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/165810/",
+    "schoolId": "165810",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_200_200/company-logo_200_200/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=oonqmWmNDhMrHxRT7NgVttIcIAta4HnA2WY24mZcvhM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_100_100/company-logo_100_100/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=82BdaF5bpiWhi2X1tEDGzYxzyEU3Ow6s18r9RHIFCqA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_400_400/company-logo_400_400/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=pPi-fY12mUTAJLcHNG5J89Ud3Iodg9GuXTdb3EO-Yi0",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_400_400/company-logo_400_400/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=pPi-fY12mUTAJLcHNG5J89Ud3Iodg9GuXTdb3EO-Yi0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_400_400/company-logo_400_400/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=pPi-fY12mUTAJLcHNG5J89Ud3Iodg9GuXTdb3EO-Yi0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_200_200/company-logo_200_200/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=oonqmWmNDhMrHxRT7NgVttIcIAta4HnA2WY24mZcvhM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEr2BfERUVulQ/company-logo_100_100/company-logo_100_100/0/1630662243553/embry_riddle_aeronautical_university_logo?e=1793836800&v=beta&t=82BdaF5bpiWhi2X1tEDGzYxzyEU3Ow6s18r9RHIFCqA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/9405/",
+    "schoolName": "Embry-Riddle Aeronautical University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Aerospace, Aeronautical and Astronautical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/9405/",
+    "schoolId": "9405",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "year": 2012
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_200_200/company-logo_200_200/0/1645719835572?e=1793836800&v=beta&t=QZpnD7Bx-FTxwwHcwyVrPNA2_Z7wDMtmWFluaam8Fik",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_100_100/company-logo_100_100/0/1645719835572?e=1793836800&v=beta&t=CZzlxY3ytbMVlH_MSy2I9S3UbgRP-CBzM1DQK8e1_70",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_400_400/company-logo_400_400/0/1645719835572?e=1793836800&v=beta&t=6ItzQj9XCF5htcl9c8IfpFoUz4fyQmXHeu2TSONnCZs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_200_200/company-logo_200_200/0/1645719835572?e=1793836800&v=beta&t=QZpnD7Bx-FTxwwHcwyVrPNA2_Z7wDMtmWFluaam8Fik",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHHJbfKHy1HsA/company-logo_100_100/company-logo_100_100/0/1645719835572?e=1793836800&v=beta&t=CZzlxY3ytbMVlH_MSy2I9S3UbgRP-CBzM1DQK8e1_70",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/165810/",
+    "schoolName": "Sacred Heart University",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/165810/",
+    "schoolId": "165810",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_100_100/B4EZwfjDbYK0Ac-/0/1770055809220?e=1793836800&v=beta&t=odLziCpKeXr6y0RR0ax1WtC1KpSTy5ubZOkNSFlVeVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_200_200/B4EZwfjDbYK0AY-/0/1770055809220?e=1793836800&v=beta&t=ii-LLUdqyB1v6z4foANpBR55HCxio1CqSvikYzji2XU",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_400_400/B4EZwfjDbYK0Ag-/0/1770055809220?e=1793836800&v=beta&t=WpK7WO0aA5uR0Vek_5rlZnOycKAJUnSczAzutRQkPaw",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_400_400/B4EZwfjDbYK0Ag-/0/1770055809220?e=1793836800&v=beta&t=WpK7WO0aA5uR0Vek_5rlZnOycKAJUnSczAzutRQkPaw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_200_200/B4EZwfjDbYK0AY-/0/1770055809220?e=1793836800&v=beta&t=ii-LLUdqyB1v6z4foANpBR55HCxio1CqSvikYzji2XU",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_100_100/B4EZwfjDbYK0Ac-/0/1770055809220?e=1793836800&v=beta&t=odLziCpKeXr6y0RR0ax1WtC1KpSTy5ubZOkNSFlVeVU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_100_100/B4EZwfjDbYK0Ac-/0/1770055809220?e=1793836800&v=beta&t=odLziCpKeXr6y0RR0ax1WtC1KpSTy5ubZOkNSFlVeVU",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_200_200/B4EZwfjDbYK0AY-/0/1770055809220?e=1793836800&v=beta&t=ii-LLUdqyB1v6z4foANpBR55HCxio1CqSvikYzji2XU",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_400_400/B4EZwfjDbYK0Ag-/0/1770055809220?e=1793836800&v=beta&t=WpK7WO0aA5uR0Vek_5rlZnOycKAJUnSczAzutRQkPaw",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-crop_800_800/B4EZwfjDbYK0AI-/0/1770055809121?e=1793836800&v=beta&t=A-w6EYGTk5WY5MCkydfQEcdbB8YfoqVOp1jzzM2r6ww",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_400_400/B4EZwfjDbYK0Ag-/0/1770055809220?e=1793836800&v=beta&t=WpK7WO0aA5uR0Vek_5rlZnOycKAJUnSczAzutRQkPaw",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_200_200/B4EZwfjDbYK0AY-/0/1770055809220?e=1793836800&v=beta&t=ii-LLUdqyB1v6z4foANpBR55HCxio1CqSvikYzji2XU",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQEBKEqdcwO7xQ/profile-displayphoto-scale_100_100/B4EZwfjDbYK0Ac-/0/1770055809220?e=1793836800&v=beta&t=odLziCpKeXr6y0RR0ax1WtC1KpSTy5ubZOkNSFlVeVU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1727888612244?e=1793836800&v=beta&t=3bopR_HJpIzFm6Fa950eEXy_O1lhasxujeWwwGBrmVs",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727888612244?e=1793836800&v=beta&t=df6MxKHK5zxBaP6u3WrVpfX5wVd7-kSl_-4_Yeud9T4",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727888612244?e=1793836800&v=beta&t=df6MxKHK5zxBaP6u3WrVpfX5wVd7-kSl_-4_Yeud9T4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1727888612244?e=1793836800&v=beta&t=df6MxKHK5zxBaP6u3WrVpfX5wVd7-kSl_-4_Yeud9T4",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQGLQoXImO6UWg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1727888612244?e=1793836800&v=beta&t=3bopR_HJpIzFm6Fa950eEXy_O1lhasxujeWwwGBrmVs",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/anthonytabano"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-19T12:24:53.739Z",
+ "foundBy": null
+}

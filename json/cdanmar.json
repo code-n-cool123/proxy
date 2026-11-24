@@ -1,0 +1,2602 @@
+{
+ "slug": "cdanmar",
+ "inputUrl": "https://www.linkedin.com/in/cdanmar",
+ "fetchedAt": "2026-10-22T00:29:03.155Z",
+ "id": "6ad958cfd820dfb707d0abe6",
+ "url": "https://www.linkedin.com/in/cdanmar",
+ "profile": {
+  "created": 1472669164127,
+  "trackingId": "HnzegSpsSZCqXYznn/boFg==",
+  "firstName": "Carlos",
+  "lastName": "Martinez",
+  "pronoun": null,
+  "versionTag": "156375413",
+  "headline": "Senior Site Reliability Engineer @ The New York Times | Kubernetes, Istio, Agentic AI Tooling, AWS, GCP",
+  "publicIdentifier": "cdanmar",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "522327982",
+  "profileId": "ACoAAB8iF64BzZFg9EAWjL9RtKyq0Eav-g89Q9A",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517018778420?e=1794441600&v=beta&t=GesHHsD6gC7h9zS0E_vt8QPzC3m2an8im0G-_xjgP64",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517018778415?e=1794441600&v=beta&t=Yi2welmm2JYb7hdSmliPMKq7TnGcKdOdKLhPFJnNiEo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517018778464?e=1794441600&v=beta&t=tCRw0g1MiNLS4fUUj1bsmqag4pP6CoGu3OLr40a_fYI",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516779501812?e=1794441600&v=beta&t=mIqK1J_lrueuo03RMw_Bp7ZdRTOWqXXSoFvrAUud3uI",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516779501779?e=1794441600&v=beta&t=_e-G5wYliz62HeEuVkfWscJJL4kumVL4R9vhJEIQnD0"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000014",
+  "geoLocationName": "Greater Chicago Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I keep large-scale systems running when it matters most — breaking news, elections, traffic spikes that would break a less-hardened stack.\n\nMy path started in systems administration and DevOps before landing at The New York Times as a founding member of its Site Reliability Engineering team. Since 2021, I've:\n\n- Built NYTLT, a load-testing platform generating 900K+ RPS on demand, used to stress-test NYT's systems ahead of the 2022 Midterms and 2024 Presidential Election\n- Spearheaded agentic AI-based troubleshooting for our SRE org, building a Claude Code plugin that turns a Datadog alert into a structured, automated investigation — now adopted org-wide as an internal tool\n- Led production rollout of Istio Ambient Mesh for NYT's GraphQL supergraph router, reclaiming ~1,800 vCPU/memory fleet-wide and root-causing the load-balancing regression it introduced\n- Defined a scaling-reliability SLO now adopted as a leadership-level commitment\n- Built chaosctl, an internal tool for declarative chaos engineering\n\nI care about the boring, unglamorous work that makes systems trustworthy — and about making sure journalism keeps reaching people when they need it most.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "As one of the first members of NYT's SRE team, I spearheaded election readiness efforts for the 2022 Midterm Elections and 2024 Presidential Elections.\n\n- Designed NYTLT, a highly scalable, low-cost load generation system capable of simulating Election Day conditions\n- Introduced k6, a self-service, JS-based testing framework\n- Built reliable, cost-effective load generation systems backed by EKS at a fraction of the cost of existing tooling\n- Helped developers troubleshoot Kubernetes issues and make their systems more resilient\n- Overhauled security of our load testing environment to prevent abuse by malicious actors and to better integrate with existing security environments across the Times\n\nMore recently, I've led our Istio Ambient Mesh migration:\n\n- Led production rollout and hardening of Istio Ambient Mesh for our GraphQL supergraph router across two AWS regions, replacing per-pod Envoy sidecars with ztunnel/waypoint and reclaiming ~1,800 vCPU / ~1,800Gi of memory fleet-wide\n- Root-caused a load-balancing regression introduced by the migration (per-pod CPU skew nearly tripled) and worked with our platform team to define the fix\n- Defined a scaling-reliability SLO for our router tier from a 90-day, 2,000+ event baseline, adopted as a leadership-level reliability commitment\n- Shipped resilience hardening across the router and its coprocessor, including tighter PodDisruptionBudgets and hybrid QoS, to reduce error exposure during node churn and rolling deploys\n- Built chaosctl, a Go CLI for declarative, safety-gated chaos engineering across Istio and Chaos Mesh\n\nI've also spearheaded agentic AI-based troubleshooting for our SRE org:\n\n- Built a Claude Code plugin that turns a Datadog alert into a structured, automated investigation — trace/log correlation, scaling-event checks, and auto-generated notebooks — via a delegated subagent, now distributed org-wide as an internal tool",
+    "insights": "Skills: Amazon Web Services (AWS) · Google Kubernetes Engine (GKE) · Amazon EKS · Continuous Integration and Continuous Delivery (CI/CD) · Google Cloud Platform (GCP) · Kubernetes",
+    "company": {
+     "url": "https://www.linkedin.com/company/4236/",
+     "name": "The New York Times",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ"
+     }
+    }
+   },
+   {
+    "title": "DevOps Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Senior Member of the Platform Team, responsible for the health and provisioning of Azure services and edge networks.\n\n- Created security standards around access to accommodate a distributed, global workforce and hybrid networks\n- Assisted with preparations and remediation to become SOC 2 compliant\n- Managed the full networking stack, from BACNET Layer 2 broadcasts to Layer 7 RESTful APIs\n- Created controls around production deployments to maintain compliance with SOC 2 standards\n- Created dynamic firewall rules based on Just-In-Time access and a Zero-Trust philosophy\n- Managed App Services, Windows and Linux VMs, Kubernetes clusters, and on-premises networking appliances\n- Performed security scans against the network and created alerts for anomalous activity",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18672721/",
+     "name": "cohesion",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98"
+     }
+    }
+   },
+   {
+    "title": "Senior Solutions Engineer",
+    "locationName": "Rosemont, Il",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Consultant Advising on Cloud Native Solutions and Security to Enterprise Customers\n\n- Created several workshops to help clients get familiar with Cloud Native patterns such as Build Automation and the Container Lifecycle\n- Created Terraform Templates to stand up AKS that are now implemented into BreakFree's Rapid Deploy Library\n- Built Kubernetes and its deployment pipelines from scratch during multiple engagements\n- Leveraged Azure DevOps for build automation\n- Provided guidance for container security throughout the whole container lifecycle, from local development to production\n- Helped teams optimize, automate, and troubleshoot their existing Kubernetes Clusters\n- Mentored teammates on Container, Kubernetes, and IaC concepts",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/10679564/",
+     "name": "BreakFree Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw"
+     }
+    }
+   },
+   {
+    "title": "Senior Deployment Engineer",
+    "locationName": "Chicago",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Deployment Engineer focused on spearheading Cloud Native tools and patterns while supporting existing infrastructure\n\n- Spearheaded some of Enova's first container deployment projects, with a focus on establishing best practices that moved our team away from manual processes, server drift, and technical debt\n- Established new pipelines for container builds and promotion\n- Worked closely with other teams to establish new security practices, including migrating secrets to Vault and establishing container security standards",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/670584/",
+     "name": "Enova International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA"
+     }
+    }
+   },
+   {
+    "title": "DevOps Engineer",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Managed Kubernetes clusters hosted on Google Kubernetes Engine\n- Deployed infrastructure as code with Terraform\n- Created and troubleshot CI/CD pipelines via Terraform and Spinnaker\n- Enforced container security for Docker images",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/85802/",
+     "name": "Solstice",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM"
+     }
+    }
+   },
+   {
+    "title": "Developer",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Developer on a web application built for \"Back of the Yards Coffee.\"\n\n- Owned RSpec test coverage for the application, including form sanitization and user-workflow testing\n- Filled in across additional engineering roles as needs arose on a small team",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/666511/",
+     "name": "The Difference Engine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI"
+     }
+    }
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Systems administrator responsible for cloud infrastructure in a self-hosted private cloud environment. A versatile role spanning the full stack:\n\n- Managed Active Directory, Exchange, VMware, and Hyper-V virtualization\n- Managed MPLS and Cisco networking, and hardware including SANs and backup systems\n- Served as team lead for other technicians and the highest level of escalation for technical support issues",
+    "company": {
+     "url": "https://www.linkedin.com/company/968189/",
+     "name": "HBK Engineering, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI"
+     }
+    }
+   },
+   {
+    "title": "Linux System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "At WiredTree, I provided support for a large environment of managed servers, both virtual and dedicated. I coordinated closely with 20 other systems administrators to provide 24/7 support to our customers.",
+    "company": {
+     "url": "https://www.linkedin.com/company/445078/",
+     "name": "WiredTree",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA"
+     }
+    }
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Full-time systems administrator brought on to provide enterprise-level support to colocation, shared, and dedicated hosting customers.\n\n- Provided network, system, disaster recovery, and application consulting to customers\n- Provided backbone maintenance to the datacenter, including network, power, and AC\n- Managed and configured advanced ISP-level DNS and IP configuration for internal applications and customer-facing networks",
+    "company": {
+     "url": "https://www.linkedin.com/company/4815745/",
+     "name": "NetSource Communications, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g"
+     }
+    }
+   },
+   {
+    "title": "Desktop Support Technician",
+    "locationName": "Chicago IL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Provided helpdesk and desktop support to various satellite offices of a fast-paced investment bank. Provided support to proprietary tools like NetX360 and Bloomberg Terminals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97122/",
+     "name": "Ziegler",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y"
+     }
+    }
+   },
+   {
+    "title": "IT Intern",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2012
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Gained extensive experience in corporate IT infrastructure and user support; installed, configured, and maintained diverse workstations and software. Provided Help Desk support for phone- and email-based service requests; input, updated, and closed trouble tickets. Administered user accounts and permissions for Windows Server 2008, VMware, Active Directory, Microsoft Exchange, Salesforce, and Avaya Phone Server.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97120/",
+     "name": "kCura",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc"
+     }
+    }
+   },
+   {
+    "title": "Desktop Support Technician 1",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2011
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Handled installation, configuration, maintenance, and issue resolution for hardware, software, and networks within classroom and lab environments. Provided user support for students, faculty, and staff. Coordinated with product / service vendors to correct issues and facilitate new initiatives. Developed technical training tools, procedures, and manuals for diverse hardware and software. Spearheaded biannual, district-wide imaging projects. Conducted IT asset tracking and inventory management",
+    "company": {
+     "url": "https://www.linkedin.com/company/28629/",
+     "name": "School District U-46",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_200_200/company-logo_200_200/0/1631315510149?e=1794441600&v=beta&t=ukHKJCy0BHCzWdctGXZNyfrbppSGsR7WRpdttRWjKrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_100_100/company-logo_100_100/0/1631315510149?e=1794441600&v=beta&t=kRINjm_0e6GxdSp0aC0VkDW--vHdPH9X_rM3Exx5JdI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15077811/",
+    "schoolName": "Actualize Coding Bootcamp",
+    "degreeName": "Fullstack Development",
+    "fieldOfStudy": "Fullstack Development",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2017
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_400_400/B56ZhgxePCHkAg-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=nG5l9NlRM1wGhUQIcJa4vf2snGC2jvhxBP2PeOguEj8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_200_200/B56ZhgxePCHkAQ-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=Pa92tAa3Vqxsa2feXw0TjU3vQXKcyXbHhHkxMOfFu70",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_100_100/B56ZhgxePCHkAY-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=YkF26uHLrm5LMoxMa44aY76DF45bRwSJux3G1rnphNM"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4427/",
+    "schoolName": "DeVry University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Network and System Administration/Administrator",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2010
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Architecting with Google Cloud Platform Specialization",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Architecting with Google Cloud Platform Specialization",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Google Cloud Platform Fundamentals: Core Infrastructure",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Google Cloud Platform Fundamentals: Core Infrastructure",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "The New York Times",
+  "companyPublicId": "the-new-york-times",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/the-new-york-times/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:4236",
+   "name": "The New York Times",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQEp-f9Ptu2yVQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_"
+    }
+   },
+   "universalName": "the-new-york-times",
+   "url": "https://www.linkedin.com/company/the-new-york-times/",
+   "slug": "the-new-york-times",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+   "specialties": []
+  },
+  "followerCount": 2678,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 2703,
+  "skills": [
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EKS",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 2,
+    "experiences": 6
+   },
+   {
+    "name": "Linux",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Domain Name System (DNS)",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Network Administration",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "System Administration",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "GCP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby on Rails",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Apache",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Windows Server",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Exchange",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Active Directory",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 2,
+    "experiences": 6
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Domain Name System (DNS)",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Network Administration",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "System Administration",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "GCP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Heroku",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Simple Mail Transfer Protocol (SMTP)",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "IPv6",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "HP Server Hardware",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "RAID",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "FreeNAS",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Palo Alto Networks",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "IoT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vault",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Infrastructure as code (IaC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EKS",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby on Rails",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Apache",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Windows Server",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Exchange",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Active Directory",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Information Services (IIS)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Cisco Routers",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "WordPress",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Netgear",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Netscreen",
+    "endorsements": 3,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/cdanmar",
+  "linkedinUrl": "https://www.linkedin.com/in/cdanmar",
+  "profileUrl": "https://www.linkedin.com/in/cdanmar",
+  "verified": true,
+  "registeredAt": "2016-08-31T18:46:04.127Z",
+  "location": {
+   "linkedinText": "Greater Chicago Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Chicago Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I keep large-scale systems running when it matters most — breaking news, elections, traffic spikes that would break a less-hardened stack.\n\nMy path started in systems administration and DevOps before landing at The New York Times as a founding member of its Site Reliability Engineering team. Since 2021, I've:\n\n- Built NYTLT, a load-testing platform generating 900K+ RPS on demand, used to stress-test NYT's systems ahead of the 2022 Midterms and 2024 Presidential Election\n- Spearheaded agentic AI-based troubleshooting for our SRE org, building a Claude Code plugin that turns a Datadog alert into a structured, automated investigation — now adopted org-wide as an internal tool\n- Led production rollout of Istio Ambient Mesh for NYT's GraphQL supergraph router, reclaiming ~1,800 vCPU/memory fleet-wide and root-causing the load-balancing regression it introduced\n- Defined a scaling-reliability SLO now adopted as a leadership-level commitment\n- Built chaosctl, an internal tool for declarative chaos engineering\n\nI care about the boring, unglamorous work that makes systems trustworthy — and about making sure journalism keeps reaching people when they need it most.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "DevOps Engineer",
+   "Senior Solutions Engineer",
+   "Senior Deployment Engineer",
+   "DevOps Engineer",
+   "Developer",
+   "System Administrator",
+   "Linux System Administrator",
+   "System Administrator",
+   "Desktop Support Technician",
+   "IT Intern",
+   "Desktop Support Technician 1"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "As one of the first members of NYT's SRE team, I spearheaded election readiness efforts for the 2022 Midterm Elections and 2024 Presidential Elections.\n\n- Designed NYTLT, a highly scalable, low-cost load generation system capable of simulating Election Day conditions\n- Introduced k6, a self-service, JS-based testing framework\n- Built reliable, cost-effective load generation systems backed by EKS at a fraction of the cost of existing tooling\n- Helped developers troubleshoot Kubernetes issues and make their systems more resilient\n- Overhauled security of our load testing environment to prevent abuse by malicious actors and to better integrate with existing security environments across the Times\n\nMore recently, I've led our Istio Ambient Mesh migration:\n\n- Led production rollout and hardening of Istio Ambient Mesh for our GraphQL supergraph router across two AWS regions, replacing per-pod Envoy sidecars with ztunnel/waypoint and reclaiming ~1,800 vCPU / ~1,800Gi of memory fleet-wide\n- Root-caused a load-balancing regression introduced by the migration (per-pod CPU skew nearly tripled) and worked with our platform team to define the fix\n- Defined a scaling-reliability SLO for our router tier from a 90-day, 2,000+ event baseline, adopted as a leadership-level reliability commitment\n- Shipped resilience hardening across the router and its coprocessor, including tighter PodDisruptionBudgets and hybrid QoS, to reduce error exposure during node churn and rolling deploys\n- Built chaosctl, a Go CLI for declarative, safety-gated chaos engineering across Istio and Chaos Mesh\n\nI've also spearheaded agentic AI-based troubleshooting for our SRE org:\n\n- Built a Claude Code plugin that turns a Datadog alert into a structured, automated investigation — trace/log correlation, scaling-event checks, and auto-generated notebooks — via a delegated subagent, now distributed org-wide as an internal tool",
+    "insights": "Skills: Amazon Web Services (AWS) · Google Kubernetes Engine (GKE) · Amazon EKS · Continuous Integration and Continuous Delivery (CI/CD) · Google Cloud Platform (GCP) · Kubernetes",
+    "company": {
+     "url": "https://www.linkedin.com/company/4236/",
+     "name": "The New York Times",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "The New York Times",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4236/",
+    "companyId": "4236",
+    "duration": "5 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "DevOps Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Senior Member of the Platform Team, responsible for the health and provisioning of Azure services and edge networks.\n\n- Created security standards around access to accommodate a distributed, global workforce and hybrid networks\n- Assisted with preparations and remediation to become SOC 2 compliant\n- Managed the full networking stack, from BACNET Layer 2 broadcasts to Layer 7 RESTful APIs\n- Created controls around production deployments to maintain compliance with SOC 2 standards\n- Created dynamic firewall rules based on Just-In-Time access and a Zero-Trust philosophy\n- Managed App Services, Windows and Linux VMs, Kubernetes clusters, and on-premises networking appliances\n- Performed security scans against the network and created alerts for anomalous activity",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18672721/",
+     "name": "cohesion",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98"
+     }
+    },
+    "position": "DevOps Engineer",
+    "companyName": "cohesion",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18672721/",
+    "companyId": "18672721",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Solutions Engineer",
+    "locationName": "Rosemont, Il",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Consultant Advising on Cloud Native Solutions and Security to Enterprise Customers\n\n- Created several workshops to help clients get familiar with Cloud Native patterns such as Build Automation and the Container Lifecycle\n- Created Terraform Templates to stand up AKS that are now implemented into BreakFree's Rapid Deploy Library\n- Built Kubernetes and its deployment pipelines from scratch during multiple engagements\n- Leveraged Azure DevOps for build automation\n- Provided guidance for container security throughout the whole container lifecycle, from local development to production\n- Helped teams optimize, automate, and troubleshoot their existing Kubernetes Clusters\n- Mentored teammates on Container, Kubernetes, and IaC concepts",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/10679564/",
+     "name": "BreakFree Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw"
+     }
+    },
+    "position": "Senior Solutions Engineer",
+    "companyName": "BreakFree Solutions",
+    "location": "Rosemont, Il",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10679564/",
+    "companyId": "10679564",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Deployment Engineer",
+    "locationName": "Chicago",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Deployment Engineer focused on spearheading Cloud Native tools and patterns while supporting existing infrastructure\n\n- Spearheaded some of Enova's first container deployment projects, with a focus on establishing best practices that moved our team away from manual processes, server drift, and technical debt\n- Established new pipelines for container builds and promotion\n- Worked closely with other teams to establish new security practices, including migrating secrets to Vault and establishing container security standards",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/670584/",
+     "name": "Enova International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA"
+     }
+    },
+    "position": "Senior Deployment Engineer",
+    "companyName": "Enova International",
+    "location": "Chicago",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/670584/",
+    "companyId": "670584",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "DevOps Engineer",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Managed Kubernetes clusters hosted on Google Kubernetes Engine\n- Deployed infrastructure as code with Terraform\n- Created and troubleshot CI/CD pipelines via Terraform and Spinnaker\n- Enforced container security for Docker images",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/85802/",
+     "name": "Solstice",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM"
+     }
+    },
+    "position": "DevOps Engineer",
+    "companyName": "Solstice",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/85802/",
+    "companyId": "85802",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Developer",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Developer on a web application built for \"Back of the Yards Coffee.\"\n\n- Owned RSpec test coverage for the application, including form sanitization and user-workflow testing\n- Filled in across additional engineering roles as needs arose on a small team",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/666511/",
+     "name": "The Difference Engine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI"
+     }
+    },
+    "position": "Developer",
+    "companyName": "The Difference Engine",
+    "location": "Chicago, Illinois",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/666511/",
+    "companyId": "666511",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Systems administrator responsible for cloud infrastructure in a self-hosted private cloud environment. A versatile role spanning the full stack:\n\n- Managed Active Directory, Exchange, VMware, and Hyper-V virtualization\n- Managed MPLS and Cisco networking, and hardware including SANs and backup systems\n- Served as team lead for other technicians and the highest level of escalation for technical support issues",
+    "company": {
+     "url": "https://www.linkedin.com/company/968189/",
+     "name": "HBK Engineering, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI"
+     }
+    },
+    "position": "System Administrator",
+    "companyName": "HBK Engineering, LLC",
+    "location": "Chicago, Illinois",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/968189/",
+    "companyId": "968189",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Linux System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "At WiredTree, I provided support for a large environment of managed servers, both virtual and dedicated. I coordinated closely with 20 other systems administrators to provide 24/7 support to our customers.",
+    "company": {
+     "url": "https://www.linkedin.com/company/445078/",
+     "name": "WiredTree",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA"
+     }
+    },
+    "position": "Linux System Administrator",
+    "companyName": "WiredTree",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/445078/",
+    "companyId": "445078",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Full-time systems administrator brought on to provide enterprise-level support to colocation, shared, and dedicated hosting customers.\n\n- Provided network, system, disaster recovery, and application consulting to customers\n- Provided backbone maintenance to the datacenter, including network, power, and AC\n- Managed and configured advanced ISP-level DNS and IP configuration for internal applications and customer-facing networks",
+    "company": {
+     "url": "https://www.linkedin.com/company/4815745/",
+     "name": "NetSource Communications, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g"
+     }
+    },
+    "position": "System Administrator",
+    "companyName": "NetSource Communications, Inc",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4815745/",
+    "companyId": "4815745",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Desktop Support Technician",
+    "locationName": "Chicago IL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Provided helpdesk and desktop support to various satellite offices of a fast-paced investment bank. Provided support to proprietary tools like NetX360 and Bloomberg Terminals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97122/",
+     "name": "Ziegler",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y"
+     }
+    },
+    "position": "Desktop Support Technician",
+    "companyName": "Ziegler",
+    "location": "Chicago IL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/97122/",
+    "companyId": "97122",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "IT Intern",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2012
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Gained extensive experience in corporate IT infrastructure and user support; installed, configured, and maintained diverse workstations and software. Provided Help Desk support for phone- and email-based service requests; input, updated, and closed trouble tickets. Administered user accounts and permissions for Windows Server 2008, VMware, Active Directory, Microsoft Exchange, Salesforce, and Avaya Phone Server.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97120/",
+     "name": "kCura",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc"
+     }
+    },
+    "position": "IT Intern",
+    "companyName": "kCura",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/97120/",
+    "companyId": "97120",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Desktop Support Technician 1",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2011
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Handled installation, configuration, maintenance, and issue resolution for hardware, software, and networks within classroom and lab environments. Provided user support for students, faculty, and staff. Coordinated with product / service vendors to correct issues and facilitate new initiatives. Developed technical training tools, procedures, and manuals for diverse hardware and software. Spearheaded biannual, district-wide imaging projects. Conducted IT asset tracking and inventory management",
+    "company": {
+     "url": "https://www.linkedin.com/company/28629/",
+     "name": "School District U-46",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY"
+     }
+    },
+    "position": "Desktop Support Technician 1",
+    "companyName": "School District U-46",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28629/",
+    "companyId": "28629",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2011
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "4236",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4236/",
+    "companyName": "The New York Times",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 3 mos",
+    "description": "As one of the first members of NYT's SRE team, I spearheaded election readiness efforts for the 2022 Midterm Elections and 2024 Presidential Elections.\n\n- Designed NYTLT, a highly scalable, low-cost load generation system capable of simulating Election Day conditions\n- Introduced k6, a self-service, JS-based testing framework\n- Built reliable, cost-effective load generation systems backed by EKS at a fraction of the cost of existing tooling\n- Helped developers troubleshoot Kubernetes issues and make their systems more resilient\n- Overhauled security of our load testing environment to prevent abuse by malicious actors and to better integrate with existing security environments across the Times\n\nMore recently, I've led our Istio Ambient Mesh migration:\n\n- Led production rollout and hardening of Istio Ambient Mesh for our GraphQL supergraph router across two AWS regions, replacing per-pod Envoy sidecars with ztunnel/waypoint and reclaiming ~1,800 vCPU / ~1,800Gi of memory fleet-wide\n- Root-caused a load-balancing regression introduced by the migration (per-pod CPU skew nearly tripled) and worked with our platform team to define the fix\n- Defined a scaling-reliability SLO for our router tier from a 90-day, 2,000+ event baseline, adopted as a leadership-level reliability commitment\n- Shipped resilience hardening across the router and its coprocessor, including tighter PodDisruptionBudgets and hybrid QoS, to reduce error exposure during node churn and rolling deploys\n- Built chaosctl, a Go CLI for declarative, safety-gated chaos engineering across Istio and Chaos Mesh\n\nI've also spearheaded agentic AI-based troubleshooting for our SRE org:\n\n- Built a Claude Code plugin that turns a Datadog alert into a structured, automated investigation — trace/log correlation, scaling-event checks, and auto-generated notebooks — via a delegated subagent, now distributed org-wide as an internal tool",
+    "insights": "Skills: Amazon Web Services (AWS) · Google Kubernetes Engine (GKE) · Amazon EKS · Continuous Integration and Continuous Delivery (CI/CD) · Google Cloud Platform (GCP) · Kubernetes",
+    "company": {
+     "url": "https://www.linkedin.com/company/4236/",
+     "name": "The New York Times",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "The New York Times",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4236/",
+    "companyId": "4236",
+    "duration": "5 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_400_400/company-logo_400_400/0/1631319717018?e=1794441600&v=beta&t=8luQPxy3sc7RvEh3pp6-SHCEPqp4GVPIYqzMSblOEzQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_200_200/company-logo_200_200/0/1631319717018?e=1794441600&v=beta&t=eX33j3qxbx27vXbPPzLpw2i5gEQnLCTMkjnNs0RAX4o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEp-f9Ptu2yVQ/company-logo_100_100/company-logo_100_100/0/1631319717018?e=1794441600&v=beta&t=A_g91OLBuF_e94knvnCgPXpMfUCGPWucxb9dTxl8l8w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "DevOps Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2021
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Senior Member of the Platform Team, responsible for the health and provisioning of Azure services and edge networks.\n\n- Created security standards around access to accommodate a distributed, global workforce and hybrid networks\n- Assisted with preparations and remediation to become SOC 2 compliant\n- Managed the full networking stack, from BACNET Layer 2 broadcasts to Layer 7 RESTful APIs\n- Created controls around production deployments to maintain compliance with SOC 2 standards\n- Created dynamic firewall rules based on Just-In-Time access and a Zero-Trust philosophy\n- Managed App Services, Windows and Linux VMs, Kubernetes clusters, and on-premises networking appliances\n- Performed security scans against the network and created alerts for anomalous activity",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/18672721/",
+     "name": "cohesion",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98"
+     }
+    },
+    "position": "DevOps Engineer",
+    "companyName": "cohesion",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18672721/",
+    "companyId": "18672721",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_400_400/company-logo_400_400/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=LYHcK4l0pdpxhR_upoAo6UoBvyZUngDRwWuNNWsTb98",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_200_200/company-logo_200_200/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=61Ycdgq84eoGsyGj4SlPcKUVixkc1Qlv2Slx6OlCBtc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE_ndi-vDe20A/company-logo_100_100/company-logo_100_100/0/1659136050732/cohesionib_logo?e=1794441600&v=beta&t=Wc6tfcY5XSlPW4dyH3smwodXHLMYu_oSUoG9P7J_cdw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Solutions Engineer",
+    "locationName": "Rosemont, Il",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "Consultant Advising on Cloud Native Solutions and Security to Enterprise Customers\n\n- Created several workshops to help clients get familiar with Cloud Native patterns such as Build Automation and the Container Lifecycle\n- Created Terraform Templates to stand up AKS that are now implemented into BreakFree's Rapid Deploy Library\n- Built Kubernetes and its deployment pipelines from scratch during multiple engagements\n- Leveraged Azure DevOps for build automation\n- Provided guidance for container security throughout the whole container lifecycle, from local development to production\n- Helped teams optimize, automate, and troubleshoot their existing Kubernetes Clusters\n- Mentored teammates on Container, Kubernetes, and IaC concepts",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/10679564/",
+     "name": "BreakFree Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw"
+     }
+    },
+    "position": "Senior Solutions Engineer",
+    "companyName": "BreakFree Solutions",
+    "location": "Rosemont, Il",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10679564/",
+    "companyId": "10679564",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_400_400/company-logo_400_400/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=m3C3tyr1wZpu9Iwze1yPH4rDv0bQWwzot-YSznsWCQw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_200_200/company-logo_200_200/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=iL-IG9TA-Nz_kbZ2OxYYIcdauP8jUleiPVsJzgZurtY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFuiD8ABOyVQQ/company-logo_100_100/company-logo_100_100/0/1681744670531/breakfree_solutions_logo?e=1794441600&v=beta&t=_cZ5yPxNhZmdtawjkMaaQcvPkLWmI2trwfRjgYlTsyQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Deployment Engineer",
+    "locationName": "Chicago",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Deployment Engineer focused on spearheading Cloud Native tools and patterns while supporting existing infrastructure\n\n- Spearheaded some of Enova's first container deployment projects, with a focus on establishing best practices that moved our team away from manual processes, server drift, and technical debt\n- Established new pipelines for container builds and promotion\n- Worked closely with other teams to establish new security practices, including migrating secrets to Vault and establishing container security standards",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/670584/",
+     "name": "Enova International",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA"
+     }
+    },
+    "position": "Senior Deployment Engineer",
+    "companyName": "Enova International",
+    "location": "Chicago",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/670584/",
+    "companyId": "670584",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_400_400/company-logo_400_400/0/1631344411570?e=1794441600&v=beta&t=31OvSOVn8zaMMYMRHwMupNatyr93rO5SlosmAmgMpRA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_200_200/company-logo_200_200/0/1631344411570?e=1794441600&v=beta&t=f_3Z2ZbFeBDueFaarGA_qeZ8j2syooUy90gZ8CkSC5I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGulVsv9HtBbA/company-logo_100_100/company-logo_100_100/0/1631344411570?e=1794441600&v=beta&t=TShQMY-Ig23bxR24oXiEwPJrfCMpt2rcetaRqNznrsQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "DevOps Engineer",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2018
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "- Managed Kubernetes clusters hosted on Google Kubernetes Engine\n- Deployed infrastructure as code with Terraform\n- Created and troubleshot CI/CD pipelines via Terraform and Spinnaker\n- Enforced container security for Docker images",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/85802/",
+     "name": "Solstice",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM"
+     }
+    },
+    "position": "DevOps Engineer",
+    "companyName": "Solstice",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/85802/",
+    "companyId": "85802",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_400_400/company-logo_400_400/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=cM8sUUaTvMd2V8PdWWFgkgtvc8l2p1fuu-BGrSXxWbM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_200_200/company-logo_200_200/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=60Brv-ooTN4Gq-Ku6d9_i2Bys-sSOoz_EjF_xzSCVfE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQE0V083vP6rdA/company-logo_100_100/company-logo_100_100/0/1630608047159/solstice_logo?e=1794441600&v=beta&t=qpbJCQlDkUrB_-aF58636-o0Ta5gJh3QFi80T6fXRgM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Developer",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Developer on a web application built for \"Back of the Yards Coffee.\"\n\n- Owned RSpec test coverage for the application, including form sanitization and user-workflow testing\n- Filled in across additional engineering roles as needs arose on a small team",
+    "insights": "Skills: Continuous Integration and Continuous Delivery (CI/CD)",
+    "company": {
+     "url": "https://www.linkedin.com/company/666511/",
+     "name": "The Difference Engine",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI"
+     }
+    },
+    "position": "Developer",
+    "companyName": "The Difference Engine",
+    "location": "Chicago, Illinois",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/666511/",
+    "companyId": "666511",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_400_400/company-logo_400_400/0/1631330193499?e=1794441600&v=beta&t=WA6KmMdFdEhaLBIW-EQfK3yQnGKEIvkRFCLpcvs6gGI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_200_200/company-logo_200_200/0/1631330193499?e=1794441600&v=beta&t=yW_LOO2ijEOai_khtjXgW8NijYW2gNxqLzG1hjdp_Vk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQH_k6NXWXPKlA/company-logo_100_100/company-logo_100_100/0/1631330193499?e=1794441600&v=beta&t=gtQK3AeXR4pc91BRos0rFbFXzwlGqGQUbqK67GZ1FEo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Chicago, Illinois",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Systems administrator responsible for cloud infrastructure in a self-hosted private cloud environment. A versatile role spanning the full stack:\n\n- Managed Active Directory, Exchange, VMware, and Hyper-V virtualization\n- Managed MPLS and Cisco networking, and hardware including SANs and backup systems\n- Served as team lead for other technicians and the highest level of escalation for technical support issues",
+    "company": {
+     "url": "https://www.linkedin.com/company/968189/",
+     "name": "HBK Engineering, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI"
+     }
+    },
+    "position": "System Administrator",
+    "companyName": "HBK Engineering, LLC",
+    "location": "Chicago, Illinois",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/968189/",
+    "companyId": "968189",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_400_400/company-logo_400_400/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=qwTLCLPk_PPnSPmdqjRJmO0aAqLl6SrQHx_oVaBP6pI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_200_200/company-logo_200_200/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=W-wzCrb4SEBFbXcb17u5tBxYOnr4ZlZHKsa_M_WKA_E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFQ2Ap5x5_cmw/company-logo_100_100/company-logo_100_100/0/1630620846586/hbk_engineering_llc_logo?e=1794441600&v=beta&t=7cEc6M-EI7bS6QaQ80zy6-TuZjJqc9ZJvTWLPkBWnfU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Linux System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "At WiredTree, I provided support for a large environment of managed servers, both virtual and dedicated. I coordinated closely with 20 other systems administrators to provide 24/7 support to our customers.",
+    "company": {
+     "url": "https://www.linkedin.com/company/445078/",
+     "name": "WiredTree",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA"
+     }
+    },
+    "position": "Linux System Administrator",
+    "companyName": "WiredTree",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/445078/",
+    "companyId": "445078",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_400_400/company-logo_400_400/0/1631378267363?e=1794441600&v=beta&t=gvH4mE1nsV3uXqF3BXVpBVW1uSMzRirAJivRgXE78FA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_200_200/company-logo_200_200/0/1631378267363?e=1794441600&v=beta&t=B3rZvzJFk-V0c4nQ5coxHGRA6Gitmf_SeR6oBLKGZ74",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEGcugXOMdsew/company-logo_100_100/company-logo_100_100/0/1631378267363?e=1794441600&v=beta&t=cFPYpc6UhzWabpFf-D7GwJDc-Qm4xawh3AAPjCRca0s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "System Administrator",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2016
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Full-time systems administrator brought on to provide enterprise-level support to colocation, shared, and dedicated hosting customers.\n\n- Provided network, system, disaster recovery, and application consulting to customers\n- Provided backbone maintenance to the datacenter, including network, power, and AC\n- Managed and configured advanced ISP-level DNS and IP configuration for internal applications and customer-facing networks",
+    "company": {
+     "url": "https://www.linkedin.com/company/4815745/",
+     "name": "NetSource Communications, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g"
+     }
+    },
+    "position": "System Administrator",
+    "companyName": "NetSource Communications, Inc",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4815745/",
+    "companyId": "4815745",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_400_400/company-logo_400_400/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=JoemTu0UWWxN_Qg5s-x4JuFrerkFNzQ0fQu4u4aAl8g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_200_200/company-logo_200_200/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=G1c4NaY1PGgLsFqVE4smAnRn-DUI2jUXh67PmYFvTR0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFwr1VG7P5anQ/company-logo_100_100/company-logo_100_100/0/1681398775695/netsource_communications_inc_logo?e=1794441600&v=beta&t=6aciWkXPijSRofnnNW8IU-1vX_kgFEyApLPaehcx1h8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Desktop Support Technician",
+    "locationName": "Chicago IL",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2013
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Provided helpdesk and desktop support to various satellite offices of a fast-paced investment bank. Provided support to proprietary tools like NetX360 and Bloomberg Terminals.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97122/",
+     "name": "Ziegler",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y"
+     }
+    },
+    "position": "Desktop Support Technician",
+    "companyName": "Ziegler",
+    "location": "Chicago IL",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/97122/",
+    "companyId": "97122",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_400_400/company-logo_400_400/0/1631317280590?e=1794441600&v=beta&t=GTIIj6hsuMoh8QjI5m-QLrHzuzA0CWRIM_vCkARDp4Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_200_200/company-logo_200_200/0/1631317280590?e=1794441600&v=beta&t=UWpbsuw7MXvpnzeluPHeg7Jlnii0jp3xqcAhy7t4g1U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFUDund09YofA/company-logo_100_100/company-logo_100_100/0/1631317280590?e=1794441600&v=beta&t=q43STOhJGSxiPXni4xKmtkDG6NzIo3z3-vvYlOc_GU0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "IT Intern",
+    "locationName": "Greater Chicago Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2012
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "Gained extensive experience in corporate IT infrastructure and user support; installed, configured, and maintained diverse workstations and software. Provided Help Desk support for phone- and email-based service requests; input, updated, and closed trouble tickets. Administered user accounts and permissions for Windows Server 2008, VMware, Active Directory, Microsoft Exchange, Salesforce, and Avaya Phone Server.",
+    "company": {
+     "url": "https://www.linkedin.com/company/97120/",
+     "name": "kCura",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc"
+     }
+    },
+    "position": "IT Intern",
+    "companyName": "kCura",
+    "location": "Greater Chicago Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/97120/",
+    "companyId": "97120",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_400_400/company-logo_400_400/0/1631343979651?e=1794441600&v=beta&t=W5QioAPMgZDVGoxU7LzVfrvgJqZS-QA4agRnonJvSJc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_200_200/company-logo_200_200/0/1631343979651?e=1794441600&v=beta&t=rBvHLiFCtLJbqAzt0h_IWV8L1WE8XadZ3_bwBd8QK0c",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF8qJVQtTAaQA/company-logo_100_100/company-logo_100_100/0/1631343979651?e=1794441600&v=beta&t=aSmjWEyts6xcN-ROj_2RdGQEOeZU466fbuYuXEoezZ0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Desktop Support Technician 1",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2011
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Handled installation, configuration, maintenance, and issue resolution for hardware, software, and networks within classroom and lab environments. Provided user support for students, faculty, and staff. Coordinated with product / service vendors to correct issues and facilitate new initiatives. Developed technical training tools, procedures, and manuals for diverse hardware and software. Spearheaded biannual, district-wide imaging projects. Conducted IT asset tracking and inventory management",
+    "company": {
+     "url": "https://www.linkedin.com/company/28629/",
+     "name": "School District U-46",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY"
+     }
+    },
+    "position": "Desktop Support Technician 1",
+    "companyName": "School District U-46",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/28629/",
+    "companyId": "28629",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2011
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_400_400/B56ZsN2bkIIEAY-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=987j18UAhwdozzl9zQjgfmFO7poqeud4liWqGfLmKdQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_200_200/B56ZsN2bkIIEAI-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=-4tQp_ivcqCrAeLzWBtbPBuaAVhWvwatiK_2_XDZffY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOuLEAQ7WsvA/company-logo_100_100/B56ZsN2bkIIEAQ-/0/1765463931972/school_district_u_46_logo?e=1794441600&v=beta&t=oCX3tn0rNUlu18tautr8J7s8QBXL5ueeQ_EIPBLTzio",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_200_200/company-logo_200_200/0/1631315510149?e=1794441600&v=beta&t=ukHKJCy0BHCzWdctGXZNyfrbppSGsR7WRpdttRWjKrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_100_100/company-logo_100_100/0/1631315510149?e=1794441600&v=beta&t=kRINjm_0e6GxdSp0aC0VkDW--vHdPH9X_rM3Exx5JdI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_200_200/company-logo_200_200/0/1631315510149?e=1794441600&v=beta&t=ukHKJCy0BHCzWdctGXZNyfrbppSGsR7WRpdttRWjKrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_100_100/company-logo_100_100/0/1631315510149?e=1794441600&v=beta&t=kRINjm_0e6GxdSp0aC0VkDW--vHdPH9X_rM3Exx5JdI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15077811/",
+    "schoolName": "Actualize Coding Bootcamp",
+    "degreeName": "Fullstack Development",
+    "fieldOfStudy": "Fullstack Development",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15077811/",
+    "schoolId": "15077811",
+    "degree": "Fullstack Development",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2017
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_400_400/B56ZhgxePCHkAg-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=nG5l9NlRM1wGhUQIcJa4vf2snGC2jvhxBP2PeOguEj8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_200_200/B56ZhgxePCHkAQ-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=Pa92tAa3Vqxsa2feXw0TjU3vQXKcyXbHhHkxMOfFu70",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_100_100/B56ZhgxePCHkAY-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=YkF26uHLrm5LMoxMa44aY76DF45bRwSJux3G1rnphNM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_400_400/B56ZhgxePCHkAg-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=nG5l9NlRM1wGhUQIcJa4vf2snGC2jvhxBP2PeOguEj8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_400_400/B56ZhgxePCHkAg-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=nG5l9NlRM1wGhUQIcJa4vf2snGC2jvhxBP2PeOguEj8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_200_200/B56ZhgxePCHkAQ-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=Pa92tAa3Vqxsa2feXw0TjU3vQXKcyXbHhHkxMOfFu70",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEV2FP_AW0TqQ/company-logo_100_100/B56ZhgxePCHkAY-/0/1753970238707/devry_university_logo?e=1794441600&v=beta&t=YkF26uHLrm5LMoxMa44aY76DF45bRwSJux3G1rnphNM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4427/",
+    "schoolName": "DeVry University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Network and System Administration/Administrator",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2010
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4427/",
+    "schoolId": "4427",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2010
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_200_200/company-logo_200_200/0/1631315510149?e=1794441600&v=beta&t=ukHKJCy0BHCzWdctGXZNyfrbppSGsR7WRpdttRWjKrQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_100_100/company-logo_100_100/0/1631315510149?e=1794441600&v=beta&t=kRINjm_0e6GxdSp0aC0VkDW--vHdPH9X_rM3Exx5JdI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_400_400/company-logo_400_400/0/1631315510149?e=1794441600&v=beta&t=ciWgNXnqbi19CwdtSCNgt0ZOmfY-fnC9XQNe7J94vYY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_200_200/company-logo_200_200/0/1631315510149?e=1794441600&v=beta&t=ukHKJCy0BHCzWdctGXZNyfrbppSGsR7WRpdttRWjKrQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGyirtsrlvGYQ/company-logo_100_100/company-logo_100_100/0/1631315510149?e=1794441600&v=beta&t=kRINjm_0e6GxdSp0aC0VkDW--vHdPH9X_rM3Exx5JdI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15077811/",
+    "schoolName": "Actualize Coding Bootcamp",
+    "degreeName": "Fullstack Development",
+    "fieldOfStudy": "Fullstack Development",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15077811/",
+    "schoolId": "15077811",
+    "degree": "Fullstack Development",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2017
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517018778420?e=1794441600&v=beta&t=GesHHsD6gC7h9zS0E_vt8QPzC3m2an8im0G-_xjgP64",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517018778415?e=1794441600&v=beta&t=Yi2welmm2JYb7hdSmliPMKq7TnGcKdOdKLhPFJnNiEo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517018778464?e=1794441600&v=beta&t=tCRw0g1MiNLS4fUUj1bsmqag4pP6CoGu3OLr40a_fYI",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517018778464?e=1794441600&v=beta&t=tCRw0g1MiNLS4fUUj1bsmqag4pP6CoGu3OLr40a_fYI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517018778415?e=1794441600&v=beta&t=Yi2welmm2JYb7hdSmliPMKq7TnGcKdOdKLhPFJnNiEo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517018778420?e=1794441600&v=beta&t=GesHHsD6gC7h9zS0E_vt8QPzC3m2an8im0G-_xjgP64",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517018778420?e=1794441600&v=beta&t=GesHHsD6gC7h9zS0E_vt8QPzC3m2an8im0G-_xjgP64",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517018778415?e=1794441600&v=beta&t=Yi2welmm2JYb7hdSmliPMKq7TnGcKdOdKLhPFJnNiEo",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517018778464?e=1794441600&v=beta&t=tCRw0g1MiNLS4fUUj1bsmqag4pP6CoGu3OLr40a_fYI",
+   "450x450": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517018778468?e=1794441600&v=beta&t=HDQ7zC2301mwZe2dvWhLMMTn2vkM8Aexg7ofBIjHi0A",
+     "width": 450,
+     "height": 450
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1517018778464?e=1794441600&v=beta&t=tCRw0g1MiNLS4fUUj1bsmqag4pP6CoGu3OLr40a_fYI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1517018778415?e=1794441600&v=beta&t=Yi2welmm2JYb7hdSmliPMKq7TnGcKdOdKLhPFJnNiEo",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGlxGCuFCAHfg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1517018778420?e=1794441600&v=beta&t=GesHHsD6gC7h9zS0E_vt8QPzC3m2an8im0G-_xjgP64",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516779501812?e=1794441600&v=beta&t=mIqK1J_lrueuo03RMw_Bp7ZdRTOWqXXSoFvrAUud3uI",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516779501779?e=1794441600&v=beta&t=_e-G5wYliz62HeEuVkfWscJJL4kumVL4R9vhJEIQnD0",
+   "url": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516779501779?e=1794441600&v=beta&t=_e-G5wYliz62HeEuVkfWscJJL4kumVL4R9vhJEIQnD0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516779501779?e=1794441600&v=beta&t=_e-G5wYliz62HeEuVkfWscJJL4kumVL4R9vhJEIQnD0",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQH078XaEUYWFw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516779501812?e=1794441600&v=beta&t=mIqK1J_lrueuo03RMw_Bp7ZdRTOWqXXSoFvrAUud3uI",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/cdanmar"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T00:28:48.145Z",
+ "foundBy": null
+}

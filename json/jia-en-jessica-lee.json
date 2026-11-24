@@ -1,0 +1,1190 @@
+{
+ "slug": "jia-en-jessica-lee",
+ "inputUrl": "https://www.linkedin.com/in/jia-en-jessica-lee",
+ "fetchedAt": "2026-10-31T01:15:19.501Z",
+ "id": "6ae541274f8d6cb6ddd5aace",
+ "url": "https://www.linkedin.com/in/jia-en-jessica-lee",
+ "profile": {
+  "created": 1628637395287,
+  "trackingId": "4IoTwNopSNyP/5Uum436pQ==",
+  "firstName": "Jessica",
+  "lastName": "Lee",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "SHE_HER"
+  },
+  "versionTag": "1303701917",
+  "headline": "SWE @ Meta | CS @ Cornell Tech | Math & CS & Game Design @ Carnegie Mellon",
+  "publicIdentifier": "jia-en-jessica-lee",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "924237797",
+  "profileId": "ACoAADcWv-UBXtoKagzjgYl1Svwmc0EJTL5uYx0",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730314006137?e=1795046400&v=beta&t=Gt3dBy5venamSBFLDQfA8fYQoqenfOMyKa8YjKmdksg",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730314006137?e=1795046400&v=beta&t=1bvLnpg1FkMVNxYs8C5_mkAk7Loe6owac3WAolnDjSI",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730314006137?e=1795046400&v=beta&t=X3TDUvGaIE1Vv5PaxbelUVoZ0JG4rqfBDh5Fkdlp80w",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1667521623490?e=1795046400&v=beta&t=zieshdcoXVPCuwn5izBOnfmG4VSncc2Hk2e25fOBziU",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667521623490?e=1795046400&v=beta&t=Cnt5q9LAWK7l6_2pAmdNvUwDroOknlsaaEjfYzu3GMY"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I am a Software Engineer building GenAI-powered product features at scale, graduated with a Master's degree in Computer Science from Cornell Tech, after completing a Bachelor's degree in Mathematics (double minoring in Computer Science and Game Design) at Carnegie Mellon University.\n\nCurrently, I build zero-to-one features that integrate large language models into social products serving hundreds of millions of users. My work spans the full stack — from designing backend pipeline architectures, ML system integrations, and agentic/LLM to product backend integration, to shipping user-facing experiences through experiment-driven development.\n\nPreviously at VIA Technologies and CloudMile, I applied machine learning to large-scale real-world data in computer vision and retail, covering the full pipeline from analyzing and preprocessing the data, building and optimizing ML models, to deploying on cloud and edge devices. I also contributed to the design and implementation of hardware inference acceleration APIs in C++ and Python.\n\nBesides industrial experiences, I have worked on projects in the following areas:\n- Generative Computer Vision\n- Virtual Reality\n- Machine Learning Backend and pipelines\n- Game Development\n- Web Development\n- LLM\n\nAlways passionate about interesting projects or opportunities, feel free to reach out!\n\nSkills:\n- Python, Hack/PHP, C/C++, C#, SML, JavaScript, TypeScript\n- Git, Unity, PyTorch, OpenCV, TensorFlow, React, NextJS, GCP\n- ML, CV, VR, Data Structures & Algorithms, Parallel Programming, Computer Systems\n- Communication, Teamwork, Presentation\n- Experimentation & A/B Testing, System Design",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "employmentType": "Full-time",
+    "description": "Facebook Groups Agents Team\n\nBuild zero-to-one GenAI product features in a social groups product serving hundreds of millions of users, architecting systems that integrate large language models into products at scale.\n• Led a content expansion feature — integrated a cross-team ML detection pipeline into an existing nomination system, enabling a images as a new content type. Added ~51K new daily nominations (+26% inventory), unlocked 23K communities with no prior eligible content, and achieved 21% higher approval rates than the existing baseline.\n• Shipped a search fallback experience — built a routing layer above the RAG agent system + full-stack UI (streaming backend, ML query rewriting, composer integration) that converts dead-end search results into content-creation flows. Discovered and fixed integrity gaps where harmful queries bypassed safety checks.\n• Architected a precomputed answer cache backend — designed multi-source pipeline infrastructure feeding async LLM generation with integrity/quality checks, self-healing refresh, and multi-channel search engine submission. Scaled to 1.7M+ cached AI-generated answer pages serving multiple product surfaces with instant response times.\n• Designed scalable AI content generation pipelines — built end-to-end async job orchestration with scheduled triggers, eligibility gating, deduplication, and monitoring. Scale test across 113K users showed +3–5% directional lifts in engagement metrics.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    }
+   },
+   {
+    "title": "Edge AI Software Engineer Intern",
+    "locationName": "New Taipei City, Taiwan · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Ideated, developed, and managed a showcase project for VIA’s VAB-912 (carrier board) at the AIoT Workshop, Japan.\nBuilt Fall Detection Computer Vision models with TensorFlow and lowered the cross-entropy loss by 25%.\nCollaborated on building and testing a C++ API for hardware inference acceleration and a wrapper Python library using Boost.Python in an Agile environment.\nDeveloped an “app” to 1) process the outputs of CV models such as Fall Detection, OpenPose, and SSD Mobilenet, and 2) create visualization of model outputs and interactable GUI using the API and OpenCV in Python.",
+    "insights": "C (Programming Language), Communication and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/8157/",
+     "name": "VIA Technologies, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc"
+     }
+    }
+   },
+   {
+    "title": "Machine Learning Intern",
+    "locationName": "Taipei City, Taiwan",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "Performed end-to-end ML on GCP for building customer lifetime value prediction models with XGBoost and AutoML for Carrefour Taiwan and achieved over 94% recall and precision.\nConducted feature engineering and statistical analysis on client data in Python to propose solutions for predicting user behavior.\nVisualized and communicated analysis results to the Google Hong Kong Customer Engineering Team.",
+    "insights": "XGBoost, Google Cloud AutoML and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18027771/",
+     "name": "Cloud Mile Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_200_200/company-logo_200_200/0/1631339899678?e=1795046400&v=beta&t=YPlVgnB_6AsFnxYDZZedEpQ4InpExedEeabXqHE4Hm0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_100_100/company-logo_100_100/0/1631339899678?e=1795046400&v=beta&t=h28UPN_cHtB-5eRwp6OoiMQ3JZjVrqywcGlAmdD5pnk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3523/",
+    "schoolName": "Cornell University",
+    "degreeName": "Master of Engineering - MEng",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_100_100/B4EZqh_qfGGUAQ-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=28iLBSNsDe72OnCABorZJ-_jgNuE_chYb7nhFCpkVRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_400_400/B4EZqh_qfGGUAY-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=PIGgwQGsyGRmllNPbgzjukKdbc779rl60uYAC3QSF3o",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_200_200/B4EZqh_qfGGUAI-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=305g2oJJQTuhY46K0gARtP901btcuWnX0iSNwNjk_74"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3554137/",
+    "schoolName": "Cornell Tech",
+    "degreeName": "Master of Engineering - MEng",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "3D Reconstruction - Single Viewpoint ",
+    "authority": "Columbia University",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Columbia University",
+    "title": "3D Reconstruction - Single Viewpoint ",
+    "issuedBy": "Columbia University",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Camera and Imaging",
+    "authority": "Columbia University",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Columbia University",
+    "title": "Camera and Imaging",
+    "issuedBy": "Columbia University",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Artificial Intelligence"
+   },
+   {
+    "name": "Computer Systems"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Chinese",
+    "proficiency": ""
+   },
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "Diffusion Lab",
+    "description": "Built and trained differently conditioned diffusion models according to the DDPM paper\nImplemented classifier-free guidance to perform computer vision tasks including image inpainting, visual anagram generation, hybrid image generation, and image-to-image translation",
+    "dateRange": {},
+    "associatedWith": "Mar 2025 - May 2025"
+   },
+   {
+    "title": "Minitorch",
+    "description": "Implemented a “Mini-PyTorch” framework with tensor data structure, auto-differentiation, and a modular interface for training.\nLeveraged Numba to support CUDA programming for GPU acceleration",
+    "dateRange": {},
+    "associatedWith": "Aug 2024 - Dec 2024"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Meta",
+  "companyPublicId": "meta",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/meta/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:10667",
+   "name": "Meta",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQHpGLIanfsREg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "expiresAt": 1795046400000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_"
+    }
+   },
+   "universalName": "meta",
+   "url": "https://www.linkedin.com/company/meta/",
+   "slug": "meta",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+   "specialties": []
+  },
+  "followerCount": 812,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 790,
+  "skills": [
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Programming",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Systems",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud AutoML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TensorFlow",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenCV",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Virtual Reality (VR)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oculus Quest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XGBoost",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "SML (Functional Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Programming",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "OpenCV",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Virtual Reality (VR)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Functional Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Google Sheets",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud AutoML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TensorFlow",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oculus Quest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "XGBoost",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unity",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LaTeX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Docs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Slides",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Forms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mandarin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Japanese",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/jia-en-jessica-lee",
+  "linkedinUrl": "https://www.linkedin.com/in/jia-en-jessica-lee",
+  "profileUrl": "https://www.linkedin.com/in/jia-en-jessica-lee",
+  "verified": true,
+  "registeredAt": "2021-08-10T23:16:35.287Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I am a Software Engineer building GenAI-powered product features at scale, graduated with a Master's degree in Computer Science from Cornell Tech, after completing a Bachelor's degree in Mathematics (double minoring in Computer Science and Game Design) at Carnegie Mellon University.\n\nCurrently, I build zero-to-one features that integrate large language models into social products serving hundreds of millions of users. My work spans the full stack — from designing backend pipeline architectures, ML system integrations, and agentic/LLM to product backend integration, to shipping user-facing experiences through experiment-driven development.\n\nPreviously at VIA Technologies and CloudMile, I applied machine learning to large-scale real-world data in computer vision and retail, covering the full pipeline from analyzing and preprocessing the data, building and optimizing ML models, to deploying on cloud and edge devices. I also contributed to the design and implementation of hardware inference acceleration APIs in C++ and Python.\n\nBesides industrial experiences, I have worked on projects in the following areas:\n- Generative Computer Vision\n- Virtual Reality\n- Machine Learning Backend and pipelines\n- Game Development\n- Web Development\n- LLM\n\nAlways passionate about interesting projects or opportunities, feel free to reach out!\n\nSkills:\n- Python, Hack/PHP, C/C++, C#, SML, JavaScript, TypeScript\n- Git, Unity, PyTorch, OpenCV, TensorFlow, React, NextJS, GCP\n- ML, CV, VR, Data Structures & Algorithms, Parallel Programming, Computer Systems\n- Communication, Teamwork, Presentation\n- Experimentation & A/B Testing, System Design",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Edge AI Software Engineer Intern",
+   "Machine Learning Intern"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "employmentType": "Full-time",
+    "description": "Facebook Groups Agents Team\n\nBuild zero-to-one GenAI product features in a social groups product serving hundreds of millions of users, architecting systems that integrate large language models into products at scale.\n• Led a content expansion feature — integrated a cross-team ML detection pipeline into an existing nomination system, enabling a images as a new content type. Added ~51K new daily nominations (+26% inventory), unlocked 23K communities with no prior eligible content, and achieved 21% higher approval rates than the existing baseline.\n• Shipped a search fallback experience — built a routing layer above the RAG agent system + full-stack UI (streaming backend, ML query rewriting, composer integration) that converts dead-end search results into content-creation flows. Discovered and fixed integrity gaps where harmful queries bypassed safety checks.\n• Architected a precomputed answer cache backend — designed multi-source pipeline infrastructure feeding async LLM generation with integrity/quality checks, self-healing refresh, and multi-channel search engine submission. Scaled to 1.7M+ cached AI-generated answer pages serving multiple product surfaces with instant response times.\n• Designed scalable AI content generation pipelines — built end-to-end async job orchestration with scheduled triggers, eligibility gating, deduplication, and monitoring. Scale test across 113K users showed +3–5% directional lifts in engagement metrics.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Meta",
+    "location": "Menlo Park, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Edge AI Software Engineer Intern",
+    "locationName": "New Taipei City, Taiwan · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Ideated, developed, and managed a showcase project for VIA’s VAB-912 (carrier board) at the AIoT Workshop, Japan.\nBuilt Fall Detection Computer Vision models with TensorFlow and lowered the cross-entropy loss by 25%.\nCollaborated on building and testing a C++ API for hardware inference acceleration and a wrapper Python library using Boost.Python in an Agile environment.\nDeveloped an “app” to 1) process the outputs of CV models such as Fall Detection, OpenPose, and SSD Mobilenet, and 2) create visualization of model outputs and interactable GUI using the API and OpenCV in Python.",
+    "insights": "C (Programming Language), Communication and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/8157/",
+     "name": "VIA Technologies, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc"
+     }
+    },
+    "position": "Edge AI Software Engineer Intern",
+    "companyName": "VIA Technologies, Inc.",
+    "location": "New Taipei City, Taiwan · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/8157/",
+    "companyId": "8157",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Machine Learning Intern",
+    "locationName": "Taipei City, Taiwan",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "Performed end-to-end ML on GCP for building customer lifetime value prediction models with XGBoost and AutoML for Carrefour Taiwan and achieved over 94% recall and precision.\nConducted feature engineering and statistical analysis on client data in Python to propose solutions for predicting user behavior.\nVisualized and communicated analysis results to the Google Hong Kong Customer Engineering Team.",
+    "insights": "XGBoost, Google Cloud AutoML and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18027771/",
+     "name": "Cloud Mile Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58"
+     }
+    },
+    "position": "Machine Learning Intern",
+    "companyName": "Cloud Mile Inc.",
+    "location": "Taipei City, Taiwan",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18027771/",
+    "companyId": "18027771",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "10667",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyName": "Meta",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Menlo Park, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "employmentType": "Full-time",
+    "description": "Facebook Groups Agents Team\n\nBuild zero-to-one GenAI product features in a social groups product serving hundreds of millions of users, architecting systems that integrate large language models into products at scale.\n• Led a content expansion feature — integrated a cross-team ML detection pipeline into an existing nomination system, enabling a images as a new content type. Added ~51K new daily nominations (+26% inventory), unlocked 23K communities with no prior eligible content, and achieved 21% higher approval rates than the existing baseline.\n• Shipped a search fallback experience — built a routing layer above the RAG agent system + full-stack UI (streaming backend, ML query rewriting, composer integration) that converts dead-end search results into content-creation flows. Discovered and fixed integrity gaps where harmful queries bypassed safety checks.\n• Architected a precomputed answer cache backend — designed multi-source pipeline infrastructure feeding async LLM generation with integrity/quality checks, self-healing refresh, and multi-channel search engine submission. Scaled to 1.7M+ cached AI-generated answer pages serving multiple product surfaces with instant response times.\n• Designed scalable AI content generation pipelines — built end-to-end async job orchestration with scheduled triggers, eligibility gating, deduplication, and monitoring. Scale test across 113K users showed +3–5% directional lifts in engagement metrics.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/10667/",
+     "name": "Meta",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Meta",
+    "location": "Menlo Park, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10667/",
+    "companyId": "10667",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_400_400/B56aDarbc1IwAY-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=jSzFROnzS7GnOYEAdvsRoOPVL78H0YqcpTDqUEnYcGY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_200_200/B56aDarbc1IwAI-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=Hn-m1Tr6flSgYAiUUjlC9zWfqD6_aGAq5jxo334x09E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHpGLIanfsREg/company-logo_100_100/B56aDarbc1IwAM-/0/1790375213168/meta_logo?e=1795046400&v=beta&t=QjSFzgHuwWVbRjpa_GogWr3kHKyUD3u9xNXtcmuY6wc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Edge AI Software Engineer Intern",
+    "locationName": "New Taipei City, Taiwan · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "3 mos",
+    "employmentType": "Internship",
+    "description": "Ideated, developed, and managed a showcase project for VIA’s VAB-912 (carrier board) at the AIoT Workshop, Japan.\nBuilt Fall Detection Computer Vision models with TensorFlow and lowered the cross-entropy loss by 25%.\nCollaborated on building and testing a C++ API for hardware inference acceleration and a wrapper Python library using Boost.Python in an Agile environment.\nDeveloped an “app” to 1) process the outputs of CV models such as Fall Detection, OpenPose, and SSD Mobilenet, and 2) create visualization of model outputs and interactable GUI using the API and OpenCV in Python.",
+    "insights": "C (Programming Language), Communication and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/8157/",
+     "name": "VIA Technologies, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc"
+     }
+    },
+    "position": "Edge AI Software Engineer Intern",
+    "companyName": "VIA Technologies, Inc.",
+    "location": "New Taipei City, Taiwan · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/8157/",
+    "companyId": "8157",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_400_400/company-logo_400_400/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=zQsDtyECKgD6NEyFsK8bX2C3NDD93VqIq4kUxkrWMzc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_200_200/company-logo_200_200/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=eC5RRLQWClwxPiTSakmDNVrJWRU3VhX9QIjjysSFFZ0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEnvFrAP4sawA/company-logo_100_100/company-logo_100_100/0/1630649786316/viatechnologies_logo?e=1795046400&v=beta&t=t14k_8ClBi4K2wmj1cC1caBWbQeWm1jnGcDj1dCkn3A",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Machine Learning Intern",
+    "locationName": "Taipei City, Taiwan",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Internship",
+    "description": "Performed end-to-end ML on GCP for building customer lifetime value prediction models with XGBoost and AutoML for Carrefour Taiwan and achieved over 94% recall and precision.\nConducted feature engineering and statistical analysis on client data in Python to propose solutions for predicting user behavior.\nVisualized and communicated analysis results to the Google Hong Kong Customer Engineering Team.",
+    "insights": "XGBoost, Google Cloud AutoML and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18027771/",
+     "name": "Cloud Mile Inc.",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58"
+     }
+    },
+    "position": "Machine Learning Intern",
+    "companyName": "Cloud Mile Inc.",
+    "location": "Taipei City, Taiwan",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18027771/",
+    "companyId": "18027771",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_400_400/B56Zuw9AgSHUAY-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ZRZtwjoSUqmEIIC2XSu_NNmBFY4jr2hCPCE8YeWh-xQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_200_200/B56Zuw9AgSHUAI-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=ohqkxdLk6h9uh5wje626e_Er1dMuQbJt6szmInq5sN0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHLgHS7Ljzi0Q/company-logo_100_100/B56Zuw9AgSHUAQ-/0/1768200342208/cloudmile_logo?e=1795046400&v=beta&t=2G7I6a8LpzoDxF9x_oYAz1FMe8ZD6czIH0M6xC6Es58",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_200_200/company-logo_200_200/0/1631339899678?e=1795046400&v=beta&t=YPlVgnB_6AsFnxYDZZedEpQ4InpExedEeabXqHE4Hm0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_100_100/company-logo_100_100/0/1631339899678?e=1795046400&v=beta&t=h28UPN_cHtB-5eRwp6OoiMQ3JZjVrqywcGlAmdD5pnk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_200_200/company-logo_200_200/0/1631339899678?e=1795046400&v=beta&t=YPlVgnB_6AsFnxYDZZedEpQ4InpExedEeabXqHE4Hm0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_100_100/company-logo_100_100/0/1631339899678?e=1795046400&v=beta&t=h28UPN_cHtB-5eRwp6OoiMQ3JZjVrqywcGlAmdD5pnk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3523/",
+    "schoolName": "Cornell University",
+    "degreeName": "Master of Engineering - MEng",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3523/",
+    "schoolId": "3523",
+    "degree": "Master of Engineering - MEng",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": {
+     "year": 2025
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_100_100/B4EZqh_qfGGUAQ-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=28iLBSNsDe72OnCABorZJ-_jgNuE_chYb7nhFCpkVRw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_400_400/B4EZqh_qfGGUAY-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=PIGgwQGsyGRmllNPbgzjukKdbc779rl60uYAC3QSF3o",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_200_200/B4EZqh_qfGGUAI-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=305g2oJJQTuhY46K0gARtP901btcuWnX0iSNwNjk_74",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_400_400/B4EZqh_qfGGUAY-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=PIGgwQGsyGRmllNPbgzjukKdbc779rl60uYAC3QSF3o",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_400_400/B4EZqh_qfGGUAY-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=PIGgwQGsyGRmllNPbgzjukKdbc779rl60uYAC3QSF3o",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_200_200/B4EZqh_qfGGUAI-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=305g2oJJQTuhY46K0gARtP901btcuWnX0iSNwNjk_74",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHxmVAn3XMxcA/company-logo_100_100/B4EZqh_qfGGUAQ-/0/1763654412729/cornell_tech_logo?e=1795046400&v=beta&t=28iLBSNsDe72OnCABorZJ-_jgNuE_chYb7nhFCpkVRw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3554137/",
+    "schoolName": "Cornell Tech",
+    "degreeName": "Master of Engineering - MEng",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3554137/",
+    "schoolId": "3554137",
+    "degree": "Master of Engineering - MEng",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": {
+     "year": 2025
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_200_200/company-logo_200_200/0/1631339899678?e=1795046400&v=beta&t=YPlVgnB_6AsFnxYDZZedEpQ4InpExedEeabXqHE4Hm0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_100_100/company-logo_100_100/0/1631339899678?e=1795046400&v=beta&t=h28UPN_cHtB-5eRwp6OoiMQ3JZjVrqywcGlAmdD5pnk",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_400_400/company-logo_400_400/0/1631339899678?e=1795046400&v=beta&t=PwcLiUDYWhz6c3PLyXbu2NMQo8-cyXCVWpye7gmrQGE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_200_200/company-logo_200_200/0/1631339899678?e=1795046400&v=beta&t=YPlVgnB_6AsFnxYDZZedEpQ4InpExedEeabXqHE4Hm0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE8SOXGRyv7LA/company-logo_100_100/company-logo_100_100/0/1631339899678?e=1795046400&v=beta&t=h28UPN_cHtB-5eRwp6OoiMQ3JZjVrqywcGlAmdD5pnk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3523/",
+    "schoolName": "Cornell University",
+    "degreeName": "Master of Engineering - MEng",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2024
+     },
+     "endDate": {
+      "year": 2025
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3523/",
+    "schoolId": "3523",
+    "degree": "Master of Engineering - MEng",
+    "skills": [],
+    "startDate": {
+     "year": 2024
+    },
+    "endDate": {
+     "year": 2025
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730314006137?e=1795046400&v=beta&t=Gt3dBy5venamSBFLDQfA8fYQoqenfOMyKa8YjKmdksg",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730314006137?e=1795046400&v=beta&t=1bvLnpg1FkMVNxYs8C5_mkAk7Loe6owac3WAolnDjSI",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730314006137?e=1795046400&v=beta&t=X3TDUvGaIE1Vv5PaxbelUVoZ0JG4rqfBDh5Fkdlp80w",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730314006137?e=1795046400&v=beta&t=X3TDUvGaIE1Vv5PaxbelUVoZ0JG4rqfBDh5Fkdlp80w",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730314006137?e=1795046400&v=beta&t=1bvLnpg1FkMVNxYs8C5_mkAk7Loe6owac3WAolnDjSI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730314006137?e=1795046400&v=beta&t=Gt3dBy5venamSBFLDQfA8fYQoqenfOMyKa8YjKmdksg",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730314006137?e=1795046400&v=beta&t=Gt3dBy5venamSBFLDQfA8fYQoqenfOMyKa8YjKmdksg",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730314006137?e=1795046400&v=beta&t=1bvLnpg1FkMVNxYs8C5_mkAk7Loe6owac3WAolnDjSI",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730314006137?e=1795046400&v=beta&t=X3TDUvGaIE1Vv5PaxbelUVoZ0JG4rqfBDh5Fkdlp80w",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1730314006154?e=1795046400&v=beta&t=tC5jnPaH7WYwwYuwUOp_VYy3Mbj0b5cFhS0aZ1XoJ0I",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1730314006137?e=1795046400&v=beta&t=X3TDUvGaIE1Vv5PaxbelUVoZ0JG4rqfBDh5Fkdlp80w",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1730314006137?e=1795046400&v=beta&t=1bvLnpg1FkMVNxYs8C5_mkAk7Loe6owac3WAolnDjSI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFSPhXGX-nroA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1730314006137?e=1795046400&v=beta&t=Gt3dBy5venamSBFLDQfA8fYQoqenfOMyKa8YjKmdksg",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1667521623490?e=1795046400&v=beta&t=zieshdcoXVPCuwn5izBOnfmG4VSncc2Hk2e25fOBziU",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667521623490?e=1795046400&v=beta&t=Cnt5q9LAWK7l6_2pAmdNvUwDroOknlsaaEjfYzu3GMY",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667521623490?e=1795046400&v=beta&t=Cnt5q9LAWK7l6_2pAmdNvUwDroOknlsaaEjfYzu3GMY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1667521623490?e=1795046400&v=beta&t=Cnt5q9LAWK7l6_2pAmdNvUwDroOknlsaaEjfYzu3GMY",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQFqYC86q_ZDjg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1667521623490?e=1795046400&v=beta&t=zieshdcoXVPCuwn5izBOnfmG4VSncc2Hk2e25fOBziU",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/jia-en-jessica-lee"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T01:15:02.386Z",
+ "foundBy": null
+}

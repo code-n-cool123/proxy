@@ -1,0 +1,941 @@
+{
+ "slug": "cliff-young-1b1a2",
+ "inputUrl": "https://www.linkedin.com/in/cliff-young-1b1a2",
+ "fetchedAt": "2026-10-31T08:42:31.990Z",
+ "id": "6ae5a9f74f8d6cb6ddd5b993",
+ "url": "https://www.linkedin.com/in/cliff-young-1b1a2",
+ "profile": {
+  "created": 1076313239000,
+  "trackingId": "4DjC1/8hSXa4UN349dcAwQ==",
+  "firstName": "Cliff",
+  "lastName": "Young",
+  "pronoun": null,
+  "versionTag": "3009165720",
+  "headline": "TPU and Anton architect; MLPerf co-founder",
+  "publicIdentifier": "cliff-young-1b1a2",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "211093",
+  "profileId": "ACoAAAADOJUBfoUm2MVMUCfa0x_ERi2YJUCmfBg",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102250832",
+  "geoLocationName": "Mountain View, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": null
+    },
+    "totalDuration": "13 yrs 4 mos",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Google",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Research Scientist, and Member of the Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "10 yrs 1 mo",
+    "description": "Designed, architected, and built major hardware and software components of Anton, a special­purpose, massively parallel supercomputer for molecular dynamics (MD). Anton has remained 30 times faster than all other platforms at MD during its first four years of operation. Anton’s speed comes from co­design that spans hardware, software, and algorithms, focusing on minimizing the latency of a single time step. I played a major role in creating Anton’s overall architecture and in designing many of Anton’s systems, including:\n\n● Co­designing Anton’s “Flexible Subsystem”, which handles all general­purpose tasks.\n\n● Suggesting the fusion of two existing hardware accelerators to produce the “high­throughput interaction subsystem” that is Anton’s main special­purpose hardware unit.\n\n● Proposing, evaluating, and programming the main computational cores of the Flexible Subsystem. I designed the ISA for these cores, using a simulator and timing model that I built to explore architectural, micro­architectural, and ISA trade­offs. I also built the optimizing assembler (which performs instruction scheduling and register allocation) with which these cores are programmed.\n\n● Replacing the proposed FFT hardware subsystem with software, saving die area while improving overall system performance.\n\n● Modeling, simulating, and directing optimization of Anton’s performance, which exceeded our design-­time estimates.\n\n● Managing the software simulation team and later the embedded code development team.\n\nWith Josh Fisher and Paolo Faraboschi of HP Labs, wrote “Embedded Computing: A VLIW Approach to Architecture, Compilers, and Tools”, published by Morgan­Kaufmann in 2004.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1030814/",
+     "name": "D. E. Shaw Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg"
+     }
+    }
+   },
+   {
+    "title": "Member of Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2003
+     }
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7545/",
+     "name": "Bell Laboratories",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw"
+     }
+    }
+   },
+   {
+    "title": "Management Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1992
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Bank of America (formerly Security Pacific Automation Company)",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1646/",
+    "schoolName": "Harvard University",
+    "degreeName": "Ph.D.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1992
+     },
+     "endDate": {
+      "year": 1997
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1646/",
+    "schoolName": "Harvard University",
+    "degreeName": "A.B.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1985
+     },
+     "endDate": {
+      "year": 1989
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 1831,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1503,
+  "skills": [
+   {
+    "name": "Computer Architecture",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Programming",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "High Performance Computing",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Computing",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Architecture",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Programming",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "High Performance Computing",
+    "endorsements": 27,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Parallel Computing",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Science",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 10,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/cliff-young-1b1a2",
+  "linkedinUrl": "https://www.linkedin.com/in/cliff-young-1b1a2",
+  "profileUrl": "https://www.linkedin.com/in/cliff-young-1b1a2",
+  "verified": false,
+  "registeredAt": "2004-02-09T07:53:59.000Z",
+  "location": {
+   "linkedinText": "Mountain View, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Mountain View, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Research Scientist, and Member of the Technical Staff",
+   "Member of Technical Staff",
+   "Management Associate"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": null
+    },
+    "totalDuration": "13 yrs 4 mos",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Google",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Mountain View, California",
+    "duration": "13 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Research Scientist, and Member of the Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "10 yrs 1 mo",
+    "description": "Designed, architected, and built major hardware and software components of Anton, a special­purpose, massively parallel supercomputer for molecular dynamics (MD). Anton has remained 30 times faster than all other platforms at MD during its first four years of operation. Anton’s speed comes from co­design that spans hardware, software, and algorithms, focusing on minimizing the latency of a single time step. I played a major role in creating Anton’s overall architecture and in designing many of Anton’s systems, including:\n\n● Co­designing Anton’s “Flexible Subsystem”, which handles all general­purpose tasks.\n\n● Suggesting the fusion of two existing hardware accelerators to produce the “high­throughput interaction subsystem” that is Anton’s main special­purpose hardware unit.\n\n● Proposing, evaluating, and programming the main computational cores of the Flexible Subsystem. I designed the ISA for these cores, using a simulator and timing model that I built to explore architectural, micro­architectural, and ISA trade­offs. I also built the optimizing assembler (which performs instruction scheduling and register allocation) with which these cores are programmed.\n\n● Replacing the proposed FFT hardware subsystem with software, saving die area while improving overall system performance.\n\n● Modeling, simulating, and directing optimization of Anton’s performance, which exceeded our design-­time estimates.\n\n● Managing the software simulation team and later the embedded code development team.\n\nWith Josh Fisher and Paolo Faraboschi of HP Labs, wrote “Embedded Computing: A VLIW Approach to Architecture, Compilers, and Tools”, published by Morgan­Kaufmann in 2004.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1030814/",
+     "name": "D. E. Shaw Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg"
+     }
+    },
+    "position": "Research Scientist, and Member of the Technical Staff",
+    "companyName": "D. E. Shaw Research",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1030814/",
+    "companyId": "1030814",
+    "duration": "10 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2003
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Member of Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2003
+     }
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7545/",
+     "name": "Bell Laboratories",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw"
+     }
+    },
+    "position": "Member of Technical Staff",
+    "companyName": "Bell Laboratories",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7545/",
+    "companyId": "7545",
+    "duration": "5 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 1997
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2003
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Management Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1992
+     }
+    },
+    "totalDuration": "3 yrs",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Bank of America (formerly Security Pacific Automation Company)",
+     "logo": {}
+    },
+    "position": "Management Associate",
+    "companyName": "Bank of America (formerly Security Pacific Automation Company)",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1989
+    },
+    "endDate": {
+     "year": 1992
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Google",
+    "companyLogo": {}
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": null
+    },
+    "totalDuration": "13 yrs 4 mos",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Google",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "location": "Mountain View, California",
+    "duration": "13 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Research Scientist, and Member of the Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2003
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "10 yrs 1 mo",
+    "description": "Designed, architected, and built major hardware and software components of Anton, a special­purpose, massively parallel supercomputer for molecular dynamics (MD). Anton has remained 30 times faster than all other platforms at MD during its first four years of operation. Anton’s speed comes from co­design that spans hardware, software, and algorithms, focusing on minimizing the latency of a single time step. I played a major role in creating Anton’s overall architecture and in designing many of Anton’s systems, including:\n\n● Co­designing Anton’s “Flexible Subsystem”, which handles all general­purpose tasks.\n\n● Suggesting the fusion of two existing hardware accelerators to produce the “high­throughput interaction subsystem” that is Anton’s main special­purpose hardware unit.\n\n● Proposing, evaluating, and programming the main computational cores of the Flexible Subsystem. I designed the ISA for these cores, using a simulator and timing model that I built to explore architectural, micro­architectural, and ISA trade­offs. I also built the optimizing assembler (which performs instruction scheduling and register allocation) with which these cores are programmed.\n\n● Replacing the proposed FFT hardware subsystem with software, saving die area while improving overall system performance.\n\n● Modeling, simulating, and directing optimization of Anton’s performance, which exceeded our design-­time estimates.\n\n● Managing the software simulation team and later the embedded code development team.\n\nWith Josh Fisher and Paolo Faraboschi of HP Labs, wrote “Embedded Computing: A VLIW Approach to Architecture, Compilers, and Tools”, published by Morgan­Kaufmann in 2004.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1030814/",
+     "name": "D. E. Shaw Research",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg"
+     }
+    },
+    "position": "Research Scientist, and Member of the Technical Staff",
+    "companyName": "D. E. Shaw Research",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1030814/",
+    "companyId": "1030814",
+    "duration": "10 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2003
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_400_400/company-logo_400_400/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=Kgo7cnVW1sblVPE67KWIIm8387HcaG6p61RcKDFC2zg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_200_200/company-logo_200_200/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=CwxVB04xhnrLdzJqoSeeAOrNJJh8K4tKIZrnvKsGffo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQH5wzbus8h1hQ/company-logo_100_100/company-logo_100_100/0/1682412920047/d_e_shaw_research_logo?e=1795046400&v=beta&t=837e7eVBdCI8RBTix_uc3puJ-nrTH761cDVa0Oa-ep8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Member of Technical Staff",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 1997
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2003
+     }
+    },
+    "totalDuration": "5 yrs 6 mos",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/7545/",
+     "name": "Bell Laboratories",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw"
+     }
+    },
+    "position": "Member of Technical Staff",
+    "companyName": "Bell Laboratories",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/7545/",
+    "companyId": "7545",
+    "duration": "5 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 1997
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2003
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_400_400/B4EZ2rp07FJkAY-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=sw6rBMSFZAhsWPMUwNPBe9B_HYWrxUfg01tJKQxJxsY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_200_200/B4EZ2rp07FJkAI-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=iFy5zv0E46cxCaJZbbt_qNy3vRq-eFQKMwhFyIFlEpM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFG9ClzlzyqQw/company-logo_100_100/B4EZ2rp07FJkAQ-/0/1776701362383/nokiabelllabs_logo?e=1795046400&v=beta&t=XjyNIG-mn19wfXOj_YUoN3kyL_a69hkM0MXabFLqJRw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Management Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "year": 1989
+     },
+     "endDate": {
+      "year": 1992
+     }
+    },
+    "totalDuration": "3 yrs",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Bank of America (formerly Security Pacific Automation Company)",
+     "logo": {}
+    },
+    "position": "Management Associate",
+    "companyName": "Bank of America (formerly Security Pacific Automation Company)",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "year": 1989
+    },
+    "endDate": {
+     "year": 1992
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1646/",
+    "schoolName": "Harvard University",
+    "degreeName": "Ph.D.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1992
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1646/",
+    "schoolId": "1646",
+    "degree": "Ph.D.",
+    "skills": [],
+    "startDate": {
+     "year": 1992
+    },
+    "endDate": {
+     "year": 1997
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1646/",
+    "schoolName": "Harvard University",
+    "degreeName": "A.B.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1985
+     },
+     "endDate": {
+      "year": 1989
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1646/",
+    "schoolId": "1646",
+    "degree": "A.B.",
+    "skills": [],
+    "startDate": {
+     "year": 1985
+    },
+    "endDate": {
+     "year": 1989
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_400_400/company-logo_400_400/0/1631318058235?e=1795046400&v=beta&t=4l6GRGFcJ60ZVZ1BPHiPCEuDZQvoIfvWzskrKGIFbYo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_200_200/company-logo_200_200/0/1631318058235?e=1795046400&v=beta&t=gZv8XTWgMo9LM8JyANyJjOIMTK9_gJnGL75TD01A0TA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF5t62bcL0e9g/company-logo_100_100/company-logo_100_100/0/1631318058235?e=1795046400&v=beta&t=R6sAG_i9RbaZ14scTKWtZlCWkgiE1KjdzsyQPwKzUk0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1646/",
+    "schoolName": "Harvard University",
+    "degreeName": "Ph.D.",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 1992
+     },
+     "endDate": {
+      "year": 1997
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1646/",
+    "schoolId": "1646",
+    "degree": "Ph.D.",
+    "skills": [],
+    "startDate": {
+     "year": 1992
+    },
+    "endDate": {
+     "year": 1997
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522788652923?e=1795046400&v=beta&t=FINxUBItrZRso-gha4SZSCQgj1Tc2W71FZxKFN6luZ4",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1522788653206?e=1795046400&v=beta&t=iixdPyyj2C8pC4Fp37tSe5jGiSvBrNvn5p49ITw01c0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522788652984?e=1795046400&v=beta&t=B5UNHTlKuRD2XhNz262z1xD6FoYy1gV3RGSkRU1ZFpk",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQGEsHPhlvLC3A/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522788652967?e=1795046400&v=beta&t=6_2XBFl1vNs6-uT1UsuChuQlQ_4yH9dDrO-ZLRFKt0k",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/cliff-young-1b1a2"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T08:42:22.853Z",
+ "foundBy": null
+}

@@ -1,0 +1,2125 @@
+{
+ "slug": "jamescscott",
+ "inputUrl": "https://www.linkedin.com/in/jamescscott",
+ "fetchedAt": "2026-11-09T01:16:22.485Z",
+ "id": "6af11ee6af440f0df0ab76c0",
+ "url": "https://www.linkedin.com/in/jamescscott",
+ "profile": {
+  "created": 1298995152470,
+  "trackingId": "LuqHXqRnSveyWpJnaazN3Q==",
+  "firstName": "James",
+  "lastName": "Scott",
+  "pronoun": null,
+  "versionTag": "367544978",
+  "headline": "Engineer | Distributed systems, AI agent systems, developer platforms | webstatus.dev architect, Chromium contributor",
+  "publicIdentifier": "jamescscott",
+  "creator": true,
+  "influencer": true,
+  "premium": false,
+  "connectionType": 3,
+  "creatorInfo": {
+   "hashTags": [
+    "#cloud",
+    "#opensource",
+    "#softwareengineering"
+   ],
+   "website": null
+  },
+  "birthDate": {
+   "month": 11,
+   "day": 18,
+   "year": null
+  },
+  "id": "107566149",
+  "profileId": "ACoAAAZpVEUBHUuE22IWa39RVVI6mEO1A3CJUy8",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+   "301x301": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+   "301x301": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I architect developer-facing distributed systems, public APIs, and AI agent systems. I led the architecture and open-sourcing of webstatus.dev — a multi-region GCP service serving the global web standards community at 99.9% availability — and most recently shipped the Crash Report Context inspector to Chromium DevTools (M148).\n\nBefore Google, I built platform infrastructure at Microsoft, Capital One, and 18F (where I served as a GS-15 Innovation Specialist and authored Compliance Masonry, an open-source FedRAMP/FISMA compliance tool still in use across federal agencies).\n\nRecent technical work spans:\n• Distributed systems on GCP serving ~1M monthly API requests with strict SLOs\n• Multi-phase AI systems for automated code migration, combining offline knowledge generation with retrieval-augmented generation at runtime\n• Cross-stack contributions to Chromium browser internals (C++) and DevTools (TypeScript)\n• Open-source platforms across web standards (webstatus.dev, Web Platform Tests), federal infrastructure (Compliance Masonry, cloud.gov), and the Cloud Foundry ecosystem\nI'm most interested in building developer platforms, AI infrastructure, and the systems that make other engineers more productive.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "- Set technical and architectural vision for webstatus.dev, a multi-region distributed service on GCP (Cloud Run, Spanner, Datastore) written in Go, serving the global web platform community at 99.9% availability and 95% sub-1s latency SLOs. The Go backend serves ~1M monthly API requests and the frontend handles ~200K monthly requests, with a public OpenAPI specification for community and internal adoption. Drove open-sourcing through cross-functional alignment with Security, Legal, Privacy, and Open Source review.\n- Designed and prototyped a multi-agent AI system using the Agent Development Kit (ADK) for web codebase modernization, employing a Retrieval Augmented Generation (RAG) approach to inform code transformations.\n- Architected and shipped the Crash Report Context inspector to Chromium DevTools (M148), spanning C++ browser-process backend changes and TypeScript DevTools frontend work. The Reporting API entry under DevTools' Application tab is now expandable, revealing a new Crash Report Context sub-page that lets site developers inspect the context keys and values configured on their Reporting API payloads — improving observability of crash and error reports for any site adopting the API.\n- Contributed to the Chromium open source project, resolving a critical Origin Trials bug to enhance browser stability and re-enable higher token limits through a series of patches.\n- Represented Google in the Web Platform Tests (WPT) open source project, facilitating monthly cross-vendor technical discussions with Mozilla, Apple, and other stakeholders to drive web standards and interoperability.\n- Presented technical deep dives and lightning talks on webstatus.dev and web feature data strategies at multiple BlinkOn conferences.",
+    "insights": "Skills: Go (Programming Language) · TypeScript · Distributed Systems · Docker · Google Cloud Platform (GCP) · Software Design · Python · C++ · Retrieval-Augmented Generation (RAG) · Google Agent Development Kit (ADK)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "- Introduced adoption of Terraform and Terraform Akamai provider module to manage CDN configuration as code to enable better deployment practices\n- Led multiple internal and vendor teams for platform upgrades to the system responsible for authoring and hosting sites on www.microsoft.com\n- Served as liaison between platform and compliance teams to triage GDPR compliance issues for pages on www.microsoft.com",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Capital One",
+     "url": "https://www.linkedin.com/company/1419/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU"
+     }
+    },
+    "locationName": "Washington DC-Baltimore Area",
+    "employmentType": null,
+    "totalDuration": "2 yrs 7 mos",
+    "positions": [
+     {
+      "title": " Master Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "- Removed a core blocker to enterprise cloud adoption by designing and shipping a service API that automated the provisioning of distributed compute workloads on AWS, accelerating the migration of on-premise services off the single-instance constraints of prior internal cloud offerings.\n- Drove organization-wide adoption of Go through internal talks, hands-on workshops, and 1:1 mentorship, increasing developer productivity on cloud-native services.\n- Mentored team members on Kubernetes best practices for production deployments.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "- Led a joint Capital One and AWS tiger team that prototyped and shipped new machine learning capabilities, expanding the bank's ML platform footprint and unblocking data science teams across the organization.\n- Drove adoption of Continuous Integration by coaching other teams on how to build Jenkins pipelines.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led adoption of Kubernetes across all new projects, introducing Prometheus/Grafana, Sentry, and EFK (Elasticsearch-Fluentd-Kibana) for monitoring/alerting/logging; Packer and Terraform for repeatable VM provisioning; and Concourse CI for CI/CD.\n- Reduced AWS compute spend by 10% through systematic infrastructure analysis and optimization, embedding cost accountability across the engineering organization.\n- Built and maintained backend features for the Chelfie mobile app in close collaboration with the mobile team. Mentored junior developers on Git, Docker, CI/CD, Go, and TDD.\n- Coordinated cross-team feature dependencies to build accurate release timelines that met management's requirements.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5017066/",
+     "name": "Chelfie by Solebrity",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Washington D.C. Metro Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "- Advocated the idea of “compliance-as-code” by building Compliance Masonry.  This tool moves teams away from manually generating the compliance documentation necessary to go live with an application. Instead, the tool makes the documentation testable and machine generated which allows teams to constantly deliver new value and keep their documentation in sync with those changes. Additionally, I co-hosted and co-organized the OpenControl Symposium for agencies and vendors where I demoed its functionality.\n\n- Implemented an automated service to provision databases for cloud.gov PaaS tenants. This helped 1) reduce the number of 18F staff with direct access to Amazon Web Services to only 18F infrastructure which reduced security risks and 2) ensured consistency with database settings.\n\n- Developed a web app to give cloud.gov PaaS tenants the ability to administer their applications. Prior to this app, users could only administer their applications via command line. The web app removed a barrier of adoption for users uncomfortable with the command line.\n\n- Advocated for the adoption of the Go programming language. Presented internal talks about the language. Taught mini-workshops to explore the language. Provided one-on-one mentorship to teach the language. \n\n- Cloud Foundry Open Source Community Contributor.\n\n- Encouraged discussion of diversity and inclusion by starting “Diversity Brown Bags” where external experts came in to talk about the topic.\n\n- Facilitated the self-improvisation of 18F’s diversity and inclusion efforts by inviting experts to examine and provide actionable tasks.\n\n- Created an internal survey to measure inclusivity among staff.\n\n- Created diversity talking points and trained management to use those talking points to ensure engineers are talking about diversity and inclusion on Day 1.",
+    "company": {
+     "url": "",
+     "name": "18F",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "Intel Corporation",
+     "url": "https://www.linkedin.com/company/1053/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "employmentType": null,
+    "totalDuration": "2 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "San Francisco Bay Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2015
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "Received Divisional Recognition Award for Delivery of Android Lollipop OS on Intel-enabled ASUS phones by working with international teams within Intel and ASUS by creating a solution that expedited OS installation which resulted in better user experience and higher throughput of devices from the warehouses.\nDevelop code features that 1) enhances Intel's stake in mobile and 2) enhances the Android ecosystem.\nDevelop enhancements to Android OS and submit code patches for submission and merging to Google's Android Open Source Project (AOSP) Gerrit.\nOptimize Android Runtime (ART) to improve the user experience of Android on Intel platforms",
+      "insights": ""
+     },
+     {
+      "title": "Rotation Engineer",
+      "locationName": "Hillsboro, Oregon",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "Third Rotation: Software Engineer in SSG\nDeveloping Cloud Services for user data\n\nSecond Rotation: Research Scientist\nResearch and development for emerging technology\nVertical proof of concept solution developer\nDemonstrated solutions to external and internal clients\n\nFirst Rotation: Engineer for Networking Division (ND)\nNIC device driver development, testing, and validation",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Undergraduate Technical Intern",
+    "locationName": "Hillsboro, OR",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2011
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Researched and replaced current Web Pack tool for driver distribution\nUpdated interface to reflect newly supported hardware features \nUtilized ATL to improve device manager interface after recent usability study",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    }
+   },
+   {
+    "title": "Undergraduate Intern",
+    "locationName": "Poughkeepsie, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2010
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "System Z RAS Intern\nTested and enhanced web server tool which will enable employees access to information and ability to perform calculations for current and future systems.\nDeveloped an application to maintain the statuses of internal plans and present the information in a spreadsheet format.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1009/",
+     "name": "IBM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0"
+     }
+    }
+   },
+   {
+    "title": "Undergraduate Researcher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Analyzed the efficiency of a proposed matrix inversion speed up to be later utilized by graduate students.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2012
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "CKAD: Certified Kubernetes Application Developer",
+    "authority": "The Linux Foundation",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "The Linux Foundation",
+    "title": "CKAD: Certified Kubernetes Application Developer",
+    "issuedBy": "The Linux Foundation",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [
+   {
+    "title": "LinkedIn Next Wave 2016 - Software",
+    "description": "The top professionals 35 and under, surfaced by LinkedIn data and more. Named as one of 10 stars who are expanding the reach of software.\n\nhttps://lists.linkedin.com/2016/next-wave-top-professionals-35-and-under-20161011/software?trk=ranking-overview-b-ind",
+    "issueDate": {},
+    "issuer": "Issued by LinkedIn · Oct 2016"
+   },
+   {
+    "title": "Golang Challenge 7 - 1st Place",
+    "description": "Using Golang to create a mobile Piano app\nhttps://web.archive.org/web/20200712092959/http://golang-challenge.org/go-challenge7/\nhttp://golang-challenge.org/go-challenge7/",
+    "issueDate": {},
+    "issuer": "Nov 2015"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [
+   {
+    "name": "National Society of Black Engineers Professionals of Portland Metro",
+    "position": "Vice President · Aug 2013 - Jun 2014",
+    "dateRange": {}
+   },
+   {
+    "name": "Collegiate 100 Society",
+    "position": "Nov 2011 - May 2012",
+    "dateRange": {}
+   }
+  ],
+  "volunteerCauses": [
+   "Science and Technology"
+  ],
+  "companyName": "Google",
+  "companyPublicId": "google",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/google/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1441",
+   "name": "Google",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQGv3cqOuUMY7g",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_"
+    }
+   },
+   "universalName": "google",
+   "url": "https://www.linkedin.com/company/google/",
+   "slug": "google",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+   "specialties": []
+  },
+  "followerCount": 18189,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 909,
+  "skills": [
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Agent Development Kit (ADK)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 43,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 26,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Go (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 43,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Testing",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Golang",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Shell Scripting",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Architecture",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 26,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 31,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Agent Development Kit (ADK)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/jamescscott",
+  "linkedinUrl": "https://www.linkedin.com/in/jamescscott",
+  "profileUrl": "https://www.linkedin.com/in/jamescscott",
+  "verified": true,
+  "registeredAt": "2011-03-01T15:59:12.470Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "I architect developer-facing distributed systems, public APIs, and AI agent systems. I led the architecture and open-sourcing of webstatus.dev — a multi-region GCP service serving the global web standards community at 99.9% availability — and most recently shipped the Crash Report Context inspector to Chromium DevTools (M148).\n\nBefore Google, I built platform infrastructure at Microsoft, Capital One, and 18F (where I served as a GS-15 Innovation Specialist and authored Compliance Masonry, an open-source FedRAMP/FISMA compliance tool still in use across federal agencies).\n\nRecent technical work spans:\n• Distributed systems on GCP serving ~1M monthly API requests with strict SLOs\n• Multi-phase AI systems for automated code migration, combining offline knowledge generation with retrieval-augmented generation at runtime\n• Cross-stack contributions to Chromium browser internals (C++) and DevTools (TypeScript)\n• Open-source platforms across web standards (webstatus.dev, Web Platform Tests), federal infrastructure (Compliance Masonry, cloud.gov), and the Cloud Foundry ecosystem\nI'm most interested in building developer platforms, AI infrastructure, and the systems that make other engineers more productive.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Software Engineer",
+   "Undergraduate Technical Intern",
+   "Undergraduate Intern",
+   "Undergraduate Researcher"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "- Set technical and architectural vision for webstatus.dev, a multi-region distributed service on GCP (Cloud Run, Spanner, Datastore) written in Go, serving the global web platform community at 99.9% availability and 95% sub-1s latency SLOs. The Go backend serves ~1M monthly API requests and the frontend handles ~200K monthly requests, with a public OpenAPI specification for community and internal adoption. Drove open-sourcing through cross-functional alignment with Security, Legal, Privacy, and Open Source review.\n- Designed and prototyped a multi-agent AI system using the Agent Development Kit (ADK) for web codebase modernization, employing a Retrieval Augmented Generation (RAG) approach to inform code transformations.\n- Architected and shipped the Crash Report Context inspector to Chromium DevTools (M148), spanning C++ browser-process backend changes and TypeScript DevTools frontend work. The Reporting API entry under DevTools' Application tab is now expandable, revealing a new Crash Report Context sub-page that lets site developers inspect the context keys and values configured on their Reporting API payloads — improving observability of crash and error reports for any site adopting the API.\n- Contributed to the Chromium open source project, resolving a critical Origin Trials bug to enhance browser stability and re-enable higher token limits through a series of patches.\n- Represented Google in the Web Platform Tests (WPT) open source project, facilitating monthly cross-vendor technical discussions with Mozilla, Apple, and other stakeholders to drive web standards and interoperability.\n- Presented technical deep dives and lightning talks on webstatus.dev and web feature data strategies at multiple BlinkOn conferences.",
+    "insights": "Skills: Go (Programming Language) · TypeScript · Distributed Systems · Docker · Google Cloud Platform (GCP) · Software Design · Python · C++ · Retrieval-Augmented Generation (RAG) · Google Agent Development Kit (ADK)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Capital One",
+     "url": "https://www.linkedin.com/company/1419/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU"
+     }
+    },
+    "locationName": "Washington DC-Baltimore Area",
+    "totalDuration": "2 yrs 7 mos",
+    "positions": [
+     {
+      "title": " Master Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "- Removed a core blocker to enterprise cloud adoption by designing and shipping a service API that automated the provisioning of distributed compute workloads on AWS, accelerating the migration of on-premise services off the single-instance constraints of prior internal cloud offerings.\n- Drove organization-wide adoption of Go through internal talks, hands-on workshops, and 1:1 mentorship, increasing developer productivity on cloud-native services.\n- Mentored team members on Kubernetes best practices for production deployments.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "- Led a joint Capital One and AWS tiger team that prototyped and shipped new machine learning capabilities, expanding the bank's ML platform footprint and unblocking data science teams across the organization.\n- Drove adoption of Continuous Integration by coaching other teams on how to build Jenkins pipelines.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Capital One",
+    "location": "Washington DC-Baltimore Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1419/",
+    "companyId": "1419",
+    "duration": "2 yrs 7 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "company": {
+     "name": "Intel Corporation",
+     "url": "https://www.linkedin.com/company/1053/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "San Francisco Bay Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2015
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "Received Divisional Recognition Award for Delivery of Android Lollipop OS on Intel-enabled ASUS phones by working with international teams within Intel and ASUS by creating a solution that expedited OS installation which resulted in better user experience and higher throughput of devices from the warehouses.\nDevelop code features that 1) enhances Intel's stake in mobile and 2) enhances the Android ecosystem.\nDevelop enhancements to Android OS and submit code patches for submission and merging to Google's Android Open Source Project (AOSP) Gerrit.\nOptimize Android Runtime (ART) to improve the user experience of Android on Intel platforms",
+      "insights": ""
+     },
+     {
+      "title": "Rotation Engineer",
+      "locationName": "Hillsboro, Oregon",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "Third Rotation: Software Engineer in SSG\nDeveloping Cloud Services for user data\n\nSecond Rotation: Research Scientist\nResearch and development for emerging technology\nVertical proof of concept solution developer\nDemonstrated solutions to external and internal clients\n\nFirst Rotation: Engineer for Networking Division (ND)\nNIC device driver development, testing, and validation",
+      "insights": ""
+     }
+    ],
+    "companyName": "Intel Corporation",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "- Introduced adoption of Terraform and Terraform Akamai provider module to manage CDN configuration as code to enable better deployment practices\n- Led multiple internal and vendor teams for platform upgrades to the system responsible for authoring and hosting sites on www.microsoft.com\n- Served as liaison between platform and compliance teams to triage GDPR compliance issues for pages on www.microsoft.com",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Microsoft",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1035/",
+    "companyId": "1035",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led adoption of Kubernetes across all new projects, introducing Prometheus/Grafana, Sentry, and EFK (Elasticsearch-Fluentd-Kibana) for monitoring/alerting/logging; Packer and Terraform for repeatable VM provisioning; and Concourse CI for CI/CD.\n- Reduced AWS compute spend by 10% through systematic infrastructure analysis and optimization, embedding cost accountability across the engineering organization.\n- Built and maintained backend features for the Chelfie mobile app in close collaboration with the mobile team. Mentored junior developers on Git, Docker, CI/CD, Go, and TDD.\n- Coordinated cross-team feature dependencies to build accurate release timelines that met management's requirements.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5017066/",
+     "name": "Chelfie by Solebrity",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Chelfie by Solebrity",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5017066/",
+    "companyId": "5017066",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Washington D.C. Metro Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "- Advocated the idea of “compliance-as-code” by building Compliance Masonry.  This tool moves teams away from manually generating the compliance documentation necessary to go live with an application. Instead, the tool makes the documentation testable and machine generated which allows teams to constantly deliver new value and keep their documentation in sync with those changes. Additionally, I co-hosted and co-organized the OpenControl Symposium for agencies and vendors where I demoed its functionality.\n\n- Implemented an automated service to provision databases for cloud.gov PaaS tenants. This helped 1) reduce the number of 18F staff with direct access to Amazon Web Services to only 18F infrastructure which reduced security risks and 2) ensured consistency with database settings.\n\n- Developed a web app to give cloud.gov PaaS tenants the ability to administer their applications. Prior to this app, users could only administer their applications via command line. The web app removed a barrier of adoption for users uncomfortable with the command line.\n\n- Advocated for the adoption of the Go programming language. Presented internal talks about the language. Taught mini-workshops to explore the language. Provided one-on-one mentorship to teach the language. \n\n- Cloud Foundry Open Source Community Contributor.\n\n- Encouraged discussion of diversity and inclusion by starting “Diversity Brown Bags” where external experts came in to talk about the topic.\n\n- Facilitated the self-improvisation of 18F’s diversity and inclusion efforts by inviting experts to examine and provide actionable tasks.\n\n- Created an internal survey to measure inclusivity among staff.\n\n- Created diversity talking points and trained management to use those talking points to ensure engineers are talking about diversity and inclusion on Day 1.",
+    "company": {
+     "url": "",
+     "name": "18F",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "18F",
+    "location": "Washington D.C. Metro Area",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Technical Intern",
+    "locationName": "Hillsboro, OR",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2011
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Researched and replaced current Web Pack tool for driver distribution\nUpdated interface to reflect newly supported hardware features \nUtilized ATL to improve device manager interface after recent usability study",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "position": "Undergraduate Technical Intern",
+    "companyName": "Intel Corporation",
+    "location": "Hillsboro, OR",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2011
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Intern",
+    "locationName": "Poughkeepsie, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2010
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "System Z RAS Intern\nTested and enhanced web server tool which will enable employees access to information and ability to perform calculations for current and future systems.\nDeveloped an application to maintain the statuses of internal plans and present the information in a spreadsheet format.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1009/",
+     "name": "IBM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0"
+     }
+    },
+    "position": "Undergraduate Intern",
+    "companyName": "IBM",
+    "location": "Poughkeepsie, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1009/",
+    "companyId": "1009",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2010
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Researcher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Analyzed the efficiency of a proposed matrix inversion speed up to be later utilized by graduate students.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    },
+    "position": "Undergraduate Researcher",
+    "companyName": "University of Virginia",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "companyId": "4298",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1441",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyName": "Google",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1419",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1419/",
+    "companyName": "Capital One",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1053",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyName": "Intel Corporation",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "- Set technical and architectural vision for webstatus.dev, a multi-region distributed service on GCP (Cloud Run, Spanner, Datastore) written in Go, serving the global web platform community at 99.9% availability and 95% sub-1s latency SLOs. The Go backend serves ~1M monthly API requests and the frontend handles ~200K monthly requests, with a public OpenAPI specification for community and internal adoption. Drove open-sourcing through cross-functional alignment with Security, Legal, Privacy, and Open Source review.\n- Designed and prototyped a multi-agent AI system using the Agent Development Kit (ADK) for web codebase modernization, employing a Retrieval Augmented Generation (RAG) approach to inform code transformations.\n- Architected and shipped the Crash Report Context inspector to Chromium DevTools (M148), spanning C++ browser-process backend changes and TypeScript DevTools frontend work. The Reporting API entry under DevTools' Application tab is now expandable, revealing a new Crash Report Context sub-page that lets site developers inspect the context keys and values configured on their Reporting API payloads — improving observability of crash and error reports for any site adopting the API.\n- Contributed to the Chromium open source project, resolving a critical Origin Trials bug to enhance browser stability and re-enable higher token limits through a series of patches.\n- Represented Google in the Web Platform Tests (WPT) open source project, facilitating monthly cross-vendor technical discussions with Mozilla, Apple, and other stakeholders to drive web standards and interoperability.\n- Presented technical deep dives and lightning talks on webstatus.dev and web feature data strategies at multiple BlinkOn conferences.",
+    "insights": "Skills: Go (Programming Language) · TypeScript · Distributed Systems · Docker · Google Cloud Platform (GCP) · Software Design · Python · C++ · Retrieval-Augmented Generation (RAG) · Google Agent Development Kit (ADK)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1441/",
+     "name": "Google",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Google",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1441/",
+    "companyId": "1441",
+    "duration": "4 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_400_400/B4EZmhegXHGcAc-/0/1759350753990/google_logo?e=1795651200&v=beta&t=Ftzx2ni-NVs31LFTLzrau7Zgobwt9L_xMQJcgGmSwFQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_200_200/B4EZmhegXHGcAM-/0/1759350753990/google_logo?e=1795651200&v=beta&t=pjQVdtPnsRCJT7R8g0jB_KHi9j8Ry6DAsbJlHwi2-3g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGv3cqOuUMY7g/company-logo_100_100/B4EZmhegXHGcAU-/0/1759350753990/google_logo?e=1795651200&v=beta&t=x6lCLTaEZMmTkkoxc4J63G5LMNvXRLdzKJFr8hpFdG8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "- Introduced adoption of Terraform and Terraform Akamai provider module to manage CDN configuration as code to enable better deployment practices\n- Led multiple internal and vendor teams for platform upgrades to the system responsible for authoring and hosting sites on www.microsoft.com\n- Served as liaison between platform and compliance teams to triage GDPR compliance issues for pages on www.microsoft.com",
+    "company": {
+     "url": "https://www.linkedin.com/company/1035/",
+     "name": "Microsoft",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Microsoft",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1035/",
+    "companyId": "1035",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_400_400/B56ZYQ0mrGGoAc-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=K46_ceS0gpG2G6IYescG0g11D8EA8J07YyYNisIPgH0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_200_200/B56ZYQ0mrGGoAM-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=nxHvDv6OZToKnaKi-rZrNC9lEgiTr6CTj78sacsOrVk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH32RJQCl3dDQ/company-logo_100_100/B56ZYQ0mrGGoAU-/0/1744038948046/microsoft_logo?e=1795651200&v=beta&t=JxQSFSy6Fa87yXYjLatmq1KdrRxp9SxXxhcUR4W-gxg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Capital One",
+     "url": "https://www.linkedin.com/company/1419/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU"
+     }
+    },
+    "locationName": "Washington DC-Baltimore Area",
+    "totalDuration": "2 yrs 7 mos",
+    "positions": [
+     {
+      "title": " Master Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 8,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2021
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "- Removed a core blocker to enterprise cloud adoption by designing and shipping a service API that automated the provisioning of distributed compute workloads on AWS, accelerating the migration of on-premise services off the single-instance constraints of prior internal cloud offerings.\n- Drove organization-wide adoption of Go through internal talks, hands-on workshops, and 1:1 mentorship, increasing developer productivity on cloud-native services.\n- Mentored team members on Kubernetes best practices for production deployments.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2019
+       }
+      },
+      "totalDuration": "10 mos",
+      "description": "- Led a joint Capital One and AWS tiger team that prototyped and shipped new machine learning capabilities, expanding the bank's ML platform footprint and unblocking data science teams across the organization.\n- Drove adoption of Continuous Integration by coaching other teams on how to build Jenkins pipelines.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Capital One",
+    "location": "Washington DC-Baltimore Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1419/",
+    "companyId": "1419",
+    "duration": "2 yrs 7 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_400_400/company-logo_400_400/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=v0_TzmXlP4LSTNIclmWcP4aKrCbPhiw2LOMSgsi8QKU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_200_200/company-logo_200_200/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=rxemVIha5ws6SJznEZgHQaV3--Ey8-Up0oLUEECuxV8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQF0OgQyRZ9yAA/company-logo_100_100/company-logo_100_100/0/1635782718446/capital_one_logo?e=1795651200&v=beta&t=QcSyNZ-X_Z_YUfi6K___GAf9vJx0xk-YXJtHiSyGlac",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2018
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "- Led adoption of Kubernetes across all new projects, introducing Prometheus/Grafana, Sentry, and EFK (Elasticsearch-Fluentd-Kibana) for monitoring/alerting/logging; Packer and Terraform for repeatable VM provisioning; and Concourse CI for CI/CD.\n- Reduced AWS compute spend by 10% through systematic infrastructure analysis and optimization, embedding cost accountability across the engineering organization.\n- Built and maintained backend features for the Chelfie mobile app in close collaboration with the mobile team. Mentored junior developers on Git, Docker, CI/CD, Go, and TDD.\n- Coordinated cross-team feature dependencies to build accurate release timelines that met management's requirements.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5017066/",
+     "name": "Chelfie by Solebrity",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Chelfie by Solebrity",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5017066/",
+    "companyId": "5017066",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_400_400/company-logo_400_400/0/1519869435882?e=1795651200&v=beta&t=H0sgxThKC6IKMvQFYO5Zs3K1Egu3-_Ko_0gfR8Caoqo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_200_200/company-logo_200_200/0/1519869435825?e=1795651200&v=beta&t=SGz-EF1CWWdIt6QoRHeMzgzmP0JnwYq1tTJnJaTe32o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGHVwKc4EB6zg/company-logo_100_100/company-logo_100_100/0/1519869435813?e=1795651200&v=beta&t=onQSzDK8F35Vf2W-aLH21ks2FG6KWj1CLk4Q7mGFzmc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Washington D.C. Metro Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 6 mos",
+    "description": "- Advocated the idea of “compliance-as-code” by building Compliance Masonry.  This tool moves teams away from manually generating the compliance documentation necessary to go live with an application. Instead, the tool makes the documentation testable and machine generated which allows teams to constantly deliver new value and keep their documentation in sync with those changes. Additionally, I co-hosted and co-organized the OpenControl Symposium for agencies and vendors where I demoed its functionality.\n\n- Implemented an automated service to provision databases for cloud.gov PaaS tenants. This helped 1) reduce the number of 18F staff with direct access to Amazon Web Services to only 18F infrastructure which reduced security risks and 2) ensured consistency with database settings.\n\n- Developed a web app to give cloud.gov PaaS tenants the ability to administer their applications. Prior to this app, users could only administer their applications via command line. The web app removed a barrier of adoption for users uncomfortable with the command line.\n\n- Advocated for the adoption of the Go programming language. Presented internal talks about the language. Taught mini-workshops to explore the language. Provided one-on-one mentorship to teach the language. \n\n- Cloud Foundry Open Source Community Contributor.\n\n- Encouraged discussion of diversity and inclusion by starting “Diversity Brown Bags” where external experts came in to talk about the topic.\n\n- Facilitated the self-improvisation of 18F’s diversity and inclusion efforts by inviting experts to examine and provide actionable tasks.\n\n- Created an internal survey to measure inclusivity among staff.\n\n- Created diversity talking points and trained management to use those talking points to ensure engineers are talking about diversity and inclusion on Day 1.",
+    "company": {
+     "url": "",
+     "name": "18F",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "18F",
+    "location": "Washington D.C. Metro Area",
+    "duration": "2 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Intel Corporation",
+     "url": "https://www.linkedin.com/company/1053/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "positions": [
+     {
+      "title": "Software Engineer",
+      "locationName": "San Francisco Bay Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2015
+       }
+      },
+      "totalDuration": "1 yr 4 mos",
+      "description": "Received Divisional Recognition Award for Delivery of Android Lollipop OS on Intel-enabled ASUS phones by working with international teams within Intel and ASUS by creating a solution that expedited OS installation which resulted in better user experience and higher throughput of devices from the warehouses.\nDevelop code features that 1) enhances Intel's stake in mobile and 2) enhances the Android ecosystem.\nDevelop enhancements to Android OS and submit code patches for submission and merging to Google's Android Open Source Project (AOSP) Gerrit.\nOptimize Android Runtime (ART) to improve the user experience of Android on Intel platforms",
+      "insights": ""
+     },
+     {
+      "title": "Rotation Engineer",
+      "locationName": "Hillsboro, Oregon",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2012
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 9 mos",
+      "description": "Third Rotation: Software Engineer in SSG\nDeveloping Cloud Services for user data\n\nSecond Rotation: Research Scientist\nResearch and development for emerging technology\nVertical proof of concept solution developer\nDemonstrated solutions to external and internal clients\n\nFirst Rotation: Engineer for Networking Division (ND)\nNIC device driver development, testing, and validation",
+      "insights": ""
+     }
+    ],
+    "companyName": "Intel Corporation",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Undergraduate Technical Intern",
+    "locationName": "Hillsboro, OR",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2011
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Researched and replaced current Web Pack tool for driver distribution\nUpdated interface to reflect newly supported hardware features \nUtilized ATL to improve device manager interface after recent usability study",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "position": "Undergraduate Technical Intern",
+    "companyName": "Intel Corporation",
+    "location": "Hillsboro, OR",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2011
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Intern",
+    "locationName": "Poughkeepsie, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2010
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "System Z RAS Intern\nTested and enhanced web server tool which will enable employees access to information and ability to perform calculations for current and future systems.\nDeveloped an application to maintain the statuses of internal plans and present the information in a spreadsheet format.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1009/",
+     "name": "IBM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0"
+     }
+    },
+    "position": "Undergraduate Intern",
+    "companyName": "IBM",
+    "location": "Poughkeepsie, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1009/",
+    "companyId": "1009",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2010
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2010
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_400_400/company-logo_400_400/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=azPBfoSuvzirrJOq31DEmxNCGwRydQ1dAO0oQN9h8D0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_200_200/company-logo_200_200/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=hslQhls31G15ONkNq0fzrKSY8lC2JapD9_LxGmG9j_w",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGiz5ecgpCtkA/company-logo_100_100/company-logo_100_100/0/1688684715866/ibm_logo?e=1795651200&v=beta&t=TTAIVXVKoq0AwEOaG2Le-ymJuNkzYMa7F4841cMCNWk",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Researcher",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Analyzed the efficiency of a proposed matrix inversion speed up to be later utilized by graduate students.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    },
+    "position": "Undergraduate Researcher",
+    "companyName": "University of Virginia",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "companyId": "4298",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "schoolId": "4298",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2012
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor of Science",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "schoolId": "4298",
+    "degree": "Bachelor of Science",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2012
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "LinkedIn Next Wave 2016 - Software",
+    "description": "The top professionals 35 and under, surfaced by LinkedIn data and more. Named as one of 10 stars who are expanding the reach of software.\n\nhttps://lists.linkedin.com/2016/next-wave-top-professionals-35-and-under-20161011/software?trk=ranking-overview-b-ind",
+    "issueDate": {},
+    "issuer": "Issued by LinkedIn · Oct 2016"
+   },
+   {
+    "title": "Golang Challenge 7 - 1st Place",
+    "description": "Using Golang to create a mobile Piano app\nhttps://web.archive.org/web/20200712092959/http://golang-challenge.org/go-challenge7/\nhttp://golang-challenge.org/go-challenge7/",
+    "issueDate": {},
+    "issuer": "Nov 2015"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+   "301x301": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+     "width": 301,
+     "height": 301
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+   "301x301": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+     "width": 301,
+     "height": 301
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+   "301x301": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516437709334?e=1795651200&v=beta&t=hUcCY-lYG7vIRVez5OLzvNYWCljS2DmNrH6uooi3WP4",
+     "width": 301,
+     "height": 301
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516437709269?e=1795651200&v=beta&t=urFyqcVk7yhoXhC7byDqr_dvrb0YQzLFsPDywNxVL-M",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQEQyO2-XsvTAA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516437709271?e=1795651200&v=beta&t=bVAGPHL5Br4Wb_bw6qzPMayK2fXMewkdNvZalUyqQtA",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/jamescscott"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T01:16:12.581Z",
+ "foundBy": null
+}

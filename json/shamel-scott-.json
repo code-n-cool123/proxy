@@ -1,0 +1,1596 @@
+{
+ "slug": "shamel-scott-",
+ "inputUrl": "https://www.linkedin.com/in/shamel-scott-",
+ "fetchedAt": "2026-11-09T01:07:27.065Z",
+ "id": "6af11ccfaf440f0df0ab7677",
+ "url": "https://www.linkedin.com/in/shamel-scott-",
+ "profile": {
+  "created": 1595946803596,
+  "trackingId": "yZZESXXbRsyWoacEbTP+2A==",
+  "firstName": "Shamel",
+  "lastName": "Scott",
+  "pronoun": null,
+  "versionTag": "2996133109",
+  "headline": "AI Software Engineer — production LLM pipelines, agentic systems, TypeScript/Bun backends | 170K lines shipped across 7 systems | 10 yrs Linux & networks, CCNA",
+  "publicIdentifier": "shamel-scott-",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "835701193",
+  "profileId": "ACoAADHPyckBNzmUxA3rca9uNc-gKi040bNuS-Y",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1595947309620?e=1795651200&v=beta&t=bPhHGARoEVX5sjx32EnD0XrUi7XHIvOfU0OZw8V0tdU",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595947309620?e=1795651200&v=beta&t=nmXzRfUKvy9mP1aIQaT2zdpJsMM3bSxjbeFiryk-Ino",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1595947309620?e=1795651200&v=beta&t=zhEzrTNzbPScRmNkKr9ILPsdh2JTbmvEZaOyKj4ev_U",
+   "480x480": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1617304145665?e=1795651200&v=beta&t=3mroktHrbLNTkZo0NePiu1nI4UJlCbbXErgN-w8BacI",
+   "1200x300": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1617304145665?e=1795651200&v=beta&t=eBWnM00gDzZe2QSUqT9bwMK4SjlstZGGELBD5-GvYHU"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "AI Software Engineer & Founder",
+  "summary": "I build production software around language models.\nOver three years I've shipped seven systems in TypeScript: multi-stage LLM pipelines with schema-validated output, quality gates that reject bad generations rather than ship them, GPU job orchestration, Stripe payments, warmed-domain outbound with full SPF/DKIM/DMARC. It runs unattended on infrastructure I operate myself.\nI build with coding agents — Claude Code, Codex, Cursor, MCP servers — run against locked constraints, schema boundaries, and test gates rather than loose prompts. The leverage isn't the generation, it's the verification around it.\nFavorite bug this year: long jobs kept dying and restarting from zero. Retry logic passed every test and changed nothing. The real cause was that a killed job left the local model still generating, so every later request queued behind an orphan my job database couldn't see. I found it by instrumenting the model host directly. That's how I debug anything that disagrees with itself now — check the provider, not your own records.\nA few of them:\n• Roughdraft Studio (live) — client acquisition that runs end to end without me: market discovery across four scrapers with failover, a qualification gate that rejects more than it passes, per-prospect generated artifacts, warmed-domain outbound, Stripe checkout behind immutable quotes. 66,611 lines, 2,006 tests. It writes and publishes its own blog: 25 posts, none by hand.\n• AI Influencer Builder — generator plus full-stack service, 64,250 lines, 69 API routes. Every generation validates against a 22-section JSON Schema before anything downstream touches it. Orchestrates rented GPU workers running ComfyUI for image generation and LoRA training.\n• Fiction Studio — two full-length novels, produced end to end. Getting a model to 90,000 coherent words is a state problem, not a prompting one. Most of the work was building the memory the model doesn't have.\n• local-llm-guard (open source) — the piece of this infrastructure you can actually read. A zero-dependency client for running a local model on a machine you're also using: single-flight pacing, output caps, deadlines derived from measured throughput. 29 tests, all on a virtual clock. github.com/scottshamel-ctrl/local-llm-guard\nBefore this: ten years of Linux, Windows and network operations — Motorola Solutions, Acuitus, DoD client work. CCNA. It's why the systems I build assume failure and are instrumented for it.\nCase studies: https://scottshamel.zo.space/portfolio\nOpen to AI engineering roles — full-time or contract, remote.",
+  "positions": [
+   {
+    "title": "AI Software Engineer & Founder",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Build and operate seven production systems built around large language models.\n• Roughdraft Studio — live client acquisition system running end to end unattended: market discovery across four scrapers with failover, scored qualification gate, per-prospect generated artifacts, warmed-domain outbound (SPF/DKIM/DMARC, suppression, bounce ingestion — 199 sends, 1 bounce), Stripe checkout behind immutable quotes. 66,611 lines, 2,006 tests, 366 commits in 90 days.\n• AI Influencer Builder — generator plus full-stack Bun/Hono service, 64,250 lines, 69 API route handlers. Output validates against a 22-section JSON Schema at the boundary; a 12-variable scorecard rejects or rebuilds anything under threshold. Orchestrates Vast.ai GPU workers running ComfyUI for image generation and LoRA training: provision, enqueue, poll, pull, tear down.\n• Fiction Studio — automated book production, two full-length novels shipped. Continuity state travels with the manuscript so late chapters stay consistent with early ones; prose gates block stock AI phrasing and return failing chapters for revision.\n• Hermes — OpenAI-compatible routing layer fronting five projects with a local GPU model over Tailscale, with automatic fallback to a hosted provider. Concurrency limits and cooldown derived from measured host behavior.\n• HomeNet Fit — deterministic rules engine, no model in the request path; missing or conflicting evidence returns \"unknown\" rather than inferring. 61 tests, 42 generated pages.\n• local-llm-guard (open source, MIT) — Hermes' local-inference client, published with its tests: a promise-chained pacer holding one generation in flight regardless of worker count, required output caps, deadlines derived from measured throughput. Injected I/O, so all 29 tests run on a virtual clock.\nOperate LLM pipelines daily across Anthropic, OpenAI, Google and local open-weight models. Verify against the provider's actual state — mail account, payment processor, model host — not internal records.",
+    "company": {
+     "url": "",
+     "name": "Synthetic Trend Studios LLC",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Network Administrator",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1771432/",
+     "name": "Motorola Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM"
+     }
+    }
+   },
+   {
+    "title": "System Network Administrator",
+    "locationName": "Sunnyvale, California, United States ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Solved over 250 3rd and 4TH tier trouble tickets\nHands-on experience designing, building, and troubleshooting enterprise-class networks w/ Windows\nWell versed in the concepts underlying the technology across most facets of IT, with confidence to tackle both problems that are understood as well as new technology as they arise\nCollected information to analyze and evaluate existing systems; research, plan, install, configure, and troubleshoot systems as well as hardware and software interfaces.\nConfigured, monitored, and administered Domain Controllers, Active Directory Users and computers, File servers, DHCP and DNS Windows Server 2016 platforms\nConfigured multiple complex networks according to best practices\nActively communicated all configuration, troubleshooting, and maintenance in organized notes logs",
+    "company": {
+     "url": "https://www.linkedin.com/company/110347/",
+     "name": "Acuitus, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs"
+     }
+    }
+   },
+   {
+    "title": "Information Technology Desktop Support ",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Configure LAN/WLAN /WAN/PAN (all copper 802.11 and 802.3) routers.\nInstall workgroups and provide remote desktop assistance.\nNetwork and local printer mapping and maintenance, cabling and patch panels.\nConfigure and troubleshoot TCP/IP, IPv4 and IPv6, DHCP, DNS, Firewalls, VPN, NAT.\nProficient in Windows XP/7/8/8.1/10, Vista, XP; Mac OS X; Server 2012/2008.\nLinux; Windows Firewall, Windows Administrative tools; remote desktop and helpdesk management software, virtualization, virtual machine software.\nTroubleshoot desktops, laptops, mobile devices, printers, scanners; format and partition EIDE, SATA, SCSI, and SSD; perform data recovery.\nDisassembled and reassembled a PC, verified its successful boot\nCreated a bootable thumb drive using various platforms such as Power ISO and Rufus\nTested wall outlets using a multimeter and ensuring the outlet output the correct voltages\nConfigured a Linksys router adjusting SSID and enabling the WPA2 security protocol",
+    "company": {
+     "url": "https://www.linkedin.com/company/64638/",
+     "name": "Per Scholas",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg"
+     }
+    }
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Provide technical support for apple products\nrespond to incoming calls \nschedule tech repair for mobile devices",
+    "company": {
+     "url": "",
+     "name": "Convergys",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Provide tech support for cable, internet and phone",
+    "company": {
+     "url": "https://www.linkedin.com/company/360153/",
+     "name": "WOW! Internet, Cable & Phone",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10"
+     }
+    }
+   },
+   {
+    "title": "Electronic Sales Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2013
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2646/",
+     "name": "Walmart",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "A+",
+    "fieldOfStudy": "Network+ Certification, Network Support",
+    "timePeriod": {
+     "startDate": {
+      "year": 2020
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_100_100/B4DZcSgOD1HMAU-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=gFbajARUUVv4rvQfaXdLxkLP72oYPH5fZV9sb8gV96U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_200_200/B4DZcSgOD1HMAM-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=WPPZxfpYmesuHLvBq9QOju--PWHTkYOXH4n-EVa2MW8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_400_400/B4DZcSgOD1HMAc-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=dzZhT38RftfLgIuPunB2tqS7wnQA1veSsG3tgSR1xV4"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/16202254/",
+    "schoolName": "Cisco Networking Academy",
+    "degreeName": "System",
+    "fieldOfStudy": "Networking, and LAN/WAN Management/Manager",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Introduction to Packet Tracer",
+    "authority": "Cisco",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Cisco",
+    "title": "Introduction to Packet Tracer",
+    "issuedBy": "Cisco",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Google IT Support Professional Certificate",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Google IT Support Professional Certificate",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 273,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 273,
+  "skills": [
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Systems Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apple Products",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Repair",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Electronics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Devices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Windows Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DNS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Active Directory",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DHCP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Technology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server admin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Systems Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apple Products",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Support",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Repair",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Electronics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Devices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Internet Protocol Suite (TCP/IP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DNS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Computer Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DHCP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Information Technology",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Server admin",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux System Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Wide Area Network (WAN)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Patch Panels",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Virtualization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Windows Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Active Directory",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Group Policy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cisco Routers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cisco IOS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Windows",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Servers",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mac",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/shamel-scott-",
+  "linkedinUrl": "https://www.linkedin.com/in/shamel-scott-",
+  "profileUrl": "https://www.linkedin.com/in/shamel-scott-",
+  "verified": true,
+  "registeredAt": "2020-07-28T14:33:23.596Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build production software around language models.\nOver three years I've shipped seven systems in TypeScript: multi-stage LLM pipelines with schema-validated output, quality gates that reject bad generations rather than ship them, GPU job orchestration, Stripe payments, warmed-domain outbound with full SPF/DKIM/DMARC. It runs unattended on infrastructure I operate myself.\nI build with coding agents — Claude Code, Codex, Cursor, MCP servers — run against locked constraints, schema boundaries, and test gates rather than loose prompts. The leverage isn't the generation, it's the verification around it.\nFavorite bug this year: long jobs kept dying and restarting from zero. Retry logic passed every test and changed nothing. The real cause was that a killed job left the local model still generating, so every later request queued behind an orphan my job database couldn't see. I found it by instrumenting the model host directly. That's how I debug anything that disagrees with itself now — check the provider, not your own records.\nA few of them:\n• Roughdraft Studio (live) — client acquisition that runs end to end without me: market discovery across four scrapers with failover, a qualification gate that rejects more than it passes, per-prospect generated artifacts, warmed-domain outbound, Stripe checkout behind immutable quotes. 66,611 lines, 2,006 tests. It writes and publishes its own blog: 25 posts, none by hand.\n• AI Influencer Builder — generator plus full-stack service, 64,250 lines, 69 API routes. Every generation validates against a 22-section JSON Schema before anything downstream touches it. Orchestrates rented GPU workers running ComfyUI for image generation and LoRA training.\n• Fiction Studio — two full-length novels, produced end to end. Getting a model to 90,000 coherent words is a state problem, not a prompting one. Most of the work was building the memory the model doesn't have.\n• local-llm-guard (open source) — the piece of this infrastructure you can actually read. A zero-dependency client for running a local model on a machine you're also using: single-flight pacing, output caps, deadlines derived from measured throughput. 29 tests, all on a virtual clock. github.com/scottshamel-ctrl/local-llm-guard\nBefore this: ten years of Linux, Windows and network operations — Motorola Solutions, Acuitus, DoD client work. CCNA. It's why the systems I build assume failure and are instrumented for it.\nCase studies: https://scottshamel.zo.space/portfolio\nOpen to AI engineering roles — full-time or contract, remote.",
+  "currentTitle": "AI Software Engineer & Founder",
+  "allTitles": [
+   "AI Software Engineer & Founder",
+   "Network Administrator",
+   "System Network Administrator",
+   "Information Technology Desktop Support ",
+   "Technical Support Representative",
+   "Technical Support Representative",
+   "Electronic Sales Associate"
+  ],
+  "currentPositions": [
+   {
+    "title": "AI Software Engineer & Founder",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Build and operate seven production systems built around large language models.\n• Roughdraft Studio — live client acquisition system running end to end unattended: market discovery across four scrapers with failover, scored qualification gate, per-prospect generated artifacts, warmed-domain outbound (SPF/DKIM/DMARC, suppression, bounce ingestion — 199 sends, 1 bounce), Stripe checkout behind immutable quotes. 66,611 lines, 2,006 tests, 366 commits in 90 days.\n• AI Influencer Builder — generator plus full-stack Bun/Hono service, 64,250 lines, 69 API route handlers. Output validates against a 22-section JSON Schema at the boundary; a 12-variable scorecard rejects or rebuilds anything under threshold. Orchestrates Vast.ai GPU workers running ComfyUI for image generation and LoRA training: provision, enqueue, poll, pull, tear down.\n• Fiction Studio — automated book production, two full-length novels shipped. Continuity state travels with the manuscript so late chapters stay consistent with early ones; prose gates block stock AI phrasing and return failing chapters for revision.\n• Hermes — OpenAI-compatible routing layer fronting five projects with a local GPU model over Tailscale, with automatic fallback to a hosted provider. Concurrency limits and cooldown derived from measured host behavior.\n• HomeNet Fit — deterministic rules engine, no model in the request path; missing or conflicting evidence returns \"unknown\" rather than inferring. 61 tests, 42 generated pages.\n• local-llm-guard (open source, MIT) — Hermes' local-inference client, published with its tests: a promise-chained pacer holding one generation in flight regardless of worker count, required output caps, deadlines derived from measured throughput. Injected I/O, so all 29 tests run on a virtual clock.\nOperate LLM pipelines daily across Anthropic, OpenAI, Google and local open-weight models. Verify against the provider's actual state — mail account, payment processor, model host — not internal records.",
+    "company": {
+     "url": "",
+     "name": "Synthetic Trend Studios LLC",
+     "logo": {}
+    },
+    "position": "AI Software Engineer & Founder",
+    "companyName": "Synthetic Trend Studios LLC",
+    "location": "New York, New York, United States · Remote",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Network Administrator",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/1771432/",
+     "name": "Motorola Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM"
+     }
+    },
+    "position": "Network Administrator",
+    "companyName": "Motorola Solutions",
+    "location": "Brooklyn, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1771432/",
+    "companyId": "1771432",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "System Network Administrator",
+    "locationName": "Sunnyvale, California, United States ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Solved over 250 3rd and 4TH tier trouble tickets\nHands-on experience designing, building, and troubleshooting enterprise-class networks w/ Windows\nWell versed in the concepts underlying the technology across most facets of IT, with confidence to tackle both problems that are understood as well as new technology as they arise\nCollected information to analyze and evaluate existing systems; research, plan, install, configure, and troubleshoot systems as well as hardware and software interfaces.\nConfigured, monitored, and administered Domain Controllers, Active Directory Users and computers, File servers, DHCP and DNS Windows Server 2016 platforms\nConfigured multiple complex networks according to best practices\nActively communicated all configuration, troubleshooting, and maintenance in organized notes logs",
+    "company": {
+     "url": "https://www.linkedin.com/company/110347/",
+     "name": "Acuitus, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs"
+     }
+    },
+    "position": "System Network Administrator",
+    "companyName": "Acuitus, Inc.",
+    "location": "Sunnyvale, California, United States ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/110347/",
+    "companyId": "110347",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Information Technology Desktop Support ",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Configure LAN/WLAN /WAN/PAN (all copper 802.11 and 802.3) routers.\nInstall workgroups and provide remote desktop assistance.\nNetwork and local printer mapping and maintenance, cabling and patch panels.\nConfigure and troubleshoot TCP/IP, IPv4 and IPv6, DHCP, DNS, Firewalls, VPN, NAT.\nProficient in Windows XP/7/8/8.1/10, Vista, XP; Mac OS X; Server 2012/2008.\nLinux; Windows Firewall, Windows Administrative tools; remote desktop and helpdesk management software, virtualization, virtual machine software.\nTroubleshoot desktops, laptops, mobile devices, printers, scanners; format and partition EIDE, SATA, SCSI, and SSD; perform data recovery.\nDisassembled and reassembled a PC, verified its successful boot\nCreated a bootable thumb drive using various platforms such as Power ISO and Rufus\nTested wall outlets using a multimeter and ensuring the outlet output the correct voltages\nConfigured a Linksys router adjusting SSID and enabling the WPA2 security protocol",
+    "company": {
+     "url": "https://www.linkedin.com/company/64638/",
+     "name": "Per Scholas",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg"
+     }
+    },
+    "position": "Information Technology Desktop Support ",
+    "companyName": "Per Scholas",
+    "location": "Brooklyn, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "companyId": "64638",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Provide technical support for apple products\nrespond to incoming calls \nschedule tech repair for mobile devices",
+    "company": {
+     "url": "",
+     "name": "Convergys",
+     "logo": {}
+    },
+    "position": "Technical Support Representative",
+    "companyName": "Convergys",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Provide tech support for cable, internet and phone",
+    "company": {
+     "url": "https://www.linkedin.com/company/360153/",
+     "name": "WOW! Internet, Cable & Phone",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10"
+     }
+    },
+    "position": "Technical Support Representative",
+    "companyName": "WOW! Internet, Cable & Phone",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/360153/",
+    "companyId": "360153",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2014
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Electronic Sales Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2013
+     }
+    },
+    "totalDuration": "5 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/2646/",
+     "name": "Walmart",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys"
+     }
+    },
+    "position": "Electronic Sales Associate",
+    "companyName": "Walmart",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2646/",
+    "companyId": "2646",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Synthetic Trend Studios LLC",
+    "companyLogo": {}
+   },
+   {
+    "companyId": "1771432",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1771432/",
+    "companyName": "Motorola Solutions",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "AI Software Engineer & Founder",
+    "locationName": "New York, New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 9 mos",
+    "description": "Build and operate seven production systems built around large language models.\n• Roughdraft Studio — live client acquisition system running end to end unattended: market discovery across four scrapers with failover, scored qualification gate, per-prospect generated artifacts, warmed-domain outbound (SPF/DKIM/DMARC, suppression, bounce ingestion — 199 sends, 1 bounce), Stripe checkout behind immutable quotes. 66,611 lines, 2,006 tests, 366 commits in 90 days.\n• AI Influencer Builder — generator plus full-stack Bun/Hono service, 64,250 lines, 69 API route handlers. Output validates against a 22-section JSON Schema at the boundary; a 12-variable scorecard rejects or rebuilds anything under threshold. Orchestrates Vast.ai GPU workers running ComfyUI for image generation and LoRA training: provision, enqueue, poll, pull, tear down.\n• Fiction Studio — automated book production, two full-length novels shipped. Continuity state travels with the manuscript so late chapters stay consistent with early ones; prose gates block stock AI phrasing and return failing chapters for revision.\n• Hermes — OpenAI-compatible routing layer fronting five projects with a local GPU model over Tailscale, with automatic fallback to a hosted provider. Concurrency limits and cooldown derived from measured host behavior.\n• HomeNet Fit — deterministic rules engine, no model in the request path; missing or conflicting evidence returns \"unknown\" rather than inferring. 61 tests, 42 generated pages.\n• local-llm-guard (open source, MIT) — Hermes' local-inference client, published with its tests: a promise-chained pacer holding one generation in flight regardless of worker count, required output caps, deadlines derived from measured throughput. Injected I/O, so all 29 tests run on a virtual clock.\nOperate LLM pipelines daily across Anthropic, OpenAI, Google and local open-weight models. Verify against the provider's actual state — mail account, payment processor, model host — not internal records.",
+    "company": {
+     "url": "",
+     "name": "Synthetic Trend Studios LLC",
+     "logo": {}
+    },
+    "position": "AI Software Engineer & Founder",
+    "companyName": "Synthetic Trend Studios LLC",
+    "location": "New York, New York, United States · Remote",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Network Administrator",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": null
+    },
+    "totalDuration": "5 yrs 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/1771432/",
+     "name": "Motorola Solutions",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM"
+     }
+    },
+    "position": "Network Administrator",
+    "companyName": "Motorola Solutions",
+    "location": "Brooklyn, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1771432/",
+    "companyId": "1771432",
+    "duration": "5 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_400_400/company-logo_400_400/0/1631305138860?e=1795651200&v=beta&t=9psaT2ZRl2E4FRUdgyYZXxBHNPYAB1jy2zkF1jRl1TM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_200_200/company-logo_200_200/0/1631305138860?e=1795651200&v=beta&t=tQ9jotgEEmBaonOvZW9F2djcqVnEJmTpkDhqFoB-6gQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQE4yt5Gz-3KGQ/company-logo_100_100/company-logo_100_100/0/1631305138860?e=1795651200&v=beta&t=U3bGJ3FIVAsJdTDf-6z-uAYlEDXTsAMRG_UyTCsvhgs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "System Network Administrator",
+    "locationName": "Sunnyvale, California, United States ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Solved over 250 3rd and 4TH tier trouble tickets\nHands-on experience designing, building, and troubleshooting enterprise-class networks w/ Windows\nWell versed in the concepts underlying the technology across most facets of IT, with confidence to tackle both problems that are understood as well as new technology as they arise\nCollected information to analyze and evaluate existing systems; research, plan, install, configure, and troubleshoot systems as well as hardware and software interfaces.\nConfigured, monitored, and administered Domain Controllers, Active Directory Users and computers, File servers, DHCP and DNS Windows Server 2016 platforms\nConfigured multiple complex networks according to best practices\nActively communicated all configuration, troubleshooting, and maintenance in organized notes logs",
+    "company": {
+     "url": "https://www.linkedin.com/company/110347/",
+     "name": "Acuitus, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs"
+     }
+    },
+    "position": "System Network Administrator",
+    "companyName": "Acuitus, Inc.",
+    "location": "Sunnyvale, California, United States ",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/110347/",
+    "companyId": "110347",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_400_400/company-logo_400_400/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=AV6GAXJAbDwAYE9wpbFtzq8aSl-qN2_VlaYlTB2AUTs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_200_200/company-logo_200_200/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=SX5ltFxoew0lC9T_pXb6usbBgwnlDayMzXzJec8GSXY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQERob24f-Ct5A/company-logo_100_100/company-logo_100_100/0/1630570175860/acuitus_logo?e=1795651200&v=beta&t=cgMOowJgnqNdG4wsDyeJ5DxYlrOpb78zVZbk5nw3M2g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Information Technology Desktop Support ",
+    "locationName": "Brooklyn, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2020
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "Configure LAN/WLAN /WAN/PAN (all copper 802.11 and 802.3) routers.\nInstall workgroups and provide remote desktop assistance.\nNetwork and local printer mapping and maintenance, cabling and patch panels.\nConfigure and troubleshoot TCP/IP, IPv4 and IPv6, DHCP, DNS, Firewalls, VPN, NAT.\nProficient in Windows XP/7/8/8.1/10, Vista, XP; Mac OS X; Server 2012/2008.\nLinux; Windows Firewall, Windows Administrative tools; remote desktop and helpdesk management software, virtualization, virtual machine software.\nTroubleshoot desktops, laptops, mobile devices, printers, scanners; format and partition EIDE, SATA, SCSI, and SSD; perform data recovery.\nDisassembled and reassembled a PC, verified its successful boot\nCreated a bootable thumb drive using various platforms such as Power ISO and Rufus\nTested wall outlets using a multimeter and ensuring the outlet output the correct voltages\nConfigured a Linksys router adjusting SSID and enabling the WPA2 security protocol",
+    "company": {
+     "url": "https://www.linkedin.com/company/64638/",
+     "name": "Per Scholas",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg"
+     }
+    },
+    "position": "Information Technology Desktop Support ",
+    "companyName": "Per Scholas",
+    "location": "Brooklyn, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "companyId": "64638",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Provide technical support for apple products\nrespond to incoming calls \nschedule tech repair for mobile devices",
+    "company": {
+     "url": "",
+     "name": "Convergys",
+     "logo": {}
+    },
+    "position": "Technical Support Representative",
+    "companyName": "Convergys",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Technical Support Representative",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 11 mos",
+    "description": "Provide tech support for cable, internet and phone",
+    "company": {
+     "url": "https://www.linkedin.com/company/360153/",
+     "name": "WOW! Internet, Cable & Phone",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10"
+     }
+    },
+    "position": "Technical Support Representative",
+    "companyName": "WOW! Internet, Cable & Phone",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/360153/",
+    "companyId": "360153",
+    "duration": "1 yr 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2014
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_400_400/B56ZgPdnqvHcAY-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=2al-jazUGMzZVXzvsWNsPEbfNb7sMVvnQAbt8GXS0c8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_200_200/B56ZgPdnqvHcAI-/0/1752606080031/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=rRgurHPR9MTU4X7wvgx8QJ7pj9Ot4HekEOdmEW8ourw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEY2ZwrFQk29A/company-logo_100_100/B56ZgPdnqvHcAQ-/0/1752606080032/wow_internet_tv__phone_logo?e=1795651200&v=beta&t=bEfqEnml_FvdNe8Gz_vTI-6UdKPVWM-bkTnh4WQbh10",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Electronic Sales Associate",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2013
+     }
+    },
+    "totalDuration": "5 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/2646/",
+     "name": "Walmart",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys"
+     }
+    },
+    "position": "Electronic Sales Associate",
+    "companyName": "Walmart",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2646/",
+    "companyId": "2646",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_400_400/company-logo_400_400/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=CMmyemeBE7k3ehuqVU8YvttseRdOmQ7YyHMd2O8vZys",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_200_200/company-logo_200_200/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=crcUddm--AOC3MClt94NWU3jmnroMPJ9FNGXVWM_gPk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHZkPdlecGssw/company-logo_100_100/company-logo_100_100/0/1736779000209/walmart_logo?e=1795651200&v=beta&t=uUhHTFQjn4Rxaosgu9fgekbrUtXtLLR5vLTl-bc_UFY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "A+",
+    "fieldOfStudy": "Network+ Certification, Network Support",
+    "timePeriod": {
+     "startDate": {
+      "year": 2020
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "schoolId": "64638",
+    "degree": "A+",
+    "skills": [],
+    "startDate": {
+     "year": 2020
+    },
+    "endDate": {
+     "year": 2020
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_100_100/B4DZcSgOD1HMAU-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=gFbajARUUVv4rvQfaXdLxkLP72oYPH5fZV9sb8gV96U",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_200_200/B4DZcSgOD1HMAM-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=WPPZxfpYmesuHLvBq9QOju--PWHTkYOXH4n-EVa2MW8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_400_400/B4DZcSgOD1HMAc-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=dzZhT38RftfLgIuPunB2tqS7wnQA1veSsG3tgSR1xV4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_400_400/B4DZcSgOD1HMAc-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=dzZhT38RftfLgIuPunB2tqS7wnQA1veSsG3tgSR1xV4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_400_400/B4DZcSgOD1HMAc-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=dzZhT38RftfLgIuPunB2tqS7wnQA1veSsG3tgSR1xV4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_200_200/B4DZcSgOD1HMAM-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=WPPZxfpYmesuHLvBq9QOju--PWHTkYOXH4n-EVa2MW8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQEkiQ8pB1hYow/company-logo_100_100/B4DZcSgOD1HMAU-/0/1748362125886/cisco_networking_academy1_logo?e=1795651200&v=beta&t=gFbajARUUVv4rvQfaXdLxkLP72oYPH5fZV9sb8gV96U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/16202254/",
+    "schoolName": "Cisco Networking Academy",
+    "degreeName": "System",
+    "fieldOfStudy": "Networking, and LAN/WAN Management/Manager",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/16202254/",
+    "schoolId": "16202254",
+    "degree": "System",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_400_400/B56aERRm7xKoAU-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=Wp94MfmUSkBbgcdtjuZocPkH7d06Ki-c9tDoSSmjWvE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_200_200/B56aERRm7xKoAE-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=T_7uFOVzNDJTMZchskDhn4cA6-F_0n2XTWE1iTWx_08",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFqaWcmVTmj1Q/company-logo_100_100/B56aERRm7xKoAI-/0/1791291191306/perscholas_logo?e=1795651200&v=beta&t=5e3tw9KeMPZsN8m3KwynpfTakhRr9wd2aqf1_8XinNg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/64638/",
+    "schoolName": "Per Scholas",
+    "degreeName": "A+",
+    "fieldOfStudy": "Network+ Certification, Network Support",
+    "timePeriod": {
+     "startDate": {
+      "year": 2020
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/64638/",
+    "schoolId": "64638",
+    "degree": "A+",
+    "skills": [],
+    "startDate": {
+     "year": 2020
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1595947309620?e=1795651200&v=beta&t=bPhHGARoEVX5sjx32EnD0XrUi7XHIvOfU0OZw8V0tdU",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595947309620?e=1795651200&v=beta&t=nmXzRfUKvy9mP1aIQaT2zdpJsMM3bSxjbeFiryk-Ino",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1595947309620?e=1795651200&v=beta&t=zhEzrTNzbPScRmNkKr9ILPsdh2JTbmvEZaOyKj4ev_U",
+   "480x480": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+     "width": 480,
+     "height": 480
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1595947309620?e=1795651200&v=beta&t=zhEzrTNzbPScRmNkKr9ILPsdh2JTbmvEZaOyKj4ev_U",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595947309620?e=1795651200&v=beta&t=nmXzRfUKvy9mP1aIQaT2zdpJsMM3bSxjbeFiryk-Ino",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1595947309620?e=1795651200&v=beta&t=bPhHGARoEVX5sjx32EnD0XrUi7XHIvOfU0OZw8V0tdU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1595947309620?e=1795651200&v=beta&t=bPhHGARoEVX5sjx32EnD0XrUi7XHIvOfU0OZw8V0tdU",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595947309620?e=1795651200&v=beta&t=nmXzRfUKvy9mP1aIQaT2zdpJsMM3bSxjbeFiryk-Ino",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1595947309620?e=1795651200&v=beta&t=zhEzrTNzbPScRmNkKr9ILPsdh2JTbmvEZaOyKj4ev_U",
+   "480x480": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1595947309620?e=1795651200&v=beta&t=7TAVVhH_gFWdNZeK0BvFM9GMUiYQKkFw1DoEowB4J9s",
+     "width": 480,
+     "height": 480
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1595947309620?e=1795651200&v=beta&t=zhEzrTNzbPScRmNkKr9ILPsdh2JTbmvEZaOyKj4ev_U",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1595947309620?e=1795651200&v=beta&t=nmXzRfUKvy9mP1aIQaT2zdpJsMM3bSxjbeFiryk-Ino",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQEsC4DRrGIAJw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1595947309620?e=1795651200&v=beta&t=bPhHGARoEVX5sjx32EnD0XrUi7XHIvOfU0OZw8V0tdU",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1617304145665?e=1795651200&v=beta&t=3mroktHrbLNTkZo0NePiu1nI4UJlCbbXErgN-w8BacI",
+   "1200x300": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1617304145665?e=1795651200&v=beta&t=eBWnM00gDzZe2QSUqT9bwMK4SjlstZGGELBD5-GvYHU",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1617304145665?e=1795651200&v=beta&t=eBWnM00gDzZe2QSUqT9bwMK4SjlstZGGELBD5-GvYHU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1617304145665?e=1795651200&v=beta&t=eBWnM00gDzZe2QSUqT9bwMK4SjlstZGGELBD5-GvYHU",
+     "width": 1200,
+     "height": 300
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQGHfDLESZaBJA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1617304145665?e=1795651200&v=beta&t=3mroktHrbLNTkZo0NePiu1nI4UJlCbbXErgN-w8BacI",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/shamel-scott-"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T01:07:17.475Z",
+ "foundBy": null
+}

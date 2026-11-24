@@ -1,0 +1,1634 @@
+{
+ "slug": "michael-rodriguez64",
+ "inputUrl": "https://www.linkedin.com/in/michael-rodriguez64",
+ "fetchedAt": "2026-10-22T05:56:42.354Z",
+ "id": "6ad9a59ad820dfb707d0b311",
+ "url": "https://www.linkedin.com/in/michael-rodriguez64",
+ "profile": {
+  "created": 1504550050674,
+  "trackingId": "ISlLHvGkT/S5dUoyyLT6dg==",
+  "firstName": "Michael",
+  "lastName": "Rodriguez",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "3462308115",
+  "headline": "SDE at Amazon Web Services",
+  "publicIdentifier": "michael-rodriguez64",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "605771696",
+  "profileId": "ACoAACQbV7AB4_lU1kLVyHGTsSQnO8wk0Ylv1xw",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696281391651?e=1794441600&v=beta&t=O87MHELoWzfFB4L1fxUdcrgqh9mzUCRfr8M1JMquSjI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696281391651?e=1794441600&v=beta&t=CVb82ilxaSxaIb3Cr4eKXadyz59BkIozOnIrcTdNs0k",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696281391651?e=1794441600&v=beta&t=LYN-QUwc0q-s5HSo1z7O1fdnaEp9JtDpighyxO1tyik",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517856548665?e=1794441600&v=beta&t=xussLxpxutqTDBMFPPWnjPOa6LbF0xVnQRr_xKSfTh0",
+   "1365x341": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517856548652?e=1794441600&v=beta&t=xIxkCqQPfn5SQdKQwFSw9PAO0-1wPFh-AigmiACe2dw"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104361728",
+  "geoLocationName": "Brooklyn, New York, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "As a software developer, I intend to pursue a challenging and engaging career path. I enjoy problem solving and always approach challenges with enthusiasm.  I believe that a day I don’t learn something new is a wasted day, which is why I constantly seek to learn new things.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "● Collaborate with enterprise customers to understand their unique business requirements. Design and implement prototypes on AWS platform to meet the customer’s needs\n● Developed automated failover solution for low latency workloads running at the in AWS Outposts. The solution ingests metrics from the customer about the state of their physical data center where the Outpost is deployed. Based on those metrics, the solution reacts to failure scenarios and redirects traffic to the closest LocalZone within seconds. This provides high reliability and minimizes latency during when the customer’s Outpost goes down.\n● Create pipeline that ingests customer service conversations, performs speech to text on them, and has the text summarized by a Large Language Model running on AWS SageMaker Jumpstart. This saves the customer service workers time because they no longer have to type up a summary to provide to management. Also, management no longer has to deal with low quality or missing summaries, and is able to gain actionable insight into their customer service operation.\n● Developed a OLTP and data visualization solution. Previously, the company had to respond to customer requests for data reports. This involved manually creating custom MariaDb queries that took hours to run as the indexes were not optimized for those queries. The turnaround on a custom report request was at least a week. To solve this, I set up data replication to AWS RedShift, and exposed the database via a QuickSight dashboard. Using AWS Cognito, each customer can log in to their own Quicksight dashboard, and run any query they want against their data. The queries are fast because RedShift is optimized for ad-hoc queries. No one at the company has to generate manual reports anymore, and the customer has an improved experience.\n\nTechnologies: Route 53, API Gateway, Lambda, Cloudwatch, SNS, SQS, Outposts, Redshift, DMS, RDS, QuickSight, SageMaker, Bedrock, Terraform, S3, OpenSearch, Python, Typescript, Java",
+    "insights": "Skills: API Gateways · Amazon CloudWatch · Amazon Simple Notification Service (SNS) · Amazon S3 · Terraform · Elasticsearch · KMS · Linux · Amazon Redshift · Git · Bedrock · Amazon Relational Database Service (RDS) · Amazon EC2 · Amazon SQS · Python (Programming Language) · Amazon Route 53 · Amazon Cognito · Amazon QuickSight · Web Application Firewalls · AWS SageMaker · Data Migration · AWS Lambda · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "● Feature lead for Atlassian's Cloud Security team.\n● Manage technical features by designing technical implementation, breaking down feature into tasks, and estimating developer effort required.\n● Responsible for the admin experience to create and enforce authentication policies for our cloud products. \n● Responsible for user provisioning and user lifecycle management\n● Develop solutions in Java, Spring Boot, and Angular on AWS",
+    "company": {
+     "url": "https://www.linkedin.com/company/22688/",
+     "name": "Atlassian",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Citrix",
+     "url": "https://www.linkedin.com/company/2641/",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Fort Lauderdale, Florida, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "● Lead Active Directory and Identity Cloud team, lead daily scrum meetings, organized Jira sprints\n● First responder to production outages, patching issues that affect thousands of enterprise grade customers\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis\n● Added support for horizontal scaling in Messaging Service, handling 150% traffic increase year over year\n● Optimized Messaging Service use of Redis, resulting in 45% less CPU consumption on average\n● Migrated Messaging Service to a global database, preventing regional outages from impacting SLAs\n● Developed Audit Log enabling customers to track Administrator actions for security and compliance requirements\n\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Miami/Fort Lauderdale Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Emerging Technologist Intern",
+    "locationName": "Greater Tampa Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "● Migrated Hadoop batch processes from on-prem to the cloud using AWS\n● Upgraded Spark 1.6 workflows to Spark 2.0, making them complete 200% faster\nTechnologies: S3, Hadoop Stack (Spark, Hue, Oozie, Impala, Hive, Zookeeper)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1714/",
+     "name": "Nielsen",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w"
+     }
+    }
+   },
+   {
+    "title": "IT Specialist",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "● Resolved ServiceNow support tickets as service desk agent managing software and hardware incidents\n● Provided base level IT support to non-technical personnel within the athletics department\nTechnologies: ServiceNow, DeepFreeze",
+    "company": {
+     "url": "https://www.linkedin.com/company/157340/",
+     "name": "University of Miami",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0"
+     }
+    }
+   },
+   {
+    "title": "Software Development Intern",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "● Resolved UI bugs in the SmarterCommerse ecommerce platform\nTechnologies: .NET Framework, Razor Templates",
+    "company": {
+     "url": "https://www.linkedin.com/company/381338/",
+     "name": "SmarterCommerce by Premier Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157340/",
+    "schoolName": "University of Miami",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Amazon Web Services Solutions Architect - Professional",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "Amazon Web Services Solutions Architect - Professional",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Amazon Web Services Solutions Architect Associate",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "Amazon Web Services Solutions Architect Associate",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Amazon Web Services (AWS)",
+  "companyPublicId": "amazon-web-services",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/amazon-web-services/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2382910",
+   "name": "Amazon Web Services (AWS)",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFqdm1TZ-RZKQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+       "expiresAt": 1794441600000,
+       "height": 400
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+       "expiresAt": 1794441600000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_"
+    }
+   },
+   "universalName": "amazon-web-services",
+   "url": "https://www.linkedin.com/company/amazon-web-services/",
+   "slug": "amazon-web-services",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+   "specialties": []
+  },
+  "followerCount": 311,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 306,
+  "skills": [
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Elasticsearch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "KMS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon S3",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EC2",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bedrock",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS SageMaker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon QuickSight",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Cognito",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Relational Database Service (RDS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Migration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Redshift",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon SQS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Simple Notification Service (SNS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon CloudWatch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "KMS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon EC2",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bedrock",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Migration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Redshift",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon SQS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Application Firewalls",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hive",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache ZooKeeper",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Elasticsearch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon S3",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS SageMaker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon QuickSight",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Cognito",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Relational Database Service (RDS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Simple Notification Service (SNS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon CloudWatch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Gateways",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Route 53",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": ".NET Framework",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle Database",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Hadoop",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Hue",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/michael-rodriguez64",
+  "linkedinUrl": "https://www.linkedin.com/in/michael-rodriguez64",
+  "profileUrl": "https://www.linkedin.com/in/michael-rodriguez64",
+  "verified": true,
+  "registeredAt": "2017-09-04T18:34:10.674Z",
+  "location": {
+   "linkedinText": "Brooklyn, New York, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Brooklyn, New York, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "As a software developer, I intend to pursue a challenging and engaging career path. I enjoy problem solving and always approach challenges with enthusiasm.  I believe that a day I don’t learn something new is a wasted day, which is why I constantly seek to learn new things.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Emerging Technologist Intern",
+   "IT Specialist",
+   "Software Development Intern"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "● Collaborate with enterprise customers to understand their unique business requirements. Design and implement prototypes on AWS platform to meet the customer’s needs\n● Developed automated failover solution for low latency workloads running at the in AWS Outposts. The solution ingests metrics from the customer about the state of their physical data center where the Outpost is deployed. Based on those metrics, the solution reacts to failure scenarios and redirects traffic to the closest LocalZone within seconds. This provides high reliability and minimizes latency during when the customer’s Outpost goes down.\n● Create pipeline that ingests customer service conversations, performs speech to text on them, and has the text summarized by a Large Language Model running on AWS SageMaker Jumpstart. This saves the customer service workers time because they no longer have to type up a summary to provide to management. Also, management no longer has to deal with low quality or missing summaries, and is able to gain actionable insight into their customer service operation.\n● Developed a OLTP and data visualization solution. Previously, the company had to respond to customer requests for data reports. This involved manually creating custom MariaDb queries that took hours to run as the indexes were not optimized for those queries. The turnaround on a custom report request was at least a week. To solve this, I set up data replication to AWS RedShift, and exposed the database via a QuickSight dashboard. Using AWS Cognito, each customer can log in to their own Quicksight dashboard, and run any query they want against their data. The queries are fast because RedShift is optimized for ad-hoc queries. No one at the company has to generate manual reports anymore, and the customer has an improved experience.\n\nTechnologies: Route 53, API Gateway, Lambda, Cloudwatch, SNS, SQS, Outposts, Redshift, DMS, RDS, QuickSight, SageMaker, Bedrock, Terraform, S3, OpenSearch, Python, Typescript, Java",
+    "insights": "Skills: API Gateways · Amazon CloudWatch · Amazon Simple Notification Service (SNS) · Amazon S3 · Terraform · Elasticsearch · KMS · Linux · Amazon Redshift · Git · Bedrock · Amazon Relational Database Service (RDS) · Amazon EC2 · Amazon SQS · Python (Programming Language) · Amazon Route 53 · Amazon Cognito · Amazon QuickSight · Web Application Firewalls · AWS SageMaker · Data Migration · AWS Lambda · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "New York, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Citrix",
+     "url": "https://www.linkedin.com/company/2641/",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Fort Lauderdale, Florida, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "● Lead Active Directory and Identity Cloud team, lead daily scrum meetings, organized Jira sprints\n● First responder to production outages, patching issues that affect thousands of enterprise grade customers\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis\n● Added support for horizontal scaling in Messaging Service, handling 150% traffic increase year over year\n● Optimized Messaging Service use of Redis, resulting in 45% less CPU consumption on average\n● Migrated Messaging Service to a global database, preventing regional outages from impacting SLAs\n● Developed Audit Log enabling customers to track Administrator actions for security and compliance requirements\n\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Miami/Fort Lauderdale Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "Citrix",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2641/",
+    "companyId": "2641",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "● Feature lead for Atlassian's Cloud Security team.\n● Manage technical features by designing technical implementation, breaking down feature into tasks, and estimating developer effort required.\n● Responsible for the admin experience to create and enforce authentication policies for our cloud products. \n● Responsible for user provisioning and user lifecycle management\n● Develop solutions in Java, Spring Boot, and Angular on AWS",
+    "company": {
+     "url": "https://www.linkedin.com/company/22688/",
+     "name": "Atlassian",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Atlassian",
+    "location": "Mountain View, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/22688/",
+    "companyId": "22688",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Emerging Technologist Intern",
+    "locationName": "Greater Tampa Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "● Migrated Hadoop batch processes from on-prem to the cloud using AWS\n● Upgraded Spark 1.6 workflows to Spark 2.0, making them complete 200% faster\nTechnologies: S3, Hadoop Stack (Spark, Hue, Oozie, Impala, Hive, Zookeeper)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1714/",
+     "name": "Nielsen",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w"
+     }
+    },
+    "position": "Emerging Technologist Intern",
+    "companyName": "Nielsen",
+    "location": "Greater Tampa Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1714/",
+    "companyId": "1714",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "IT Specialist",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "● Resolved ServiceNow support tickets as service desk agent managing software and hardware incidents\n● Provided base level IT support to non-technical personnel within the athletics department\nTechnologies: ServiceNow, DeepFreeze",
+    "company": {
+     "url": "https://www.linkedin.com/company/157340/",
+     "name": "University of Miami",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0"
+     }
+    },
+    "position": "IT Specialist",
+    "companyName": "University of Miami",
+    "location": "Miami-Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157340/",
+    "companyId": "157340",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Development Intern",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "● Resolved UI bugs in the SmarterCommerse ecommerce platform\nTechnologies: .NET Framework, Razor Templates",
+    "company": {
+     "url": "https://www.linkedin.com/company/381338/",
+     "name": "SmarterCommerce by Premier Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM"
+     }
+    },
+    "position": "Software Development Intern",
+    "companyName": "SmarterCommerce by Premier Group",
+    "location": "Miami-Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/381338/",
+    "companyId": "381338",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2382910",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyName": "Amazon Web Services (AWS)",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "2641",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2641/",
+    "companyName": "Citrix",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "New York, New York, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 4 mos",
+    "description": "● Collaborate with enterprise customers to understand their unique business requirements. Design and implement prototypes on AWS platform to meet the customer’s needs\n● Developed automated failover solution for low latency workloads running at the in AWS Outposts. The solution ingests metrics from the customer about the state of their physical data center where the Outpost is deployed. Based on those metrics, the solution reacts to failure scenarios and redirects traffic to the closest LocalZone within seconds. This provides high reliability and minimizes latency during when the customer’s Outpost goes down.\n● Create pipeline that ingests customer service conversations, performs speech to text on them, and has the text summarized by a Large Language Model running on AWS SageMaker Jumpstart. This saves the customer service workers time because they no longer have to type up a summary to provide to management. Also, management no longer has to deal with low quality or missing summaries, and is able to gain actionable insight into their customer service operation.\n● Developed a OLTP and data visualization solution. Previously, the company had to respond to customer requests for data reports. This involved manually creating custom MariaDb queries that took hours to run as the indexes were not optimized for those queries. The turnaround on a custom report request was at least a week. To solve this, I set up data replication to AWS RedShift, and exposed the database via a QuickSight dashboard. Using AWS Cognito, each customer can log in to their own Quicksight dashboard, and run any query they want against their data. The queries are fast because RedShift is optimized for ad-hoc queries. No one at the company has to generate manual reports anymore, and the customer has an improved experience.\n\nTechnologies: Route 53, API Gateway, Lambda, Cloudwatch, SNS, SQS, Outposts, Redshift, DMS, RDS, QuickSight, SageMaker, Bedrock, Terraform, S3, OpenSearch, Python, Typescript, Java",
+    "insights": "Skills: API Gateways · Amazon CloudWatch · Amazon Simple Notification Service (SNS) · Amazon S3 · Terraform · Elasticsearch · KMS · Linux · Amazon Redshift · Git · Bedrock · Amazon Relational Database Service (RDS) · Amazon EC2 · Amazon SQS · Python (Programming Language) · Amazon Route 53 · Amazon Cognito · Amazon QuickSight · Web Application Firewalls · AWS SageMaker · Data Migration · AWS Lambda · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/2382910/",
+     "name": "Amazon Web Services (AWS)",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon Web Services (AWS)",
+    "location": "New York, New York, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2382910/",
+    "companyId": "2382910",
+    "duration": "4 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_400_400/B4EZgOay6gHEAg-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=j4zNltgMsJEe07-adayAnKnGb1rmiwNQCbZ6YAegSRc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_200_200/B4EZgOay6gHEAQ-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=kEbWSTlspOy7LprgkkNNPEjF4Re8gOP9moh9T6NgI-Y",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFqdm1TZ-RZKQ/company-logo_100_100/B4EZgOay6gHEAY-/0/1752588562343/amazon_web_services_logo?e=1794441600&v=beta&t=CZA07wxHCSB-pWI8WPEfwMUC6oxUCo257pZjaWlbqbs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Mountain View, California, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2022
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "● Feature lead for Atlassian's Cloud Security team.\n● Manage technical features by designing technical implementation, breaking down feature into tasks, and estimating developer effort required.\n● Responsible for the admin experience to create and enforce authentication policies for our cloud products. \n● Responsible for user provisioning and user lifecycle management\n● Develop solutions in Java, Spring Boot, and Angular on AWS",
+    "company": {
+     "url": "https://www.linkedin.com/company/22688/",
+     "name": "Atlassian",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Atlassian",
+    "location": "Mountain View, California, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/22688/",
+    "companyId": "22688",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_400_400/company-logo_400_400/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=JVB7aRKWDekAqNF9KfI0nb3xwQJ1rKRYjBy3KRXO26I",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_200_200/company-logo_200_200/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=J4uvDkFF6OeZgd2M6a6pU1-2_ph41BK1DhUKqbydApM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGeyLL6crkJKg/company-logo_100_100/company-logo_100_100/0/1735593604612/atlassian_logo?e=1794441600&v=beta&t=xc_JA7W8tCudX6Lco6ZwXTbxl8OYtQbCqRV7_oQAso8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Citrix",
+     "url": "https://www.linkedin.com/company/2641/",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk"
+     }
+    },
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 9 mos",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "locationName": "Fort Lauderdale, Florida, United States",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2020
+       },
+       "endDate": {
+        "month": 1,
+        "year": 2022
+       }
+      },
+      "totalDuration": "1 yr 5 mos",
+      "description": "● Lead Active Directory and Identity Cloud team, lead daily scrum meetings, organized Jira sprints\n● First responder to production outages, patching issues that affect thousands of enterprise grade customers\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis\n● Added support for horizontal scaling in Messaging Service, handling 150% traffic increase year over year\n● Optimized Messaging Service use of Redis, resulting in 45% less CPU consumption on average\n● Migrated Messaging Service to a global database, preventing regional outages from impacting SLAs\n● Developed Audit Log enabling customers to track Administrator actions for security and compliance requirements\n\nTechnologies: .NET Framework/Core, Azure Service Fabric, Jenkins, Redis",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer II",
+      "locationName": "Miami/Fort Lauderdale Area",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2018
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2020
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "Citrix",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2641/",
+    "companyId": "2641",
+    "duration": "3 yrs 9 mos",
+    "skills": [],
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_400_400/B56ZpKDIhsJwAY-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=fhRocZU2HuegYxuOdd_UUjOEdM1ZB1uDwOHiM0jeWtQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_200_200/B56ZpKDIhsJwAI-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=0Vdyz94BJ-TO6z2-TqZ2yOVa7wZq1Lz6VfNBkTxiOJk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEeYfDqPk6mDg/company-logo_100_100/B56ZpKDIhsJwAQ-/0/1762178927032/citrix_logo?e=1794441600&v=beta&t=jM0beGHuHiZUJkAwNUsunsnnzgYhIgEzFV49a-KUl7s",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Emerging Technologist Intern",
+    "locationName": "Greater Tampa Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "● Migrated Hadoop batch processes from on-prem to the cloud using AWS\n● Upgraded Spark 1.6 workflows to Spark 2.0, making them complete 200% faster\nTechnologies: S3, Hadoop Stack (Spark, Hue, Oozie, Impala, Hive, Zookeeper)",
+    "company": {
+     "url": "https://www.linkedin.com/company/1714/",
+     "name": "Nielsen",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w"
+     }
+    },
+    "position": "Emerging Technologist Intern",
+    "companyName": "Nielsen",
+    "location": "Greater Tampa Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1714/",
+    "companyId": "1714",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_400_400/B4DZ.y4Wc7HEAU-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=t4X3Zm3iob8vKcdvV7YWY27Cp34GkCcwlvFWYKN-2oY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_200_200/B4DZ.y4Wc7HEAE-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=xOIgaja3XoVsfEb9NW4U4p7pl-kPP0kz6CtdDASYUDw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQFbYQfCN1Vyow/company-logo_100_100/B4DZ.y4Wc7HEAI-/0/1785412544530/nielsen_logo?e=1794441600&v=beta&t=AlGmoRBd-8qtlsU8wHVZPAAVEfKBM04BRWeZeoBzv5w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "IT Specialist",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "● Resolved ServiceNow support tickets as service desk agent managing software and hardware incidents\n● Provided base level IT support to non-technical personnel within the athletics department\nTechnologies: ServiceNow, DeepFreeze",
+    "company": {
+     "url": "https://www.linkedin.com/company/157340/",
+     "name": "University of Miami",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0"
+     }
+    },
+    "position": "IT Specialist",
+    "companyName": "University of Miami",
+    "location": "Miami-Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/157340/",
+    "companyId": "157340",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Development Intern",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2015
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "● Resolved UI bugs in the SmarterCommerse ecommerce platform\nTechnologies: .NET Framework, Razor Templates",
+    "company": {
+     "url": "https://www.linkedin.com/company/381338/",
+     "name": "SmarterCommerce by Premier Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM"
+     }
+    },
+    "position": "Software Development Intern",
+    "companyName": "SmarterCommerce by Premier Group",
+    "location": "Miami-Fort Lauderdale Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/381338/",
+    "companyId": "381338",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_400_400/company-logo_400_400/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=VxV1PmJs-zvkzTN8BZVTotTo2-1t-mGMoRmRLy7HvvM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_200_200/company-logo_200_200/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=5H1Iy1I1ogGypWy2dVAg3LSI3ddkJ8NkDdThQvlAE64",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFyWvVHsMYUew/company-logo_100_100/company-logo_100_100/0/1670870619266/smartercommerce_logo?e=1794441600&v=beta&t=LpX_czGSWJWhRI4dYtjzfHx79ZyTssadL1oVIAJEiCg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157340/",
+    "schoolName": "University of Miami",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157340/",
+    "schoolId": "157340",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_400_400/B4EZt_yyBJIMAY-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=wXypkf_LB6zj5colM2bxPUWDoGg7jfdqAeEukbCWL8c",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_200_200/B4EZt_yyBJIMAI-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=4HO5qeONpl1sHT25D_FqBxjJHF0q9LVqiIjx0eFWpEk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFEHC6ioNNgiA/company-logo_100_100/B4EZt_yyBJIMAQ-/0/1767375577422/universityofmiami_logo?e=1794441600&v=beta&t=dmzjMmovZfT_eahqVDRJX92g17zK_CdaZFPV74o1IL0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157340/",
+    "schoolName": "University of Miami",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157340/",
+    "schoolId": "157340",
+    "degree": "Bachelor of Science - BS",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696281391651?e=1794441600&v=beta&t=O87MHELoWzfFB4L1fxUdcrgqh9mzUCRfr8M1JMquSjI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696281391651?e=1794441600&v=beta&t=CVb82ilxaSxaIb3Cr4eKXadyz59BkIozOnIrcTdNs0k",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696281391651?e=1794441600&v=beta&t=LYN-QUwc0q-s5HSo1z7O1fdnaEp9JtDpighyxO1tyik",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696281391651?e=1794441600&v=beta&t=LYN-QUwc0q-s5HSo1z7O1fdnaEp9JtDpighyxO1tyik",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696281391651?e=1794441600&v=beta&t=CVb82ilxaSxaIb3Cr4eKXadyz59BkIozOnIrcTdNs0k",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696281391651?e=1794441600&v=beta&t=O87MHELoWzfFB4L1fxUdcrgqh9mzUCRfr8M1JMquSjI",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696281391651?e=1794441600&v=beta&t=O87MHELoWzfFB4L1fxUdcrgqh9mzUCRfr8M1JMquSjI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696281391651?e=1794441600&v=beta&t=CVb82ilxaSxaIb3Cr4eKXadyz59BkIozOnIrcTdNs0k",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696281391651?e=1794441600&v=beta&t=LYN-QUwc0q-s5HSo1z7O1fdnaEp9JtDpighyxO1tyik",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1696281391651?e=1794441600&v=beta&t=a6r-thaSscU6Ah9GVYOuKrXQHsRQ__9QpaDtrKndQos",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1696281391651?e=1794441600&v=beta&t=LYN-QUwc0q-s5HSo1z7O1fdnaEp9JtDpighyxO1tyik",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1696281391651?e=1794441600&v=beta&t=CVb82ilxaSxaIb3Cr4eKXadyz59BkIozOnIrcTdNs0k",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHCjedq_e8cJg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1696281391651?e=1794441600&v=beta&t=O87MHELoWzfFB4L1fxUdcrgqh9mzUCRfr8M1JMquSjI",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517856548665?e=1794441600&v=beta&t=xussLxpxutqTDBMFPPWnjPOa6LbF0xVnQRr_xKSfTh0",
+   "1365x341": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517856548652?e=1794441600&v=beta&t=xIxkCqQPfn5SQdKQwFSw9PAO0-1wPFh-AigmiACe2dw",
+   "url": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517856548652?e=1794441600&v=beta&t=xIxkCqQPfn5SQdKQwFSw9PAO0-1wPFh-AigmiACe2dw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1517856548652?e=1794441600&v=beta&t=xIxkCqQPfn5SQdKQwFSw9PAO0-1wPFh-AigmiACe2dw",
+     "width": 1365,
+     "height": 341
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQEfvrn8uL34yw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1517856548665?e=1794441600&v=beta&t=xussLxpxutqTDBMFPPWnjPOa6LbF0xVnQRr_xKSfTh0",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/michael-rodriguez64"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T05:56:28.822Z",
+ "foundBy": null
+}

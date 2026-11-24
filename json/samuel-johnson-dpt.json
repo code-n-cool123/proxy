@@ -1,0 +1,1647 @@
+{
+ "slug": "samuel-johnson-dpt",
+ "inputUrl": "https://www.linkedin.com/in/samuel-johnson-dpt",
+ "fetchedAt": "2026-10-21T19:35:11.161Z",
+ "id": "6ad913efd820dfb707d0a46c",
+ "url": "https://www.linkedin.com/in/samuel-johnson-dpt",
+ "profile": {
+  "created": 1309025164266,
+  "trackingId": "vx8LwYwUTqKRacEg+HZyXw==",
+  "firstName": "Samuel",
+  "lastName": "Johnson",
+  "pronoun": null,
+  "versionTag": "2063503788",
+  "headline": "Software Engineer @ CDISC",
+  "publicIdentifier": "samuel-johnson-dpt",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "126381484",
+  "profileId": "ACoAAAeIbawBs0OR2GLouqE1PV-w2aiNhKNZx34",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1697211475081?e=1794441600&v=beta&t=AYRDMV6EUJzquZb5-dNmDbkYjbyPHQaXfNkc8su6pzw",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697211475081?e=1794441600&v=beta&t=kQ5rajRS_xVcb2WxsuR2vSJsM5U-J3hcKVNTMKKxoa8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697211475081?e=1794441600&v=beta&t=lOPQy1rpMOj4HSpqPC9hsYOHHwWYrpw2aVxCgyZTGmU",
+   "514x514": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646314032535?e=1794441600&v=beta&t=XKA83tnekEJvqPziRqtrGpHTqYtpg7KZuPKxgfwfSqo",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646314032535?e=1794441600&v=beta&t=hMlk83Qbgmigw52AS1YERm8G_debuGIqbaMAnBlG1yI"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104606301",
+  "geoLocationName": "Saco, Maine, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "I'm a detail-oriented and enthusiastic software engineer, specializing in crafting efficient full stack applications using TypeScript/JavaScript, Python, SQL, React, Redis, Docker, Express, Flask, Pandas, and Microsoft Azure.   I am passionate about building and problem solving, especially in the open-source community.  Currently, I am working with a team of engineers at CDISC, where we are developing the CDISC rules engine for automated processing and reporting on clinical and non-clinical datasets for regulatory approval.\n\nI love cycling, climbing, canoeing, and hiking.  When I am not outside, I enjoy challenging myself with new problems, be it new technologies or working on my personal projects.\n\nGithub: https://github.com/SFJohnson24",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "● CDISC rule engine SME, repeatedly taking stakeholder requests and specifications from PBI to implemented features or enhancements in the business rules of open-source Python CLI app with an additional Azure-hosted typescript app utilizing Azure Functions for business logic.\n● Owned Pandas/Dask compatibility and core data-processing reliability for the validation engine, resolving breaking changes and dataset-handling bugs to keep the engine compatible with upstream library upgrades\n● Developed and shipped CDISC CORE's multi-channel release pipeline — Docker/Docker Hub, PyPI, and standalone PyInstaller executables across multiple platforms\n● Built and maintained CDISC’s Rule Editor build, preview, and deployment pipelines using GitHub Actions, Azure Functions, and Azure Static Web Apps\n● Created an automated regression testing suite using GitHub Actions and bash scripts with a scheduled cron job that used normalized difing to distinguish real output regressions from harmless ordering differences, creating a snapshot-comparison system for continuous validation of CORE app functionality\n● Built internal tooling for the webapp YAML viewer — including a characteristic selector that crafts complex SQL queries against Cosmos DB via its SDK — and a separate tool for the data science team that scrapes YAML rules and exports key characteristics to Excel\n● Led migration of CDISC's business rules and test data from CosmosDB and SharePoint into the cdisc-open-rules repository, building normalization and difing tooling to validate data integrity throughout the transfer and establish the repo as the rules engine's canonical source\n● Supported the CDISC Library API (25M+ daily calls, 99.95% uptime) and rebuilt its rules data layer, moving from CosmosDB to a Redis-cached GitHub pipeline\n● Helped drive a refactor of the validation engine's underlying data storage from pandas/Dask to PostgreSQL to improve\nperformance on large-scale clinical study datasets",
+    "insights": "Skills: Python (Programming Language) · Redis · React.js · JavaScript · TypeScript · Microsoft Azure · Pandas (Software) · pytest · NumPy · Azure Cosmos DB · Continuous Integration and Continuous Delivery (CI/CD) · Azure Container Instances · Azure Static Web App · Git Actions · Cosmos DB SDK",
+    "company": {
+     "url": "https://www.linkedin.com/company/62097/",
+     "name": "CDISC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "●     Developed an event-driven, serverless microservice architecture utilizing AWS CDK IaC, written with Node.js TypeScript and Python, effectively horizontally scaling Lambda functions to ingest and diff bank regulatory circulars, feeding detected changes into an internal alerting platform.\n●     Orchestrated ingestion pipeline via Step Functions, triggered by EventBridge, persisting circular metadata and policy diffs in DynamoDB and static source documents in S3.\n●     Used Playwright to automate retrieval of circulars from bank websites, MD5-hashing each document to detect changes before triggering downstream AWS SNS alerting.\n●     Implemented a comprehensive testing suite, utilizing both unittest and Pytest to effectively test Python Lambda functions, improving the overall DX and deployment confidence across our Banking Policy Ingestion Platform.",
+    "insights": "Skills: Amazon Web Services (AWS) · Python (Programming Language) · React.js · playwright · TypeScript · AWS Lambda · Amazon Dynamodb · AWS Step Functions · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/99311892/",
+     "name": "CircALERT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "An open-source web app devtool for Kafka Cluster visualization and monitoring.\n●     Containerized a Kafka broker with JMX exporter using Docker to provide consistent mock data for GUI development, then integrated Prometheus (PromQL) against those metrics to power live time-series visualizations rendered with Chart.js.\n●     Architected a RESTful API in Express.js for high-throughput Kafka metrics ingestion, paired with a React (Hooks, Router, Vite) single-page frontend and a Jest/Supertest/React Testing Library test suite; deployed via Git-based CI to Heroku.",
+    "insights": "Skills: vite · Git · Apache Kafka · React.js · Node.js · Heroku · Tailwind CSS · Express.js · PostgreSQL · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/100674905/",
+     "name": "ClusterSense (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs"
+     }
+    }
+   },
+   {
+    "title": "Physical Therapist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/14643/",
+     "name": "Dartmouth-Hitchcock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "●     Developed a responsive, React-based web client for a mobile app advertising platform, collaborating with the Ruby on Rails backend team to connect server controllers with client-side components for user IDFA identification and ad rewards.",
+    "insights": "Skills: React.js · HTML · Cascading Style Sheets (CSS) · JavaScript",
+    "company": {
+     "url": "",
+     "name": "Levelworks Inc",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Research Assistant / Lab Manager",
+    "locationName": "Boston Children's Hospital, Harvard Medical School",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2015
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Research Assistant/Lab Manager in the laboratory of Dr. Emanuela Gussoni, Department of Genetics studying muscular stem cell differentiation pathways and putative cell therapies for muscular dystrophy.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Boston Children's Hospital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    }
+   },
+   {
+    "title": "Research Technician",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "• Worked as a researcher for the Division of Medicine, Department of Nephrology at Boston Children's Hospital.\n• Performed novel hypothesis formation and investigation under the guidance of research PI and in coordination with several post-doctoral fellows.\n• Research techniques and responsiblities include animal husbandry and mouse colony maintenance, immunohistochemistry (IF, IP), tissue culture, DNA and RNA techniques (PCR, q-RTPCR, recombinant DNA techniques, shRNA knockdown, Nucleo/Lipofection), ISH, and Mouse behavioral tests (Morris water maze, TPP, open field, rotarod, novel object).\n• Lab managerial duties included grant management, inventory management, and laboratory orders.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Children's Hospital Boston",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "MGH Institute of Health Professions",
+    "degreeName": "Doctor of Physical Therapy (DPT)",
+    "fieldOfStudy": "Doctor of Physical Therapy (DPT)",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_200_200/company-logo_200_200/0/1631326600841?e=1794441600&v=beta&t=zHfy-KgFOLsXu6j38zH-xikhXN82kKiFcZdLsozOUoI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_100_100/company-logo_100_100/0/1631326600842?e=1794441600&v=beta&t=3r4dmJQML6nfoZCDxIV_c8bPhdNUbKmCV2hyYf9dMsQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_400_400/company-logo_400_400/0/1631326600842?e=1794441600&v=beta&t=czmJ_miSugfucLHoczUXu-qzE0LDNCs5fxCQfh_DiIQ"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157341/",
+    "schoolName": "Tufts University",
+    "degreeName": "BS",
+    "fieldOfStudy": "Biochemisty, Environmental Studies, Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "CDISC",
+  "companyPublicId": "cdisc",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/cdisc/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:62097",
+   "name": "CDISC",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEzGJSH9qSOFQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_"
+    }
+   },
+   "universalName": "cdisc",
+   "url": "https://www.linkedin.com/company/cdisc/",
+   "slug": "cdisc",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+   "specialties": []
+  },
+  "followerCount": 1120,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 1109,
+  "skills": [
+   {
+    "name": "Cosmos DB SDK",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure Container Instances",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure Static Web App",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git Actions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure Cosmos DB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "playwright",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Dynamodb",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "pytest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Supertest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NumPy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "playwright",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Dynamodb",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Query Writing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 20,
+    "experiences": 3
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Heroku",
+    "endorsements": 19,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Test-Driven Development",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Azure Cosmos DB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Step Functions",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "pytest",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 21,
+    "experiences": 2
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Redux.js",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 20,
+    "experiences": 4
+   },
+   {
+    "name": "SQL",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "JSON Web Token (JWT)",
+    "endorsements": 15,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 15,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/samuel-johnson-dpt",
+  "linkedinUrl": "https://www.linkedin.com/in/samuel-johnson-dpt",
+  "profileUrl": "https://www.linkedin.com/in/samuel-johnson-dpt",
+  "verified": false,
+  "registeredAt": "2011-06-25T18:06:04.266Z",
+  "location": {
+   "linkedinText": "Saco, Maine, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Saco, Maine, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a detail-oriented and enthusiastic software engineer, specializing in crafting efficient full stack applications using TypeScript/JavaScript, Python, SQL, React, Redis, Docker, Express, Flask, Pandas, and Microsoft Azure.   I am passionate about building and problem solving, especially in the open-source community.  Currently, I am working with a team of engineers at CDISC, where we are developing the CDISC rules engine for automated processing and reporting on clinical and non-clinical datasets for regulatory approval.\n\nI love cycling, climbing, canoeing, and hiking.  When I am not outside, I enjoy challenging myself with new problems, be it new technologies or working on my personal projects.\n\nGithub: https://github.com/SFJohnson24",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Physical Therapist",
+   "Software Engineer",
+   "Research Assistant / Lab Manager",
+   "Research Technician"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "● CDISC rule engine SME, repeatedly taking stakeholder requests and specifications from PBI to implemented features or enhancements in the business rules of open-source Python CLI app with an additional Azure-hosted typescript app utilizing Azure Functions for business logic.\n● Owned Pandas/Dask compatibility and core data-processing reliability for the validation engine, resolving breaking changes and dataset-handling bugs to keep the engine compatible with upstream library upgrades\n● Developed and shipped CDISC CORE's multi-channel release pipeline — Docker/Docker Hub, PyPI, and standalone PyInstaller executables across multiple platforms\n● Built and maintained CDISC’s Rule Editor build, preview, and deployment pipelines using GitHub Actions, Azure Functions, and Azure Static Web Apps\n● Created an automated regression testing suite using GitHub Actions and bash scripts with a scheduled cron job that used normalized difing to distinguish real output regressions from harmless ordering differences, creating a snapshot-comparison system for continuous validation of CORE app functionality\n● Built internal tooling for the webapp YAML viewer — including a characteristic selector that crafts complex SQL queries against Cosmos DB via its SDK — and a separate tool for the data science team that scrapes YAML rules and exports key characteristics to Excel\n● Led migration of CDISC's business rules and test data from CosmosDB and SharePoint into the cdisc-open-rules repository, building normalization and difing tooling to validate data integrity throughout the transfer and establish the repo as the rules engine's canonical source\n● Supported the CDISC Library API (25M+ daily calls, 99.95% uptime) and rebuilt its rules data layer, moving from CosmosDB to a Redis-cached GitHub pipeline\n● Helped drive a refactor of the validation engine's underlying data storage from pandas/Dask to PostgreSQL to improve\nperformance on large-scale clinical study datasets",
+    "insights": "Skills: Python (Programming Language) · Redis · React.js · JavaScript · TypeScript · Microsoft Azure · Pandas (Software) · pytest · NumPy · Azure Cosmos DB · Continuous Integration and Continuous Delivery (CI/CD) · Azure Container Instances · Azure Static Web App · Git Actions · Cosmos DB SDK",
+    "company": {
+     "url": "https://www.linkedin.com/company/62097/",
+     "name": "CDISC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "CDISC",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/62097/",
+    "companyId": "62097",
+    "duration": "2 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "●     Developed an event-driven, serverless microservice architecture utilizing AWS CDK IaC, written with Node.js TypeScript and Python, effectively horizontally scaling Lambda functions to ingest and diff bank regulatory circulars, feeding detected changes into an internal alerting platform.\n●     Orchestrated ingestion pipeline via Step Functions, triggered by EventBridge, persisting circular metadata and policy diffs in DynamoDB and static source documents in S3.\n●     Used Playwright to automate retrieval of circulars from bank websites, MD5-hashing each document to detect changes before triggering downstream AWS SNS alerting.\n●     Implemented a comprehensive testing suite, utilizing both unittest and Pytest to effectively test Python Lambda functions, improving the overall DX and deployment confidence across our Banking Policy Ingestion Platform.",
+    "insights": "Skills: Amazon Web Services (AWS) · Python (Programming Language) · React.js · playwright · TypeScript · AWS Lambda · Amazon Dynamodb · AWS Step Functions · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/99311892/",
+     "name": "CircALERT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "CircALERT",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/99311892/",
+    "companyId": "99311892",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "An open-source web app devtool for Kafka Cluster visualization and monitoring.\n●     Containerized a Kafka broker with JMX exporter using Docker to provide consistent mock data for GUI development, then integrated Prometheus (PromQL) against those metrics to power live time-series visualizations rendered with Chart.js.\n●     Architected a RESTful API in Express.js for high-throughput Kafka metrics ingestion, paired with a React (Hooks, Router, Vite) single-page frontend and a Jest/Supertest/React Testing Library test suite; deployed via Git-based CI to Heroku.",
+    "insights": "Skills: vite · Git · Apache Kafka · React.js · Node.js · Heroku · Tailwind CSS · Express.js · PostgreSQL · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/100674905/",
+     "name": "ClusterSense (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ClusterSense (Open Source)",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/100674905/",
+    "companyId": "100674905",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Physical Therapist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/14643/",
+     "name": "Dartmouth-Hitchcock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY"
+     }
+    },
+    "position": "Physical Therapist",
+    "companyName": "Dartmouth-Hitchcock",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14643/",
+    "companyId": "14643",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "●     Developed a responsive, React-based web client for a mobile app advertising platform, collaborating with the Ruby on Rails backend team to connect server controllers with client-side components for user IDFA identification and ad rewards.",
+    "insights": "Skills: React.js · HTML · Cascading Style Sheets (CSS) · JavaScript",
+    "company": {
+     "url": "",
+     "name": "Levelworks Inc",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Levelworks Inc",
+    "location": "Boston, MA",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant / Lab Manager",
+    "locationName": "Boston Children's Hospital, Harvard Medical School",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2015
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Research Assistant/Lab Manager in the laboratory of Dr. Emanuela Gussoni, Department of Genetics studying muscular stem cell differentiation pathways and putative cell therapies for muscular dystrophy.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Boston Children's Hospital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    },
+    "position": "Research Assistant / Lab Manager",
+    "companyName": "Boston Children's Hospital",
+    "location": "Boston Children's Hospital, Harvard Medical School",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1658/",
+    "companyId": "1658",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Technician",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "• Worked as a researcher for the Division of Medicine, Department of Nephrology at Boston Children's Hospital.\n• Performed novel hypothesis formation and investigation under the guidance of research PI and in coordination with several post-doctoral fellows.\n• Research techniques and responsiblities include animal husbandry and mouse colony maintenance, immunohistochemistry (IF, IP), tissue culture, DNA and RNA techniques (PCR, q-RTPCR, recombinant DNA techniques, shRNA knockdown, Nucleo/Lipofection), ISH, and Mouse behavioral tests (Morris water maze, TPP, open field, rotarod, novel object).\n• Lab managerial duties included grant management, inventory management, and laboratory orders.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Children's Hospital Boston",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    },
+    "position": "Research Technician",
+    "companyName": "Children's Hospital Boston",
+    "location": "Boston, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1658/",
+    "companyId": "1658",
+    "duration": "2 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "62097",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/62097/",
+    "companyName": "CDISC",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "● CDISC rule engine SME, repeatedly taking stakeholder requests and specifications from PBI to implemented features or enhancements in the business rules of open-source Python CLI app with an additional Azure-hosted typescript app utilizing Azure Functions for business logic.\n● Owned Pandas/Dask compatibility and core data-processing reliability for the validation engine, resolving breaking changes and dataset-handling bugs to keep the engine compatible with upstream library upgrades\n● Developed and shipped CDISC CORE's multi-channel release pipeline — Docker/Docker Hub, PyPI, and standalone PyInstaller executables across multiple platforms\n● Built and maintained CDISC’s Rule Editor build, preview, and deployment pipelines using GitHub Actions, Azure Functions, and Azure Static Web Apps\n● Created an automated regression testing suite using GitHub Actions and bash scripts with a scheduled cron job that used normalized difing to distinguish real output regressions from harmless ordering differences, creating a snapshot-comparison system for continuous validation of CORE app functionality\n● Built internal tooling for the webapp YAML viewer — including a characteristic selector that crafts complex SQL queries against Cosmos DB via its SDK — and a separate tool for the data science team that scrapes YAML rules and exports key characteristics to Excel\n● Led migration of CDISC's business rules and test data from CosmosDB and SharePoint into the cdisc-open-rules repository, building normalization and difing tooling to validate data integrity throughout the transfer and establish the repo as the rules engine's canonical source\n● Supported the CDISC Library API (25M+ daily calls, 99.95% uptime) and rebuilt its rules data layer, moving from CosmosDB to a Redis-cached GitHub pipeline\n● Helped drive a refactor of the validation engine's underlying data storage from pandas/Dask to PostgreSQL to improve\nperformance on large-scale clinical study datasets",
+    "insights": "Skills: Python (Programming Language) · Redis · React.js · JavaScript · TypeScript · Microsoft Azure · Pandas (Software) · pytest · NumPy · Azure Cosmos DB · Continuous Integration and Continuous Delivery (CI/CD) · Azure Container Instances · Azure Static Web App · Git Actions · Cosmos DB SDK",
+    "company": {
+     "url": "https://www.linkedin.com/company/62097/",
+     "name": "CDISC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "CDISC",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/62097/",
+    "companyId": "62097",
+    "duration": "2 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_400_400/company-logo_400_400/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=2mS-QuIAZ4A16GabpD77YZunUcKgAjz2-APnHe44G2Y",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_200_200/company-logo_200_200/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=uLqILqTcsmvyvFGtGoY3q4wekpvzYLBnSuDlVS9PRuM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEzGJSH9qSOFQ/company-logo_100_100/company-logo_100_100/0/1707777087387/cdisc_logo?e=1794441600&v=beta&t=7YYG79a1okH-g-Q4YM48sOVl1mCEyTNu80kPcnGfvgc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "●     Developed an event-driven, serverless microservice architecture utilizing AWS CDK IaC, written with Node.js TypeScript and Python, effectively horizontally scaling Lambda functions to ingest and diff bank regulatory circulars, feeding detected changes into an internal alerting platform.\n●     Orchestrated ingestion pipeline via Step Functions, triggered by EventBridge, persisting circular metadata and policy diffs in DynamoDB and static source documents in S3.\n●     Used Playwright to automate retrieval of circulars from bank websites, MD5-hashing each document to detect changes before triggering downstream AWS SNS alerting.\n●     Implemented a comprehensive testing suite, utilizing both unittest and Pytest to effectively test Python Lambda functions, improving the overall DX and deployment confidence across our Banking Policy Ingestion Platform.",
+    "insights": "Skills: Amazon Web Services (AWS) · Python (Programming Language) · React.js · playwright · TypeScript · AWS Lambda · Amazon Dynamodb · AWS Step Functions · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/99311892/",
+     "name": "CircALERT",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "CircALERT",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/99311892/",
+    "companyId": "99311892",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_400_400/company-logo_400_400/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=Oqv5i4XaN8p8_gEEKF05orpvA5IrwEcpCsgg801Ta4w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_200_200/company-logo_200_200/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=SDqlQIrkiJ4qA87CuKqGVKThwcb3mfmrpjFVAiPNdUI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGCd9DRrMHAqw/company-logo_100_100/company-logo_100_100/0/1728571439159/circalert_logo?e=1794441600&v=beta&t=mowRCcMtNT7p-cJ8VqlGqZT6k_Qgfjy2A0DjovCmR5U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "An open-source web app devtool for Kafka Cluster visualization and monitoring.\n●     Containerized a Kafka broker with JMX exporter using Docker to provide consistent mock data for GUI development, then integrated Prometheus (PromQL) against those metrics to power live time-series visualizations rendered with Chart.js.\n●     Architected a RESTful API in Express.js for high-throughput Kafka metrics ingestion, paired with a React (Hooks, Router, Vite) single-page frontend and a Jest/Supertest/React Testing Library test suite; deployed via Git-based CI to Heroku.",
+    "insights": "Skills: vite · Git · Apache Kafka · React.js · Node.js · Heroku · Tailwind CSS · Express.js · PostgreSQL · TypeScript",
+    "company": {
+     "url": "https://www.linkedin.com/company/100674905/",
+     "name": "ClusterSense (Open Source)",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ClusterSense (Open Source)",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/100674905/",
+    "companyId": "100674905",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_400_400/company-logo_400_400/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=X4EhPYVMHXkmz9gA_VEu_gdTTp_X6MbH8tfGPastGVs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_200_200/company-logo_200_200/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=u1hlPIZQcREnP3MkAjUYIcp_MeDBwRkG1WMVpbWsTxg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-EZ-QrTA0Hg/company-logo_100_100/company-logo_100_100/0/1700071359144/clustersense_logo?e=1794441600&v=beta&t=A_hf0IGcbzn9M4Y7TjarciTDlpRGfxOys1ABuiIMxrM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Physical Therapist",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "4 yrs 7 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/14643/",
+     "name": "Dartmouth-Hitchcock",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY"
+     }
+    },
+    "position": "Physical Therapist",
+    "companyName": "Dartmouth-Hitchcock",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/14643/",
+    "companyId": "14643",
+    "duration": "4 yrs 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_400_400/company-logo_400_400/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=A1qSRnf8cLnx05QVWUNpeGlydxUXDZoaTWG_ML_-2lY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_200_200/company-logo_200_200/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=_0JBc3H4SlWCVD0UYD9_kmWfJzYlxCB8zYrDbvcw1GA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHuILf9SMZbHw/company-logo_100_100/company-logo_100_100/0/1649784305292/dartmouth_hitchcock_logo?e=1794441600&v=beta&t=eqSOfBOYLALcsGQvmVfC0yzljNzDPNOL5hmOKlkkQ24",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "description": "●     Developed a responsive, React-based web client for a mobile app advertising platform, collaborating with the Ruby on Rails backend team to connect server controllers with client-side components for user IDFA identification and ad rewards.",
+    "insights": "Skills: React.js · HTML · Cascading Style Sheets (CSS) · JavaScript",
+    "company": {
+     "url": "",
+     "name": "Levelworks Inc",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Levelworks Inc",
+    "location": "Boston, MA",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant / Lab Manager",
+    "locationName": "Boston Children's Hospital, Harvard Medical School",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2015
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Research Assistant/Lab Manager in the laboratory of Dr. Emanuela Gussoni, Department of Genetics studying muscular stem cell differentiation pathways and putative cell therapies for muscular dystrophy.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Boston Children's Hospital",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    },
+    "position": "Research Assistant / Lab Manager",
+    "companyName": "Boston Children's Hospital",
+    "location": "Boston Children's Hospital, Harvard Medical School",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1658/",
+    "companyId": "1658",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Technician",
+    "locationName": "Boston, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2014
+     }
+    },
+    "totalDuration": "2 yrs 8 mos",
+    "description": "• Worked as a researcher for the Division of Medicine, Department of Nephrology at Boston Children's Hospital.\n• Performed novel hypothesis formation and investigation under the guidance of research PI and in coordination with several post-doctoral fellows.\n• Research techniques and responsiblities include animal husbandry and mouse colony maintenance, immunohistochemistry (IF, IP), tissue culture, DNA and RNA techniques (PCR, q-RTPCR, recombinant DNA techniques, shRNA knockdown, Nucleo/Lipofection), ISH, and Mouse behavioral tests (Morris water maze, TPP, open field, rotarod, novel object).\n• Lab managerial duties included grant management, inventory management, and laboratory orders.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1658/",
+     "name": "Children's Hospital Boston",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U"
+     }
+    },
+    "position": "Research Technician",
+    "companyName": "Children's Hospital Boston",
+    "location": "Boston, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1658/",
+    "companyId": "1658",
+    "duration": "2 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_400_400/company-logo_400_400/0/1630622426983/bostonchildrenshospital_logo?e=1794441600&v=beta&t=2jRZXRPA4gvSjUysDb4Fc6a1G6AdMvqMxBSfTcyVg6U",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_200_200/company-logo_200_200/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=pKnemeyqHjYfcBB1IVO3lutXwwVfICYPEatDMnPQB3Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGnClokMXcm5w/company-logo_100_100/company-logo_100_100/0/1630622426982/bostonchildrenshospital_logo?e=1794441600&v=beta&t=zA5U4DSthRXFOaqhEMlHMTKyAJOxXQ0yYs0ByaU8ALc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "MGH Institute of Health Professions",
+    "degreeName": "Doctor of Physical Therapy (DPT)",
+    "fieldOfStudy": "Doctor of Physical Therapy (DPT)",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "degree": "Doctor of Physical Therapy (DPT)",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_200_200/company-logo_200_200/0/1631326600841?e=1794441600&v=beta&t=zHfy-KgFOLsXu6j38zH-xikhXN82kKiFcZdLsozOUoI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_100_100/company-logo_100_100/0/1631326600842?e=1794441600&v=beta&t=3r4dmJQML6nfoZCDxIV_c8bPhdNUbKmCV2hyYf9dMsQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_400_400/company-logo_400_400/0/1631326600842?e=1794441600&v=beta&t=czmJ_miSugfucLHoczUXu-qzE0LDNCs5fxCQfh_DiIQ",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_400_400/company-logo_400_400/0/1631326600842?e=1794441600&v=beta&t=czmJ_miSugfucLHoczUXu-qzE0LDNCs5fxCQfh_DiIQ",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_400_400/company-logo_400_400/0/1631326600842?e=1794441600&v=beta&t=czmJ_miSugfucLHoczUXu-qzE0LDNCs5fxCQfh_DiIQ",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_200_200/company-logo_200_200/0/1631326600841?e=1794441600&v=beta&t=zHfy-KgFOLsXu6j38zH-xikhXN82kKiFcZdLsozOUoI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQH_656Vr-3pxA/company-logo_100_100/company-logo_100_100/0/1631326600842?e=1794441600&v=beta&t=3r4dmJQML6nfoZCDxIV_c8bPhdNUbKmCV2hyYf9dMsQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/157341/",
+    "schoolName": "Tufts University",
+    "degreeName": "BS",
+    "fieldOfStudy": "Biochemisty, Environmental Studies, Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/157341/",
+    "schoolId": "157341",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "MGH Institute of Health Professions",
+    "degreeName": "Doctor of Physical Therapy (DPT)",
+    "fieldOfStudy": "Doctor of Physical Therapy (DPT)",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "degree": "Doctor of Physical Therapy (DPT)",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1697211475081?e=1794441600&v=beta&t=AYRDMV6EUJzquZb5-dNmDbkYjbyPHQaXfNkc8su6pzw",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697211475081?e=1794441600&v=beta&t=kQ5rajRS_xVcb2WxsuR2vSJsM5U-J3hcKVNTMKKxoa8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697211475081?e=1794441600&v=beta&t=lOPQy1rpMOj4HSpqPC9hsYOHHwWYrpw2aVxCgyZTGmU",
+   "514x514": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+     "width": 514,
+     "height": 514
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697211475081?e=1794441600&v=beta&t=lOPQy1rpMOj4HSpqPC9hsYOHHwWYrpw2aVxCgyZTGmU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697211475081?e=1794441600&v=beta&t=kQ5rajRS_xVcb2WxsuR2vSJsM5U-J3hcKVNTMKKxoa8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1697211475081?e=1794441600&v=beta&t=AYRDMV6EUJzquZb5-dNmDbkYjbyPHQaXfNkc8su6pzw",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1697211475081?e=1794441600&v=beta&t=AYRDMV6EUJzquZb5-dNmDbkYjbyPHQaXfNkc8su6pzw",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697211475081?e=1794441600&v=beta&t=kQ5rajRS_xVcb2WxsuR2vSJsM5U-J3hcKVNTMKKxoa8",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697211475081?e=1794441600&v=beta&t=lOPQy1rpMOj4HSpqPC9hsYOHHwWYrpw2aVxCgyZTGmU",
+   "514x514": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1697211475081?e=1794441600&v=beta&t=3prFIYTBp0KzEWz6HKPVmpGylUMw_Kq58ufwPHQPqQM",
+     "width": 514,
+     "height": 514
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1697211475081?e=1794441600&v=beta&t=lOPQy1rpMOj4HSpqPC9hsYOHHwWYrpw2aVxCgyZTGmU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1697211475081?e=1794441600&v=beta&t=kQ5rajRS_xVcb2WxsuR2vSJsM5U-J3hcKVNTMKKxoa8",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQHjzQh6_9MWKA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1697211475081?e=1794441600&v=beta&t=AYRDMV6EUJzquZb5-dNmDbkYjbyPHQaXfNkc8su6pzw",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646314032535?e=1794441600&v=beta&t=XKA83tnekEJvqPziRqtrGpHTqYtpg7KZuPKxgfwfSqo",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646314032535?e=1794441600&v=beta&t=hMlk83Qbgmigw52AS1YERm8G_debuGIqbaMAnBlG1yI",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646314032535?e=1794441600&v=beta&t=hMlk83Qbgmigw52AS1YERm8G_debuGIqbaMAnBlG1yI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1646314032535?e=1794441600&v=beta&t=hMlk83Qbgmigw52AS1YERm8G_debuGIqbaMAnBlG1yI",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQFM8kT-KQdqTA/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1646314032535?e=1794441600&v=beta&t=XKA83tnekEJvqPziRqtrGpHTqYtpg7KZuPKxgfwfSqo",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/samuel-johnson-dpt"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-21T19:34:56.750Z",
+ "foundBy": null
+}

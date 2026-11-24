@@ -1,0 +1,1699 @@
+{
+ "slug": "stewart-dustin",
+ "inputUrl": "https://www.linkedin.com/in/stewart-dustin",
+ "fetchedAt": "2026-11-10T14:51:17.516Z",
+ "id": "6af32f65af440f0df0ab8fe0",
+ "url": "https://www.linkedin.com/in/stewart-dustin",
+ "profile": {
+  "created": 1396658811934,
+  "trackingId": "TrjXAKojQp6hokYbvTaC4g==",
+  "firstName": "Dustin",
+  "lastName": "Stewart",
+  "pronoun": null,
+  "versionTag": "3547748611",
+  "headline": "Fullstack Software Engineer, Builder, Tinkerer | Ex Galaxy, Fifty-five, Warner Music",
+  "publicIdentifier": "stewart-dustin",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "335977442",
+  "profileId": "ACoAABQGm-IBr2SWqEpU3y1P6ih14AtAKWaG7eM",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Senior engineering leader with 8+ years building data platforms, full-stack apps, and AI infrastructure—owning technical strategy, architecture, and the teams behind them.\n\n\n\nAWS Cloud Architect | GCP Data Engineer\n\n\n\nPython · SQL · AI-native development · Java · Spark · Kafka · Claude Code · Airflow · dbt · Snowflake · Databricks · React · FastAPI · Node · AWS · GCP · Azure · Kubernetes · Docker · Terraform",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "U4EA: Binaural Sound Therapy",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Los Angeles, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2026
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Designed a consent-driven permission model with granular, tiered data visibility, balancing transparency with privacy across multi-user household relationships\n\n- Built a serverless event-driven backend on AWS (FastAPI on ECS Fargate, Lambda workers, DynamoDB single-table design, Cognito, EventBridge) with KMS envelope encryption, JWT auth, role-based access control, comprehensive audit logging, and full Terraform-managed infrastructure\n\n- Architected an AI gateway as the single policy choke point for every Bedrock call (Sonnet 4.5 and Opus 4.5): tier-based action authorization, per-user rate limiting, NFKC-normalized input sanitization with prompt-injection blocking, and exactly-once audit per interaction\n\n- Built an in-house observability dashboard backed by pre-aggregated DynamoDB rollups, with a live activity feed and rule-based alerts that deep-link into filtered investigation views for security incident response\n\n- Engineered a multi-signal threat detection pipeline for inbound email, integrating third-party security APIs, protocol verification, and pattern analysis",
+    "company": {
+     "url": "",
+     "name": "lightward",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Senior Fullstack Engineer",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/68928/",
+     "name": "LA Galaxy",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "fifty-five",
+     "url": "https://www.linkedin.com/company/804624/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU"
+     }
+    },
+    "locationName": "New York City Metropolitan Area",
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Lead Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Senior Machine Learning Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Software Engineer, Machine Learning & Analytics",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 yrs 3 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "DTS Consulting",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Intern",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4781/",
+     "name": "Warner Music Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog"
+     }
+    }
+   },
+   {
+    "title": "Barista",
+    "locationName": "Manhattan Beach, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/13082/",
+     "name": "Peet's Coffee",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI"
+     }
+    }
+   },
+   {
+    "title": "Financial Advising Intern",
+    "locationName": "Irvine, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "Select Planning Group Inc.",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_200_200/company-logo_200_200/0/1631312619853?e=1795651200&v=beta&t=LcxUyHnOCcqjTDGjGY5_-m-MmAAa04LH3My6MmvDeOY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_100_100/company-logo_100_100/0/1631312619853?e=1795651200&v=beta&t=whkPu5eXvQGUY6THTXVCslYjpOsYEWMMtQeAzSitSXU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3084/",
+    "schoolName": "University of Southern California",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Bachelor of Science - BS",
+    "timePeriod": {}
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_200_200/company-logo_200_200/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=wujylBETl_C3Hh1qTvRrGzxlpeN1GGg6DknHMkDzka8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_100_100/company-logo_100_100/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=fu9ZsmsMu03_rCKvheXdLBvtsSAn2nQm-TLWMMlIlLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_400_400/company-logo_400_400/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=NzAemR2YvVK-4fb0C6nzsRveSAW0rSQleoXvwSYYKco"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/29816/",
+    "schoolName": "The American University of Paris",
+    "degreeName": "",
+    "fieldOfStudy": "",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Professional Data Engineer",
+    "authority": "Google Cloud",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Google Cloud",
+    "title": "Professional Data Engineer",
+    "issuedBy": "Google Cloud",
+    "issuedByLogo": null
+   },
+   {
+    "name": "AWS Certified Solutions Architect – Professional",
+    "authority": "Amazon Web Services (AWS)",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Amazon Web Services (AWS)",
+    "title": "AWS Certified Solutions Architect – Professional",
+    "issuedBy": "Amazon Web Services (AWS)",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "French",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 674,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 609,
+  "skills": [
+   {
+    "name": "Generative AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agentic AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Snowflake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databricks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CI/CD",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vertex AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Bedrock",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LangChain",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MLOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Snowflake",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CI/CD",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MLOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "dbt",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Airflow",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analytics",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Natural Language Processing (NLP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Visualization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scikit-Learn",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databricks",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pandas (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TensorFlow",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PySpark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Generative AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vertex AI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Bedrock",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LangChain",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/stewart-dustin",
+  "linkedinUrl": "https://www.linkedin.com/in/stewart-dustin",
+  "profileUrl": "https://www.linkedin.com/in/stewart-dustin",
+  "verified": true,
+  "registeredAt": "2014-04-05T00:46:51.934Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "Senior engineering leader with 8+ years building data platforms, full-stack apps, and AI infrastructure—owning technical strategy, architecture, and the teams behind them.\n\n\n\nAWS Cloud Architect | GCP Data Engineer\n\n\n\nPython · SQL · AI-native development · Java · Spark · Kafka · Claude Code · Airflow · dbt · Snowflake · Databricks · React · FastAPI · Node · AWS · GCP · Azure · Kubernetes · Docker · Terraform",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Senior Fullstack Engineer",
+   "Software Engineer, Machine Learning & Analytics",
+   "Intern",
+   "Barista",
+   "Financial Advising Intern"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "company": {
+     "url": "",
+     "name": "U4EA: Binaural Sound Therapy",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "U4EA: Binaural Sound Therapy",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "fifty-five",
+     "url": "https://www.linkedin.com/company/804624/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU"
+     }
+    },
+    "locationName": "New York City Metropolitan Area",
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Lead Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Senior Machine Learning Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "fifty-five",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/804624/",
+    "companyId": "804624",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Los Angeles, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2026
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Designed a consent-driven permission model with granular, tiered data visibility, balancing transparency with privacy across multi-user household relationships\n\n- Built a serverless event-driven backend on AWS (FastAPI on ECS Fargate, Lambda workers, DynamoDB single-table design, Cognito, EventBridge) with KMS envelope encryption, JWT auth, role-based access control, comprehensive audit logging, and full Terraform-managed infrastructure\n\n- Architected an AI gateway as the single policy choke point for every Bedrock call (Sonnet 4.5 and Opus 4.5): tier-based action authorization, per-user rate limiting, NFKC-normalized input sanitization with prompt-injection blocking, and exactly-once audit per interaction\n\n- Built an in-house observability dashboard backed by pre-aggregated DynamoDB rollups, with a live activity feed and rule-based alerts that deep-link into filtered investigation views for security incident response\n\n- Engineered a multi-signal threat detection pipeline for inbound email, integrating third-party security APIs, protocol verification, and pattern analysis",
+    "company": {
+     "url": "",
+     "name": "lightward",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "lightward",
+    "location": "Los Angeles, CA · Hybrid",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Fullstack Engineer",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "1 yr",
+    "company": {
+     "url": "https://www.linkedin.com/company/68928/",
+     "name": "LA Galaxy",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0"
+     }
+    },
+    "position": "Senior Fullstack Engineer",
+    "companyName": "LA Galaxy",
+    "location": "Los Angeles Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68928/",
+    "companyId": "68928",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer, Machine Learning & Analytics",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 yrs 3 mos",
+    "company": {
+     "url": "",
+     "name": "DTS Consulting",
+     "logo": {}
+    },
+    "position": "Software Engineer, Machine Learning & Analytics",
+    "companyName": "DTS Consulting",
+    "location": "New York City Metropolitan Area",
+    "duration": "6 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Intern",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/4781/",
+     "name": "Warner Music Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog"
+     }
+    },
+    "position": "Intern",
+    "companyName": "Warner Music Group",
+    "location": "Los Angeles Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4781/",
+    "companyId": "4781",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Barista",
+    "locationName": "Manhattan Beach, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/13082/",
+     "name": "Peet's Coffee",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI"
+     }
+    },
+    "position": "Barista",
+    "companyName": "Peet's Coffee",
+    "location": "Manhattan Beach, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/13082/",
+    "companyId": "13082",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Financial Advising Intern",
+    "locationName": "Irvine, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "",
+     "name": "Select Planning Group Inc.",
+     "logo": {}
+    },
+    "position": "Financial Advising Intern",
+    "companyName": "Select Planning Group Inc.",
+    "location": "Irvine, CA",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "U4EA: Binaural Sound Therapy",
+    "companyLogo": {}
+   },
+   {
+    "companyId": "804624",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/804624/",
+    "companyName": "fifty-five",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": null
+    },
+    "totalDuration": "11 mos",
+    "company": {
+     "url": "",
+     "name": "U4EA: Binaural Sound Therapy",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "U4EA: Binaural Sound Therapy",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Los Angeles, CA · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2026
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "- Designed a consent-driven permission model with granular, tiered data visibility, balancing transparency with privacy across multi-user household relationships\n\n- Built a serverless event-driven backend on AWS (FastAPI on ECS Fargate, Lambda workers, DynamoDB single-table design, Cognito, EventBridge) with KMS envelope encryption, JWT auth, role-based access control, comprehensive audit logging, and full Terraform-managed infrastructure\n\n- Architected an AI gateway as the single policy choke point for every Bedrock call (Sonnet 4.5 and Opus 4.5): tier-based action authorization, per-user rate limiting, NFKC-normalized input sanitization with prompt-injection blocking, and exactly-once audit per interaction\n\n- Built an in-house observability dashboard backed by pre-aggregated DynamoDB rollups, with a live activity feed and rule-based alerts that deep-link into filtered investigation views for security incident response\n\n- Engineered a multi-signal threat detection pipeline for inbound email, integrating third-party security APIs, protocol verification, and pattern analysis",
+    "company": {
+     "url": "",
+     "name": "lightward",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "lightward",
+    "location": "Los Angeles, CA · Hybrid",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2026
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Fullstack Engineer",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2026
+     }
+    },
+    "totalDuration": "1 yr",
+    "company": {
+     "url": "https://www.linkedin.com/company/68928/",
+     "name": "LA Galaxy",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0"
+     }
+    },
+    "position": "Senior Fullstack Engineer",
+    "companyName": "LA Galaxy",
+    "location": "Los Angeles Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68928/",
+    "companyId": "68928",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2026
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_400_400/B56Z_T6IPnIMAY-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=sX5tAeMYZ9YPOH2jC4PboLFLszvb4a_C3Q6mKDPJ1bk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_200_200/B56Z_T6IPnIMAI-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=x-pyjhjNVgAGl8BaTdIRz7CB-FmXubl41rPBMEqzDI0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGAK0CzQt0XPQ/company-logo_100_100/B56Z_T6IPnIMAM-/0/1785966658793/la_galaxy_logo?e=1795651200&v=beta&t=gl5T4Apa8Zgd4ww0XBsUpqgd0L4bO08TTXHJZISPxSw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "fifty-five",
+     "url": "https://www.linkedin.com/company/804624/",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU"
+     }
+    },
+    "locationName": "New York City Metropolitan Area",
+    "employmentType": "Full-time",
+    "totalDuration": "3 yrs 1 mo",
+    "positions": [
+     {
+      "title": "Lead Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 7,
+        "year": 2024
+       }
+      },
+      "totalDuration": "1 yr 6 mos",
+      "description": "",
+      "insights": ""
+     },
+     {
+      "title": "Senior Machine Learning Engineer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 7,
+        "year": 2021
+       },
+       "endDate": {
+        "month": 2,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "",
+      "insights": ""
+     }
+    ],
+    "companyName": "fifty-five",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/804624/",
+    "companyId": "804624",
+    "duration": "3 yrs 1 mo",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_400_400/B4EZ74likkH8AY-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=kqsW4QwC6IcK5cSpM-r-WxCUwruiquqkfEVgC4efPmg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_200_200/B4EZ74likkH8AI-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yA0bzXb_JJ_JgvZTs413vbQf-n80UvIpKSqxEEcFRIM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHSTvaauw8mBg/company-logo_100_100/B4EZ74likkH8AM-/0/1782287051261/fifty_five_logo?e=1795651200&v=beta&t=yYiLwDT4GOp4ra8u6aSOigfL77TDanAXQS9gOv3drhU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Software Engineer, Machine Learning & Analytics",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2021
+     }
+    },
+    "totalDuration": "6 yrs 3 mos",
+    "company": {
+     "url": "",
+     "name": "DTS Consulting",
+     "logo": {}
+    },
+    "position": "Software Engineer, Machine Learning & Analytics",
+    "companyName": "DTS Consulting",
+    "location": "New York City Metropolitan Area",
+    "duration": "6 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2021
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Intern",
+    "locationName": "Los Angeles Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/4781/",
+     "name": "Warner Music Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog"
+     }
+    },
+    "position": "Intern",
+    "companyName": "Warner Music Group",
+    "location": "Los Angeles Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4781/",
+    "companyId": "4781",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 12,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_400_400/company-logo_400_400/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=wFNlGfyRmpw0mLZg8WdAahGOdNqw6qFIOCc_1kMhWog",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_200_200/company-logo_200_200/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=1G7T5VGZXMlwsZKKkuAr34dKJC8-zWDPg3YP8NSd97Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFEEde5JofCfQ/company-logo_100_100/company-logo_100_100/0/1636397302905/warner_music_group_logo?e=1795651200&v=beta&t=DuRGYfpwYV3osL_hRXOKTvUB5DNigiFz5l2nzJ_ONNA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Barista",
+    "locationName": "Manhattan Beach, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/13082/",
+     "name": "Peet's Coffee",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI"
+     }
+    },
+    "position": "Barista",
+    "companyName": "Peet's Coffee",
+    "location": "Manhattan Beach, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/13082/",
+    "companyId": "13082",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_400_400/B56ZhdfSHxH0AY-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=UxB7Lp0C22weSvZdxJbTY-3hYe9v2_6Dc7VgtmSf1jI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_200_200/B56ZhdfSHxH0AI-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=lMfHd4q-ASIEAI6wUJT7TS2d_HiykOPDyx2DAxi1mCI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQH37axsQb8tLg/company-logo_100_100/B56ZhdfSHxH0AQ-/0/1753915138871/peetscoffee_logo?e=1795651200&v=beta&t=rkElgiLUvYEi-cDaOzvL03D40sXI6jsSYsSD3YNLHUU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Financial Advising Intern",
+    "locationName": "Irvine, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2015
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "",
+     "name": "Select Planning Group Inc.",
+     "logo": {}
+    },
+    "position": "Financial Advising Intern",
+    "companyName": "Select Planning Group Inc.",
+    "location": "Irvine, CA",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_200_200/company-logo_200_200/0/1631312619853?e=1795651200&v=beta&t=LcxUyHnOCcqjTDGjGY5_-m-MmAAa04LH3My6MmvDeOY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_100_100/company-logo_100_100/0/1631312619853?e=1795651200&v=beta&t=whkPu5eXvQGUY6THTXVCslYjpOsYEWMMtQeAzSitSXU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_200_200/company-logo_200_200/0/1631312619853?e=1795651200&v=beta&t=LcxUyHnOCcqjTDGjGY5_-m-MmAAa04LH3My6MmvDeOY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_100_100/company-logo_100_100/0/1631312619853?e=1795651200&v=beta&t=whkPu5eXvQGUY6THTXVCslYjpOsYEWMMtQeAzSitSXU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3084/",
+    "schoolName": "University of Southern California",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Bachelor of Science - BS",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3084/",
+    "schoolId": "3084",
+    "degree": "Bachelor of Science - BS",
+    "skills": []
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_200_200/company-logo_200_200/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=wujylBETl_C3Hh1qTvRrGzxlpeN1GGg6DknHMkDzka8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_100_100/company-logo_100_100/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=fu9ZsmsMu03_rCKvheXdLBvtsSAn2nQm-TLWMMlIlLA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_400_400/company-logo_400_400/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=NzAemR2YvVK-4fb0C6nzsRveSAW0rSQleoXvwSYYKco",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_400_400/company-logo_400_400/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=NzAemR2YvVK-4fb0C6nzsRveSAW0rSQleoXvwSYYKco",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_400_400/company-logo_400_400/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=NzAemR2YvVK-4fb0C6nzsRveSAW0rSQleoXvwSYYKco",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_200_200/company-logo_200_200/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=wujylBETl_C3Hh1qTvRrGzxlpeN1GGg6DknHMkDzka8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGrTepj1Wfusg/company-logo_100_100/company-logo_100_100/0/1631094582043/american_university_of_paris_logo?e=1795651200&v=beta&t=fu9ZsmsMu03_rCKvheXdLBvtsSAn2nQm-TLWMMlIlLA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/29816/",
+    "schoolName": "The American University of Paris",
+    "degreeName": "",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/29816/",
+    "schoolId": "29816",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_200_200/company-logo_200_200/0/1631312619853?e=1795651200&v=beta&t=LcxUyHnOCcqjTDGjGY5_-m-MmAAa04LH3My6MmvDeOY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_100_100/company-logo_100_100/0/1631312619853?e=1795651200&v=beta&t=whkPu5eXvQGUY6THTXVCslYjpOsYEWMMtQeAzSitSXU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_400_400/company-logo_400_400/0/1631312619853?e=1795651200&v=beta&t=1HRA7i0pthEXPuPo2S_KDf0p15MXspCkaKtb0tR1rm4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_200_200/company-logo_200_200/0/1631312619853?e=1795651200&v=beta&t=LcxUyHnOCcqjTDGjGY5_-m-MmAAa04LH3My6MmvDeOY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHatTfEv4Af6w/company-logo_100_100/company-logo_100_100/0/1631312619853?e=1795651200&v=beta&t=whkPu5eXvQGUY6THTXVCslYjpOsYEWMMtQeAzSitSXU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3084/",
+    "schoolName": "University of Southern California",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Bachelor of Science - BS",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3084/",
+    "schoolId": "3084",
+    "degree": "Bachelor of Science - BS",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1707355208513?e=1795651200&v=beta&t=qfxv8_OB9xcLd4DaveIVwgTa_Skj8cT6rijAobNJxpM",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1707355208513?e=1795651200&v=beta&t=uIalCaCHEFL4J_GHD8vE7cdWGeD1eSe2pdur7LHD2Pg",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1707355208513?e=1795651200&v=beta&t=m6iCPnVIAd9TVrNM4TjJvWv3c5pJCDyXLsHyj7P22Co",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEkS_R9sc22BA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1707355208513?e=1795651200&v=beta&t=5zj6YrqdGLiLBjH4aedc_rX8lC6H4MfCJPsniNnW60o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/stewart-dustin"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-10T14:51:02.869Z",
+ "foundBy": null
+}

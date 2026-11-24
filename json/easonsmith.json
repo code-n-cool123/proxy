@@ -1,0 +1,1404 @@
+{
+ "slug": "easonsmith",
+ "inputUrl": "https://www.linkedin.com/in/easonsmith",
+ "fetchedAt": "2026-10-22T18:05:35.853Z",
+ "id": "6ada506f43db4c7cf614330e",
+ "url": "https://www.linkedin.com/in/easonsmith",
+ "profile": {
+  "created": 1206362685000,
+  "trackingId": "m+9gLbYHRJqD/SF4EA4OmQ==",
+  "firstName": "Eason",
+  "lastName": "Smith",
+  "pronoun": null,
+  "versionTag": "253439867",
+  "headline": "Senior Embedded Software Engineer | Robotics, IoT & Medical Devices | ARM/Embedded Linux | C/C++ | Patent Holder in AI Health Monitoring",
+  "publicIdentifier": "easonsmith",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "22921228",
+  "profileId": "ACoAAAFdwAwBKBIW-fROfUyRcwA0i7R4TOhpiwE",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_100_100/B4EZgJ5M9GGwAc-/0/1752512647413?e=1794441600&v=beta&t=p6zCuW7RqtzTmXPVlT7jUsCHaF_oGVKQUyMX7rxZWhM",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_400_400/B4EZgJ5M9GGwAg-/0/1752512647413?e=1794441600&v=beta&t=pH3go4Mwmjt5gby1joSSsp_JXlUfK-YPdCYZNbKhOt0",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_200_200/B4EZgJ5M9GGwAY-/0/1752512647413?e=1794441600&v=beta&t=bTeNmXlHvbI6Beo4Vai27cQYjCKef2tL6alC8PPVpcc",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw"
+  },
+  "coverImageUrl": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_350_1400/B4EZgJxx3IGcAo-/0/1752510701661?e=1794441600&v=beta&t=AQCdyIOI2tCM9Pc4tmn1wlSwB_tNsCY2eGiDi8_sFDk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_200_800/B4EZgJxx3IGcAk-/0/1752510701662?e=1794441600&v=beta&t=W68_s3DVGQuEvtPNOab1gckxGa6gZ635GGE674J5MA8"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:100105568",
+  "geoLocationName": "Collegeville, Pennsylvania, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Embedded Software Engineer",
+  "summary": "🚀 Senior embedded software engineer with 10 years building commercial products from prototype to production across robotics, IoT, medical devices, and automotive systems.\n\nCurrently at Treeswift, I am the tech lead of a 3 person embedded team for backpack-mounted robotic sensor platforms used in environmental field data collection — sensor drivers, ROS2 middleware, embedded Linux, and build systems integrating LiDAR, GPS/INS, and 360 degree camera sensors.\n\nRecent highlights:\n•\tImplemented Docker-based OTA field update system\n•\tLed ROS1 → ROS2 migration, porting 20+ driver nodes, application layer, and diagnostic infrastructure\n•\tEngineered multithreaded LiDAR driver eliminating packet drops during high-rate 3D capture\n•\tDrove next-gen ARM64 platform bring-up: kernel config, thermal profiling, GPIO migration, and automated image builds\n\nPreviously, I brought multiple IoT and automotive products to market:\n•\tCo-invented and designed the statistical illness detection algorithm in US Patent US20240206745A1, which combines radar, computer vision, and ML for contactless illness detection\n•\tBuilt production audio pipelines, BLE/WiFi onboarding systems, and clinical video recording infrastructure supporting epilepsy research published at American Epilepsy Society\n•\tImplemented wireless charging algorithms and IR camera based foreign object detection systems for commercial electric vehicles at InductEV\n\n\n🛠 Core Stack: C/C++ (17 yrs) | Python | ROS2 | FreeRTOS | Embedded Linux/Yocto | ARM Cortex | STM32 | BLE/WiFi | MQTT | GStreamer | LiDAR | Google Test",
+  "positions": [
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Philadelphia, PA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Tech Lead to the embedded software team at a robotics company building backpack-mounted mobile sensor platforms for environmental field data collection. Leading a team of three ICs while owning the full embedded software stack (sensor drivers, ROS2 middleware, embedded Linux, build/OTA systems) for ARM64 platforms integrating Ouster LiDAR, SBG GPS/INS, and Insta360 cameras.\n\nPlatform Migration & Architecture\n•\tArchitected a Docker-based field-update (OTA) system: manifest-driven \"sneakernet\" delivery, enabling rollback-safe field updates with no network connectivity\n•\tLed complete migration from ROS1 to ROS2 Jazzy, porting 20+ driver nodes, PyQt application layer, state machine, and diagnostic infrastructure\n•\tImplemented ROS2 Lifecycle Nodes for deterministic sensor driver state management\n\nSensor Driver Engineering (C++/Python)\n•\tEngineered multithreaded Ouster lidar driver with dedicated UDP receiver, packet processor, and async writer threads—eliminating packet drops during high-rate 3D capture\n•\tDesigned custom SBG INS lifecycle node from scratch, replacing multi-node ROS1 architecture with streamlined single-node solution featuring automatic vehicle configuration\n\nEmbedded Linux & Build Systems\n•\tDrove next-generation ARM64 platform bring-up: kernel configuration, thermal profiling, GPIO subsystem migration, networking, and peripheral integration\n•\tArchitected automated build pipeline for custom Ubuntu 24.04 + ROS2 Jazzy images with ARM64 cross-compilation",
+    "insights": "Skills: ROS2 · LiDAR · Ouster · C++ · Python · Embedded Linux · SBG",
+    "company": {
+     "url": "https://www.linkedin.com/company/72041438/",
+     "name": "Treeswift",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM"
+     }
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "King of Prussia, Pennsylvania, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Member of the embedded software team developing a wireless charging system for electric cars, busses and yard tractors. This role largely uses C/C++ across a range of interconnected embedded systems from smaller ARM based TI microcontrollers to larger embedded Linux platforms running Ubuntu. In this role I worked on the ground-side inductive charging systems, as well as on the vehicle-side FliR camera foreign object detection system.\n\n\n•\tImplemented an alignment algorithm for better driver feedback and safer inductive charging directly above the ground coil.\n•\tDiscovered and helped fix a grounding issue in the vehicle side FLiR Camera based Foreign Object Detection system (OpenCV).\n•\tDebugged cell modem connectivity issues using low level AT commands and fixed an enumeration issue using udev.\n•\tTested and improved the cabinet watchdog monitoring system by switching the fleet to a better more reliable WDT.",
+    "insights": "Skills: Grafana · C++ · Modbus · Microcontrollers · OCPP · U-Boot · Embedded Linux · InfluxDB · OpenCV · Cell Modems · ARM Cortex-M · FreeRTOS · CAN bus",
+    "company": {
+     "url": "https://www.linkedin.com/company/1038250/",
+     "name": "InductEV",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k"
+     }
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Woodbridge, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "description": "Part of an engineering team (formerly EGW Technologies) which successfully brought to market multiple generations of an IoT smart baby monitor camera with contactless breathing rate detection capabilities. This role largely uses C/C++ in an Embedded / Yocto based ARM Linux environment.\n\nMiku Original\n* NightVision mode software implementation and API design\n* Architected complete GStreamer-based audio pipeline with real-time processing, two-way communication, and software mixing capabilities\n* Performed camera hardware component configuration for light sensors, IR LEDs, speakers and microphones\n\nMiku Pro (Version 2)\n* Co-inventor on patent application for illness detection methodology US20240206745A1 (pending)\n* Developed medical-grade video recording system for continuous infant seizure monitoring in hospital settings, ensuring 24/7 reliability and diagnostic-quality capture for clinical research published at American Epilepsy Society conference\n* Responsible for Pairing-Mode flow design and it's camera-side software implementation (BLE / WiFi)\n* Developed and implemented room audio ambiance sensing process (gstreamer)",
+    "insights": "Skills: Grafana · C++ · Mqtt · Python · Valgrind · WiFi · Git · Embedded Linux · Bluetooth Low Energy · AWS IoT · Debugging · Object Oriented Design · Embedded Systems · Gstreamer · Bash · Sensors · Software Development · Bluetooth",
+    "company": {
+     "url": "",
+     "name": "Miku",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Embedded Software Engineering Intern",
+    "locationName": "Greater New York City Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "•\tPerformed board bring-up, chip configuration, HW/SW debugging, schematic review, and wrote documentation for an NXP ARM Cortex-M based HDMI to MyDP audio-video peripheral for the company MPU5 Android military/civilian radio platform.\n•\tPorted 40,000+ lines of 8-bit 8051 C code to run on a pin compatible 32-bit NXP / Freescale ARM microprocessor.\n•\tCross-compiled NXP x86 bootloader utilities for an ARM-Linux kernel and created ‘auto-upgrade FW on cable-detect’ feature for MPU5 radio.",
+    "insights": "Skills: Microcontrollers · Git · Debugging · Freescale · Embedded Systems · NXP · Embedded C · Bash · Software Development",
+    "company": {
+     "url": "https://www.linkedin.com/company/582324/",
+     "name": "Persistent Systems, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM"
+     }
+    }
+   },
+   {
+    "title": "Administrative Coordinator, Development",
+    "locationName": "New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "Six years administrative project support to 19+ Development (fundraising) department employees.",
+    "insights": "Skills: Project Management · Budgets · Microsoft Excel",
+    "company": {
+     "url": "https://www.linkedin.com/company/23799/",
+     "name": "American Jewish World Service",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/company-logo_200_200/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=nJfruqEvB_gbXr60J3rfQ65Fe3m8PhSyym7ZtLizXoU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=5wFWSQ4ynjmPYiTrRERNzeRshguNP5kAC2RKyaNJ9I8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3159/",
+    "schoolName": "New York University",
+    "degreeName": "Dual Degree B.S. in Electrical and Computer Engineering",
+    "fieldOfStudy": "Focus: Robotics, Real-Time Embedded Systems, Artificial Intelligence",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2017
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [
+   {
+    "name": "Advanced Linear Algebra"
+   },
+   {
+    "name": "Artificial Intelligence (Grad.)"
+   }
+  ],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "🚀 Click Show Project to see Eason Smith's Project Portfolio",
+    "description": "",
+    "dateRange": {},
+    "associatedWith": "Jul 2015 - Present"
+   },
+   {
+    "title": "Medical Video Recording System - Supporting Clinical Epilepsy Seizure Research",
+    "description": "As part of the Miku Pro platform's expansion into clinical research, I developed the video recording infrastructure that enabled medical researchers to study infant seizure patterns in hospital settings.\n\n🔧 My Technical Contributions:\n📹 Continuous Video Capture: Designed reliable 24/7 recording system with automatic file rotation and storage management\n🛡️ Medical-Grade Reliability: Implemented redundant storage and failover mechanisms to ensure no critical moments were lost during potential seizure events\n⚖️ Video Quality Optimization: Balanced compression settings to maintain diagnostic image quality while managing storage constraints\n🤝 Integration with Research Workflow: Coordinated with medical team to ensure video format and timestamps aligned with clinical data collection needs\n📊 System Monitoring: Created logging and alerting for recording health to prevent data gaps during research periods\n🎯 Clinical Impact: My video recording system provided the visual data foundation that enabled clinical researchers to validate contactless monitoring approaches, contributing to research published at the American Epilepsy Society conference.\n💻 Key Technologies: C/C++, Embedded Linux, GStreamer, Video Compression, File System Management, System Reliability Engineering\n\n📋 Results: https://aesnet.org/abstractslisting/feasibility-of-implementing-a-baby-monitor-for-seizure-detection-in-an-inpatient-setting",
+    "dateRange": {},
+    "associatedWith": "Aug 2022 - May 2023"
+   }
+  ],
+  "publications": [
+   {
+    "title": "Sophomores Take On Upper Classes At NASA Lunar Robot Competition",
+    "publisher": "NYU Polytechnic School of Engineering Web Article · Jun 25, 2014",
+    "date": {}
+   }
+  ],
+  "patents": [
+   {
+    "title": "\"System and Method for Monitoring a Person for Signs of Sickness\"",
+    "issuer": "US20240206745A1 · Filed Aug 26, 2020",
+    "issueDate": {},
+    "description": "Co-invented a breakthrough contactless health monitoring technology that combines radar sensing, computer vision, and machine learning to detect illness onset during sleep. The system establishes baseline biometric profiles (respiration rate, heart rate) over multiple days, then uses statistical analysis to identify deviations that may indicate fever or other medical conditions. Key innovations include:\n\nContactless Detection: Uses low-power radar, infrared imaging, and audio processing to monitor breathing and heart rate without physical contact\nAI-Driven Analysis: Employs machine learning algorithms to distinguish between normal sleep patterns (including REM cycles) and illness-related biometric changes\nEarly Warning System: Provides real-time alerts to caregivers when statistical deviations exceed predetermined thresholds\nMulti-Modal Sensing: Integrates radar, visual, and audio data for robust biometric extraction and sleep state determination\n\nApplications: Valuable for infant monitoring, elderly care, and remote patient monitoring where early illness detection is critical and the patient is not able to accurately verbalize that they are feeling ill."
+   }
+  ],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Treeswift",
+  "companyPublicId": "treeswift",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/treeswift/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:72041438",
+   "name": "Treeswift",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQGZIaTg-XmLFw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_"
+    }
+   },
+   "universalName": "treeswift",
+   "url": "https://www.linkedin.com/company/treeswift/",
+   "slug": "treeswift",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+   "specialties": []
+  },
+  "followerCount": 544,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 531,
+  "skills": [
+   {
+    "name": "ROS2",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LiDAR",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ouster",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SBG",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Global Positioning System (GPS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FreeRTOS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS IoT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bluetooth",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "File Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Video Compression",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Clinical Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "InfluxDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Grafana",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "U-Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenCV",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mqtt",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cell Modems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CAN bus",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LiDAR",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Global Positioning System (GPS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FreeRTOS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bluetooth",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "File Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Video Compression",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Clinical Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "U-Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OpenCV",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mqtt",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CAN bus",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Modbus",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "WiFi",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Valgrind",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gstreamer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Robotics",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Project Management",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "Microcontrollers",
+    "endorsements": 4,
+    "experiences": 2
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS IoT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "InfluxDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Grafana",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Bash",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Embedded Linux",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Bluetooth Low Energy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 10,
+    "experiences": 3
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 4,
+    "experiences": 2
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 9,
+    "experiences": 2
+   },
+   {
+    "name": "NI LabVIEW",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "LabVIEW",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Firmware",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Arduino",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/easonsmith",
+  "linkedinUrl": "https://www.linkedin.com/in/easonsmith",
+  "profileUrl": "https://www.linkedin.com/in/easonsmith",
+  "verified": true,
+  "registeredAt": "2008-03-24T12:44:45.000Z",
+  "location": {
+   "linkedinText": "Collegeville, Pennsylvania, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Collegeville, Pennsylvania, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "🚀 Senior embedded software engineer with 10 years building commercial products from prototype to production across robotics, IoT, medical devices, and automotive systems.\n\nCurrently at Treeswift, I am the tech lead of a 3 person embedded team for backpack-mounted robotic sensor platforms used in environmental field data collection — sensor drivers, ROS2 middleware, embedded Linux, and build systems integrating LiDAR, GPS/INS, and 360 degree camera sensors.\n\nRecent highlights:\n•\tImplemented Docker-based OTA field update system\n•\tLed ROS1 → ROS2 migration, porting 20+ driver nodes, application layer, and diagnostic infrastructure\n•\tEngineered multithreaded LiDAR driver eliminating packet drops during high-rate 3D capture\n•\tDrove next-gen ARM64 platform bring-up: kernel config, thermal profiling, GPIO migration, and automated image builds\n\nPreviously, I brought multiple IoT and automotive products to market:\n•\tCo-invented and designed the statistical illness detection algorithm in US Patent US20240206745A1, which combines radar, computer vision, and ML for contactless illness detection\n•\tBuilt production audio pipelines, BLE/WiFi onboarding systems, and clinical video recording infrastructure supporting epilepsy research published at American Epilepsy Society\n•\tImplemented wireless charging algorithms and IR camera based foreign object detection systems for commercial electric vehicles at InductEV\n\n\n🛠 Core Stack: C/C++ (17 yrs) | Python | ROS2 | FreeRTOS | Embedded Linux/Yocto | ARM Cortex | STM32 | BLE/WiFi | MQTT | GStreamer | LiDAR | Google Test",
+  "currentTitle": "Senior Embedded Software Engineer",
+  "allTitles": [
+   "Senior Embedded Software Engineer",
+   "Embedded Software Engineer",
+   "Embedded Software Engineer",
+   "Embedded Software Engineering Intern",
+   "Administrative Coordinator, Development"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Philadelphia, PA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Tech Lead to the embedded software team at a robotics company building backpack-mounted mobile sensor platforms for environmental field data collection. Leading a team of three ICs while owning the full embedded software stack (sensor drivers, ROS2 middleware, embedded Linux, build/OTA systems) for ARM64 platforms integrating Ouster LiDAR, SBG GPS/INS, and Insta360 cameras.\n\nPlatform Migration & Architecture\n•\tArchitected a Docker-based field-update (OTA) system: manifest-driven \"sneakernet\" delivery, enabling rollback-safe field updates with no network connectivity\n•\tLed complete migration from ROS1 to ROS2 Jazzy, porting 20+ driver nodes, PyQt application layer, state machine, and diagnostic infrastructure\n•\tImplemented ROS2 Lifecycle Nodes for deterministic sensor driver state management\n\nSensor Driver Engineering (C++/Python)\n•\tEngineered multithreaded Ouster lidar driver with dedicated UDP receiver, packet processor, and async writer threads—eliminating packet drops during high-rate 3D capture\n•\tDesigned custom SBG INS lifecycle node from scratch, replacing multi-node ROS1 architecture with streamlined single-node solution featuring automatic vehicle configuration\n\nEmbedded Linux & Build Systems\n•\tDrove next-generation ARM64 platform bring-up: kernel configuration, thermal profiling, GPIO subsystem migration, networking, and peripheral integration\n•\tArchitected automated build pipeline for custom Ubuntu 24.04 + ROS2 Jazzy images with ARM64 cross-compilation",
+    "insights": "Skills: ROS2 · LiDAR · Ouster · C++ · Python · Embedded Linux · SBG",
+    "company": {
+     "url": "https://www.linkedin.com/company/72041438/",
+     "name": "Treeswift",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM"
+     }
+    },
+    "position": "Senior Embedded Software Engineer",
+    "companyName": "Treeswift",
+    "location": "Philadelphia, PA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/72041438/",
+    "companyId": "72041438",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "King of Prussia, Pennsylvania, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Member of the embedded software team developing a wireless charging system for electric cars, busses and yard tractors. This role largely uses C/C++ across a range of interconnected embedded systems from smaller ARM based TI microcontrollers to larger embedded Linux platforms running Ubuntu. In this role I worked on the ground-side inductive charging systems, as well as on the vehicle-side FliR camera foreign object detection system.\n\n\n•\tImplemented an alignment algorithm for better driver feedback and safer inductive charging directly above the ground coil.\n•\tDiscovered and helped fix a grounding issue in the vehicle side FLiR Camera based Foreign Object Detection system (OpenCV).\n•\tDebugged cell modem connectivity issues using low level AT commands and fixed an enumeration issue using udev.\n•\tTested and improved the cabinet watchdog monitoring system by switching the fleet to a better more reliable WDT.",
+    "insights": "Skills: Grafana · C++ · Modbus · Microcontrollers · OCPP · U-Boot · Embedded Linux · InfluxDB · OpenCV · Cell Modems · ARM Cortex-M · FreeRTOS · CAN bus",
+    "company": {
+     "url": "https://www.linkedin.com/company/1038250/",
+     "name": "InductEV",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "InductEV",
+    "location": "King of Prussia, Pennsylvania, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1038250/",
+    "companyId": "1038250",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Woodbridge, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "description": "Part of an engineering team (formerly EGW Technologies) which successfully brought to market multiple generations of an IoT smart baby monitor camera with contactless breathing rate detection capabilities. This role largely uses C/C++ in an Embedded / Yocto based ARM Linux environment.\n\nMiku Original\n* NightVision mode software implementation and API design\n* Architected complete GStreamer-based audio pipeline with real-time processing, two-way communication, and software mixing capabilities\n* Performed camera hardware component configuration for light sensors, IR LEDs, speakers and microphones\n\nMiku Pro (Version 2)\n* Co-inventor on patent application for illness detection methodology US20240206745A1 (pending)\n* Developed medical-grade video recording system for continuous infant seizure monitoring in hospital settings, ensuring 24/7 reliability and diagnostic-quality capture for clinical research published at American Epilepsy Society conference\n* Responsible for Pairing-Mode flow design and it's camera-side software implementation (BLE / WiFi)\n* Developed and implemented room audio ambiance sensing process (gstreamer)",
+    "insights": "Skills: Grafana · C++ · Mqtt · Python · Valgrind · WiFi · Git · Embedded Linux · Bluetooth Low Energy · AWS IoT · Debugging · Object Oriented Design · Embedded Systems · Gstreamer · Bash · Sensors · Software Development · Bluetooth",
+    "company": {
+     "url": "",
+     "name": "Miku",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Miku",
+    "location": "Woodbridge, NJ",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineering Intern",
+    "locationName": "Greater New York City Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "•\tPerformed board bring-up, chip configuration, HW/SW debugging, schematic review, and wrote documentation for an NXP ARM Cortex-M based HDMI to MyDP audio-video peripheral for the company MPU5 Android military/civilian radio platform.\n•\tPorted 40,000+ lines of 8-bit 8051 C code to run on a pin compatible 32-bit NXP / Freescale ARM microprocessor.\n•\tCross-compiled NXP x86 bootloader utilities for an ARM-Linux kernel and created ‘auto-upgrade FW on cable-detect’ feature for MPU5 radio.",
+    "insights": "Skills: Microcontrollers · Git · Debugging · Freescale · Embedded Systems · NXP · Embedded C · Bash · Software Development",
+    "company": {
+     "url": "https://www.linkedin.com/company/582324/",
+     "name": "Persistent Systems, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM"
+     }
+    },
+    "position": "Embedded Software Engineering Intern",
+    "companyName": "Persistent Systems, LLC",
+    "location": "Greater New York City Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/582324/",
+    "companyId": "582324",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Administrative Coordinator, Development",
+    "locationName": "New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "Six years administrative project support to 19+ Development (fundraising) department employees.",
+    "insights": "Skills: Project Management · Budgets · Microsoft Excel",
+    "company": {
+     "url": "https://www.linkedin.com/company/23799/",
+     "name": "American Jewish World Service",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI"
+     }
+    },
+    "position": "Administrative Coordinator, Development",
+    "companyName": "American Jewish World Service",
+    "location": "New York, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/23799/",
+    "companyId": "23799",
+    "duration": "6 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "72041438",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/72041438/",
+    "companyName": "Treeswift",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Embedded Software Engineer",
+    "locationName": "Philadelphia, PA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 3 mos",
+    "description": "Tech Lead to the embedded software team at a robotics company building backpack-mounted mobile sensor platforms for environmental field data collection. Leading a team of three ICs while owning the full embedded software stack (sensor drivers, ROS2 middleware, embedded Linux, build/OTA systems) for ARM64 platforms integrating Ouster LiDAR, SBG GPS/INS, and Insta360 cameras.\n\nPlatform Migration & Architecture\n•\tArchitected a Docker-based field-update (OTA) system: manifest-driven \"sneakernet\" delivery, enabling rollback-safe field updates with no network connectivity\n•\tLed complete migration from ROS1 to ROS2 Jazzy, porting 20+ driver nodes, PyQt application layer, state machine, and diagnostic infrastructure\n•\tImplemented ROS2 Lifecycle Nodes for deterministic sensor driver state management\n\nSensor Driver Engineering (C++/Python)\n•\tEngineered multithreaded Ouster lidar driver with dedicated UDP receiver, packet processor, and async writer threads—eliminating packet drops during high-rate 3D capture\n•\tDesigned custom SBG INS lifecycle node from scratch, replacing multi-node ROS1 architecture with streamlined single-node solution featuring automatic vehicle configuration\n\nEmbedded Linux & Build Systems\n•\tDrove next-generation ARM64 platform bring-up: kernel configuration, thermal profiling, GPIO subsystem migration, networking, and peripheral integration\n•\tArchitected automated build pipeline for custom Ubuntu 24.04 + ROS2 Jazzy images with ARM64 cross-compilation",
+    "insights": "Skills: ROS2 · LiDAR · Ouster · C++ · Python · Embedded Linux · SBG",
+    "company": {
+     "url": "https://www.linkedin.com/company/72041438/",
+     "name": "Treeswift",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM"
+     }
+    },
+    "position": "Senior Embedded Software Engineer",
+    "companyName": "Treeswift",
+    "location": "Philadelphia, PA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/72041438/",
+    "companyId": "72041438",
+    "duration": "1 yr 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_400_400/company-logo_400_400/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=TDHF0DM4yl683YKCRmwz_hKp2VAQLUtTg4SW6KIuOkM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_200_200/company-logo_200_200/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=VxTLoIAiPE_iCP8uRlMloDw1aW1tel7EKpxCudVW9iU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGZIaTg-XmLFw/company-logo_100_100/company-logo_100_100/0/1729871122125/treeswift_logo?e=1794441600&v=beta&t=ekhDtEMHPAmkSHD4ij95xc9u1gHQPeoqIxzvJJUPpfQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "King of Prussia, Pennsylvania, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "Member of the embedded software team developing a wireless charging system for electric cars, busses and yard tractors. This role largely uses C/C++ across a range of interconnected embedded systems from smaller ARM based TI microcontrollers to larger embedded Linux platforms running Ubuntu. In this role I worked on the ground-side inductive charging systems, as well as on the vehicle-side FliR camera foreign object detection system.\n\n\n•\tImplemented an alignment algorithm for better driver feedback and safer inductive charging directly above the ground coil.\n•\tDiscovered and helped fix a grounding issue in the vehicle side FLiR Camera based Foreign Object Detection system (OpenCV).\n•\tDebugged cell modem connectivity issues using low level AT commands and fixed an enumeration issue using udev.\n•\tTested and improved the cabinet watchdog monitoring system by switching the fleet to a better more reliable WDT.",
+    "insights": "Skills: Grafana · C++ · Modbus · Microcontrollers · OCPP · U-Boot · Embedded Linux · InfluxDB · OpenCV · Cell Modems · ARM Cortex-M · FreeRTOS · CAN bus",
+    "company": {
+     "url": "https://www.linkedin.com/company/1038250/",
+     "name": "InductEV",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "InductEV",
+    "location": "King of Prussia, Pennsylvania, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1038250/",
+    "companyId": "1038250",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_400_400/company-logo_400_400/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=U2GcMSjA93U5nnRXdmmOAuOJtGGVdKC3yZC_qnYJi8k",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_200_200/company-logo_200_200/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=xkCp01ZvuTVu_WVL5QchsLTJc-tdV6bXjERGUw3qhEA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFgDuPo724cRQ/company-logo_100_100/company-logo_100_100/0/1699401543554/inductev_inc_logo?e=1794441600&v=beta&t=BVGcNM6U_vhsSoy4rBYCO9j0F0mtuezTBS4IDTGIk7w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Woodbridge, NJ",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "5 yrs 10 mos",
+    "description": "Part of an engineering team (formerly EGW Technologies) which successfully brought to market multiple generations of an IoT smart baby monitor camera with contactless breathing rate detection capabilities. This role largely uses C/C++ in an Embedded / Yocto based ARM Linux environment.\n\nMiku Original\n* NightVision mode software implementation and API design\n* Architected complete GStreamer-based audio pipeline with real-time processing, two-way communication, and software mixing capabilities\n* Performed camera hardware component configuration for light sensors, IR LEDs, speakers and microphones\n\nMiku Pro (Version 2)\n* Co-inventor on patent application for illness detection methodology US20240206745A1 (pending)\n* Developed medical-grade video recording system for continuous infant seizure monitoring in hospital settings, ensuring 24/7 reliability and diagnostic-quality capture for clinical research published at American Epilepsy Society conference\n* Responsible for Pairing-Mode flow design and it's camera-side software implementation (BLE / WiFi)\n* Developed and implemented room audio ambiance sensing process (gstreamer)",
+    "insights": "Skills: Grafana · C++ · Mqtt · Python · Valgrind · WiFi · Git · Embedded Linux · Bluetooth Low Energy · AWS IoT · Debugging · Object Oriented Design · Embedded Systems · Gstreamer · Bash · Sensors · Software Development · Bluetooth",
+    "company": {
+     "url": "",
+     "name": "Miku",
+     "logo": {}
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Miku",
+    "location": "Woodbridge, NJ",
+    "duration": "5 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Embedded Software Engineering Intern",
+    "locationName": "Greater New York City Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2016
+     }
+    },
+    "totalDuration": "5 mos",
+    "description": "•\tPerformed board bring-up, chip configuration, HW/SW debugging, schematic review, and wrote documentation for an NXP ARM Cortex-M based HDMI to MyDP audio-video peripheral for the company MPU5 Android military/civilian radio platform.\n•\tPorted 40,000+ lines of 8-bit 8051 C code to run on a pin compatible 32-bit NXP / Freescale ARM microprocessor.\n•\tCross-compiled NXP x86 bootloader utilities for an ARM-Linux kernel and created ‘auto-upgrade FW on cable-detect’ feature for MPU5 radio.",
+    "insights": "Skills: Microcontrollers · Git · Debugging · Freescale · Embedded Systems · NXP · Embedded C · Bash · Software Development",
+    "company": {
+     "url": "https://www.linkedin.com/company/582324/",
+     "name": "Persistent Systems, LLC",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM"
+     }
+    },
+    "position": "Embedded Software Engineering Intern",
+    "companyName": "Persistent Systems, LLC",
+    "location": "Greater New York City Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/582324/",
+    "companyId": "582324",
+    "duration": "5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_400_400/company-logo_400_400/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=grSsYZd_gCBwOllkI2ljgWU60bX-LQS9AyqFCY-EJYM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_200_200/company-logo_200_200/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=e26vG6qx0FvMZpYScPIiUilIbrjPkSk2DR1OZKCX48g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQE5w0-qc_aWoQ/company-logo_100_100/company-logo_100_100/0/1681322060033/persistent_systems_llc_logo?e=1794441600&v=beta&t=E5xdsqL-AoB1AH0-f9j75ElGJ26dfzVzhgAvClZdtO0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Administrative Coordinator, Development",
+    "locationName": "New York, NY",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2007
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2013
+     }
+    },
+    "totalDuration": "6 yrs 5 mos",
+    "description": "Six years administrative project support to 19+ Development (fundraising) department employees.",
+    "insights": "Skills: Project Management · Budgets · Microsoft Excel",
+    "company": {
+     "url": "https://www.linkedin.com/company/23799/",
+     "name": "American Jewish World Service",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI"
+     }
+    },
+    "position": "Administrative Coordinator, Development",
+    "companyName": "American Jewish World Service",
+    "location": "New York, NY",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/23799/",
+    "companyId": "23799",
+    "duration": "6 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2007
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_400_400/B4EZ.qqhfEIgAY-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=puK7epHXBgKJjmv8eaIWfiV6HI9v0GjX7378VWgg4Oc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_200_200/B4EZ.qqhfEIgAI-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=_HICJ6cxQTvzXbZFoSWFTXgc8nW_Mz6aJ9ZKS2gxonU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQECQWJmBcUwuQ/company-logo_100_100/B4EZ.qqhfEIgAM-/0/1785274702047/american_jewish_world_service_logo?e=1794441600&v=beta&t=UFlSTY7gEkDenAK7pQItradn_MzagIVtwtf-cVejJVI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/company-logo_200_200/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=nJfruqEvB_gbXr60J3rfQ65Fe3m8PhSyym7ZtLizXoU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=5wFWSQ4ynjmPYiTrRERNzeRshguNP5kAC2RKyaNJ9I8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/company-logo_200_200/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=nJfruqEvB_gbXr60J3rfQ65Fe3m8PhSyym7ZtLizXoU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=5wFWSQ4ynjmPYiTrRERNzeRshguNP5kAC2RKyaNJ9I8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3159/",
+    "schoolName": "New York University",
+    "degreeName": "Dual Degree B.S. in Electrical and Computer Engineering",
+    "fieldOfStudy": "Focus: Robotics, Real-Time Embedded Systems, Artificial Intelligence",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3159/",
+    "schoolId": "3159",
+    "degree": "Dual Degree B.S. in Electrical and Computer Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2013
+    },
+    "endDate": {
+     "year": 2017
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/company-logo_200_200/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=nJfruqEvB_gbXr60J3rfQ65Fe3m8PhSyym7ZtLizXoU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=5wFWSQ4ynjmPYiTrRERNzeRshguNP5kAC2RKyaNJ9I8",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_400_400/company-logo_400_400/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=7w_VhzWUpPT4FL2mZNzxU1IiMr--NeT8mz7GhrpCdNc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_200_200/company-logo_200_200/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=nJfruqEvB_gbXr60J3rfQ65Fe3m8PhSyym7ZtLizXoU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF6TmzLkch0dQ/company-logo_100_100/company-logo_100_100/0/1630556159190/new_york_university_logo?e=1794441600&v=beta&t=5wFWSQ4ynjmPYiTrRERNzeRshguNP5kAC2RKyaNJ9I8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3159/",
+    "schoolName": "New York University",
+    "degreeName": "Dual Degree B.S. in Electrical and Computer Engineering",
+    "fieldOfStudy": "Focus: Robotics, Real-Time Embedded Systems, Artificial Intelligence",
+    "timePeriod": {
+     "startDate": {
+      "year": 2013
+     },
+     "endDate": {
+      "year": 2017
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3159/",
+    "schoolId": "3159",
+    "degree": "Dual Degree B.S. in Electrical and Computer Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2013
+    },
+    "endDate": {
+     "year": 2017
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_100_100/B4EZgJ5M9GGwAc-/0/1752512647413?e=1794441600&v=beta&t=p6zCuW7RqtzTmXPVlT7jUsCHaF_oGVKQUyMX7rxZWhM",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_400_400/B4EZgJ5M9GGwAg-/0/1752512647413?e=1794441600&v=beta&t=pH3go4Mwmjt5gby1joSSsp_JXlUfK-YPdCYZNbKhOt0",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_200_200/B4EZgJ5M9GGwAY-/0/1752512647413?e=1794441600&v=beta&t=bTeNmXlHvbI6Beo4Vai27cQYjCKef2tL6alC8PPVpcc",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_400_400/B4EZgJ5M9GGwAg-/0/1752512647413?e=1794441600&v=beta&t=pH3go4Mwmjt5gby1joSSsp_JXlUfK-YPdCYZNbKhOt0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_200_200/B4EZgJ5M9GGwAY-/0/1752512647413?e=1794441600&v=beta&t=bTeNmXlHvbI6Beo4Vai27cQYjCKef2tL6alC8PPVpcc",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_100_100/B4EZgJ5M9GGwAc-/0/1752512647413?e=1794441600&v=beta&t=p6zCuW7RqtzTmXPVlT7jUsCHaF_oGVKQUyMX7rxZWhM",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_100_100/B4EZgJ5M9GGwAc-/0/1752512647413?e=1794441600&v=beta&t=p6zCuW7RqtzTmXPVlT7jUsCHaF_oGVKQUyMX7rxZWhM",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_400_400/B4EZgJ5M9GGwAg-/0/1752512647413?e=1794441600&v=beta&t=pH3go4Mwmjt5gby1joSSsp_JXlUfK-YPdCYZNbKhOt0",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_200_200/B4EZgJ5M9GGwAY-/0/1752512647413?e=1794441600&v=beta&t=bTeNmXlHvbI6Beo4Vai27cQYjCKef2tL6alC8PPVpcc",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-crop_800_800/B4EZgJ5M9GGwAI-/0/1752512647323?e=1794441600&v=beta&t=FBUB3XhoJyLwlN27ePPwbH5YbEWJVtp7vtDWjNKlUbw",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_400_400/B4EZgJ5M9GGwAg-/0/1752512647413?e=1794441600&v=beta&t=pH3go4Mwmjt5gby1joSSsp_JXlUfK-YPdCYZNbKhOt0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_200_200/B4EZgJ5M9GGwAY-/0/1752512647413?e=1794441600&v=beta&t=bTeNmXlHvbI6Beo4Vai27cQYjCKef2tL6alC8PPVpcc",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQE9mGLgQS1wzA/profile-displayphoto-scale_100_100/B4EZgJ5M9GGwAc-/0/1752512647413?e=1794441600&v=beta&t=p6zCuW7RqtzTmXPVlT7jUsCHaF_oGVKQUyMX7rxZWhM",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "1400x349": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_350_1400/B4EZgJxx3IGcAo-/0/1752510701661?e=1794441600&v=beta&t=AQCdyIOI2tCM9Pc4tmn1wlSwB_tNsCY2eGiDi8_sFDk",
+   "800x199": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_200_800/B4EZgJxx3IGcAk-/0/1752510701662?e=1794441600&v=beta&t=W68_s3DVGQuEvtPNOab1gckxGa6gZ635GGE674J5MA8",
+   "url": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_350_1400/B4EZgJxx3IGcAo-/0/1752510701661?e=1794441600&v=beta&t=AQCdyIOI2tCM9Pc4tmn1wlSwB_tNsCY2eGiDi8_sFDk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_350_1400/B4EZgJxx3IGcAo-/0/1752510701661?e=1794441600&v=beta&t=AQCdyIOI2tCM9Pc4tmn1wlSwB_tNsCY2eGiDi8_sFDk",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E16AQGMnV-OVb1KWA/profile-displaybackgroundimage-shrink_200_800/B4EZgJxx3IGcAk-/0/1752510701662?e=1794441600&v=beta&t=W68_s3DVGQuEvtPNOab1gckxGa6gZ635GGE674J5MA8",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/easonsmith"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T18:05:21.385Z",
+ "foundBy": null
+}

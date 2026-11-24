@@ -1,0 +1,942 @@
+{
+ "slug": "omar-gonzalez-rabelo-3a3436138",
+ "inputUrl": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138",
+ "fetchedAt": "2026-10-30T12:29:56.938Z",
+ "id": "6ae48dc443db4c7cf61446c8",
+ "url": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138",
+ "profile": {
+  "created": 1486095808692,
+  "trackingId": "Lp7rOeceSiC+zConjCEh3A==",
+  "firstName": "Omar",
+  "lastName": "Gonzalez Rabelo",
+  "pronoun": null,
+  "versionTag": "3704867232",
+  "headline": "Software Engineer at L3Harris Technologies",
+  "publicIdentifier": "omar-gonzalez-rabelo-3a3436138",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "562433451",
+  "profileId": "ACoAACGGDasB_maWBrncsq2dIuw7PkF9iZ1ipXY",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102394087",
+  "geoLocationName": "Miami, Florida, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Experienced Embedded Software Engineer with 8+ years of industry experience at L3Harris, specializing in Linux kernel development, custom board bring-up, and low-level hardware interfacing. Proven ability to design and maintain Linux drivers, develop robust embedded solutions, and debug complex systems. Expertise includes Device Tree authoring, U-Boot customization, and protocol-level communication (I2C, SPI, UART). Strong background in C/C++ development, embedded Linux debugging, and cross-functional collaboration with hardware and manufacturing teams. Holds a B.S. in Computer Engineering from Florida International University.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Developed a fully custom GPIO Linux kernel driver that dynamically gathers GPIOs from the Device Tree, exposing them to user space via /dev and /sysfs. Enabled scalable board support and streamlined test automation across multiple embedded platforms.\n\n- Created a HWMON driver for the ISL28025 over I2C, exposing current, voltage, power, and temperature metrics to user space via sysfs, which reduced validation effort by 40% and improved system power diagnostics.\n\n- Patched and extended existing Linux kernel drivers to introduce new features and fix critical bugs, improving performance and enabling hardware compatibility for multiple product lines.\n\n- Led board bring-up efforts using U-Boot for custom ARM-based platforms, including DRAM configuration, peripheral initialization, and bootloader optimization for fast boot.\n\n- Designed an internal hardware validation application for factory use, reducing peripheral test time by 30% and streamlining pre-production QA workflows.\n\n- Collaborated closely with hardware and test teams to identify and resolve hardware/software integration issues during bring-up and production phases.\n\n- Debugged kernel and driver-level issues using gdb, oscilloscope traces, and kernel logging techniques to support product reliability and field readiness.\n\n- Followed Linux kernel coding style and upstream submission practices, ensuring maintainability and code quality in all driver work.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "BioBrace VR, incorporates the use of multiple sensors into a wearable device. This device will implement the sensors along with a microprocessor to find out the emotional state of a person.\n\n•Efficiently communicate ARM micro-controller with different peripherials\n•Develop Android App for Bluetooth communication between mobile device and the microcontroller\n•Calibrate the Sensors\n•Create State machines for a more efficient functioning of the wearable",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Florida International University (Senior Design)",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=Reqe3OUGF8Pk9480GQXzK2cYCBNL415C5AejtQY92ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=ntDkg5SGyn0_hUNdmHn0Vb0Rvqgg9FKQys9fcYw5dRo"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2028
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_100_100/B4EZ3EoLs6IoAQ-/0/1777120361902?e=1795046400&v=beta&t=fuEkWuvs-bh8WD87p86UmhfScJVCahlpVKE679ST4EE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_400_400/B4EZ3EoLs6IoAY-/0/1777120361902?e=1795046400&v=beta&t=my_FDEV4wYqavsJ0_02J82_Q_rXqTFq18A9GCQCG6No",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_200_200/B4EZ3EoLs6IoAI-/0/1777120361902?e=1795046400&v=beta&t=w-JmdACnlNYplk1lZO8toJns9fQk4FMNrFdrSQRwY1Q"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/113207950/",
+    "schoolName": "Visual Business School",
+    "degreeName": "Máster en IA Aplicada y Optimización de Procesos Productivos",
+    "fieldOfStudy": "Artificial Intelligence",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2026
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [
+   {
+    "name": "Circuit Analysis"
+   },
+   {
+    "name": "Data Structures (Java)"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "ESL Tutor",
+    "companyName": "Miami Dade College",
+    "description": "-Helped ESL students in his writing/reading classes.\n-Assisted ESL professor to create Microsoft Word and PowerPoint presentations\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/12397/",
+     "name": "Miami Dade College",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_200_200/company-logo_200_200/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=h8GLgv5klnV-eThHYO3ewAlMSvCUnC-CfZuqswdTW08",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_100_100/company-logo_100_100/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=U4tI5HIQmTVWPIW8r7y5WSbj3TBDMTdfsrpaflSYedk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_400_400/company-logo_400_400/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=wlxvX5uyUcrQiYp-UbR4I3DvzwqSSutDZQaUukoT0CQ"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "BioBrace VR (Senior Design)",
+    "description": "BioBrace VR, incorporates the use of multiple sensors into a wearable device. This device will implement the sensors along with a microprocessor to find out the emotional state of a person.\n",
+    "dateRange": {},
+    "associatedWith": "Sep 2016 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "L3Harris Technologies",
+  "companyPublicId": "l3harris-technologies",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/l3harris-technologies/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:40745219",
+   "name": "L3Harris Technologies",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQEB2mPDbj_TDA",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_"
+    }
+   },
+   "universalName": "l3harris-technologies",
+   "url": "https://www.linkedin.com/company/l3harris-technologies/",
+   "slug": "l3harris-technologies",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+   "specialties": []
+  },
+  "followerCount": 305,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 306,
+  "skills": [
+   {
+    "name": "U-Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "GNU/Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gstreamer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Kernel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML5",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "U-Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GNU/Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gstreamer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux Kernel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Jenkins",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Real-Time Operating Systems (RTOS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML5",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138",
+  "linkedinUrl": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138",
+  "profileUrl": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138",
+  "verified": true,
+  "registeredAt": "2017-02-03T04:23:28.692Z",
+  "location": {
+   "linkedinText": "Miami, Florida, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Miami, Florida, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Experienced Embedded Software Engineer with 8+ years of industry experience at L3Harris, specializing in Linux kernel development, custom board bring-up, and low-level hardware interfacing. Proven ability to design and maintain Linux drivers, develop robust embedded solutions, and debug complex systems. Expertise includes Device Tree authoring, U-Boot customization, and protocol-level communication (I2C, SPI, UART). Strong background in C/C++ development, embedded Linux debugging, and cross-functional collaboration with hardware and manufacturing teams. Holds a B.S. in Computer Engineering from Florida International University.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Developed a fully custom GPIO Linux kernel driver that dynamically gathers GPIOs from the Device Tree, exposing them to user space via /dev and /sysfs. Enabled scalable board support and streamlined test automation across multiple embedded platforms.\n\n- Created a HWMON driver for the ISL28025 over I2C, exposing current, voltage, power, and temperature metrics to user space via sysfs, which reduced validation effort by 40% and improved system power diagnostics.\n\n- Patched and extended existing Linux kernel drivers to introduce new features and fix critical bugs, improving performance and enabling hardware compatibility for multiple product lines.\n\n- Led board bring-up efforts using U-Boot for custom ARM-based platforms, including DRAM configuration, peripheral initialization, and bootloader optimization for fast boot.\n\n- Designed an internal hardware validation application for factory use, reducing peripheral test time by 30% and streamlining pre-production QA workflows.\n\n- Collaborated closely with hardware and test teams to identify and resolve hardware/software integration issues during bring-up and production phases.\n\n- Debugged kernel and driver-level issues using gdb, oscilloscope traces, and kernel logging techniques to support product reliability and field readiness.\n\n- Followed Linux kernel coding style and upstream submission practices, ensuring maintainability and code quality in all driver work.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "L3Harris Technologies",
+    "location": "Miami-Fort Lauderdale Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "9 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "BioBrace VR, incorporates the use of multiple sensors into a wearable device. This device will implement the sensors along with a microprocessor to find out the emotional state of a person.\n\n•Efficiently communicate ARM micro-controller with different peripherials\n•Develop Android App for Bluetooth communication between mobile device and the microcontroller\n•Calibrate the Sensors\n•Create State machines for a more efficient functioning of the wearable",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Florida International University (Senior Design)",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Florida International University (Senior Design)",
+    "location": "Miami-Fort Lauderdale Area",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "40745219",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyName": "L3Harris Technologies",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Developed a fully custom GPIO Linux kernel driver that dynamically gathers GPIOs from the Device Tree, exposing them to user space via /dev and /sysfs. Enabled scalable board support and streamlined test automation across multiple embedded platforms.\n\n- Created a HWMON driver for the ISL28025 over I2C, exposing current, voltage, power, and temperature metrics to user space via sysfs, which reduced validation effort by 40% and improved system power diagnostics.\n\n- Patched and extended existing Linux kernel drivers to introduce new features and fix critical bugs, improving performance and enabling hardware compatibility for multiple product lines.\n\n- Led board bring-up efforts using U-Boot for custom ARM-based platforms, including DRAM configuration, peripheral initialization, and bootloader optimization for fast boot.\n\n- Designed an internal hardware validation application for factory use, reducing peripheral test time by 30% and streamlining pre-production QA workflows.\n\n- Collaborated closely with hardware and test teams to identify and resolve hardware/software integration issues during bring-up and production phases.\n\n- Debugged kernel and driver-level issues using gdb, oscilloscope traces, and kernel logging techniques to support product reliability and field readiness.\n\n- Followed Linux kernel coding style and upstream submission practices, ensuring maintainability and code quality in all driver work.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40745219/",
+     "name": "L3Harris Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "L3Harris Technologies",
+    "location": "Miami-Fort Lauderdale Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40745219/",
+    "companyId": "40745219",
+    "duration": "9 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_400_400/company-logo_400_400/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=tg2yoYYG7YLNm8_eVOS1yP_Ch70UizX-Q4flf3JO0GE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_200_200/company-logo_200_200/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=24I6slt4-6j7x3DDusJftdJCl1KhKnsdDqS6s1-e07I",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEB2mPDbj_TDA/company-logo_100_100/company-logo_100_100/0/1630457187752/l3harris_technologies_logo?e=1795046400&v=beta&t=RyHJsu7kCKv7fGhsyXdsiqYSyMrc8jbotaJB2qN9UXE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Miami-Fort Lauderdale Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "BioBrace VR, incorporates the use of multiple sensors into a wearable device. This device will implement the sensors along with a microprocessor to find out the emotional state of a person.\n\n•Efficiently communicate ARM micro-controller with different peripherials\n•Develop Android App for Bluetooth communication between mobile device and the microcontroller\n•Calibrate the Sensors\n•Create State machines for a more efficient functioning of the wearable",
+    "insights": "",
+    "company": {
+     "url": "",
+     "name": "Florida International University (Senior Design)",
+     "logo": {}
+    },
+    "position": "Software Engineer",
+    "companyName": "Florida International University (Senior Design)",
+    "location": "Miami-Fort Lauderdale Area",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=Reqe3OUGF8Pk9480GQXzK2cYCBNL415C5AejtQY92ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=ntDkg5SGyn0_hUNdmHn0Vb0Rvqgg9FKQys9fcYw5dRo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=ntDkg5SGyn0_hUNdmHn0Vb0Rvqgg9FKQys9fcYw5dRo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=Reqe3OUGF8Pk9480GQXzK2cYCBNL415C5AejtQY92ec",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2028
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2028
+    }
+   },
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_100_100/B4EZ3EoLs6IoAQ-/0/1777120361902?e=1795046400&v=beta&t=fuEkWuvs-bh8WD87p86UmhfScJVCahlpVKE679ST4EE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_400_400/B4EZ3EoLs6IoAY-/0/1777120361902?e=1795046400&v=beta&t=my_FDEV4wYqavsJ0_02J82_Q_rXqTFq18A9GCQCG6No",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_200_200/B4EZ3EoLs6IoAI-/0/1777120361902?e=1795046400&v=beta&t=w-JmdACnlNYplk1lZO8toJns9fQk4FMNrFdrSQRwY1Q",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_400_400/B4EZ3EoLs6IoAY-/0/1777120361902?e=1795046400&v=beta&t=my_FDEV4wYqavsJ0_02J82_Q_rXqTFq18A9GCQCG6No",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_400_400/B4EZ3EoLs6IoAY-/0/1777120361902?e=1795046400&v=beta&t=my_FDEV4wYqavsJ0_02J82_Q_rXqTFq18A9GCQCG6No",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_200_200/B4EZ3EoLs6IoAI-/0/1777120361902?e=1795046400&v=beta&t=w-JmdACnlNYplk1lZO8toJns9fQk4FMNrFdrSQRwY1Q",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFnkokLss6qgg/company-logo_100_100/B4EZ3EoLs6IoAQ-/0/1777120361902?e=1795046400&v=beta&t=fuEkWuvs-bh8WD87p86UmhfScJVCahlpVKE679ST4EE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/113207950/",
+    "schoolName": "Visual Business School",
+    "degreeName": "Máster en IA Aplicada y Optimización de Procesos Productivos",
+    "fieldOfStudy": "Artificial Intelligence",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2026
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/113207950/",
+    "schoolId": "113207950",
+    "degree": "Máster en IA Aplicada y Optimización de Procesos Productivos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2026
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=Reqe3OUGF8Pk9480GQXzK2cYCBNL415C5AejtQY92ec",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=ntDkg5SGyn0_hUNdmHn0Vb0Rvqgg9FKQys9fcYw5dRo",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=RmrPxnLC5Jf0dzhHkwaPZ8Xy-NU24qMJnn8VIeFoEV8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=ntDkg5SGyn0_hUNdmHn0Vb0Rvqgg9FKQys9fcYw5dRo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1795046400&v=beta&t=Reqe3OUGF8Pk9480GQXzK2cYCBNL415C5AejtQY92ec",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "Master of Science",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2026
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2028
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "Master of Science",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2026
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2028
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "ESL Tutor",
+    "companyName": "Miami Dade College",
+    "description": "-Helped ESL students in his writing/reading classes.\n-Assisted ESL professor to create Microsoft Word and PowerPoint presentations\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/12397/",
+     "name": "Miami Dade College",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_200_200/company-logo_200_200/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=h8GLgv5klnV-eThHYO3ewAlMSvCUnC-CfZuqswdTW08",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_100_100/company-logo_100_100/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=U4tI5HIQmTVWPIW8r7y5WSbj3TBDMTdfsrpaflSYedk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_400_400/company-logo_400_400/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=wlxvX5uyUcrQiYp-UbR4I3DvzwqSSutDZQaUukoT0CQ"
+     }
+    },
+    "organization": "Miami Dade College"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "ESL Tutor",
+    "companyName": "Miami Dade College",
+    "description": "-Helped ESL students in his writing/reading classes.\n-Assisted ESL professor to create Microsoft Word and PowerPoint presentations\n",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2012
+     },
+     "endDate": null
+    },
+    "cause": "Education",
+    "company": {
+     "url": "https://www.linkedin.com/company/12397/",
+     "name": "Miami Dade College",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_200_200/company-logo_200_200/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=h8GLgv5klnV-eThHYO3ewAlMSvCUnC-CfZuqswdTW08",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_100_100/company-logo_100_100/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=U4tI5HIQmTVWPIW8r7y5WSbj3TBDMTdfsrpaflSYedk",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEzV8OIL7Pkfg/company-logo_400_400/company-logo_400_400/0/1630618103430/miami_dade_college_logo?e=1795046400&v=beta&t=wlxvX5uyUcrQiYp-UbR4I3DvzwqSSutDZQaUukoT0CQ"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+   "400x400": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+   "800x800": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1673290410024?e=1795046400&v=beta&t=3lPRP33dtVORfODwHLtjnaZ6T82KUkRWLNUDOpbMfQo",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1673290410024?e=1795046400&v=beta&t=u3GwFggCtyA9jv6osJ0X09LfDbP_53Q7p5dLfHFEbvM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1673290410024?e=1795046400&v=beta&t=lpSZ57WI9XH8_SrLb3vEW3-840COf7J0JzqfFhaSD6Q",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D4E03AQGQc0FFvjuQdg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1673290410024?e=1795046400&v=beta&t=UHaWMSBtShgZIJ6rEn4tIYL-YDwuXAQ3VKXFcb2gFNo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/omar-gonzalez-rabelo-3a3436138"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T12:29:38.489Z",
+ "foundBy": null
+}

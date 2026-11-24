@@ -1,0 +1,1380 @@
+{
+ "slug": "seankwalker",
+ "inputUrl": "https://www.linkedin.com/in/seankwalker",
+ "fetchedAt": "2026-10-31T08:27:17.436Z",
+ "id": "6ae5a6654f8d6cb6ddd5b911",
+ "url": "https://www.linkedin.com/in/seankwalker",
+ "profile": {
+  "created": 1453484686145,
+  "trackingId": "oYD2Z26dTbOF6vLkC3lqQg==",
+  "firstName": "Sean",
+  "lastName": "Walker",
+  "pronoun": null,
+  "versionTag": "60955879",
+  "headline": "Kindo",
+  "publicIdentifier": "seankwalker",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "475848966",
+  "profileId": "ACoAABxc4QYBzIPtLa4w-Ridv0Lpxit7BIgFVf0",
+  "pictureUrl": {},
+  "coverImageUrl": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_350_1400/B56ZufphQ1IcAY-/0/1767910020679?e=1795046400&v=beta&t=B6gaCy1APz1aPBjz2kKU5xGrotnf_M0ALk2u7Mj3e0M",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_200_800/B56ZufphQ1IcAU-/0/1767910020679?e=1795046400&v=beta&t=iUlWHBSeKHa9A6pNfcx079qMdTcUuN71VLCeVvtiHUQ"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103644278",
+  "geoLocationName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Yale '19, Computer Science BSc. Interests: distributed systems, mobile app dev, privacy, law & tech, consumer software, security. tmux, vim, zsh enthusiast.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Los Angeles, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "- Re-architected Kindo’s agent harness around durable execution, making long-running agent runs resilient to restarts, transient LLM provider errors, and infrastructure failures.\n- Led platform-wide observability for production AI agent execution, migrating from Datadog auto-instrumentation to vendor-agnostic OpenTelemetry and establishing PII- and cardinality-safe standards for logs, traces, metrics, alerts, and dashboards.\n- Automated first-line on-call workflows for proactive monitoring, alert response, deploy-specific checks, debugging, and triage using OpenClaw and MCP tooling, reducing incident MTTR 50%+.\n- Architected Kindo’s MCP integration platform from the ground up and helped scale delivery to 100+ integrations across enterprise SaaS, ticketing, file storage, observability, SIEM, and ERP systems.\n- Served as engineering owner and technical lead for strategic enterprise accounts representing millions in ARR, from discovery and solution design through deployment, launch, support, and reusable platform improvements.\n- Drove key implementation work for the self-managed version of Kindo across Kubernetes deployment, installer automation, observability, E2E validation, and operational readiness for regulated enterprise environments.\n- Established AI-assisted engineering workflows for agent-driven PRs, autonomous review/eval loops, and repeatable internal development practices.",
+    "company": {
+     "url": "https://www.linkedin.com/company/90511332/",
+     "name": "Kindo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI"
+     }
+    }
+   },
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 yrs 9 mos",
+    "description": "- Led development of core merchant and payments infrastructure at Snackpass, including kiosk ordering, payouts reconciliation, split payments, remote device management, and customer-restaurant messaging.\n- Built the initial self-order kiosk platform from scratch and led small teams through early productization and scale; the system has grown to process hundreds of millions of dollars in GMV annually.\n- Re-architected payout and accounting workflows with automated reconciliation and catch-up systems, reducing risk of merchant payout gaps and supporting Stripe Connect KYC, onboarding, and alcohol-sales requirements.\n- Led cross-functional refactor to support split bills and multiple payment methods per order, requiring coordinated changes across ordering, payment processing, accounting, and merchant-facing surfaces.\n- Built merchant operations systems for Android device management and in-app messaging, improving restaurant onboarding, supportability, customer communication, refunds, rewards, campaigns, and AI-assisted workflows.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    }
+   },
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "I was the head teaching assistant for Yale's two introductory computer science courses: CPSC 100 (Fall) and CPSC 112 (Spring).\nI held weekly sections and office hours, trained & managed course staff, set up & ran events, tutored students one-on-one, and graded student work (C, Java, Python, JS, HTML/CSS).",
+    "company": {
+     "url": "",
+     "name": "Yale University Department of Computer Science",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    }
+   },
+   {
+    "title": "Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/10604885/",
+     "name": "CS50",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw"
+     }
+    }
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "",
+    "company": {
+     "url": "",
+     "name": "Yale Student Technology Collaborative",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1795046400&v=beta&t=8R2t9EjUfgFySOjBi0IsbIxA_zIHXYDNfCna0vd7ZtE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1795046400&v=beta&t=05Ll9ioFqTrGaBOCfNQFvCgadNRWwtM6FtmpPJrYuX0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2019
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Language Education Institute",
+    "fieldOfStudy": "Korean Language",
+    "timePeriod": {
+     "startDate": {
+      "year": 2018
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Graduation with Distinction in Computer Science",
+    "description": "Graduated with Distinction in my major.",
+    "issueDate": {},
+    "issuer": "Issued by Yale University · May 2019"
+   },
+   {
+    "title": "International Baccalaureate Diploma",
+    "description": "Recipient of IB Diploma with total score of 38 points (out of possible 45), these results being in the top 3.3% of all candidates in the world.",
+    "issueDate": {},
+    "issuer": "Issued by International Baccalaureate Organization · Jan 2015"
+   }
+  ],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "French",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Civil Rights and Social Action",
+   "Education",
+   "Poverty Alleviation",
+   "Science and Technology"
+  ],
+  "companyName": "Kindo",
+  "companyPublicId": "kindo-ai",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/kindo-ai/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:90511332",
+   "name": "Kindo",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQGgcEv3mXqvtQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+       "expiresAt": 1795046400000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+       "expiresAt": 1795046400000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_"
+    }
+   },
+   "universalName": "kindo-ai",
+   "url": "https://www.linkedin.com/company/kindo-ai/",
+   "slug": "kindo-ai",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+   "specialties": []
+  },
+  "followerCount": 484,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 474,
+  "skills": [
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apollo GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React Native",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Media",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Planning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Objective-C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Express.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Media",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Planning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apollo GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React Native",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Objective-C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/seankwalker",
+  "linkedinUrl": "https://www.linkedin.com/in/seankwalker",
+  "profileUrl": "https://www.linkedin.com/in/seankwalker",
+  "verified": false,
+  "registeredAt": "2016-01-22T17:44:46.145Z",
+  "location": {
+   "linkedinText": "United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "United States",
+    "countryCode": "US"
+   }
+  },
+  "about": "Yale '19, Computer Science BSc. Interests: distributed systems, mobile app dev, privacy, law & tech, consumer software, security. tmux, vim, zsh enthusiast.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Staff Software Engineer",
+   "Head Teaching Assistant",
+   "Software Engineer",
+   "Intern",
+   "Software Developer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Los Angeles, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "- Re-architected Kindo’s agent harness around durable execution, making long-running agent runs resilient to restarts, transient LLM provider errors, and infrastructure failures.\n- Led platform-wide observability for production AI agent execution, migrating from Datadog auto-instrumentation to vendor-agnostic OpenTelemetry and establishing PII- and cardinality-safe standards for logs, traces, metrics, alerts, and dashboards.\n- Automated first-line on-call workflows for proactive monitoring, alert response, deploy-specific checks, debugging, and triage using OpenClaw and MCP tooling, reducing incident MTTR 50%+.\n- Architected Kindo’s MCP integration platform from the ground up and helped scale delivery to 100+ integrations across enterprise SaaS, ticketing, file storage, observability, SIEM, and ERP systems.\n- Served as engineering owner and technical lead for strategic enterprise accounts representing millions in ARR, from discovery and solution design through deployment, launch, support, and reusable platform improvements.\n- Drove key implementation work for the self-managed version of Kindo across Kubernetes deployment, installer automation, observability, E2E validation, and operational readiness for regulated enterprise environments.\n- Established AI-assisted engineering workflows for agent-driven PRs, autonomous review/eval loops, and repeatable internal development practices.",
+    "company": {
+     "url": "https://www.linkedin.com/company/90511332/",
+     "name": "Kindo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Kindo",
+    "location": "Los Angeles, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/90511332/",
+    "companyId": "90511332",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 yrs 9 mos",
+    "description": "- Led development of core merchant and payments infrastructure at Snackpass, including kiosk ordering, payouts reconciliation, split payments, remote device management, and customer-restaurant messaging.\n- Built the initial self-order kiosk platform from scratch and led small teams through early productization and scale; the system has grown to process hundreds of millions of dollars in GMV annually.\n- Re-architected payout and accounting workflows with automated reconciliation and catch-up systems, reducing risk of merchant payout gaps and supporting Stripe Connect KYC, onboarding, and alcohol-sales requirements.\n- Led cross-functional refactor to support split bills and multiple payment methods per order, requiring coordinated changes across ordering, payment processing, accounting, and merchant-facing surfaces.\n- Built merchant operations systems for Android device management and in-app messaging, improving restaurant onboarding, supportability, customer communication, refunds, rewards, campaigns, and AI-assisted workflows.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "Snackpass",
+    "location": "San Francisco, California, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11340823/",
+    "companyId": "11340823",
+    "duration": "5 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "I was the head teaching assistant for Yale's two introductory computer science courses: CPSC 100 (Fall) and CPSC 112 (Spring).\nI held weekly sections and office hours, trained & managed course staff, set up & ran events, tutored students one-on-one, and graded student work (C, Java, Python, JS, HTML/CSS).",
+    "company": {
+     "url": "",
+     "name": "Yale University Department of Computer Science",
+     "logo": {}
+    },
+    "position": "Head Teaching Assistant",
+    "companyName": "Yale University Department of Computer Science",
+    "location": "New Haven, Connecticut, United States",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Snackpass",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11340823/",
+    "companyId": "11340823",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/10604885/",
+     "name": "CS50",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw"
+     }
+    },
+    "position": "Intern",
+    "companyName": "CS50",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10604885/",
+    "companyId": "10604885",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "company": {
+     "url": "",
+     "name": "Yale Student Technology Collaborative",
+     "logo": {}
+    },
+    "position": "Software Developer",
+    "companyName": "Yale Student Technology Collaborative",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "90511332",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/90511332/",
+    "companyName": "Kindo",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "Los Angeles, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "- Re-architected Kindo’s agent harness around durable execution, making long-running agent runs resilient to restarts, transient LLM provider errors, and infrastructure failures.\n- Led platform-wide observability for production AI agent execution, migrating from Datadog auto-instrumentation to vendor-agnostic OpenTelemetry and establishing PII- and cardinality-safe standards for logs, traces, metrics, alerts, and dashboards.\n- Automated first-line on-call workflows for proactive monitoring, alert response, deploy-specific checks, debugging, and triage using OpenClaw and MCP tooling, reducing incident MTTR 50%+.\n- Architected Kindo’s MCP integration platform from the ground up and helped scale delivery to 100+ integrations across enterprise SaaS, ticketing, file storage, observability, SIEM, and ERP systems.\n- Served as engineering owner and technical lead for strategic enterprise accounts representing millions in ARR, from discovery and solution design through deployment, launch, support, and reusable platform improvements.\n- Drove key implementation work for the self-managed version of Kindo across Kubernetes deployment, installer automation, observability, E2E validation, and operational readiness for regulated enterprise environments.\n- Established AI-assisted engineering workflows for agent-driven PRs, autonomous review/eval loops, and repeatable internal development practices.",
+    "company": {
+     "url": "https://www.linkedin.com/company/90511332/",
+     "name": "Kindo",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Kindo",
+    "location": "Los Angeles, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/90511332/",
+    "companyId": "90511332",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_400_400/B56aGIiCe4KIAU-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=nQXiv9YjlvCwvU999kEvp_zWxdtwGZ1FXGvxPeCOdaw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_200_200/B56aGIiCe4KIAE-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=OKP1iqVK1QAHg9mxsBA8nLnpcqcfEUy9XPHaygM_DOw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgcEv3mXqvtQ/company-logo_100_100/B56aGIiCe4KIAI-/0/1793291987085/kindo_ai_logo?e=1795046400&v=beta&t=NTIDcbu29i1DvM_CY-c2E3ceFkXySSUl6fYPYN2q3kI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Staff Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2025
+     }
+    },
+    "totalDuration": "5 yrs 9 mos",
+    "description": "- Led development of core merchant and payments infrastructure at Snackpass, including kiosk ordering, payouts reconciliation, split payments, remote device management, and customer-restaurant messaging.\n- Built the initial self-order kiosk platform from scratch and led small teams through early productization and scale; the system has grown to process hundreds of millions of dollars in GMV annually.\n- Re-architected payout and accounting workflows with automated reconciliation and catch-up systems, reducing risk of merchant payout gaps and supporting Stripe Connect KYC, onboarding, and alcohol-sales requirements.\n- Led cross-functional refactor to support split bills and multiple payment methods per order, requiring coordinated changes across ordering, payment processing, accounting, and merchant-facing surfaces.\n- Built merchant operations systems for Android device management and in-app messaging, improving restaurant onboarding, supportability, customer communication, refunds, rewards, campaigns, and AI-assisted workflows.",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    },
+    "position": "Senior Staff Software Engineer",
+    "companyName": "Snackpass",
+    "location": "San Francisco, California, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11340823/",
+    "companyId": "11340823",
+    "duration": "5 yrs 9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2025
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "New Haven, Connecticut, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 5 mos",
+    "description": "I was the head teaching assistant for Yale's two introductory computer science courses: CPSC 100 (Fall) and CPSC 112 (Spring).\nI held weekly sections and office hours, trained & managed course staff, set up & ran events, tutored students one-on-one, and graded student work (C, Java, Python, JS, HTML/CSS).",
+    "company": {
+     "url": "",
+     "name": "Yale University Department of Computer Science",
+     "logo": {}
+    },
+    "position": "Head Teaching Assistant",
+    "companyName": "Yale University Department of Computer Science",
+    "location": "New Haven, Connecticut, United States",
+    "duration": "2 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2018
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/11340823/",
+     "name": "Snackpass",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Snackpass",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/11340823/",
+    "companyId": "11340823",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2018
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_400_400/B56ZvnZR.cIoAY-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=50NwvhH9qqZ3Y0jeBC3QcLHHoTaDGFTTohp6AF85WK0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_200_200/B56ZvnZR.cIoAI-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=7ILTM8KV4F1lFn8YW2FYqed1T-x3UaxXoyzqel-AkrM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFSW0o5Wvf_Lg/company-logo_100_100/B56ZvnZR.cIoAQ-/0/1769113723304/snackpass_logo?e=1795046400&v=beta&t=sZnu9C6eBCPyEUDx3Ox4dq0ItW9HBV8W1bn01gGkAhs",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Intern",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/10604885/",
+     "name": "CS50",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw"
+     }
+    },
+    "position": "Intern",
+    "companyName": "CS50",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/10604885/",
+    "companyId": "10604885",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_400_400/company-logo_400_400/0/1631309789389?e=1795046400&v=beta&t=M7WNYk3HOiijGXxHDdjQOpMbUBP8qB_s5rTgheylrxw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_200_200/company-logo_200_200/0/1631309789389?e=1795046400&v=beta&t=MefBg-spwNaMGUc3IVUXhTZMPcg7O-fPXu8E6POGNqc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGYjmmBCvqLmg/company-logo_100_100/company-logo_100_100/0/1631309789389?e=1795046400&v=beta&t=odZZVBgwNzaJk9DrkrpXY3JbwXdhV3dg14NrMGpDPcE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "8 mos",
+    "company": {
+     "url": "",
+     "name": "Yale Student Technology Collaborative",
+     "logo": {}
+    },
+    "position": "Software Developer",
+    "companyName": "Yale Student Technology Collaborative",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1795046400&v=beta&t=8R2t9EjUfgFySOjBi0IsbIxA_zIHXYDNfCna0vd7ZtE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1795046400&v=beta&t=05Ll9ioFqTrGaBOCfNQFvCgadNRWwtM6FtmpPJrYuX0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1795046400&v=beta&t=8R2t9EjUfgFySOjBi0IsbIxA_zIHXYDNfCna0vd7ZtE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1795046400&v=beta&t=05Ll9ioFqTrGaBOCfNQFvCgadNRWwtM6FtmpPJrYuX0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2019
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolId": "15248569",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2019
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_400_400/company-logo_400_400/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=I10K73Bu45RMwVun17fOE1P4cvnLNwfvJJGHnuLQSEE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_200_200/company-logo_200_200/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=_T2o7cGvSYk1NspM7vAR34gTZPCoJgwCTY3lz6yE34U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGVFNF7GHDVrQ/company-logo_100_100/company-logo_100_100/0/1729239694428/_seoul_national_university__logo?e=1795046400&v=beta&t=gGv_PuN2w31PGFsRx4cm5deQv3PzW5Rg_p-VPut6kK0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolName": "Seoul National University",
+    "degreeName": "Language Education Institute",
+    "fieldOfStudy": "Korean Language",
+    "timePeriod": {
+     "startDate": {
+      "year": 2018
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15096106/",
+    "schoolId": "15096106",
+    "degree": "Language Education Institute",
+    "skills": [],
+    "startDate": {
+     "year": 2018
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1795046400&v=beta&t=8R2t9EjUfgFySOjBi0IsbIxA_zIHXYDNfCna0vd7ZtE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1795046400&v=beta&t=05Ll9ioFqTrGaBOCfNQFvCgadNRWwtM6FtmpPJrYuX0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_400_400/company-logo_400_400/0/1631385636084?e=1795046400&v=beta&t=6pupFo0gNnrJtN_hZd1oMA_187KiIr2vhlWp_9TNy7g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_200_200/company-logo_200_200/0/1631385636084?e=1795046400&v=beta&t=8R2t9EjUfgFySOjBi0IsbIxA_zIHXYDNfCna0vd7ZtE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGGJUjGgSYcWQ/company-logo_100_100/company-logo_100_100/0/1631385636084?e=1795046400&v=beta&t=05Ll9ioFqTrGaBOCfNQFvCgadNRWwtM6FtmpPJrYuX0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolName": "Yale University",
+    "degreeName": "Bachelor of Science (B.S.)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2019
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15248569/",
+    "schoolId": "15248569",
+    "degree": "Bachelor of Science (B.S.)",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2019
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Graduation with Distinction in Computer Science",
+    "description": "Graduated with Distinction in my major.",
+    "issueDate": {},
+    "issuer": "Issued by Yale University · May 2019"
+   },
+   {
+    "title": "International Baccalaureate Diploma",
+    "description": "Recipient of IB Diploma with total score of 38 points (out of possible 45), these results being in the top 3.3% of all candidates in the world.",
+    "issueDate": {},
+    "issuer": "Issued by International Baccalaureate Organization · Jan 2015"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_350_1400/B56ZufphQ1IcAY-/0/1767910020679?e=1795046400&v=beta&t=B6gaCy1APz1aPBjz2kKU5xGrotnf_M0ALk2u7Mj3e0M",
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_200_800/B56ZufphQ1IcAU-/0/1767910020679?e=1795046400&v=beta&t=iUlWHBSeKHa9A6pNfcx079qMdTcUuN71VLCeVvtiHUQ",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_350_1400/B56ZufphQ1IcAY-/0/1767910020679?e=1795046400&v=beta&t=B6gaCy1APz1aPBjz2kKU5xGrotnf_M0ALk2u7Mj3e0M",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_350_1400/B56ZufphQ1IcAY-/0/1767910020679?e=1795046400&v=beta&t=B6gaCy1APz1aPBjz2kKU5xGrotnf_M0ALk2u7Mj3e0M",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQHVwDY2GqY_sg/profile-displaybackgroundimage-shrink_200_800/B56ZufphQ1IcAU-/0/1767910020679?e=1795046400&v=beta&t=iUlWHBSeKHa9A6pNfcx079qMdTcUuN71VLCeVvtiHUQ",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/seankwalker"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T08:27:06.918Z",
+ "foundBy": null
+}

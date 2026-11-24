@@ -1,0 +1,1544 @@
+{
+ "slug": "bhaves-patel-046a4840",
+ "inputUrl": "https://www.linkedin.com/in/bhaves-patel-046a4840",
+ "fetchedAt": "2026-11-17T12:47:29.136Z",
+ "id": "6afc4ce1326d0b70b7e2537a",
+ "url": "https://www.linkedin.com/in/bhaves-patel-046a4840",
+ "profile": {
+  "created": 1318267570123,
+  "trackingId": "ZAr33/yGRG6xLZg4ek4qIQ==",
+  "firstName": "Bhaves",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "2764970034",
+  "headline": "Staff Software Engineer | Building AI Agents & Search Systems",
+  "publicIdentifier": "bhaves-patel-046a4840",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "145912374",
+  "profileId": "ACoAAAiycjYB0MRe-PN9qs3eWvwGZ4ZdArVnQVM",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+   "337x337": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+   "337x337": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000084",
+  "geoLocationName": "San Francisco Bay Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "With over 15 years of experience in software engineering, I specialize in CRM integrations, semantic search, and data pipeline optimization. Currently, I contribute to LinkedIn as a Software Engineer, focusing on enhancing Sales Navigator to empower sellers with data-driven insights and streamlined workflows. Passionate about crafting scalable solutions, I aim to align technology with user needs, fostering business growth and innovation.  \n\nAt LinkedIn, I lead CRM integrations and re-architected the Sales Navigator ROI report to deliver actionable insights. My work on the search stack, including semantic search development and performance analytics, has enhanced user experience and system efficiency. I am driven by collaborative problem-solving and a commitment to building impactful technology solutions.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "At LinkedIn I worked across the full backend stack, including online services, offline batch pipelines, and nearline processing, building distributed systems that powered Sales Navigator's most critical enterprise features.\n \nMy first major project was leading the complete re-architecture of the Sales Navigator ROI Report, migrating the entire infrastructure off AWS onto LinkedIn's native distributed systems stack. This involved rewriting Storm topologies and Pig scripts into Spark jobs, and building an encryption-at-rest model to handle highly sensitive CRM data. The result was a reduction in report generation time from 5 days to 8 hours, a feature that directly supports enterprise contract renewals by quantifying Sales Navigator's impact on closed deals.\n \nFrom there I moved to the CRM Platform team as tech lead, owning the integration of Sales Navigator with Salesforce and Microsoft Dynamics. I led development of a data pipeline that extracted CRM insights for downstream data science consumption, built a contact creation feature allowing sellers to create CRM leads directly from LinkedIn, and redesigned the encryption scheme enabling more efficient access to CRM data across the platform.\n \nMost recently I worked on Sales Agent, an AI-powered agentic system that autonomously finds and ranks leads for sellers based on their preferences and criteria using LLMs and GenAI. I built the measurement pipelines in Temporal that tracked Sales Agent's performance, feeding quality signals back into model and product improvements. I also led the full fine-tuning lifecycle for the next-generation Eval model powering people search, partnering with PM to define evaluation policy to address gaps in the v1 model, curating a golden dataset, generating training data, and running the fine-tuning pipeline through to benchmark criteria.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1337/",
+     "name": "LinkedIn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "At Salesforce I worked across two product orgs, Communities Cloud and Sales Cloud, taking on progressively more complex technical leadership over time.\n \nIn Communities Cloud I was on the Content Platform team, where I worked on Salesforce File Sync, File Previews, and Communities Builder. That role gave me a foundation in building reliable, customer-facing content infrastructure at Salesforce scale.\n \nIn Sales Cloud I stepped into a tech lead role, where my most significant work was owning the Microsoft and Google Calendar/Contact sync with Salesforce. I led the technical design and delivery of a bidirectional sync integration keeping Salesforce CRM data in lockstep with the tools sellers live in every day, a deceptively hard problem given the consistency and reliability requirements at enterprise scale.\n \nThe capstone of my time there was leading the integration of the SIQ acquisition into Salesforce's sync infrastructure. I architected the migration from a pull-based sync model to a push-based model, reducing sync time from a few hours to a few minutes for enterprise customers. It was a fundamental rethink of how calendar and contact data flows into Salesforce, and one of the more technically satisfying problems I worked on.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3185/",
+     "name": "Salesforce",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "McClellan, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "Key contributor to two of our business sectors largest projects.  Acted as tech lead for ELINT software by providing flight support and supplying solutions/bug fixes for any types of issues that arise with the software.  Worked closely with system integration teams to identify and resolve integration issues.  Lead effort to integrate various independent software components into a product line.  Integrated legacy build processes into Electric Commander greatly reducing build time and minimizing build errors.\n\nDesigned and developed a diagnostic web application utilizing GWT/JSON/C++/XML/XSLT used by engineers during pre flight activities to check out the overall system health of the payload.  This tool greatly benefited system engineers in the field because it removed the necessity of a ground station to communicate with the payload.\n\nLead an agile team to develop a payload simulator capable of simulating battle field scenarios using Java, C, C++, and Izpack.  Performed client site installs for the payload simulator and gave presentations regarding how to use, configure, and task the simulator.  Designed and developed a battle field scenario generator meant to be consumed by our payload simulator using Java and the NASA World Wind SDK.  \n\nDesigned and developed an Attack Engine using Apache Service Mix and Metasploit capable of performing cyber attacks on target networks using a simple Java API.\n\nAssisted upper management in the hiring process of new employees.  This included conducting interviews, writing reviews, and participating in meetings regarding extending offers to possible candidates.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI"
+     }
+    }
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Acted as lead web developer in the Sacramento office with no supervision working as the primary developer for many of our products.  Built numerous GIS solutions according to client requirements using ESRI and .NET technologies used by city municipality divisions to manage resources.  Created installers for many existing legacy software products that previously had no automatic installation process making client site integration seamless.  Attended meetings at client sites to perform installations and debug problems.  Acted as technical lead for our software teams that were oversees by making sure software they developed was on time and met requirements.",
+    "company": {
+     "url": "",
+     "name": "GeoPrise",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Assisted web master in designing, maintaining, and updating content for numerous client web sites built upon Django and Drupal.  Responsible for generating and sending out newsletters from client specified content using Constant Contact.  Redesigned websites to leverage CSS in order to make maintenance easier.  Wrote cron scripts designed to automate system maintenance.",
+    "company": {
+     "url": "https://www.linkedin.com/company/241491/",
+     "name": "Smith Moore and Associates, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY"
+     }
+    }
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Acted as a software intern for a remote team under minimal supervision.  Ported various developer tools ran solely in Unix to work in the Windows environment.  Enhanced many existing tools that were used to produce CPU logic validation tools to make usability easier for testers.  Created a regression test suite used by developers to track bugs and validate new releases.  Extensively utilized Perl scripting to accomplish various tasks.  Assisted senior developers in optimizing CPU memory caching techniques.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    }
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Performed CPU validation tests to verify CPUs were able to run at the speed and temperature specified.  Integrated industry standard benchmarking tools such as 3DMark into existing automated test suites.  Responsible for debugging faulty platforms and automation issues.  Worked with senior engineers to perform thermal validation tests on CPUs to verify components are running at the specified guard band.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_200_200/B56ZyLkMgDJQAI-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=RcSQV7EK8cO_bzz2vOT-xNxW4GYAGqMJ98nSUQv4fNk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_100_100/B56ZyLkMgDJQAQ-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=Ns18il4gsDtWPzd-gcwI4w6aczaFbbdL-VQf4Kl8iW0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10303/",
+    "schoolName": "California State University-Sacramento",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "LinkedIn",
+  "companyPublicId": "linkedin",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/linkedin/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1337",
+   "name": "LinkedIn",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQHaVYd13rRz3A",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+       "expiresAt": 1796256000000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+       "expiresAt": 1796256000000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_"
+    }
+   },
+   "universalName": "linkedin",
+   "url": "https://www.linkedin.com/company/linkedin/",
+   "slug": "linkedin",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+   "specialties": []
+  },
+  "followerCount": 530,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [
+   "PROFILE_CUSTOM_CTA",
+   "FEATURED_PROFILE_SECTION",
+   "COVER_PHOTO_CAROUSEL"
+  ],
+  "pronunciationUrl": "",
+  "connectionsCount": 524,
+  "skills": [
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Temporal",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Semantic Search",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Salesforce.com Implementation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Eclipse",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "AJAX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Semantic Search",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Salesforce.com Implementation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineering",
+    "endorsements": 13,
+    "experiences": ""
+   },
+   {
+    "name": "Metasploit",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Design",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Emacs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Motif",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Subversion",
+    "endorsements": 7,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "XML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Visual Studio",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Eclipse",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "AJAX",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ClearCase",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "XSLT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android SDK",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "ASP.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "VB.NET",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/bhaves-patel-046a4840",
+  "linkedinUrl": "https://www.linkedin.com/in/bhaves-patel-046a4840",
+  "profileUrl": "https://www.linkedin.com/in/bhaves-patel-046a4840",
+  "verified": true,
+  "registeredAt": "2011-10-10T17:26:10.123Z",
+  "location": {
+   "linkedinText": "San Francisco Bay Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco Bay Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "With over 15 years of experience in software engineering, I specialize in CRM integrations, semantic search, and data pipeline optimization. Currently, I contribute to LinkedIn as a Software Engineer, focusing on enhancing Sales Navigator to empower sellers with data-driven insights and streamlined workflows. Passionate about crafting scalable solutions, I aim to align technology with user needs, fostering business growth and innovation.  \n\nAt LinkedIn, I lead CRM integrations and re-architected the Sales Navigator ROI report to deliver actionable insights. My work on the search stack, including semantic search development and performance analytics, has enhanced user experience and system efficiency. I am driven by collaborative problem-solving and a commitment to building impactful technology solutions.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Software Engineer",
+   "Software Engineer",
+   "Web Developer",
+   "Web Developer",
+   "Engineering Intern",
+   "Engineering Intern"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "At LinkedIn I worked across the full backend stack, including online services, offline batch pipelines, and nearline processing, building distributed systems that powered Sales Navigator's most critical enterprise features.\n \nMy first major project was leading the complete re-architecture of the Sales Navigator ROI Report, migrating the entire infrastructure off AWS onto LinkedIn's native distributed systems stack. This involved rewriting Storm topologies and Pig scripts into Spark jobs, and building an encryption-at-rest model to handle highly sensitive CRM data. The result was a reduction in report generation time from 5 days to 8 hours, a feature that directly supports enterprise contract renewals by quantifying Sales Navigator's impact on closed deals.\n \nFrom there I moved to the CRM Platform team as tech lead, owning the integration of Sales Navigator with Salesforce and Microsoft Dynamics. I led development of a data pipeline that extracted CRM insights for downstream data science consumption, built a contact creation feature allowing sellers to create CRM leads directly from LinkedIn, and redesigned the encryption scheme enabling more efficient access to CRM data across the platform.\n \nMost recently I worked on Sales Agent, an AI-powered agentic system that autonomously finds and ranks leads for sellers based on their preferences and criteria using LLMs and GenAI. I built the measurement pipelines in Temporal that tracked Sales Agent's performance, feeding quality signals back into model and product improvements. I also led the full fine-tuning lifecycle for the next-generation Eval model powering people search, partnering with PM to define evaluation policy to address gaps in the v1 model, curating a golden dataset, generating training data, and running the fine-tuning pipeline through to benchmark criteria.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1337/",
+     "name": "LinkedIn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "LinkedIn",
+    "location": "San Francisco, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1337/",
+    "companyId": "1337",
+    "duration": "7 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "At Salesforce I worked across two product orgs, Communities Cloud and Sales Cloud, taking on progressively more complex technical leadership over time.\n \nIn Communities Cloud I was on the Content Platform team, where I worked on Salesforce File Sync, File Previews, and Communities Builder. That role gave me a foundation in building reliable, customer-facing content infrastructure at Salesforce scale.\n \nIn Sales Cloud I stepped into a tech lead role, where my most significant work was owning the Microsoft and Google Calendar/Contact sync with Salesforce. I led the technical design and delivery of a bidirectional sync integration keeping Salesforce CRM data in lockstep with the tools sellers live in every day, a deceptively hard problem given the consistency and reliability requirements at enterprise scale.\n \nThe capstone of my time there was leading the integration of the SIQ acquisition into Salesforce's sync infrastructure. I architected the migration from a pull-based sync model to a push-based model, reducing sync time from a few hours to a few minutes for enterprise customers. It was a fundamental rethink of how calendar and contact data flows into Salesforce, and one of the more technically satisfying problems I worked on.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3185/",
+     "name": "Salesforce",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Salesforce",
+    "location": "San Francisco, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3185/",
+    "companyId": "3185",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "McClellan, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "Key contributor to two of our business sectors largest projects.  Acted as tech lead for ELINT software by providing flight support and supplying solutions/bug fixes for any types of issues that arise with the software.  Worked closely with system integration teams to identify and resolve integration issues.  Lead effort to integrate various independent software components into a product line.  Integrated legacy build processes into Electric Commander greatly reducing build time and minimizing build errors.\n\nDesigned and developed a diagnostic web application utilizing GWT/JSON/C++/XML/XSLT used by engineers during pre flight activities to check out the overall system health of the payload.  This tool greatly benefited system engineers in the field because it removed the necessity of a ground station to communicate with the payload.\n\nLead an agile team to develop a payload simulator capable of simulating battle field scenarios using Java, C, C++, and Izpack.  Performed client site installs for the payload simulator and gave presentations regarding how to use, configure, and task the simulator.  Designed and developed a battle field scenario generator meant to be consumed by our payload simulator using Java and the NASA World Wind SDK.  \n\nDesigned and developed an Attack Engine using Apache Service Mix and Metasploit capable of performing cyber attacks on target networks using a simple Java API.\n\nAssisted upper management in the hiring process of new employees.  This included conducting interviews, writing reviews, and participating in meetings regarding extending offers to possible candidates.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Northrop Grumman",
+    "location": "McClellan, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1412/",
+    "companyId": "1412",
+    "duration": "4 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Acted as lead web developer in the Sacramento office with no supervision working as the primary developer for many of our products.  Built numerous GIS solutions according to client requirements using ESRI and .NET technologies used by city municipality divisions to manage resources.  Created installers for many existing legacy software products that previously had no automatic installation process making client site integration seamless.  Attended meetings at client sites to perform installations and debug problems.  Acted as technical lead for our software teams that were oversees by making sure software they developed was on time and met requirements.",
+    "company": {
+     "url": "",
+     "name": "GeoPrise",
+     "logo": {}
+    },
+    "position": "Web Developer",
+    "companyName": "GeoPrise",
+    "location": "Sacramento, California Area",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Assisted web master in designing, maintaining, and updating content for numerous client web sites built upon Django and Drupal.  Responsible for generating and sending out newsletters from client specified content using Constant Contact.  Redesigned websites to leverage CSS in order to make maintenance easier.  Wrote cron scripts designed to automate system maintenance.",
+    "company": {
+     "url": "https://www.linkedin.com/company/241491/",
+     "name": "Smith Moore and Associates, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY"
+     }
+    },
+    "position": "Web Developer",
+    "companyName": "Smith Moore and Associates, Inc",
+    "location": "Sacramento, California Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/241491/",
+    "companyId": "241491",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2008
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Acted as a software intern for a remote team under minimal supervision.  Ported various developer tools ran solely in Unix to work in the Windows environment.  Enhanced many existing tools that were used to produce CPU logic validation tools to make usability easier for testers.  Created a regression test suite used by developers to track bugs and validate new releases.  Extensively utilized Perl scripting to accomplish various tasks.  Assisted senior developers in optimizing CPU memory caching techniques.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    },
+    "position": "Engineering Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Performed CPU validation tests to verify CPUs were able to run at the speed and temperature specified.  Integrated industry standard benchmarking tools such as 3DMark into existing automated test suites.  Responsible for debugging faulty platforms and automation issues.  Worked with senior engineers to perform thermal validation tests on CPUs to verify components are running at the specified guard band.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    },
+    "position": "Engineering Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2006
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1337",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1337/",
+    "companyName": "LinkedIn",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 5 mos",
+    "description": "At LinkedIn I worked across the full backend stack, including online services, offline batch pipelines, and nearline processing, building distributed systems that powered Sales Navigator's most critical enterprise features.\n \nMy first major project was leading the complete re-architecture of the Sales Navigator ROI Report, migrating the entire infrastructure off AWS onto LinkedIn's native distributed systems stack. This involved rewriting Storm topologies and Pig scripts into Spark jobs, and building an encryption-at-rest model to handle highly sensitive CRM data. The result was a reduction in report generation time from 5 days to 8 hours, a feature that directly supports enterprise contract renewals by quantifying Sales Navigator's impact on closed deals.\n \nFrom there I moved to the CRM Platform team as tech lead, owning the integration of Sales Navigator with Salesforce and Microsoft Dynamics. I led development of a data pipeline that extracted CRM insights for downstream data science consumption, built a contact creation feature allowing sellers to create CRM leads directly from LinkedIn, and redesigned the encryption scheme enabling more efficient access to CRM data across the platform.\n \nMost recently I worked on Sales Agent, an AI-powered agentic system that autonomously finds and ranks leads for sellers based on their preferences and criteria using LLMs and GenAI. I built the measurement pipelines in Temporal that tracked Sales Agent's performance, feeding quality signals back into model and product improvements. I also led the full fine-tuning lifecycle for the next-generation Eval model powering people search, partnering with PM to define evaluation policy to address gaps in the v1 model, curating a golden dataset, generating training data, and running the fine-tuning pipeline through to benchmark criteria.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1337/",
+     "name": "LinkedIn",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "LinkedIn",
+    "location": "San Francisco, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1337/",
+    "companyId": "1337",
+    "duration": "7 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_400_400/company-logo_400_400/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=3R4X1QvhfKAnPpnYhE8XUxqpmtqYaRxvaNhgLYqOkf8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_200_200/company-logo_200_200/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=FHuf3kOsiL-d6Q9ZCzIzXpQzVcEfzVu3Qkp-l7wlY-k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHaVYd13rRz3A/company-logo_100_100/company-logo_100_100/0/1638831590218/linkedin_logo?e=1796256000&v=beta&t=dMMjvzz-sP8niZpnmwJ_FzDiddpfK_9gb1y0xWd-15Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "San Francisco, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "description": "At Salesforce I worked across two product orgs, Communities Cloud and Sales Cloud, taking on progressively more complex technical leadership over time.\n \nIn Communities Cloud I was on the Content Platform team, where I worked on Salesforce File Sync, File Previews, and Communities Builder. That role gave me a foundation in building reliable, customer-facing content infrastructure at Salesforce scale.\n \nIn Sales Cloud I stepped into a tech lead role, where my most significant work was owning the Microsoft and Google Calendar/Contact sync with Salesforce. I led the technical design and delivery of a bidirectional sync integration keeping Salesforce CRM data in lockstep with the tools sellers live in every day, a deceptively hard problem given the consistency and reliability requirements at enterprise scale.\n \nThe capstone of my time there was leading the integration of the SIQ acquisition into Salesforce's sync infrastructure. I architected the migration from a pull-based sync model to a push-based model, reducing sync time from a few hours to a few minutes for enterprise customers. It was a fundamental rethink of how calendar and contact data flows into Salesforce, and one of the more technically satisfying problems I worked on.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3185/",
+     "name": "Salesforce",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Salesforce",
+    "location": "San Francisco, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3185/",
+    "companyId": "3185",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_400_400/B56Z3aploQGoAY-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=DjCnwT8AoERFWeUBvuEBtcRlVDQtfe1GcbqTGK-cUZo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_200_200/B56Z3aploQGoAI-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=3HOBt_B5Gf-w3VBf9PmhdBaTkD2ByHo0Kt5S4ce8vuc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFuQMSI3zgmRw/company-logo_100_100/B56Z3aploQGoAQ-/0/1777489828808/salesforce_logo?e=1796256000&v=beta&t=0kaB748eqimKoaXDFwCjvJbCBMS38d_FFCMs89hiIeo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "McClellan, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2009
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2013
+     }
+    },
+    "totalDuration": "4 yrs 6 mos",
+    "description": "Key contributor to two of our business sectors largest projects.  Acted as tech lead for ELINT software by providing flight support and supplying solutions/bug fixes for any types of issues that arise with the software.  Worked closely with system integration teams to identify and resolve integration issues.  Lead effort to integrate various independent software components into a product line.  Integrated legacy build processes into Electric Commander greatly reducing build time and minimizing build errors.\n\nDesigned and developed a diagnostic web application utilizing GWT/JSON/C++/XML/XSLT used by engineers during pre flight activities to check out the overall system health of the payload.  This tool greatly benefited system engineers in the field because it removed the necessity of a ground station to communicate with the payload.\n\nLead an agile team to develop a payload simulator capable of simulating battle field scenarios using Java, C, C++, and Izpack.  Performed client site installs for the payload simulator and gave presentations regarding how to use, configure, and task the simulator.  Designed and developed a battle field scenario generator meant to be consumed by our payload simulator using Java and the NASA World Wind SDK.  \n\nDesigned and developed an Attack Engine using Apache Service Mix and Metasploit capable of performing cyber attacks on target networks using a simple Java API.\n\nAssisted upper management in the hiring process of new employees.  This included conducting interviews, writing reviews, and participating in meetings regarding extending offers to possible candidates.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Northrop Grumman",
+    "location": "McClellan, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1412/",
+    "companyId": "1412",
+    "duration": "4 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "year": 2009
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2013
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=dgPg8LiS-DQiCxZ-LnmNc9Vag_B7GDQNKI0fq2UtstI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=fwr8V1stTl6oPzIpwZ0K3y1r8DAPHjoxM_4PqQ1zw4k",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1796256000&v=beta&t=2jACTgMgfUWUYoyWXjSK-GJbK52tqmUQVQHN_Nxuac4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2008
+     },
+     "endDate": {
+      "year": 2009
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Acted as lead web developer in the Sacramento office with no supervision working as the primary developer for many of our products.  Built numerous GIS solutions according to client requirements using ESRI and .NET technologies used by city municipality divisions to manage resources.  Created installers for many existing legacy software products that previously had no automatic installation process making client site integration seamless.  Attended meetings at client sites to perform installations and debug problems.  Acted as technical lead for our software teams that were oversees by making sure software they developed was on time and met requirements.",
+    "company": {
+     "url": "",
+     "name": "GeoPrise",
+     "logo": {}
+    },
+    "position": "Web Developer",
+    "companyName": "GeoPrise",
+    "location": "Sacramento, California Area",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2008
+    },
+    "endDate": {
+     "year": 2009
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "Sacramento, California Area",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2008
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "Assisted web master in designing, maintaining, and updating content for numerous client web sites built upon Django and Drupal.  Responsible for generating and sending out newsletters from client specified content using Constant Contact.  Redesigned websites to leverage CSS in order to make maintenance easier.  Wrote cron scripts designed to automate system maintenance.",
+    "company": {
+     "url": "https://www.linkedin.com/company/241491/",
+     "name": "Smith Moore and Associates, Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY"
+     }
+    },
+    "position": "Web Developer",
+    "companyName": "Smith Moore and Associates, Inc",
+    "location": "Sacramento, California Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/241491/",
+    "companyId": "241491",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2008
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_400_400/company-logo_400_400/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=8pGXcqqni7WPU2B2ADirj53SJXwZwrGSDXAcjDjcHVY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_200_200/company-logo_200_200/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=Z8aW-2nsMKjkeFNeZCYPv4BYnIXOyBNE2lhBcv3EAEs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHOLT8g9Fa2SQ/company-logo_100_100/company-logo_100_100/0/1689700430388/smith_moore_and_associates_inc_logo?e=1796256000&v=beta&t=thX6a51Xiux4Vd7XwvBR5wIJu65KshJIk_4TSN7OsT8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2007
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Acted as a software intern for a remote team under minimal supervision.  Ported various developer tools ran solely in Unix to work in the Windows environment.  Enhanced many existing tools that were used to produce CPU logic validation tools to make usability easier for testers.  Created a regression test suite used by developers to track bugs and validate new releases.  Extensively utilized Perl scripting to accomplish various tasks.  Assisted senior developers in optimizing CPU memory caching techniques.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    },
+    "position": "Engineering Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 2007
+    },
+    "endDate": {
+     "year": 2007
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Engineering Intern",
+    "locationName": "Folsom, CA",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2006
+     }
+    },
+    "totalDuration": "Less than a year",
+    "description": "Performed CPU validation tests to verify CPUs were able to run at the speed and temperature specified.  Integrated industry standard benchmarking tools such as 3DMark into existing automated test suites.  Responsible for debugging faulty platforms and automation issues.  Worked with senior engineers to perform thermal validation tests on CPUs to verify components are running at the specified guard band.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig"
+     }
+    },
+    "position": "Engineering Intern",
+    "companyName": "Intel Corporation",
+    "location": "Folsom, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "Less than a year",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2006
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=bDUUbR8zRtToIQf24zJ_mMrJErn9D0TsWsG-PWGw6Ig",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1796256000&v=beta&t=czgzOrl0qRXjGjVQ6G9BJ5Izxi4Xg5ZnuZO951C-Xmc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1796256000&v=beta&t=fHg7vt_AijPFvZ7kcnAuhpgsDhkyDlJ1qEDSJtkANIU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_200_200/B56ZyLkMgDJQAI-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=RcSQV7EK8cO_bzz2vOT-xNxW4GYAGqMJ98nSUQv4fNk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_100_100/B56ZyLkMgDJQAQ-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=Ns18il4gsDtWPzd-gcwI4w6aczaFbbdL-VQf4Kl8iW0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_200_200/B56ZyLkMgDJQAI-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=RcSQV7EK8cO_bzz2vOT-xNxW4GYAGqMJ98nSUQv4fNk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_100_100/B56ZyLkMgDJQAQ-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=Ns18il4gsDtWPzd-gcwI4w6aczaFbbdL-VQf4Kl8iW0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10303/",
+    "schoolName": "California State University-Sacramento",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10303/",
+    "schoolId": "10303",
+    "degree": "BS",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_200_200/B56ZyLkMgDJQAI-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=RcSQV7EK8cO_bzz2vOT-xNxW4GYAGqMJ98nSUQv4fNk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_100_100/B56ZyLkMgDJQAQ-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=Ns18il4gsDtWPzd-gcwI4w6aczaFbbdL-VQf4Kl8iW0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_400_400/B56ZyLkMgDJQAY-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=TV3ZOPjYbSkNNINhlauWXULKeZ533WzuVOWbjPh4huw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_200_200/B56ZyLkMgDJQAI-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=RcSQV7EK8cO_bzz2vOT-xNxW4GYAGqMJ98nSUQv4fNk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHmfoYb2NL6JQ/company-logo_100_100/B56ZyLkMgDJQAQ-/0/1771868047921/sacstate_logo?e=1796256000&v=beta&t=Ns18il4gsDtWPzd-gcwI4w6aczaFbbdL-VQf4Kl8iW0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10303/",
+    "schoolName": "California State University-Sacramento",
+    "degreeName": "BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10303/",
+    "schoolId": "10303",
+    "degree": "BS",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+   "337x337": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+     "width": 337,
+     "height": 337
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+   "337x337": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+     "width": 337,
+     "height": 337
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+   "337x337": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1516930114144?e=1796256000&v=beta&t=lewNjA_TloCQ2bpmErX1f58Vp-WVddAm8_ed0FLAAzk",
+     "width": 337,
+     "height": 337
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1516930114170?e=1796256000&v=beta&t=UiBG4AT4378m5nKvD8jcve7oeal6u99OAGnl6DprVps",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHr69RlZc0vrA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1516930114218?e=1796256000&v=beta&t=o9L3-Mz5OVUvwYJTBvp-gFZDfbqFFk38cgf55aOhC3c",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/bhaves-patel-046a4840"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-17T12:47:19.475Z",
+ "foundBy": null
+}

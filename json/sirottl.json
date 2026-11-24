@@ -1,0 +1,792 @@
+{
+ "slug": "sirottl",
+ "inputUrl": "https://www.linkedin.com/in/sirottl",
+ "fetchedAt": "2026-11-13T00:53:31.822Z",
+ "id": "6af65f8b326d0b70b7e24345",
+ "url": "https://www.linkedin.com/in/sirottl",
+ "profile": {
+  "created": 1548048317923,
+  "trackingId": "iVXhLXpdTWSwFQ+YNcQSzg==",
+  "firstName": "Sun Bong",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "1697750342",
+  "headline": "Senior Software Engineer | Java · Spring Boot · PostgreSQL · AWS · Kubernetes | Fintech transaction platforms | AI-assisted development (Claude Code) | Irvine, CA",
+  "publicIdentifier": "sirottl",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "707613213",
+  "profileId": "ACoAACotUh0B9SZNcgJ_dTT4lWaaHBCS-bTEt6s",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:103575230",
+  "geoLocationName": "Irvine, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer (Java / Full Stack)",
+  "summary": "I build and run the systems where money, identity, and settlement all have to change together.\n\nFor the past 9 years I've been the lead engineer on Pointropay, a fintech platform in Korea that converts gift card PINs and cash into points and pays out as bank refunds and mobile gift cards. I own the Java 17 / Spring Boot 3 backend — a transaction ledger with Redis-based distributed locking, cancellation and month-boundary reconciliation, partial-failure handling for multi-item issuance, and a token-based identity layer — and the production side that keeps it running: Kubernetes, a 13M+ row time-partitioned PostgreSQL 17 ledger, backups and WAL archiving, and request-correlated observability. On top of that sit a React/GraphQL customer web, a Next.js/Supabase operations CMS for settlement staff, and a Flutter app for Android and iOS.\n\nBefore that, 16 years at Omnitel, where I led a backend team as the company grew from startup to IPO on the Korean market.\n\nWhat I care about: \n• Correctness under concurrency — append-only ledgers, idempotency, compensations, and knowing exactly what a lock does and doesn't guarantee \n• Databases as a first-class part of the design — partitioning, index-aligned query paths, zero-downtime schema changes \n• Operability from day one — trace IDs, vendor latency instrumentation, PII masking, alerts that mean something \n• AI-assisted engineering with discipline — I use Claude Code daily in a spec-first, test-first loop for refactoring, characterization tests, and legacy conversion; nothing merges unreviewed\n\nStack:\nJava, Spring Boot, Spring Security, JPA/QueryDSL, PostgreSQL, Redis, GraphQL, ReactJS, Next.js, TypeScript, Flutter, Docker, Kubernetes, GitLab CI/GitHub Actions, AWS (Lambda, API Gateway, S3), Supabase, OAuth 2.0/JWT.\n\nBased in Irvine, CA. Bilingual Korean/English — comfortable working between Korean headquarters and US teams. Open to senior backend, full stack, and platform modernization roles.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer (Java / Full Stack)",
+    "locationName": "Seoul, South Korea · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 8 mos",
+    "employmentType": "Full-time",
+    "description": "Lead engineer for Pointropay, a fintech platform that converts gift card PINs and cash into points and pays out as bank refunds and mobile gift cards. Own the Java/Spring Boot backend, the production Kubernetes environment, and the React, Next.js, and Flutter clients on top of it.\n\n• Designed a Java 17 / Spring Boot 3 transaction backend (Hexagonal architecture) deployed as 16 role-separated Kubernetes services from a single artifact \n• Built user-scoped Redis/Redisson distributed locks, an append-only cancellation ledger with post-transfer guards and month-boundary reconciliation, and per-item ledger records for partial-failure gift issuance \n• Implemented identity and access flows: Spring Security, OAuth 2.0/JWT sessions, Redis-backed opaque identity tickets, PostgreSQL row-level security — kept consistent across web and mobile \n• Manage a 13M+ row time-partitioned PostgreSQL 17 ledger (66 monthly partitions, pg_partman retention, pg_cron) and tune query paths with partition keys, composite FKs, and index-aligned filters \n• Built production observability: request trace IDs, AOP vendor latency/failure instrumentation, PII masking; operate daily pg_basebackup + WAL archiving with 14-day retention\n• Operate Docker/Kubernetes (RKE2, K3s, Rancher) delivery with GitLab CI/CD, ingress-nginx/Traefik, cert-manager, and HAProxy load balancing for external payment vendors; integrate AWS Lambda, API Gateway, S3 • Developed the React/Apollo GraphQL customer web (Express BFF, SSR), the Next.js/Refine/Supabase operations CMS (search, server-side aggregates, CSV reconciliation exports, role-based access), and the Flutter Android/iOS app (biometric login, gift conversion, Fastlane/TestFlight releases) \n• Use Claude Code daily in a spec-first, test-first workflow for refactoring, characterization tests, and legacy code conversion",
+    "insights": "Java, Spring Boot, PostgreSQL, Kubernetes, React.js",
+    "company": {
+     "url": "",
+     "name": "Omninetworks Inc.",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Backend Java Software Engineer / Team Lead",
+    "locationName": "Seoul, South Korea · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "16 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Led a backend development team as the company grew from startup to a successful IPO in Korea, scaling Java systems that supported millions of users.\n\n• Designed, developed, and maintained Spring and Spring Boot enterprise applications using OOP principles, relational databases (MySQL, PostgreSQL), and system design best practices \n• Mentored engineers and owned code quality, delivery timelines, and alignment with business requirements through code reviews and technical guidance \n• Delivered projects across the full SDLC under both Waterfall and Agile methodologies, from requirements analysis to production support",
+    "insights": "Java, Spring Framework, Team Leadership, System Design, MySQL",
+    "company": {
+     "url": "",
+     "name": "Omnitel Inc. ",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_200_200/company-logo_200_200/0/1631378602698?e=1796256000&v=beta&t=jolPuuat4okcOnzM9NQ0rcufDq9lCfkLEPM7w6mUtvk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_100_100/company-logo_100_100/0/1631378602698?e=1796256000&v=beta&t=tWsIdgIDBONEBSk0kxaEcI8ic5Wy3WsUIxppTma9rHg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15095335/",
+    "schoolName": "Hanyang University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Korean",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "",
+  "companyPublicId": "",
+  "companyLinkedinUrl": "",
+  "currentCompany": {
+   "specialties": []
+  },
+  "followerCount": 141,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 140,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Review",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI-Assisted Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FinTech",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Payment Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test-Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Domain-Driven Design (DDD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hexagonal Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Monitoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Observability",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Backup & Recovery Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Partitioning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Review",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FinTech",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Payment Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Systems Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration and Continuous Delivery (CI/CD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test-Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Domain-Driven Design (DDD)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Monitoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Backup & Recovery Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Performance Tuning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Identity and Access Management (IAM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gitlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dart",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Redis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JSON Web Token (JWT)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "OAuth",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HAProxy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Flutter",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jakarta Persistence",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Code",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Observability",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/sirottl",
+  "linkedinUrl": "https://www.linkedin.com/in/sirottl",
+  "profileUrl": "https://www.linkedin.com/in/sirottl",
+  "verified": true,
+  "registeredAt": "2019-01-21T05:25:17.923Z",
+  "location": {
+   "linkedinText": "Irvine, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Irvine, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build and run the systems where money, identity, and settlement all have to change together.\n\nFor the past 9 years I've been the lead engineer on Pointropay, a fintech platform in Korea that converts gift card PINs and cash into points and pays out as bank refunds and mobile gift cards. I own the Java 17 / Spring Boot 3 backend — a transaction ledger with Redis-based distributed locking, cancellation and month-boundary reconciliation, partial-failure handling for multi-item issuance, and a token-based identity layer — and the production side that keeps it running: Kubernetes, a 13M+ row time-partitioned PostgreSQL 17 ledger, backups and WAL archiving, and request-correlated observability. On top of that sit a React/GraphQL customer web, a Next.js/Supabase operations CMS for settlement staff, and a Flutter app for Android and iOS.\n\nBefore that, 16 years at Omnitel, where I led a backend team as the company grew from startup to IPO on the Korean market.\n\nWhat I care about: \n• Correctness under concurrency — append-only ledgers, idempotency, compensations, and knowing exactly what a lock does and doesn't guarantee \n• Databases as a first-class part of the design — partitioning, index-aligned query paths, zero-downtime schema changes \n• Operability from day one — trace IDs, vendor latency instrumentation, PII masking, alerts that mean something \n• AI-assisted engineering with discipline — I use Claude Code daily in a spec-first, test-first loop for refactoring, characterization tests, and legacy conversion; nothing merges unreviewed\n\nStack:\nJava, Spring Boot, Spring Security, JPA/QueryDSL, PostgreSQL, Redis, GraphQL, ReactJS, Next.js, TypeScript, Flutter, Docker, Kubernetes, GitLab CI/GitHub Actions, AWS (Lambda, API Gateway, S3), Supabase, OAuth 2.0/JWT.\n\nBased in Irvine, CA. Bilingual Korean/English — comfortable working between Korean headquarters and US teams. Open to senior backend, full stack, and platform modernization roles.",
+  "currentTitle": "Senior Software Engineer (Java / Full Stack)",
+  "allTitles": [
+   "Senior Software Engineer (Java / Full Stack)",
+   "Backend Java Software Engineer / Team Lead"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer (Java / Full Stack)",
+    "locationName": "Seoul, South Korea · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 8 mos",
+    "employmentType": "Full-time",
+    "description": "Lead engineer for Pointropay, a fintech platform that converts gift card PINs and cash into points and pays out as bank refunds and mobile gift cards. Own the Java/Spring Boot backend, the production Kubernetes environment, and the React, Next.js, and Flutter clients on top of it.\n\n• Designed a Java 17 / Spring Boot 3 transaction backend (Hexagonal architecture) deployed as 16 role-separated Kubernetes services from a single artifact \n• Built user-scoped Redis/Redisson distributed locks, an append-only cancellation ledger with post-transfer guards and month-boundary reconciliation, and per-item ledger records for partial-failure gift issuance \n• Implemented identity and access flows: Spring Security, OAuth 2.0/JWT sessions, Redis-backed opaque identity tickets, PostgreSQL row-level security — kept consistent across web and mobile \n• Manage a 13M+ row time-partitioned PostgreSQL 17 ledger (66 monthly partitions, pg_partman retention, pg_cron) and tune query paths with partition keys, composite FKs, and index-aligned filters \n• Built production observability: request trace IDs, AOP vendor latency/failure instrumentation, PII masking; operate daily pg_basebackup + WAL archiving with 14-day retention\n• Operate Docker/Kubernetes (RKE2, K3s, Rancher) delivery with GitLab CI/CD, ingress-nginx/Traefik, cert-manager, and HAProxy load balancing for external payment vendors; integrate AWS Lambda, API Gateway, S3 • Developed the React/Apollo GraphQL customer web (Express BFF, SSR), the Next.js/Refine/Supabase operations CMS (search, server-side aggregates, CSV reconciliation exports, role-based access), and the Flutter Android/iOS app (biometric login, gift conversion, Fastlane/TestFlight releases) \n• Use Claude Code daily in a spec-first, test-first workflow for refactoring, characterization tests, and legacy code conversion",
+    "insights": "Java, Spring Boot, PostgreSQL, Kubernetes, React.js",
+    "company": {
+     "url": "",
+     "name": "Omninetworks Inc.",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer (Java / Full Stack)",
+    "companyName": "Omninetworks Inc.",
+    "location": "Seoul, South Korea · Remote",
+    "duration": "9 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Backend Java Software Engineer / Team Lead",
+    "locationName": "Seoul, South Korea · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "16 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Led a backend development team as the company grew from startup to a successful IPO in Korea, scaling Java systems that supported millions of users.\n\n• Designed, developed, and maintained Spring and Spring Boot enterprise applications using OOP principles, relational databases (MySQL, PostgreSQL), and system design best practices \n• Mentored engineers and owned code quality, delivery timelines, and alignment with business requirements through code reviews and technical guidance \n• Delivered projects across the full SDLC under both Waterfall and Agile methodologies, from requirements analysis to production support",
+    "insights": "Java, Spring Framework, Team Leadership, System Design, MySQL",
+    "company": {
+     "url": "",
+     "name": "Omnitel Inc. ",
+     "logo": {}
+    },
+    "position": "Backend Java Software Engineer / Team Lead",
+    "companyName": "Omnitel Inc. ",
+    "location": "Seoul, South Korea · On-site",
+    "duration": "16 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2001
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyName": "Omninetworks Inc.",
+    "companyLogo": {}
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer (Java / Full Stack)",
+    "locationName": "Seoul, South Korea · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2017
+     },
+     "endDate": null
+    },
+    "totalDuration": "9 yrs 8 mos",
+    "employmentType": "Full-time",
+    "description": "Lead engineer for Pointropay, a fintech platform that converts gift card PINs and cash into points and pays out as bank refunds and mobile gift cards. Own the Java/Spring Boot backend, the production Kubernetes environment, and the React, Next.js, and Flutter clients on top of it.\n\n• Designed a Java 17 / Spring Boot 3 transaction backend (Hexagonal architecture) deployed as 16 role-separated Kubernetes services from a single artifact \n• Built user-scoped Redis/Redisson distributed locks, an append-only cancellation ledger with post-transfer guards and month-boundary reconciliation, and per-item ledger records for partial-failure gift issuance \n• Implemented identity and access flows: Spring Security, OAuth 2.0/JWT sessions, Redis-backed opaque identity tickets, PostgreSQL row-level security — kept consistent across web and mobile \n• Manage a 13M+ row time-partitioned PostgreSQL 17 ledger (66 monthly partitions, pg_partman retention, pg_cron) and tune query paths with partition keys, composite FKs, and index-aligned filters \n• Built production observability: request trace IDs, AOP vendor latency/failure instrumentation, PII masking; operate daily pg_basebackup + WAL archiving with 14-day retention\n• Operate Docker/Kubernetes (RKE2, K3s, Rancher) delivery with GitLab CI/CD, ingress-nginx/Traefik, cert-manager, and HAProxy load balancing for external payment vendors; integrate AWS Lambda, API Gateway, S3 • Developed the React/Apollo GraphQL customer web (Express BFF, SSR), the Next.js/Refine/Supabase operations CMS (search, server-side aggregates, CSV reconciliation exports, role-based access), and the Flutter Android/iOS app (biometric login, gift conversion, Fastlane/TestFlight releases) \n• Use Claude Code daily in a spec-first, test-first workflow for refactoring, characterization tests, and legacy code conversion",
+    "insights": "Java, Spring Boot, PostgreSQL, Kubernetes, React.js",
+    "company": {
+     "url": "",
+     "name": "Omninetworks Inc.",
+     "logo": {}
+    },
+    "position": "Senior Software Engineer (Java / Full Stack)",
+    "companyName": "Omninetworks Inc.",
+    "location": "Seoul, South Korea · Remote",
+    "duration": "9 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2017
+    },
+    "endDate": null,
+    "companyLogo": {},
+    "isCurrent": true
+   },
+   {
+    "title": "Backend Java Software Engineer / Team Lead",
+    "locationName": "Seoul, South Korea · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2001
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2017
+     }
+    },
+    "totalDuration": "16 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Led a backend development team as the company grew from startup to a successful IPO in Korea, scaling Java systems that supported millions of users.\n\n• Designed, developed, and maintained Spring and Spring Boot enterprise applications using OOP principles, relational databases (MySQL, PostgreSQL), and system design best practices \n• Mentored engineers and owned code quality, delivery timelines, and alignment with business requirements through code reviews and technical guidance \n• Delivered projects across the full SDLC under both Waterfall and Agile methodologies, from requirements analysis to production support",
+    "insights": "Java, Spring Framework, Team Leadership, System Design, MySQL",
+    "company": {
+     "url": "",
+     "name": "Omnitel Inc. ",
+     "logo": {}
+    },
+    "position": "Backend Java Software Engineer / Team Lead",
+    "companyName": "Omnitel Inc. ",
+    "location": "Seoul, South Korea · On-site",
+    "duration": "16 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2001
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_200_200/company-logo_200_200/0/1631378602698?e=1796256000&v=beta&t=jolPuuat4okcOnzM9NQ0rcufDq9lCfkLEPM7w6mUtvk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_100_100/company-logo_100_100/0/1631378602698?e=1796256000&v=beta&t=tWsIdgIDBONEBSk0kxaEcI8ic5Wy3WsUIxppTma9rHg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_200_200/company-logo_200_200/0/1631378602698?e=1796256000&v=beta&t=jolPuuat4okcOnzM9NQ0rcufDq9lCfkLEPM7w6mUtvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_100_100/company-logo_100_100/0/1631378602698?e=1796256000&v=beta&t=tWsIdgIDBONEBSk0kxaEcI8ic5Wy3WsUIxppTma9rHg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15095335/",
+    "schoolName": "Hanyang University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15095335/",
+    "schoolId": "15095335",
+    "degree": "Bachelor of Science - BS",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_200_200/company-logo_200_200/0/1631378602698?e=1796256000&v=beta&t=jolPuuat4okcOnzM9NQ0rcufDq9lCfkLEPM7w6mUtvk",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_100_100/company-logo_100_100/0/1631378602698?e=1796256000&v=beta&t=tWsIdgIDBONEBSk0kxaEcI8ic5Wy3WsUIxppTma9rHg",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_400_400/company-logo_400_400/0/1631378602698?e=1796256000&v=beta&t=mksNM3lHzWNVprvPB2y_0FSjJ8xF574SQIziULa4u4w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_200_200/company-logo_200_200/0/1631378602698?e=1796256000&v=beta&t=jolPuuat4okcOnzM9NQ0rcufDq9lCfkLEPM7w6mUtvk",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFC2NzK_ROPJg/company-logo_100_100/company-logo_100_100/0/1631378602698?e=1796256000&v=beta&t=tWsIdgIDBONEBSk0kxaEcI8ic5Wy3WsUIxppTma9rHg",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15095335/",
+    "schoolName": "Hanyang University",
+    "degreeName": "Bachelor of Science - BS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15095335/",
+    "schoolId": "15095335",
+    "degree": "Bachelor of Science - BS",
+    "skills": []
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+   "500x500": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1555790471780?e=1796256000&v=beta&t=7bNSHkp1myYO_cE-E0bp-AGsxgFTh_b5HI-z8tSVHHs",
+     "width": 500,
+     "height": 500
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1555790472029?e=1796256000&v=beta&t=ia873enoDHxq0SKjCvETmRdvSzh-1cFsnpFfNQpx7u0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1555790472004?e=1796256000&v=beta&t=LPz-rg-rsIaaQswmu-mu1XWEecg7vEaamV85DPav1eE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHNOLfncprWxQ/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1555790471880?e=1796256000&v=beta&t=yRMQ4dyyfcUoijJP1ByU2UTqWTlE48mUAs1MtHYpuhc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/sirottl"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T00:53:23.527Z",
+ "foundBy": null
+}

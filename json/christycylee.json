@@ -1,0 +1,1298 @@
+{
+ "slug": "christycylee",
+ "inputUrl": "https://www.linkedin.com/in/christycylee",
+ "fetchedAt": "2026-10-31T01:24:29.674Z",
+ "id": "6ae5434d4f8d6cb6ddd5ab10",
+ "url": "https://www.linkedin.com/in/christycylee",
+ "profile": {
+  "created": 1392101123002,
+  "trackingId": "qLMVFV8eTdaSZtF2Sl9FEQ==",
+  "firstName": "Christy",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "3740397552",
+  "headline": "Software Engineer at Facebook",
+  "publicIdentifier": "christycylee",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "322760154",
+  "profileId": "ACoAABM87doBUfAh-C1h_m61AGa9scHwlCewaPc",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+   "335x335": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+   "335x335": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104116203",
+  "geoLocationName": "Seattle, Washington, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Compiler toolchain engineer with an interest in linkers and loaders.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "description": "Python Language Services and Experience Team\n* Starting the company’s investment in Python developer experience, creating team roadmaps\n\nSQL Native Code Generation Team\n* Designed protocol to compile generated code at runtime and dynamically load back to running process. The system allowed users to have up-to-date runtime dependencies while minimizing latency overheads.\n* Rearchitected codebase dependencies to suit multiple build systems, unblocked the team to open source along with our partner team’s data engine accelerator library.\n* Drove meetings across partner teams to convince organization leaders that code generation should be pursued in conjunction with interpretative data engine evaluation, resolved organizational misalignment on design priorities.\n* Set up open source continuous integration pipelines across multiple operating systems and compiler\ntoolchains to maximize code portability.\n* Created a data serialization and deserialization library to help onboard Spark hash-joins to the new C++ backend, enabled the columnar-based data engine process to communicate with row-based data engines.\n\nServer LLVM Compilers Team\n* Brought the llvm lld linker to feature parity with the binutils gold linker, deployed lld at scale. The migration yielded 30 - 50% link time performance win.\n* Analyzed workflow performance and enable optimization techniques such as link time optimizations and profile guided optimizations, all the while balancing the tradeoffs between build time, runtime performance, and binary size. Hand tuned one of the largest C++ services and obtained around 10 million dollars in capacity savings.\n* Organized a cross-functional effort to prevent build problems due to static linking relocation overflows, leveraged the ELF format and added linker features to extend the possible code size. Examples include: improved cross-module LTO DWARF de-duplication, reordering symbols based on relocation distance, etc.",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    }
+   },
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "Baltimore, Maryland Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "•\tTeach classes on low-level computer systems and assembly programming\n•\tEvaluate and provide insightful feedback on homework and programming projects for the 200-level course Computer Systems Fundamentals\n•\tHold office hours to ensure students understand essential computer system concepts\n•\tAwarded the annual Outstanding Course Assistant Award in Spring 2017 by the Johns Hopkins University School of Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/3528/",
+     "name": "The Johns Hopkins University",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU"
+     }
+    }
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Menlo Park, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tDeployed an automated solution to every machine in the Facebook network to better understand internal encrypted traffic by incorporating entropy metrics and information theory, enabling network security engineers and technical program managers to identify and prioritize possible security vulnerabilities\n•\tConsolidated multiple data sources and persisted data about plaintext traffic to track progress of migrating plaintext traffic to encrypted transport protocols using Presto and MySQL\n•\tPerformed kernel programming to tag TCP retransmit packets and used eBPF to create traffic control filters ",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    }
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Reston, Virginia",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLaunched a full-stack solution to enable a user-friendly API for internal users to interact with backend servers via a Javascript front-end and a Java backend\n•\tCreated new integrations with company ChatBot for streamlined database queries for the backend data management team\n•\tManaged transatlantic quality assurance development process\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/292971/",
+     "name": "Videology, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s"
+     }
+    }
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLed a team of three in investigating the nature of word inflections in 800 different languages through machine learning techniques\n•\tConfigured supervised learning algorithm and processed data for training purpose using Python and Shell Scripting\n",
+    "company": {
+     "url": "",
+     "name": "Center for Language and Speech Processing",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3528/",
+    "schoolName": "The Johns Hopkins University",
+    "degreeName": "Master of Science in Engineering",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3528/",
+    "schoolName": "The Johns Hopkins University",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Outstanding Course Assistant Award ",
+    "description": "This award is presented annually to a student who has demonstrated outstanding effort and\nskill in assisting with computer science courses.",
+    "issueDate": {},
+    "issuer": "Issued by Johns Hopkins University Whiting School of Engineering · May 2017"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Student Mentor",
+    "companyName": "Baltimore Robotics Institute",
+    "description": "Taught VEX Robotics to children at the 33rd Street Community Centre\nMentored children and encouraged them throughout the engineering process",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "Baltimore Robotics Institute",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [
+   {
+    "name": "Omicron Delta Kappa",
+    "position": "May 2017 - Present",
+    "dateRange": {},
+    "description": "Omicron Delta Kappa (ΟΔΚ), also known as The Circle and ODK, is a national leadership honor society in the United States, with chapters, known as circles, at more than three hundred college campuses."
+   },
+   {
+    "name": "Upsilon Pi Epsilon",
+    "position": "Mar 2017 - Present",
+    "dateRange": {},
+    "description": "Upsilon Pi Epsilon (ΥΠΕ): International Honor Society for the Computing and Information Disciplines, is the first honor society dedicated to the discipline of the computing and information disciplines."
+   }
+  ],
+  "volunteerCauses": [],
+  "companyName": "Facebook",
+  "companyPublicId": "facebook",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/facebook/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:76987811",
+   "name": "Facebook",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQHi-wrXiQcbxw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_"
+    }
+   },
+   "universalName": "facebook",
+   "url": "https://www.linkedin.com/company/facebook/",
+   "slug": "facebook",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+   "specialties": []
+  },
+  "followerCount": 288,
+  "mutualConnections": [],
+  "isVerified": false,
+  "verificationBadge": "",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 285,
+  "skills": [
+   {
+    "name": "Leadership",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 2,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/christycylee",
+  "linkedinUrl": "https://www.linkedin.com/in/christycylee",
+  "profileUrl": "https://www.linkedin.com/in/christycylee",
+  "verified": false,
+  "registeredAt": "2014-02-11T06:45:23.002Z",
+  "location": {
+   "linkedinText": "Seattle, Washington, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Seattle, Washington, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Compiler toolchain engineer with an interest in linkers and loaders.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Head Teaching Assistant",
+   "Software Engineering Intern",
+   "Software Engineering Intern",
+   "Research Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "description": "Python Language Services and Experience Team\n* Starting the company’s investment in Python developer experience, creating team roadmaps\n\nSQL Native Code Generation Team\n* Designed protocol to compile generated code at runtime and dynamically load back to running process. The system allowed users to have up-to-date runtime dependencies while minimizing latency overheads.\n* Rearchitected codebase dependencies to suit multiple build systems, unblocked the team to open source along with our partner team’s data engine accelerator library.\n* Drove meetings across partner teams to convince organization leaders that code generation should be pursued in conjunction with interpretative data engine evaluation, resolved organizational misalignment on design priorities.\n* Set up open source continuous integration pipelines across multiple operating systems and compiler\ntoolchains to maximize code portability.\n* Created a data serialization and deserialization library to help onboard Spark hash-joins to the new C++ backend, enabled the columnar-based data engine process to communicate with row-based data engines.\n\nServer LLVM Compilers Team\n* Brought the llvm lld linker to feature parity with the binutils gold linker, deployed lld at scale. The migration yielded 30 - 50% link time performance win.\n* Analyzed workflow performance and enable optimization techniques such as link time optimizations and profile guided optimizations, all the while balancing the tradeoffs between build time, runtime performance, and binary size. Hand tuned one of the largest C++ services and obtained around 10 million dollars in capacity savings.\n* Organized a cross-functional effort to prevent build problems due to static linking relocation overflows, leveraged the ELF format and added linker features to extend the possible code size. Examples include: improved cross-module LTO DWARF de-duplication, reordering symbols based on relocation distance, etc.",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Facebook",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/76987811/",
+    "companyId": "76987811",
+    "duration": "8 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2018
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "Baltimore, Maryland Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "•\tTeach classes on low-level computer systems and assembly programming\n•\tEvaluate and provide insightful feedback on homework and programming projects for the 200-level course Computer Systems Fundamentals\n•\tHold office hours to ensure students understand essential computer system concepts\n•\tAwarded the annual Outstanding Course Assistant Award in Spring 2017 by the Johns Hopkins University School of Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/3528/",
+     "name": "The Johns Hopkins University",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU"
+     }
+    },
+    "position": "Head Teaching Assistant",
+    "companyName": "The Johns Hopkins University",
+    "location": "Baltimore, Maryland Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3528/",
+    "companyId": "3528",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Menlo Park, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tDeployed an automated solution to every machine in the Facebook network to better understand internal encrypted traffic by incorporating entropy metrics and information theory, enabling network security engineers and technical program managers to identify and prioritize possible security vulnerabilities\n•\tConsolidated multiple data sources and persisted data about plaintext traffic to track progress of migrating plaintext traffic to encrypted transport protocols using Presto and MySQL\n•\tPerformed kernel programming to tag TCP retransmit packets and used eBPF to create traffic control filters ",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    },
+    "position": "Software Engineering Intern",
+    "companyName": "Facebook",
+    "location": "Menlo Park, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/76987811/",
+    "companyId": "76987811",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Reston, Virginia",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLaunched a full-stack solution to enable a user-friendly API for internal users to interact with backend servers via a Javascript front-end and a Java backend\n•\tCreated new integrations with company ChatBot for streamlined database queries for the backend data management team\n•\tManaged transatlantic quality assurance development process\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/292971/",
+     "name": "Videology, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s"
+     }
+    },
+    "position": "Software Engineering Intern",
+    "companyName": "Videology, Inc.",
+    "location": "Reston, Virginia",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/292971/",
+    "companyId": "292971",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLed a team of three in investigating the nature of word inflections in 800 different languages through machine learning techniques\n•\tConfigured supervised learning algorithm and processed data for training purpose using Python and Shell Scripting\n",
+    "company": {
+     "url": "",
+     "name": "Center for Language and Speech Processing",
+     "logo": {}
+    },
+    "position": "Research Assistant",
+    "companyName": "Center for Language and Speech Processing",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "76987811",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/76987811/",
+    "companyName": "Facebook",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2018
+     },
+     "endDate": null
+    },
+    "totalDuration": "8 yrs 4 mos",
+    "description": "Python Language Services and Experience Team\n* Starting the company’s investment in Python developer experience, creating team roadmaps\n\nSQL Native Code Generation Team\n* Designed protocol to compile generated code at runtime and dynamically load back to running process. The system allowed users to have up-to-date runtime dependencies while minimizing latency overheads.\n* Rearchitected codebase dependencies to suit multiple build systems, unblocked the team to open source along with our partner team’s data engine accelerator library.\n* Drove meetings across partner teams to convince organization leaders that code generation should be pursued in conjunction with interpretative data engine evaluation, resolved organizational misalignment on design priorities.\n* Set up open source continuous integration pipelines across multiple operating systems and compiler\ntoolchains to maximize code portability.\n* Created a data serialization and deserialization library to help onboard Spark hash-joins to the new C++ backend, enabled the columnar-based data engine process to communicate with row-based data engines.\n\nServer LLVM Compilers Team\n* Brought the llvm lld linker to feature parity with the binutils gold linker, deployed lld at scale. The migration yielded 30 - 50% link time performance win.\n* Analyzed workflow performance and enable optimization techniques such as link time optimizations and profile guided optimizations, all the while balancing the tradeoffs between build time, runtime performance, and binary size. Hand tuned one of the largest C++ services and obtained around 10 million dollars in capacity savings.\n* Organized a cross-functional effort to prevent build problems due to static linking relocation overflows, leveraged the ELF format and added linker features to extend the possible code size. Examples include: improved cross-module LTO DWARF de-duplication, reordering symbols based on relocation distance, etc.",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Facebook",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/76987811/",
+    "companyId": "76987811",
+    "duration": "8 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2018
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Head Teaching Assistant",
+    "locationName": "Baltimore, Maryland Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2017
+     }
+    },
+    "totalDuration": "1 yr",
+    "description": "•\tTeach classes on low-level computer systems and assembly programming\n•\tEvaluate and provide insightful feedback on homework and programming projects for the 200-level course Computer Systems Fundamentals\n•\tHold office hours to ensure students understand essential computer system concepts\n•\tAwarded the annual Outstanding Course Assistant Award in Spring 2017 by the Johns Hopkins University School of Engineering",
+    "company": {
+     "url": "https://www.linkedin.com/company/3528/",
+     "name": "The Johns Hopkins University",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU"
+     }
+    },
+    "position": "Head Teaching Assistant",
+    "companyName": "The Johns Hopkins University",
+    "location": "Baltimore, Maryland Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3528/",
+    "companyId": "3528",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2017
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Menlo Park, California",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tDeployed an automated solution to every machine in the Facebook network to better understand internal encrypted traffic by incorporating entropy metrics and information theory, enabling network security engineers and technical program managers to identify and prioritize possible security vulnerabilities\n•\tConsolidated multiple data sources and persisted data about plaintext traffic to track progress of migrating plaintext traffic to encrypted transport protocols using Presto and MySQL\n•\tPerformed kernel programming to tag TCP retransmit packets and used eBPF to create traffic control filters ",
+    "company": {
+     "url": "https://www.linkedin.com/company/76987811/",
+     "name": "Facebook",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw"
+     }
+    },
+    "position": "Software Engineering Intern",
+    "companyName": "Facebook",
+    "location": "Menlo Park, California",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/76987811/",
+    "companyId": "76987811",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_400_400/company-logo_400_400/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=DI57mwj2VnpFUlXqc_9JNqt-F9m6u5NBmWN5WiuxLKw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_200_200/company-logo_200_200/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=88TqBndNyXqSFS_aG_qiB05m0DfcQcx5Deq3Hp-OtL4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHi-wrXiQcbxw/company-logo_100_100/company-logo_100_100/0/1635988509331/facebook__logo?e=1795046400&v=beta&t=D-Pg0vLyr-LSEBJTxiGT1jXoQyXgvtaDH5ieeZ1OmWY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineering Intern",
+    "locationName": "Reston, Virginia",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLaunched a full-stack solution to enable a user-friendly API for internal users to interact with backend servers via a Javascript front-end and a Java backend\n•\tCreated new integrations with company ChatBot for streamlined database queries for the backend data management team\n•\tManaged transatlantic quality assurance development process\n",
+    "company": {
+     "url": "https://www.linkedin.com/company/292971/",
+     "name": "Videology, Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s"
+     }
+    },
+    "position": "Software Engineering Intern",
+    "companyName": "Videology, Inc.",
+    "location": "Reston, Virginia",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/292971/",
+    "companyId": "292971",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_400_400/company-logo_400_400/0/1631315207959?e=1795046400&v=beta&t=ddA5EDiPOEe-SH4fJ4mWtgiFAktLj4q2ZYs3HP3Vc3s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_200_200/company-logo_200_200/0/1631315207959?e=1795046400&v=beta&t=Z0GUm4Zqu7KzaPh2x9bEWec9uelhl_tzpeccTWoLrY0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQHIOYaT9exFKQ/company-logo_100_100/company-logo_100_100/0/1631315207959?e=1795046400&v=beta&t=kLax9LohUWbFfz-6uHCntjqmOoPsIVyOscrnvxcgrQU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2016
+     }
+    },
+    "totalDuration": "4 mos",
+    "description": "•\tLed a team of three in investigating the nature of word inflections in 800 different languages through machine learning techniques\n•\tConfigured supervised learning algorithm and processed data for training purpose using Python and Shell Scripting\n",
+    "company": {
+     "url": "",
+     "name": "Center for Language and Speech Processing",
+     "logo": {}
+    },
+    "position": "Research Assistant",
+    "companyName": "Center for Language and Speech Processing",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2016
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3528/",
+    "schoolName": "The Johns Hopkins University",
+    "degreeName": "Master of Science in Engineering",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3528/",
+    "schoolId": "3528",
+    "degree": "Master of Science in Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2018
+    }
+   },
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3528/",
+    "schoolName": "The Johns Hopkins University",
+    "degreeName": "Bachelor of Science (BS)",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3528/",
+    "schoolId": "3528",
+    "degree": "Bachelor of Science (BS)",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_400_400/B4EZs4eJd_JQAc-/0/1766178987371?e=1795046400&v=beta&t=lfOSUh3S4Vfm6zYJxFNUuTZ93BMihLdZ2zHYLJ24uKc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_200_200/B4EZs4eJd_JQAM-/0/1766178987371?e=1795046400&v=beta&t=VL38Ri5_vzd0rRbiEQd0juwrtiYQ_mLPFpoigRzmuP4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEe5RVEEkRh_Q/company-logo_100_100/B4EZs4eJd_JQAU-/0/1766178987371?e=1795046400&v=beta&t=6xjLiBZNCYR7XcRowunK4NXLMNnSP9J4quvvINk8rwU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3528/",
+    "schoolName": "The Johns Hopkins University",
+    "degreeName": "Master of Science in Engineering",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3528/",
+    "schoolId": "3528",
+    "degree": "Master of Science in Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Outstanding Course Assistant Award ",
+    "description": "This award is presented annually to a student who has demonstrated outstanding effort and\nskill in assisting with computer science courses.",
+    "issueDate": {},
+    "issuer": "Issued by Johns Hopkins University Whiting School of Engineering · May 2017"
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Student Mentor",
+    "companyName": "Baltimore Robotics Institute",
+    "description": "Taught VEX Robotics to children at the 33rd Street Community Centre\nMentored children and encouraged them throughout the engineering process",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "Baltimore Robotics Institute",
+     "logo": {}
+    },
+    "organization": "Baltimore Robotics Institute"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Student Mentor",
+    "companyName": "Baltimore Robotics Institute",
+    "description": "Taught VEX Robotics to children at the 33rd Street Community Centre\nMentored children and encouraged them throughout the engineering process",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2015
+     }
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "Baltimore Robotics Institute",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+   "335x335": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+     "width": 335,
+     "height": 335
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+   "335x335": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+     "width": 335,
+     "height": 335
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+   "335x335": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1522416960433?e=1795046400&v=beta&t=egj7SIB0WYBdzfVVUWhwvvX00l2ICcsWuF1Bttux1MI",
+     "width": 335,
+     "height": 335
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1522416960223?e=1795046400&v=beta&t=3kVTN9KzSJLvWHyDPA2amXZzSU_ofLp949mk_2t1vF4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFLW6Ary_yecg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1522416960238?e=1795046400&v=beta&t=-HZliE2MKxuEM0poqkkKDy-6MNpH75BMaR7sX7ttCAc",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/christycylee"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-31T01:24:09.750Z",
+ "foundBy": null
+}

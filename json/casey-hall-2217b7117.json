@@ -1,0 +1,1281 @@
+{
+ "slug": "casey-hall-2217b7117",
+ "inputUrl": "https://www.linkedin.com/in/casey-hall-2217b7117",
+ "fetchedAt": "2026-11-09T21:52:55.565Z",
+ "id": "6af240b7af440f0df0ab82d2",
+ "url": "https://www.linkedin.com/in/casey-hall-2217b7117",
+ "profile": {
+  "created": 1459474635789,
+  "trackingId": "t9sNVhhdQLGfgFoPST3MaA==",
+  "firstName": "Casey",
+  "lastName": "Hall",
+  "pronoun": null,
+  "versionTag": "1617061200",
+  "headline": "Senior Software Engineer",
+  "publicIdentifier": "casey-hall-2217b7117",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "488697721",
+  "profileId": "ACoAAB0g73kBldEkNVMeP-lhwLvTGSbOKM3SaUw",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_100_100/B56ZSKOasVHsAY-/0/1737485823138?e=1795651200&v=beta&t=1gCWcpcQWIM53NyBnWfgPaPZ6GqrD1lV6XtqRg5PwX0",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_400_400/B56ZSKOasVHsAk-/0/1737485823138?e=1795651200&v=beta&t=7mxZbLof84Qo8ELJFjMN_jETdtEeHzGM7A5z_QQPHeI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_200_200/B56ZSKOasVHsAc-/0/1737485823138?e=1795651200&v=beta&t=8v0WlYIbXOKOKeBNcgaAJAAfDTja1XeCsf5qKawUF6U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641315037509?e=1795651200&v=beta&t=oY45DPrM7dvJPa9JNPYoqUu4xRj0LqBivry6Ly8e96o",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641315037509?e=1795651200&v=beta&t=Z2JNwABUGWZPfpcQQwfQhKWKfM0LH-mcrnVTIM1u9Bc"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000079",
+  "geoLocationName": "Portland, Oregon Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Self-taught software engineer who began programming at 14 and entered professional software engineering at 19, with roughly 16 years of programming experience including 10+ years professionally.\n\nMy professional background is primarily backend and full-stack development with Java, Spring, databases, distributed systems, AWS, and JavaScript/TypeScript, but I do not treat job titles or abstraction boundaries as limits on what I should understand. I tend to follow difficult problems downward until I understand the mechanism causing them, whether that means application architecture, database concurrency, production diagnostics, security boundaries, infrastructure, runtime behavior, or unfamiliar code.\n\nI value testability, observability, explicit security boundaries, and engineering decisions grounded in actual system behavior. I would rather identify and eliminate the root cause of a recurring problem than normalize it, repeatedly work around it, or declare a task complete because a process says it is done. I approach systems adversarially and spend a lot of time considering failure modes, unintended behavior, and assumptions that may not hold in production.\n\nI also use automation and AI agents extensively as engineering leverage without outsourcing technical judgment or verification. I build agent tooling, retrieval systems, automated development and diagnostic workflows, and operate self-hosted multi-GPU LLM infrastructure for inference, experimentation, and training research. My independent work includes vision-language document extraction, hybrid search, tool-using agents, reverse-engineering workflows, and experiments with LoRA and reinforcement learning.\n\nI am most interested in technically deep work with room for independent investigation and implementation, particularly architecture, debugging, reliability, security, systems, automation, and LLM infrastructure. I am less interested in roles dominated by routine feature delivery than in problems where understanding the system deeply and exercising sound technical judgment materially changes the outcome.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Diego, CA · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "Modernized the company’s primary Java SaaS platform from a heavily static, tightly coupled codebase with no automated test suite, introducing Spring-based dependency injection, separation of concerns, and layered testable component design; established the architecture and testing patterns now used for new development across the platform\n\nLed end-to-end development of a major credit bureau integration supporting FCRA-governed consumer credit workflows, spanning backend services, database design, external APIs, frontend workflows, and sensitive data handling\n\nBuilt an MCP-based agentic engineering environment with context-optimized tools for compilation, deployment, testing, production-log analysis, database tracing, and CI/CD diagnostics, supporting autonomous issue-to-PR workflows and cross-layer debugging across Playwright, Tomcat, and MariaDB\n\nDiagnosed and eliminated recurring database deadlocks through query analysis, indexing, transaction-isolation changes, and application-level refactoring; built database-tracing tooling to correlate connections, transactions, and queries to identify inefficient access patterns\n\nDesigned and implemented core domain models and reusable data structures, including a tagging framework that became foundational infrastructure for subsequent features",
+    "insights": "  helped me get this job",
+    "company": {
+     "url": "https://www.linkedin.com/company/6397680/",
+     "name": "MoneyThumb",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I"
+     }
+    }
+   },
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Contract",
+    "description": "Developed and maintained a Java/Spring + React pricing application used to optimize Open Box retail pricing; improved performance and reliability through deadlock diagnosis, database indexing, refactoring, and migration of stored-procedure logic into testable application code\n\nBuilt a production service from the ground up to process and publish discount data to downstream pricing/POS systems, including CI/CD, integration testing, transaction conflict/retry handling, rate limiting, timeouts, and downstream failure handling",
+    "insights": "Software Development, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2127/",
+     "name": "Best Buy",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Contract",
+    "description": "Developed scalable Java/Spring services on AWS processing 4M+ finance-related events per week across multiple geographic regions, including business mapping, transformation, and downstream financial-data workflows\n\nContributed to services supporting revenue reporting, tax compliance, and accounting using TDD and 90%+ instruction test coverage; worked with SQS, S3, EC2 ASGs, CloudFormation, Lambda",
+    "insights": "Software Development, Spring Boot and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2029/",
+     "name": "Nike",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Worked on Kindle rendering/layout systems with a focus on non-Latin language support; maintained and improved typographic regression-testing infrastructure and migrated testing from a local workstation to Amazon internal infrastructure with automated deployment\n\nIntegrated runtime analysis tooling into layout-related build pipelines to catch memory/addressing issues before release; also supported Yocto-based firmware workflows and physical device testing/debugging",
+    "insights": "Software Development, Amazon Web Services (AWS) and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Chico, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "Led much of the decommissioning and migration of a ~60k LOC ColdFusion application to a modern stack using Spring, RabbitMQ, MongoDB, MSSQL, and Angular, working with substantial autonomy\n\nDeveloped and supported internal tools used to manage customer-facing sites, working directly with non-technical users to improve workflows and operational efficiency\nContributed across the full stack to add a new returns process used across 5+ customer-facing sites, including implementation, refactoring, and documentation",
+    "insights": "Software Development, Spring Boot and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/831911/",
+     "name": "Build.com",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA"
+     }
+    }
+   }
+  ],
+  "educations": [],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "MoneyThumb",
+  "companyPublicId": "moneythumb",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/moneythumb/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:6397680",
+   "name": "MoneyThumb",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQEqW_IAHtHsuw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+       "expiresAt": 1795651200000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+       "expiresAt": 1795651200000,
+       "height": 100
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_"
+    }
+   },
+   "universalName": "moneythumb",
+   "url": "https://www.linkedin.com/company/moneythumb/",
+   "slug": "moneythumb",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+   "specialties": []
+  },
+  "followerCount": 233,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 233,
+  "skills": [
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Security",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-End Development",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Application Security",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-End Development",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": 4
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Software Development Tools",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "E-commerce",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Embedded Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft SQL Server",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AngularJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Embedded Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "jQuery",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Model Context Protocol (MCP)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/casey-hall-2217b7117",
+  "linkedinUrl": "https://www.linkedin.com/in/casey-hall-2217b7117",
+  "profileUrl": "https://www.linkedin.com/in/casey-hall-2217b7117",
+  "verified": true,
+  "registeredAt": "2016-04-01T01:37:15.789Z",
+  "location": {
+   "linkedinText": "Portland, Oregon Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Portland, Oregon Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Self-taught software engineer who began programming at 14 and entered professional software engineering at 19, with roughly 16 years of programming experience including 10+ years professionally.\n\nMy professional background is primarily backend and full-stack development with Java, Spring, databases, distributed systems, AWS, and JavaScript/TypeScript, but I do not treat job titles or abstraction boundaries as limits on what I should understand. I tend to follow difficult problems downward until I understand the mechanism causing them, whether that means application architecture, database concurrency, production diagnostics, security boundaries, infrastructure, runtime behavior, or unfamiliar code.\n\nI value testability, observability, explicit security boundaries, and engineering decisions grounded in actual system behavior. I would rather identify and eliminate the root cause of a recurring problem than normalize it, repeatedly work around it, or declare a task complete because a process says it is done. I approach systems adversarially and spend a lot of time considering failure modes, unintended behavior, and assumptions that may not hold in production.\n\nI also use automation and AI agents extensively as engineering leverage without outsourcing technical judgment or verification. I build agent tooling, retrieval systems, automated development and diagnostic workflows, and operate self-hosted multi-GPU LLM infrastructure for inference, experimentation, and training research. My independent work includes vision-language document extraction, hybrid search, tool-using agents, reverse-engineering workflows, and experiments with LoRA and reinforcement learning.\n\nI am most interested in technically deep work with room for independent investigation and implementation, particularly architecture, debugging, reliability, security, systems, automation, and LLM infrastructure. I am less interested in roles dominated by routine feature delivery than in problems where understanding the system deeply and exercising sound technical judgment materially changes the outcome.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Full Stack Software Engineer",
+   "Senior Software Engineer",
+   "Software Engineer",
+   "Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Diego, CA · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "Modernized the company’s primary Java SaaS platform from a heavily static, tightly coupled codebase with no automated test suite, introducing Spring-based dependency injection, separation of concerns, and layered testable component design; established the architecture and testing patterns now used for new development across the platform\n\nLed end-to-end development of a major credit bureau integration supporting FCRA-governed consumer credit workflows, spanning backend services, database design, external APIs, frontend workflows, and sensitive data handling\n\nBuilt an MCP-based agentic engineering environment with context-optimized tools for compilation, deployment, testing, production-log analysis, database tracing, and CI/CD diagnostics, supporting autonomous issue-to-PR workflows and cross-layer debugging across Playwright, Tomcat, and MariaDB\n\nDiagnosed and eliminated recurring database deadlocks through query analysis, indexing, transaction-isolation changes, and application-level refactoring; built database-tracing tooling to correlate connections, transactions, and queries to identify inefficient access patterns\n\nDesigned and implemented core domain models and reusable data structures, including a tagging framework that became foundational infrastructure for subsequent features",
+    "insights": "  helped me get this job",
+    "company": {
+     "url": "https://www.linkedin.com/company/6397680/",
+     "name": "MoneyThumb",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "MoneyThumb",
+    "location": "San Diego, CA · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6397680/",
+    "companyId": "6397680",
+    "duration": "3 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Contract",
+    "description": "Developed and maintained a Java/Spring + React pricing application used to optimize Open Box retail pricing; improved performance and reliability through deadlock diagnosis, database indexing, refactoring, and migration of stored-procedure logic into testable application code\n\nBuilt a production service from the ground up to process and publish discount data to downstream pricing/POS systems, including CI/CD, integration testing, transaction conflict/retry handling, rate limiting, timeouts, and downstream failure handling",
+    "insights": "Software Development, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2127/",
+     "name": "Best Buy",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw"
+     }
+    },
+    "position": "Full Stack Software Engineer",
+    "companyName": "Best Buy",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2127/",
+    "companyId": "2127",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Contract",
+    "description": "Developed scalable Java/Spring services on AWS processing 4M+ finance-related events per week across multiple geographic regions, including business mapping, transformation, and downstream financial-data workflows\n\nContributed to services supporting revenue reporting, tax compliance, and accounting using TDD and 90%+ instruction test coverage; worked with SQS, S3, EC2 ASGs, CloudFormation, Lambda",
+    "insights": "Software Development, Spring Boot and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2029/",
+     "name": "Nike",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Nike",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2029/",
+    "companyId": "2029",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Worked on Kindle rendering/layout systems with a focus on non-Latin language support; maintained and improved typographic regression-testing infrastructure and migrated testing from a local workstation to Amazon internal infrastructure with automated deployment\n\nIntegrated runtime analysis tooling into layout-related build pipelines to catch memory/addressing issues before release; also supported Yocto-based firmware workflows and physical device testing/debugging",
+    "insights": "Software Development, Amazon Web Services (AWS) and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Chico, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "Led much of the decommissioning and migration of a ~60k LOC ColdFusion application to a modern stack using Spring, RabbitMQ, MongoDB, MSSQL, and Angular, working with substantial autonomy\n\nDeveloped and supported internal tools used to manage customer-facing sites, working directly with non-technical users to improve workflows and operational efficiency\nContributed across the full stack to add a new returns process used across 5+ customer-facing sites, including implementation, refactoring, and documentation",
+    "insights": "Software Development, Spring Boot and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/831911/",
+     "name": "Build.com",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Build.com",
+    "location": "Chico, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/831911/",
+    "companyId": "831911",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "6397680",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6397680/",
+    "companyName": "MoneyThumb",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Diego, CA · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "Modernized the company’s primary Java SaaS platform from a heavily static, tightly coupled codebase with no automated test suite, introducing Spring-based dependency injection, separation of concerns, and layered testable component design; established the architecture and testing patterns now used for new development across the platform\n\nLed end-to-end development of a major credit bureau integration supporting FCRA-governed consumer credit workflows, spanning backend services, database design, external APIs, frontend workflows, and sensitive data handling\n\nBuilt an MCP-based agentic engineering environment with context-optimized tools for compilation, deployment, testing, production-log analysis, database tracing, and CI/CD diagnostics, supporting autonomous issue-to-PR workflows and cross-layer debugging across Playwright, Tomcat, and MariaDB\n\nDiagnosed and eliminated recurring database deadlocks through query analysis, indexing, transaction-isolation changes, and application-level refactoring; built database-tracing tooling to correlate connections, transactions, and queries to identify inefficient access patterns\n\nDesigned and implemented core domain models and reusable data structures, including a tagging framework that became foundational infrastructure for subsequent features",
+    "insights": "  helped me get this job",
+    "company": {
+     "url": "https://www.linkedin.com/company/6397680/",
+     "name": "MoneyThumb",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "MoneyThumb",
+    "location": "San Diego, CA · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6397680/",
+    "companyId": "6397680",
+    "duration": "3 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_400_400/B56aAROYY4GUAU-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=8wdRpL5DQ_MdW5BIkmqixxJ0QTKBHpAb83BVXU2RFng",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_200_200/B56aAROYY4GUAE-/0/1786995378143/moneythumb_logo?e=1795651200&v=beta&t=af9t6aPiavIJSl1kGpM0RdplzwwfDDKEJ4i4PR7lhIw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEqW_IAHtHsuw/company-logo_100_100/B56aAROYY4GUAI-/0/1786995378144/moneythumb_logo?e=1795651200&v=beta&t=U4WdfipZCd55eq-WD9fD17kCQ6n0b47rfFQIgPk_n7I",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Full Stack Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2022
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Contract",
+    "description": "Developed and maintained a Java/Spring + React pricing application used to optimize Open Box retail pricing; improved performance and reliability through deadlock diagnosis, database indexing, refactoring, and migration of stored-procedure logic into testable application code\n\nBuilt a production service from the ground up to process and publish discount data to downstream pricing/POS systems, including CI/CD, integration testing, transaction conflict/retry handling, rate limiting, timeouts, and downstream failure handling",
+    "insights": "Software Development, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2127/",
+     "name": "Best Buy",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw"
+     }
+    },
+    "position": "Full Stack Software Engineer",
+    "companyName": "Best Buy",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2127/",
+    "companyId": "2127",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2022
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_400_400/B56aGDHcEoHAAc-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=IqUY9hSG2UkY9kroOGChGLPvgrdSa8mKpAM-4IFrrSM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_200_200/B56aGDHcEoHAAM-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=CXPXYYBigO94Mt1mJoGIvNvHAn8otOOUSEGdbjsh0Zs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGxABBCdDGY2w/company-logo_100_100/B56aGDHcEoHAAQ-/0/1793201128015/best_buy_logo?e=1795651200&v=beta&t=pDp-r-U4jb7pIHHNQl2Ca7h2E2ZjAbaMnZnmf8BWiZw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "1 yr",
+    "employmentType": "Contract",
+    "description": "Developed scalable Java/Spring services on AWS processing 4M+ finance-related events per week across multiple geographic regions, including business mapping, transformation, and downstream financial-data workflows\n\nContributed to services supporting revenue reporting, tax compliance, and accounting using TDD and 90%+ instruction test coverage; worked with SQS, S3, EC2 ASGs, CloudFormation, Lambda",
+    "insights": "Software Development, Spring Boot and +5 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2029/",
+     "name": "Nike",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Nike",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2029/",
+    "companyId": "2029",
+    "duration": "1 yr",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_400_400/company-logo_400_400/0/1732131503851/nike_logo?e=1795651200&v=beta&t=mLn7ZpsKDLt0JDff122w950gowhCm1Dy3xJYV3GjxSw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_200_200/company-logo_200_200/0/1732131503851/nike_logo?e=1795651200&v=beta&t=OP4RStRcusu1vFJG7FN_8VZosa7QVQYuzDq2clXbyTM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQHJk7IdfuV1Dw/company-logo_100_100/company-logo_100_100/0/1732131503851/nike_logo?e=1795651200&v=beta&t=cgwW8ifWpNpkSUHzHqlbbBrm_7KVkB8zvmo1EDUi9R4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Greater Seattle Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Worked on Kindle rendering/layout systems with a focus on non-Latin language support; maintained and improved typographic regression-testing infrastructure and migrated testing from a local workstation to Amazon internal infrastructure with automated deployment\n\nIntegrated runtime analysis tooling into layout-related build pipelines to catch memory/addressing issues before release; also supported Yocto-based firmware workflows and physical device testing/debugging",
+    "insights": "Software Development, Amazon Web Services (AWS) and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Amazon",
+    "location": "Greater Seattle Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2020
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Chico, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "4 yrs 5 mos",
+    "employmentType": "Full-time",
+    "description": "Led much of the decommissioning and migration of a ~60k LOC ColdFusion application to a modern stack using Spring, RabbitMQ, MongoDB, MSSQL, and Angular, working with substantial autonomy\n\nDeveloped and supported internal tools used to manage customer-facing sites, working directly with non-technical users to improve workflows and operational efficiency\nContributed across the full stack to add a new returns process used across 5+ customer-facing sites, including implementation, refactoring, and documentation",
+    "insights": "Software Development, Spring Boot and +6 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/831911/",
+     "name": "Build.com",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Build.com",
+    "location": "Chico, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/831911/",
+    "companyId": "831911",
+    "duration": "4 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_400_400/B4EaEh_ztnJIAU-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=fxTNtUAns1aaEL0ovFMFzLBSZXCU5f-KvS1ZsxfQBl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_200_200/B4EaEh_ztnJIAE-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=QvDyh8Y9baZoz_ehnkLMl68xUCtCsgE58IuLcP0EWzA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHiR05ZZH-IDw/company-logo_100_100/B4EaEh_ztnJIAI-/0/1791571737709/build_com_logo?e=1795651200&v=beta&t=lgp7GFVn-A6V7pqSFTS3ixxFWbwPELtMFJAy8EDUL4c",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [],
+  "profileTopEducation": [],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_100_100/B56ZSKOasVHsAY-/0/1737485823138?e=1795651200&v=beta&t=1gCWcpcQWIM53NyBnWfgPaPZ6GqrD1lV6XtqRg5PwX0",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_400_400/B56ZSKOasVHsAk-/0/1737485823138?e=1795651200&v=beta&t=7mxZbLof84Qo8ELJFjMN_jETdtEeHzGM7A5z_QQPHeI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_200_200/B56ZSKOasVHsAc-/0/1737485823138?e=1795651200&v=beta&t=8v0WlYIbXOKOKeBNcgaAJAAfDTja1XeCsf5qKawUF6U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_400_400/B56ZSKOasVHsAk-/0/1737485823138?e=1795651200&v=beta&t=7mxZbLof84Qo8ELJFjMN_jETdtEeHzGM7A5z_QQPHeI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_200_200/B56ZSKOasVHsAc-/0/1737485823138?e=1795651200&v=beta&t=8v0WlYIbXOKOKeBNcgaAJAAfDTja1XeCsf5qKawUF6U",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_100_100/B56ZSKOasVHsAY-/0/1737485823138?e=1795651200&v=beta&t=1gCWcpcQWIM53NyBnWfgPaPZ6GqrD1lV6XtqRg5PwX0",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_100_100/B56ZSKOasVHsAY-/0/1737485823138?e=1795651200&v=beta&t=1gCWcpcQWIM53NyBnWfgPaPZ6GqrD1lV6XtqRg5PwX0",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_400_400/B56ZSKOasVHsAk-/0/1737485823138?e=1795651200&v=beta&t=7mxZbLof84Qo8ELJFjMN_jETdtEeHzGM7A5z_QQPHeI",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_200_200/B56ZSKOasVHsAc-/0/1737485823138?e=1795651200&v=beta&t=8v0WlYIbXOKOKeBNcgaAJAAfDTja1XeCsf5qKawUF6U",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_800_800/B56ZSKOasVHsAg-/0/1737485823162?e=1795651200&v=beta&t=zeJEnJs5B_dk44zuczJsUh2QSIDNpoPY-dRDBMMoemo",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_400_400/B56ZSKOasVHsAk-/0/1737485823138?e=1795651200&v=beta&t=7mxZbLof84Qo8ELJFjMN_jETdtEeHzGM7A5z_QQPHeI",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_200_200/B56ZSKOasVHsAc-/0/1737485823138?e=1795651200&v=beta&t=8v0WlYIbXOKOKeBNcgaAJAAfDTja1XeCsf5qKawUF6U",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQH8WQR8v_wJyQ/profile-displayphoto-shrink_100_100/B56ZSKOasVHsAY-/0/1737485823138?e=1795651200&v=beta&t=1gCWcpcQWIM53NyBnWfgPaPZ6GqrD1lV6XtqRg5PwX0",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641315037509?e=1795651200&v=beta&t=oY45DPrM7dvJPa9JNPYoqUu4xRj0LqBivry6Ly8e96o",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641315037509?e=1795651200&v=beta&t=Z2JNwABUGWZPfpcQQwfQhKWKfM0LH-mcrnVTIM1u9Bc",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641315037509?e=1795651200&v=beta&t=Z2JNwABUGWZPfpcQQwfQhKWKfM0LH-mcrnVTIM1u9Bc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641315037509?e=1795651200&v=beta&t=Z2JNwABUGWZPfpcQQwfQhKWKfM0LH-mcrnVTIM1u9Bc",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQGYD7Nf55XMyg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641315037509?e=1795651200&v=beta&t=oY45DPrM7dvJPa9JNPYoqUu4xRj0LqBivry6Ly8e96o",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/casey-hall-2217b7117"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T21:52:47.016Z",
+ "foundBy": null
+}

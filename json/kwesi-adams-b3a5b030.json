@@ -1,0 +1,1246 @@
+{
+ "slug": "kwesi-adams-b3a5b030",
+ "inputUrl": "https://www.linkedin.com/in/kwesi-adams-b3a5b030",
+ "fetchedAt": "2026-11-09T17:28:45.065Z",
+ "id": "6af202cdaf440f0df0ab7849",
+ "url": "https://www.linkedin.com/in/kwesi-adams-b3a5b030",
+ "profile": {
+  "created": 1299779168000,
+  "trackingId": "plzuX/cCQaebd+UtuKJqlA==",
+  "firstName": "Kwesi",
+  "lastName": "Adams",
+  "pronoun": null,
+  "versionTag": "2471761970",
+  "headline": "Senior Software Engineer @ Southwest Airlines | Full Stack — React, TypeScript, Node.js, GraphQL | Real-Time & Event-Driven Systems (Kafka, Kinesis, AWS) | Founder",
+  "publicIdentifier": "kwesi-adams-b3a5b030",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "108969310",
+  "profileId": "ACoAAAZ-vV4B3NrWE9hgo3K5ZP5bJOuq-bUyCJ8",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:100053268",
+  "geoLocationName": "Aubrey, Texas, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I build real-time, data-rich platforms that operational teams depend on around the clock.\nAt Southwest Airlines, that means the tools dispatchers and ground crews use to run a 24/7 airline: a live passenger operations dashboard (React, GraphQL, Kinesis, EventBridge), the platform that processes every ACARS message from every aircraft in the fleet, and simulation tooling for aircraft assignment and irregular operations.\nOutside of work, I founded and solo-built a fintech settlement platform end to end — a multi-tenant relational data model across 50+ PostgreSQL migrations, eight microservices, a public API, two React portals, and the Terraform underneath it all.\nI've learned I do my best work as the engineering voice on a cross-functional team: taking an ambiguous, data-heavy problem and turning it into a durable product.\nCore stack: React, TypeScript, Node.js, GraphQL, SQL/PostgreSQL, Kafka, Kinesis, EventBridge, AWS serverless, Terraform, Rust.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Lead design and development of large-scale, event-driven cloud systems supporting Southwest's Ground and Air Operations — 24/7 internal platforms where data accuracy and reliability directly affect flight operations.\n\n• Designed and shipped a real-time passenger operations dashboard (micro-frontend + backend-for-frontend) with React, GraphQL, Lambda, EventBridge, and Kinesis — surfacing live booked-vs-boarded counts, seat status, and specialty-passenger information so ground teams make time-critical boarding decisions from a single view.\n\n• Built the real-time aircraft communications and reporting platform that ingests and processes every ACARS message across Southwest's fleet — position reports, OOOI events (gate out, wheels off, wheels on, gate in), door status, and onboard sensor telemetry — giving dispatchers a live operational picture of every aircraft in flight plus two-way messaging to the flight deck. Critical to FAA regulatory compliance and daily airline operation.\n\n• Built a fleet campaign management tool tracking large-scale maintenance and upgrade programs across the aircraft fleet — which aircraft are in scope, work-in-progress status, and return-to-service readiness — replacing fragmented tracking with a single source of truth for maintenance planning.\n\n• Redesigned and implemented the crew pairing simulation microservice that generates scenario-based crew assignments, pairings, and events for operations testing.\n\n• Core developer on the real-time simulation platform for aircraft assignment and irregular operations — the tooling dispatchers use to evaluate recovery options such as aircraft swaps, diversions, and overflights when the operation is disrupted.\n\n• Migrated 160 microservices and micro-frontends from Node 16 to Node 20 and AWS SDK v2 to v3, keeping the full service fleet security compliant; automated provisioning and deployment of all 160 GitLab repos into a new QA environment, cutting delivery time 92%.",
+    "insights": "Skills: React.js · TypeScript · JavaScript · Node.js · Amazon Kinesis · Apache Kafa · Serverless Framework · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8"
+     }
+    }
+   },
+   {
+    "title": "Senior Frontend Engineer",
+    "locationName": "Irvine, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "Consulted on design, architecture, and delivery of software products for clients across legal, real estate, and housing analytics.\n\n• Led technical design and delivery of a document-intelligence product managing restrictive covenants in legal documents for First American (React, Next.js, TypeScript, Node.js) — reduced documents requiring manual review by 91% and opened a new resale revenue stream.\n\n• Built housing-market analytics features for Zonda's metrics application (25% lift in user engagement) and designed Node.js/Express microservices that reduced overall API latency 20%.\n\n• Led refactoring and new feature delivery for RealtyBid's customer-facing auction platform (React, Next.js, TypeScript) and built reusable component libraries in React and Angular.",
+    "insights": "Skills: Angular · Software Engineer · Node.js · React.js",
+    "company": {
+     "url": "",
+     "name": "CI&T / Ntersol",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Solutions Architect",
+    "locationName": "Virginia Beach, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Onboarded to build and implement a suite of applications using Angular, Java, and Spring Boot by compiling and analyzing requirements to deliver a solution that exceeded expectations. Contributed to architecture, design, and implementation of backend micro-services and front-end applications. Mentored junior engineers in architectural principles and coding style guides. Produced architecture design models and documentation. \n\n• Co-architected and led development of four data-heavy analytics applications for Caterpillar Marine — asset configuration, monitoring, predictive diagnostics, and predictive analytics for customer-owned marine assets — contributing to a 36% increase in parts revenue.\n\n• Built Java/Spring Boot microservice backends with Elasticsearch serving hundreds of thousands of requests daily; consolidated four Angular applications into a single codebase and experience (quarterly performance award).",
+    "insights": "Skills: Angular · Software Development · Scaled Agile Framework · Cross-functional Team Leadership · Software Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/103969/",
+     "name": "Marathon Consulting",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg"
+     }
+    }
+   },
+   {
+    "title": "Senior Developer",
+    "locationName": "Metropolitan Fresno",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Design, develop, implement and maintain application code for legacy Pharmacy Benefit Manager (PBM) application. Design and develop new applications to support business needs. Build and maintain Forms and Reports, PEGA and Weblogic application servers. Provide helpdesk support.\n\nBuilt and modernized data-intensive pharmacy benefit management systems; designed a financial billing application from scratch (Angular, TypeScript) and a Java processing engine that increased prior-authorization throughput 18%.",
+    "company": {
+     "url": "",
+     "name": "Envolve Pharmacy Solutions",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Head of Information Systems",
+    "locationName": "GEORGETOWN, GUYANA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "3 yrs 3 mos",
+    "description": "Led a four-engineer team; implemented a case management system that tripled daily cases processed and overhauled network infrastructure, improving uptime 70%.",
+    "company": {
+     "url": "",
+     "name": "SUPREME COURT OF JUDICATURE",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_100_100/B4EZeDcOnXGcAQ-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=pLBm7ot_TivMev3sfW3sC9mJLxg6XLwFJJpfyAp0Yto",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_200_200/B4EZeDcOnXGcAI-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=JSdzGO41ebTz_6Aio93VqO2dJpynB3_FSJiN_ESDPOc"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7609/",
+    "schoolName": "University of Warwick",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Engineering Business Management",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Guyana",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2001
+     },
+     "endDate": {
+      "year": 2005
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Certified SAFe® 5 Architect",
+    "authority": "SAFe by Scaled Agile, Inc.",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "SAFe by Scaled Agile, Inc.",
+    "title": "Certified SAFe® 5 Architect",
+    "issuedBy": "SAFe by Scaled Agile, Inc.",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Certified SAFe® 5 Agile Software Engineer",
+    "authority": "SAFe by Scaled Agile, Inc.",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "SAFe by Scaled Agile, Inc.",
+    "title": "Certified SAFe® 5 Agile Software Engineer",
+    "issuedBy": "SAFe by Scaled Agile, Inc.",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Southwest Airlines",
+  "companyPublicId": "southwest-airlines",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/southwest-airlines/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:4599",
+   "name": "Southwest Airlines",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4E0BAQECww4NCmUHMQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_"
+    }
+   },
+   "universalName": "southwest-airlines",
+   "url": "https://www.linkedin.com/company/southwest-airlines/",
+   "slug": "southwest-airlines",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+   "specialties": []
+  },
+  "followerCount": 114,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 111,
+  "skills": [
+   {
+    "name": "Amazon Kinesis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafa",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scaled Agile Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cross-functional Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Angular",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Engineer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle Database",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scaled Agile Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cross-functional Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development Life Cycle (SDLC)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Kinesis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Serverless Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Angular",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle Database",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML5",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SASS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GIT",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SVN",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/kwesi-adams-b3a5b030",
+  "linkedinUrl": "https://www.linkedin.com/in/kwesi-adams-b3a5b030",
+  "profileUrl": "https://www.linkedin.com/in/kwesi-adams-b3a5b030",
+  "verified": true,
+  "registeredAt": "2011-03-10T17:46:08.000Z",
+  "location": {
+   "linkedinText": "Aubrey, Texas, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Aubrey, Texas, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build real-time, data-rich platforms that operational teams depend on around the clock.\nAt Southwest Airlines, that means the tools dispatchers and ground crews use to run a 24/7 airline: a live passenger operations dashboard (React, GraphQL, Kinesis, EventBridge), the platform that processes every ACARS message from every aircraft in the fleet, and simulation tooling for aircraft assignment and irregular operations.\nOutside of work, I founded and solo-built a fintech settlement platform end to end — a multi-tenant relational data model across 50+ PostgreSQL migrations, eight microservices, a public API, two React portals, and the Terraform underneath it all.\nI've learned I do my best work as the engineering voice on a cross-functional team: taking an ambiguous, data-heavy problem and turning it into a durable product.\nCore stack: React, TypeScript, Node.js, GraphQL, SQL/PostgreSQL, Kafka, Kinesis, EventBridge, AWS serverless, Terraform, Rust.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Frontend Engineer",
+   "Solutions Architect",
+   "Senior Developer",
+   "Head of Information Systems"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Lead design and development of large-scale, event-driven cloud systems supporting Southwest's Ground and Air Operations — 24/7 internal platforms where data accuracy and reliability directly affect flight operations.\n\n• Designed and shipped a real-time passenger operations dashboard (micro-frontend + backend-for-frontend) with React, GraphQL, Lambda, EventBridge, and Kinesis — surfacing live booked-vs-boarded counts, seat status, and specialty-passenger information so ground teams make time-critical boarding decisions from a single view.\n\n• Built the real-time aircraft communications and reporting platform that ingests and processes every ACARS message across Southwest's fleet — position reports, OOOI events (gate out, wheels off, wheels on, gate in), door status, and onboard sensor telemetry — giving dispatchers a live operational picture of every aircraft in flight plus two-way messaging to the flight deck. Critical to FAA regulatory compliance and daily airline operation.\n\n• Built a fleet campaign management tool tracking large-scale maintenance and upgrade programs across the aircraft fleet — which aircraft are in scope, work-in-progress status, and return-to-service readiness — replacing fragmented tracking with a single source of truth for maintenance planning.\n\n• Redesigned and implemented the crew pairing simulation microservice that generates scenario-based crew assignments, pairings, and events for operations testing.\n\n• Core developer on the real-time simulation platform for aircraft assignment and irregular operations — the tooling dispatchers use to evaluate recovery options such as aircraft swaps, diversions, and overflights when the operation is disrupted.\n\n• Migrated 160 microservices and micro-frontends from Node 16 to Node 20 and AWS SDK v2 to v3, keeping the full service fleet security compliant; automated provisioning and deployment of all 160 GitLab repos into a new QA environment, cutting delivery time 92%.",
+    "insights": "Skills: React.js · TypeScript · JavaScript · Node.js · Amazon Kinesis · Apache Kafa · Serverless Framework · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Southwest Airlines",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4599/",
+    "companyId": "4599",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Frontend Engineer",
+    "locationName": "Irvine, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "Consulted on design, architecture, and delivery of software products for clients across legal, real estate, and housing analytics.\n\n• Led technical design and delivery of a document-intelligence product managing restrictive covenants in legal documents for First American (React, Next.js, TypeScript, Node.js) — reduced documents requiring manual review by 91% and opened a new resale revenue stream.\n\n• Built housing-market analytics features for Zonda's metrics application (25% lift in user engagement) and designed Node.js/Express microservices that reduced overall API latency 20%.\n\n• Led refactoring and new feature delivery for RealtyBid's customer-facing auction platform (React, Next.js, TypeScript) and built reusable component libraries in React and Angular.",
+    "insights": "Skills: Angular · Software Engineer · Node.js · React.js",
+    "company": {
+     "url": "",
+     "name": "CI&T / Ntersol",
+     "logo": {}
+    },
+    "position": "Senior Frontend Engineer",
+    "companyName": "CI&T / Ntersol",
+    "location": "Irvine, California, United States · Remote",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Solutions Architect",
+    "locationName": "Virginia Beach, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Onboarded to build and implement a suite of applications using Angular, Java, and Spring Boot by compiling and analyzing requirements to deliver a solution that exceeded expectations. Contributed to architecture, design, and implementation of backend micro-services and front-end applications. Mentored junior engineers in architectural principles and coding style guides. Produced architecture design models and documentation. \n\n• Co-architected and led development of four data-heavy analytics applications for Caterpillar Marine — asset configuration, monitoring, predictive diagnostics, and predictive analytics for customer-owned marine assets — contributing to a 36% increase in parts revenue.\n\n• Built Java/Spring Boot microservice backends with Elasticsearch serving hundreds of thousands of requests daily; consolidated four Angular applications into a single codebase and experience (quarterly performance award).",
+    "insights": "Skills: Angular · Software Development · Scaled Agile Framework · Cross-functional Team Leadership · Software Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/103969/",
+     "name": "Marathon Consulting",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg"
+     }
+    },
+    "position": "Solutions Architect",
+    "companyName": "Marathon Consulting",
+    "location": "Virginia Beach, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/103969/",
+    "companyId": "103969",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Developer",
+    "locationName": "Metropolitan Fresno",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Design, develop, implement and maintain application code for legacy Pharmacy Benefit Manager (PBM) application. Design and develop new applications to support business needs. Build and maintain Forms and Reports, PEGA and Weblogic application servers. Provide helpdesk support.\n\nBuilt and modernized data-intensive pharmacy benefit management systems; designed a financial billing application from scratch (Angular, TypeScript) and a Java processing engine that increased prior-authorization throughput 18%.",
+    "company": {
+     "url": "",
+     "name": "Envolve Pharmacy Solutions",
+     "logo": {}
+    },
+    "position": "Senior Developer",
+    "companyName": "Envolve Pharmacy Solutions",
+    "location": "Metropolitan Fresno",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Head of Information Systems",
+    "locationName": "GEORGETOWN, GUYANA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "3 yrs 3 mos",
+    "description": "Led a four-engineer team; implemented a case management system that tripled daily cases processed and overhauled network infrastructure, improving uptime 70%.",
+    "company": {
+     "url": "",
+     "name": "SUPREME COURT OF JUDICATURE",
+     "logo": {}
+    },
+    "position": "Head of Information Systems",
+    "companyName": "SUPREME COURT OF JUDICATURE",
+    "location": "GEORGETOWN, GUYANA",
+    "duration": "3 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "4599",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4599/",
+    "companyName": "Southwest Airlines",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "description": "Lead design and development of large-scale, event-driven cloud systems supporting Southwest's Ground and Air Operations — 24/7 internal platforms where data accuracy and reliability directly affect flight operations.\n\n• Designed and shipped a real-time passenger operations dashboard (micro-frontend + backend-for-frontend) with React, GraphQL, Lambda, EventBridge, and Kinesis — surfacing live booked-vs-boarded counts, seat status, and specialty-passenger information so ground teams make time-critical boarding decisions from a single view.\n\n• Built the real-time aircraft communications and reporting platform that ingests and processes every ACARS message across Southwest's fleet — position reports, OOOI events (gate out, wheels off, wheels on, gate in), door status, and onboard sensor telemetry — giving dispatchers a live operational picture of every aircraft in flight plus two-way messaging to the flight deck. Critical to FAA regulatory compliance and daily airline operation.\n\n• Built a fleet campaign management tool tracking large-scale maintenance and upgrade programs across the aircraft fleet — which aircraft are in scope, work-in-progress status, and return-to-service readiness — replacing fragmented tracking with a single source of truth for maintenance planning.\n\n• Redesigned and implemented the crew pairing simulation microservice that generates scenario-based crew assignments, pairings, and events for operations testing.\n\n• Core developer on the real-time simulation platform for aircraft assignment and irregular operations — the tooling dispatchers use to evaluate recovery options such as aircraft swaps, diversions, and overflights when the operation is disrupted.\n\n• Migrated 160 microservices and micro-frontends from Node 16 to Node 20 and AWS SDK v2 to v3, keeping the full service fleet security compliant; automated provisioning and deployment of all 160 GitLab repos into a new QA environment, cutting delivery time 92%.",
+    "insights": "Skills: React.js · TypeScript · JavaScript · Node.js · Amazon Kinesis · Apache Kafa · Serverless Framework · Amazon Web Services (AWS)",
+    "company": {
+     "url": "https://www.linkedin.com/company/4599/",
+     "name": "Southwest Airlines",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Southwest Airlines",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4599/",
+    "companyId": "4599",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_400_400/company-logo_400_400/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=9K_M-S5Gor8xEWOEQZyE2EFZSuq-A4jIU8cjUcCKDi8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_200_200/company-logo_200_200/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=e6WXx6Krjdy_FDBgExAS-eIFTd5EslSgLeYpMcSJEjc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQECww4NCmUHMQ/company-logo_100_100/company-logo_100_100/0/1630651441244/southwest_airlines_logo?e=1795651200&v=beta&t=rpKH1rHE2zQkvvGS9YU9cn4QuZo5w9Pkl1Cwu4VjAW4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Frontend Engineer",
+    "locationName": "Irvine, California, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "Consulted on design, architecture, and delivery of software products for clients across legal, real estate, and housing analytics.\n\n• Led technical design and delivery of a document-intelligence product managing restrictive covenants in legal documents for First American (React, Next.js, TypeScript, Node.js) — reduced documents requiring manual review by 91% and opened a new resale revenue stream.\n\n• Built housing-market analytics features for Zonda's metrics application (25% lift in user engagement) and designed Node.js/Express microservices that reduced overall API latency 20%.\n\n• Led refactoring and new feature delivery for RealtyBid's customer-facing auction platform (React, Next.js, TypeScript) and built reusable component libraries in React and Angular.",
+    "insights": "Skills: Angular · Software Engineer · Node.js · React.js",
+    "company": {
+     "url": "",
+     "name": "CI&T / Ntersol",
+     "logo": {}
+    },
+    "position": "Senior Frontend Engineer",
+    "companyName": "CI&T / Ntersol",
+    "location": "Irvine, California, United States · Remote",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Solutions Architect",
+    "locationName": "Virginia Beach, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "Onboarded to build and implement a suite of applications using Angular, Java, and Spring Boot by compiling and analyzing requirements to deliver a solution that exceeded expectations. Contributed to architecture, design, and implementation of backend micro-services and front-end applications. Mentored junior engineers in architectural principles and coding style guides. Produced architecture design models and documentation. \n\n• Co-architected and led development of four data-heavy analytics applications for Caterpillar Marine — asset configuration, monitoring, predictive diagnostics, and predictive analytics for customer-owned marine assets — contributing to a 36% increase in parts revenue.\n\n• Built Java/Spring Boot microservice backends with Elasticsearch serving hundreds of thousands of requests daily; consolidated four Angular applications into a single codebase and experience (quarterly performance award).",
+    "insights": "Skills: Angular · Software Development · Scaled Agile Framework · Cross-functional Team Leadership · Software Architecture",
+    "company": {
+     "url": "https://www.linkedin.com/company/103969/",
+     "name": "Marathon Consulting",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg"
+     }
+    },
+    "position": "Solutions Architect",
+    "companyName": "Marathon Consulting",
+    "location": "Virginia Beach, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/103969/",
+    "companyId": "103969",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_400_400/company-logo_400_400/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=NNvV_5YP7aOGsTAn-0n5Ppj9DWGG3n03CdCP0RVy3gg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_200_200/company-logo_200_200/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=MILSEtR2NWbCRH5xaZ4DRvDyFWBrZQC3A7XcrX9jTXE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGsOZI7y636WQ/company-logo_100_100/company-logo_100_100/0/1638575634999/marathonconsulting_logo?e=1795651200&v=beta&t=lln-0uCyCYvg7V_MFpy_fT0JlEhwU6hRXYSDRq1o8-k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Developer",
+    "locationName": "Metropolitan Fresno",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 3,
+      "year": 2018
+     }
+    },
+    "totalDuration": "2 yrs 10 mos",
+    "description": "Design, develop, implement and maintain application code for legacy Pharmacy Benefit Manager (PBM) application. Design and develop new applications to support business needs. Build and maintain Forms and Reports, PEGA and Weblogic application servers. Provide helpdesk support.\n\nBuilt and modernized data-intensive pharmacy benefit management systems; designed a financial billing application from scratch (Angular, TypeScript) and a Java processing engine that increased prior-authorization throughput 18%.",
+    "company": {
+     "url": "",
+     "name": "Envolve Pharmacy Solutions",
+     "logo": {}
+    },
+    "position": "Senior Developer",
+    "companyName": "Envolve Pharmacy Solutions",
+    "location": "Metropolitan Fresno",
+    "duration": "2 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 3,
+     "year": 2018
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Head of Information Systems",
+    "locationName": "GEORGETOWN, GUYANA",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2012
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2015
+     }
+    },
+    "totalDuration": "3 yrs 3 mos",
+    "description": "Led a four-engineer team; implemented a case management system that tripled daily cases processed and overhauled network infrastructure, improving uptime 70%.",
+    "company": {
+     "url": "",
+     "name": "SUPREME COURT OF JUDICATURE",
+     "logo": {}
+    },
+    "position": "Head of Information Systems",
+    "companyName": "SUPREME COURT OF JUDICATURE",
+    "location": "GEORGETOWN, GUYANA",
+    "duration": "3 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2012
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2015
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_100_100/B4EZeDcOnXGcAQ-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=pLBm7ot_TivMev3sfW3sC9mJLxg6XLwFJJpfyAp0Yto",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_200_200/B4EZeDcOnXGcAI-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=JSdzGO41ebTz_6Aio93VqO2dJpynB3_FSJiN_ESDPOc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_200_200/B4EZeDcOnXGcAI-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=JSdzGO41ebTz_6Aio93VqO2dJpynB3_FSJiN_ESDPOc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_100_100/B4EZeDcOnXGcAQ-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=pLBm7ot_TivMev3sfW3sC9mJLxg6XLwFJJpfyAp0Yto",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7609/",
+    "schoolName": "University of Warwick",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Engineering Business Management",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7609/",
+    "schoolId": "7609",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2011
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "University of Guyana",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2001
+     },
+     "endDate": {
+      "year": 2005
+     }
+    },
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2001
+    },
+    "endDate": {
+     "year": 2005
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_100_100/B4EZeDcOnXGcAQ-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=pLBm7ot_TivMev3sfW3sC9mJLxg6XLwFJJpfyAp0Yto",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_200_200/B4EZeDcOnXGcAI-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=JSdzGO41ebTz_6Aio93VqO2dJpynB3_FSJiN_ESDPOc",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_400_400/B4EZeDcOnXGcAY-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=KIbta-HsCBI-GqaRy0tXKrR_yUHFGQvBoEEXdkks7WA",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_200_200/B4EZeDcOnXGcAI-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=JSdzGO41ebTz_6Aio93VqO2dJpynB3_FSJiN_ESDPOc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHlmXj5yG0yOA/company-logo_100_100/B4EZeDcOnXGcAQ-/0/1750256905393/uniofwarwick_logo?e=1795651200&v=beta&t=pLBm7ot_TivMev3sfW3sC9mJLxg6XLwFJJpfyAp0Yto",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7609/",
+    "schoolName": "University of Warwick",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Engineering Business Management",
+    "timePeriod": {
+     "startDate": {
+      "year": 2010
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7609/",
+    "schoolId": "7609",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "year": 2010
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1726157487198?e=1795651200&v=beta&t=RMlihspy6ggSP42N0ikIalzClFEuD7ZazoUxhB9NJrU",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726157487175?e=1795651200&v=beta&t=4ExRoYhYLFaXdhfOZ0vnMS389uT2YmHiiLZHAm79fvY",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1726157487175?e=1795651200&v=beta&t=Z3rE_i7lW8v4VTWK4iqAgOjSypuIWnnVNHXugn5F3V4",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQHAeWHJWlhmGA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1726157487175?e=1795651200&v=beta&t=lAhY_J2j8qPZV_B9W_bqKj8S1m1jmeyI95VGrohxDXs",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/kwesi-adams-b3a5b030"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T17:28:35.646Z",
+ "foundBy": null
+}

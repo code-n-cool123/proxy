@@ -1,0 +1,1015 @@
+{
+ "slug": "esummins",
+ "inputUrl": "https://www.linkedin.com/in/esummins",
+ "fetchedAt": "2026-10-20T02:33:46.093Z",
+ "id": "6ad6d30ad820dfb707d08d6c",
+ "url": "https://www.linkedin.com/in/esummins",
+ "profile": {
+  "created": 1317667438000,
+  "trackingId": "OC3FSbScRguMZOTU+12nhA==",
+  "firstName": "Eric",
+  "lastName": "Summins",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "4143417821",
+  "headline": "Full Stack Developer | Building Productivity Tools",
+  "publicIdentifier": "esummins",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "144721227",
+  "profileId": "ACoAAAigRUsBz0-E-MZ7o2AuQBsiO0-oTJxmOhc",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629175046201?e=1793836800&v=beta&t=T8h5Obsjdp0hyRUXKsqswBz_-3lqRAC_RTiD1bfip7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629175046201?e=1793836800&v=beta&t=z039Yy2sWpNQ0-pl_W8ML1zoUdHr6IcN4reK8kdkXO0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629175046201?e=1793836800&v=beta&t=bBhqIEviLxTx0axbzkYTPmIm7ckDkYukLfviivozHYo",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516903716191?e=1793836800&v=beta&t=Jw5YD7jrpGzFFvtAhLPNaHQIUofXTZwJSosElpxtz7I",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516903716186?e=1793836800&v=beta&t=T_B628L_7g9GdnfpQdPsX0SYQbud6ygFQ9_w5iMaMKM"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102277331",
+  "geoLocationName": "San Francisco, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "Full stack engineer with ~10 years of experience, spanning frontend platform work in React at LiveRamp and backend + infrastructure work on a payments platform at Teambridge. I tend to gravitate toward whatever piece of a project is the current bottleneck, which has kept me usefully unspecialized.\nI do my best work on teams that don't draw hard lines between roles, and I'm partial to durable abstractions, clear interfaces, and tools that make other engineers faster.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Working across the stack on Teambridge's Pay platform — payroll calculation and Instant Pay, our Earned Wage Access product. Primarily Kotlin/Micronaut on the backend, Postgres, React/TypeScript on the admin surfaces, AWS infrastructure managed via Terraform.\n\nA few of the larger things I've led:\n• Trust Evaluation rule engine — designed and built the system that determines worker eligibility for Instant Pay. Schema-driven, so we can onboard customers with non-standard pay structures through configuration rather than code changes.\n• Automated Instant Pay invoicing and ACH reconciliation end-to-end — invoice generation, delivery, payin matching, exception handling. Removed the manual eng + CS work of creating invoices, coordinating delivery, and matching repayment wires by hand, which let us scale Instant Pay volume without a proportional increase in ops cost.\n• Carried-balance migration of the payroll calculation engine, which unlocked accurate multi-period reconciliation. Added Redis distributed locks around Instant Pay payouts to close a double-pay race under concurrency.\n• Pay platform on-call infrastructure from a sparse baseline — Datadog ingestion, monitors and escalation policies, and a GitHub Actions release-cut workflow that replaced a manual checklist.\n• Broader backend reliability work — reporting endpoint performance, structured logging across async paths, and a tolerant permissions deserializer that let us ship a schema migration without taking down login.\n\nTech: Kotlin, Micronaut, Postgres, Redis, Kotlin Coroutines, React, TypeScript, AWS (ECS, RDS, SNS, SQS), Terraform, Datadog, GitHub Actions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/36158767/",
+     "name": "Teambridge",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U"
+     }
+    }
+   },
+   {
+    "title": "Full Stack Developer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "5 yrs 8 mos",
+    "description": "Spent most of my time on frontend platform work — building the foundations other teams used to ship UI consistently. Certified Scrum Master for a squad of seven engineers and a product manager.\n\n• Co-founded LiveRamp's internal React component library in partnership with our design team — became the source of truth for visual consistency across the application and seeded a broader culture of component reuse across the engineering org.\n• Built a UI generation toolkit (paired Ruby gem and NPM package) that let backend engineers add configurable models without pulling in a full-stack dev, materially cutting the time to extend backend models.\n• Conceptualized and built a React App Manager that made page-by-page migration to React viable inside a legacy framework — shared store, reusable reducers, DevTools wired in.\n• Designed and shipped the self-service ingestion API and UI as part of a cross-team group, replacing a series of one-off integrations with a stable customer-facing path.\n• Stood up monitoring and alerting across the ingestion pipelines, cutting customer-facing response times and giving on-call real visibility into pipeline health.\n\nTech: Ruby on Rails, React, Redux, JavaScript, SQL, GCP, Git.",
+    "insights": "Ruby on Rails and React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/2241197/",
+     "name": "LiveRamp, An Acxiom Company",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=dWJH0sD-h7_rMgsG8wIImHCjNQ7tkZAIFNpNkQnlt1Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=0hDfj7TK2Un71ctBgdxKeBuRVJtaKyaVMzI0YVj9P8o"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "BS",
+    "fieldOfStudy": "Mechanical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_200_200/company-logo_200_200/0/1631310751511?e=1793836800&v=beta&t=Tl2GrhNuQk5d1TxLig1SNgs9jcv9OOKUxwq3NhHO-S4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_100_100/company-logo_100_100/0/1631310751511?e=1793836800&v=beta&t=s6eh43joNPhHRd318SKAlNOcIWg0Pf55IvVvgXK1cAc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_400_400/company-logo_400_400/0/1631310751511?e=1793836800&v=beta&t=SWtvbPXWfJTarTJnmpMTlBBr_azFhSBNI83My4rAFpk"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3113247/",
+    "schoolName": "App Academy",
+    "degreeName": "",
+    "fieldOfStudy": "",
+    "timePeriod": {}
+   }
+  ],
+  "certifications": [
+   {
+    "name": "CSM",
+    "authority": "Scrum Alliance",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Scrum Alliance",
+    "title": "CSM",
+    "issuedBy": "Scrum Alliance",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Capstone Design"
+   },
+   {
+    "name": "Creative Decisions and Design"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "TutorHound",
+    "description": "A website for people who need help with standardized tests to find people who can help prepare for those tests.",
+    "dateRange": {},
+    "associatedWith": "Feb 2016 - Present"
+   },
+   {
+    "title": "Chess",
+    "description": "A command line chess game built in Ruby.",
+    "dateRange": {},
+    "associatedWith": "Jan 2016 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Education",
+   "Environment",
+   "Science and Technology"
+  ],
+  "companyName": "Teambridge",
+  "companyPublicId": "team-bridge",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/team-bridge/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:36158767",
+   "name": "Teambridge",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQEZnHIAPcDVmg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+       "expiresAt": 1793836800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+       "expiresAt": 1793836800000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+       "expiresAt": 1793836800000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_"
+    }
+   },
+   "universalName": "team-bridge",
+   "url": "https://www.linkedin.com/company/team-bridge/",
+   "slug": "team-bridge",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+   "specialties": []
+  },
+  "followerCount": 456,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 453,
+  "skills": [
+   {
+    "name": "Ruby",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby on Rails",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "RSpec",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Flux",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "MVC Architecture",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pair Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Solidworks",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "RSpec",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Flux",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "RESTful architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Driven Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Pair Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mechanical Engineering",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Object Oriented Software",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Customer Service",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 16,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 18,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 23,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby on Rails",
+    "endorsements": 21,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 20,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Solidworks",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "AutoCAD",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Word",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Autodesk Inventor",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/esummins",
+  "linkedinUrl": "https://www.linkedin.com/in/esummins",
+  "profileUrl": "https://www.linkedin.com/in/esummins",
+  "verified": true,
+  "registeredAt": "2011-10-03T18:43:58.000Z",
+  "location": {
+   "linkedinText": "San Francisco, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "San Francisco, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Full stack engineer with ~10 years of experience, spanning frontend platform work in React at LiveRamp and backend + infrastructure work on a payments platform at Teambridge. I tend to gravitate toward whatever piece of a project is the current bottleneck, which has kept me usefully unspecialized.\nI do my best work on teams that don't draw hard lines between roles, and I'm partial to durable abstractions, clear interfaces, and tools that make other engineers faster.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Full Stack Developer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Working across the stack on Teambridge's Pay platform — payroll calculation and Instant Pay, our Earned Wage Access product. Primarily Kotlin/Micronaut on the backend, Postgres, React/TypeScript on the admin surfaces, AWS infrastructure managed via Terraform.\n\nA few of the larger things I've led:\n• Trust Evaluation rule engine — designed and built the system that determines worker eligibility for Instant Pay. Schema-driven, so we can onboard customers with non-standard pay structures through configuration rather than code changes.\n• Automated Instant Pay invoicing and ACH reconciliation end-to-end — invoice generation, delivery, payin matching, exception handling. Removed the manual eng + CS work of creating invoices, coordinating delivery, and matching repayment wires by hand, which let us scale Instant Pay volume without a proportional increase in ops cost.\n• Carried-balance migration of the payroll calculation engine, which unlocked accurate multi-period reconciliation. Added Redis distributed locks around Instant Pay payouts to close a double-pay race under concurrency.\n• Pay platform on-call infrastructure from a sparse baseline — Datadog ingestion, monitors and escalation policies, and a GitHub Actions release-cut workflow that replaced a manual checklist.\n• Broader backend reliability work — reporting endpoint performance, structured logging across async paths, and a tolerant permissions deserializer that let us ship a schema migration without taking down login.\n\nTech: Kotlin, Micronaut, Postgres, Redis, Kotlin Coroutines, React, TypeScript, AWS (ECS, RDS, SNS, SQS), Terraform, Datadog, GitHub Actions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/36158767/",
+     "name": "Teambridge",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Teambridge",
+    "location": "San Francisco, California, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/36158767/",
+    "companyId": "36158767",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Full Stack Developer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "5 yrs 8 mos",
+    "description": "Spent most of my time on frontend platform work — building the foundations other teams used to ship UI consistently. Certified Scrum Master for a squad of seven engineers and a product manager.\n\n• Co-founded LiveRamp's internal React component library in partnership with our design team — became the source of truth for visual consistency across the application and seeded a broader culture of component reuse across the engineering org.\n• Built a UI generation toolkit (paired Ruby gem and NPM package) that let backend engineers add configurable models without pulling in a full-stack dev, materially cutting the time to extend backend models.\n• Conceptualized and built a React App Manager that made page-by-page migration to React viable inside a legacy framework — shared store, reusable reducers, DevTools wired in.\n• Designed and shipped the self-service ingestion API and UI as part of a cross-team group, replacing a series of one-off integrations with a stable customer-facing path.\n• Stood up monitoring and alerting across the ingestion pipelines, cutting customer-facing response times and giving on-call real visibility into pipeline health.\n\nTech: Ruby on Rails, React, Redux, JavaScript, SQL, GCP, Git.",
+    "insights": "Ruby on Rails and React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/2241197/",
+     "name": "LiveRamp, An Acxiom Company",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4"
+     }
+    },
+    "position": "Full Stack Developer",
+    "companyName": "LiveRamp, An Acxiom Company",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2241197/",
+    "companyId": "2241197",
+    "duration": "5 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "36158767",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/36158767/",
+    "companyName": "Teambridge",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco, California, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "Working across the stack on Teambridge's Pay platform — payroll calculation and Instant Pay, our Earned Wage Access product. Primarily Kotlin/Micronaut on the backend, Postgres, React/TypeScript on the admin surfaces, AWS infrastructure managed via Terraform.\n\nA few of the larger things I've led:\n• Trust Evaluation rule engine — designed and built the system that determines worker eligibility for Instant Pay. Schema-driven, so we can onboard customers with non-standard pay structures through configuration rather than code changes.\n• Automated Instant Pay invoicing and ACH reconciliation end-to-end — invoice generation, delivery, payin matching, exception handling. Removed the manual eng + CS work of creating invoices, coordinating delivery, and matching repayment wires by hand, which let us scale Instant Pay volume without a proportional increase in ops cost.\n• Carried-balance migration of the payroll calculation engine, which unlocked accurate multi-period reconciliation. Added Redis distributed locks around Instant Pay payouts to close a double-pay race under concurrency.\n• Pay platform on-call infrastructure from a sparse baseline — Datadog ingestion, monitors and escalation policies, and a GitHub Actions release-cut workflow that replaced a manual checklist.\n• Broader backend reliability work — reporting endpoint performance, structured logging across async paths, and a tolerant permissions deserializer that let us ship a schema migration without taking down login.\n\nTech: Kotlin, Micronaut, Postgres, Redis, Kotlin Coroutines, React, TypeScript, AWS (ECS, RDS, SNS, SQS), Terraform, Datadog, GitHub Actions.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/36158767/",
+     "name": "Teambridge",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Teambridge",
+    "location": "San Francisco, California, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/36158767/",
+    "companyId": "36158767",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_400_400/B4EZm6dlXUIUAY-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=0eM21djslSGNSf4PK8KQYxSPCS0WabaMu8ITUvCgtkE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_200_200/B4EZm6dlXUIUAI-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=rOwshtM3c0-CSaCgIpFCy7XjSUpF0cXq-2WohaNin5U",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEZnHIAPcDVmg/company-logo_100_100/B4EZm6dlXUIUAQ-/0/1759769941746/team_bridge_logo?e=1793836800&v=beta&t=EY-yk34XVawT8HIMiFZoBXtPPQJ08i3YY1NMQl7QUVU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Full Stack Developer",
+    "locationName": "San Francisco Bay Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2021
+     }
+    },
+    "totalDuration": "5 yrs 8 mos",
+    "description": "Spent most of my time on frontend platform work — building the foundations other teams used to ship UI consistently. Certified Scrum Master for a squad of seven engineers and a product manager.\n\n• Co-founded LiveRamp's internal React component library in partnership with our design team — became the source of truth for visual consistency across the application and seeded a broader culture of component reuse across the engineering org.\n• Built a UI generation toolkit (paired Ruby gem and NPM package) that let backend engineers add configurable models without pulling in a full-stack dev, materially cutting the time to extend backend models.\n• Conceptualized and built a React App Manager that made page-by-page migration to React viable inside a legacy framework — shared store, reusable reducers, DevTools wired in.\n• Designed and shipped the self-service ingestion API and UI as part of a cross-team group, replacing a series of one-off integrations with a stable customer-facing path.\n• Stood up monitoring and alerting across the ingestion pipelines, cutting customer-facing response times and giving on-call real visibility into pipeline health.\n\nTech: Ruby on Rails, React, Redux, JavaScript, SQL, GCP, Git.",
+    "insights": "Ruby on Rails and React.js",
+    "company": {
+     "url": "https://www.linkedin.com/company/2241197/",
+     "name": "LiveRamp, An Acxiom Company",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4"
+     }
+    },
+    "position": "Full Stack Developer",
+    "companyName": "LiveRamp, An Acxiom Company",
+    "location": "San Francisco Bay Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2241197/",
+    "companyId": "2241197",
+    "duration": "5 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_400_400/company-logo_400_400/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=R_hU4kXZ2FxPhsf6N2hxWDWhneBxwtxIvMHftI7a9s4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_200_200/company-logo_200_200/0/1731707766168/liveramp_logo?e=1793836800&v=beta&t=uoj5v5ey2ADNnzb-7r2ois336UKD3zcCUMF-ksFRbQE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGLYeN3eswyeg/company-logo_100_100/company-logo_100_100/0/1731707766169/liveramp_logo?e=1793836800&v=beta&t=KolEnhHYrbiH0Xvq2eX6pozi4aRYH54ymaCezbsZbY4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=dWJH0sD-h7_rMgsG8wIImHCjNQ7tkZAIFNpNkQnlt1Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=0hDfj7TK2Un71ctBgdxKeBuRVJtaKyaVMzI0YVj9P8o",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=0hDfj7TK2Un71ctBgdxKeBuRVJtaKyaVMzI0YVj9P8o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=dWJH0sD-h7_rMgsG8wIImHCjNQ7tkZAIFNpNkQnlt1Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "BS",
+    "fieldOfStudy": "Mechanical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_200_200/company-logo_200_200/0/1631310751511?e=1793836800&v=beta&t=Tl2GrhNuQk5d1TxLig1SNgs9jcv9OOKUxwq3NhHO-S4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_100_100/company-logo_100_100/0/1631310751511?e=1793836800&v=beta&t=s6eh43joNPhHRd318SKAlNOcIWg0Pf55IvVvgXK1cAc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_400_400/company-logo_400_400/0/1631310751511?e=1793836800&v=beta&t=SWtvbPXWfJTarTJnmpMTlBBr_azFhSBNI83My4rAFpk",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_400_400/company-logo_400_400/0/1631310751511?e=1793836800&v=beta&t=SWtvbPXWfJTarTJnmpMTlBBr_azFhSBNI83My4rAFpk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_400_400/company-logo_400_400/0/1631310751511?e=1793836800&v=beta&t=SWtvbPXWfJTarTJnmpMTlBBr_azFhSBNI83My4rAFpk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_200_200/company-logo_200_200/0/1631310751511?e=1793836800&v=beta&t=Tl2GrhNuQk5d1TxLig1SNgs9jcv9OOKUxwq3NhHO-S4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGKL_RPA6YaQA/company-logo_100_100/company-logo_100_100/0/1631310751511?e=1793836800&v=beta&t=s6eh43joNPhHRd318SKAlNOcIWg0Pf55IvVvgXK1cAc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3113247/",
+    "schoolName": "App Academy",
+    "degreeName": "",
+    "timePeriod": {},
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3113247/",
+    "schoolId": "3113247",
+    "skills": []
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=dWJH0sD-h7_rMgsG8wIImHCjNQ7tkZAIFNpNkQnlt1Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=0hDfj7TK2Un71ctBgdxKeBuRVJtaKyaVMzI0YVj9P8o",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_400_400/B4EZ9mNsbEHwAU-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=4-KwXxDLSIxYC-WSiDWAIxF3FpR7co26szgan4B__xk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_200_200/B4EZ9mNsbEHwAE-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=0hDfj7TK2Un71ctBgdxKeBuRVJtaKyaVMzI0YVj9P8o",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFgQNnDJI5zRQ/company-logo_100_100/B4EZ9mNsbEHwAI-/0/1784126293906/georgia_institute_of_technology_logo?e=1793836800&v=beta&t=dWJH0sD-h7_rMgsG8wIImHCjNQ7tkZAIFNpNkQnlt1Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/3558/",
+    "schoolName": "Georgia Institute of Technology",
+    "degreeName": "BS",
+    "fieldOfStudy": "Mechanical Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2011
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/3558/",
+    "schoolId": "3558",
+    "degree": "BS",
+    "skills": [],
+    "startDate": {
+     "year": 2011
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629175046201?e=1793836800&v=beta&t=T8h5Obsjdp0hyRUXKsqswBz_-3lqRAC_RTiD1bfip7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629175046201?e=1793836800&v=beta&t=z039Yy2sWpNQ0-pl_W8ML1zoUdHr6IcN4reK8kdkXO0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629175046201?e=1793836800&v=beta&t=bBhqIEviLxTx0axbzkYTPmIm7ckDkYukLfviivozHYo",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629175046201?e=1793836800&v=beta&t=bBhqIEviLxTx0axbzkYTPmIm7ckDkYukLfviivozHYo",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629175046201?e=1793836800&v=beta&t=z039Yy2sWpNQ0-pl_W8ML1zoUdHr6IcN4reK8kdkXO0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629175046201?e=1793836800&v=beta&t=T8h5Obsjdp0hyRUXKsqswBz_-3lqRAC_RTiD1bfip7I",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629175046201?e=1793836800&v=beta&t=T8h5Obsjdp0hyRUXKsqswBz_-3lqRAC_RTiD1bfip7I",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629175046201?e=1793836800&v=beta&t=z039Yy2sWpNQ0-pl_W8ML1zoUdHr6IcN4reK8kdkXO0",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629175046201?e=1793836800&v=beta&t=bBhqIEviLxTx0axbzkYTPmIm7ckDkYukLfviivozHYo",
+   "800x800": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+   "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1629175046201?e=1793836800&v=beta&t=w4UbSwiZXx5WLVg1oHOOqJnkuxmxm30XCypqZ3v3_dY",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1629175046201?e=1793836800&v=beta&t=bBhqIEviLxTx0axbzkYTPmIm7ckDkYukLfviivozHYo",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1629175046201?e=1793836800&v=beta&t=z039Yy2sWpNQ0-pl_W8ML1zoUdHr6IcN4reK8kdkXO0",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4E03AQGPK_HUu2MMew/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1629175046201?e=1793836800&v=beta&t=T8h5Obsjdp0hyRUXKsqswBz_-3lqRAC_RTiD1bfip7I",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516903716191?e=1793836800&v=beta&t=Jw5YD7jrpGzFFvtAhLPNaHQIUofXTZwJSosElpxtz7I",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516903716186?e=1793836800&v=beta&t=T_B628L_7g9GdnfpQdPsX0SYQbud6ygFQ9_w5iMaMKM",
+   "url": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516903716186?e=1793836800&v=beta&t=T_B628L_7g9GdnfpQdPsX0SYQbud6ygFQ9_w5iMaMKM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1516903716186?e=1793836800&v=beta&t=T_B628L_7g9GdnfpQdPsX0SYQbud6ygFQ9_w5iMaMKM",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQFoIycXnMqGpg/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1516903716191?e=1793836800&v=beta&t=Jw5YD7jrpGzFFvtAhLPNaHQIUofXTZwJSosElpxtz7I",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/esummins"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-20T02:33:31.402Z",
+ "foundBy": null
+}

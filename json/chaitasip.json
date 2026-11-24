@@ -1,0 +1,1710 @@
+{
+ "slug": "chaitasip",
+ "inputUrl": "https://www.linkedin.com/in/chaitasip",
+ "fetchedAt": "2026-11-18T21:08:48.474Z",
+ "id": "6afe13e0326d0b70b7e25c10",
+ "url": "https://www.linkedin.com/in/chaitasip",
+ "profile": {
+  "created": 1336946234831,
+  "trackingId": "QZqUn0QsQjabx7QAXpCPrA==",
+  "firstName": "Chaitasi",
+  "lastName": "P.",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "SHE_HER"
+  },
+  "versionTag": "1870138509",
+  "headline": "Staff Software Engineer | Developer Productivity & AI-Powered Engineering Platforms",
+  "publicIdentifier": "chaitasip",
+  "creator": true,
+  "influencer": true,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "creatorInfo": {
+   "hashTags": [],
+   "website": null
+  },
+  "birthDate": null,
+  "id": "184026153",
+  "profileId": "ACoAAAr4BCkB_SqmCqlVEefn5QZ-5uepcglKxTU",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:105538613",
+  "geoLocationName": "Pleasanton, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Staff Software Engineer – AI & Developer Productivity",
+  "summary": "I build engineering platforms that make developers faster — and increasingly, smarter — by pairing automation with AI.\n\nAs a Staff Software Engineer in Developer Productivity, I've spent the past year leading the design and delivery of an AI-powered failure analysis system at ServiceTitan. The platform integrates LLM agents with CI/CD pipelines to automatically analyze Cypress test failures, generate root cause analysis reports, create Jira tickets, and surface fix suggestions via automated pull requests — all with minimal human intervention. It connects GitHub Actions, Slack, and internal tooling into a closed feedback loop that's dramatically reduced debugging time across engineering teams.\n\nBeyond AI, I specialize in building the infrastructure that keeps large engineering organizations moving: scalable test automation frameworks (web, API, mobile, contract), parallel CI/CD execution, observability pipelines, and developer tooling that abstracts away complexity so teams can focus on shipping.\n\nOver 10+ years, I've built automation platforms from scratch, led DevOps migrations, and guided multiple teams through tooling modernization. I've worked across the stack — Terraform, AWS, Kubernetes, Cypress, GraphQL, Java, Python, Golang — but I care most about the systems thinking behind the tooling decisions.\n\nWhat I'm focused on next: bringing AI deeper into developer workflows. I'm especially interested in applying LLMs to CI failure triage, code quality analysis, and intelligent developer assistants that close the loop between test signals and code changes.\n\nIf you're building in this space, I'd love to connect.",
+  "positions": [
+   {
+    "title": "Staff Software Engineer – AI & Developer Productivity",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "description": "• Led the design and implementation of an AI-powered engineering platform that integrates LLM agents with CI/CD infrastructure to automate end-to-end test failure analysis at scale.  \n• Built an intelligent failure triage system that ingests Cypress test failures from GitHub Actions, uses LLM reasoning to generate contextual root cause analysis, automatically creates Jira tickets, and proposes code fixes via automated pull requests — reducing mean time to resolution across multiple engineering teams.  \n• Architected a parallel test execution platform on GitHub Actions, migrating large-scale test suites to containerized, distributed workflows and collecting structured test telemetry to power AI-driven insights.  \n• Designed integrations across GitHub Actions, Slack, Jira, and internal tooling to create a fully automated feedback loop from test failure signal to actionable engineering response.  \n• Established structured data pipelines to support ongoing LLM fine-tuning and AI model evaluation for developer tooling use cases.",
+    "insights": "Skills: Large Language Models (LLM) · Artificial Intelligence (AI) · Azure OpenAI · Claude Skills · Kubernetes · Microsoft Azure · PostgreSQL · Python (Programming Language) · Software Infrastructure · Continuous Integration (CI) · Anthropic Claude · Google Gemini · Docker · TeamCity · LLM",
+    "company": {
+     "url": "https://www.linkedin.com/company/3157549/",
+     "name": "ServiceTitan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer - Developer Productivity",
+    "locationName": "San Francisco, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Owned developer productivity infrastructure for Anaplan's engineering org, spanning test automation frameworks, CI/CD, cloud infrastructure, and internal platform tooling.  \n• Designed and built a user lifecycle automation system using AWS API Gateway, Lambda, Step Functions, WAF, Route 53, RDS, and EKS — significantly reducing manual onboarding overhead across the org.  \n• Developed an in-house Analysis Service with full architecture, database schema, and API design; integrated discovery and enablement through Backstage.io.  \n• Built the organization's test automation framework using Cypress, Cucumber, and JavaScript with Pact contract testing, adopted across multiple service teams.  \n• Deployed and maintained enterprise infrastructure (SonarQube, Allure) on AWS using Terraform; implemented observability pipelines to Splunk and SignalFx with PagerDuty alerting.  \n• Authored Jenkins shared libraries enabling self-service CI/CD adoption across teams; defined SLAs, SLOs, and runbooks for all owned services.",
+    "insights": "Skills: Continuous Integration (CI) · GraphQL · Java · Terraform · Cypress · Python · PostgreSQL · Docker · Grafana · Continuous Delivery · Splunk · JavaScript · MySQL · Kubernetes · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/658814/",
+     "name": "Anaplan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM"
+     }
+    }
+   },
+   {
+    "company": {
+     "name": "Sunrun",
+     "url": "https://www.linkedin.com/company/860999/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs",
+    "positions": [
+     {
+      "title": "Automation Lead → Staff DevOps Engineer",
+      "locationName": "San Francisco, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "• Grew into a leadership and platform role, owning Sunrun's DevOps infrastructure and guiding the automation team while driving org-wide platform initiatives.  \n• Led the organization-wide migration of secrets management to AWS Secrets Manager, consolidating credentials from disparate sources across all engineering teams and significantly improving security posture.  \n• Expanded the contract testing framework using Pact to support microservices at scale; coached and mentored automation engineers on framework design and professional growth.  \n• Built a data pipeline using Kotlin and Apache Beam on GCP to retrieve data from Redis, map elements, and load-test cloud functions — powering engineering analytics and automation.  \n• Provided DevOps support across teams, improving Jenkins CI/CD pipeline reliability and supporting continuous integration and delivery for Sunrun's engineering organization.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Automation Engineer → Principal Automation Engineer ",
+      "locationName": "San Francisco, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2019
+       }
+      },
+      "totalDuration": "2 yrs 7 mos",
+      "description": "• Built and scaled Sunrun's end-to-end test automation platform from the ground up, establishing the foundation for continuous quality across web, API, and mobile surfaces.  \n• Designed Sunrun's core automation framework using Java, Selenium, and JBehave, integrated with a Jenkins CI/CD pipeline for continuous test execution and code merging.  \n• Built the mobile automation framework for iOS and Android using Appium and Maven; developed a Python script to run device tests at scale on AWS Device Farm.  \n• Introduced API testing using the Rest-Assured library and led a contract testing POC using Pact for microservices, laying groundwork for later org-wide adoption.  \n• Designed and integrated load and performance testing using JMeter into the CI/CD pipeline, enabling teams to catch regressions before production.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Senior Software Development Engineer in Test",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Automation framework using Java, Selenium Webdriver, TestNG and Maven; Designed data retrieval from Amazon Web Services (AWS); REST API testing using Jersey Client API library",
+    "insights": "Skills: Selenium · Java · TestNG · API Testing · Maven · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/21811/",
+     "name": "Bazaarvoice",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8"
+     }
+    }
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Automation utilizing Capybara, RSpec, Selenium web driver, Ruby for testing email marketing tools and for customer facing web-based applications; Debug automation failures, identify bugs, fix auto tests; queries for data validation against Oracle db.",
+    "insights": "Skills: Capybara · Oracle · Selenium · RSpec · Test Automation · Ruby",
+    "company": {
+     "url": "https://www.linkedin.com/company/888408/",
+     "name": "One Kings Lane",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI"
+     }
+    }
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "Brooklyn, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2014
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Functional testing using Python; Web application testing; client server application; automated tests for educational application and java based RESTful backend; QA releases from design to commercial; SQL queries for Data validation and backend testing.",
+    "insights": "Skills: Java · Software Quality Assurance · Python · Continuous Delivery · SQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/2684883/",
+     "name": "Amplify",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_100_100/B56aE10zbwJEAM-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=7ZBiMJiqfUmza1h_hKsj5qqjF5QVSFt6TZvkFXjsHAI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_200_200/B56aE10zbwJEAI-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=QMr6rO9YeeutS0lO5n04QsVl9YitIjyO1OrQyfPtzc0"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1053616/",
+    "schoolName": "City University of New York-College of Staten Island",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_200_200/company-logo_200_200/0/1631367229357?e=1796860800&v=beta&t=kKihS92eWTIjZSb8UMBYCVa4FzPdbSN1gBMulIw2vD8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_100_100/company-logo_100_100/0/1631367229357?e=1796860800&v=beta&t=b_Lq4JpHNPvqyn5XY7vJp3frhjTfa_fOKWxf7b_vQas",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_400_400/company-logo_400_400/0/1631367229357?e=1796860800&v=beta&t=O2RVDEeW9aGOq5hDp3dv18SQZhRQKasYh8jbPXlVNO8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15249282/",
+    "schoolName": "Hemchandracharya North Gujarat University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2003
+     },
+     "endDate": {
+      "year": 2007
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Certified Associate in Project Management (CAPM)",
+    "authority": "",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "",
+    "title": "Certified Associate in Project Management (CAPM)",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "ServiceTitan",
+  "companyPublicId": "servicetitan",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/servicetitan/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:3157549",
+   "name": "ServiceTitan",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQEZXBsypK75Fg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_"
+    }
+   },
+   "universalName": "servicetitan",
+   "url": "https://www.linkedin.com/company/servicetitan/",
+   "slug": "servicetitan",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+   "specialties": []
+  },
+  "followerCount": 578,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 485,
+  "skills": [
+   {
+    "name": "AWS Secrets Manager,",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LLM",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure OpenAI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Gemini",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TeamCity",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "Cypress",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Splunk",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Grafana",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Helm (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "LLM",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TeamCity",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cypress",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Splunk",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Continuous Integration (CI)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Cloud Computing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "API Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Sonarqube",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 15,
+    "experiences": 3
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 14,
+    "experiences": ""
+   },
+   {
+    "name": "Software Quality Assurance",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 11,
+    "experiences": ""
+   },
+   {
+    "name": "Test Planning",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Software Project Management",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Azure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PostgreSQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Grafana",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Helm (Software)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Databases",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Terraform",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 5,
+    "experiences": 2
+   },
+   {
+    "name": "Selenium",
+    "endorsements": 7,
+    "experiences": 2
+   },
+   {
+    "name": "Java",
+    "endorsements": 9,
+    "experiences": 4
+   },
+   {
+    "name": "SQL",
+    "endorsements": 12,
+    "experiences": ""
+   },
+   {
+    "name": "JIRA",
+    "endorsements": 9,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 9,
+    "experiences": 2
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Claude Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Azure OpenAI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Google Gemini",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cucumber",
+    "endorsements": 3,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/chaitasip",
+  "linkedinUrl": "https://www.linkedin.com/in/chaitasip",
+  "profileUrl": "https://www.linkedin.com/in/chaitasip",
+  "verified": true,
+  "registeredAt": "2012-05-13T21:57:14.831Z",
+  "location": {
+   "linkedinText": "Pleasanton, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Pleasanton, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build engineering platforms that make developers faster — and increasingly, smarter — by pairing automation with AI.\n\nAs a Staff Software Engineer in Developer Productivity, I've spent the past year leading the design and delivery of an AI-powered failure analysis system at ServiceTitan. The platform integrates LLM agents with CI/CD pipelines to automatically analyze Cypress test failures, generate root cause analysis reports, create Jira tickets, and surface fix suggestions via automated pull requests — all with minimal human intervention. It connects GitHub Actions, Slack, and internal tooling into a closed feedback loop that's dramatically reduced debugging time across engineering teams.\n\nBeyond AI, I specialize in building the infrastructure that keeps large engineering organizations moving: scalable test automation frameworks (web, API, mobile, contract), parallel CI/CD execution, observability pipelines, and developer tooling that abstracts away complexity so teams can focus on shipping.\n\nOver 10+ years, I've built automation platforms from scratch, led DevOps migrations, and guided multiple teams through tooling modernization. I've worked across the stack — Terraform, AWS, Kubernetes, Cypress, GraphQL, Java, Python, Golang — but I care most about the systems thinking behind the tooling decisions.\n\nWhat I'm focused on next: bringing AI deeper into developer workflows. I'm especially interested in applying LLMs to CI failure triage, code quality analysis, and intelligent developer assistants that close the loop between test signals and code changes.\n\nIf you're building in this space, I'd love to connect.",
+  "currentTitle": "Staff Software Engineer – AI & Developer Productivity",
+  "allTitles": [
+   "Staff Software Engineer – AI & Developer Productivity",
+   "Senior Software Engineer - Developer Productivity",
+   "Senior Software Development Engineer in Test",
+   "Automation Engineer",
+   "Automation Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Staff Software Engineer – AI & Developer Productivity",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "description": "• Led the design and implementation of an AI-powered engineering platform that integrates LLM agents with CI/CD infrastructure to automate end-to-end test failure analysis at scale.  \n• Built an intelligent failure triage system that ingests Cypress test failures from GitHub Actions, uses LLM reasoning to generate contextual root cause analysis, automatically creates Jira tickets, and proposes code fixes via automated pull requests — reducing mean time to resolution across multiple engineering teams.  \n• Architected a parallel test execution platform on GitHub Actions, migrating large-scale test suites to containerized, distributed workflows and collecting structured test telemetry to power AI-driven insights.  \n• Designed integrations across GitHub Actions, Slack, Jira, and internal tooling to create a fully automated feedback loop from test failure signal to actionable engineering response.  \n• Established structured data pipelines to support ongoing LLM fine-tuning and AI model evaluation for developer tooling use cases.",
+    "insights": "Skills: Large Language Models (LLM) · Artificial Intelligence (AI) · Azure OpenAI · Claude Skills · Kubernetes · Microsoft Azure · PostgreSQL · Python (Programming Language) · Software Infrastructure · Continuous Integration (CI) · Anthropic Claude · Google Gemini · Docker · TeamCity · LLM",
+    "company": {
+     "url": "https://www.linkedin.com/company/3157549/",
+     "name": "ServiceTitan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE"
+     }
+    },
+    "position": "Staff Software Engineer – AI & Developer Productivity",
+    "companyName": "ServiceTitan",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3157549/",
+    "companyId": "3157549",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Sunrun",
+     "url": "https://www.linkedin.com/company/860999/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs",
+    "positions": [
+     {
+      "title": "Automation Lead → Staff DevOps Engineer",
+      "locationName": "San Francisco, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "• Grew into a leadership and platform role, owning Sunrun's DevOps infrastructure and guiding the automation team while driving org-wide platform initiatives.  \n• Led the organization-wide migration of secrets management to AWS Secrets Manager, consolidating credentials from disparate sources across all engineering teams and significantly improving security posture.  \n• Expanded the contract testing framework using Pact to support microservices at scale; coached and mentored automation engineers on framework design and professional growth.  \n• Built a data pipeline using Kotlin and Apache Beam on GCP to retrieve data from Redis, map elements, and load-test cloud functions — powering engineering analytics and automation.  \n• Provided DevOps support across teams, improving Jenkins CI/CD pipeline reliability and supporting continuous integration and delivery for Sunrun's engineering organization.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Automation Engineer → Principal Automation Engineer ",
+      "locationName": "San Francisco, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2019
+       }
+      },
+      "totalDuration": "2 yrs 7 mos",
+      "description": "• Built and scaled Sunrun's end-to-end test automation platform from the ground up, establishing the foundation for continuous quality across web, API, and mobile surfaces.  \n• Designed Sunrun's core automation framework using Java, Selenium, and JBehave, integrated with a Jenkins CI/CD pipeline for continuous test execution and code merging.  \n• Built the mobile automation framework for iOS and Android using Appium and Maven; developed a Python script to run device tests at scale on AWS Device Farm.  \n• Introduced API testing using the Rest-Assured library and led a contract testing POC using Pact for microservices, laying groundwork for later org-wide adoption.  \n• Designed and integrated load and performance testing using JMeter into the CI/CD pipeline, enabling teams to catch regressions before production.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Sunrun",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/860999/",
+    "companyId": "860999",
+    "duration": "5 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer - Developer Productivity",
+    "locationName": "San Francisco, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Owned developer productivity infrastructure for Anaplan's engineering org, spanning test automation frameworks, CI/CD, cloud infrastructure, and internal platform tooling.  \n• Designed and built a user lifecycle automation system using AWS API Gateway, Lambda, Step Functions, WAF, Route 53, RDS, and EKS — significantly reducing manual onboarding overhead across the org.  \n• Developed an in-house Analysis Service with full architecture, database schema, and API design; integrated discovery and enablement through Backstage.io.  \n• Built the organization's test automation framework using Cypress, Cucumber, and JavaScript with Pact contract testing, adopted across multiple service teams.  \n• Deployed and maintained enterprise infrastructure (SonarQube, Allure) on AWS using Terraform; implemented observability pipelines to Splunk and SignalFx with PagerDuty alerting.  \n• Authored Jenkins shared libraries enabling self-service CI/CD adoption across teams; defined SLAs, SLOs, and runbooks for all owned services.",
+    "insights": "Skills: Continuous Integration (CI) · GraphQL · Java · Terraform · Cypress · Python · PostgreSQL · Docker · Grafana · Continuous Delivery · Splunk · JavaScript · MySQL · Kubernetes · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/658814/",
+     "name": "Anaplan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM"
+     }
+    },
+    "position": "Senior Software Engineer - Developer Productivity",
+    "companyName": "Anaplan",
+    "location": "San Francisco, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/658814/",
+    "companyId": "658814",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Senior Software Development Engineer in Test",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Automation framework using Java, Selenium Webdriver, TestNG and Maven; Designed data retrieval from Amazon Web Services (AWS); REST API testing using Jersey Client API library",
+    "insights": "Skills: Selenium · Java · TestNG · API Testing · Maven · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/21811/",
+     "name": "Bazaarvoice",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8"
+     }
+    },
+    "position": "Senior Software Development Engineer in Test",
+    "companyName": "Bazaarvoice",
+    "location": "San Francisco, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/21811/",
+    "companyId": "21811",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Automation utilizing Capybara, RSpec, Selenium web driver, Ruby for testing email marketing tools and for customer facing web-based applications; Debug automation failures, identify bugs, fix auto tests; queries for data validation against Oracle db.",
+    "insights": "Skills: Capybara · Oracle · Selenium · RSpec · Test Automation · Ruby",
+    "company": {
+     "url": "https://www.linkedin.com/company/888408/",
+     "name": "One Kings Lane",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI"
+     }
+    },
+    "position": "Automation Engineer",
+    "companyName": "One Kings Lane",
+    "location": "San Francisco, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/888408/",
+    "companyId": "888408",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "Brooklyn, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2014
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Functional testing using Python; Web application testing; client server application; automated tests for educational application and java based RESTful backend; QA releases from design to commercial; SQL queries for Data validation and backend testing.",
+    "insights": "Skills: Java · Software Quality Assurance · Python · Continuous Delivery · SQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/2684883/",
+     "name": "Amplify",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw"
+     }
+    },
+    "position": "Automation Engineer",
+    "companyName": "Amplify",
+    "location": "Brooklyn, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2684883/",
+    "companyId": "2684883",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "3157549",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3157549/",
+    "companyName": "ServiceTitan",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "860999",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/860999/",
+    "companyName": "Sunrun",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Staff Software Engineer – AI & Developer Productivity",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 11 mos",
+    "description": "• Led the design and implementation of an AI-powered engineering platform that integrates LLM agents with CI/CD infrastructure to automate end-to-end test failure analysis at scale.  \n• Built an intelligent failure triage system that ingests Cypress test failures from GitHub Actions, uses LLM reasoning to generate contextual root cause analysis, automatically creates Jira tickets, and proposes code fixes via automated pull requests — reducing mean time to resolution across multiple engineering teams.  \n• Architected a parallel test execution platform on GitHub Actions, migrating large-scale test suites to containerized, distributed workflows and collecting structured test telemetry to power AI-driven insights.  \n• Designed integrations across GitHub Actions, Slack, Jira, and internal tooling to create a fully automated feedback loop from test failure signal to actionable engineering response.  \n• Established structured data pipelines to support ongoing LLM fine-tuning and AI model evaluation for developer tooling use cases.",
+    "insights": "Skills: Large Language Models (LLM) · Artificial Intelligence (AI) · Azure OpenAI · Claude Skills · Kubernetes · Microsoft Azure · PostgreSQL · Python (Programming Language) · Software Infrastructure · Continuous Integration (CI) · Anthropic Claude · Google Gemini · Docker · TeamCity · LLM",
+    "company": {
+     "url": "https://www.linkedin.com/company/3157549/",
+     "name": "ServiceTitan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE"
+     }
+    },
+    "position": "Staff Software Engineer – AI & Developer Productivity",
+    "companyName": "ServiceTitan",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3157549/",
+    "companyId": "3157549",
+    "duration": "2 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_400_400/company-logo_400_400/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=47giyBifAMQcoeB_IKIsiMlTKUQLetJ44PXznUOFItE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_200_200/company-logo_200_200/0/1660079842957/servicetitan_logo?e=1796860800&v=beta&t=u6odhsLi_enK2R1BA18HMdOyWm_zPeB6uo9Irtk3FFE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQEZXBsypK75Fg/company-logo_100_100/company-logo_100_100/0/1660079842958/servicetitan_logo?e=1796860800&v=beta&t=8Hms1pH_fT_oCcCZtHe-dLGdCfTVGvCHWAWNV0Z2IAo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Software Engineer - Developer Productivity",
+    "locationName": "San Francisco, CA · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 yrs",
+    "description": "• Owned developer productivity infrastructure for Anaplan's engineering org, spanning test automation frameworks, CI/CD, cloud infrastructure, and internal platform tooling.  \n• Designed and built a user lifecycle automation system using AWS API Gateway, Lambda, Step Functions, WAF, Route 53, RDS, and EKS — significantly reducing manual onboarding overhead across the org.  \n• Developed an in-house Analysis Service with full architecture, database schema, and API design; integrated discovery and enablement through Backstage.io.  \n• Built the organization's test automation framework using Cypress, Cucumber, and JavaScript with Pact contract testing, adopted across multiple service teams.  \n• Deployed and maintained enterprise infrastructure (SonarQube, Allure) on AWS using Terraform; implemented observability pipelines to Splunk and SignalFx with PagerDuty alerting.  \n• Authored Jenkins shared libraries enabling self-service CI/CD adoption across teams; defined SLAs, SLOs, and runbooks for all owned services.",
+    "insights": "Skills: Continuous Integration (CI) · GraphQL · Java · Terraform · Cypress · Python · PostgreSQL · Docker · Grafana · Continuous Delivery · Splunk · JavaScript · MySQL · Kubernetes · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/658814/",
+     "name": "Anaplan",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM"
+     }
+    },
+    "position": "Senior Software Engineer - Developer Productivity",
+    "companyName": "Anaplan",
+    "location": "San Francisco, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/658814/",
+    "companyId": "658814",
+    "duration": "3 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_400_400/B56ZUXZoi4GsAk-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=mlT62ziPZy8lGh-qO-ycAL7aIA0wVQ89WSRWP5gr0Tk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_200_200/B56ZUXZoi4GsAU-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=GX-0YpCowcM9JEtkgadB_DCrb3UVVYGqRARELmOTyic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGYt40mQR_WYw/company-logo_100_100/B56ZUXZoi4GsAc-/0/1739854350849/anaplan_logo?e=1796860800&v=beta&t=PU-e26p7ccIed0rsTubRA6secWOXXQUzgNIviLYszzM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Sunrun",
+     "url": "https://www.linkedin.com/company/860999/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE"
+     }
+    },
+    "locationName": "On-site",
+    "employmentType": "Full-time",
+    "totalDuration": "5 yrs",
+    "positions": [
+     {
+      "title": "Automation Lead → Staff DevOps Engineer",
+      "locationName": "San Francisco, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 4,
+        "year": 2019
+       },
+       "endDate": {
+        "month": 8,
+        "year": 2021
+       }
+      },
+      "totalDuration": "2 yrs 5 mos",
+      "description": "• Grew into a leadership and platform role, owning Sunrun's DevOps infrastructure and guiding the automation team while driving org-wide platform initiatives.  \n• Led the organization-wide migration of secrets management to AWS Secrets Manager, consolidating credentials from disparate sources across all engineering teams and significantly improving security posture.  \n• Expanded the contract testing framework using Pact to support microservices at scale; coached and mentored automation engineers on framework design and professional growth.  \n• Built a data pipeline using Kotlin and Apache Beam on GCP to retrieve data from Redis, map elements, and load-test cloud functions — powering engineering analytics and automation.  \n• Provided DevOps support across teams, improving Jenkins CI/CD pipeline reliability and supporting continuous integration and delivery for Sunrun's engineering organization.",
+      "insights": ""
+     },
+     {
+      "title": "Senior Automation Engineer → Principal Automation Engineer ",
+      "locationName": "San Francisco, California",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 3,
+        "year": 2019
+       }
+      },
+      "totalDuration": "2 yrs 7 mos",
+      "description": "• Built and scaled Sunrun's end-to-end test automation platform from the ground up, establishing the foundation for continuous quality across web, API, and mobile surfaces.  \n• Designed Sunrun's core automation framework using Java, Selenium, and JBehave, integrated with a Jenkins CI/CD pipeline for continuous test execution and code merging.  \n• Built the mobile automation framework for iOS and Android using Appium and Maven; developed a Python script to run device tests at scale on AWS Device Farm.  \n• Introduced API testing using the Rest-Assured library and led a contract testing POC using Pact for microservices, laying groundwork for later org-wide adoption.  \n• Designed and integrated load and performance testing using JMeter into the CI/CD pipeline, enabling teams to catch regressions before production.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Sunrun",
+    "location": "On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/860999/",
+    "companyId": "860999",
+    "duration": "5 yrs",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_400_400/company-logo_400_400/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=ERivx7D4SeFixWTmtfyIpJrRPEYZ-Y7zGI7obvx0QSE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_200_200/company-logo_200_200/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=I4NtmGHjXs8aZGPRnmlpFZHlRbofN62Jwc2k5psUnYs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQEjZ_UnVv2pIQ/company-logo_100_100/company-logo_100_100/0/1705950769208/sunrun_logo?e=1796860800&v=beta&t=IB1WLZXzdNEmAs_h-D9OgbgOINyQuoF7P05AGWJROxY",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Senior Software Development Engineer in Test",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2016
+     }
+    },
+    "totalDuration": "10 mos",
+    "description": "Automation framework using Java, Selenium Webdriver, TestNG and Maven; Designed data retrieval from Amazon Web Services (AWS); REST API testing using Jersey Client API library",
+    "insights": "Skills: Selenium · Java · TestNG · API Testing · Maven · Amazon Web Services (AWS) · Jenkins",
+    "company": {
+     "url": "https://www.linkedin.com/company/21811/",
+     "name": "Bazaarvoice",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8"
+     }
+    },
+    "position": "Senior Software Development Engineer in Test",
+    "companyName": "Bazaarvoice",
+    "location": "San Francisco, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/21811/",
+    "companyId": "21811",
+    "duration": "10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2016
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_400_400/B56ZkMVXDxHkAY-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=uYbnzdeiaUwxzUuhFRs2md9FUT4XmurwXHS6JeqxFYY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_200_200/B56ZkMVXDxHkAI-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=HhE1FvFy4gAPJi_yzNxTNWTEQv-C09bCdcm2MbSfRD8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQEAtgehOrIing/company-logo_100_100/B56ZkMVXDxHkAQ-/0/1756848550456/bazaarvoice_logo?e=1796860800&v=beta&t=S1L-045Y5s_a46IfiY63llT_DGvjI4NPsHDDcdK0DdI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "San Francisco, California, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2015
+     }
+    },
+    "totalDuration": "1 yr 2 mos",
+    "description": "Automation utilizing Capybara, RSpec, Selenium web driver, Ruby for testing email marketing tools and for customer facing web-based applications; Debug automation failures, identify bugs, fix auto tests; queries for data validation against Oracle db.",
+    "insights": "Skills: Capybara · Oracle · Selenium · RSpec · Test Automation · Ruby",
+    "company": {
+     "url": "https://www.linkedin.com/company/888408/",
+     "name": "One Kings Lane",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI"
+     }
+    },
+    "position": "Automation Engineer",
+    "companyName": "One Kings Lane",
+    "location": "San Francisco, California, United States · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/888408/",
+    "companyId": "888408",
+    "duration": "1 yr 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2014
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2015
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_400_400/company-logo_400_400/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=tVhBkILRnUHzfWLg4qdOzzGUAF-ZjBycLLyb24YbpfI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_200_200/company-logo_200_200/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=FpUZIGXMGgFF8ksqFD3vYCSom_y31EYVxGYp9S7SVFE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQF_5xYmZmCqaw/company-logo_100_100/company-logo_100_100/0/1630649780913/one_kings_lane_logo?e=1796860800&v=beta&t=lf57bCj_wJpYaEx6OELEinGa3bt4bQ721tDTUGPN3xc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Automation Engineer",
+    "locationName": "Brooklyn, NY · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2014
+     }
+    },
+    "totalDuration": "3 yrs 5 mos",
+    "description": "Functional testing using Python; Web application testing; client server application; automated tests for educational application and java based RESTful backend; QA releases from design to commercial; SQL queries for Data validation and backend testing.",
+    "insights": "Skills: Java · Software Quality Assurance · Python · Continuous Delivery · SQL",
+    "company": {
+     "url": "https://www.linkedin.com/company/2684883/",
+     "name": "Amplify",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw"
+     }
+    },
+    "position": "Automation Engineer",
+    "companyName": "Amplify",
+    "location": "Brooklyn, NY · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2684883/",
+    "companyId": "2684883",
+    "duration": "3 yrs 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2014
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_400_400/company-logo_400_400/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=q3jIdCCwWnQHgN7zutFxL7H9xzaeZsIkQ1xU5B8IArw",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_200_200/company-logo_200_200/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=U9wYI-5CYKEymOT0FqBHOsAghgKBtw3Mw1wiTIOpMSs",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHnBgJjFK23Ng/company-logo_100_100/company-logo_100_100/0/1680111598741/amplifyinc_logo?e=1796860800&v=beta&t=EOlr3HOIbIdo7jLf55gJK2RFeBUhHwwKRg9iFBP95fM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_100_100/B56aE10zbwJEAM-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=7ZBiMJiqfUmza1h_hKsj5qqjF5QVSFt6TZvkFXjsHAI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_200_200/B56aE10zbwJEAI-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=QMr6rO9YeeutS0lO5n04QsVl9YitIjyO1OrQyfPtzc0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_200_200/B56aE10zbwJEAI-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=QMr6rO9YeeutS0lO5n04QsVl9YitIjyO1OrQyfPtzc0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_100_100/B56aE10zbwJEAM-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=7ZBiMJiqfUmza1h_hKsj5qqjF5QVSFt6TZvkFXjsHAI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1053616/",
+    "schoolName": "City University of New York-College of Staten Island",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1053616/",
+    "schoolId": "1053616",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2010
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_200_200/company-logo_200_200/0/1631367229357?e=1796860800&v=beta&t=kKihS92eWTIjZSb8UMBYCVa4FzPdbSN1gBMulIw2vD8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_100_100/company-logo_100_100/0/1631367229357?e=1796860800&v=beta&t=b_Lq4JpHNPvqyn5XY7vJp3frhjTfa_fOKWxf7b_vQas",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_400_400/company-logo_400_400/0/1631367229357?e=1796860800&v=beta&t=O2RVDEeW9aGOq5hDp3dv18SQZhRQKasYh8jbPXlVNO8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_400_400/company-logo_400_400/0/1631367229357?e=1796860800&v=beta&t=O2RVDEeW9aGOq5hDp3dv18SQZhRQKasYh8jbPXlVNO8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_400_400/company-logo_400_400/0/1631367229357?e=1796860800&v=beta&t=O2RVDEeW9aGOq5hDp3dv18SQZhRQKasYh8jbPXlVNO8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_200_200/company-logo_200_200/0/1631367229357?e=1796860800&v=beta&t=kKihS92eWTIjZSb8UMBYCVa4FzPdbSN1gBMulIw2vD8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHESQVY9OItcQ/company-logo_100_100/company-logo_100_100/0/1631367229357?e=1796860800&v=beta&t=b_Lq4JpHNPvqyn5XY7vJp3frhjTfa_fOKWxf7b_vQas",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15249282/",
+    "schoolName": "Hemchandracharya North Gujarat University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2003
+     },
+     "endDate": {
+      "year": 2007
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15249282/",
+    "schoolId": "15249282",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2003
+    },
+    "endDate": {
+     "year": 2007
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_100_100/B56aE10zbwJEAM-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=7ZBiMJiqfUmza1h_hKsj5qqjF5QVSFt6TZvkFXjsHAI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_200_200/B56aE10zbwJEAI-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=QMr6rO9YeeutS0lO5n04QsVl9YitIjyO1OrQyfPtzc0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_400_400/B56aE10zbwJEAY-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=P4_rJkDaIBAdF7laxOUF18Tu2NFozXOQYdftUnq8QDY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_200_200/B56aE10zbwJEAI-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=QMr6rO9YeeutS0lO5n04QsVl9YitIjyO1OrQyfPtzc0",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGMHIapVOqL-Q/company-logo_100_100/B56aE10zbwJEAM-/0/1791904397282/collegeofstatenisland_logo?e=1796860800&v=beta&t=7ZBiMJiqfUmza1h_hKsj5qqjF5QVSFt6TZvkFXjsHAI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/1053616/",
+    "schoolName": "City University of New York-College of Staten Island",
+    "degreeName": "Master's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2008
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2010
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/1053616/",
+    "schoolId": "1053616",
+    "degree": "Master's degree",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2008
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2010
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/chaitasip"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T21:08:33.015Z",
+ "foundBy": null
+}

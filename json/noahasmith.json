@@ -1,0 +1,1245 @@
+{
+ "slug": "noahasmith",
+ "inputUrl": "https://www.linkedin.com/in/noahasmith",
+ "fetchedAt": "2026-10-22T18:44:05.469Z",
+ "id": "6ada597543db4c7cf61433d0",
+ "url": "https://www.linkedin.com/in/noahasmith",
+ "profile": {
+  "created": 1480394060290,
+  "trackingId": "wxYMxdLyQnKW76YYuKqRSw==",
+  "firstName": "Noah",
+  "lastName": "Smith",
+  "pronoun": null,
+  "versionTag": "145543495",
+  "headline": "Software Engineer II at Emerson Electric",
+  "publicIdentifier": "noahasmith",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "541755905",
+  "profileId": "ACoAACBKigEBZxNQvd2cLwUV2cSwTSL2JEw0A8Q",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+   "545x545": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+   "545x545": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104472865",
+  "geoLocationName": "Austin, Texas, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer II",
+  "summary": "Current Software Engineer II for Emerson Electric working on feature development and software maintenance of Emerson's PLC software system, PME.",
+  "positions": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Austin, TX · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "I work on PAC Machine Edition (PME), an industrial automation IDE deployed internationally across water, power generation, and oil & gas. My main focus is a multi-year effort to add simulator and debugger capabilities to the product, letting customers develop and test control logic without physical hardware. The codebase is large and legacy-heavy, primarily C++ and C# across MFC, WPF, and .NET Framework, with some Delphi.\nOwn the Ladder Diagram editor portion of the simulator/debugger initiative, one of PME's three IEC 61131-3 programming editors (LD, ST, FBD); contribute to the simulated PLC communication layer\nSimulator shipped in PME 10.6 (2024), emulating 11 PACSystems CPU models; debugger in progress\nImplemented the low-level layer underneath: memory and register emulation for the simulated CPUs, including direct memory addressing, byte-level data mapping, and binary decoding verified against PACSystems runtime binaries; built multithreaded simulation components\nExtended the simulator and debugger to support user-written C code blocks\nValidate simulated behavior against physical PACSystems controllers over EtherNet/IP, Modbus, and SRTP, running hardware-in-the-loop testing and root-causing discrepancies between simulated and real targets\nRefactor legacy PME modules using object-oriented design; profile and optimize debugger timing paths; root-cause system-level defects and remediate Coverity static analysis findings\nMaintain Jenkins CI/CD pipelines for automated builds, unit and regression testing, and release deployment\nReplaced the overnight Help documentation build with a local process, cutting the feedback loop from a day to minutes\nIntegrated GitHub Copilot with SmartBear Collaborator for AI-assisted code review comments, adopted across our 50-engineer division\nRun standups and sprint planning for our four-engineer team in an Agile/Scrum SDLC; conduct code and design reviews; point of contact when our lead is out",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2753/",
+     "name": "Emerson",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Tewksbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2022
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Held SECRET clearance working in a closed area on the Digital Signal Processing (DSP) team supporting radar systems.\nBuilt a performance data collection system in MATLAB and Perl on Linux, pipelining results into InfluxDB with Grafana dashboards; the team used it to track software performance across development and catch execution-speed regressions\nIntegrated features into and maintained the DSP team's core radar signal processing software, developing deep familiarity with the system's architecture and data flow\nCompiled, debugged, and profiled DSP software on Linux using GCC and GDB; maintained Jenkins CI/CD build and automated test jobs verifying changes against system requirements\nPartnered with Systems Engineers to troubleshoot cross-team issues and drive problems to root cause\nBuilt the front end of an internal HR application in HTML and JavaScript for staff surveying and data collection, helping managers align worker allocation with project needs and employee goals; adopted company-wide for sectional and performance reviews (Jun 2020 – Jan 2021)",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40653509/",
+     "name": "Raytheon Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0"
+     }
+    }
+   },
+   {
+    "title": "Information Technology Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Part-time",
+    "description": "Assisted with the maintenance and implementation of network problem solutions by directly interacting with server hardware and server hard line connections. \n\nHandled the execution of server hardware and software upgrades, directly replacing older and faulty components of the systems.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    }
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Processed radar signal data from systems at the Arecibo Observatory (Puerto Rico) and Jicamarca Observatory (Peru) to determine the location of small meteorites breaking up in the Earth’s ionosphere and the subsequent events to develop a better understanding of atmospheric wind.\n\nAggregated data and created graphical representations of radar signals for department presentations displaying samples of atmospheric altitude and speed of meteoric breakup, as well as averages across samples, to identify patterns in atmospheric wind behavior",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6729/",
+    "schoolName": "Miami University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Deans List",
+    "description": "",
+    "issueDate": {},
+    "issuer": "Issued by Miami University · Jan 2018"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Emerson",
+  "companyPublicId": "emerson",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/emerson/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2753",
+   "name": "Emerson",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQGR6FSAnbBWcQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+       "expiresAt": 1794441600000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+       "expiresAt": 1794441600000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+       "expiresAt": 1794441600000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_"
+    }
+   },
+   "universalName": "emerson",
+   "url": "https://www.linkedin.com/company/emerson/",
+   "slug": "emerson",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+   "specialties": []
+  },
+  "followerCount": 46,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 44,
+  "skills": [
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Field-Programmable Gate Arrays (FPGA)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Media",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Arduino",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Verilog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Word",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Field-Programmable Gate Arrays (FPGA)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Social Media",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Research",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Secure Shell (SSH)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DevOps",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Matlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Arduino",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Verilog",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Word",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft PowerPoint",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Excel",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Unix",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Perl",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/noahasmith",
+  "linkedinUrl": "https://www.linkedin.com/in/noahasmith",
+  "profileUrl": "https://www.linkedin.com/in/noahasmith",
+  "verified": true,
+  "registeredAt": "2016-11-29T04:34:20.290Z",
+  "location": {
+   "linkedinText": "Austin, Texas, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Austin, Texas, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Current Software Engineer II for Emerson Electric working on feature development and software maintenance of Emerson's PLC software system, PME.",
+  "currentTitle": "Software Engineer II",
+  "allTitles": [
+   "Software Engineer II",
+   "Software Engineer",
+   "Information Technology Assistant",
+   "Undergraduate Research Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Austin, TX · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "I work on PAC Machine Edition (PME), an industrial automation IDE deployed internationally across water, power generation, and oil & gas. My main focus is a multi-year effort to add simulator and debugger capabilities to the product, letting customers develop and test control logic without physical hardware. The codebase is large and legacy-heavy, primarily C++ and C# across MFC, WPF, and .NET Framework, with some Delphi.\nOwn the Ladder Diagram editor portion of the simulator/debugger initiative, one of PME's three IEC 61131-3 programming editors (LD, ST, FBD); contribute to the simulated PLC communication layer\nSimulator shipped in PME 10.6 (2024), emulating 11 PACSystems CPU models; debugger in progress\nImplemented the low-level layer underneath: memory and register emulation for the simulated CPUs, including direct memory addressing, byte-level data mapping, and binary decoding verified against PACSystems runtime binaries; built multithreaded simulation components\nExtended the simulator and debugger to support user-written C code blocks\nValidate simulated behavior against physical PACSystems controllers over EtherNet/IP, Modbus, and SRTP, running hardware-in-the-loop testing and root-causing discrepancies between simulated and real targets\nRefactor legacy PME modules using object-oriented design; profile and optimize debugger timing paths; root-cause system-level defects and remediate Coverity static analysis findings\nMaintain Jenkins CI/CD pipelines for automated builds, unit and regression testing, and release deployment\nReplaced the overnight Help documentation build with a local process, cutting the feedback loop from a day to minutes\nIntegrated GitHub Copilot with SmartBear Collaborator for AI-assisted code review comments, adopted across our 50-engineer division\nRun standups and sprint planning for our four-engineer team in an Agile/Scrum SDLC; conduct code and design reviews; point of contact when our lead is out",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2753/",
+     "name": "Emerson",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk"
+     }
+    },
+    "position": "Software Engineer II",
+    "companyName": "Emerson",
+    "location": "Austin, TX · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2753/",
+    "companyId": "2753",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Tewksbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2022
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Held SECRET clearance working in a closed area on the Digital Signal Processing (DSP) team supporting radar systems.\nBuilt a performance data collection system in MATLAB and Perl on Linux, pipelining results into InfluxDB with Grafana dashboards; the team used it to track software performance across development and catch execution-speed regressions\nIntegrated features into and maintained the DSP team's core radar signal processing software, developing deep familiarity with the system's architecture and data flow\nCompiled, debugged, and profiled DSP software on Linux using GCC and GDB; maintained Jenkins CI/CD build and automated test jobs verifying changes against system requirements\nPartnered with Systems Engineers to troubleshoot cross-team issues and drive problems to root cause\nBuilt the front end of an internal HR application in HTML and JavaScript for staff surveying and data collection, helping managers align worker allocation with project needs and employee goals; adopted company-wide for sectional and performance reviews (Jun 2020 – Jan 2021)",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40653509/",
+     "name": "Raytheon Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Raytheon Technologies",
+    "location": "Tewksbury, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40653509/",
+    "companyId": "40653509",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Information Technology Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Part-time",
+    "description": "Assisted with the maintenance and implementation of network problem solutions by directly interacting with server hardware and server hard line connections. \n\nHandled the execution of server hardware and software upgrades, directly replacing older and faulty components of the systems.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    },
+    "position": "Information Technology Assistant",
+    "companyName": "Miami University",
+    "location": "Oxford, Ohio",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "companyId": "6729",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Processed radar signal data from systems at the Arecibo Observatory (Puerto Rico) and Jicamarca Observatory (Peru) to determine the location of small meteorites breaking up in the Earth’s ionosphere and the subsequent events to develop a better understanding of atmospheric wind.\n\nAggregated data and created graphical representations of radar signals for department presentations displaying samples of atmospheric altitude and speed of meteoric breakup, as well as averages across samples, to identify patterns in atmospheric wind behavior",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "Miami University",
+    "location": "Oxford, Ohio",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "companyId": "6729",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2753",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2753/",
+    "companyName": "Emerson",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer II",
+    "locationName": "Austin, TX · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2022
+     },
+     "endDate": null
+    },
+    "totalDuration": "4 yrs 2 mos",
+    "employmentType": "Full-time",
+    "description": "I work on PAC Machine Edition (PME), an industrial automation IDE deployed internationally across water, power generation, and oil & gas. My main focus is a multi-year effort to add simulator and debugger capabilities to the product, letting customers develop and test control logic without physical hardware. The codebase is large and legacy-heavy, primarily C++ and C# across MFC, WPF, and .NET Framework, with some Delphi.\nOwn the Ladder Diagram editor portion of the simulator/debugger initiative, one of PME's three IEC 61131-3 programming editors (LD, ST, FBD); contribute to the simulated PLC communication layer\nSimulator shipped in PME 10.6 (2024), emulating 11 PACSystems CPU models; debugger in progress\nImplemented the low-level layer underneath: memory and register emulation for the simulated CPUs, including direct memory addressing, byte-level data mapping, and binary decoding verified against PACSystems runtime binaries; built multithreaded simulation components\nExtended the simulator and debugger to support user-written C code blocks\nValidate simulated behavior against physical PACSystems controllers over EtherNet/IP, Modbus, and SRTP, running hardware-in-the-loop testing and root-causing discrepancies between simulated and real targets\nRefactor legacy PME modules using object-oriented design; profile and optimize debugger timing paths; root-cause system-level defects and remediate Coverity static analysis findings\nMaintain Jenkins CI/CD pipelines for automated builds, unit and regression testing, and release deployment\nReplaced the overnight Help documentation build with a local process, cutting the feedback loop from a day to minutes\nIntegrated GitHub Copilot with SmartBear Collaborator for AI-assisted code review comments, adopted across our 50-engineer division\nRun standups and sprint planning for our four-engineer team in an Agile/Scrum SDLC; conduct code and design reviews; point of contact when our lead is out",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/2753/",
+     "name": "Emerson",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk"
+     }
+    },
+    "position": "Software Engineer II",
+    "companyName": "Emerson",
+    "location": "Austin, TX · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2753/",
+    "companyId": "2753",
+    "duration": "4 yrs 2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_400_400/company-logo_400_400/0/1719847292095/emerson_logo?e=1794441600&v=beta&t=BFqzZtMWjB0MSKYy29hcGDzeUwwOkPg1sCb7P0zdzEk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_200_200/company-logo_200_200/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=t3PGHRN33-QWtL2_q-G_HBDSjTMl-CZAfTVMjYMz5PY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGR6FSAnbBWcQ/company-logo_100_100/company-logo_100_100/0/1719847292094/emerson_logo?e=1794441600&v=beta&t=pefzvhyLrTCLiy_FV0kLjyjAeUqV3z9UkdhROcGus-0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer",
+    "locationName": "Tewksbury, MA",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2022
+     }
+    },
+    "totalDuration": "2 yrs 3 mos",
+    "employmentType": "Full-time",
+    "description": "Held SECRET clearance working in a closed area on the Digital Signal Processing (DSP) team supporting radar systems.\nBuilt a performance data collection system in MATLAB and Perl on Linux, pipelining results into InfluxDB with Grafana dashboards; the team used it to track software performance across development and catch execution-speed regressions\nIntegrated features into and maintained the DSP team's core radar signal processing software, developing deep familiarity with the system's architecture and data flow\nCompiled, debugged, and profiled DSP software on Linux using GCC and GDB; maintained Jenkins CI/CD build and automated test jobs verifying changes against system requirements\nPartnered with Systems Engineers to troubleshoot cross-team issues and drive problems to root cause\nBuilt the front end of an internal HR application in HTML and JavaScript for staff surveying and data collection, helping managers align worker allocation with project needs and employee goals; adopted company-wide for sectional and performance reviews (Jun 2020 – Jan 2021)",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/40653509/",
+     "name": "Raytheon Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Raytheon Technologies",
+    "location": "Tewksbury, MA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/40653509/",
+    "companyId": "40653509",
+    "duration": "2 yrs 3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_400_400/company-logo_400_400/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=RQV_mSLke8l3jrHPVfs7YPr1nu9LZ3euBP_oQFj4d-0",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_200_200/company-logo_200_200/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=KxeIclH8TWs6-6CYWLfELkYUpnURsjkg4Eue0WQZ01A",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFITBtnCzFO9w/company-logo_100_100/company-logo_100_100/0/1687169432565/raytheontechnologies_logo?e=1794441600&v=beta&t=qI2VlQIQuE9cC3RmQpuexbyUWcF8BDcVZU3iyU6inEI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Information Technology Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2020
+     }
+    },
+    "totalDuration": "8 mos",
+    "employmentType": "Part-time",
+    "description": "Assisted with the maintenance and implementation of network problem solutions by directly interacting with server hardware and server hard line connections. \n\nHandled the execution of server hardware and software upgrades, directly replacing older and faulty components of the systems.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    },
+    "position": "Information Technology Assistant",
+    "companyName": "Miami University",
+    "location": "Oxford, Ohio",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "companyId": "6729",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Research Assistant",
+    "locationName": "Oxford, Ohio",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2019
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Processed radar signal data from systems at the Arecibo Observatory (Puerto Rico) and Jicamarca Observatory (Peru) to determine the location of small meteorites breaking up in the Earth’s ionosphere and the subsequent events to develop a better understanding of atmospheric wind.\n\nAggregated data and created graphical representations of radar signals for department presentations displaying samples of atmospheric altitude and speed of meteoric breakup, as well as averages across samples, to identify patterns in atmospheric wind behavior",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/6729/",
+     "name": "Miami University",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs"
+     }
+    },
+    "position": "Undergraduate Research Assistant",
+    "companyName": "Miami University",
+    "location": "Oxford, Ohio",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "companyId": "6729",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6729/",
+    "schoolName": "Miami University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "schoolId": "6729",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2016
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_400_400/company-logo_400_400/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=iqB8ZThLoDBbTyJ3RPZkxGyws-OWqt_kBXAeAkimGAs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_200_200/company-logo_200_200/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=9-H0n6UafTcEPepbd3eCmHptOI0PX6Tze4GNGl4BNTY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQHuMcdsr2R2Yg/company-logo_100_100/company-logo_100_100/0/1630577479053/miami_university_logo?e=1794441600&v=beta&t=i0RPA8-E6ihpgH7vFLlEMkVhxdM6Tyhh-rNnmh8-GXc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6729/",
+    "schoolName": "Miami University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2016
+     },
+     "endDate": {
+      "year": 2020
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6729/",
+    "schoolId": "6729",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2016
+    },
+    "endDate": {
+     "year": 2020
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Deans List",
+    "issueDate": {},
+    "issuer": "Issued by Miami University · Jan 2018"
+   }
+  ],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+   "545x545": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+     "width": 545,
+     "height": 545
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+   "545x545": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+     "width": 545,
+     "height": 545
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+   "545x545": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1644328419016?e=1794441600&v=beta&t=nn23v8BPpaV9p18dZdNFm2UCnXwljdqvelPraDQBqx4",
+     "width": 545,
+     "height": 545
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1644328419016?e=1794441600&v=beta&t=mZPO6BVMg0vmaZxw905roEWBZCZiT_fWUn2S4vKVW3E",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1644328419016?e=1794441600&v=beta&t=v9el0O_OD-oAa1AgU7ndh45hF7kKs5loeTAXzJKJDLI",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQHWHd8vBWQRHg/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1644328419016?e=1794441600&v=beta&t=OYiKoXzwC0cFUtVbOb8oCM4Ry6aXHwbottxYZI9wU5o",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/noahasmith"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-22T18:43:48.270Z",
+ "foundBy": null
+}

@@ -1,0 +1,1676 @@
+{
+ "slug": "jehyeonlee",
+ "inputUrl": "https://www.linkedin.com/in/jehyeonlee",
+ "fetchedAt": "2026-10-30T19:57:10.736Z",
+ "id": "6ae4f6964f8d6cb6ddd5a0e9",
+ "url": "https://www.linkedin.com/in/jehyeonlee",
+ "profile": {
+  "created": 1632845303224,
+  "trackingId": "YWoG3m2nSA+jWKMqQGQABQ==",
+  "firstName": "Jehyeon",
+  "lastName": "Lee",
+  "pronoun": null,
+  "versionTag": "1986412259",
+  "headline": "Software Engineer | Java · Oracle PL/SQL · Spring Boot · Vue.js · AWS | Manufacturing & Logistics Systems",
+  "publicIdentifier": "jehyeonlee",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "938170190",
+  "profileId": "ACoAADfrV04BMUj-QsU37WdsCTTDLjFQIXfX5Ew",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714696430502?e=1795046400&v=beta&t=PPaD2i00dQEtwsYWMFDBcZJSZbwy4P3GdDI6oGVJnJo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714696430502?e=1795046400&v=beta&t=nUAAhOhvlXTi9hcsmr6csMhGNDoAPa9PSPTs01Kq1ik",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714696430502?e=1795046400&v=beta&t=OorHDvDhAz5XVUJQvQp_FvTQf5xAImvI6ZC9XZbqPJY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I"
+  },
+  "coverImageUrl": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1694107825027?e=1795046400&v=beta&t=6_mdnbp1xZOPVSbHyZhcSqwdQzUPuNw0-3bZHBIQAqI",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694107825027?e=1795046400&v=beta&t=ZWA97E3O_CF-OUjwKTDK9eZ9EDj8LqGJ-48vaAH3dRM"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:105392391",
+  "geoLocationName": "Montgomery, Alabama, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "summary": "Software engineer building and running production systems for automotive manufacturing and logistics.\n\nAt Comgen America, I build warehouse and assembly-line systems for Hyundai GLOVIS end to end, from Oracle PL/SQL business logic and Java services to Vue.js screens and production support. Recent work includes a real-time dashboard that shows which parts are arriving late to the assembly line (open late-delivery alerts dropped from 10+ to 0–1), an automated parts-replenishment system that assigns work and prints labels, and a print service that replaced an old print server.\n\nOutside work, I build Jay Asset (asset.jehyeonlee.net), a serverless asset-allocation web app on React, Flask, and AWS.\n\nB.S. Computer Science (Data Science), Brigham Young University. Bilingual in Korean and English.",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Auburn, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "Hyundai GLOVIS — Logistics System Maintenance & Enhancements (Oct 2026 – Present)\n• Cut a monitoring server's SQL log volume by ~98% (850 MB → 10 MB/day) and found duplicate background threads adding needless database load.\n• Fixed an assembly-line alert email that failed on long messages, so it now lists up to ~383 parts instead of 33.\n\nHyundai GLOVIS — Warehouse & Assembly-Line Parts Supply Systems (Mar 2026 – Sep 2026)\n• Built a real-time dashboard (Vue, JSP, Oracle; desktop and mobile) that shows supervisors which parts are arriving late to the assembly line; open late-delivery alerts typically dropped from 10+ to 0–1.\n• Built an automated parts-replenishment system in Oracle PL/SQL that decides which bins to refill first, assigns each task to a worker on the current shift, and prints labels automatically; made data refresh ~3x faster (113s → 39s).\n• Built a Spring Boot print service to replace an old print server; it now prints production labels for the replenishment system.\n• Built inventory reports combining six data sources (~5,500 parts) and automated a manual Excel check comparing SAP records with the internal logistics system.\n• Diagnosed production issues in the Java application server and Oracle database, such as outdated data reads, queries that intermittently returned no rows, and dropped connections.\n\nHyundai GLOVIS — Logistics System Modernization (Sep 2025 – Feb 2026)\n• Rebuilt 36+ legacy logistics screens in Vue.js on the existing Java/JSP and Oracle backend.\n• Built a Java background service for Windows that automatically prints Zebra labels and PDF documents.\n• Wrote Oracle PL/SQL procedures that build a three-step unloading schedule: order parts by stock level and first-in-first-out, score priority, and assign units.",
+    "insights": "Skills: Java · PL/SQL · Oracle Database · TypeScript · Spring Boot",
+    "company": {
+     "url": "https://www.linkedin.com/company/95367683/",
+     "name": "ComGen America Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek"
+     }
+    }
+   },
+   {
+    "title": "MES Engineer (Client: Hyundai Mobis)",
+    "locationName": "Montgomery, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Contract MES engineer at Hyundai Mobis's automotive parts plant through Brainer Consultancy.\n• Supported MES (factory production software) on a live automotive production line, fixing software and integration issues to keep production running.\n• Investigated software and cross-system problems during production incidents to minimize line downtime.\n• Worked with IT, production, and quality teams to turn shop-floor requests into system improvements.\n• Learned how manufacturing data moves through a plant, which I later applied to logistics system development.",
+    "company": {
+     "url": "",
+     "name": "Brainer Consultancy",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Full-Stack Web Developer",
+    "locationName": "Provo, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Developed and maintained 4+ web applications using PHP, Laravel, MySQL, and JavaScript, including an event management system for tracking student participation.\n• Migrated authentication from CAS to SAML in PHP/Laravel and implemented role-based access control.\n• Tuned MySQL database performance (via phpMyAdmin) to improve application responsiveness.",
+    "insights": "Skills: PHP · Cascading Style Sheets (CSS) · MySQL · JavaScript · HTML",
+    "company": {
+     "url": "",
+     "name": "Brigham Young University",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Software Developer Intern (Full-Stack)",
+    "locationName": "Orem, Utah, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "• Developed a React web app that automatically generates video subtitles using machine learning on AWS.\n• Implemented user authentication for the React web app and its Chrome extension with AWS Cognito and Amplify.\n• Built Stripe subscription billing on AWS Lambda that syncs each user’s subscription status to Amazon RDS.",
+    "insights": "Skills: React.js · Amazon Web Services (AWS)",
+    "company": {
+     "url": "",
+     "name": "ROBOFLOW",
+     "logo": {}
+    }
+   },
+   {
+    "company": {
+     "name": "Brigham Young University",
+     "url": "https://www.linkedin.com/company/4035/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8"
+     }
+    },
+    "locationName": "Provo, Utah, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "2 yrs 4 mos",
+    "positions": [
+     {
+      "title": "Teaching Assistant, Computer Science (Advanced Algorithms and Problem Solving)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2024
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "• Ran mock coding interviews for a class of 100+ students, coaching algorithmic problem solving on LeetCode-style problems.\n• Taught algorithm design topics including dynamic programming, DFS, binary trees, and linked lists.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Data Engineer & Software Developer",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2023
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "• Built a Python and SQL data pipeline that processed 50,000+ U.S. election records (1976–2020) and derived variables for research on electoral mandates.\n• Developed a Python Tkinter desktop app (MVC) that let researchers explore and query the election datasets.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Full-Stack Software Developer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Developed a research game that simulates political interaction between humans and collaborative AI agents.\n• Built a Dart admin app on Firebase that lets administrators filter, download, and delete game history.\n• Built the game’s Flutter interface and 10+ features, including automatic version checks and updates and duplicate username validation.",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant, Computer Science (CS 224, Intro to Computer Systems)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Taught computer systems and assembly language to a class of 200+ students.\n• Covered C programming, type casting, assembly code, and memory layout.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Military Police",
+    "locationName": "North Chungcheong, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "●\tMaintained law and order by preventing crime within the army, and operated confinement facilities\n●\tMentored soldiers in crisis to overcome their difficulties by offering positive messages and counsel\n●\tCreated 20+ military administrative documents by using Microsoft Excel\n●\tPlaned and Conducted 5+ recreational military events",
+    "insights": "Skills: Korean",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698891/",
+     "name": "Republic of Korea Air Force",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4035/",
+    "schoolName": "Brigham Young University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [
+   {
+    "title": "Full-Tuition Academic Scholarship (Continuing Student)",
+    "description": "Merit-based full-tuition scholarship for the 2022–2023 academic year, awarded for a 4.0 GPA.",
+    "issueDate": {},
+    "issuer": "Issued by Brigham Young University · Jan 2022"
+   }
+  ],
+  "languages": [],
+  "volunteerExperiences": [
+   {
+    "role": "Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=aPP-B-1v2J7_TmL4PC1w4_e7e-CDDyjexiMWVPnUr7Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=WzHGi-mWT_e1hz3QrByfwjhhBCZNwoNvoH1MFJ8GSTI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=JkAs5U_9hvvAJ1UcoThKEy1QcxTlYE9ai1xNT9tw9-g"
+     }
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Jay Asset — Tactical Asset Allocation Web App",
+    "description": "Live at asset.jehyeonlee.net\n• Built and deployed a full-stack web app (React, MUI, Flask) that calculates monthly portfolio allocations for five tactical asset-allocation strategies (PAA, VAA, DAA, CDM, momentum) across 22 ETFs, with English/Korean UI.\n• Designed a serverless AWS backend defined in AWS SAM: Flask on Lambda behind a Function URL, DynamoDB tables for daily prices, cached backtest performance, and TTL-based calculation cache, plus EventBridge Scheduler jobs for weekday price ingestion and monthly performance refresh.\n• Improved reliability by replacing live calls to free price sources with a Tiingo ingestion pipeline into DynamoDB (self-healing 14-day lookback), and debugged a Lambda Function URL failure caused by a string statusCode in the WSGI adapter response.",
+    "dateRange": {},
+    "associatedWith": "May 2025 - Present"
+   },
+   {
+    "title": "AI-Driven Stock Trading System",
+    "description": "·\tDeveloped an AI-powered trading system using Deep Q-Networks (DQN) and Multi-Layer Perceptron (MLP)\nmodels for real-time stock trading.\n·\tBuilt a data pipeline to continuously retrieve and store financial data, enabling ongoing model training and market adaptation using SQL and Python.\n·\tEnhanced trading strategies with real-time AI training and backtesting against historical data.",
+    "dateRange": {},
+    "associatedWith": "Mar 2024 - Present"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "ComGen America Inc",
+  "companyPublicId": "comgen-america-inc",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/comgen-america-inc/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:95367683",
+   "name": "ComGen America Inc",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D4E0BAQFmk3h77DDKpg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+       "expiresAt": 1795046400000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+       "expiresAt": 1795046400000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+       "expiresAt": 1795046400000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_"
+    }
+   },
+   "universalName": "comgen-america-inc",
+   "url": "https://www.linkedin.com/company/comgen-america-inc/",
+   "slug": "comgen-america-inc",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+   "specialties": []
+  },
+  "followerCount": 279,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 279,
+  "skills": [
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Flask",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PL/SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle Database",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "DQN",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MLP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tkinter",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL database design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQLite",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vue.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL database design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Android Studio",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon SQS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Dynamodb",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dart",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "엔지니어링",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Flask",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PL/SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle Database",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PyTorch",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PHP",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tkinter",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQLite",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Vue.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Node.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Firebase",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AWS Lambda",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "분석능력",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "문제관리",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "리더십",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Korean",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "영어",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MLP",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/jehyeonlee",
+  "linkedinUrl": "https://www.linkedin.com/in/jehyeonlee",
+  "profileUrl": "https://www.linkedin.com/in/jehyeonlee",
+  "verified": true,
+  "registeredAt": "2021-09-28T16:08:23.224Z",
+  "location": {
+   "linkedinText": "Montgomery, Alabama, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Montgomery, Alabama, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Software engineer building and running production systems for automotive manufacturing and logistics.\n\nAt Comgen America, I build warehouse and assembly-line systems for Hyundai GLOVIS end to end, from Oracle PL/SQL business logic and Java services to Vue.js screens and production support. Recent work includes a real-time dashboard that shows which parts are arriving late to the assembly line (open late-delivery alerts dropped from 10+ to 0–1), an automated parts-replenishment system that assigns work and prints labels, and a print service that replaced an old print server.\n\nOutside work, I build Jay Asset (asset.jehyeonlee.net), a serverless asset-allocation web app on React, Flask, and AWS.\n\nB.S. Computer Science (Data Science), Brigham Young University. Bilingual in Korean and English.",
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "MES Engineer (Client: Hyundai Mobis)",
+   "Full-Stack Web Developer",
+   "Software Developer Intern (Full-Stack)",
+   "Military Police"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Auburn, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "Hyundai GLOVIS — Logistics System Maintenance & Enhancements (Oct 2026 – Present)\n• Cut a monitoring server's SQL log volume by ~98% (850 MB → 10 MB/day) and found duplicate background threads adding needless database load.\n• Fixed an assembly-line alert email that failed on long messages, so it now lists up to ~383 parts instead of 33.\n\nHyundai GLOVIS — Warehouse & Assembly-Line Parts Supply Systems (Mar 2026 – Sep 2026)\n• Built a real-time dashboard (Vue, JSP, Oracle; desktop and mobile) that shows supervisors which parts are arriving late to the assembly line; open late-delivery alerts typically dropped from 10+ to 0–1.\n• Built an automated parts-replenishment system in Oracle PL/SQL that decides which bins to refill first, assigns each task to a worker on the current shift, and prints labels automatically; made data refresh ~3x faster (113s → 39s).\n• Built a Spring Boot print service to replace an old print server; it now prints production labels for the replenishment system.\n• Built inventory reports combining six data sources (~5,500 parts) and automated a manual Excel check comparing SAP records with the internal logistics system.\n• Diagnosed production issues in the Java application server and Oracle database, such as outdated data reads, queries that intermittently returned no rows, and dropped connections.\n\nHyundai GLOVIS — Logistics System Modernization (Sep 2025 – Feb 2026)\n• Rebuilt 36+ legacy logistics screens in Vue.js on the existing Java/JSP and Oracle backend.\n• Built a Java background service for Windows that automatically prints Zebra labels and PDF documents.\n• Wrote Oracle PL/SQL procedures that build a three-step unloading schedule: order parts by stock level and first-in-first-out, score priority, and assign units.",
+    "insights": "Skills: Java · PL/SQL · Oracle Database · TypeScript · Spring Boot",
+    "company": {
+     "url": "https://www.linkedin.com/company/95367683/",
+     "name": "ComGen America Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ComGen America Inc",
+    "location": "Auburn, Alabama, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/95367683/",
+    "companyId": "95367683",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "name": "Brigham Young University",
+     "url": "https://www.linkedin.com/company/4035/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8"
+     }
+    },
+    "locationName": "Provo, Utah, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "2 yrs 4 mos",
+    "positions": [
+     {
+      "title": "Teaching Assistant, Computer Science (Advanced Algorithms and Problem Solving)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2024
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "• Ran mock coding interviews for a class of 100+ students, coaching algorithmic problem solving on LeetCode-style problems.\n• Taught algorithm design topics including dynamic programming, DFS, binary trees, and linked lists.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Data Engineer & Software Developer",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2023
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "• Built a Python and SQL data pipeline that processed 50,000+ U.S. election records (1976–2020) and derived variables for research on electoral mandates.\n• Developed a Python Tkinter desktop app (MVC) that let researchers explore and query the election datasets.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Full-Stack Software Developer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Developed a research game that simulates political interaction between humans and collaborative AI agents.\n• Built a Dart admin app on Firebase that lets administrators filter, download, and delete game history.\n• Built the game’s Flutter interface and 10+ features, including automatic version checks and updates and duplicate username validation.",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant, Computer Science (CS 224, Intro to Computer Systems)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Taught computer systems and assembly language to a class of 200+ students.\n• Covered C programming, type casting, assembly code, and memory layout.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Brigham Young University",
+    "location": "Provo, Utah, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4035/",
+    "companyId": "4035",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "MES Engineer (Client: Hyundai Mobis)",
+    "locationName": "Montgomery, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Contract MES engineer at Hyundai Mobis's automotive parts plant through Brainer Consultancy.\n• Supported MES (factory production software) on a live automotive production line, fixing software and integration issues to keep production running.\n• Investigated software and cross-system problems during production incidents to minimize line downtime.\n• Worked with IT, production, and quality teams to turn shop-floor requests into system improvements.\n• Learned how manufacturing data moves through a plant, which I later applied to logistics system development.",
+    "company": {
+     "url": "",
+     "name": "Brainer Consultancy",
+     "logo": {}
+    },
+    "position": "MES Engineer (Client: Hyundai Mobis)",
+    "companyName": "Brainer Consultancy",
+    "location": "Montgomery, Alabama, United States",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Full-Stack Web Developer",
+    "locationName": "Provo, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Developed and maintained 4+ web applications using PHP, Laravel, MySQL, and JavaScript, including an event management system for tracking student participation.\n• Migrated authentication from CAS to SAML in PHP/Laravel and implemented role-based access control.\n• Tuned MySQL database performance (via phpMyAdmin) to improve application responsiveness.",
+    "insights": "Skills: PHP · Cascading Style Sheets (CSS) · MySQL · JavaScript · HTML",
+    "company": {
+     "url": "",
+     "name": "Brigham Young University",
+     "logo": {}
+    },
+    "position": "Full-Stack Web Developer",
+    "companyName": "Brigham Young University",
+    "location": "Provo, Utah, United States · On-site",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer Intern (Full-Stack)",
+    "locationName": "Orem, Utah, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "• Developed a React web app that automatically generates video subtitles using machine learning on AWS.\n• Implemented user authentication for the React web app and its Chrome extension with AWS Cognito and Amplify.\n• Built Stripe subscription billing on AWS Lambda that syncs each user’s subscription status to Amazon RDS.",
+    "insights": "Skills: React.js · Amazon Web Services (AWS)",
+    "company": {
+     "url": "",
+     "name": "ROBOFLOW",
+     "logo": {}
+    },
+    "position": "Software Developer Intern (Full-Stack)",
+    "companyName": "ROBOFLOW",
+    "location": "Orem, Utah, United States · Remote",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Military Police",
+    "locationName": "North Chungcheong, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "●\tMaintained law and order by preventing crime within the army, and operated confinement facilities\n●\tMentored soldiers in crisis to overcome their difficulties by offering positive messages and counsel\n●\tCreated 20+ military administrative documents by using Microsoft Excel\n●\tPlaned and Conducted 5+ recreational military events",
+    "insights": "Skills: Korean",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698891/",
+     "name": "Republic of Korea Air Force",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY"
+     }
+    },
+    "position": "Military Police",
+    "companyName": "Republic of Korea Air Force",
+    "location": "North Chungcheong, South Korea",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5698891/",
+    "companyId": "5698891",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "95367683",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/95367683/",
+    "companyName": "ComGen America Inc",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "4035",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4035/",
+    "companyName": "Brigham Young University",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "Auburn, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 4 mos",
+    "description": "Hyundai GLOVIS — Logistics System Maintenance & Enhancements (Oct 2026 – Present)\n• Cut a monitoring server's SQL log volume by ~98% (850 MB → 10 MB/day) and found duplicate background threads adding needless database load.\n• Fixed an assembly-line alert email that failed on long messages, so it now lists up to ~383 parts instead of 33.\n\nHyundai GLOVIS — Warehouse & Assembly-Line Parts Supply Systems (Mar 2026 – Sep 2026)\n• Built a real-time dashboard (Vue, JSP, Oracle; desktop and mobile) that shows supervisors which parts are arriving late to the assembly line; open late-delivery alerts typically dropped from 10+ to 0–1.\n• Built an automated parts-replenishment system in Oracle PL/SQL that decides which bins to refill first, assigns each task to a worker on the current shift, and prints labels automatically; made data refresh ~3x faster (113s → 39s).\n• Built a Spring Boot print service to replace an old print server; it now prints production labels for the replenishment system.\n• Built inventory reports combining six data sources (~5,500 parts) and automated a manual Excel check comparing SAP records with the internal logistics system.\n• Diagnosed production issues in the Java application server and Oracle database, such as outdated data reads, queries that intermittently returned no rows, and dropped connections.\n\nHyundai GLOVIS — Logistics System Modernization (Sep 2025 – Feb 2026)\n• Rebuilt 36+ legacy logistics screens in Vue.js on the existing Java/JSP and Oracle backend.\n• Built a Java background service for Windows that automatically prints Zebra labels and PDF documents.\n• Wrote Oracle PL/SQL procedures that build a three-step unloading schedule: order parts by stock level and first-in-first-out, score priority, and assign units.",
+    "insights": "Skills: Java · PL/SQL · Oracle Database · TypeScript · Spring Boot",
+    "company": {
+     "url": "https://www.linkedin.com/company/95367683/",
+     "name": "ComGen America Inc",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "ComGen America Inc",
+    "location": "Auburn, Alabama, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/95367683/",
+    "companyId": "95367683",
+    "duration": "1 yr 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_400_400/B4EaD9VjfLH4Ac-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=jBEpv5E43dyNwjl1CZazFYxyYfwIGqjrEV-fZoixmek",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_200_200/B4EaD9VjfLH4AM-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=uraQAJCcTN4KudTyA2I20eerxttMrIehs-BXgz5wsbQ",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFmk3h77DDKpg/company-logo_100_100/B4EaD9VjfLH4AQ-/0/1790956681375/comgen_america_inc_logo?e=1795046400&v=beta&t=c3fx_jAV81lML7uNOqpSVIOq5-1adatbgrcvPmPrvDE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "MES Engineer (Client: Hyundai Mobis)",
+    "locationName": "Montgomery, Alabama, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2025
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2025
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "Contract MES engineer at Hyundai Mobis's automotive parts plant through Brainer Consultancy.\n• Supported MES (factory production software) on a live automotive production line, fixing software and integration issues to keep production running.\n• Investigated software and cross-system problems during production incidents to minimize line downtime.\n• Worked with IT, production, and quality teams to turn shop-floor requests into system improvements.\n• Learned how manufacturing data moves through a plant, which I later applied to logistics system development.",
+    "company": {
+     "url": "",
+     "name": "Brainer Consultancy",
+     "logo": {}
+    },
+    "position": "MES Engineer (Client: Hyundai Mobis)",
+    "companyName": "Brainer Consultancy",
+    "location": "Montgomery, Alabama, United States",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2025
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2025
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Full-Stack Web Developer",
+    "locationName": "Provo, Utah, United States · On-site",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2024
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Developed and maintained 4+ web applications using PHP, Laravel, MySQL, and JavaScript, including an event management system for tracking student participation.\n• Migrated authentication from CAS to SAML in PHP/Laravel and implemented role-based access control.\n• Tuned MySQL database performance (via phpMyAdmin) to improve application responsiveness.",
+    "insights": "Skills: PHP · Cascading Style Sheets (CSS) · MySQL · JavaScript · HTML",
+    "company": {
+     "url": "",
+     "name": "Brigham Young University",
+     "logo": {}
+    },
+    "position": "Full-Stack Web Developer",
+    "companyName": "Brigham Young University",
+    "location": "Provo, Utah, United States · On-site",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Software Developer Intern (Full-Stack)",
+    "locationName": "Orem, Utah, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2024
+     }
+    },
+    "totalDuration": "8 mos",
+    "description": "• Developed a React web app that automatically generates video subtitles using machine learning on AWS.\n• Implemented user authentication for the React web app and its Chrome extension with AWS Cognito and Amplify.\n• Built Stripe subscription billing on AWS Lambda that syncs each user’s subscription status to Amazon RDS.",
+    "insights": "Skills: React.js · Amazon Web Services (AWS)",
+    "company": {
+     "url": "",
+     "name": "ROBOFLOW",
+     "logo": {}
+    },
+    "position": "Software Developer Intern (Full-Stack)",
+    "companyName": "ROBOFLOW",
+    "location": "Orem, Utah, United States · Remote",
+    "duration": "8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2024
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "name": "Brigham Young University",
+     "url": "https://www.linkedin.com/company/4035/",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8"
+     }
+    },
+    "locationName": "Provo, Utah, United States",
+    "employmentType": "Part-time",
+    "totalDuration": "2 yrs 4 mos",
+    "positions": [
+     {
+      "title": "Teaching Assistant, Computer Science (Advanced Algorithms and Problem Solving)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2024
+       }
+      },
+      "totalDuration": "8 mos",
+      "description": "• Ran mock coding interviews for a class of 100+ students, coaching algorithmic problem solving on LeetCode-style problems.\n• Taught algorithm design topics including dynamic programming, DFS, binary trees, and linked lists.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Data Engineer & Software Developer",
+      "locationName": "Remote",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2023
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2023
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "• Built a Python and SQL data pipeline that processed 50,000+ U.S. election records (1976–2020) and derived variables for research on electoral mandates.\n• Developed a Python Tkinter desktop app (MVC) that let researchers explore and query the election datasets.",
+      "insights": ""
+     },
+     {
+      "title": "Research Assistant, Full-Stack Software Developer",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 5,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 5,
+        "year": 2023
+       }
+      },
+      "totalDuration": "1 yr 1 mo",
+      "description": "• Developed a research game that simulates political interaction between humans and collaborative AI agents.\n• Built a Dart admin app on Firebase that lets administrators filter, download, and delete game history.\n• Built the game’s Flutter interface and 10+ features, including automatic version checks and updates and duplicate username validation.",
+      "insights": ""
+     },
+     {
+      "title": "Teaching Assistant, Computer Science (CS 224, Intro to Computer Systems)",
+      "locationName": "",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2022
+       },
+       "endDate": {
+        "month": 4,
+        "year": 2022
+       }
+      },
+      "totalDuration": "4 mos",
+      "description": "• Taught computer systems and assembly language to a class of 200+ students.\n• Covered C programming, type casting, assembly code, and memory layout.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Brigham Young University",
+    "location": "Provo, Utah, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4035/",
+    "companyId": "4035",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Military Police",
+    "locationName": "North Chungcheong, South Korea",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2022
+     }
+    },
+    "totalDuration": "3 yrs 10 mos",
+    "description": "●\tMaintained law and order by preventing crime within the army, and operated confinement facilities\n●\tMentored soldiers in crisis to overcome their difficulties by offering positive messages and counsel\n●\tCreated 20+ military administrative documents by using Microsoft Excel\n●\tPlaned and Conducted 5+ recreational military events",
+    "insights": "Skills: Korean",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698891/",
+     "name": "Republic of Korea Air Force",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY"
+     }
+    },
+    "position": "Military Police",
+    "companyName": "Republic of Korea Air Force",
+    "location": "North Chungcheong, South Korea",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5698891/",
+    "companyId": "5698891",
+    "duration": "3 yrs 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 2,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_400_400/company-logo_400_400/0/1631349373259?e=1795046400&v=beta&t=czqlleT_jwKHm2ORu_l3um-12uOb-wMlwI9aum4cESY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_200_200/company-logo_200_200/0/1631349373259?e=1795046400&v=beta&t=Dg9yg3a5XlKM9bopK4QnG0dhrS61TqfiCyw-E77Pb_4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQEkqInU7gk-jQ/company-logo_100_100/company-logo_100_100/0/1631349373259?e=1795046400&v=beta&t=nXcuIyrAdZ4Ys2hPWUXxv0ynHfOm69OgW5JLWOv5vvI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4035/",
+    "schoolName": "Brigham Young University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4035/",
+    "schoolId": "4035",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2021
+    },
+    "endDate": {
+     "year": 2024
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_400_400/company-logo_400_400/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=o5X9lup3gwYACVWnTdyVOaeySEempH3dECgb4tqfwT8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_200_200/company-logo_200_200/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=E9XD4BWNqDx8UQQVYO9KXO_Kc_S-HceZe9iiH6Y0fsc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQFRMyoXTVO86A/company-logo_100_100/company-logo_100_100/0/1646864910688/brigham_young_university_logo?e=1795046400&v=beta&t=xYskJC2n0ag_YQggfSqIhA32yoi9R21EmiyJTxenYDw",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4035/",
+    "schoolName": "Brigham Young University",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2021
+     },
+     "endDate": {
+      "year": 2024
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4035/",
+    "schoolId": "4035",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2021
+    },
+    "endDate": {
+     "year": 2024
+    }
+   }
+  ],
+  "honorsAndAwards": [
+   {
+    "title": "Full-Tuition Academic Scholarship (Continuing Student)",
+    "description": "Merit-based full-tuition scholarship for the 2022–2023 academic year, awarded for a 4.0 GPA.",
+    "issueDate": {},
+    "issuer": "Issued by Brigham Young University · Jan 2022"
+   }
+  ],
+  "volunteerExperience": [
+   {
+    "role": "Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=aPP-B-1v2J7_TmL4PC1w4_e7e-CDDyjexiMWVPnUr7Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=WzHGi-mWT_e1hz3QrByfwjhhBCZNwoNvoH1MFJ8GSTI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=JkAs5U_9hvvAJ1UcoThKEy1QcxTlYE9ai1xNT9tw9-g"
+     }
+    },
+    "organization": "The Church of Jesus Christ of Latter-day Saints"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Missionary",
+    "companyName": "The Church of Jesus Christ of Latter-day Saints",
+    "description": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2018
+     }
+    },
+    "cause": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/4711/",
+     "name": "The Church of Jesus Christ of Latter-day Saints",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_400_400/B4EaBpV572G4AU-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=aPP-B-1v2J7_TmL4PC1w4_e7e-CDDyjexiMWVPnUr7Y",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_200_200/B4EaBpV572G4AE-/0/1788473746066/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=WzHGi-mWT_e1hz3QrByfwjhhBCZNwoNvoH1MFJ8GSTI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQEAh6-OgM8m2A/company-logo_100_100/B4EaBpV572G4AI-/0/1788473746067/the_church_of_jesus_christ_of_latter_day_saints___logo?e=1795046400&v=beta&t=JkAs5U_9hvvAJ1UcoThKEy1QcxTlYE9ai1xNT9tw9-g"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714696430502?e=1795046400&v=beta&t=PPaD2i00dQEtwsYWMFDBcZJSZbwy4P3GdDI6oGVJnJo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714696430502?e=1795046400&v=beta&t=nUAAhOhvlXTi9hcsmr6csMhGNDoAPa9PSPTs01Kq1ik",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714696430502?e=1795046400&v=beta&t=OorHDvDhAz5XVUJQvQp_FvTQf5xAImvI6ZC9XZbqPJY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714696430502?e=1795046400&v=beta&t=OorHDvDhAz5XVUJQvQp_FvTQf5xAImvI6ZC9XZbqPJY",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714696430502?e=1795046400&v=beta&t=nUAAhOhvlXTi9hcsmr6csMhGNDoAPa9PSPTs01Kq1ik",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714696430502?e=1795046400&v=beta&t=PPaD2i00dQEtwsYWMFDBcZJSZbwy4P3GdDI6oGVJnJo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714696430502?e=1795046400&v=beta&t=PPaD2i00dQEtwsYWMFDBcZJSZbwy4P3GdDI6oGVJnJo",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714696430502?e=1795046400&v=beta&t=nUAAhOhvlXTi9hcsmr6csMhGNDoAPa9PSPTs01Kq1ik",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714696430502?e=1795046400&v=beta&t=OorHDvDhAz5XVUJQvQp_FvTQf5xAImvI6ZC9XZbqPJY",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714696430502?e=1795046400&v=beta&t=fnbTbyyvNSPaIREvVBm1M73Qs89XgE3RNZAbQtYGu-I",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1714696430502?e=1795046400&v=beta&t=OorHDvDhAz5XVUJQvQp_FvTQf5xAImvI6ZC9XZbqPJY",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1714696430502?e=1795046400&v=beta&t=nUAAhOhvlXTi9hcsmr6csMhGNDoAPa9PSPTs01Kq1ik",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFCcN8t7MplUA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1714696430502?e=1795046400&v=beta&t=PPaD2i00dQEtwsYWMFDBcZJSZbwy4P3GdDI6oGVJnJo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x199": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1694107825027?e=1795046400&v=beta&t=6_mdnbp1xZOPVSbHyZhcSqwdQzUPuNw0-3bZHBIQAqI",
+   "1400x349": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694107825027?e=1795046400&v=beta&t=ZWA97E3O_CF-OUjwKTDK9eZ9EDj8LqGJ-48vaAH3dRM",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694107825027?e=1795046400&v=beta&t=ZWA97E3O_CF-OUjwKTDK9eZ9EDj8LqGJ-48vaAH3dRM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1694107825027?e=1795046400&v=beta&t=ZWA97E3O_CF-OUjwKTDK9eZ9EDj8LqGJ-48vaAH3dRM",
+     "width": 1400,
+     "height": 349
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQEpEw9x40qG3w/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1694107825027?e=1795046400&v=beta&t=6_mdnbp1xZOPVSbHyZhcSqwdQzUPuNw0-3bZHBIQAqI",
+     "width": 800,
+     "height": 199
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/jehyeonlee"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-10-30T19:57:01.561Z",
+ "foundBy": null
+}

@@ -1,0 +1,2110 @@
+{
+ "slug": "ryankrdh",
+ "inputUrl": "https://www.linkedin.com/in/ryankrdh",
+ "fetchedAt": "2026-11-13T01:31:40.480Z",
+ "id": "6af6687c326d0b70b7e244a9",
+ "url": "https://www.linkedin.com/in/ryankrdh",
+ "profile": {
+  "created": 1541554758630,
+  "trackingId": "IDm8b0FmSsCGrc0CUmm0Bw==",
+  "firstName": "Hyunmin",
+  "lastName": "Kim",
+  "pronoun": null,
+  "versionTag": "3943795933",
+  "headline": "Backend Software Engineer at Transcarent (formerly Accolade) | Java, Spring Boot, AWS, FHIR | Building clinical microservices serving 20M+ members",
+  "publicIdentifier": "ryankrdh",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "692090320",
+  "profileId": "ACoAAClAddABqz5r-zFilt1IKXx2LoG5oVTEuoM",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622338384254?e=1796256000&v=beta&t=e3KIYUhZdPZj-jfnEV_k4YEv1vy52pcT-_sT_AKQ45M",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622338384254?e=1796256000&v=beta&t=4Uvr7yWTSo0CWIlTw9dxyaqbWL0Q8czmymqXWIGpsBQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622338384254?e=1796256000&v=beta&t=J6i8Qf9xmJNs2uvEI0RXdOtubAiVANZJXSnLTU-lKYc",
+   "432x432": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1548511604557?e=1796256000&v=beta&t=TM2KoL9NHzzXumR5JGNCJLqCRqVAQGNNdR9tMbESabE",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1548511604597?e=1796256000&v=beta&t=8usV4zGFQaPyUT5xZ9rakYbEnf1wE30r8LWIP1N5gsc"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000091",
+  "geoLocationName": "Greater Seattle Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer I",
+  "summary": "Backend software engineer with experience building clinical healthcare systems at\nscale. At Transcarent (formerly Accolade), I develop and maintain Java/Spring Boot\nmicroservices on AWS that power care workflows for a platform serving 20M+ members.\nMy work focuses on event-driven architecture, DynamoDB data modeling, FHIR-compliant\nREST APIs, and data pipelines. I've built services end-to-end from schema design\nthrough production deployment, resolved distributed systems problems like race\nconditions and duplicate processing, and delivered partner data integrations using\nApache Spark on EMR. I care about writing code that handles edge cases correctly and\nbuilding tools that make other engineers more productive.",
+  "positions": [
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, contributing across 8+\nFHIR-compliant Java microservices (Spring Boot 3.x, DynamoDB, OpenSearch, SNS/SQS)\nserving clinical care workflows for encounters, claims, care programs, tasks,\nassessments, and document exchange.\n\n• Designed and delivered a document exchange service end-to-end: DynamoDB schema,\n  REST API, status history tracking with validation, configurable suppression logic\n  (opt-out windows, time-based delays), and OpenAPI documentation.\n\n• Built core components of the activity summary pipeline: pluggable rule engine with\n  a transform rule interface, event-driven summary computation via SNS/SQS,\n  parent-child hierarchy evaluation, OpenSearch scroll-based recomputation, EDW\n  export pipeline (Kinesis Firehose to S3 provisioned via CloudFormation), and API\n  Gateway integration with OAuth permissions.\n\n• Resolved 10+ production bugs in the claims service across multiple sprints,\n  including item-level sorting, date range filtering, search field matching, and\n  response parsing errors affecting the member-facing mobile app.\n\n• Fixed critical integration bugs including duplicate event processing, field\n  corruption on retry failures, and race conditions resolved via pessimistic locking\n  patterns in DynamoDB, eliminating 67% of redundant writes.\n\n• Extended the assessment service with new answer type support across 6 iterations,\n  fixed validation defects, and cleaned up stale data mappings that caused downstream\n  data warehouse ingestion failures.\n\n• Implemented new workflow task types and automated task creation rules triggered by\n  assessment response callbacks, including auto-closure logic with configurable\n  reason codes.\n\n• Upgraded shared client libraries with major dependency version bumps across 4 major\n  versions, added unit test coverage, and migrated CI/CD pipelines from Jenkins v1\n  to v2.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · Fast Healthcare Interoperability Resources (FHIR) · NoSQL · Event Driven Programming · Docker · Agile Methodologies · Elasticsearch · AWS CloudFormation · Apache Spark · JUnit · Maven · HL7 Standards",
+    "company": {
+     "url": "https://www.linkedin.com/company/68592546/",
+     "name": "Transcarent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, developing and maintaining\nJava 17 / Spring Boot microservices on AWS powering a clinical care application used\nby care advocates, clinicians, and physicians.\n\n• Built end-to-end partner data ingestion pipelines using Apache Spark on AWS EMR,\n  delivering integrations for 4 external healthcare partners from transformation spec\n  design through EMR testing to production release and automated scheduling.\n\n• Contributed bug fixes for resolving task rendering defects and\n  component lifecycle issues affecting clinician workflows.\n\n• Performed safe removal of stale feature flags (LaunchDarkly) from production\n  microservices, reducing dead code paths and deployment risk.\n\n• Migrated search infrastructure from legacy Elasticsearch endpoints to OpenSearch,\n  routing all traffic through API Gateway for consistent auth and rate limiting.\n\n• Managed AWS IAM permission sets and S3 bucket policies to support cross-team\n  access for new data export workflows.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · NoSQL · Fast Healthcare Interoperability Resources (FHIR) · Event Driven Programming · Docker · Elasticsearch · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Developed an internal tool to search, view, add, and copy patient member claim data using GET and POST requests to the ACP Claims Service API for testing purposes.\n\n• Utilized async/await to handle asynchronous operations, improving the efficiency and responsiveness of the app.\n\n• Contributed to bug fixes and enhancements in the company’s main application, InView, using React.js, improving overall user experience and application stability.",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Developed and maintained responsive user interfaces using React.js to enhance the athlete and user experience.\n\n• Created a RESTful API with Node.js and Express.js for efficient data communication and implemented robust user authentication and authorization features.\n\n• Managed and optimized a PostgreSQL database, ensuring data integrity, performance, and scalability.\n• Collaborated with cross-functional teams to gather requirements, design, and integrate third-party APIs, enhancing the website's functionality and user engagement.",
+    "company": {
+     "url": "https://www.linkedin.com/company/70471409/",
+     "name": "Sports.Excitement",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4"
+     }
+    }
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Engineered a full-stack chat conversation data manager on AWS that improved employees’ productivity rate by 60%. Parents and teachers are now able to access student’s data on each subject and converse directly.\n\n• Developed 6 RESTful APIs in Amazon API Gateway to enable GET/POST functionality that uses Lambda functions in the cloud to manipulate data using DynamoDB with CRUD operations. Due to its scalability, the teachers and parents are able to conveniently access chat history for subsequent interactions.\n\n• Set up persistence of data with AWS S3, delivery of static contents accelerated by CloudFront CDN, and secured client-side access control with CORS resulting in a 15% reduction in content loading times. \n\n• Implemented user management system and sign-in functionalities with Cognito and incorporated IAM to enable secure user registration and managed account permissions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5533553/",
+     "name": "Joy Education Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM"
+     }
+    }
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Administer comprehensive dental cleanings, involving the removal of plaque and tartar.\n\n• Perform in-depth oral assessments and screenings to identify potential dental concerns.\n\n• Provide patients with valuable insights into effective oral hygiene practices and preventive measures.\n\n• Collaborate closely with dentists to devise customized treatment strategies for individual patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698025/",
+     "name": "Seattle Dental Associates",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "• Conduct thorough dental cleanings, including plaque and tartar removal.\n\n• Perform comprehensive oral assessments and screenings for dental issues.\n\n• Educate patients on proper oral hygiene techniques and preventive care.\n\n• Collaborate with dentists to develop personalized treatment plans for patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4231612/",
+     "name": "Fidler On The Tooth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc"
+     }
+    }
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Dental Connections is a dental employment agency offering temporary and permanent placement services for dentists, hygienists, dental assistants.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3053286/",
+     "name": "Dental Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg"
+     }
+    }
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/52637214/",
+     "name": "Puget Sound Periodontics & Implant Dentistry",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Registered Dental Assistant",
+    "locationName": "Issaquah, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs 8 mos",
+    "description": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/58026754/",
+     "name": "Apex Family Dental Care",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=eZqvhgMOavtRQ46w0J8T8IHijPWsRUoaONbdsCtdFR0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=NPg9o2xQtvCm-PSx6qxqlDy5AM3gTVJXQ4toBpG70RY"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5274/",
+    "schoolName": "Northeastern University",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2027
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_200_200/company-logo_200_200/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=jrvbUZ5L5_f8OS1dBtkKFOswvp-DO40d73vatJiHipA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_100_100/company-logo_100_100/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=ozQCBivO4OGDYefmquflGN36I6P21hNKfyG1UFvnAT8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_400_400/company-logo_400_400/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=aLFT73X7n_PYftrh1toB6blLQULifzSQ4cPwegpldVs"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10357467/",
+    "schoolName": "Springboard",
+    "degreeName": "Computer Programming",
+    "fieldOfStudy": "Computer Programming",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [
+   {
+    "title": "AWS Serverless Live Chat System (AWS, JavaScript, Bootstrap, HTML, CSS) Deployed on AWS",
+    "description": "Developed a web application leveraging AWS services that enables users to sign up, log in, and engage in real-time chat with other users. The project showcases proficiency in AWS cloud services, front-end development, and security implementations.",
+    "dateRange": {},
+    "associatedWith": "Jun 2023 - Jul 2023"
+   },
+   {
+    "title": "Pupcademy Dog Training (Python, Flask, SQLAlchemy, Jinja, JavaScript, Bootstrap) Deployed on PythonAnywhere",
+    "description": "• Created and deployed a full-stack dog training application that uses Object-Relational Mapping to filter and search for dog trainers based on the dog's behavior.\n• Designed and developed a user login system allowing mapping of individual dogs to their respective accounts for personalized training. Employed SQLAlchemy to store customer data securely on a server-side database.",
+    "dateRange": {},
+    "associatedWith": "Mar 2023 - Apr 2023"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Transcarent",
+  "companyPublicId": "transcarent",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/transcarent/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:68592546",
+   "name": "Transcarent",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQES0oKYolQPBw",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+       "expiresAt": 1796256000000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+       "expiresAt": 1796256000000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+       "expiresAt": 1796256000000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_"
+    }
+   },
+   "universalName": "transcarent",
+   "url": "https://www.linkedin.com/company/transcarent/",
+   "slug": "transcarent",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+   "specialties": []
+  },
+  "followerCount": 543,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 546,
+  "skills": [
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JUnit",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HL7 Standards",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Elasticsearch",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Fast Healthcare Interoperability Resources (FHIR)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Gitlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Tailwind CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MERN Stack",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NestJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HL7 Standards",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Spark",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Event Driven Programming",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Distributed Systems",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Back-End Web Development",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Gitlab",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Systems Analysis",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Dynamodb",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Web Services",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-End Development",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Web Applications",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Game Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQLAlchemy",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Object-Oriented Programming (OOP)",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Structures",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JUnit",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NoSQL",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Elasticsearch",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "AWS CloudFormation",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Fast Healthcare Interoperability Resources (FHIR)",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Spring Boot",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Tailwind CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MERN Stack",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NestJS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Next.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mocha (JavaScript Framework)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "PL/SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Jinja",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon S3",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ryankrdh",
+  "linkedinUrl": "https://www.linkedin.com/in/ryankrdh",
+  "profileUrl": "https://www.linkedin.com/in/ryankrdh",
+  "verified": true,
+  "registeredAt": "2018-11-07T01:39:18.630Z",
+  "location": {
+   "linkedinText": "Greater Seattle Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Greater Seattle Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Backend software engineer with experience building clinical healthcare systems at\nscale. At Transcarent (formerly Accolade), I develop and maintain Java/Spring Boot\nmicroservices on AWS that power care workflows for a platform serving 20M+ members.\nMy work focuses on event-driven architecture, DynamoDB data modeling, FHIR-compliant\nREST APIs, and data pipelines. I've built services end-to-end from schema design\nthrough production deployment, resolved distributed systems problems like race\nconditions and duplicate processing, and delivered partner data integrations using\nApache Spark on EMR. I care about writing code that handles edge cases correctly and\nbuilding tools that make other engineers more productive.",
+  "currentTitle": "Software Engineer I",
+  "allTitles": [
+   "Software Engineer I",
+   "Software Engineer I",
+   "Software Engineer Intern",
+   "Software Engineer Intern",
+   "Software Engineer Intern",
+   "Registered Dental Hygienist",
+   "Registered Dental Hygienist",
+   "Registered Dental Hygienist",
+   "Registered Dental Hygienist",
+   "Registered Dental Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, contributing across 8+\nFHIR-compliant Java microservices (Spring Boot 3.x, DynamoDB, OpenSearch, SNS/SQS)\nserving clinical care workflows for encounters, claims, care programs, tasks,\nassessments, and document exchange.\n\n• Designed and delivered a document exchange service end-to-end: DynamoDB schema,\n  REST API, status history tracking with validation, configurable suppression logic\n  (opt-out windows, time-based delays), and OpenAPI documentation.\n\n• Built core components of the activity summary pipeline: pluggable rule engine with\n  a transform rule interface, event-driven summary computation via SNS/SQS,\n  parent-child hierarchy evaluation, OpenSearch scroll-based recomputation, EDW\n  export pipeline (Kinesis Firehose to S3 provisioned via CloudFormation), and API\n  Gateway integration with OAuth permissions.\n\n• Resolved 10+ production bugs in the claims service across multiple sprints,\n  including item-level sorting, date range filtering, search field matching, and\n  response parsing errors affecting the member-facing mobile app.\n\n• Fixed critical integration bugs including duplicate event processing, field\n  corruption on retry failures, and race conditions resolved via pessimistic locking\n  patterns in DynamoDB, eliminating 67% of redundant writes.\n\n• Extended the assessment service with new answer type support across 6 iterations,\n  fixed validation defects, and cleaned up stale data mappings that caused downstream\n  data warehouse ingestion failures.\n\n• Implemented new workflow task types and automated task creation rules triggered by\n  assessment response callbacks, including auto-closure logic with configurable\n  reason codes.\n\n• Upgraded shared client libraries with major dependency version bumps across 4 major\n  versions, added unit test coverage, and migrated CI/CD pipelines from Jenkins v1\n  to v2.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · Fast Healthcare Interoperability Resources (FHIR) · NoSQL · Event Driven Programming · Docker · Agile Methodologies · Elasticsearch · AWS CloudFormation · Apache Spark · JUnit · Maven · HL7 Standards",
+    "company": {
+     "url": "https://www.linkedin.com/company/68592546/",
+     "name": "Transcarent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "Transcarent",
+    "location": "Seattle, Washington, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68592546/",
+    "companyId": "68592546",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, developing and maintaining\nJava 17 / Spring Boot microservices on AWS powering a clinical care application used\nby care advocates, clinicians, and physicians.\n\n• Built end-to-end partner data ingestion pipelines using Apache Spark on AWS EMR,\n  delivering integrations for 4 external healthcare partners from transformation spec\n  design through EMR testing to production release and automated scheduling.\n\n• Contributed bug fixes for resolving task rendering defects and\n  component lifecycle issues affecting clinician workflows.\n\n• Performed safe removal of stale feature flags (LaunchDarkly) from production\n  microservices, reducing dead code paths and deployment risk.\n\n• Migrated search infrastructure from legacy Elasticsearch endpoints to OpenSearch,\n  routing all traffic through API Gateway for consistent auth and rate limiting.\n\n• Managed AWS IAM permission sets and S3 bucket policies to support cross-team\n  access for new data export workflows.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · NoSQL · Fast Healthcare Interoperability Resources (FHIR) · Event Driven Programming · Docker · Elasticsearch · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "Accolade, Inc.",
+    "location": "Seattle, Washington, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/579052/",
+    "companyId": "579052",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Developed an internal tool to search, view, add, and copy patient member claim data using GET and POST requests to the ACP Claims Service API for testing purposes.\n\n• Utilized async/await to handle asynchronous operations, improving the efficiency and responsiveness of the app.\n\n• Contributed to bug fixes and enhancements in the company’s main application, InView, using React.js, improving overall user experience and application stability.",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Accolade, Inc.",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/579052/",
+    "companyId": "579052",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Developed and maintained responsive user interfaces using React.js to enhance the athlete and user experience.\n\n• Created a RESTful API with Node.js and Express.js for efficient data communication and implemented robust user authentication and authorization features.\n\n• Managed and optimized a PostgreSQL database, ensuring data integrity, performance, and scalability.\n• Collaborated with cross-functional teams to gather requirements, design, and integrate third-party APIs, enhancing the website's functionality and user engagement.",
+    "company": {
+     "url": "https://www.linkedin.com/company/70471409/",
+     "name": "Sports.Excitement",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Sports.Excitement",
+    "location": "New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/70471409/",
+    "companyId": "70471409",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Engineered a full-stack chat conversation data manager on AWS that improved employees’ productivity rate by 60%. Parents and teachers are now able to access student’s data on each subject and converse directly.\n\n• Developed 6 RESTful APIs in Amazon API Gateway to enable GET/POST functionality that uses Lambda functions in the cloud to manipulate data using DynamoDB with CRUD operations. Due to its scalability, the teachers and parents are able to conveniently access chat history for subsequent interactions.\n\n• Set up persistence of data with AWS S3, delivery of static contents accelerated by CloudFront CDN, and secured client-side access control with CORS resulting in a 15% reduction in content loading times. \n\n• Implemented user management system and sign-in functionalities with Cognito and incorporated IAM to enable secure user registration and managed account permissions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5533553/",
+     "name": "Joy Education Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Joy Education Group",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5533553/",
+    "companyId": "5533553",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Administer comprehensive dental cleanings, involving the removal of plaque and tartar.\n\n• Perform in-depth oral assessments and screenings to identify potential dental concerns.\n\n• Provide patients with valuable insights into effective oral hygiene practices and preventive measures.\n\n• Collaborate closely with dentists to devise customized treatment strategies for individual patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698025/",
+     "name": "Seattle Dental Associates",
+     "logo": {}
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Seattle Dental Associates",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5698025/",
+    "companyId": "5698025",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2022
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "• Conduct thorough dental cleanings, including plaque and tartar removal.\n\n• Perform comprehensive oral assessments and screenings for dental issues.\n\n• Educate patients on proper oral hygiene techniques and preventive care.\n\n• Collaborate with dentists to develop personalized treatment plans for patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4231612/",
+     "name": "Fidler On The Tooth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc"
+     }
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Fidler On The Tooth",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4231612/",
+    "companyId": "4231612",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Dental Connections is a dental employment agency offering temporary and permanent placement services for dentists, hygienists, dental assistants.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3053286/",
+     "name": "Dental Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg"
+     }
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Dental Connections",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3053286/",
+    "companyId": "3053286",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/52637214/",
+     "name": "Puget Sound Periodontics & Implant Dentistry",
+     "logo": {}
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Puget Sound Periodontics & Implant Dentistry",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/52637214/",
+    "companyId": "52637214",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Assistant",
+    "locationName": "Issaquah, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs 8 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/58026754/",
+     "name": "Apex Family Dental Care",
+     "logo": {}
+    },
+    "position": "Registered Dental Assistant",
+    "companyName": "Apex Family Dental Care",
+    "location": "Issaquah, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/58026754/",
+    "companyId": "58026754",
+    "duration": "4 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "68592546",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68592546/",
+    "companyName": "Transcarent",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2025
+     },
+     "endDate": null
+    },
+    "totalDuration": "1 yr 8 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, contributing across 8+\nFHIR-compliant Java microservices (Spring Boot 3.x, DynamoDB, OpenSearch, SNS/SQS)\nserving clinical care workflows for encounters, claims, care programs, tasks,\nassessments, and document exchange.\n\n• Designed and delivered a document exchange service end-to-end: DynamoDB schema,\n  REST API, status history tracking with validation, configurable suppression logic\n  (opt-out windows, time-based delays), and OpenAPI documentation.\n\n• Built core components of the activity summary pipeline: pluggable rule engine with\n  a transform rule interface, event-driven summary computation via SNS/SQS,\n  parent-child hierarchy evaluation, OpenSearch scroll-based recomputation, EDW\n  export pipeline (Kinesis Firehose to S3 provisioned via CloudFormation), and API\n  Gateway integration with OAuth permissions.\n\n• Resolved 10+ production bugs in the claims service across multiple sprints,\n  including item-level sorting, date range filtering, search field matching, and\n  response parsing errors affecting the member-facing mobile app.\n\n• Fixed critical integration bugs including duplicate event processing, field\n  corruption on retry failures, and race conditions resolved via pessimistic locking\n  patterns in DynamoDB, eliminating 67% of redundant writes.\n\n• Extended the assessment service with new answer type support across 6 iterations,\n  fixed validation defects, and cleaned up stale data mappings that caused downstream\n  data warehouse ingestion failures.\n\n• Implemented new workflow task types and automated task creation rules triggered by\n  assessment response callbacks, including auto-closure logic with configurable\n  reason codes.\n\n• Upgraded shared client libraries with major dependency version bumps across 4 major\n  versions, added unit test coverage, and migrated CI/CD pipelines from Jenkins v1\n  to v2.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · Fast Healthcare Interoperability Resources (FHIR) · NoSQL · Event Driven Programming · Docker · Agile Methodologies · Elasticsearch · AWS CloudFormation · Apache Spark · JUnit · Maven · HL7 Standards",
+    "company": {
+     "url": "https://www.linkedin.com/company/68592546/",
+     "name": "Transcarent",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "Transcarent",
+    "location": "Seattle, Washington, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/68592546/",
+    "companyId": "68592546",
+    "duration": "1 yr 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_400_400/B56Zno3XE_KAAY-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=E0T6nJJ9MiWU0jd2ciL7ODQQtzYWV0nnshi-MBfRqOI",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_200_200/B56Zno3XE_KAAI-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=UU4RW-ipfogTWnkHY9GqbQ0vR60Iyyjx5tuCzy5Glb8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQES0oKYolQPBw/company-logo_100_100/B56Zno3XE_KAAQ-/0/1760548450959/transcarent_logo?e=1796256000&v=beta&t=2UODPODWYG8DLiDxJGQ6NCyzpZGQf-BzekcnE8niRV0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Software Engineer I",
+    "locationName": "Seattle, Washington, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2025
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "Backend Software Engineer on the Clinical Platform team, developing and maintaining\nJava 17 / Spring Boot microservices on AWS powering a clinical care application used\nby care advocates, clinicians, and physicians.\n\n• Built end-to-end partner data ingestion pipelines using Apache Spark on AWS EMR,\n  delivering integrations for 4 external healthcare partners from transformation spec\n  design through EMR testing to production release and automated scheduling.\n\n• Contributed bug fixes for resolving task rendering defects and\n  component lifecycle issues affecting clinician workflows.\n\n• Performed safe removal of stale feature flags (LaunchDarkly) from production\n  microservices, reducing dead code paths and deployment risk.\n\n• Migrated search infrastructure from legacy Elasticsearch endpoints to OpenSearch,\n  routing all traffic through API Gateway for consistent auth and rate limiting.\n\n• Managed AWS IAM permission sets and S3 bucket policies to support cross-team\n  access for new data export workflows.",
+    "insights": "Skills: Java · Spring Boot · Amazon Web Services (AWS) · Microservices · REST APIs · Amazon Dynamodb · Distributed Systems · NoSQL · Fast Healthcare Interoperability Resources (FHIR) · Event Driven Programming · Docker · Elasticsearch · AWS CloudFormation",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    },
+    "position": "Software Engineer I",
+    "companyName": "Accolade, Inc.",
+    "location": "Seattle, Washington, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/579052/",
+    "companyId": "579052",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2025
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "• Developed an internal tool to search, view, add, and copy patient member claim data using GET and POST requests to the ACP Claims Service API for testing purposes.\n\n• Utilized async/await to handle asynchronous operations, improving the efficiency and responsiveness of the app.\n\n• Contributed to bug fixes and enhancements in the company’s main application, InView, using React.js, improving overall user experience and application stability.",
+    "company": {
+     "url": "https://www.linkedin.com/company/579052/",
+     "name": "Accolade, Inc.",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Accolade, Inc.",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/579052/",
+    "companyId": "579052",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_400_400/B4EZo1sFC_KYAY-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=6kp7u3uu7KsOBGAbLR5vub5URKPdFFJNNrQwsu2oaZc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_200_200/B4EZo1sFC_KYAI-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=c8YGsGlb2xnksM0KHioMlTArW2FU9-d1jTkGdePxusA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHGkWvbmB-F8w/company-logo_100_100/B4EZo1sFC_KYAQ-/0/1761837339146/accolade_inc__logo?e=1796256000&v=beta&t=qUkP_1fv6AuXs-5kdE6Wt33ziKvGJ3hjD7mGj1EKwt8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "New York, United States · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 mos",
+    "description": "• Developed and maintained responsive user interfaces using React.js to enhance the athlete and user experience.\n\n• Created a RESTful API with Node.js and Express.js for efficient data communication and implemented robust user authentication and authorization features.\n\n• Managed and optimized a PostgreSQL database, ensuring data integrity, performance, and scalability.\n• Collaborated with cross-functional teams to gather requirements, design, and integrate third-party APIs, enhancing the website's functionality and user engagement.",
+    "company": {
+     "url": "https://www.linkedin.com/company/70471409/",
+     "name": "Sports.Excitement",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Sports.Excitement",
+    "location": "New York, United States · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/70471409/",
+    "companyId": "70471409",
+    "duration": "6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_400_400/B4EZdHM3eGGcAY-/0/1749246245236?e=1796256000&v=beta&t=xHjyE5OuCRFpERtW2hbYuIadaSCjMdNBZzGukvdWI3s",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_200_200/B4EZdHM3eGGcAI-/0/1749246245236?e=1796256000&v=beta&t=ylzmEwoGkVYpLFXZhvh_ORXqOkMsoM7cpNTsPeqdcdg",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQG-h7HkZDxf6w/company-logo_100_100/B4EZdHM3eGGcAQ-/0/1749246245236?e=1796256000&v=beta&t=Af0mMQjcdR1byFc68vmrsEGk_PUDQqudvy9lekDkjp4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Engineer Intern",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2023
+     }
+    },
+    "totalDuration": "7 mos",
+    "description": "• Engineered a full-stack chat conversation data manager on AWS that improved employees’ productivity rate by 60%. Parents and teachers are now able to access student’s data on each subject and converse directly.\n\n• Developed 6 RESTful APIs in Amazon API Gateway to enable GET/POST functionality that uses Lambda functions in the cloud to manipulate data using DynamoDB with CRUD operations. Due to its scalability, the teachers and parents are able to conveniently access chat history for subsequent interactions.\n\n• Set up persistence of data with AWS S3, delivery of static contents accelerated by CloudFront CDN, and secured client-side access control with CORS resulting in a 15% reduction in content loading times. \n\n• Implemented user management system and sign-in functionalities with Cognito and incorporated IAM to enable secure user registration and managed account permissions.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5533553/",
+     "name": "Joy Education Group",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM"
+     }
+    },
+    "position": "Software Engineer Intern",
+    "companyName": "Joy Education Group",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5533553/",
+    "companyId": "5533553",
+    "duration": "7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2023
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_400_400/company-logo_400_400/0/1631336329827?e=1796256000&v=beta&t=frpwOpB8WD_w4derk0WC-jHZyzd2ytk3IDDUvDU5hCM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_200_200/company-logo_200_200/0/1631336329827?e=1796256000&v=beta&t=Q42g6pyQVwbicqw51t9531nmmLP8aihXl_gQVdleuDU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF-l85wXQqsnA/company-logo_100_100/company-logo_100_100/0/1631336329827?e=1796256000&v=beta&t=k1FODi5GA0fE9t0fJ58_VubPd4-i9SQiYxyXhRURnkA",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 11,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "description": "• Administer comprehensive dental cleanings, involving the removal of plaque and tartar.\n\n• Perform in-depth oral assessments and screenings to identify potential dental concerns.\n\n• Provide patients with valuable insights into effective oral hygiene practices and preventive measures.\n\n• Collaborate closely with dentists to devise customized treatment strategies for individual patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/5698025/",
+     "name": "Seattle Dental Associates",
+     "logo": {}
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Seattle Dental Associates",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/5698025/",
+    "companyId": "5698025",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 11,
+     "year": 2022
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2021
+     }
+    },
+    "totalDuration": "2 yrs",
+    "description": "• Conduct thorough dental cleanings, including plaque and tartar removal.\n\n• Perform comprehensive oral assessments and screenings for dental issues.\n\n• Educate patients on proper oral hygiene techniques and preventive care.\n\n• Collaborate with dentists to develop personalized treatment plans for patients.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4231612/",
+     "name": "Fidler On The Tooth",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc"
+     }
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Fidler On The Tooth",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4231612/",
+    "companyId": "4231612",
+    "duration": "2 yrs",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_400_400/company-logo_400_400/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=w96J0GvVbmcl_lwgMwlZVFGLk7Xx0vLZJsrt6RAGObc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_200_200/company-logo_200_200/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=4FJnyT0a57tHL8Bl9Kn4PlAPGY6a8W5veGLzxItI6pw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQHLzUg0SE6cyg/company-logo_100_100/company-logo_100_100/0/1647023280796/fidler_on_the_tooth_logo?e=1796256000&v=beta&t=MDADLJDhQTu3KOBiL6gGtgsBfb0z-z9PNSnh4lfrQ1Q",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2021
+     }
+    },
+    "totalDuration": "3 yrs 6 mos",
+    "description": "Dental Connections is a dental employment agency offering temporary and permanent placement services for dentists, hygienists, dental assistants.",
+    "company": {
+     "url": "https://www.linkedin.com/company/3053286/",
+     "name": "Dental Connections",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg"
+     }
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Dental Connections",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3053286/",
+    "companyId": "3053286",
+    "duration": "3 yrs 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2021
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_400_400/company-logo_400_400/0/1719256035889/dental_connections_inc_logo?e=1796256000&v=beta&t=PoMXN3LS34vMxlkosllqLC7YGfYpCphjsxSdz6-rOHg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_200_200/company-logo_200_200/0/1719255335540/dental_connections_inc_logo?e=1796256000&v=beta&t=eAApUHyMp4--tkrlg3SzpZjSx8faQByZWT2TJr42lSc",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHq62_aDckYew/company-logo_100_100/company-logo_100_100/0/1719255330447/dental_connections_inc_logo?e=1796256000&v=beta&t=D7slwtptoJR_FETmb-xB0X6CdOZ8e5USeW-1pdqFc-w",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Hygienist",
+    "locationName": "Seattle, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 6,
+      "year": 2019
+     }
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "company": {
+     "url": "https://www.linkedin.com/company/52637214/",
+     "name": "Puget Sound Periodontics & Implant Dentistry",
+     "logo": {}
+    },
+    "position": "Registered Dental Hygienist",
+    "companyName": "Puget Sound Periodontics & Implant Dentistry",
+    "location": "Seattle, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/52637214/",
+    "companyId": "52637214",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 6,
+     "year": 2019
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Registered Dental Assistant",
+    "locationName": "Issaquah, Washington, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 2,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "4 yrs 8 mos",
+    "company": {
+     "url": "https://www.linkedin.com/company/58026754/",
+     "name": "Apex Family Dental Care",
+     "logo": {}
+    },
+    "position": "Registered Dental Assistant",
+    "companyName": "Apex Family Dental Care",
+    "location": "Issaquah, Washington, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/58026754/",
+    "companyId": "58026754",
+    "duration": "4 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 2,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=eZqvhgMOavtRQ46w0J8T8IHijPWsRUoaONbdsCtdFR0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=NPg9o2xQtvCm-PSx6qxqlDy5AM3gTVJXQ4toBpG70RY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=NPg9o2xQtvCm-PSx6qxqlDy5AM3gTVJXQ4toBpG70RY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=eZqvhgMOavtRQ46w0J8T8IHijPWsRUoaONbdsCtdFR0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5274/",
+    "schoolName": "Northeastern University",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2027
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5274/",
+    "schoolId": "5274",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2027
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_200_200/company-logo_200_200/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=jrvbUZ5L5_f8OS1dBtkKFOswvp-DO40d73vatJiHipA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_100_100/company-logo_100_100/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=ozQCBivO4OGDYefmquflGN36I6P21hNKfyG1UFvnAT8",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_400_400/company-logo_400_400/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=aLFT73X7n_PYftrh1toB6blLQULifzSQ4cPwegpldVs",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_400_400/company-logo_400_400/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=aLFT73X7n_PYftrh1toB6blLQULifzSQ4cPwegpldVs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_400_400/company-logo_400_400/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=aLFT73X7n_PYftrh1toB6blLQULifzSQ4cPwegpldVs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_200_200/company-logo_200_200/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=jrvbUZ5L5_f8OS1dBtkKFOswvp-DO40d73vatJiHipA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHxYk4lU8FLrw/company-logo_100_100/company-logo_100_100/0/1689192496648/springboard_logo?e=1796256000&v=beta&t=ozQCBivO4OGDYefmquflGN36I6P21hNKfyG1UFvnAT8",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/10357467/",
+    "schoolName": "Springboard",
+    "degreeName": "Computer Programming",
+    "fieldOfStudy": "Computer Programming",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 1,
+      "year": 2023
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/10357467/",
+    "schoolId": "10357467",
+    "degree": "Computer Programming",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 1,
+     "year": 2023
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=eZqvhgMOavtRQ46w0J8T8IHijPWsRUoaONbdsCtdFR0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=NPg9o2xQtvCm-PSx6qxqlDy5AM3gTVJXQ4toBpG70RY",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_400_400/B4EZs3cqW9GoAY-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=8Q_plZrV2g7ytA1fG9pqMoXJRmJcPxjbMOxBIbGqKy8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_200_200/B4EZs3cqW9GoAI-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=NPg9o2xQtvCm-PSx6qxqlDy5AM3gTVJXQ4toBpG70RY",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQF531vNuZm4hw/company-logo_100_100/B4EZs3cqW9GoAQ-/0/1766161819424/northeastern_university_logo?e=1796256000&v=beta&t=eZqvhgMOavtRQ46w0J8T8IHijPWsRUoaONbdsCtdFR0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/5274/",
+    "schoolName": "Northeastern University",
+    "degreeName": "Master of Science - MS",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2024
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2027
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/5274/",
+    "schoolId": "5274",
+    "degree": "Master of Science - MS",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2024
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2027
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622338384254?e=1796256000&v=beta&t=e3KIYUhZdPZj-jfnEV_k4YEv1vy52pcT-_sT_AKQ45M",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622338384254?e=1796256000&v=beta&t=4Uvr7yWTSo0CWIlTw9dxyaqbWL0Q8czmymqXWIGpsBQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622338384254?e=1796256000&v=beta&t=J6i8Qf9xmJNs2uvEI0RXdOtubAiVANZJXSnLTU-lKYc",
+   "432x432": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+     "width": 432,
+     "height": 432
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622338384254?e=1796256000&v=beta&t=J6i8Qf9xmJNs2uvEI0RXdOtubAiVANZJXSnLTU-lKYc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622338384254?e=1796256000&v=beta&t=4Uvr7yWTSo0CWIlTw9dxyaqbWL0Q8czmymqXWIGpsBQ",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622338384254?e=1796256000&v=beta&t=e3KIYUhZdPZj-jfnEV_k4YEv1vy52pcT-_sT_AKQ45M",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622338384254?e=1796256000&v=beta&t=e3KIYUhZdPZj-jfnEV_k4YEv1vy52pcT-_sT_AKQ45M",
+   "200x200": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622338384254?e=1796256000&v=beta&t=4Uvr7yWTSo0CWIlTw9dxyaqbWL0Q8czmymqXWIGpsBQ",
+   "400x400": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622338384254?e=1796256000&v=beta&t=J6i8Qf9xmJNs2uvEI0RXdOtubAiVANZJXSnLTU-lKYc",
+   "432x432": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+   "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1622338384254?e=1796256000&v=beta&t=dP-AsTdvBOq0EnfEMqaSHwqlyeMqpo-CPx4B1ha59a0",
+     "width": 432,
+     "height": 432
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1622338384254?e=1796256000&v=beta&t=J6i8Qf9xmJNs2uvEI0RXdOtubAiVANZJXSnLTU-lKYc",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1622338384254?e=1796256000&v=beta&t=4Uvr7yWTSo0CWIlTw9dxyaqbWL0Q8czmymqXWIGpsBQ",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5603AQFhA6pnrZ-UCw/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1622338384254?e=1796256000&v=beta&t=e3KIYUhZdPZj-jfnEV_k4YEv1vy52pcT-_sT_AKQ45M",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1548511604557?e=1796256000&v=beta&t=TM2KoL9NHzzXumR5JGNCJLqCRqVAQGNNdR9tMbESabE",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1548511604597?e=1796256000&v=beta&t=8usV4zGFQaPyUT5xZ9rakYbEnf1wE30r8LWIP1N5gsc",
+   "url": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1548511604597?e=1796256000&v=beta&t=8usV4zGFQaPyUT5xZ9rakYbEnf1wE30r8LWIP1N5gsc",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1548511604597?e=1796256000&v=beta&t=8usV4zGFQaPyUT5xZ9rakYbEnf1wE30r8LWIP1N5gsc",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C5616AQFSTQQh_l6Fdw/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1548511604557?e=1796256000&v=beta&t=TM2KoL9NHzzXumR5JGNCJLqCRqVAQGNNdR9tMbESabE",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ryankrdh"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-13T01:31:31.419Z",
+ "foundBy": null
+}

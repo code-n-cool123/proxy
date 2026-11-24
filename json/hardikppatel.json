@@ -1,0 +1,1560 @@
+{
+ "slug": "hardikppatel",
+ "inputUrl": "https://www.linkedin.com/in/hardikppatel",
+ "fetchedAt": "2026-11-18T21:13:25.488Z",
+ "id": "6afe14f5326d0b70b7e25c30",
+ "url": "https://www.linkedin.com/in/hardikppatel",
+ "profile": {
+  "created": 1401126146503,
+  "trackingId": "H209IctDQ+24nPVqUmaHMw==",
+  "firstName": "Hardik",
+  "lastName": "Patel",
+  "pronoun": null,
+  "versionTag": "2129554122",
+  "headline": "Senior Full Stack Java Engineer | Spring Boot · Microservices · Kubernetes · Angular | AI Engineer (Anthropic) | RugsUSA · Cummins | Open to NJ/NYC Roles",
+  "publicIdentifier": "hardikppatel",
+  "creator": false,
+  "influencer": false,
+  "premium": true,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "346492848",
+  "profileId": "ACoAABSnD7AB4kK5DTtKhOnhYTD-E6m5CXQ5yAk",
+  "pictureUrl": {},
+  "coverImageUrl": {},
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000070",
+  "geoLocationName": "New York City Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Full Stack Developer",
+  "summary": "I'm a full stack Java engineer with over ten years of experience specializing in complex system integration and backend reliability. Much of my career has centered on a single challenge: making enterprise systems communicate cleanly and dependably — across ERPs, e-commerce platforms, and the services that connect them.\n \nFor the past several years, I've led backend and integration work on the platform behind RugsUSA.com. I own the Java and OFBiz ERP services, the Boomi integrations that synchronize orders, customers, and invoices across Shopify, OFBiz, and NetSuite, and much of the infrastructure that keeps these systems running in production. Recent projects include building an estimated-delivery-date feature that identifies a customer's nearest in-stock warehouse and returns a live FedEx estimate at checkout, hardening the NetSuite–OFBiz synchronization against timeout and authentication failures, and extending the OFBiz service engine to support evolving business requirements.\n \nI also take ownership of the operational side of engineering — system configuration, production incident response, and the monitoring that surfaces issues early. I mentor new backend engineers through the OFBiz codebase and have trained an overseas team on our daily DevOps practices, establishing the standard operating procedures they use to triage issues, perform root-cause analysis, and escalate appropriately.\n \nMore recently, I've begun integrating AI into our engineering workflow — developing LLM-based agents that assist with documentation, testing, and support — and I'm pursuing an AI Engineering certification from Anthropic. I've found that a strong integration background translates directly to connecting AI systems with real-world enterprise data and tools.",
+  "positions": [
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 4 mos",
+    "description": "Engineering lead for the Java-based ERP and e-commerce platform powering RugsUSA.com — one of the largest online rug retailers in the US — integrated with Shopify for inventory, orders, vendor management, payments, and real-time reporting.\n\n• Architected Boomi integrations bridging Shopify and the Java ERP system via RESTful APIs and GraphQL, enabling seamless bi-directional data flow and eliminating manual reconciliation.\n• Engineered end-to-end order lifecycle — Shopify intake → Java ERP processing → warehouse fulfillment → status sync — ensuring data consistency across all systems.\n• Built and managed a Vendor Portal using Java, Spring Boot, Groovy, and MySQL, streamlining procurement between buyers and 50+ suppliers.\n• Developed multi-gateway payment integrations (Bolt, Braintree, Google Pay) via React and Java, delivering seamless B2B and B2C checkout experiences.\n• Built and maintained CI/CD pipelines using Jenkins and GitHub Actions to automate build, test, and deployment workflows — reducing release cycle time and manual errors.\n• Configured production infrastructure (NGINX, Cloudflare, deployment pipelines) and created AWS QuickSight dashboards for real-time WMS/ERP KPI monitoring.\n• Drove delivery time optimization by engineering a location-aware shipping algorithm, identifying cost-effective routing for B2B and C2C customers.\n• Automated system sync and deployments via Python scripts and cron jobs; integrated MongoDB as a high-volume logging layer to reduce MySQL load.",
+    "insights": "Skills: NetSuite · GraphQL · Shopify · Java · Artificial Intelligence (AI) · Amazon Web Services (AWS) · Python (Programming Language) · Continuous Integration and Continuous Delivery (CI/CD) · MySQL · Cloudflare · MongoDB · Nginx · Spring Boot · Agile & Waterfall Methodologies · JavaScript Libraries · REST APIs · Dell Boomi",
+    "company": {
+     "url": "https://www.linkedin.com/company/20173283/",
+     "name": "nuLOOM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo"
+     }
+    }
+   },
+   {
+    "title": "Web Application Developer",
+    "locationName": "Columbus,Indiana",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Built and maintained WWSPS — a global distributor management system used by 100+ service providers across multiple regions worldwide — using Java, Spring Boot microservices, and Oracle DB.\n• Designed and built Spring Boot microservices for the WWSPS platform using Java 1.8, Spring MVC, JPA, Swagger, and Oracle DB, supporting 100+ global distributors.\n• Containerized and deployed microservices using Docker and Kubernetes on AWS, improving deployment reliability and enabling zero-downtime rolling updates.\n• Developed data reporting modules delivering product, location, and regional analytics; built Angular + Bootstrap UIs with full REST/Swagger API integration.\n• Improved application performance by analyzing customer feedback and system issues, translating findings into targeted technical solutions.\n• Ensured code quality through JUnit unit tests and Postman integration tests; collaborated in bi-weekly Agile sprints with cross-functional teams.",
+    "insights": "Skills: Java · Angular · Docker · Microservices · Spring Boot · Kubernetes · Agile & Waterfall Methodologies · JavaScript Libraries · Oracle Database · REST APIs · Agile Methodologies",
+    "company": {
+     "url": "https://www.linkedin.com/company/3625/",
+     "name": "Cummins Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs"
+     }
+    }
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Built a full-stack e-commerce application (Spring Boot, Hibernate, MySQL) with product management, order tracking, payment processing, and a responsive Angular SPA.\n• Implemented role-based admin dashboard enabling store owners to manage inventory, process orders, and generate sales reports.\n• Integrated a secure online payment gateway with server-side input validation and session management.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Su-Raj Inter Gold Pvt Ltd",
+     "logo": {}
+    }
+   },
+   {
+    "title": "Full Stack Web Developer (PHP/Drupal)",
+    "locationName": "Dallas,Taxas",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Developed Drupal 7/8 custom modules and theming for a university portal serving course listings, faculty profiles, and student application workflows.\n• Optimized database queries and maintained MySQL schemas; built and maintained UI asset pipeline using Webpack, Grunt, and npm.\n• Collaborated with stakeholders to deliver iterative feature releases aligned with university admissions processes.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3294602/",
+     "name": "Covetus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc"
+     }
+    }
+   },
+   {
+    "title": "Student Assistant – Website Technical Support",
+    "locationName": "New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Built a PHP/Laravel business simulation web app for Business 101 students; migrated hosting from Pace servers to a DigitalOcean LAMP stack.\n• Provided technical support for the student portal; configured Apple Server infrastructure and deployed iMac workstations across Isaac Newton Middle School.\n• Taught JavaScript and data visualization to 17 high school students, developing curriculum and hands-on coding exercises.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3839264/",
+     "name": "Seidenberg School of Computer Science & Information Systems",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU"
+     }
+    }
+   },
+   {
+    "title": "Software Programmer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Used HTML, CSS, JavaScript, Jquery on client side. \nBack end development and maintenance of websites using PHP and MySQL. \nEfficiently developed code for different modules by using Oracle SQL, PLSQL and Shell scripting \nWorked on applications and developed them with XML, JSON, XSL. \nWorked on HTML, CSS, and of digital imaging and illustration with Adobe Photoshop, InDesign, and Illustrator.\nCreated an internal browser based text editor using HTML, CSS, JavaScript, AngularJS.\nWorked with LAMP stack and open source software.\nExperienced in Gathering and defining user requirements, created software architecture and data models, defined criteria for system testing and defined SDLC. \nUsed PHP to create and consume web services (SOAP, XML-RPC) and implemented data integrations within the platform.\nWorked with the Foundation framework and with AJAX based sites/web applications.\nDeveloped Jquery plugin for accordions and customized them meeting the business requirements.\nWorked in an SVN/GIT managed environment. \nWorked on HTML5/CSS and jQuery in a Drupal based CMS environment\nWorked on analysis, design, development and implementation of web applications using PHP, Zend Framework, Oracle and MySQL.\nCreated Images, Logos and Icons that are used across the web pages using Adobe Flash and Photoshop. \n",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Shree Ram Electronic Corporation",
+     "logo": {}
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_200_200/company-logo_200_200/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=qTOGRcIZkEFO3EM-gPqHmKYsGdiY-Hyq62tJRbjd3D8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_100_100/company-logo_100_100/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=gBZaTiANwn1m16IKqZOXmzVdyIB2wSYunyGYUzsrxx4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7319/",
+    "schoolName": "Pace University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Free Code Camp",
+    "degreeName": "Full Stack Web development Cirtification",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2015
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "AI Engineering Certification",
+    "authority": "Anthropic",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Anthropic",
+    "title": "AI Engineering Certification",
+    "issuedBy": "Anthropic",
+    "issuedByLogo": null
+   },
+   {
+    "name": "JAVA",
+    "authority": "NIIT Limited",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "NIIT Limited",
+    "title": "JAVA",
+    "issuedBy": "NIIT Limited",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Algorithms and Computing Theory"
+   },
+   {
+    "name": "Artificial Intelligence"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Team Leader",
+    "companyName": "J.S.S. Academy of Technical Education",
+    "description": "Managed an ethical hacking event during my under graduate. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": null
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "J.S.S. Academy of Technical Education",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "AI Customer Support Chatbot",
+    "description": "Designed, built, and deployed a conversational AI assistant for customer queries, product FAQs, and order lookups using the Anthropic Claude API and a Java Spring Boot backend on AWS.\n• Developed context-aware multi-turn conversations with dynamic prompt engineering to control tone, scope, and response format.\n• Deployed end-to-end on AWS — backend API, MongoDB conversation store, Angular frontend — validated across 50+ real customer query scenarios.\n• Designed a modular prompt template architecture enabling rapid adaptation across product categories.",
+    "dateRange": {},
+    "associatedWith": "Apr 2026 - Present"
+   },
+   {
+    "title": "User Identification Mechanism for Mobile Phone Access Replacing the Traditional Password:",
+    "description": "Researched about RFID, NFC technology for password authentication using ibeacon and publish research paper.\n\n\nTechnology Stack: IOS, ibeacon, Swift",
+    "dateRange": {},
+    "associatedWith": "Dec 2015 - May 2016"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Animal Welfare",
+   "Arts and Culture",
+   "Economic Empowerment",
+   "Education",
+   "Environment",
+   "Health",
+   "Science and Technology"
+  ],
+  "companyName": "nuLOOM",
+  "companyPublicId": "nuloom",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/nuloom/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:20173283",
+   "name": "nuLOOM",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQGxZATcMpqO3g",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_"
+    }
+   },
+   "universalName": "nuloom",
+   "url": "https://www.linkedin.com/company/nuloom/",
+   "slug": "nuloom",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+   "specialties": []
+  },
+  "followerCount": 702,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 693,
+  "skills": [
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web-based Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Postman API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gradle",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript Libraries",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile & Waterfall Methodologies",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Full-Stack Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Web-based Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Architecture",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Scrum",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Artificial Intelligence (AI)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Gradle",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript Libraries",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "TypeScript",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile & Waterfall Methodologies",
+    "endorsements": 0,
+    "experiences": 6
+   },
+   {
+    "name": "Prompt Engineering",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Agile Methodologies",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microservices",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Kubernetes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "NetSuite",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mobile Applications",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Web Development",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "User Interface Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Front-end Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Postman API",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Maven",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GitHub",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Docker",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Nginx",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "GraphQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "MongoDB",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Shopify",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Dell Boomi",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cloudflare",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Java",
+    "endorsements": 10,
+    "experiences": 2
+   },
+   {
+    "name": "PHP",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Angular",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "SQL",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Office",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Oracle",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Android",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "Public Speaking",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Anthropic Claude",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Retrieval-Augmented Generation (RAG)",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/hardikppatel",
+  "linkedinUrl": "https://www.linkedin.com/in/hardikppatel",
+  "profileUrl": "https://www.linkedin.com/in/hardikppatel",
+  "verified": true,
+  "registeredAt": "2014-05-26T17:42:26.503Z",
+  "location": {
+   "linkedinText": "New York City Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York City Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a full stack Java engineer with over ten years of experience specializing in complex system integration and backend reliability. Much of my career has centered on a single challenge: making enterprise systems communicate cleanly and dependably — across ERPs, e-commerce platforms, and the services that connect them.\n \nFor the past several years, I've led backend and integration work on the platform behind RugsUSA.com. I own the Java and OFBiz ERP services, the Boomi integrations that synchronize orders, customers, and invoices across Shopify, OFBiz, and NetSuite, and much of the infrastructure that keeps these systems running in production. Recent projects include building an estimated-delivery-date feature that identifies a customer's nearest in-stock warehouse and returns a live FedEx estimate at checkout, hardening the NetSuite–OFBiz synchronization against timeout and authentication failures, and extending the OFBiz service engine to support evolving business requirements.\n \nI also take ownership of the operational side of engineering — system configuration, production incident response, and the monitoring that surfaces issues early. I mentor new backend engineers through the OFBiz codebase and have trained an overseas team on our daily DevOps practices, establishing the standard operating procedures they use to triage issues, perform root-cause analysis, and escalate appropriately.\n \nMore recently, I've begun integrating AI into our engineering workflow — developing LLM-based agents that assist with documentation, testing, and support — and I'm pursuing an AI Engineering certification from Anthropic. I've found that a strong integration background translates directly to connecting AI systems with real-world enterprise data and tools.",
+  "currentTitle": "Senior Full Stack Developer",
+  "allTitles": [
+   "Senior Full Stack Developer",
+   "Web Application Developer",
+   "Web Developer",
+   "Full Stack Web Developer (PHP/Drupal)",
+   "Student Assistant – Website Technical Support",
+   "Software Programmer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 4 mos",
+    "description": "Engineering lead for the Java-based ERP and e-commerce platform powering RugsUSA.com — one of the largest online rug retailers in the US — integrated with Shopify for inventory, orders, vendor management, payments, and real-time reporting.\n\n• Architected Boomi integrations bridging Shopify and the Java ERP system via RESTful APIs and GraphQL, enabling seamless bi-directional data flow and eliminating manual reconciliation.\n• Engineered end-to-end order lifecycle — Shopify intake → Java ERP processing → warehouse fulfillment → status sync — ensuring data consistency across all systems.\n• Built and managed a Vendor Portal using Java, Spring Boot, Groovy, and MySQL, streamlining procurement between buyers and 50+ suppliers.\n• Developed multi-gateway payment integrations (Bolt, Braintree, Google Pay) via React and Java, delivering seamless B2B and B2C checkout experiences.\n• Built and maintained CI/CD pipelines using Jenkins and GitHub Actions to automate build, test, and deployment workflows — reducing release cycle time and manual errors.\n• Configured production infrastructure (NGINX, Cloudflare, deployment pipelines) and created AWS QuickSight dashboards for real-time WMS/ERP KPI monitoring.\n• Drove delivery time optimization by engineering a location-aware shipping algorithm, identifying cost-effective routing for B2B and C2C customers.\n• Automated system sync and deployments via Python scripts and cron jobs; integrated MongoDB as a high-volume logging layer to reduce MySQL load.",
+    "insights": "Skills: NetSuite · GraphQL · Shopify · Java · Artificial Intelligence (AI) · Amazon Web Services (AWS) · Python (Programming Language) · Continuous Integration and Continuous Delivery (CI/CD) · MySQL · Cloudflare · MongoDB · Nginx · Spring Boot · Agile & Waterfall Methodologies · JavaScript Libraries · REST APIs · Dell Boomi",
+    "company": {
+     "url": "https://www.linkedin.com/company/20173283/",
+     "name": "nuLOOM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo"
+     }
+    },
+    "position": "Senior Full Stack Developer",
+    "companyName": "nuLOOM",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/20173283/",
+    "companyId": "20173283",
+    "duration": "7 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Web Application Developer",
+    "locationName": "Columbus,Indiana",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Built and maintained WWSPS — a global distributor management system used by 100+ service providers across multiple regions worldwide — using Java, Spring Boot microservices, and Oracle DB.\n• Designed and built Spring Boot microservices for the WWSPS platform using Java 1.8, Spring MVC, JPA, Swagger, and Oracle DB, supporting 100+ global distributors.\n• Containerized and deployed microservices using Docker and Kubernetes on AWS, improving deployment reliability and enabling zero-downtime rolling updates.\n• Developed data reporting modules delivering product, location, and regional analytics; built Angular + Bootstrap UIs with full REST/Swagger API integration.\n• Improved application performance by analyzing customer feedback and system issues, translating findings into targeted technical solutions.\n• Ensured code quality through JUnit unit tests and Postman integration tests; collaborated in bi-weekly Agile sprints with cross-functional teams.",
+    "insights": "Skills: Java · Angular · Docker · Microservices · Spring Boot · Kubernetes · Agile & Waterfall Methodologies · JavaScript Libraries · Oracle Database · REST APIs · Agile Methodologies",
+    "company": {
+     "url": "https://www.linkedin.com/company/3625/",
+     "name": "Cummins Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs"
+     }
+    },
+    "position": "Web Application Developer",
+    "companyName": "Cummins Inc.",
+    "location": "Columbus,Indiana",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3625/",
+    "companyId": "3625",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Built a full-stack e-commerce application (Spring Boot, Hibernate, MySQL) with product management, order tracking, payment processing, and a responsive Angular SPA.\n• Implemented role-based admin dashboard enabling store owners to manage inventory, process orders, and generate sales reports.\n• Integrated a secure online payment gateway with server-side input validation and session management.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Su-Raj Inter Gold Pvt Ltd",
+     "logo": {}
+    },
+    "position": "Web Developer",
+    "companyName": "Su-Raj Inter Gold Pvt Ltd",
+    "location": "New York City Metropolitan Area",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Full Stack Web Developer (PHP/Drupal)",
+    "locationName": "Dallas,Taxas",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Developed Drupal 7/8 custom modules and theming for a university portal serving course listings, faculty profiles, and student application workflows.\n• Optimized database queries and maintained MySQL schemas; built and maintained UI asset pipeline using Webpack, Grunt, and npm.\n• Collaborated with stakeholders to deliver iterative feature releases aligned with university admissions processes.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3294602/",
+     "name": "Covetus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc"
+     }
+    },
+    "position": "Full Stack Web Developer (PHP/Drupal)",
+    "companyName": "Covetus",
+    "location": "Dallas,Taxas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3294602/",
+    "companyId": "3294602",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Assistant – Website Technical Support",
+    "locationName": "New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Built a PHP/Laravel business simulation web app for Business 101 students; migrated hosting from Pace servers to a DigitalOcean LAMP stack.\n• Provided technical support for the student portal; configured Apple Server infrastructure and deployed iMac workstations across Isaac Newton Middle School.\n• Taught JavaScript and data visualization to 17 high school students, developing curriculum and hands-on coding exercises.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3839264/",
+     "name": "Seidenberg School of Computer Science & Information Systems",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU"
+     }
+    },
+    "position": "Student Assistant – Website Technical Support",
+    "companyName": "Seidenberg School of Computer Science & Information Systems",
+    "location": "New York",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3839264/",
+    "companyId": "3839264",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Programmer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Used HTML, CSS, JavaScript, Jquery on client side. \nBack end development and maintenance of websites using PHP and MySQL. \nEfficiently developed code for different modules by using Oracle SQL, PLSQL and Shell scripting \nWorked on applications and developed them with XML, JSON, XSL. \nWorked on HTML, CSS, and of digital imaging and illustration with Adobe Photoshop, InDesign, and Illustrator.\nCreated an internal browser based text editor using HTML, CSS, JavaScript, AngularJS.\nWorked with LAMP stack and open source software.\nExperienced in Gathering and defining user requirements, created software architecture and data models, defined criteria for system testing and defined SDLC. \nUsed PHP to create and consume web services (SOAP, XML-RPC) and implemented data integrations within the platform.\nWorked with the Foundation framework and with AJAX based sites/web applications.\nDeveloped Jquery plugin for accordions and customized them meeting the business requirements.\nWorked in an SVN/GIT managed environment. \nWorked on HTML5/CSS and jQuery in a Drupal based CMS environment\nWorked on analysis, design, development and implementation of web applications using PHP, Zend Framework, Oracle and MySQL.\nCreated Images, Logos and Icons that are used across the web pages using Adobe Flash and Photoshop. \n",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Shree Ram Electronic Corporation",
+     "logo": {}
+    },
+    "position": "Software Programmer",
+    "companyName": "Shree Ram Electronic Corporation",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2014
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "20173283",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/20173283/",
+    "companyName": "nuLOOM",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Full Stack Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2019
+     },
+     "endDate": null
+    },
+    "totalDuration": "7 yrs 4 mos",
+    "description": "Engineering lead for the Java-based ERP and e-commerce platform powering RugsUSA.com — one of the largest online rug retailers in the US — integrated with Shopify for inventory, orders, vendor management, payments, and real-time reporting.\n\n• Architected Boomi integrations bridging Shopify and the Java ERP system via RESTful APIs and GraphQL, enabling seamless bi-directional data flow and eliminating manual reconciliation.\n• Engineered end-to-end order lifecycle — Shopify intake → Java ERP processing → warehouse fulfillment → status sync — ensuring data consistency across all systems.\n• Built and managed a Vendor Portal using Java, Spring Boot, Groovy, and MySQL, streamlining procurement between buyers and 50+ suppliers.\n• Developed multi-gateway payment integrations (Bolt, Braintree, Google Pay) via React and Java, delivering seamless B2B and B2C checkout experiences.\n• Built and maintained CI/CD pipelines using Jenkins and GitHub Actions to automate build, test, and deployment workflows — reducing release cycle time and manual errors.\n• Configured production infrastructure (NGINX, Cloudflare, deployment pipelines) and created AWS QuickSight dashboards for real-time WMS/ERP KPI monitoring.\n• Drove delivery time optimization by engineering a location-aware shipping algorithm, identifying cost-effective routing for B2B and C2C customers.\n• Automated system sync and deployments via Python scripts and cron jobs; integrated MongoDB as a high-volume logging layer to reduce MySQL load.",
+    "insights": "Skills: NetSuite · GraphQL · Shopify · Java · Artificial Intelligence (AI) · Amazon Web Services (AWS) · Python (Programming Language) · Continuous Integration and Continuous Delivery (CI/CD) · MySQL · Cloudflare · MongoDB · Nginx · Spring Boot · Agile & Waterfall Methodologies · JavaScript Libraries · REST APIs · Dell Boomi",
+    "company": {
+     "url": "https://www.linkedin.com/company/20173283/",
+     "name": "nuLOOM",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo"
+     }
+    },
+    "position": "Senior Full Stack Developer",
+    "companyName": "nuLOOM",
+    "location": "New York City Metropolitan Area",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/20173283/",
+    "companyId": "20173283",
+    "duration": "7 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2019
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_400_400/company-logo_400_400/0/1630530791378?e=1796860800&v=beta&t=BnegOg5d37mq52xb2MoM7whzIf_FWj0ZWUxu4ck5mCo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_200_200/company-logo_200_200/0/1630530791378?e=1796860800&v=beta&t=hWY3xDQgrSRTBbdGSCbvtxz5d0N13rfKPeyGP4cuFic",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGxZATcMpqO3g/company-logo_100_100/company-logo_100_100/0/1630530791378?e=1796860800&v=beta&t=SaX_TXK2mlmI7PxqIlVzhL3goK1nAu3_-FUd3PK2Kj0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Web Application Developer",
+    "locationName": "Columbus,Indiana",
+    "timePeriod": {
+     "startDate": {
+      "month": 10,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2019
+     }
+    },
+    "totalDuration": "1 yr 10 mos",
+    "description": "Built and maintained WWSPS — a global distributor management system used by 100+ service providers across multiple regions worldwide — using Java, Spring Boot microservices, and Oracle DB.\n• Designed and built Spring Boot microservices for the WWSPS platform using Java 1.8, Spring MVC, JPA, Swagger, and Oracle DB, supporting 100+ global distributors.\n• Containerized and deployed microservices using Docker and Kubernetes on AWS, improving deployment reliability and enabling zero-downtime rolling updates.\n• Developed data reporting modules delivering product, location, and regional analytics; built Angular + Bootstrap UIs with full REST/Swagger API integration.\n• Improved application performance by analyzing customer feedback and system issues, translating findings into targeted technical solutions.\n• Ensured code quality through JUnit unit tests and Postman integration tests; collaborated in bi-weekly Agile sprints with cross-functional teams.",
+    "insights": "Skills: Java · Angular · Docker · Microservices · Spring Boot · Kubernetes · Agile & Waterfall Methodologies · JavaScript Libraries · Oracle Database · REST APIs · Agile Methodologies",
+    "company": {
+     "url": "https://www.linkedin.com/company/3625/",
+     "name": "Cummins Inc.",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs"
+     }
+    },
+    "position": "Web Application Developer",
+    "companyName": "Cummins Inc.",
+    "location": "Columbus,Indiana",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3625/",
+    "companyId": "3625",
+    "duration": "1 yr 10 mos",
+    "skills": [],
+    "startDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2019
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_400_400/company-logo_400_400/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=Z0w7Vs90Sa3Voe3o6_gdAnVzB80ywQcHXrecumtrLrs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_200_200/company-logo_200_200/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=xXmqACoP-2fwqzvgoAnv5U08qtRK15b4hN9MS9LHuHA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGQf222hCAvoQ/company-logo_100_100/company-logo_100_100/0/1700575833581/cummins_inc_logo?e=1796860800&v=beta&t=0U8TA0yB2qHrImYw3-3cE34jRgJS_lWXiwrSrONFHQc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Web Developer",
+    "locationName": "New York City Metropolitan Area",
+    "timePeriod": {
+     "startDate": {
+      "month": 9,
+      "year": 2017
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2017
+     }
+    },
+    "totalDuration": "2 mos",
+    "description": "• Built a full-stack e-commerce application (Spring Boot, Hibernate, MySQL) with product management, order tracking, payment processing, and a responsive Angular SPA.\n• Implemented role-based admin dashboard enabling store owners to manage inventory, process orders, and generate sales reports.\n• Integrated a secure online payment gateway with server-side input validation and session management.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Su-Raj Inter Gold Pvt Ltd",
+     "logo": {}
+    },
+    "position": "Web Developer",
+    "companyName": "Su-Raj Inter Gold Pvt Ltd",
+    "location": "New York City Metropolitan Area",
+    "duration": "2 mos",
+    "skills": [],
+    "startDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2017
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   },
+   {
+    "title": "Full Stack Web Developer (PHP/Drupal)",
+    "locationName": "Dallas,Taxas",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2017
+     }
+    },
+    "totalDuration": "11 mos",
+    "description": "• Developed Drupal 7/8 custom modules and theming for a university portal serving course listings, faculty profiles, and student application workflows.\n• Optimized database queries and maintained MySQL schemas; built and maintained UI asset pipeline using Webpack, Grunt, and npm.\n• Collaborated with stakeholders to deliver iterative feature releases aligned with university admissions processes.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3294602/",
+     "name": "Covetus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+      "100x100": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+      "400x400": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc"
+     }
+    },
+    "position": "Full Stack Web Developer (PHP/Drupal)",
+    "companyName": "Covetus",
+    "location": "Dallas,Taxas",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3294602/",
+    "companyId": "3294602",
+    "duration": "11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2017
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+     "100x100": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+     "400x400": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+     "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_400_400/company-logo_400_400/0/1631378391271?e=1796860800&v=beta&t=qn9ZbA6vpz5dZ0-4RW_DPnvuSISrzt5y2KvwNFtstrc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_200_200/company-logo_200_200/0/1631378391271?e=1796860800&v=beta&t=YK3hyzLN4QNH3TvcptTqc1zW_mdj-Wm57ljyWs_c0qI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C510BAQG79kL1Q5GjVA/company-logo_100_100/company-logo_100_100/0/1631378391271?e=1796860800&v=beta&t=3dB1S3hZVfQLKPM9PUbSTKELU1LGgRKOBCpuA3Sj3Vc",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Student Assistant – Website Technical Support",
+    "locationName": "New York",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2015
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2016
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "• Built a PHP/Laravel business simulation web app for Business 101 students; migrated hosting from Pace servers to a DigitalOcean LAMP stack.\n• Provided technical support for the student portal; configured Apple Server infrastructure and deployed iMac workstations across Isaac Newton Middle School.\n• Taught JavaScript and data visualization to 17 high school students, developing curriculum and hands-on coding exercises.",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "https://www.linkedin.com/company/3839264/",
+     "name": "Seidenberg School of Computer Science & Information Systems",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU"
+     }
+    },
+    "position": "Student Assistant – Website Technical Support",
+    "companyName": "Seidenberg School of Computer Science & Information Systems",
+    "location": "New York",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3839264/",
+    "companyId": "3839264",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2015
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2016
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_400_400/company-logo_400_400/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=9eHrCpxYF3nXDnWMbnFnkaOfNoJoeIRV5yWfm2TpSqU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_200_200/company-logo_200_200/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=i5Rf9i73Zve9zXd8YhXCHYDL4xHlHoXAXv9ooGI8FBA",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQGWyX8IfCvr_w/company-logo_100_100/company-logo_100_100/0/1630539086339/seidenberg_school_logo?e=1796860800&v=beta&t=p5BJ3hXxhivimf3dRC2HQ1vWmmwo1YEEL9LEwbFq6gE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Software Programmer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2013
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2014
+     }
+    },
+    "totalDuration": "1 yr 1 mo",
+    "description": "Used HTML, CSS, JavaScript, Jquery on client side. \nBack end development and maintenance of websites using PHP and MySQL. \nEfficiently developed code for different modules by using Oracle SQL, PLSQL and Shell scripting \nWorked on applications and developed them with XML, JSON, XSL. \nWorked on HTML, CSS, and of digital imaging and illustration with Adobe Photoshop, InDesign, and Illustrator.\nCreated an internal browser based text editor using HTML, CSS, JavaScript, AngularJS.\nWorked with LAMP stack and open source software.\nExperienced in Gathering and defining user requirements, created software architecture and data models, defined criteria for system testing and defined SDLC. \nUsed PHP to create and consume web services (SOAP, XML-RPC) and implemented data integrations within the platform.\nWorked with the Foundation framework and with AJAX based sites/web applications.\nDeveloped Jquery plugin for accordions and customized them meeting the business requirements.\nWorked in an SVN/GIT managed environment. \nWorked on HTML5/CSS and jQuery in a Drupal based CMS environment\nWorked on analysis, design, development and implementation of web applications using PHP, Zend Framework, Oracle and MySQL.\nCreated Images, Logos and Icons that are used across the web pages using Adobe Flash and Photoshop. \n",
+    "insights": "Skills: Agile & Waterfall Methodologies · JavaScript Libraries",
+    "company": {
+     "url": "",
+     "name": "Shree Ram Electronic Corporation",
+     "logo": {}
+    },
+    "position": "Software Programmer",
+    "companyName": "Shree Ram Electronic Corporation",
+    "duration": "1 yr 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2013
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2014
+    },
+    "companyLogo": {},
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_200_200/company-logo_200_200/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=qTOGRcIZkEFO3EM-gPqHmKYsGdiY-Hyq62tJRbjd3D8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_100_100/company-logo_100_100/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=gBZaTiANwn1m16IKqZOXmzVdyIB2wSYunyGYUzsrxx4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_200_200/company-logo_200_200/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=qTOGRcIZkEFO3EM-gPqHmKYsGdiY-Hyq62tJRbjd3D8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_100_100/company-logo_100_100/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=gBZaTiANwn1m16IKqZOXmzVdyIB2wSYunyGYUzsrxx4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7319/",
+    "schoolName": "Pace University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7319/",
+    "schoolId": "7319",
+    "degree": "Master’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2016
+    }
+   },
+   {
+    "schoolLogo": {},
+    "schoolUrl": "",
+    "schoolName": "Free Code Camp",
+    "degreeName": "Full Stack Web development Cirtification",
+    "fieldOfStudy": "Computer Software Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2015
+     }
+    },
+    "degree": "Full Stack Web development Cirtification",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2015
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_200_200/company-logo_200_200/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=qTOGRcIZkEFO3EM-gPqHmKYsGdiY-Hyq62tJRbjd3D8",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_100_100/company-logo_100_100/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=gBZaTiANwn1m16IKqZOXmzVdyIB2wSYunyGYUzsrxx4",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_400_400/company-logo_400_400/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=6XNaukWyZ61VozHIT2uH3hNCYnYqnSEcAEecaBS1irk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_200_200/company-logo_200_200/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=qTOGRcIZkEFO3EM-gPqHmKYsGdiY-Hyq62tJRbjd3D8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQEcSw4qs9msJg/company-logo_100_100/company-logo_100_100/0/1630460198034/pace_university_logo?e=1796860800&v=beta&t=gBZaTiANwn1m16IKqZOXmzVdyIB2wSYunyGYUzsrxx4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/7319/",
+    "schoolName": "Pace University",
+    "degreeName": "Master’s Degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2014
+     },
+     "endDate": {
+      "year": 2016
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/7319/",
+    "schoolId": "7319",
+    "degree": "Master’s Degree",
+    "skills": [],
+    "startDate": {
+     "year": 2014
+    },
+    "endDate": {
+     "year": 2016
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Team Leader",
+    "companyName": "J.S.S. Academy of Technical Education",
+    "description": "Managed an ethical hacking event during my under graduate. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": null
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "J.S.S. Academy of Technical Education",
+     "logo": {}
+    },
+    "organization": "J.S.S. Academy of Technical Education"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Team Leader",
+    "companyName": "J.S.S. Academy of Technical Education",
+    "description": "Managed an ethical hacking event during my under graduate. ",
+    "timePeriod": {
+     "startDate": {
+      "month": 3,
+      "year": 2010
+     },
+     "endDate": null
+    },
+    "cause": "Science and Technology",
+    "company": {
+     "url": "",
+     "name": "J.S.S. Academy of Technical Education",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {},
+  "photo": {},
+  "coverPicture": {},
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/hardikppatel"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T21:13:12.481Z",
+ "foundBy": null
+}

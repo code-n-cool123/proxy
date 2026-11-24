@@ -1,0 +1,979 @@
+{
+ "slug": "chris-nelson-83122141",
+ "inputUrl": "https://www.linkedin.com/in/chris-nelson-83122141",
+ "fetchedAt": "2026-11-09T22:21:33.875Z",
+ "id": "6af2476daf440f0df0ab83a8",
+ "url": "https://www.linkedin.com/in/chris-nelson-83122141",
+ "profile": {
+  "created": 1318681994000,
+  "trackingId": "2lMyBGTnSASyg6+fMyhcHA==",
+  "firstName": "Chris",
+  "lastName": "Nelson",
+  "pronoun": null,
+  "versionTag": "3189592682",
+  "headline": "Embedded Software Engineer at Rhombus Systems · Video streaming pipelines (GStreamer/RTSP/DASH), embedded Linux on ARM/Ambarella, computer vision at the edge · Patent holder",
+  "publicIdentifier": "chris-nelson-83122141",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "146855269",
+  "profileId": "ACoAAAjA1WUBmBikg6lnpUmENfTGXPJmO_gyWXg",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+   "560x560": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+   "560x560": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:107169578",
+  "geoLocationName": "Woodland, California, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Embedded Software Engineer",
+  "summary": "Embedded software engineer specializing in camera systems, video streaming infrastructure, and embedded\n Linux. I work across the full stack of a camera fleet product — from board bring-up and firmware on\n ARM/Ambarella SoCs through GStreamer pipelines, fragmented MP4 storage, and cloud upload.\n\n At Rhombus Systems I did the platform bringup for the  R600, N100, and N500 camera platforms, along with AI-at-the-edge pipelines that run across the entire camera fleet. Day to day that means architecting RTSP-to-DASH\n streaming pipelines in C++, debugging at scale for example a CI build race that occasionally dropped the ethernet driver .ko from OTAs but was only needed on some hardware revisions. Sole inventor on US Patent 12,380,546 — computer-vision-based tamper detection for camera systems.\n\n Before Rhombus, I worked at Amazon Devices on consumer wearables (Echo Frames and Echo Buds) and spent\n a decade at WECO (Woodside Electronics) leading optical-sorter development for the food and ag industry\n — hardware, firmware, and systems integration end-to-end. Tools: C, C++, Python, GStreamer, embedded\n Linux (BusyBox/systemd), Ambarella, ARM, OpenCV, Git.",
+  "positions": [
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "- Platform bringup for the R600, N100, and N500 cameras and NVRs, covering video transcoding, codec pipelines, edge-inference paths, and optical characterization.\n\n- Architected RTSP-to-DASH live streaming pipelines in C++ on GStreamer, handling fragmented MP4 muxing (splitmuxsink, fmp4mux), dynamic pad linking with dashsink, and DTS/PTS synchronization across decode and storage branches.\n\n- Authored a FUSE-based virtual filesystem that maps journald logs to legacy file paths, removing a migration blocker without touching downstream consumers.\n\n- Hunted memory and concurrency bugs with AddressSanitizer and ThreadSanitizer, including ODR violations and OpenCV parallelism data races.\n\n- Sole inventor on US Patent 12,380,546, Systems and methods of computer vision-based tamper detection of camera systems, granted August 2025.",
+    "insights": "Camera Systems, Computer Vision and +8 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18196556/",
+     "name": "Rhombus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk"
+     }
+    }
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Embedded software engineer at Amazon Devices on the Echo Frames smart-glasses team, contributing firmware and platform software for a resource-constrained wearable device.\n\n- Major contributor to the over-the-air (OTA) firmware update flow for Echo Frames, working on the path that delivers updates to devices in the field.\n\n- Implemented Bluetooth Low Energy (BLE) changes spanning Echo Frames and Echo Buds, improving connectivity and supporting product features across both wearables.\n\n- Drove bi-monthly SDK and third-party codebase merges across large embedded codebases, reconciling vendor updates with Amazon-side changes and keeping the team unblocked through complex integration cycles.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/4114577/",
+     "name": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4"
+     }
+    },
+    "totalDuration": "10 yrs 6 mos",
+    "employmentType": null,
+    "positions": [
+     {
+      "title": "Lead Project Engineer",
+      "locationName": "Woodland, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 yrs 11 mos",
+      "description": "- End-to-end development of optical sorters for the food and ag industry, from concept through electrical design, firmware, integration, and manufacturing release.\n\n- Led small cross-disciplinary teams (engineers and technicians) on customer-specific sorter builds, balancing custom requirements against a common platform.\n\n- Shipped a new generation of optical sorting product, integrating cameras, ejectors, PLCs, embedded firmware, and mechanical systems into a production-ready machine.\n\n- Expanded the product line into industrial automation and moisture-monitoring applications.\n\n- Hands-on across optical sensor selection, analog/digital PCB design (schematic + layout in Eagle), real-time sorting firmware, and machine control.",
+      "insights": ""
+     },
+     {
+      "title": "Electrical Engineer",
+      "locationName": "Woodland CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "- Designed analog and digital electronics for optical sorting machines: schematic capture, PCB layout, board bring-up, and debug in Eagle.\n\n- Built embedded firmware and sensor interfaces for production sorters.\n\n- Promoted to Lead Project Engineer to own full product development cycles.",
+      "insights": ""
+     },
+     {
+      "title": "Intern",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2011
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Summer internship supporting electrical engineering and prototyping for optical sorters; converted to full-time at end of term.",
+      "insights": ""
+     }
+    ]
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_200_200/company-logo_200_200/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=qtf4VVIn8iymdlpmPTCEDrGqSwvyWJYh7oJ8b3pmCN4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_100_100/company-logo_100_100/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=o6KYVUrcSu1fMypXJCfalYaX2493EuYZLQVr56KTEx0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251132/",
+    "schoolName": "California Polytechnic State University-San Luis Obispo",
+    "degreeName": "Electrical Engineering",
+    "fieldOfStudy": "Electronics and software design",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2011
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Convolutional Neural Networks",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Convolutional Neural Networks",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Structuring Machine Learning Projects",
+    "authority": "Coursera",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Coursera",
+    "title": "Structuring Machine Learning Projects",
+    "issuedBy": "Coursera",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [
+   {
+    "title": "Systems and methods of computer vision-based tamper detection of camera systems",
+    "issuer": "US 12380546 · Issued Aug 5, 2025",
+    "issueDate": {},
+    "description": "Computer-vision tamper detection for camera systems. Uses a paired infrared LED illumination cycle (on/off image comparison) to validate tamper events flagged by edge detection and other CV operations, filtering out false positives caused by rapid lighting changes."
+   }
+  ],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Rhombus",
+  "companyPublicId": "rhombus-systems",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/rhombus-systems/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:18196556",
+   "name": "Rhombus",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C560BAQGzzn8w3KGcDQ",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_"
+    }
+   },
+   "universalName": "rhombus-systems",
+   "url": "https://www.linkedin.com/company/rhombus-systems/",
+   "slug": "rhombus-systems",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+   "specialties": []
+  },
+  "followerCount": 206,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 203,
+  "inputUrl": "https://www.linkedin.com/in/chris-nelson-83122141",
+  "linkedinUrl": "https://www.linkedin.com/in/chris-nelson-83122141",
+  "profileUrl": "https://www.linkedin.com/in/chris-nelson-83122141",
+  "verified": true,
+  "registeredAt": "2011-10-15T12:33:14.000Z",
+  "location": {
+   "linkedinText": "Woodland, California, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Woodland, California, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "Embedded software engineer specializing in camera systems, video streaming infrastructure, and embedded\n Linux. I work across the full stack of a camera fleet product — from board bring-up and firmware on\n ARM/Ambarella SoCs through GStreamer pipelines, fragmented MP4 storage, and cloud upload.\n\n At Rhombus Systems I did the platform bringup for the  R600, N100, and N500 camera platforms, along with AI-at-the-edge pipelines that run across the entire camera fleet. Day to day that means architecting RTSP-to-DASH\n streaming pipelines in C++, debugging at scale for example a CI build race that occasionally dropped the ethernet driver .ko from OTAs but was only needed on some hardware revisions. Sole inventor on US Patent 12,380,546 — computer-vision-based tamper detection for camera systems.\n\n Before Rhombus, I worked at Amazon Devices on consumer wearables (Echo Frames and Echo Buds) and spent\n a decade at WECO (Woodside Electronics) leading optical-sorter development for the food and ag industry\n — hardware, firmware, and systems integration end-to-end. Tools: C, C++, Python, GStreamer, embedded\n Linux (BusyBox/systemd), Ambarella, ARM, OpenCV, Git.",
+  "currentTitle": "Embedded Software Engineer",
+  "allTitles": [
+   "Embedded Software Engineer",
+   "Embedded Software Engineer"
+  ],
+  "currentPositions": [
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "- Platform bringup for the R600, N100, and N500 cameras and NVRs, covering video transcoding, codec pipelines, edge-inference paths, and optical characterization.\n\n- Architected RTSP-to-DASH live streaming pipelines in C++ on GStreamer, handling fragmented MP4 muxing (splitmuxsink, fmp4mux), dynamic pad linking with dashsink, and DTS/PTS synchronization across decode and storage branches.\n\n- Authored a FUSE-based virtual filesystem that maps journald logs to legacy file paths, removing a migration blocker without touching downstream consumers.\n\n- Hunted memory and concurrency bugs with AddressSanitizer and ThreadSanitizer, including ODR violations and OpenCV parallelism data races.\n\n- Sole inventor on US Patent 12,380,546, Systems and methods of computer vision-based tamper detection of camera systems, granted August 2025.",
+    "insights": "Camera Systems, Computer Vision and +8 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18196556/",
+     "name": "Rhombus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Rhombus",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18196556/",
+    "companyId": "18196556",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/4114577/",
+     "name": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4"
+     }
+    },
+    "totalDuration": "10 yrs 6 mos",
+    "positions": [
+     {
+      "title": "Lead Project Engineer",
+      "locationName": "Woodland, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 yrs 11 mos",
+      "description": "- End-to-end development of optical sorters for the food and ag industry, from concept through electrical design, firmware, integration, and manufacturing release.\n\n- Led small cross-disciplinary teams (engineers and technicians) on customer-specific sorter builds, balancing custom requirements against a common platform.\n\n- Shipped a new generation of optical sorting product, integrating cameras, ejectors, PLCs, embedded firmware, and mechanical systems into a production-ready machine.\n\n- Expanded the product line into industrial automation and moisture-monitoring applications.\n\n- Hands-on across optical sensor selection, analog/digital PCB design (schematic + layout in Eagle), real-time sorting firmware, and machine control.",
+      "insights": ""
+     },
+     {
+      "title": "Electrical Engineer",
+      "locationName": "Woodland CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "- Designed analog and digital electronics for optical sorting machines: schematic capture, PCB layout, board bring-up, and debug in Eagle.\n\n- Built embedded firmware and sensor interfaces for production sorters.\n\n- Promoted to Lead Project Engineer to own full product development cycles.",
+      "insights": ""
+     },
+     {
+      "title": "Intern",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2011
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Summer internship supporting electrical engineering and prototyping for optical sorters; converted to full-time at end of term.",
+      "insights": ""
+     }
+    ],
+    "companyName": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4114577/",
+    "companyId": "4114577",
+    "duration": "10 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Embedded software engineer at Amazon Devices on the Echo Frames smart-glasses team, contributing firmware and platform software for a resource-constrained wearable device.\n\n- Major contributor to the over-the-air (OTA) firmware update flow for Echo Frames, working on the path that delivers updates to devices in the field.\n\n- Implemented Bluetooth Low Energy (BLE) changes spanning Echo Frames and Echo Buds, improving connectivity and supporting product features across both wearables.\n\n- Drove bi-monthly SDK and third-party codebase merges across large embedded codebases, reconciling vendor updates with Amazon-side changes and keeping the team unblocked through complex integration cycles.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Amazon",
+    "location": "Cupertino, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "18196556",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18196556/",
+    "companyName": "Rhombus",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "4114577",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4114577/",
+    "companyName": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 4,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 8 mos",
+    "description": "- Platform bringup for the R600, N100, and N500 cameras and NVRs, covering video transcoding, codec pipelines, edge-inference paths, and optical characterization.\n\n- Architected RTSP-to-DASH live streaming pipelines in C++ on GStreamer, handling fragmented MP4 muxing (splitmuxsink, fmp4mux), dynamic pad linking with dashsink, and DTS/PTS synchronization across decode and storage branches.\n\n- Authored a FUSE-based virtual filesystem that maps journald logs to legacy file paths, removing a migration blocker without touching downstream consumers.\n\n- Hunted memory and concurrency bugs with AddressSanitizer and ThreadSanitizer, including ODR violations and OpenCV parallelism data races.\n\n- Sole inventor on US Patent 12,380,546, Systems and methods of computer vision-based tamper detection of camera systems, granted August 2025.",
+    "insights": "Camera Systems, Computer Vision and +8 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/18196556/",
+     "name": "Rhombus",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Rhombus",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/18196556/",
+    "companyId": "18196556",
+    "duration": "3 yrs 8 mos",
+    "skills": [],
+    "startDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_400_400/company-logo_400_400/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=IRXk5dt3gB6xUkfnbMK5w0d5TbJ5vWX8MYGma87SVbk",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_200_200/company-logo_200_200/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=jr2GNhxclFIBhrZzt1CmO1Fv4Yh2W77BPDaFtNqMGws",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGzzn8w3KGcDQ/company-logo_100_100/company-logo_100_100/0/1659425978963/rhombus_systems_logo?e=1795651200&v=beta&t=AxOkuBovHcXq-shOxWHvHBhvKD7fnkMvfLCdN5aoZ5Y",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Embedded Software Engineer",
+    "locationName": "Cupertino, CA",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2023
+     }
+    },
+    "totalDuration": "1 yr 6 mos",
+    "employmentType": "Full-time",
+    "description": "- Embedded software engineer at Amazon Devices on the Echo Frames smart-glasses team, contributing firmware and platform software for a resource-constrained wearable device.\n\n- Major contributor to the over-the-air (OTA) firmware update flow for Echo Frames, working on the path that delivers updates to devices in the field.\n\n- Implemented Bluetooth Low Energy (BLE) changes spanning Echo Frames and Echo Buds, improving connectivity and supporting product features across both wearables.\n\n- Drove bi-monthly SDK and third-party codebase merges across large embedded codebases, reconciling vendor updates with Amazon-side changes and keeping the team unblocked through complex integration cycles.",
+    "insights": "",
+    "company": {
+     "url": "https://www.linkedin.com/company/1586/",
+     "name": "Amazon",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw"
+     }
+    },
+    "position": "Embedded Software Engineer",
+    "companyName": "Amazon",
+    "location": "Cupertino, CA",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1586/",
+    "companyId": "1586",
+    "duration": "1 yr 6 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2023
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_400_400/B56ZnZxDipI0AY-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=MM2U6vxjUg1kn1W8coDEJ7I9g7ytqJ4pXkCTv11Bp28",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_200_200/B56ZnZxDipI0AI-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=9v4MMxePCQSq3tXtpPBSKdtsg5d1Ay_l69Prz8Q7pAw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGDLy4STCnHbg/company-logo_100_100/B56ZnZxDipI0AQ-/0/1760295142304/amazon_logo?e=1795651200&v=beta&t=s9YKTQS8x-hJZxuImc4tfp8fif8XkYraIhOw_CBqalE",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/4114577/",
+     "name": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4"
+     }
+    },
+    "totalDuration": "10 yrs 6 mos",
+    "positions": [
+     {
+      "title": "Lead Project Engineer",
+      "locationName": "Woodland, CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 1,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2021
+       }
+      },
+      "totalDuration": "7 yrs 11 mos",
+      "description": "- End-to-end development of optical sorters for the food and ag industry, from concept through electrical design, firmware, integration, and manufacturing release.\n\n- Led small cross-disciplinary teams (engineers and technicians) on customer-specific sorter builds, balancing custom requirements against a common platform.\n\n- Shipped a new generation of optical sorting product, integrating cameras, ejectors, PLCs, embedded firmware, and mechanical systems into a production-ready machine.\n\n- Expanded the product line into industrial automation and moisture-monitoring applications.\n\n- Hands-on across optical sensor selection, analog/digital PCB design (schematic + layout in Eagle), real-time sorting firmware, and machine control.",
+      "insights": ""
+     },
+     {
+      "title": "Electrical Engineer",
+      "locationName": "Woodland CA",
+      "timePeriod": {
+       "startDate": {
+        "month": 10,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2014
+       }
+      },
+      "totalDuration": "3 yrs 1 mo",
+      "description": "- Designed analog and digital electronics for optical sorting machines: schematic capture, PCB layout, board bring-up, and debug in Eagle.\n\n- Built embedded firmware and sensor interfaces for production sorters.\n\n- Promoted to Lead Project Engineer to own full product development cycles.",
+      "insights": ""
+     },
+     {
+      "title": "Intern",
+      "timePeriod": {
+       "startDate": {
+        "month": 6,
+        "year": 2011
+       },
+       "endDate": {
+        "month": 10,
+        "year": 2011
+       }
+      },
+      "totalDuration": "5 mos",
+      "description": "- Summer internship supporting electrical engineering and prototyping for optical sorters; converted to full-time at end of term.",
+      "insights": ""
+     }
+    ],
+    "companyName": "WECO, Woodside Electronics Corporation “The Science of Optical Sorting”",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4114577/",
+    "companyId": "4114577",
+    "duration": "10 yrs 6 mos",
+    "skills": [],
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+     "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_400_400/B4DaABABOUGwAU-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=dMcCkzT-j7P1fMUOfZpaDWcShNjW4T2MeQPi_o1QFug",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_200_200/B4DaABABOUGwAE-/0/1786723177663/wecotek_logo?e=1795651200&v=beta&t=r_WKUFw6DGgZQGMJm4x0oVRhZnNWixT3k_4TcdiE0ig",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4D0BAQHUcYd79qAU4A/company-logo_100_100/B4DaABABOUGwAI-/0/1786723177664/wecotek_logo?e=1795651200&v=beta&t=Oepc4iqvCWtNwIF6JTc0QMdmwAPLC0iFHBb9A_sOhK4",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_200_200/company-logo_200_200/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=qtf4VVIn8iymdlpmPTCEDrGqSwvyWJYh7oJ8b3pmCN4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_100_100/company-logo_100_100/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=o6KYVUrcSu1fMypXJCfalYaX2493EuYZLQVr56KTEx0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_200_200/company-logo_200_200/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=qtf4VVIn8iymdlpmPTCEDrGqSwvyWJYh7oJ8b3pmCN4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_100_100/company-logo_100_100/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=o6KYVUrcSu1fMypXJCfalYaX2493EuYZLQVr56KTEx0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251132/",
+    "schoolName": "California Polytechnic State University-San Luis Obispo",
+    "degreeName": "Electrical Engineering",
+    "fieldOfStudy": "Electronics and software design",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15251132/",
+    "schoolId": "15251132",
+    "degree": "Electrical Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_200_200/company-logo_200_200/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=qtf4VVIn8iymdlpmPTCEDrGqSwvyWJYh7oJ8b3pmCN4",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_100_100/company-logo_100_100/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=o6KYVUrcSu1fMypXJCfalYaX2493EuYZLQVr56KTEx0",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_400_400/company-logo_400_400/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=Y2UCwYWvy7GPOQOfe9wMu73Svt8gE48jt3MX3_0MeRo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_200_200/company-logo_200_200/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=qtf4VVIn8iymdlpmPTCEDrGqSwvyWJYh7oJ8b3pmCN4",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQE6Ud53o_AMJw/company-logo_100_100/company-logo_100_100/0/1630608505515/california_polytechnic_state_university_san_luis_o_logo?e=1795651200&v=beta&t=o6KYVUrcSu1fMypXJCfalYaX2493EuYZLQVr56KTEx0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/15251132/",
+    "schoolName": "California Polytechnic State University-San Luis Obispo",
+    "degreeName": "Electrical Engineering",
+    "fieldOfStudy": "Electronics and software design",
+    "timePeriod": {
+     "startDate": {
+      "year": 2006
+     },
+     "endDate": {
+      "year": 2011
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/15251132/",
+    "schoolId": "15251132",
+    "degree": "Electrical Engineering",
+    "skills": [],
+    "startDate": {
+     "year": 2006
+    },
+    "endDate": {
+     "year": 2011
+    }
+   }
+  ],
+  "skills": [],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+   "560x560": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+     "width": 560,
+     "height": 560
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+   "560x560": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+     "width": 560,
+     "height": 560
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+   "560x560": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1723161656932?e=1795651200&v=beta&t=vppVoRjgmR0pUfJnWC5VQpQL3ciXu2Vf4r11t9_Hlic",
+     "width": 560,
+     "height": 560
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1723161656925?e=1795651200&v=beta&t=hc2luDTz6WKwwhtDHCg8xL1UJJ8MY_ReiACgh5fVHuU",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1723161656925?e=1795651200&v=beta&t=0o914zE38T24goPpQiLl-ux-KVLhzfPJluY9er0jA78",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQEGpH7ksYHYaA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1723161656925?e=1795651200&v=beta&t=OX8RzoeLDJorBPJgSStVKuvhRSBLbJniRZjvHGC4Low",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/chris-nelson-83122141"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T22:21:24.110Z",
+ "foundBy": null
+}

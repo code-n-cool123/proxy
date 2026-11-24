@@ -1,0 +1,1768 @@
+{
+ "slug": "ravi5patel",
+ "inputUrl": "https://www.linkedin.com/in/ravi5patel",
+ "fetchedAt": "2026-11-18T21:56:31.378Z",
+ "id": "6afe1f0f326d0b70b7e25d7e",
+ "url": "https://www.linkedin.com/in/ravi5patel",
+ "profile": {
+  "created": 1271075933031,
+  "trackingId": "+UYBOsL6SPS4DBJwZOAi4Q==",
+  "firstName": "Ravi",
+  "lastName": "Patel",
+  "pronoun": {
+   "customPronoun": null,
+   "standardizedPronoun": "HE_HIM"
+  },
+  "versionTag": "2747306744",
+  "headline": "Founder, Engineer | MBA, MSc",
+  "publicIdentifier": "ravi5patel",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": {
+   "month": 2,
+   "day": 14,
+   "year": null
+  },
+  "id": "72791494",
+  "profileId": "ACoAAARWtcYB3VqXj7wTO95uArq57ZxPZWPvTm4",
+  "pictureUrl": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_200_200/B56aDRaVrRJIAk-/0/1790219738806?e=1796860800&v=beta&t=GxfcHWST4lpzOxEg9nLrw-Rs3c_RRpnE3vnlttVlcCE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_100_100/B56aDRaVrRJIAg-/0/1790219738807?e=1796860800&v=beta&t=8BUaN_C2K1lQ-fndZgTHv1YNbj9GqI64jXgG1K0ka9E",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_400_400/B56aDRaVrRJIAo-/0/1790219738807?e=1796860800&v=beta&t=qyqHM91z234JMpG6Nbzyz6FxMzQ0Y4PTwzk_vJ30do8"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_200_800/B56aDaeXPzJ4AU-/0/1790371788074?e=1796860800&v=beta&t=AB6ejitf84KCIBfm8s0KqeN9K35uzgAL92r0wO6Q5Jk",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_350_1400/B56aDaeXPzJ4AY-/0/1790371788074?e=1796860800&v=beta&t=HkUkpUW1jxxYtxaYb29gryU1BnDAJFandRwv4-AIj_o"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:90000064",
+  "geoLocationName": "Austin, Texas Metropolitan Area",
+  "geoCountryName": "United States",
+  "jobTitle": "Staff Software Engineer",
+  "summary": "I'm a full-stack software engineer with 13+ years of building production systems, from antivirus release pipelines at Symantec to a real-time multiplayer gaming platform I've run myself since 2012.\n\nToday I'm at Procore, working across Ruby on Rails and React on Submittals, the approval workflow construction teams rely on before anything gets built. Before that I spent over a decade in Symantec's Security Response organization, which became part of Broadcom in 2019. I grew from QA engineer to senior engineer there. I automated testing and releases, moved systems from on-premise servers to AWS and later to GCP, and mentored the engineers around me.\n\nOn the side, I founded and still build FunNode, which has 25+ board, card, dice and word games with AI opponents and runs as Node.js microservices on Kubernetes. I was also co-founder and CTO of MentorMint, a mentoring platform, and technical lead for Monyverse's beta launch.\n\nI care about systems that stay simple as they grow, automation that removes busywork, and interfaces people enjoy using. I do my best work when I own a problem end to end, from the data model to the last pixel.\n\nOutside of work, I watch almost every sport, play badminton and tennis, and love board, card and video games (no surprise, given FunNode). I also listen to a lot of Bollywood music, watch sci-fi and suspense movies, and sketch cartoons.",
+  "positions": [
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "Austin, TX · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "I work across the full stack on Procore Submittals, the workflow contractors use to get drawings, product data and samples approved before construction. I build in a large Ruby on Rails monolith and a React micro-frontend, working with REST APIs, Elasticsearch and event-driven integrations.\n\n- Built Connected Submittals, which lets general contractors and subcontractors work from the same submittal record across their linked projects. I built the APIs, search indexing, filters, change history and CSV/PDF export.\n- Rebuilt the Submittals list view on a new REST API, with filtering, sorting, grouped exports, a recycle bin and a view of which company holds the next action.\n- Led the integration with the document viewer, covering permissions, revision search, related documents and publishing attachments to downstream services. Along the way I fixed a long-standing bug where markups and uploads failed to load.\n- Fixed correctness bugs in heavily used review workflows: approval routing, packages, distribution, and due dates tied to the project schedule.\n- Improved performance and reliability by removing N+1 queries, adding database indexes, and fixing timeouts on large exports and packages. I also hardened flaky tests, cleaned up LaunchDarkly flags, and supported the FedRAMP rollout.\n- Now leading a redesign of the Submittals data model (schema, APIs and a UI prototype) and building event-driven processing for attachments.",
+    "insights": "Ruby on Rails, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1912597/",
+     "name": "Procore Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU"
+     }
+    }
+   },
+   {
+    "title": "Product Owner, Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "employmentType": "Full-time",
+    "description": "I owned the product direction and engineering for the microservices behind Symantec's Security Response Content team after Broadcom bought Symantec's Enterprise Security Division. I split my time between product ownership (priorities, requirements and stakeholders) and hands-on engineering (architecture, cloud infrastructure and delivery automation).\n\n- Owned the product vision and backlog for the microservices behind Symantec's Security Response team, part of Broadcom's Enterprise Security Division.\n- Worked with stakeholders to prioritize and clarify requirements, cutting project delivery time by 20%.\n- Led the migration of several systems from AWS to GCP, improving scalability and performance.\n- Automated build, test and deployment from end to end, cutting manual effort by 50% and speeding up the release cycle by 25%.\n- Turned business requirements into technical specs and architecture designs.\n- Mentored engineers on code review, automated testing and performance tuning, and set team coding standards.\n- Served as the escalation point for hard production issues on critical systems.",
+    "insights": "Quality Assurance Processes, Ruby and +78 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo"
+     }
+    }
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1231/",
+     "name": "Symantec",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg"
+     }
+    },
+    "locationName": "Culver City, CA · On-site",
+    "totalDuration": "6 yrs 10 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "I built internal platforms for Security Response, the team that finds threats and ships antivirus signatures and definitions to Symantec customers around the world. My work covered how detection problems were tracked, how releases were tested, and where the systems ran.\n\n- Built a ticketing system to track false positives and false negatives reported by customers, speeding up issue resolution by 40%.\n- Developed a QA-as-a-service platform that automated testing and release of antivirus signatures, making releases 30% faster and more reliable.\n- Led the migration of Security Response systems from on-premise servers to AWS.\n- Interviewed candidates for engineering roles.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2016
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "I built automation for Security Response's testing and release workflows, replacing manual steps in performance, regression and verification testing.\n\n- Built systems that monitored Security Response workflows from end to end and automated repetitive steps in performance, regression and verification testing.\n- Interviewed, trained and mentored new associate engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Software QA Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "I joined Symantec's global Security Response operations team, which handled day-to-day issues around threat response and product quality.\n\n- Handled daily security response operations issues with a global team.\n- Designed and built tools to measure and analyze product performance.",
+      "insights": ""
+     }
+    ]
+   },
+   {
+    "title": "Service Desk Agent",
+    "locationName": "Ontario, Canada",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "This was a summer role on the central IT service desk for the Government of Ontario, supporting staff at provincial ministries with account and email requests by phone and email.\n\n- Handled account and email service requests for 25+ Ontario government ministries.\n- Answered 50+ emails and 10+ calls a day while managing a queue of 100+ service requests.",
+    "insights": "English and Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/2411/",
+     "name": "Ministry of Government Services",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_200_200/company-logo_200_200/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=S-MHNQ0YdMLFoK_WuOKc86Cc1yGBX0giO7EQsXnESwE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_100_100/company-logo_100_100/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=i1cji4E0ix61H4JY7D94P6y15PV81_-34xx1uwaAF54",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19614/",
+    "schoolName": "West Texas A&M University",
+    "degreeName": "Master of Business Administration - MBA",
+    "fieldOfStudy": "Computer Information Systems",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2022
+     }
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_200_200/company-logo_200_200/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=tk8-TTDs_YHnUpIO7PbWHiCqquPv8NUAjOyHoUGIz9g",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_100_100/company-logo_100_100/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=OiGhUnjJsb_qdGMCRFGXCAiKkguAgV-t8Vy4-1Bdt5k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_400_400/company-logo_400_400/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=RRwskYREsZSBRCTobnx2CFW85wJWtsDFu3_izjWby2w"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6502/",
+    "schoolName": "University at Buffalo",
+    "degreeName": "Master of Science - MSc",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2012
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Hands-On Introduction: React",
+    "authority": "LinkedIn",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "LinkedIn",
+    "title": "Hands-On Introduction: React",
+    "issuedBy": "LinkedIn",
+    "issuedByLogo": null
+   },
+   {
+    "name": "Learning TypeScript",
+    "authority": "LinkedIn",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "LinkedIn",
+    "title": "Learning TypeScript",
+    "issuedBy": "LinkedIn",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [
+   {
+    "name": "Analysis of Algorithms"
+   },
+   {
+    "name": "Data Integration"
+   }
+  ],
+  "honors": [],
+  "languages": [
+   {
+    "name": "English",
+    "proficiency": ""
+   },
+   {
+    "name": "Gujarati",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Intensive Care Unit Assistant",
+    "companyName": "St. Catharines General Hospital",
+    "description": "- Supervised families’ visits with the patients in a highly-stressed area of the Intensive Care Unit (ICU)\n- Accompanied visitors to meet with the doctor after medical procedures\n- Given responsibility for handling, admitting, and discharging patients’ records and other sensitive information",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "St. Catharines General Hospital",
+     "logo": {}
+    }
+   },
+   {
+    "role": "Support Provider",
+    "companyName": "Brain-Injury Community Re-Entry",
+    "description": "- Assisted participants to accept and live with the effects of an acquired brain injury\n- Helped patients with regaining social connections while motivating them to fulfill their goals",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "Brain-Injury Community Re-Entry",
+     "logo": {}
+    }
+   }
+  ],
+  "projects": [
+   {
+    "title": "Founder at FunNode",
+    "description": "I founded and built funnode.com, a multiplayer platform with 25+ board, card, dice and word games. People play each other in real time or take on AI opponents. I've written most of the platform's 7,000+ commits.\n\n- Architected the platform. I started with a single PHP/Node.js socket server and grew it into Node.js microservices: a REST API on MySQL, a Socket.IO real-time gateway, a game engine service and an AI bot service. The services talk over RabbitMQ and Redis and run on Google Kubernetes Engine (GKE).\n- Build AI opponents for all games at several difficulty levels, from custom game-tree search to Stockfish (chess) and GNUGo integrations. The bots run as a separate service so they scale on their own.\n- Designed the competitive systems: Elo ratings with provisional ratings and ladder ranks (later moved to OpenSkill), automated tournaments with bot backfill, leaderboards, and match review and replay.\n- Scaled real-time play across Kubernetes pods. I added a Redis adapter for Socket.IO, handled reconnects and duplicate sessions, and fixed race conditions in match and tournament processing.\n- Built the business and growth features: Stripe subscriptions, AdSense monetization, social sign-in, friends, chat and email. I also wrote a Twitter bot that found live tweets about the games and replied to invite new players.\n- Set up the engineering practice: CI with GitHub Actions and test coverage for every service, Prometheus and Grafana monitoring, Slack alerting, five internal npm packages, and a scaffold script that adds a new game across all services.\n- Lead contract engineers on the backend services. I use AI coding tools to move faster, including an in-progress migration of the web frontend to Next.js.",
+    "dateRange": {},
+    "associatedWith": "Jul 2012 - Present"
+   },
+   {
+    "title": "Tech Lead at Monyverse",
+    "description": "- Led a small cross-functional team through the final development push and the beta launch of a product built for creators.\n- Built CI/CD pipelines with GitHub Actions and AWS that deploy automatically to development and staging.\n- Co-designed the end-to-end architecture for a new product at its start, turning business goals into a technical plan.\n- Introduced staging environments, code review and a deployment process to a fast-moving startup where the team was paid in equity.\n- Ran technical interviews and evaluated outside agencies to grow the engineering team.\n- Advised leadership on technical trade-offs, keeping product, marketing and engineering aligned.",
+    "dateRange": {},
+    "associatedWith": "Nov 2024 - Apr 2025"
+   }
+  ],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [
+   "Education",
+   "Health",
+   "Science and Technology"
+  ],
+  "companyName": "Procore Technologies",
+  "companyPublicId": "procore-technologies",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/procore-technologies/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1912597",
+   "name": "Procore Technologies",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQGniocgaFzu6g",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+       "expiresAt": 1796860800000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+       "expiresAt": 1796860800000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+       "expiresAt": 1796860800000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_"
+    }
+   },
+   "universalName": "procore-technologies",
+   "url": "https://www.linkedin.com/company/procore-technologies/",
+   "slug": "procore-technologies",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+   "specialties": []
+  },
+  "followerCount": 797,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 786,
+  "skills": [
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Stories",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hands-on Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Quality Assurance Processes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analytical Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Security Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Root Cause",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Benchmarking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Attention to Detail",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Interface Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Specs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Requirements",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Design Documents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Modernization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Delegation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Database Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Stories",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hands-on Technical Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Quality Assurance Processes",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Security Testing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Root Cause",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Benchmarking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "User Interface Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Specs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Requirements",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Design Documents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Modernization",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Coaching",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Coverage",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Code Review",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Incident Response",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Technical Vision",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Project Documentation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "React.js",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "REST APIs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Bootstrap (Framework)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "JavaScript",
+    "endorsements": 15,
+    "experiences": 2
+   },
+   {
+    "name": "PHP",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Ruby",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "Amazon Web Services (AWS)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache",
+    "endorsements": 3,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 8,
+    "experiences": ""
+   },
+   {
+    "name": "Cascading Style Sheets (CSS)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Docker Products",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Git",
+    "endorsements": 2,
+    "experiences": 2
+   },
+   {
+    "name": "Google Cloud Platform (GCP)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 6,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 10,
+    "experiences": ""
+   },
+   {
+    "name": "JIRA",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "Linux",
+    "endorsements": 4,
+    "experiences": 2
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Mentoring",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Analytical Skills",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Attention to Detail",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Delegation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Collaboration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Cross-team Collaboration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Management",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Teamwork",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Team Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Problem Solving",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Reliability",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Communication",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "English",
+    "endorsements": 0,
+    "experiences": 2
+   },
+   {
+    "name": "MPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Turing",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Productivity",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Microsoft Copilot",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/ravi5patel",
+  "linkedinUrl": "https://www.linkedin.com/in/ravi5patel",
+  "profileUrl": "https://www.linkedin.com/in/ravi5patel",
+  "verified": true,
+  "registeredAt": "2010-04-12T12:38:53.031Z",
+  "location": {
+   "linkedinText": "Austin, Texas Metropolitan Area",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Austin, Texas Metropolitan Area",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I'm a full-stack software engineer with 13+ years of building production systems, from antivirus release pipelines at Symantec to a real-time multiplayer gaming platform I've run myself since 2012.\n\nToday I'm at Procore, working across Ruby on Rails and React on Submittals, the approval workflow construction teams rely on before anything gets built. Before that I spent over a decade in Symantec's Security Response organization, which became part of Broadcom in 2019. I grew from QA engineer to senior engineer there. I automated testing and releases, moved systems from on-premise servers to AWS and later to GCP, and mentored the engineers around me.\n\nOn the side, I founded and still build FunNode, which has 25+ board, card, dice and word games with AI opponents and runs as Node.js microservices on Kubernetes. I was also co-founder and CTO of MentorMint, a mentoring platform, and technical lead for Monyverse's beta launch.\n\nI care about systems that stay simple as they grow, automation that removes busywork, and interfaces people enjoy using. I do my best work when I own a problem end to end, from the data model to the last pixel.\n\nOutside of work, I watch almost every sport, play badminton and tennis, and love board, card and video games (no surprise, given FunNode). I also listen to a lot of Bollywood music, watch sci-fi and suspense movies, and sketch cartoons.",
+  "currentTitle": "Staff Software Engineer",
+  "allTitles": [
+   "Staff Software Engineer",
+   "Product Owner, Senior Software Engineer",
+   "Service Desk Agent"
+  ],
+  "currentPositions": [
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "Austin, TX · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "I work across the full stack on Procore Submittals, the workflow contractors use to get drawings, product data and samples approved before construction. I build in a large Ruby on Rails monolith and a React micro-frontend, working with REST APIs, Elasticsearch and event-driven integrations.\n\n- Built Connected Submittals, which lets general contractors and subcontractors work from the same submittal record across their linked projects. I built the APIs, search indexing, filters, change history and CSV/PDF export.\n- Rebuilt the Submittals list view on a new REST API, with filtering, sorting, grouped exports, a recycle bin and a view of which company holds the next action.\n- Led the integration with the document viewer, covering permissions, revision search, related documents and publishing attachments to downstream services. Along the way I fixed a long-standing bug where markups and uploads failed to load.\n- Fixed correctness bugs in heavily used review workflows: approval routing, packages, distribution, and due dates tied to the project schedule.\n- Improved performance and reliability by removing N+1 queries, adding database indexes, and fixing timeouts on large exports and packages. I also hardened flaky tests, cleaned up LaunchDarkly flags, and supported the FedRAMP rollout.\n- Now leading a redesign of the Submittals data model (schema, APIs and a UI prototype) and building event-driven processing for attachments.",
+    "insights": "Ruby on Rails, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1912597/",
+     "name": "Procore Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU"
+     }
+    },
+    "position": "Staff Software Engineer",
+    "companyName": "Procore Technologies",
+    "location": "Austin, TX · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1912597/",
+    "companyId": "1912597",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1231/",
+     "name": "Symantec",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg"
+     }
+    },
+    "locationName": "Culver City, CA · On-site",
+    "totalDuration": "6 yrs 10 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "I built internal platforms for Security Response, the team that finds threats and ships antivirus signatures and definitions to Symantec customers around the world. My work covered how detection problems were tracked, how releases were tested, and where the systems ran.\n\n- Built a ticketing system to track false positives and false negatives reported by customers, speeding up issue resolution by 40%.\n- Developed a QA-as-a-service platform that automated testing and release of antivirus signatures, making releases 30% faster and more reliable.\n- Led the migration of Security Response systems from on-premise servers to AWS.\n- Interviewed candidates for engineering roles.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2016
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "I built automation for Security Response's testing and release workflows, replacing manual steps in performance, regression and verification testing.\n\n- Built systems that monitored Security Response workflows from end to end and automated repetitive steps in performance, regression and verification testing.\n- Interviewed, trained and mentored new associate engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Software QA Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "I joined Symantec's global Security Response operations team, which handled day-to-day issues around threat response and product quality.\n\n- Handled daily security response operations issues with a global team.\n- Designed and built tools to measure and analyze product performance.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Symantec",
+    "location": "Culver City, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1231/",
+    "companyId": "1231",
+    "duration": "6 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Product Owner, Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "employmentType": "Full-time",
+    "description": "I owned the product direction and engineering for the microservices behind Symantec's Security Response Content team after Broadcom bought Symantec's Enterprise Security Division. I split my time between product ownership (priorities, requirements and stakeholders) and hands-on engineering (architecture, cloud infrastructure and delivery automation).\n\n- Owned the product vision and backlog for the microservices behind Symantec's Security Response team, part of Broadcom's Enterprise Security Division.\n- Worked with stakeholders to prioritize and clarify requirements, cutting project delivery time by 20%.\n- Led the migration of several systems from AWS to GCP, improving scalability and performance.\n- Automated build, test and deployment from end to end, cutting manual effort by 50% and speeding up the release cycle by 25%.\n- Turned business requirements into technical specs and architecture designs.\n- Mentored engineers on code review, automated testing and performance tuning, and set team coding standards.\n- Served as the escalation point for hard production issues on critical systems.",
+    "insights": "Quality Assurance Processes, Ruby and +78 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo"
+     }
+    },
+    "position": "Product Owner, Senior Software Engineer",
+    "companyName": "Broadcom",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3072/",
+    "companyId": "3072",
+    "duration": "4 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Service Desk Agent",
+    "locationName": "Ontario, Canada",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "This was a summer role on the central IT service desk for the Government of Ontario, supporting staff at provincial ministries with account and email requests by phone and email.\n\n- Handled account and email service requests for 25+ Ontario government ministries.\n- Answered 50+ emails and 10+ calls a day while managing a queue of 100+ service requests.",
+    "insights": "English and Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/2411/",
+     "name": "Ministry of Government Services",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw"
+     }
+    },
+    "position": "Service Desk Agent",
+    "companyName": "Ministry of Government Services",
+    "location": "Ontario, Canada",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2411/",
+    "companyId": "2411",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1912597",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1912597/",
+    "companyName": "Procore Technologies",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "companyId": "1231",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1231/",
+    "companyName": "Symantec",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Staff Software Engineer",
+    "locationName": "Austin, TX · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "I work across the full stack on Procore Submittals, the workflow contractors use to get drawings, product data and samples approved before construction. I build in a large Ruby on Rails monolith and a React micro-frontend, working with REST APIs, Elasticsearch and event-driven integrations.\n\n- Built Connected Submittals, which lets general contractors and subcontractors work from the same submittal record across their linked projects. I built the APIs, search indexing, filters, change history and CSV/PDF export.\n- Rebuilt the Submittals list view on a new REST API, with filtering, sorting, grouped exports, a recycle bin and a view of which company holds the next action.\n- Led the integration with the document viewer, covering permissions, revision search, related documents and publishing attachments to downstream services. Along the way I fixed a long-standing bug where markups and uploads failed to load.\n- Fixed correctness bugs in heavily used review workflows: approval routing, packages, distribution, and due dates tied to the project schedule.\n- Improved performance and reliability by removing N+1 queries, adding database indexes, and fixing timeouts on large exports and packages. I also hardened flaky tests, cleaned up LaunchDarkly flags, and supported the FedRAMP rollout.\n- Now leading a redesign of the Submittals data model (schema, APIs and a UI prototype) and building event-driven processing for attachments.",
+    "insights": "Ruby on Rails, React.js and +7 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1912597/",
+     "name": "Procore Technologies",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU"
+     }
+    },
+    "position": "Staff Software Engineer",
+    "companyName": "Procore Technologies",
+    "location": "Austin, TX · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1912597/",
+    "companyId": "1912597",
+    "duration": "2 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_400_400/company-logo_400_400/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=OVUR3DvJ8YgWCAJhJ9iilNA-CyVDzxRM_1V0ytR9NaU",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_200_200/company-logo_200_200/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Dc6m3S1i63uN0vBb9KCsTb_in6JouJr7jmfFYlbR7pU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGniocgaFzu6g/company-logo_100_100/company-logo_100_100/0/1737481196088/procore_technologies_logo?e=1796860800&v=beta&t=Ncts5Qdy9t8dqftIFmmf1nDu1NRjww-ZL_zl-7yWWCI",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Product Owner, Senior Software Engineer",
+    "locationName": "Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2019
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2024
+     }
+    },
+    "totalDuration": "4 yrs 11 mos",
+    "employmentType": "Full-time",
+    "description": "I owned the product direction and engineering for the microservices behind Symantec's Security Response Content team after Broadcom bought Symantec's Enterprise Security Division. I split my time between product ownership (priorities, requirements and stakeholders) and hands-on engineering (architecture, cloud infrastructure and delivery automation).\n\n- Owned the product vision and backlog for the microservices behind Symantec's Security Response team, part of Broadcom's Enterprise Security Division.\n- Worked with stakeholders to prioritize and clarify requirements, cutting project delivery time by 20%.\n- Led the migration of several systems from AWS to GCP, improving scalability and performance.\n- Automated build, test and deployment from end to end, cutting manual effort by 50% and speeding up the release cycle by 25%.\n- Turned business requirements into technical specs and architecture designs.\n- Mentored engineers on code review, automated testing and performance tuning, and set team coding standards.\n- Served as the escalation point for hard production issues on critical systems.",
+    "insights": "Quality Assurance Processes, Ruby and +78 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/3072/",
+     "name": "Broadcom",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo"
+     }
+    },
+    "position": "Product Owner, Senior Software Engineer",
+    "companyName": "Broadcom",
+    "location": "Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/3072/",
+    "companyId": "3072",
+    "duration": "4 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2019
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_400_400/company-logo_400_400/0/1631307574919?e=1796860800&v=beta&t=Zh2q50yC4_wL7aul-XR81zdyFR5ESFFfpiao3WHjEDo",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_200_200/company-logo_200_200/0/1631307574919?e=1796860800&v=beta&t=8PcveFIz01u2ifNdsPI5871h5Ak-rfuEhpCmZ0-DAvU",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGDwy-AGAu-Hg/company-logo_100_100/company-logo_100_100/0/1631307574919?e=1796860800&v=beta&t=vYfJXVbRhjtxibBAg5qI0qGeAfHkWMfIOOIdMIs37zM",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "company": {
+     "url": "https://www.linkedin.com/company/1231/",
+     "name": "Symantec",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg"
+     }
+    },
+    "locationName": "Culver City, CA · On-site",
+    "totalDuration": "6 yrs 10 mos",
+    "employmentType": "Full-time",
+    "positions": [
+     {
+      "title": "Senior Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2016
+       },
+       "endDate": {
+        "month": 11,
+        "year": 2019
+       }
+      },
+      "totalDuration": "3 yrs 3 mos",
+      "description": "I built internal platforms for Security Response, the team that finds threats and ships antivirus signatures and definitions to Symantec customers around the world. My work covered how detection problems were tracked, how releases were tested, and where the systems ran.\n\n- Built a ticketing system to track false positives and false negatives reported by customers, speeding up issue resolution by 40%.\n- Developed a QA-as-a-service platform that automated testing and release of antivirus signatures, making releases 30% faster and more reliable.\n- Led the migration of Security Response systems from on-premise servers to AWS.\n- Interviewed candidates for engineering roles.",
+      "insights": ""
+     },
+     {
+      "title": "Software Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 9,
+        "year": 2014
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2016
+       }
+      },
+      "totalDuration": "2 yrs 1 mo",
+      "description": "I built automation for Security Response's testing and release workflows, replacing manual steps in performance, regression and verification testing.\n\n- Built systems that monitored Security Response workflows from end to end and automated repetitive steps in performance, regression and verification testing.\n- Interviewed, trained and mentored new associate engineers.",
+      "insights": ""
+     },
+     {
+      "title": "Associate Software QA Engineer",
+      "timePeriod": {
+       "startDate": {
+        "month": 2,
+        "year": 2013
+       },
+       "endDate": {
+        "month": 9,
+        "year": 2014
+       }
+      },
+      "totalDuration": "1 yr 8 mos",
+      "description": "I joined Symantec's global Security Response operations team, which handled day-to-day issues around threat response and product quality.\n\n- Handled daily security response operations issues with a global team.\n- Designed and built tools to measure and analyze product performance.",
+      "insights": ""
+     }
+    ],
+    "companyName": "Symantec",
+    "location": "Culver City, CA · On-site",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1231/",
+    "companyId": "1231",
+    "duration": "6 yrs 10 mos",
+    "skills": [],
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_400_400/B56ZWpgIAqGUAc-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=_hFj3zA25_jpzWgzOemCU9WI1ZCT10wTYb78MzCj1gg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_200_200/B56ZWpgIAqGUAM-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=R4QNQnANVZGFsbLJmUwAPPMKIZ22p51eqEeyZHEUaFo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGwqTRMsfuUsg/company-logo_100_100/B56ZWpgIAqGUAU-/0/1742305527529/symantec_logo?e=1796860800&v=beta&t=0rMXuhT5ku-aBWG6OnFHuHZGUXtqDzbkH1IRGIhfX-U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   },
+   {
+    "title": "Service Desk Agent",
+    "locationName": "Ontario, Canada",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2009
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2009
+     }
+    },
+    "totalDuration": "4 mos",
+    "employmentType": "Internship",
+    "description": "This was a summer role on the central IT service desk for the Government of Ontario, supporting staff at provincial ministries with account and email requests by phone and email.\n\n- Handled account and email service requests for 25+ Ontario government ministries.\n- Answered 50+ emails and 10+ calls a day while managing a queue of 100+ service requests.",
+    "insights": "English and Communication",
+    "company": {
+     "url": "https://www.linkedin.com/company/2411/",
+     "name": "Ministry of Government Services",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw"
+     }
+    },
+    "position": "Service Desk Agent",
+    "companyName": "Ministry of Government Services",
+    "location": "Ontario, Canada",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2411/",
+    "companyId": "2411",
+    "duration": "4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2009
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2009
+    },
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_400_400/B4EaEb43y.GwAU-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=unZR9MhyhXXJOLgngD776D3kllZWm5R90yRg69_Xs0g",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_200_200/B4EaEb43y.GwAE-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=qgO7wh654JbHxNStYyeRFa8O4PIutuf_J1TFjLLzGSw",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQGUhNFYAaVQVA/company-logo_100_100/B4EaEb43y.GwAI-/0/1791469256167/ontario_ministry_public_and_business_service_delivery_and_procurement_logo?e=1796860800&v=beta&t=3qADVxg4uRQblSpnhVDmzuhn3_hbx2eo92LK11w2p6U",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_200_200/company-logo_200_200/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=S-MHNQ0YdMLFoK_WuOKc86Cc1yGBX0giO7EQsXnESwE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_100_100/company-logo_100_100/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=i1cji4E0ix61H4JY7D94P6y15PV81_-34xx1uwaAF54",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_200_200/company-logo_200_200/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=S-MHNQ0YdMLFoK_WuOKc86Cc1yGBX0giO7EQsXnESwE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_100_100/company-logo_100_100/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=i1cji4E0ix61H4JY7D94P6y15PV81_-34xx1uwaAF54",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19614/",
+    "schoolName": "West Texas A&M University",
+    "degreeName": "Master of Business Administration - MBA",
+    "fieldOfStudy": "Computer Information Systems",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19614/",
+    "schoolId": "19614",
+    "degree": "Master of Business Administration - MBA",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2022
+    }
+   },
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_200_200/company-logo_200_200/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=tk8-TTDs_YHnUpIO7PbWHiCqquPv8NUAjOyHoUGIz9g",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_100_100/company-logo_100_100/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=OiGhUnjJsb_qdGMCRFGXCAiKkguAgV-t8Vy4-1Bdt5k",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_400_400/company-logo_400_400/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=RRwskYREsZSBRCTobnx2CFW85wJWtsDFu3_izjWby2w",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_400_400/company-logo_400_400/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=RRwskYREsZSBRCTobnx2CFW85wJWtsDFu3_izjWby2w",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_400_400/company-logo_400_400/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=RRwskYREsZSBRCTobnx2CFW85wJWtsDFu3_izjWby2w",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_200_200/company-logo_200_200/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=tk8-TTDs_YHnUpIO7PbWHiCqquPv8NUAjOyHoUGIz9g",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQEk7c2dS0qFGA/company-logo_100_100/company-logo_100_100/0/1660069485905/universityatbuffalo_logo?e=1796860800&v=beta&t=OiGhUnjJsb_qdGMCRFGXCAiKkguAgV-t8Vy4-1Bdt5k",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/6502/",
+    "schoolName": "University at Buffalo",
+    "degreeName": "Master of Science - MSc",
+    "fieldOfStudy": "Computer Science and Engineering",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2011
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2012
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/6502/",
+    "schoolId": "6502",
+    "degree": "Master of Science - MSc",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2011
+    },
+    "endDate": {
+     "month": 12,
+     "year": 2012
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_200_200/company-logo_200_200/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=S-MHNQ0YdMLFoK_WuOKc86Cc1yGBX0giO7EQsXnESwE",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_100_100/company-logo_100_100/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=i1cji4E0ix61H4JY7D94P6y15PV81_-34xx1uwaAF54",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_400_400/company-logo_400_400/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=NOklgNIcaST6c9i32twt5EA7DdB99-fupuX8lV_G5H4",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_200_200/company-logo_200_200/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=S-MHNQ0YdMLFoK_WuOKc86Cc1yGBX0giO7EQsXnESwE",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGf9LwElDGkVA/company-logo_100_100/company-logo_100_100/0/1730309031406/west_texas_am_university_logo?e=1796860800&v=beta&t=i1cji4E0ix61H4JY7D94P6y15PV81_-34xx1uwaAF54",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/19614/",
+    "schoolName": "West Texas A&M University",
+    "degreeName": "Master of Business Administration - MBA",
+    "fieldOfStudy": "Computer Information Systems",
+    "timePeriod": {
+     "startDate": {
+      "month": 5,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2022
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/19614/",
+    "schoolId": "19614",
+    "degree": "Master of Business Administration - MBA",
+    "skills": [],
+    "startDate": {
+     "month": 5,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 4,
+     "year": 2022
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Intensive Care Unit Assistant",
+    "companyName": "St. Catharines General Hospital",
+    "description": "- Supervised families’ visits with the patients in a highly-stressed area of the Intensive Care Unit (ICU)\n- Accompanied visitors to meet with the doctor after medical procedures\n- Given responsibility for handling, admitting, and discharging patients’ records and other sensitive information",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "St. Catharines General Hospital",
+     "logo": {}
+    },
+    "organization": "St. Catharines General Hospital"
+   },
+   {
+    "role": "Support Provider",
+    "companyName": "Brain-Injury Community Re-Entry",
+    "description": "- Assisted participants to accept and live with the effects of an acquired brain injury\n- Helped patients with regaining social connections while motivating them to fulfill their goals",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "Brain-Injury Community Re-Entry",
+     "logo": {}
+    },
+    "organization": "Brain-Injury Community Re-Entry"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Intensive Care Unit Assistant",
+    "companyName": "St. Catharines General Hospital",
+    "description": "- Supervised families’ visits with the patients in a highly-stressed area of the Intensive Care Unit (ICU)\n- Accompanied visitors to meet with the doctor after medical procedures\n- Given responsibility for handling, admitting, and discharging patients’ records and other sensitive information",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 4,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "St. Catharines General Hospital",
+     "logo": {}
+    }
+   },
+   {
+    "role": "Support Provider",
+    "companyName": "Brain-Injury Community Re-Entry",
+    "description": "- Assisted participants to accept and live with the effects of an acquired brain injury\n- Helped patients with regaining social connections while motivating them to fulfill their goals",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2010
+     },
+     "endDate": {
+      "month": 2,
+      "year": 2011
+     }
+    },
+    "cause": "Health",
+    "company": {
+     "url": "",
+     "name": "Brain-Injury Community Re-Entry",
+     "logo": {}
+    }
+   }
+  ],
+  "profilePicture": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_200_200/B56aDRaVrRJIAk-/0/1790219738806?e=1796860800&v=beta&t=GxfcHWST4lpzOxEg9nLrw-Rs3c_RRpnE3vnlttVlcCE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_100_100/B56aDRaVrRJIAg-/0/1790219738807?e=1796860800&v=beta&t=8BUaN_C2K1lQ-fndZgTHv1YNbj9GqI64jXgG1K0ka9E",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_400_400/B56aDRaVrRJIAo-/0/1790219738807?e=1796860800&v=beta&t=qyqHM91z234JMpG6Nbzyz6FxMzQ0Y4PTwzk_vJ30do8",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_400_400/B56aDRaVrRJIAo-/0/1790219738807?e=1796860800&v=beta&t=qyqHM91z234JMpG6Nbzyz6FxMzQ0Y4PTwzk_vJ30do8",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_200_200/B56aDRaVrRJIAk-/0/1790219738806?e=1796860800&v=beta&t=GxfcHWST4lpzOxEg9nLrw-Rs3c_RRpnE3vnlttVlcCE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_100_100/B56aDRaVrRJIAg-/0/1790219738807?e=1796860800&v=beta&t=8BUaN_C2K1lQ-fndZgTHv1YNbj9GqI64jXgG1K0ka9E",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_200_200/B56aDRaVrRJIAk-/0/1790219738806?e=1796860800&v=beta&t=GxfcHWST4lpzOxEg9nLrw-Rs3c_RRpnE3vnlttVlcCE",
+   "800x800": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_100_100/B56aDRaVrRJIAg-/0/1790219738807?e=1796860800&v=beta&t=8BUaN_C2K1lQ-fndZgTHv1YNbj9GqI64jXgG1K0ka9E",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_400_400/B56aDRaVrRJIAo-/0/1790219738807?e=1796860800&v=beta&t=qyqHM91z234JMpG6Nbzyz6FxMzQ0Y4PTwzk_vJ30do8",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-crop_800_800/B56aDRaVrRJIAQ-/0/1790219738807?e=1796860800&v=beta&t=77SdVkMhYEVOdWjf4Sis7TAlAP2gQDz2AqBvkkwp9CI",
+     "width": 800,
+     "height": 800
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_400_400/B56aDRaVrRJIAo-/0/1790219738807?e=1796860800&v=beta&t=qyqHM91z234JMpG6Nbzyz6FxMzQ0Y4PTwzk_vJ30do8",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_200_200/B56aDRaVrRJIAk-/0/1790219738806?e=1796860800&v=beta&t=GxfcHWST4lpzOxEg9nLrw-Rs3c_RRpnE3vnlttVlcCE",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQE-qUFhyBviWw/profile-displayphoto-scale_100_100/B56aDRaVrRJIAg-/0/1790219738807?e=1796860800&v=beta&t=8BUaN_C2K1lQ-fndZgTHv1YNbj9GqI64jXgG1K0ka9E",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_200_800/B56aDaeXPzJ4AU-/0/1790371788074?e=1796860800&v=beta&t=AB6ejitf84KCIBfm8s0KqeN9K35uzgAL92r0wO6Q5Jk",
+   "1400x350": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_350_1400/B56aDaeXPzJ4AY-/0/1790371788074?e=1796860800&v=beta&t=HkUkpUW1jxxYtxaYb29gryU1BnDAJFandRwv4-AIj_o",
+   "url": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_350_1400/B56aDaeXPzJ4AY-/0/1790371788074?e=1796860800&v=beta&t=HkUkpUW1jxxYtxaYb29gryU1BnDAJFandRwv4-AIj_o",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_350_1400/B56aDaeXPzJ4AY-/0/1790371788074?e=1796860800&v=beta&t=HkUkpUW1jxxYtxaYb29gryU1BnDAJFandRwv4-AIj_o",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5616AQExA6M85qOtYg/profile-displaybackgroundimage-shrink_200_800/B56aDaeXPzJ4AU-/0/1790371788074?e=1796860800&v=beta&t=AB6ejitf84KCIBfm8s0KqeN9K35uzgAL92r0wO6Q5Jk",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/ravi5patel"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-18T21:56:20.826Z",
+ "foundBy": null
+}

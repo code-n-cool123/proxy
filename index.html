@@ -1,0 +1,372 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LinkedIn Review</title>
+<style>
+  :root {
+    --bg: #f4f5f7; --surface: #fff; --text: #16181d; --muted: #5d6470; --line: #e3e6ea;
+    --accent: #0a66c2; --chip: #eef3f8; --ok: #1a7f37; --ok-bg: #e6f4ea; --bad: #c62828; --bad-bg: #fdecea;
+    --shadow: 0 1px 2px rgba(0,0,0,.06), 0 2px 8px rgba(0,0,0,.04);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #111317; --surface: #1a1d23; --text: #e8eaed; --muted: #9aa1ab; --line: #2a2e36; --accent: #5aa2f0; --chip: #232a35; --ok: #4cc271; --ok-bg: #183324; --bad: #f2726f; --bad-bg: #3a1d1d; --shadow: none; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--text); font: 14px/1.45 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; }
+  header { position: sticky; top: 0; z-index: 5; background: var(--surface); border-bottom: 1px solid var(--line); padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+  header h1 { font-size: 16px; margin: 0 8px 0 0; }
+  input, select, button { font: inherit; color: inherit; }
+  input, select { background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 7px 10px; }
+  #q { flex: 1 1 220px; min-width: 0; }
+  .tabs { display: flex; gap: 4px; background: var(--bg); border: 1px solid var(--line); border-radius: 10px; padding: 3px; }
+  .tabs button { border: 0; background: none; padding: 5px 10px; border-radius: 7px; cursor: pointer; color: var(--muted); }
+  .tabs button.on { background: var(--surface); color: var(--text); box-shadow: var(--shadow); font-weight: 600; }
+  .tabs .n { font-variant-numeric: tabular-nums; opacity: .8; margin-left: 4px; }
+  .btn { border: 1px solid var(--line); background: var(--surface); border-radius: 8px; padding: 7px 12px; cursor: pointer; text-decoration: none; color: inherit; display: inline-block; }
+  .btn:disabled { opacity: .4; cursor: default; }
+  .btn.on { background: var(--accent); border-color: var(--accent); color: #fff; }
+  #err { display: none; background: var(--bad-bg); color: var(--bad); padding: 10px 16px; border-bottom: 1px solid var(--line); }
+  main { padding: 16px; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 12px; min-height: 40vh; }
+  main.loading { opacity: .5; }
+  .card { position: relative; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; padding: 14px; display: flex; gap: 12px; cursor: pointer; box-shadow: var(--shadow); text-align: left; color: inherit; font: inherit; }
+  .card:hover { border-color: var(--accent); }
+  .card.approved { border-color: var(--ok); }
+  .av { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; flex: none; background: var(--chip); display: grid; place-items: center; font-weight: 600; color: var(--muted); }
+  .card .n { font-weight: 600; }
+  .card .h { color: var(--muted); font-size: 13px; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical; overflow: hidden; }
+  .card .l { color: var(--muted); font-size: 12px; margin-top: 4px; }
+  .badge { position: absolute; top: 8px; right: 8px; font-size: 11px; font-weight: 600; padding: 2px 8px; border-radius: 999px; }
+  .badge.approved { background: var(--ok-bg); color: var(--ok); }
+  .badge.rejected { background: var(--bad-bg); color: var(--bad); }
+  .card.contact { display: block; user-select: text; overflow-wrap: anywhere; }
+  .block { white-space: pre-wrap; overflow-wrap: anywhere; font: 14px/1.5 ui-monospace, Consolas, monospace; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; margin: 0; }
+  .actions .copy { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .card.contact .e { font-weight: 600; }
+  .card.contact .none { color: var(--muted); }
+  .empty { grid-column: 1/-1; text-align: center; color: var(--muted); padding: 48px 0; }
+  .pager { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; justify-content: center; padding: 0 16px 24px; }
+  .pager .info { color: var(--muted); font-size: 13px; margin: 0 8px; }
+  .pager .gap { color: var(--muted); padding: 0 2px; }
+  .pager select { padding: 6px 8px; }
+  dialog { border: 0; border-radius: 14px; padding: 0; width: min(860px, calc(100vw - 32px)); max-height: calc(100vh - 48px); background: var(--surface); color: var(--text); display: none; flex-direction: column; }
+  dialog[open] { display: flex; }
+  dialog::backdrop { background: rgba(0,0,0,.45); }
+  .dh { display: flex; gap: 16px; padding: 20px; border-bottom: 1px solid var(--line); align-items: center; }
+  .dh .av { width: 96px; height: 96px; font-size: 28px; }
+  .dh h2 { margin: 0 0 4px; font-size: 20px; }
+  .db { padding: 4px 20px 20px; overflow-y: auto; }
+  .db h3 { font-size: 13px; text-transform: uppercase; letter-spacing: .04em; color: var(--muted); margin: 18px 0 8px; }
+  .item { padding: 8px 0; border-bottom: 1px solid var(--line); }
+  .item:last-child { border: 0; }
+  .item .t { font-weight: 600; }
+  .item .s { color: var(--muted); font-size: 13px; }
+  .item .d { white-space: pre-wrap; font-size: 13px; margin-top: 4px; }
+  .chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .chip { background: var(--chip); border-radius: 999px; padding: 3px 10px; font-size: 12px; }
+  .meta { color: var(--muted); font-size: 13px; }
+  a { color: var(--accent); }
+  .x { margin-left: auto; align-self: flex-start; background: none; border: 0; color: var(--muted); font-size: 22px; cursor: pointer; }
+  .actions { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; padding: 12px 20px; border-top: 1px solid var(--line); background: var(--surface); }
+  .actions .approve { background: var(--ok); border-color: var(--ok); color: #fff; }
+  .actions .reject { background: var(--bad); border-color: var(--bad); color: #fff; }
+  .actions .hint { color: var(--muted); font-size: 12px; margin-left: auto; }
+  .state { font-weight: 600; font-size: 13px; }
+  .state.approved { color: var(--ok); } .state.rejected { color: var(--bad); }
+  @media (max-width: 560px) { .dh { flex-wrap: wrap; } .dh .av { width: 72px; height: 72px; } .actions .hint { display: none; } }
+</style>
+</head>
+<body>
+<div id="err"></div>
+<header>
+  <h1>LinkedIn Review</h1>
+  <div class="tabs" id="tabs">
+    <button data-v="todo">To review<span class="n" id="n-todo"></span></button>
+    <button data-v="approved">Approved<span class="n" id="n-approved"></span></button>
+    <button data-v="rejected">Rejected<span class="n" id="n-rejected"></span></button>
+    <button data-v="contacts">Contacts<span class="n" id="n-contacts"></span></button>
+    <button data-v="used">Used<span class="n" id="n-used"></span></button>
+  </div>
+  <input id="q" type="search" placeholder="Search name, title, company, location, skills…">
+  <select id="col"><option value="">All collections</option></select>
+  <select id="grp"><option value="">All names</option></select>
+  <select id="pic"><option value="">Any photo</option><option value="1">With photo</option><option value="0">No photo</option></select>
+  <a class="btn" id="export" href="/api/export.csv">Export approved CSV</a>
+  <a class="btn" href="/api/contacts.txt">Download contacts</a>
+  <a class="btn" href="/logout">Sign out</a>
+</header>
+<main id="grid"></main>
+<nav class="pager" id="pager"></nav>
+<dialog id="dlg"></dialog>
+<script>
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const initials = (n) => n.trim().split(/\s+/).map(w => w[0]).slice(0, 2).join('').toUpperCase();
+const av = (p) => p.picture ? `<img class="av" loading="lazy" src="${esc(p.picture)}" alt="">` : `<div class="av">${esc(initials(p.name))}</div>`;
+const jsonFile = (slug) => slug.toLowerCase().replace(/[^a-z0-9_-]/g, c => '_' + c.charCodeAt(0).toString(16));
+const PER_OPTIONS = [30, 60, 120, 200];
+
+// ---- state <-> URL ----
+// The URL holds everything needed to reproduce the view: view, q, col, grp, pic, page, per, offset, profile.
+const DEFAULTS = { view: 'todo', q: '', col: '', grp: '', pic: '', page: 1, per: 60 };
+let S = { ...DEFAULTS };
+let res = null;          // last /api/profiles response
+let meta = null;
+let current = null;      // profile open in the dialog
+
+function readUrl() {
+  const sp = new URLSearchParams(location.search);
+  const s = { ...DEFAULTS };
+  for (const k of ['view', 'q', 'col', 'grp', 'pic']) if (sp.has(k)) s[k] = sp.get(k);
+  s.per = PER_OPTIONS.includes(+sp.get('per')) ? +sp.get('per') : DEFAULTS.per;
+  s.page = +sp.get('page') >= 1 ? +sp.get('page') : (sp.has('offset') ? Math.floor((+sp.get('offset') || 0) / s.per) + 1 : 1);
+  return { s, profile: sp.get('profile') };
+}
+function writeUrl(mode, profile) {
+  const sp = new URLSearchParams();
+  for (const k of ['view', 'q', 'col', 'grp', 'pic']) if (S[k] !== DEFAULTS[k]) sp.set(k, S[k]);
+  sp.set('page', S.page);
+  sp.set('offset', (S.page - 1) * S.per);
+  if (S.per !== DEFAULTS.per) sp.set('per', S.per);
+  if (profile) sp.set('profile', profile);
+  const url = '?' + sp.toString();
+  if (url !== location.search) history[mode === 'push' ? 'pushState' : 'replaceState'](null, '', url);
+}
+function syncControls() {
+  for (const b of $('#tabs').children) b.classList.toggle('on', b.dataset.v === S.view);
+  if (document.activeElement !== $('#q')) $('#q').value = S.q;
+  $('#col').value = S.col; fillGroups(); $('#grp').value = S.grp; $('#pic').value = S.pic;
+}
+
+// ---- data ----
+async function api(path, opts) {
+  const r = await fetch(path, opts);
+  if (r.status === 401) { location.href = '/login'; throw new Error('not signed in'); }
+  if (!r.ok) throw new Error((await r.json().catch(() => ({}))).error || 'HTTP ' + r.status);
+  return r.json();
+}
+function showErr(msg) { $('#err').textContent = msg; $('#err').style.display = msg ? 'block' : 'none'; }
+function setCounts(c) {
+  $('#n-todo').textContent = c.todo.toLocaleString();
+  $('#n-approved').textContent = c.approved.toLocaleString();
+  $('#n-rejected').textContent = c.rejected.toLocaleString();
+  $('#n-contacts').textContent = c.contacts.toLocaleString();
+  $('#n-used').textContent = c.used.toLocaleString();
+}
+function fillGroups() {
+  if (!meta) return;
+  const gs = S.col ? meta.collections[S.col] || [] : [...new Set(Object.values(meta.collections).flat())].sort();
+  $('#grp').innerHTML = '<option value="">All names</option>' + gs.map(g => `<option>${esc(g)}</option>`).join('');
+  if (!gs.includes(S.grp)) S.grp = '';
+}
+let loadSeq = 0;
+async function load() {
+  const seq = ++loadSeq;
+  const sp = new URLSearchParams({ view: S.view, q: S.q, col: S.col, grp: S.grp, pic: S.pic, page: S.page, per: S.per });
+  $('#grid').classList.add('loading');
+  try {
+    const r = await api('/api/profiles?' + sp);
+    if (seq !== loadSeq) return null;
+    res = r; S.page = r.page; showErr('');
+    setCounts(r.counts); render();
+    return r;
+  } catch (e) {
+    showErr('Could not load profiles: ' + e.message + '. Open the gallery with "Open Review.bat".');
+    return null;
+  } finally { if (seq === loadSeq) $('#grid').classList.remove('loading'); }
+}
+
+// ---- grid + pager ----
+const contactView = () => S.view === 'contacts' || S.view === 'used';
+// The 3-line block that C copies: name, LinkedIn URL, email.
+const contactText = (c) => `${c.name}\n${c.url}\n${c.email || 'No personal email found'}`;
+function card(p) {
+  if (contactView()) return `<div class="card contact" data-slug="${esc(p.slug)}"><div class="n">${esc(p.contact.name)}</div><div><a href="${esc(p.contact.url)}" target="_blank" rel="noopener">${esc(p.contact.url)}</a></div>${p.contact.email ? `<div class="e">${esc(p.contact.email)}</div>` : '<div class="none">No personal email found</div>'}</div>`;
+  return `<button class="card ${p.status || ''}" data-slug="${esc(p.slug)}">${p.status ? `<span class="badge ${p.status}">${p.status === 'approved' ? 'Approved' : 'Rejected'}</span>` : ''}${av(p)}<div><div class="n">${esc(p.name)}</div><div class="h">${esc(p.headline || p.title)}</div><div class="l">${esc(p.location)}</div></div></button>`;
+}
+function pageList(cur, last) {
+  const set = new Set([1, last, cur - 2, cur - 1, cur, cur + 1, cur + 2].filter(n => n >= 1 && n <= last));
+  const out = []; let prev = 0;
+  for (const n of [...set].sort((a, b) => a - b)) { if (n - prev > 1) out.push('…'); out.push(n); prev = n; }
+  return out;
+}
+function render() {
+  const r = res;
+  $('#grid').innerHTML = r.items.length ? r.items.map(card).join('')
+    : `<div class="empty">${S.view === 'todo' ? 'Nothing left to review here.' : S.view === 'contacts' ? 'No unused contacts here.' : S.view === 'used' ? 'No used contacts here yet.' : 'No ' + S.view + ' profiles here yet.'}</div>`;
+  const from = r.total ? r.offset + 1 : 0, to = r.offset + r.items.length;
+  const btn = (label, page, dis, on) => `<button class="btn${on ? ' on' : ''}" data-page="${page}"${dis ? ' disabled' : ''}>${label}</button>`;
+  $('#pager').innerHTML = r.total ? [
+    btn('« First', 1, r.page === 1), btn('‹ Prev', r.page - 1, r.page === 1),
+    ...pageList(r.page, r.pages).map(n => n === '…' ? '<span class="gap">…</span>' : btn(n.toLocaleString(), n, false, n === r.page)),
+    btn('Next ›', r.page + 1, r.page === r.pages), btn('Last »', r.pages, r.page === r.pages),
+    `<span class="info">${from.toLocaleString()}–${to.toLocaleString()} of ${r.total.toLocaleString()}</span>`,
+    `<select id="per" aria-label="Per page">${PER_OPTIONS.map(n => `<option value="${n}"${n === r.per ? ' selected' : ''}>${n} / page</option>`).join('')}</select>`,
+  ].join('') : '';
+}
+async function go(changes, mode = 'push') {
+  Object.assign(S, changes);
+  syncControls();
+  writeUrl(mode);
+  const r = await load();
+  if (r) writeUrl('replace'); // page may have been clamped by the server
+  return r;
+}
+
+// ---- profile dialog ----
+const sec = (title, body) => body ? `<h3>${title}</h3>${body}` : '';
+const chips = (a) => a.length ? `<div class="chips">${a.map(x => `<span class="chip">${esc(x)}</span>`).join('')}</div>` : '';
+function open(p) {
+  current = p;
+  const s = p.status;
+  const exp = p.positions.map(x => `<div class="item"><div class="t">${esc(x.title)}</div><div class="s">${esc([x.company, x.location].filter(Boolean).join(' · '))}</div><div class="s">${esc([x.period, x.duration].filter(Boolean).join(' · '))}</div>${x.description ? `<div class="d">${esc(x.description)}</div>` : ''}</div>`).join('');
+  const edu = p.educations.map(x => `<div class="item"><div class="t">${esc(x.school)}</div><div class="s">${esc(x.degree)}</div><div class="s">${esc(x.period)}</div></div>`).join('');
+  const stats = [p.connections > 0 && `${p.connections.toLocaleString()} connections`, p.followers > 0 && `${p.followers.toLocaleString()} followers`, p.premium && 'Premium', p.verified && 'Verified'].filter(Boolean).join(' · ');
+  $('#dlg').innerHTML = `<div class="dh">${av(p)}<div><h2>${esc(p.name)}</h2><div>${esc(p.headline)}</div><div class="meta">${esc([p.location, p.country].filter(Boolean).join(', '))}</div><div class="meta">${esc([p.collection, p.group].filter(Boolean).join(' · '))}${stats ? ' · ' + esc(stats) : ''}</div><div class="meta"><a href="${esc(p.url)}" target="_blank" rel="noopener">LinkedIn</a> · <a href="json/${esc(jsonFile(p.slug))}.json" target="_blank">Raw JSON</a></div></div><button class="x" aria-label="Close" data-act="close">×</button></div>
+  <div class="db">${sec('Contact', p.contact && (contactView() ? `<pre class="block">${esc(contactText(p.contact))}</pre>${p.usedAt ? `<div class="meta">Copied ${esc(new Date(p.usedAt).toLocaleString())}</div>` : ''}` : `<div class="d">${p.contact.email ? `<a href="mailto:${esc(p.contact.email)}">${esc(p.contact.email)}</a>` : 'No personal email found'}</div>`))}${sec('About', p.about && `<div class="d">${esc(p.about)}</div>`)}${sec('Experience', exp)}${sec('Education', edu)}${sec('Skills', chips(p.skills))}${sec('Certifications', chips(p.certifications))}${sec('Languages', chips(p.languages))}${sec('Honors', chips(p.honors))}${sec('Volunteering', chips(p.volunteer))}${sec('Projects', chips(p.projects))}</div>
+  <div class="actions">${contactView() ? `
+    <span class="state" id="copied"></span>
+    <button class="btn copy" data-act="copy">Copy (C)</button>
+    ${p.usedAt ? '<button class="btn" data-act="unuse">Move back to Contacts</button>' : ''}
+    <button class="btn" data-act="prev">← Prev</button>
+    <button class="btn" data-act="next">Next →</button>
+    <span class="hint">C copy${S.view === 'contacts' ? ' &amp; mark used' : ''} · ←/→ move · Esc close</span>` : `
+    ${s ? `<span class="state ${s}">${s === 'approved' ? 'Approved' : 'Rejected'}</span><button class="btn" data-act="clear">Undo</button>` : ''}
+    <button class="btn approve" data-act="approved">Approve (A)</button>
+    <button class="btn reject" data-act="rejected">Reject (R)</button>
+    <button class="btn" data-act="prev">← Prev</button>
+    <button class="btn" data-act="next">Next →</button>
+    <span class="hint">A approve · R reject · ←/→ move · Esc close</span>`}
+  </div>`;
+  if (!$('#dlg').open) $('#dlg').showModal();
+  $('#dlg .db').scrollTop = 0;
+  writeUrl('replace', p.slug);
+}
+function closeDlg() { if ($('#dlg').open) $('#dlg').close(); }
+$('#dlg').addEventListener('close', () => { current = null; writeUrl('replace'); });
+
+// Move within the page, crossing into the next/previous page at the edges.
+async function step(d) {
+  if (!current) return;
+  const i = res.items.findIndex(x => x.slug === current.slug);
+  const t = res.items[i + d];
+  if (t) return open(t);
+  if (d > 0 && res.page < res.pages) { const r = await go({ page: res.page + 1 }); if (r?.items[0]) return open(r.items[0]); }
+  else if (d < 0 && res.page > 1) { const r = await go({ page: res.page - 1 }); if (r?.items.length) return open(r.items[r.items.length - 1]); }
+  closeDlg();
+}
+async function decide(status) {
+  if (!current) return;
+  const slug = current.slug;
+  try {
+    const r = await api('/api/decision', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, status }) });
+    setCounts(r.counts);
+  } catch (e) { alert('Could not save the decision: ' + e.message); return; }
+  openAfterChange(slug);
+}
+// Clipboard API where the page counts as secure (localhost); a hidden textarea elsewhere (plain http from another device).
+async function copyText(text) {
+  try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(text); return true; } } catch {}
+  const ta = document.createElement('textarea');
+  ta.value = text; ta.setAttribute('readonly', ''); ta.style.position = 'fixed'; ta.style.opacity = '0';
+  $('#dlg').appendChild(ta); ta.select();
+  let ok = false; try { ok = document.execCommand('copy'); } catch {}
+  ta.remove();
+  return ok;
+}
+// C: copy the 3-line block. In Contacts it is then marked used and the next contact opens; in Used it just moves on.
+async function copyContact() {
+  if (!current?.contact) return;
+  const slug = current.slug;
+  if (!(await copyText(contactText(current.contact)))) { alert('Could not copy to the clipboard.'); return; }
+  if (S.view !== 'contacts') { $('#copied').textContent = 'Copied'; return step(1); }
+  await setUsed(slug, true);
+}
+async function setUsed(slug, isUsed) {
+  try {
+    const r = await api('/api/contact-used', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ slug, used: isUsed }) });
+    setCounts(r.counts);
+  } catch (e) { alert('Could not save: ' + e.message); return; }
+  openAfterChange(slug);
+}
+// Reload the same page; a profile that left this view is replaced by the next one sliding into its place.
+async function openAfterChange(slug) {
+  const i = res.items.findIndex(x => x.slug === slug);
+  const r = await load();
+  if (!r) return;
+  writeUrl('replace');
+  const same = r.items.find(x => x.slug === slug);
+  const next = same ? r.items[i + 1] : (r.items[i] || r.items[r.items.length - 1]);
+  if (next) open(next);
+  else if (same) open(same);
+  else if (r.page < r.pages) { const n = await go({ page: r.page + 1 }); n?.items[0] ? open(n.items[0]) : closeDlg(); }
+  else closeDlg();
+}
+
+// ---- events ----
+$('#grid').addEventListener('click', (e) => {
+  const c = e.target.closest('.card');
+  // Contact cards keep their text selectable and their link clickable.
+  if (c?.classList.contains('contact') && (e.target.closest('a') || String(getSelection()))) return;
+  if (c && c.dataset.slug) open(res.items.find(x => x.slug === c.dataset.slug));
+});
+$('#pager').addEventListener('click', (e) => {
+  const b = e.target.closest('[data-page]');
+  if (b && !b.disabled) { go({ page: +b.dataset.page }); scrollTo(0, 0); }
+});
+$('#pager').addEventListener('change', (e) => {
+  if (e.target.id === 'per') { const offset = (S.page - 1) * S.per; const per = +e.target.value; go({ per, page: Math.floor(offset / per) + 1 }); }
+});
+$('#dlg').addEventListener('click', (e) => {
+  if (e.target.id === 'dlg') return closeDlg();
+  const a = e.target.closest('[data-act]')?.dataset.act;
+  if (a === 'close') closeDlg();
+  else if (a === 'prev') step(-1);
+  else if (a === 'next') step(1);
+  else if (a === 'copy') copyContact();
+  else if (a === 'unuse') setUsed(current.slug, false);
+  else if (a === 'clear') decide(null);
+  else if (a) decide(a);
+});
+document.addEventListener('keydown', (e) => {
+  if (!$('#dlg').open || e.target.matches?.('input, select, textarea') || e.ctrlKey || e.metaKey || e.altKey) return;
+  const k = e.key.toLowerCase();
+  if (contactView()) { if (k === 'c') copyContact(); }
+  else if (k === 'a') decide('approved');
+  else if (k === 'r') decide('rejected');
+  else if (e.key === 'ArrowRight') step(1);
+  else if (e.key === 'ArrowLeft') step(-1);
+});
+$('#tabs').addEventListener('click', (e) => { const b = e.target.closest('button'); if (b) go({ view: b.dataset.v, page: 1 }); });
+let t;
+$('#q').addEventListener('input', () => {
+  clearTimeout(t);
+  // Typing updates the current history entry instead of adding one per keystroke.
+  t = setTimeout(() => go({ q: $('#q').value.trim(), page: 1 }, 'replace'), 250);
+});
+$('#col').onchange = () => go({ col: $('#col').value, grp: '', page: 1 });
+$('#grp').onchange = () => go({ grp: $('#grp').value, page: 1 });
+$('#pic').onchange = () => go({ pic: $('#pic').value, page: 1 });
+window.addEventListener('popstate', async () => {
+  closeDlg();
+  const { s, profile } = readUrl();
+  S = s; syncControls();
+  const r = await load();
+  const p = profile && r?.items.find(x => x.slug === profile);
+  if (p) open(p);
+});
+
+(async () => {
+  try { meta = await api('/api/meta'); } catch (e) { showErr('Could not reach the review server. Open the gallery with "Open Review.bat" in its folder.'); return; }
+  for (const c of Object.keys(meta.collections)) $('#col').insertAdjacentHTML('beforeend', `<option>${esc(c)}</option>`);
+  const { s, profile } = readUrl();
+  S = s; syncControls();
+  const r = await load();
+  writeUrl('replace', profile);
+  const p = profile && r?.items.find(x => x.slug === profile);
+  if (p) open(p);
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,1199 @@
+{
+ "slug": "michel-gomez-775383118",
+ "inputUrl": "https://www.linkedin.com/in/michel-gomez-775383118",
+ "fetchedAt": "2026-11-10T12:52:42.381Z",
+ "id": "6af3139aaf440f0df0ab8c47",
+ "url": "https://www.linkedin.com/in/michel-gomez-775383118",
+ "profile": {
+  "created": 1458536192528,
+  "trackingId": "UZBihJHpSC+wpU+Q98mZXA==",
+  "firstName": "Michel",
+  "lastName": "Gomez",
+  "pronoun": null,
+  "versionTag": "4047793891",
+  "headline": "Senior Software Engineer @ Bloomberg | LLM agent systems & MCP tooling · Python backend (FastAPI, asyncio, Celery) · Telemetry frameworks & developer tooling",
+  "publicIdentifier": "michel-gomez-775383118",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": 3,
+  "birthDate": null,
+  "id": "490620041",
+  "profileId": "ACoAAB0-RIkB4L1LptBpzmBWbzPjFETuelJy0is",
+  "pictureUrl": {
+   "600x600": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_100_100/B56Zed_8JhHUAc-/0/1750702474895?e=1795651200&v=beta&t=Gw6iaTGALXF5WQqi3sCGbeCRh-QugeVM4DtjU5_bgrs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_200_200/B56Zed_8JhHUAg-/0/1750702474895?e=1795651200&v=beta&t=nyZf8Tvx7nswig88wVaubTukolGs8ISpTUqIXzqCzjY",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_400_400/B56Zed_8JhHUAo-/0/1750702474420?e=1795651200&v=beta&t=EJJSfeyVE0VzjBsZDuraj27QfuSznCo8hatHs3Y7-c0"
+  },
+  "coverImageUrl": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641331274431?e=1795651200&v=beta&t=qA1u3yTYkQOnFhkw2jQdCTGF0iw3gyfmghJrbANwrN4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641331274431?e=1795651200&v=beta&t=Ap9IfR-6JOZZC09OKre-Z4ZFrlYDw2XCOYOWqLTn0uM"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:102571732",
+  "geoLocationName": "New York, New York, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Senior Software Engineer",
+  "summary": "I build LLM agent systems and the Python backend and telemetry infrastructure underneath them.\n\nAt Bloomberg I started a self-initiated LLM agent prototype that uses MCP tools to investigate engineering tickets across ticketing, code search and documentation. After I presented it at Bloomberg's engineering Guild Week in London, it led to an internal multi-agent LLM system that I co-built and remain a core contributor to. On that system I built the ticket-routing and investigation pipeline behind an async FastAPI service with SSE streaming, added per-ticket concurrency control so the same ticket can't trigger duplicate LLM runs, and built an agent-to-agent integration with timeouts, cancellation and heartbeats, with OpenTelemetry trace propagation.\n\nOn the platform side, I designed and shipped a self-telemetry framework for a distributed Python/Celery service. A single wrapper at the dispatch seam instruments every task type without touching task code, and a drift test keeps the dashboards-as-code in sync with the metrics. Rolling it out also surfaced and closed a coverage gap in the existing telemetry. I also added a CI guard that turns silent metric loss into a build failure.\n\nBefore Bloomberg I spent six years at Intel on developer infrastructure: a Perforce-to-GitHub migration, a cross-platform GitHub webhook service, a per-repository resource allocation system, and a Python scheduler for remote hardware testing.\n\nBS Computer Engineering, UIUC.\n\nI'm looking for senior software engineering roles on AI agent platforms, LLM developer tooling, and backend or developer platforms.",
+  "positions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "I build Python backend services, telemetry frameworks and LLM agent tooling for Bloomberg's index-calculation platform. \n\n• Started an LLM agent for engineering ticket investigation as a self-initiated prototype, using MCP tools for ticketing, code search and documentation, with guardrails for accuracy, security and verification. Engineers outside my team have since contributed their own configurations. After I presented it at Bloomberg's engineering Guild Week in London, it led to an internal multi-agent LLM system, co-built with another engineer, where I'm a core contributor. \n\n• On that system, built the routing and investigation pipeline behind an async FastAPI service with SSE streaming, added per-ticket concurrency control to prevent duplicate LLM runs, and built an agent-to-agent integration (timeouts, cancellation, heartbeats) with OpenTelemetry trace propagation. \n\n• Designed and shipped a self-telemetry framework for a distributed Python/Celery service. One wrapper at the dispatch seam instruments every task type with no task-code changes, and a drift test keeps the dashboards-as-code in sync with the metrics. The rollout also surfaced and closed a coverage gap in the existing telemetry. \n\n• Built a pytest-based deployment verification package with separate gating and shadow suites, designed against false greens.",
+    "insights": "Large Language Models (LLM), AI Agents and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2494/",
+     "name": "Bloomberg",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs"
+     }
+    }
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "Developer infrastructure and internal tooling for Intel's Programmable Solutions Group (PSG). Progressed from Software Engineer to Senior Software Engineer. \n\n• Selected as a core engineer on the move of code integration and deployment from a Perforce monorepo to distributed GitHub repositories. Co-designed and validated a repository-segmentation proof of concept aimed at faster, more scalable deployments. \n\n• Built a cross-platform (Linux/Windows) Python webhook service that connects GitHub workflow events to proprietary execution environments. \n\n• Led development of a per-repository resource allocation system: teams declare memory, CPU and executor requirements, and the system allocates them dynamically. \n\n• Designed and built an in-house Python scheduling system for running tests remotely on hardware boards (DUTs). \n\n• Reverse-engineered a legacy Perl tool to extract its requirements and address the pain points in its design. \n\n• Developed features for internal developer code-testing tools.",
+    "insights": "Software Infrastructure, Software Design and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    }
+   },
+   {
+    "title": "Cyber Security Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2018
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Part-time",
+    "description": "• Reverse-engineered and extended Python pipeline scripts that feed data from multiple monitors into an intrusion-detection system. \n• Added Kafka message queuing to the pipeline to prevent event loss.",
+    "insights": "Python (Programming Language) and Apache Kafka",
+    "company": {
+     "url": "https://www.linkedin.com/company/1362/",
+     "name": "National Center for Supercomputing Applications",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=6IuOoUVJn54QrYg-jbmmKuOUVD5KzLhjhra0dMfE-00",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=tb-xPDjnX3eIdHP4qnVuLW4Nx60CoQ-qUbsax5JkWPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    }
+   }
+  ],
+  "certifications": [
+   {
+    "name": "Machine Learning for Big Data and Text Processing: Advanced",
+    "authority": "MIT Professional Education",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "MIT Professional Education",
+    "title": "Machine Learning for Big Data and Text Processing: Advanced",
+    "issuedBy": "MIT Professional Education",
+    "issuedByLogo": null
+   },
+   {
+    "name": "AI Everywhere – Intensive Deep Learning with Applications",
+    "authority": "Intel",
+    "timePeriod": {},
+    "issueDate": null,
+    "issuer": "Intel",
+    "title": "AI Everywhere – Intensive Deep Learning with Applications",
+    "issuedBy": "Intel",
+    "issuedByLogo": null
+   }
+  ],
+  "courses": [],
+  "honors": [],
+  "languages": [
+   {
+    "name": "Spanish",
+    "proficiency": ""
+   }
+  ],
+  "volunteerExperiences": [
+   {
+    "role": "Mentor ",
+    "companyName": "SISM Street Soccer",
+    "description": "As a former National Street Soccer Champion, I have had the opportunity to travel the U.S. to teach soccer skills that would challenge the kids both physically and mentally in order to enhance their capabilities.  \n",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/2941985/",
+     "name": "SISM Street Soccer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_200_200/company-logo_200_200/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=5g4cSvyQr2ZMFQdK4HqU_ATVYwoe4KkiSEGhLKU3uhA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_100_100/company-logo_100_100/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=RQWkhaPffD_v326Up5-onvtNbiHdUhEsgSi7t24APL8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_400_400/company-logo_400_400/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=rdn_6Z9P63SeDI7PFEXD4Ui6P8dqB2_pw0vKR-r669s"
+     }
+    }
+   }
+  ],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Bloomberg",
+  "companyPublicId": "bloomberg",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/bloomberg/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:2494",
+   "name": "Bloomberg",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:C4D0BAQF0uyE7RGKDGg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+       "expiresAt": 1795651200000,
+       "height": 200
+      },
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+       "expiresAt": 1795651200000,
+       "height": 400
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_"
+    }
+   },
+   "universalName": "bloomberg",
+   "url": "https://www.linkedin.com/company/bloomberg/",
+   "slug": "bloomberg",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+   "specialties": []
+  },
+  "followerCount": 342,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 328,
+  "skills": [
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Developer Tools",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Celery",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Convolutional Neural Networks (CNN)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hyperparameter Tuning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "RNNs",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Transfer Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Apache Kafka",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Developer Tools",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Large Language Models (LLM)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Big Data",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Infrastructure",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Convolutional Neural Networks (CNN)",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Deep Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Transfer Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Machine Learning",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Development",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Programming",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Algorithms",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Debugging",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Software Design",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Data Structures",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Test Automation",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "System Administration",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Networking",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "FastAPI",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 5,
+    "experiences": ""
+   },
+   {
+    "name": "C",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 4,
+    "experiences": ""
+   },
+   {
+    "name": "Operating Systems",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python (Programming Language)",
+    "endorsements": 0,
+    "experiences": 3
+   },
+   {
+    "name": "C#",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Linux",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C (Programming Language)",
+    "endorsements": 2,
+    "experiences": ""
+   },
+   {
+    "name": "MySQL",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Django REST Framework",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Leadership",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Celery",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "AI Agents",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Hyperparameter Tuning",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/michel-gomez-775383118",
+  "linkedinUrl": "https://www.linkedin.com/in/michel-gomez-775383118",
+  "profileUrl": "https://www.linkedin.com/in/michel-gomez-775383118",
+  "verified": true,
+  "registeredAt": "2016-03-21T04:56:32.528Z",
+  "location": {
+   "linkedinText": "New York, New York, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "New York, New York, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "about": "I build LLM agent systems and the Python backend and telemetry infrastructure underneath them.\n\nAt Bloomberg I started a self-initiated LLM agent prototype that uses MCP tools to investigate engineering tickets across ticketing, code search and documentation. After I presented it at Bloomberg's engineering Guild Week in London, it led to an internal multi-agent LLM system that I co-built and remain a core contributor to. On that system I built the ticket-routing and investigation pipeline behind an async FastAPI service with SSE streaming, added per-ticket concurrency control so the same ticket can't trigger duplicate LLM runs, and built an agent-to-agent integration with timeouts, cancellation and heartbeats, with OpenTelemetry trace propagation.\n\nOn the platform side, I designed and shipped a self-telemetry framework for a distributed Python/Celery service. A single wrapper at the dispatch seam instruments every task type without touching task code, and a drift test keeps the dashboards-as-code in sync with the metrics. Rolling it out also surfaced and closed a coverage gap in the existing telemetry. I also added a CI guard that turns silent metric loss into a build failure.\n\nBefore Bloomberg I spent six years at Intel on developer infrastructure: a Perforce-to-GitHub migration, a cross-platform GitHub webhook service, a per-repository resource allocation system, and a Python scheduler for remote hardware testing.\n\nBS Computer Engineering, UIUC.\n\nI'm looking for senior software engineering roles on AI agent platforms, LLM developer tooling, and backend or developer platforms.",
+  "currentTitle": "Senior Software Engineer",
+  "allTitles": [
+   "Senior Software Engineer",
+   "Senior Software Engineer",
+   "Cyber Security Research Assistant"
+  ],
+  "currentPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "I build Python backend services, telemetry frameworks and LLM agent tooling for Bloomberg's index-calculation platform. \n\n• Started an LLM agent for engineering ticket investigation as a self-initiated prototype, using MCP tools for ticketing, code search and documentation, with guardrails for accuracy, security and verification. Engineers outside my team have since contributed their own configurations. After I presented it at Bloomberg's engineering Guild Week in London, it led to an internal multi-agent LLM system, co-built with another engineer, where I'm a core contributor. \n\n• On that system, built the routing and investigation pipeline behind an async FastAPI service with SSE streaming, added per-ticket concurrency control to prevent duplicate LLM runs, and built an agent-to-agent integration (timeouts, cancellation, heartbeats) with OpenTelemetry trace propagation. \n\n• Designed and shipped a self-telemetry framework for a distributed Python/Celery service. One wrapper at the dispatch seam instruments every task type with no task-code changes, and a drift test keeps the dashboards-as-code in sync with the metrics. The rollout also surfaced and closed a coverage gap in the existing telemetry. \n\n• Built a pytest-based deployment verification package with separate gating and shadow suites, designed against false greens.",
+    "insights": "Large Language Models (LLM), AI Agents and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2494/",
+     "name": "Bloomberg",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Bloomberg",
+    "location": "New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2494/",
+    "companyId": "2494",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "Developer infrastructure and internal tooling for Intel's Programmable Solutions Group (PSG). Progressed from Software Engineer to Senior Software Engineer. \n\n• Selected as a core engineer on the move of code integration and deployment from a Perforce monorepo to distributed GitHub repositories. Co-designed and validated a repository-segmentation proof of concept aimed at faster, more scalable deployments. \n\n• Built a cross-platform (Linux/Windows) Python webhook service that connects GitHub workflow events to proprietary execution environments. \n\n• Led development of a per-repository resource allocation system: teams declare memory, CPU and executor requirements, and the system allocates them dynamically. \n\n• Designed and built an in-house Python scheduling system for running tests remotely on hardware boards (DUTs). \n\n• Reverse-engineered a legacy Perl tool to extract its requirements and address the pain points in its design. \n\n• Developed features for internal developer code-testing tools.",
+    "insights": "Software Infrastructure, Software Design and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "San Francisco Bay Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Cyber Security Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2018
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Part-time",
+    "description": "• Reverse-engineered and extended Python pipeline scripts that feed data from multiple monitors into an intrusion-detection system. \n• Added Kafka message queuing to the pipeline to prevent event loss.",
+    "insights": "Python (Programming Language) and Apache Kafka",
+    "company": {
+     "url": "https://www.linkedin.com/company/1362/",
+     "name": "National Center for Supercomputing Applications",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc"
+     }
+    },
+    "position": "Cyber Security Research Assistant",
+    "companyName": "National Center for Supercomputing Applications",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1362/",
+    "companyId": "1362",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "2494",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2494/",
+    "companyName": "Bloomberg",
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "New York, United States · Hybrid",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2024
+     },
+     "endDate": null
+    },
+    "totalDuration": "2 yrs 4 mos",
+    "employmentType": "Full-time",
+    "description": "I build Python backend services, telemetry frameworks and LLM agent tooling for Bloomberg's index-calculation platform. \n\n• Started an LLM agent for engineering ticket investigation as a self-initiated prototype, using MCP tools for ticketing, code search and documentation, with guardrails for accuracy, security and verification. Engineers outside my team have since contributed their own configurations. After I presented it at Bloomberg's engineering Guild Week in London, it led to an internal multi-agent LLM system, co-built with another engineer, where I'm a core contributor. \n\n• On that system, built the routing and investigation pipeline behind an async FastAPI service with SSE streaming, added per-ticket concurrency control to prevent duplicate LLM runs, and built an agent-to-agent integration (timeouts, cancellation, heartbeats) with OpenTelemetry trace propagation. \n\n• Designed and shipped a self-telemetry framework for a distributed Python/Celery service. One wrapper at the dispatch seam instruments every task type with no task-code changes, and a drift test keeps the dashboards-as-code in sync with the metrics. The rollout also surfaced and closed a coverage gap in the existing telemetry. \n\n• Built a pytest-based deployment verification package with separate gating and shadow suites, designed against false greens.",
+    "insights": "Large Language Models (LLM), AI Agents and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/2494/",
+     "name": "Bloomberg",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Bloomberg",
+    "location": "New York, United States · Hybrid",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/2494/",
+    "companyId": "2494",
+    "duration": "2 yrs 4 mos",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "endDate": null,
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_400_400/company-logo_400_400/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=whf3xppf6HIk6ldEX3-_9r5CODXe01sZlttXGPZ8VLs",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_200_200/company-logo_200_200/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=O6osc8iXmEOLDIya9RyRbH2p5Tu2KlpSsPvTSR96Qwo",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4D0BAQF0uyE7RGKDGg/company-logo_100_100/company-logo_100_100/0/1631374698859/bloomberg_lp_logo?e=1795651200&v=beta&t=kHx-3cN-6iGXg8goa9bf1ic5-Oi_Oy9KPLRyyiFvSQU",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Senior Software Engineer",
+    "locationName": "San Francisco Bay Area · Remote",
+    "timePeriod": {
+     "startDate": {
+      "month": 8,
+      "year": 2018
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2024
+     }
+    },
+    "totalDuration": "6 yrs 1 mo",
+    "employmentType": "Full-time",
+    "description": "Developer infrastructure and internal tooling for Intel's Programmable Solutions Group (PSG). Progressed from Software Engineer to Senior Software Engineer. \n\n• Selected as a core engineer on the move of code integration and deployment from a Perforce monorepo to distributed GitHub repositories. Co-designed and validated a repository-segmentation proof of concept aimed at faster, more scalable deployments. \n\n• Built a cross-platform (Linux/Windows) Python webhook service that connects GitHub workflow events to proprietary execution environments. \n\n• Led development of a per-repository resource allocation system: teams declare memory, CPU and executor requirements, and the system allocates them dynamically. \n\n• Designed and built an in-house Python scheduling system for running tests remotely on hardware boards (DUTs). \n\n• Reverse-engineered a legacy Perl tool to extract its requirements and address the pain points in its design. \n\n• Developed features for internal developer code-testing tools.",
+    "insights": "Software Infrastructure, Software Design and +3 skills",
+    "company": {
+     "url": "https://www.linkedin.com/company/1053/",
+     "name": "Intel Corporation",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+      "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg"
+     }
+    },
+    "position": "Senior Software Engineer",
+    "companyName": "Intel Corporation",
+    "location": "San Francisco Bay Area · Remote",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1053/",
+    "companyId": "1053",
+    "duration": "6 yrs 1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 8,
+     "year": 2018
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2024
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+     "100x100": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_400_400/company-logo_400_400/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=xCFDVTkufC3YlJOq9fHWBiWi5LLYW4hx9fJHwFUzTQg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_200_200/company-logo_200_200/0/1630663244735/intel_corporation_logo?e=1795651200&v=beta&t=342oN_4HZ81nEGwHyCb-MZskftEmAd5UXNEr8GTzxco",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C560BAQGpvWtEtj9oTQ/company-logo_100_100/company-logo_100_100/0/1630663244736/intel_corporation_logo?e=1795651200&v=beta&t=8-LjM49sngA3iGK95DdjJL8Ctk5CY4B1AYA1D8XcisQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Cyber Security Research Assistant",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 11,
+      "year": 2016
+     },
+     "endDate": {
+      "month": 5,
+      "year": 2018
+     }
+    },
+    "totalDuration": "1 yr 7 mos",
+    "employmentType": "Part-time",
+    "description": "• Reverse-engineered and extended Python pipeline scripts that feed data from multiple monitors into an intrusion-detection system. \n• Added Kafka message queuing to the pipeline to prevent event loss.",
+    "insights": "Python (Programming Language) and Apache Kafka",
+    "company": {
+     "url": "https://www.linkedin.com/company/1362/",
+     "name": "National Center for Supercomputing Applications",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc"
+     }
+    },
+    "position": "Cyber Security Research Assistant",
+    "companyName": "National Center for Supercomputing Applications",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1362/",
+    "companyId": "1362",
+    "duration": "1 yr 7 mos",
+    "skills": [],
+    "startDate": {
+     "month": 11,
+     "year": 2016
+    },
+    "endDate": {
+     "month": 5,
+     "year": 2018
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_400_400/company-logo_400_400/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=jMR3bcMY5_pEMr0PLpItHT-ocjqVUCn6CPtCbzeILWc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_200_200/company-logo_200_200/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=Ap2wFT_CmPzl-TE1us9BMF84x_-wO86ZiLHr4rP6d6E",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQGgjxeSOVLTZA/company-logo_100_100/company-logo_100_100/0/1719890474547/ncsaatillinois_logo?e=1795651200&v=beta&t=6alobKzhnYBGQ7QP2lqrDnmq1d6VY0aGB9ieRM0iY9E",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=6IuOoUVJn54QrYg-jbmmKuOUVD5KzLhjhra0dMfE-00",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=tb-xPDjnX3eIdHP4qnVuLW4Nx60CoQ-qUbsax5JkWPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=6IuOoUVJn54QrYg-jbmmKuOUVD5KzLhjhra0dMfE-00",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=tb-xPDjnX3eIdHP4qnVuLW4Nx60CoQ-qUbsax5JkWPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "schoolId": "2650",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=6IuOoUVJn54QrYg-jbmmKuOUVD5KzLhjhra0dMfE-00",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=tb-xPDjnX3eIdHP4qnVuLW4Nx60CoQ-qUbsax5JkWPo",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_400_400/company-logo_400_400/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=iaQUCo1NysnjtThqpS7INc5RIrDN5fvgak6zuw3Ospg",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_200_200/company-logo_200_200/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=6IuOoUVJn54QrYg-jbmmKuOUVD5KzLhjhra0dMfE-00",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGFFDl_Z9pIAA/company-logo_100_100/company-logo_100_100/0/1630611684443/university_of_illinois_at_urbana_champaign_logo?e=1795651200&v=beta&t=tb-xPDjnX3eIdHP4qnVuLW4Nx60CoQ-qUbsax5JkWPo",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/2650/",
+    "schoolName": "University of Illinois Urbana-Champaign",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Engineering",
+    "timePeriod": {
+     "startDate": {
+      "year": 2015
+     },
+     "endDate": {
+      "year": 2018
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/2650/",
+    "schoolId": "2650",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2015
+    },
+    "endDate": {
+     "year": 2018
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [
+   {
+    "role": "Mentor ",
+    "companyName": "SISM Street Soccer",
+    "description": "As a former National Street Soccer Champion, I have had the opportunity to travel the U.S. to teach soccer skills that would challenge the kids both physically and mentally in order to enhance their capabilities.  \n",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/2941985/",
+     "name": "SISM Street Soccer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_200_200/company-logo_200_200/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=5g4cSvyQr2ZMFQdK4HqU_ATVYwoe4KkiSEGhLKU3uhA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_100_100/company-logo_100_100/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=RQWkhaPffD_v326Up5-onvtNbiHdUhEsgSi7t24APL8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_400_400/company-logo_400_400/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=rdn_6Z9P63SeDI7PFEXD4Ui6P8dqB2_pw0vKR-r669s"
+     }
+    },
+    "organization": "SISM Street Soccer"
+   }
+  ],
+  "volunteering": [
+   {
+    "role": "Mentor ",
+    "companyName": "SISM Street Soccer",
+    "description": "As a former National Street Soccer Champion, I have had the opportunity to travel the U.S. to teach soccer skills that would challenge the kids both physically and mentally in order to enhance their capabilities.  \n",
+    "timePeriod": {
+     "startDate": {
+      "month": 12,
+      "year": 2014
+     },
+     "endDate": {
+      "month": 12,
+      "year": 2018
+     }
+    },
+    "cause": "Children",
+    "company": {
+     "url": "https://www.linkedin.com/company/2941985/",
+     "name": "SISM Street Soccer",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_200_200/company-logo_200_200/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=5g4cSvyQr2ZMFQdK4HqU_ATVYwoe4KkiSEGhLKU3uhA",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_100_100/company-logo_100_100/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=RQWkhaPffD_v326Up5-onvtNbiHdUhEsgSi7t24APL8",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQEjyRPTMwdGPA/company-logo_400_400/company-logo_400_400/0/1630610339994/soccer_in_slow_motion_logo?e=1795651200&v=beta&t=rdn_6Z9P63SeDI7PFEXD4Ui6P8dqB2_pw0vKR-r669s"
+     }
+    }
+   }
+  ],
+  "profilePicture": {
+   "600x600": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_100_100/B56Zed_8JhHUAc-/0/1750702474895?e=1795651200&v=beta&t=Gw6iaTGALXF5WQqi3sCGbeCRh-QugeVM4DtjU5_bgrs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_200_200/B56Zed_8JhHUAg-/0/1750702474895?e=1795651200&v=beta&t=nyZf8Tvx7nswig88wVaubTukolGs8ISpTUqIXzqCzjY",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_400_400/B56Zed_8JhHUAo-/0/1750702474420?e=1795651200&v=beta&t=EJJSfeyVE0VzjBsZDuraj27QfuSznCo8hatHs3Y7-c0",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+     "width": 600,
+     "height": 600
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_400_400/B56Zed_8JhHUAo-/0/1750702474420?e=1795651200&v=beta&t=EJJSfeyVE0VzjBsZDuraj27QfuSznCo8hatHs3Y7-c0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_200_200/B56Zed_8JhHUAg-/0/1750702474895?e=1795651200&v=beta&t=nyZf8Tvx7nswig88wVaubTukolGs8ISpTUqIXzqCzjY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_100_100/B56Zed_8JhHUAc-/0/1750702474895?e=1795651200&v=beta&t=Gw6iaTGALXF5WQqi3sCGbeCRh-QugeVM4DtjU5_bgrs",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "600x600": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+   "100x100": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_100_100/B56Zed_8JhHUAc-/0/1750702474895?e=1795651200&v=beta&t=Gw6iaTGALXF5WQqi3sCGbeCRh-QugeVM4DtjU5_bgrs",
+   "200x200": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_200_200/B56Zed_8JhHUAg-/0/1750702474895?e=1795651200&v=beta&t=nyZf8Tvx7nswig88wVaubTukolGs8ISpTUqIXzqCzjY",
+   "400x400": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_400_400/B56Zed_8JhHUAo-/0/1750702474420?e=1795651200&v=beta&t=EJJSfeyVE0VzjBsZDuraj27QfuSznCo8hatHs3Y7-c0",
+   "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_800_800/B56Zed_8JhHUAk-/0/1750702474895?e=1795651200&v=beta&t=puZJ4uBSvz4dZPve_r-62szNXwVz9rSuXYSYrjn1WYs",
+     "width": 600,
+     "height": 600
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_400_400/B56Zed_8JhHUAo-/0/1750702474420?e=1795651200&v=beta&t=EJJSfeyVE0VzjBsZDuraj27QfuSznCo8hatHs3Y7-c0",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_200_200/B56Zed_8JhHUAg-/0/1750702474895?e=1795651200&v=beta&t=nyZf8Tvx7nswig88wVaubTukolGs8ISpTUqIXzqCzjY",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/D5603AQFoOo-434FpyQ/profile-displayphoto-shrink_100_100/B56Zed_8JhHUAc-/0/1750702474895?e=1795651200&v=beta&t=Gw6iaTGALXF5WQqi3sCGbeCRh-QugeVM4DtjU5_bgrs",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "800x200": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641331274431?e=1795651200&v=beta&t=qA1u3yTYkQOnFhkw2jQdCTGF0iw3gyfmghJrbANwrN4",
+   "1400x350": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641331274431?e=1795651200&v=beta&t=Ap9IfR-6JOZZC09OKre-Z4ZFrlYDw2XCOYOWqLTn0uM",
+   "url": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641331274431?e=1795651200&v=beta&t=Ap9IfR-6JOZZC09OKre-Z4ZFrlYDw2XCOYOWqLTn0uM",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_350_1400/profile-displaybackgroundimage-shrink_350_1400/0/1641331274431?e=1795651200&v=beta&t=Ap9IfR-6JOZZC09OKre-Z4ZFrlYDw2XCOYOWqLTn0uM",
+     "width": 1400,
+     "height": 350
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D16AQHw7DGzenABhQ/profile-displaybackgroundimage-shrink_200_800/profile-displaybackgroundimage-shrink_200_800/0/1641331274431?e=1795651200&v=beta&t=qA1u3yTYkQOnFhkw2jQdCTGF0iw3gyfmghJrbANwrN4",
+     "width": 800,
+     "height": 200
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/michel-gomez-775383118"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-10T12:52:28.764Z",
+ "foundBy": null
+}

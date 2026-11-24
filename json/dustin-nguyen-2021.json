@@ -1,0 +1,1181 @@
+{
+ "slug": "dustin-nguyen-2021",
+ "inputUrl": "https://www.linkedin.com/in/dustin-nguyen-2021",
+ "fetchedAt": "2026-11-09T19:40:50.149Z",
+ "id": "6af221c2af440f0df0ab7ea7",
+ "url": "https://www.linkedin.com/in/dustin-nguyen-2021",
+ "profile": {
+  "created": 1547431870270,
+  "trackingId": "U/78sfRrSlSXmNxyjJ6PCw==",
+  "firstName": "Dustin",
+  "lastName": "Nguyen",
+  "pronoun": null,
+  "versionTag": "582601557",
+  "headline": "Software Engineer at Cisco",
+  "publicIdentifier": "dustin-nguyen-2021",
+  "creator": false,
+  "influencer": false,
+  "premium": false,
+  "connectionType": "OUT_OF_NETWORK",
+  "birthDate": null,
+  "id": "708385936",
+  "profileId": "ACoAACo5HJABfZdl4alZ5gZjLRBDGOtc0iWo8ic",
+  "pictureUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+   "529x529": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY"
+  },
+  "coverImageUrl": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+   "529x529": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY"
+  },
+  "countryCode": "US",
+  "geoUrn": "urn:li:fsd_geo:104624893",
+  "geoLocationName": "Herndon, Virginia, United States",
+  "geoCountryName": "United States",
+  "jobTitle": "Software Engineer",
+  "positions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "RTP, NC",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Owned the org's GitHub-to-Jenkins webhook delivery layer by building the Cloud Webhook Engine from scratch\n(Python/FastAPI, SQS, DynamoDB, Redis) with IP allowlisting, auth, and health dashboards.\n- Enabled accurate cost attribution across ~100 teams by replacing flat-rate Jenkins billing with a per-user model —\nactivity sync across 200+ controllers, LDAP validation, and automated cross-charge reports.\n- Secured three microservices for project-level access control — JWT enrichment at the gateway, group-based\nbilling filtering, and a fail-closed default policy (39 new tests, zero regressions).\n- Eliminated a manual IT workflow for reprovisioning 200+ Jenkins controllers by building a self-service API with\nCJOC integration, audit logging, cooldown enforcement, and a Vue.js frontend.\n- Prevented webhook outages from stale IP allowlists by automating release pipelines (Jenkinsfile + ArgoCD Image\nUpdater) and building a Lambda with defensive validation.\n- Reduced false positives in GitHub Actions deprecation tracking by building a semver-aware scanner, weekly\nGitHub Pages reports, and the org-wide migration runbook.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    }
+   },
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Reston, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Developed end to end Property 360 functionality using Spring Boot and Angular frameworks\n- Leveraged AWS scripting to maintain compliance with cloud governance requirements\n- Utilized UrbanCode Deploy and SonarQube to solve deployment issues and code smells\n- Filled JUnit gaps to cover at least 70% of new and existing code\n- Utilized Git, Jenkins, and the AWS console to commit, push, and monitor newly developed code",
+    "company": {
+     "url": "https://www.linkedin.com/company/19722/",
+     "name": "Fannie Mae",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE"
+     }
+    }
+   },
+   {
+    "title": "Undergraduate Student Researcher",
+    "locationName": "Olsson Hall",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2020
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Researcher at Riggs Lab. Focusing on how eye tracking data can improve UI displays for UAV operators.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    }
+   },
+   {
+    "title": "College Technical Intern",
+    "locationName": "McLean, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Utilized Java frameworks to develop, test, and debug a government contracted, top secret level project.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY"
+     }
+    }
+   },
+   {
+    "title": "2020 Student Challenge Winner",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 mo",
+    "description": "Crafted original cybersecurity solution to protect financial institutions’ applications and data.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4263/",
+     "name": "SWIFT",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0"
+     }
+    }
+   }
+  ],
+  "educations": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2021
+     }
+    }
+   }
+  ],
+  "certifications": [],
+  "courses": [],
+  "honors": [],
+  "languages": [],
+  "volunteerExperiences": [],
+  "projects": [],
+  "publications": [],
+  "patents": [],
+  "testScores": [],
+  "organizations": [],
+  "volunteerCauses": [],
+  "companyName": "Cisco",
+  "companyPublicId": "cisco",
+  "companyLinkedinUrl": "https://www.linkedin.com/company/cisco/",
+  "currentCompany": {
+   "entityUrn": "urn:li:fsd_company:1063",
+   "name": "Cisco",
+   "logoResolutionResult": {
+    "url": null,
+    "vectorImage": {
+     "digitalmediaAsset": "urn:li:digitalmediaAsset:D560BAQFYnR_Zrm87Dg",
+     "attribution": null,
+     "c2paManifestData": null,
+     "artifacts": [
+      {
+       "width": 100,
+       "fileIdentifyingUrlPathSegment": "100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "expiresAt": 1795651200000,
+       "height": 100
+      },
+      {
+       "width": 400,
+       "fileIdentifyingUrlPathSegment": "400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "expiresAt": 1795651200000,
+       "height": 400
+      },
+      {
+       "width": 200,
+       "fileIdentifyingUrlPathSegment": "200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "expiresAt": 1795651200000,
+       "height": 200
+      }
+     ],
+     "rootUrl": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_"
+    }
+   },
+   "universalName": "cisco",
+   "url": "https://www.linkedin.com/company/cisco/",
+   "slug": "cisco",
+   "logoUrl": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+   "specialties": []
+  },
+  "followerCount": 680,
+  "mutualConnections": [],
+  "isVerified": true,
+  "verificationBadge": "SYS_ICN_VERIFIED_MEDIUM",
+  "availablePremiumFeatures": [],
+  "pronunciationUrl": "",
+  "connectionsCount": 676,
+  "skills": [
+   {
+    "name": "Software Engineer",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Java",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "Python",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "C++",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "HTML",
+    "endorsements": 0,
+    "experiences": ""
+   },
+   {
+    "name": "CSS",
+    "endorsements": 0,
+    "experiences": ""
+   }
+  ],
+  "inputUrl": "https://www.linkedin.com/in/dustin-nguyen-2021",
+  "linkedinUrl": "https://www.linkedin.com/in/dustin-nguyen-2021",
+  "profileUrl": "https://www.linkedin.com/in/dustin-nguyen-2021",
+  "verified": true,
+  "registeredAt": "2019-01-14T02:11:10.270Z",
+  "location": {
+   "linkedinText": "Herndon, Virginia, United States",
+   "countryCode": "US",
+   "parsed": {
+    "text": "Herndon, Virginia, United States",
+    "countryCode": "US",
+    "country": "United States",
+    "countryFull": "United States"
+   }
+  },
+  "currentTitle": "Software Engineer",
+  "allTitles": [
+   "Software Engineer",
+   "Associate Software Engineer",
+   "Undergraduate Student Researcher",
+   "College Technical Intern",
+   "2020 Student Challenge Winner"
+  ],
+  "currentPositions": [
+   {
+    "title": "Software Engineer",
+    "locationName": "RTP, NC",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Owned the org's GitHub-to-Jenkins webhook delivery layer by building the Cloud Webhook Engine from scratch\n(Python/FastAPI, SQS, DynamoDB, Redis) with IP allowlisting, auth, and health dashboards.\n- Enabled accurate cost attribution across ~100 teams by replacing flat-rate Jenkins billing with a per-user model —\nactivity sync across 200+ controllers, LDAP validation, and automated cross-charge reports.\n- Secured three microservices for project-level access control — JWT enrichment at the gateway, group-based\nbilling filtering, and a fail-closed default policy (39 new tests, zero regressions).\n- Eliminated a manual IT workflow for reprovisioning 200+ Jenkins controllers by building a self-service API with\nCJOC integration, audit logging, cooldown enforcement, and a Vue.js frontend.\n- Prevented webhook outages from stale IP allowlists by automating release pipelines (Jenkinsfile + ArgoCD Image\nUpdater) and building a Lambda with defensive validation.\n- Reduced false positives in GitHub Actions deprecation tracking by building a semver-aware scanner, weekly\nGitHub Pages reports, and the org-wide migration runbook.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Cisco",
+    "location": "RTP, NC",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1063/",
+    "companyId": "1063",
+    "duration": "3 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   }
+  ],
+  "pastPositions": [
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Reston, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Developed end to end Property 360 functionality using Spring Boot and Angular frameworks\n- Leveraged AWS scripting to maintain compliance with cloud governance requirements\n- Utilized UrbanCode Deploy and SonarQube to solve deployment issues and code smells\n- Filled JUnit gaps to cover at least 70% of new and existing code\n- Utilized Git, Jenkins, and the AWS console to commit, push, and monitor newly developed code",
+    "company": {
+     "url": "https://www.linkedin.com/company/19722/",
+     "name": "Fannie Mae",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE"
+     }
+    },
+    "position": "Associate Software Engineer",
+    "companyName": "Fannie Mae",
+    "location": "Reston, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/19722/",
+    "companyId": "19722",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Student Researcher",
+    "locationName": "Olsson Hall",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2020
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Researcher at Riggs Lab. Focusing on how eye tracking data can improve UI displays for UAV operators.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    },
+    "position": "Undergraduate Student Researcher",
+    "companyName": "University of Virginia",
+    "location": "Olsson Hall",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "companyId": "4298",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "College Technical Intern",
+    "locationName": "McLean, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Utilized Java frameworks to develop, test, and debug a government contracted, top secret level project.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY"
+     }
+    },
+    "position": "College Technical Intern",
+    "companyName": "Northrop Grumman",
+    "location": "McLean, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1412/",
+    "companyId": "1412",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "2020 Student Challenge Winner",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 mo",
+    "description": "Crafted original cybersecurity solution to protect financial institutions’ applications and data.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4263/",
+     "name": "SWIFT",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0"
+     }
+    },
+    "position": "2020 Student Challenge Winner",
+    "companyName": "SWIFT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4263/",
+    "companyId": "4263",
+    "duration": "1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "currentPosition": [
+   {
+    "companyId": "1063",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1063/",
+    "companyName": "Cisco",
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    }
+   }
+  ],
+  "experience": [
+   {
+    "title": "Software Engineer",
+    "locationName": "RTP, NC",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2023
+     },
+     "endDate": null
+    },
+    "totalDuration": "3 yrs 11 mos",
+    "description": "- Owned the org's GitHub-to-Jenkins webhook delivery layer by building the Cloud Webhook Engine from scratch\n(Python/FastAPI, SQS, DynamoDB, Redis) with IP allowlisting, auth, and health dashboards.\n- Enabled accurate cost attribution across ~100 teams by replacing flat-rate Jenkins billing with a per-user model —\nactivity sync across 200+ controllers, LDAP validation, and automated cross-charge reports.\n- Secured three microservices for project-level access control — JWT enrichment at the gateway, group-based\nbilling filtering, and a fail-closed default policy (39 new tests, zero regressions).\n- Eliminated a manual IT workflow for reprovisioning 200+ Jenkins controllers by building a self-service API with\nCJOC integration, audit logging, cooldown enforcement, and a Vue.js frontend.\n- Prevented webhook outages from stale IP allowlists by automating release pipelines (Jenkinsfile + ArgoCD Image\nUpdater) and building a Lambda with defensive validation.\n- Reduced false positives in GitHub Actions deprecation tracking by building a semver-aware scanner, weekly\nGitHub Pages reports, and the org-wide migration runbook.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1063/",
+     "name": "Cisco",
+     "logo": {
+      "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+      "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+      "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM"
+     }
+    },
+    "position": "Software Engineer",
+    "companyName": "Cisco",
+    "location": "RTP, NC",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1063/",
+    "companyId": "1063",
+    "duration": "3 yrs 11 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2023
+    },
+    "endDate": null,
+    "companyLogo": {
+     "100x100": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+     "400x400": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "200x200": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+     "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_400_400/B56ZnMyVr4HUAY-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=9RWiEKczGImGM_ceremfVJdlQ_zjxiv_583IMJ6CJXM",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_200_200/B56ZnMyVr4HUAI-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=JDjac4xto_4v5qAU_UEnRFdHnOP5BxAjuBlf6AIwVqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D560BAQFYnR_Zrm87Dg/company-logo_100_100/B56ZnMyVr4HUAQ-/0/1760077372453/cisco_logo?e=1795651200&v=beta&t=wUyjb-fBtRULInNwlH9zHMrWTcaIzrywyCLacaqha3g",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": true
+   },
+   {
+    "title": "Associate Software Engineer",
+    "locationName": "Reston, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2021
+     },
+     "endDate": {
+      "month": 10,
+      "year": 2022
+     }
+    },
+    "totalDuration": "1 yr 5 mos",
+    "description": "- Developed end to end Property 360 functionality using Spring Boot and Angular frameworks\n- Leveraged AWS scripting to maintain compliance with cloud governance requirements\n- Utilized UrbanCode Deploy and SonarQube to solve deployment issues and code smells\n- Filled JUnit gaps to cover at least 70% of new and existing code\n- Utilized Git, Jenkins, and the AWS console to commit, push, and monitor newly developed code",
+    "company": {
+     "url": "https://www.linkedin.com/company/19722/",
+     "name": "Fannie Mae",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE"
+     }
+    },
+    "position": "Associate Software Engineer",
+    "companyName": "Fannie Mae",
+    "location": "Reston, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/19722/",
+    "companyId": "19722",
+    "duration": "1 yr 5 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2021
+    },
+    "endDate": {
+     "month": 10,
+     "year": 2022
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_400_400/company-logo_400_400/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=-TKzZ7inGaOC4MBjUEjwEqgEY2nqgVEgdlI9amGTGZE",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_200_200/company-logo_200_200/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=qugIaa_9fgIrRa8RCY0IiqFZN9j9gL75lewrvtJoJqM",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQGv9l-bg4B0ow/company-logo_100_100/company-logo_100_100/0/1630570808033/fannie_mae_corporation_19722_logo?e=1795651200&v=beta&t=N9BYdkxSBX5OxaC5haid8ljD9fu0nudn7K6eAadCo80",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "Undergraduate Student Researcher",
+    "locationName": "Olsson Hall",
+    "timePeriod": {
+     "startDate": {
+      "month": 1,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 9,
+      "year": 2020
+     }
+    },
+    "totalDuration": "9 mos",
+    "description": "Researcher at Riggs Lab. Focusing on how eye tracking data can improve UI displays for UAV operators.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4298/",
+     "name": "University of Virginia",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8"
+     }
+    },
+    "position": "Undergraduate Student Researcher",
+    "companyName": "University of Virginia",
+    "location": "Olsson Hall",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "companyId": "4298",
+    "duration": "9 mos",
+    "skills": [],
+    "startDate": {
+     "month": 1,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 9,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "College Technical Intern",
+    "locationName": "McLean, Virginia, United States",
+    "timePeriod": {
+     "startDate": {
+      "month": 6,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 8,
+      "year": 2020
+     }
+    },
+    "totalDuration": "3 mos",
+    "description": "Utilized Java frameworks to develop, test, and debug a government contracted, top secret level project.",
+    "company": {
+     "url": "https://www.linkedin.com/company/1412/",
+     "name": "Northrop Grumman",
+     "logo": {
+      "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+      "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+      "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY"
+     }
+    },
+    "position": "College Technical Intern",
+    "companyName": "Northrop Grumman",
+    "location": "McLean, Virginia, United States",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/1412/",
+    "companyId": "1412",
+    "duration": "3 mos",
+    "skills": [],
+    "startDate": {
+     "month": 6,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 8,
+     "year": 2020
+    },
+    "companyLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+     "100x100": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+     "400x400": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+     "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_400_400/company-logo_400_400/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4BHEL6CEbPFf0cjNeSKkLTjmNSEPYh4EqqQcLbimHjY",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_200_200/company-logo_200_200/0/1630610111159/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=neC76Xb6ymVCrIEs2bxf9WUHMXHxMKuFEY8IAnZby3s",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/C4E0BAQFnJf3Nn259IA/company-logo_100_100/company-logo_100_100/0/1630610111160/northrop_grumman_corporation_logo?e=1795651200&v=beta&t=4cwGevGIgm3348E6bLfKJqODYk6LdTw2WrEva6i6tSQ",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   },
+   {
+    "title": "2020 Student Challenge Winner",
+    "locationName": "",
+    "timePeriod": {
+     "startDate": {
+      "month": 7,
+      "year": 2020
+     },
+     "endDate": {
+      "month": 7,
+      "year": 2020
+     }
+    },
+    "totalDuration": "1 mo",
+    "description": "Crafted original cybersecurity solution to protect financial institutions’ applications and data.",
+    "company": {
+     "url": "https://www.linkedin.com/company/4263/",
+     "name": "SWIFT",
+     "logo": {
+      "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+      "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+      "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0"
+     }
+    },
+    "position": "2020 Student Challenge Winner",
+    "companyName": "SWIFT",
+    "companyLinkedinUrl": "https://www.linkedin.com/company/4263/",
+    "companyId": "4263",
+    "duration": "1 mo",
+    "skills": [],
+    "startDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "endDate": {
+     "month": 7,
+     "year": 2020
+    },
+    "companyLogo": {
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_400_400/B4EZfKSI2PHcAY-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=_e5Si3e-7SiHeas1u_CquoQO5ganRrc-b8Q8_kgdErc",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_200_200/B4EZfKSI2PHcAI-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=0XYrqWUPy2ttzFo_B8TLG2tkPVLPGgyTv8sTMbZ7XGI",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQHsBHz_tNOFWA/company-logo_100_100/B4EZfKSI2PHcAQ-/0/1751445442371/swift_logo?e=1795651200&v=beta&t=M40QaJfaVVgRuBBODxeO5QYnycopzztwBGaZhtgtav0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "isCurrent": false
+   }
+  ],
+  "education": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "schoolId": "4298",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2021
+    }
+   }
+  ],
+  "profileTopEducation": [
+   {
+    "schoolLogo": {
+     "200x200": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+     "100x100": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+     "400x400": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+     "sizes": [
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_400_400/company-logo_400_400/0/1712014926451?e=1795651200&v=beta&t=7lJl7POL99G5K9HVMCLMqCoXrWdiFqW4EyJvqERzSl8",
+       "width": 400,
+       "height": 400
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_200_200/company-logo_200_200/0/1712014926451?e=1795651200&v=beta&t=4BEQw3zOvt6i0DsjPjhJuqzqEW4pc8whzDnhs2SzO_8",
+       "width": 200,
+       "height": 200
+      },
+      {
+       "url": "https://media.licdn.com/dms/image/v2/D4E0BAQFPXxfaisprvA/company-logo_100_100/company-logo_100_100/0/1712014926451?e=1795651200&v=beta&t=0SP99mnXuh1ByyJ824ySB_9EAd7UAx-X7i-RXQXX4T0",
+       "width": 100,
+       "height": 100
+      }
+     ]
+    },
+    "schoolUrl": "https://www.linkedin.com/company/4298/",
+    "schoolName": "University of Virginia",
+    "degreeName": "Bachelor's degree",
+    "fieldOfStudy": "Computer Science",
+    "timePeriod": {
+     "startDate": {
+      "year": 2017
+     },
+     "endDate": {
+      "year": 2021
+     }
+    },
+    "schoolLinkedinUrl": "https://www.linkedin.com/company/4298/",
+    "schoolId": "4298",
+    "degree": "Bachelor's degree",
+    "skills": [],
+    "startDate": {
+     "year": 2017
+    },
+    "endDate": {
+     "year": 2021
+    }
+   }
+  ],
+  "honorsAndAwards": [],
+  "volunteerExperience": [],
+  "volunteering": [],
+  "profilePicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+   "529x529": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+     "width": 529,
+     "height": 529
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "photo": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+   "529x529": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+     "width": 529,
+     "height": 529
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "coverPicture": {
+   "100x100": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+   "200x200": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+   "400x400": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+   "529x529": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+   "sizes": [
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1596117106774?e=1795651200&v=beta&t=gs0MKUiG8vpyLvNEaSfcUfxLzppzDV0EPNgpeP11vJY",
+     "width": 529,
+     "height": 529
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1596117106774?e=1795651200&v=beta&t=FX6d1ISlIZT5YvCyjLyv5mbcLj4KNBU-IWrISm0jLqM",
+     "width": 400,
+     "height": 400
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_200_200/profile-displayphoto-shrink_200_200/0/1596117106774?e=1795651200&v=beta&t=BorNMLJl4pRcp1Lsi0-50ASQvA8iemrozifT6XGYWUM",
+     "width": 200,
+     "height": 200
+    },
+    {
+     "url": "https://media.licdn.com/dms/image/v2/C4D03AQFp_KkDpYHQgA/profile-displayphoto-shrink_100_100/profile-displayphoto-shrink_100_100/0/1596117106774?e=1795651200&v=beta&t=YB6vQ7pvBDleZTRTeIzrrZCZwOBVZ8M630uDzPMb0Yo",
+     "width": 100,
+     "height": 100
+    }
+   ]
+  },
+  "originalQuery": {
+   "query": "https://www.linkedin.com/in/dustin-nguyen-2021"
+  }
+ },
+ "source": "fresh",
+ "createdAt": "2026-11-09T19:40:41.611Z",
+ "foundBy": null
+}
